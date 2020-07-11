@@ -7,6 +7,13 @@ title: Home
 nav_order: 1
 ---
 
-# Home
+# OpenBikeSensor
 
 > TODO
+
+[Get started now](getting_started/getting_started.md){: .btn .btn-blue }
+
+[Github](http://github.com/Friends-of-OpenBikeSensor){: .btn }
+[Twitter](http://twitter.com/openbikesensor?lang=de){: .btn }
+
+
