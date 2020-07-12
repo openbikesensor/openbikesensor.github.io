@@ -1,6 +1,6 @@
 # Find the documentation
 
-The already build documentation you can find under: 
+You can find the already build documentation under: 
 * https://Friends-of-OpenBikeSensor.github.io
 
 # Install ruby
