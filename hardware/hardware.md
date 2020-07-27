@@ -8,6 +8,7 @@ nav_order: 5
 # Hardware 
 
 The prototype by [Zweirat](https://zweirat-stuttgart.de/projekte/openbikesensor/) used the following:
+
 * [ESP32](https://www.az-delivery.de/products/esp32-developmentboard)
 * [HC-SR04P](https://www.google.com/search?q=HC-SR04P&tbm=shop)
 * [5-pin XS9 Aviation Connector](https://www.aliexpress.com/item/32512693653.html)
@@ -18,7 +19,8 @@ The prototype by [Zweirat](https://zweirat-stuttgart.de/projekte/openbikesensor/
 * [Push Button 12mm](https://de.aliexpress.com/item/4000295670163.html)
 * Plenty of wires (0.25mm^2) and heat-shrink tubing
 
-To power the sensor you have a choice of Lithium-Iron or Lithium-Ion batteries
+To power the sensor you have a choice of Lithium-Iron or Lithium-Ion batteries:
+
 * [Automatic Buck-Boost Step Up Down Module for LiPo usage](https://www.ebay.de/itm/264075497616)
 * [LiIon battery](https://www.akkuparts24.de/Samsung-INR18650-25R-36V-2500mAh-Li-Ion-Zelle)
 

@@ -60,18 +60,3 @@ In the menu bar run/click `Tools > PlatformIO > Re-Init` and then try to compile
 * Connect sensor
 
 There are detailed description for [Ubuntu](/docs/guides/02_setup_legacy/Ubuntu.md) and [ArchLinux](/docs/guides/02_setup_legacy/ArchLinux.md).
-
-
-### Dependencies
-
-Board:
-
-* [ESP32 by Espressif](https://github.com/espressif/arduino-esp32)
-
-Libraries:
-
-* [ArduinoJson by Benoit Blanchon](https://github.com/bblanchon/ArduinoJson)
-* [CircularBuffer by AgileWare](https://github.com/rlogiacco/CircularBuffer)
-* [TinyGPSPlus by Mikal Hart](https://github.com/mikalhart/TinyGPSPlus)
-* [SSD1306 by ThingPulse](https://github.com/ThingPulse/esp8266-oled-ssd1306)
-
