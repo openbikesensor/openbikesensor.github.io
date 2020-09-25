@@ -7,6 +7,8 @@ nav_order: 5
 
 # Hardware 
 
+The [hardware list](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html) for the pcb version you can [find here](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html)
+
 The prototype by [Zweirat](https://zweirat-stuttgart.de/projekte/openbikesensor/) used the following:
 
 * [ESP32](https://www.az-delivery.de/products/esp32-developmentboard) UPDATE: In the next version we will use the [30pin variant](https://de.aliexpress.com/item/32928267626.html)
