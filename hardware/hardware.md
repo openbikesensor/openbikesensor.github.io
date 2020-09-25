@@ -7,7 +7,7 @@ nav_order: 5
 
 # Hardware 
 
-The [hardware list](/pcb_board/pcb_board.html) for the pcb version you can [find here](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html)
+The hardware list for the [pcb version](/hardware/pcb_board/pcb_board.html) you can [find here](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html)
 
 The prototype by [Zweirat](https://zweirat-stuttgart.de/projekte/openbikesensor/) used the following:
 
