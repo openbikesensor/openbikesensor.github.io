@@ -18,6 +18,7 @@ The prototype by [Zweirat](https://zweirat-stuttgart.de/projekte/openbikesensor/
 * [0.96 inch OLED Display](https://www.aliexpress.com/item/32896971385.html)
 * [USB-C Charging Module](https://www.ebay.de/itm/173893903484)
 * [GPS Module](https://www.ebay.de/itm/GPS-NEO-6M-7M-8M-GY-GPS6MV2-Module-Aircraft-Flight-Controller-For-Arduino/272373338855) NOTE: consider the [large antenna variant](https://de.aliexpress.com/item/1550843440.html)
+* [SD card adapter](https://de.aliexpress.com/item/32865801075.html)
 * [Push Button 12mm](https://de.aliexpress.com/item/4000295670163.html)
 * Plenty of wires (0.25mm^2) and heat-shrink tubing
 
