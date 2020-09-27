@@ -7,15 +7,18 @@ nav_order: 4
 
 # Hardware 
 
+The hardware list for the [pcb version](/hardware/pcb_board/pcb_board.html) you can [find here](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html)
+
 The prototype by [Zweirat](https://zweirat-stuttgart.de/projekte/openbikesensor/) used the following:
 
-* [ESP32](https://www.az-delivery.de/products/esp32-developmentboard)
-* [HC-SR04P](https://www.google.com/search?q=HC-SR04P&tbm=shop)
-* [5-pin XS9 Aviation Connector](https://www.aliexpress.com/item/32512693653.html)
+* [ESP32](https://www.az-delivery.de/products/esp32-developmentboard) UPDATE: In the next version we will use the [30pin variant](https://de.aliexpress.com/item/32928267626.html)
+* [HC-SR04P](https://www.google.com/search?q=HC-SR04P&tbm=shop) NOTE: with the new version, you should have a choice of also using the waterproof sensor [JSN-SR04T](https://de.aliexpress.com/item/32737648330.html)
+* [5-pin XS9 Aviation Connector](https://www.aliexpress.com/item/32512693653.html) NOTE: could be obsolete in the next version.
 * [12mm Push Button](https://www.aliexpress.com/item/4000295670163.html)
 * [0.96 inch OLED Display](https://www.aliexpress.com/item/32896971385.html)
 * [USB-C Charging Module](https://www.ebay.de/itm/173893903484)
-* [GPS Module](https://www.ebay.de/itm/GPS-NEO-6M-7M-8M-GY-GPS6MV2-Module-Aircraft-Flight-Controller-For-Arduino/272373338855)
+* [GPS Module](https://www.ebay.de/itm/GPS-NEO-6M-7M-8M-GY-GPS6MV2-Module-Aircraft-Flight-Controller-For-Arduino/272373338855) NOTE: consider the [large antenna variant](https://de.aliexpress.com/item/1550843440.html)
+* [SD card adapter](https://de.aliexpress.com/item/32865801075.html)
 * [Push Button 12mm](https://de.aliexpress.com/item/4000295670163.html)
 * Plenty of wires (0.25mm^2) and heat-shrink tubing
 
