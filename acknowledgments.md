@@ -4,7 +4,7 @@
 
 layout: default
 title: Acknowledgments
-nav_ordeSr: 5
+nav_order: 6
 ---
 
 # Acknowledgments
