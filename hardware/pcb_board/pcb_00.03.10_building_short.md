@@ -119,6 +119,8 @@ Nur 1\-2mmabisolieren
 
 # Part 12: Sensorkabel kürzen und crimpen
 
+<img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short15.jpg" alt="Alternative Text" class="inline"  />
+
 # Part 13: Display zusammenbauen
 
 Braun – VCC \+ Push Button
