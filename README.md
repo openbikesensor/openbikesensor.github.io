@@ -3,20 +3,15 @@
 You can find the already build documentation under: 
 * https://Friends-of-OpenBikeSensor.github.io
 
-# Install ruby
-
-Follow the official installation guides:
-
-* https://jekyllrb.com/docs/installation/
-
 # Build docs locally
 
-Clone this repo:
-
+1. Follow the official installation guides:
+    * https://jekyllrb.com/docs/installation/
+2. Clone this repo
+3. Run the followind commands
 ```bash
 cd Friends-of-OpenBikeSensor.github.io/
 bundle install
 make
 ```
-
-Open: http://localhost:4000/OpenBikeSensorFirmware/
+4. Open: http://127.0.0.1:4000
