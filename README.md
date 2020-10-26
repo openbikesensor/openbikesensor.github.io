@@ -1,7 +1,6 @@
 # Find the documentation
 
-You can find the already build documentation under: 
-* https://Friends-of-OpenBikeSensor.github.io
+You can find the documentation under: https://Friends-of-OpenBikeSensor.github.io
 
 # Build docs locally
 
