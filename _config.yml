@@ -67,7 +67,7 @@ aux_links:
   "GitHub":
     - "//github.com/Friends-of-OpenBikeSensor"
   "Twitter":
-    - "//twitter.com/openbikesensor?lang=de"
+    - "//twitter.com/openbikesensor"
 
 aux_links_new_tab: true
 heading_anchors: true
