@@ -60,7 +60,7 @@ exclude:
 #   - vendor/ruby/
 
 # Theme
-logo: "/data/Logo_400x400.jpg"
+logo: "/data/logo_400x400.png"
 search_enabled: true
 
 aux_links:

@@ -8,11 +8,6 @@ date:
 title: Aufbauanleitung PCB 00.02.05-00.02.08
 ---
 
-NOTE
-============
-This is a pandoc conversion of the original document located at [https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Building-Instructions](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Building-Instructions). Its just a test and not maintained and not kept up to date for now.
-
-
 Warnhinweise
 ============
 
