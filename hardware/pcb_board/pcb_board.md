@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PCB_Board
+title: PCB Board
 parent: Hardware
 has_children: true
 ---

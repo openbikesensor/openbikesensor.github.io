@@ -1,4 +1,4 @@
-# Aufbauanleitung für den PCB {{ include.version }}
+# Detailierte Aufbauanleitung für den PCB {{ include.version }}
 
 <figure>
   {% if include.version == '00.02' %}

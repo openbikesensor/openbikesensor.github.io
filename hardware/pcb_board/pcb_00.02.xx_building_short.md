@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kurzanleitung für den PCB 00.02
-parent: PCB_Board
+parent: PCB Board
 grand_parent: Hardware
 ---
 
