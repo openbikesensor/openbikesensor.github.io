@@ -5,6 +5,4 @@ parent: Hardware
 has_children: true
 ---
 
-# PCB_Board
-
-> TODO
+# PCB Board

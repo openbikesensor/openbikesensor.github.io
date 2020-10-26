@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aufbauanleitung für den PCB 00.02
+title: Detailierte Aufbauanleitung für den PCB 00.02
 parent: PCB_Board
 grand_parent: Hardware
 ---
