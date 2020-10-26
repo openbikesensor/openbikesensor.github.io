@@ -11,8 +11,10 @@ Follow the official installation guides:
 
 # Build docs locally
 
+Clone this repo:
+
 ```bash
-cd /docs
+cd Friends-of-OpenBikeSensor.github.io/
 bundle install
 make
 ```
