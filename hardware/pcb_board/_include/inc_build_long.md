@@ -1,10 +1,15 @@
 # Aufbauanleitung für den PCB {{ include.version }}
 
-{% if include.version == '00.02' %}
-  Ein Bild für 00.02
-{% elsif include.version == '00.03' %}
-  Ein Bild für 00.03
-{% endif %}
+<figure>
+  {% if include.version == '00.02' %}
+  <img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short5.jpg" class="inline"/>
+  {% elsif include.version == '00.03' %}
+  <img src="Grafiken/20200726_184611.jpg" class="inline"/>
+  {% endif %}
+  <figcaption>Ein fertiger PCB in der Version {{ include.version }}</figcaption>
+</figure>
+
+
 
 Warnhinweise
 ============
