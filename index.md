@@ -9,6 +9,11 @@ nav_order: 1
 
 # OpenBikeSensor
 
+<figure>
+  <img src="hardware/pcb_board/images/OpenBikeSensor_PCB_v00.03.10_Building_short1.jpg" alt="Full Board" class="inline"/>
+  <figcaption>Fully equipped PCB v00.03.10</figcaption>
+</figure>
+
 > TODO
 
 [Get started now](getting_started/getting_started.md){: .btn .btn-blue }
