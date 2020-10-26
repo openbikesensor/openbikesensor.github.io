@@ -6,5 +6,3 @@ has_children: true
 ---
 
 # Case
-
-> TODO
