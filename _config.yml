@@ -33,6 +33,7 @@ github_username: Friends-of-OpenBikeSensor
 #theme: minima
 #theme: jekyll-theme-cayman
 #theme: jekyll-theme-minimal
+#theme: just-the-docs # Enable in Gemfile
 remote_theme: pmarsceill/just-the-docs
 # baseurl: /OpenBikeSensorFirmware
 
