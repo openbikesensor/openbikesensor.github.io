@@ -1,21 +1,30 @@
-console.log('OBS');
+var logo = document.getElementsByClassName("site-logo")[0];
+
+var setColorTheme = function(theme){
+  console.log('Set theme', theme);
+
+  // Set Theme and save it
+  jtd.setTheme(theme);
+  localStorage.setItem('theme', theme);
+
+  if(theme == 'dark') {
+    logo.style.filter="invert(100%)";
+  } else {
+    logo.style.filter="invert(0%)";
+  }
+
+}
+
+// On button click
 var switchColorTheme = function() {
   theme = localStorage.getItem('theme');
   if(theme == 'dark') {
-    console.log('Switch to light');
-    localStorage.setItem('theme', 'light');
-    jtd.setTheme('light');      
+    setColorTheme('light');
   } else {
-    console.log('Switch to dark');
-    localStorage.setItem('theme', 'dark');
-    jtd.setTheme('dark');    
+    setColorTheme('dark');
   }
 }
 
+// On load of the site
 var theme = localStorage.getItem('theme');
-console.log('Use theme', theme);
-if(theme == 'dark') {
-  jtd.setTheme('dark');  
-} else {
-  jtd.setTheme('light');  
-}
+setColorTheme(theme);
