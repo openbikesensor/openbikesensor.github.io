@@ -80,6 +80,8 @@ last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 ## Color
 color_scheme: obs
+#color_scheme: dark
+
 
 # Github config
 # markdown: GFM
