@@ -27,4 +27,4 @@ var switchColorTheme = function() {
 
 // On load of the site
 var theme = localStorage.getItem('theme');
-setColorTheme(theme);
+setColorTheme(theme == undefined ? 'light' : theme);
