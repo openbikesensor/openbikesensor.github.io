@@ -28,7 +28,29 @@ Dann führt man aus:
 
 ````esptool.py --port /dev/ttyUSB0 write_flash FIXME(Adresse) pfad/zur/firmware.bin````
 
-Fertig.
+Ausgabe:
+
+````
+esptool.py v2.8
+Serial port /dev/ttyUSB0
+Connecting....
+Detecting chip type... ESP32
+Chip is ESP32D0WDQ6 (revision 1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 24:6f:28:a0:c9:18
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 1818864 bytes to 1057296...
+Wrote 1818864 bytes (1057296 compressed) at 0x00001000 in 93.4 seconds (effective 155.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+````
 
 #### Variante 2: Git und PlatformIO
 Git und PlatformIO müssen installiert sein.

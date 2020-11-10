@@ -17,7 +17,9 @@ In der Konfigurationsoberfläche des OpenBikeSensor aktiviert man im Untermenü 
 
 ![Bluetooth-Einstellungen im OpenBikeSensor](images/obs_simra_settings_bluetooth.png)
 
-Wenn "SimRa Mode" aktiviert wird, dann startet der OpenBikeSensor FIXME(was genau macht das).
+SimRa Mode: Normalerweise wählt sich der OpenBikeSensor in ein WLAN ein bzw. stellt einen WLAN-Hotspot zur Verfügung, wenn er ohne angeschlossenes Display eingeschaltet wird. Aktiviert man den "SimRa Mode", dann passiert das nicht.
+
+Wenn "SimRa Mode" aktiviert wird, dann startet der OpenBikeSensor nicht im Server Modus, wenn das Display nicht angeschlossen ist.
 
 Nach dem Speichern kann man das Gerät neustarten.
 
