@@ -27,7 +27,7 @@ Starting to build an OpenBikeSensor, there are three "models" to choose from.
 
 Featured in the current workshops is the "JSN-SR04T Vertical"
 
-##JSN-SR04T Vertical hardware list:
+## JSN-SR04T Vertical hardware list:
 ### Basic items (same for all versions)
 * [30 pin ESP32](https://de.aliexpress.com/item/32928267626.html)
 * [12mm Push Button](https://www.aliexpress.com/item/4000295670163.html)
@@ -61,7 +61,7 @@ You need all items from above list, just replace the Case with
 * [Horizontal Case](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor3dPrintableCase/tree/master/PCB_Case_Horizontal)
 * Screws and nuts
 
-##"HC-SR04P" variant:
+## "HC-SR04P" variant:
 * [5-pin XS9 Aviation Connector](https://www.aliexpress.com/item/32512693653.html)
 * 2x[HC-SR04P](https://www.google.com/search?q=HC-SR04P&tbm=shop)
 * Screws and nuts, probably still valid from the below "obsolete" list.
@@ -71,7 +71,7 @@ You need all items from above list, just replace the Case with
 * [Crimp tool](https://www.amazon.de/gp/product/B07VX6YGQ8)
 
 
-
+## Full overview of all PCB 00.02.07-parts
 The hardware list for the [pcb version](/hardware/pcb_board/pcb_board.html) you can [find here](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html)
 
 obsolete list form 1st prototype:
