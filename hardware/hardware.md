@@ -54,8 +54,8 @@ Featured in the current workshops is the "JSN-SR04T Vertical"
 * Screws and nuts
 
 
-## JSN-SR04T Vertical hardware
-You need all items from above list, just replace the Case with 
+## JSN-SR04T Horizontal hardware
+You need all items from above list, just replace the case with 
 
 ### Horizontal case
 * [Horizontal Case](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor3dPrintableCase/tree/master/PCB_Case_Horizontal)
