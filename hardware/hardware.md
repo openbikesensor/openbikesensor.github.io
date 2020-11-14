@@ -38,7 +38,7 @@ Featured in the current workshops is the "JSN-SR04T Vertical"
 * [18650 LiIon Battery](https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652)
 * [SD Card](https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop) NOTE: Cheap SD cards have caused multiple problems in the first OpenBikeSensor prototypes
 * [Power Switch](https://www.reichelt.de/miniatur-kippschalter-1x-ein-ein-rnd-210-00435-p240567.html)
-* [GPS-NEO-6M Module](https://www.ebay.de/itm/GPS-NEO-6M-7M-8M-GY-GPS6MV2-Module-Aircraft-Flight-Controller-For-Arduino/272373338855) NOTE: consider the [large antenna variant](https://de.aliexpress.com/item/1550843440.html) (optional in "JSN-SR04T Vertical" but mandatory in "JSN-SR04T Vertical")
+* [GPS-NEO-6M Module](https://www.ebay.de/itm/GPS-NEO-6M-7M-8M-GY-GPS6MV2-Module-Aircraft-Flight-Controller-For-Arduino/272373338855) NOTE: consider the [large antenna variant](https://de.aliexpress.com/item/1550843440.html) (optional in "JSN-SR04T Vertical" but mandatory in "JSN-SR04T Horizontal"), [alternative link with antenna only option](https://de.aliexpress.com/item/1005001635722164.html)
 * [Cable for display connection](https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862)
 
 ### Sensor and pcb related parts
