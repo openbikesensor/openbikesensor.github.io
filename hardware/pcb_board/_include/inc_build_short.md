@@ -83,6 +83,9 @@ Diode: Polung beachten
 ## Part 6: Steckerbuchsen anlöten (Batterie, Schalter, Display)
 
 Von oben stecken\, von unten anlöten
+Display-Stecker 5polig – Aussparungen zum Board hin ausrichten
+Batterie-Stecker: Arretierungsstift zur Sicherung ausrichten
+Schalter-Stecker: Orientierung egal
 
 <img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short10.jpg" alt="Alternative Text" class="inline"  />
 
@@ -105,6 +108,7 @@ Pins vorsichtig nach oben umbiegen
 Stecken\, Board umdrehen
 
 Gerade anlöten
+Auf Abstand achten / Abschirmung muss dazwischen eingesteckt werden
 
 <img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short14.jpg" alt="Alternative Text" class="inline"  />
 
