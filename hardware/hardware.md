@@ -51,7 +51,11 @@ Featured in the current workshops is the "JSN-SR04T Vertical"
 * [Vertical Case](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor3dPrintableCase/tree/master/VerticalCase)
 * [4x 20x10x2mm magnets](https://www.amazon.de/dp/B085CBZTQJ)
 * [4x 3x3x3mm magnets](https://www.amazon.de/dp/B079KDYBZ8)
-* Screws and nuts
+* 12x M3x8mm DIN912
+* 3x M3x16mm DIN912
+* 5x M3x45mm DIN912
+* 5x M3x30mm DIN912
+* 24x M3 nut DIN934
 
 
 ## JSN-SR04T Horizontal hardware
