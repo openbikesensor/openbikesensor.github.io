@@ -64,7 +64,7 @@ Oder: mit Stiften auf eine Lötunterlage drücken
 
 ## Part 4: GPS und SD-Modul vorbereiten
 
-Gewinkelte Stiftleisteablängen: 4/6pins
+Gewinkelte Stiftleiste ablängen: 4/6pins
 
 Stifte an SD\-Modul löten
 
@@ -74,7 +74,7 @@ GPS noch NICHT löten
 
 ## Part 5: Kondensatoren, Diode und Sicherung
 
-C2 und C3: Polungbeabten
+C2 und C3: Polung beachten
 
 Diode: Polung beachten
 
