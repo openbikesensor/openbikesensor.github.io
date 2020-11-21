@@ -7,4 +7,3 @@ nav_order: 2
 
 # Getting Started
 
-Quick Start Guide
