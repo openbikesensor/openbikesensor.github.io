@@ -9,7 +9,7 @@ nav_order: 2
 # Use the OpenBikeSensor
 
 ## Quick start guide
-> This assumes you have a working OpenBikeSensor. [If not start here](https://Friends-of-OpenBikeSensor.github.io/README.md)
+> This assumes you have a working OpenBikeSensor. [If not start here](https://Friends-of-OpenBikeSensor.github.io/README.html)
 
 In case you might get a OpenBikeSensor, you should do some first steps.
 
