@@ -46,12 +46,68 @@ Lötpunkt auf ein Pad setzen
 Widerstand mit der Pinzette auf das Pad schieben und gleichzeitig mit Lötkolben erhitzen
 Schieben, bis er an der richtigen Stelle sitzt
 Zweite Lötstelle des nun fixierten Widerstandes ausführen
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor1.jpg" alt="PCB00.03.10_01_DetailSMDResistor1.jpg" class="inline" />
+<figcaption>PCB00.03.10_01_DetailSMDResistor1.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg" alt="PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg" class="inline" />
+<figcaption>PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg" alt="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg" class="inline" />
+<figcaption>PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg" alt="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg" class="inline" />
+<figcaption>PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg</figcaption>
+</figure>
 
 ## Part 2: Buchsenleisten
 Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden. Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
 Buchsenleisten so stecken, dass die gekürzte Seite den Platz für C3 frei lässt
 
 Buchsenleisten mit gestecktem ESP32 positionieren und jede Leiste an 2 Ecken festlöten. Danach alle äußeren Verbindungen löten, ESP32 abziehen und dann die inneren Kontakte löten.
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg" alt="PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg" alt="PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite07_an4Eckenloeten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite07_an4Eckenloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite07_an4Eckenloeten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite08_alleLoetstellen.jpg" alt="PCB00.03.10_02_DetailBuchsenleite08_alleLoetstellen.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite08_alleLoetstellen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite09_alleLoetstellen.jpg" alt="PCB00.03.10_02_DetailBuchsenleite09_alleLoetstellen.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite09_alleLoetstellen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite10_innereLoetstellen.jpg" alt="PCB00.03.10_02_DetailBuchsenleite10_innereLoetstellen.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite10_innereLoetstellen.jpg</figcaption>
+</figure>
 
 ## Part 3: Spannungsmodule
 Für den roten Spannungsregler 1x1 und 1x2 Stifte vorbereiten.
@@ -60,29 +116,145 @@ Stifte stecken, aber nicht verlöten! Das mit den Stiften ausgerichtete Modul an
 Für das blaue Lademodul 2x2 Stifte und 2x1 Stift vorbereiten.
 Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt. Von unten 2 Stifte verlöten, dann umdrehen und restliche Kontakte löten. Die schwarzen Plastikteile entfernen und diese Seite auch verlöten. Alle Stifte mit dem Seitenschneider kürzen.
 
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_01_Stiftleisten_ablaengen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_01_Stiftleisten_ablaengen.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_01_Stiftleisten_ablaengen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_02_Stiftleisten_ablaengen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_02_Stiftleisten_ablaengen.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_02_Stiftleisten_ablaengen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_03_Boardplatzieren.jpg" alt="PCB00.03.10_03_Spannunsversorgung_03_Boardplatzieren.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_03_Boardplatzieren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_04_Boardloeten01.jpg" alt="PCB00.03.10_03_Spannunsversorgung_04_Boardloeten01.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_04_Boardloeten01.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg" alt="PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg" alt="PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_07_Lademodulplatziert.jpg" alt="PCB00.03.10_03_Spannunsversorgung_07_Lademodulplatziert.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_07_Lademodulplatziert.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg" alt="PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_11_Oberseitefertigverloetet.jpg" alt="PCB00.03.10_03_Spannunsversorgung_11_Oberseitefertigverloetet.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_11_Oberseitefertigverloetet.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_12_Unterseite.jpg" alt="PCB00.03.10_03_Spannunsversorgung_12_Unterseite.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_12_Unterseite.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_13_AufBeidenSeitenStifteKuerzen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_13_AufBeidenSeitenStifteKuerzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_13_AufBeidenSeitenStifteKuerzen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_13_UnterseiteVerloetet.jpg" alt="PCB00.03.10_03_Spannunsversorgung_13_UnterseiteVerloetet.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_13_UnterseiteVerloetet.jpg</figcaption>
+</figure>
+
 ## Part 4: Kondensatoren
 Bei C2 und C3 muss die Polung beachtet werden!
 Kondensatoren C1 bis C3 stecken, zum fixieren umbiegen, verlöten und abkneifen. Bei C2 und C3 ist der lange Pin +, die mit Streifen markierte Seite -.
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_04_Kondesatoren_01_Kondensatoren.jpg" alt="PCB00.03.10_04_Kondesatoren_01_Kondensatoren.jpg" class="inline" />
+<figcaption>PCB00.03.10_04_Kondesatoren_01_Kondensatoren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_04_Kondesatoren_01_KondensatorenPlatzieren.jpg" alt="PCB00.03.10_04_Kondesatoren_01_KondensatorenPlatzieren.jpg" class="inline" />
+<figcaption>PCB00.03.10_04_Kondesatoren_01_KondensatorenPlatzieren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_04_Kondesatoren_01_KondensatorenUmbiegen.jpg" alt="PCB00.03.10_04_Kondesatoren_01_KondensatorenUmbiegen.jpg" class="inline" />
+<figcaption>PCB00.03.10_04_Kondesatoren_01_KondensatorenUmbiegen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_04_Kondesatoren_01_KondensatorenVerloetenUndKuerzen.jpg" alt="PCB00.03.10_04_Kondesatoren_01_KondensatorenVerloetenUndKuerzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_04_Kondesatoren_01_KondensatorenVerloetenUndKuerzen.jpg</figcaption>
+</figure>
 
 ## Part 5: Der Transistor/die Brücke
 Den Transistor NICHT verwenden. Einige mit Transistor gebaute Module funktionieren nicht. Statt des Transistors wird eine Drahtbrücke aus den vorher abgekniffenen Kondensatorpins eingelötet, die die äußeren Kontakte verbindet.
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_05_Transistorbruecke_01_Bruecke.jpg" alt="PCB00.03.10_05_Transistorbruecke_01_Bruecke.jpg" class="inline" />
+<figcaption>PCB00.03.10_05_Transistorbruecke_01_Bruecke.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_05_Transistorbruecke_01_BrueckeEinsetzen.jpg" alt="PCB00.03.10_05_Transistorbruecke_01_BrueckeEinsetzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_05_Transistorbruecke_01_BrueckeEinsetzen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_05_Transistorbruecke_01_BrueckeVerloetenUndKuerzen.jpg" alt="PCB00.03.10_05_Transistorbruecke_01_BrueckeVerloetenUndKuerzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_05_Transistorbruecke_01_BrueckeVerloetenUndKuerzen.jpg</figcaption>
+</figure>
 
 ## Part 6: Widerstände
 Widerstände richtig zuordnen: aufsteigend R1=10kOhm, R2=150kOhm, R3=300kOhm. Widerstände stecken, verlöten abkneifen.
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg" alt="PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg" class="inline" />
+<figcaption>PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_06_Widerstaende_01_platzieren.jpg" alt="PCB00.03.10_06_Widerstaende_01_platzieren.jpg" class="inline" />
+<figcaption>PCB00.03.10_06_Widerstaende_01_platzieren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg" alt="PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg</figcaption>
+</figure>
 
 ## Part 7: Sicherung
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_07_Sicherung_01.jpg" alt="PCB00.03.10_07_Sicherung_01.jpg" class="inline" />
+<figcaption>PCB00.03.10_07_Sicherung_01.jpg</figcaption>
+</figure>
 
 ## Part 8: Batteriekabel /-stecker
 Stecker zusammenstecken, Beschriftung auf der Platine beachten. Rot ist + und schwarz ist Minus.
-
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_08_Batteriestecker_01.jpg" alt="PCB00.03.10_08_Batteriestecker_01.jpg" class="inline" />
+<figcaption>PCB00.03.10_08_Batteriestecker_01.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_08_Batteriestecker_02.jpg" alt="PCB00.03.10_08_Batteriestecker_02.jpg" class="inline" />
+<figcaption>PCB00.03.10_08_Batteriestecker_02.jpg</figcaption>
+</figure>
 
 ## Part 9: Diode
 Polung beachten. Diode umbiegen und stehend auf dem weiter vom Batteriestecker entfernten Kontakt aufsetzen. Der markierte Ring muss oben stehen. Löten und Enden abkneifen.
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_09_Diode_01.jpg" alt="PCB00.03.10_09_Diode_01.jpg" class="inline" />
+<figcaption>PCB00.03.10_09_Diode_01.jpg</figcaption>
+</figure>
 
 ## Part 10: Stiftleisten für Stecker
 J5: 5-Pin-Konnektor gemäß Markierung auf Platine aufsetzen. 2 Punkte von unten verlöten, umdrehen, den Rest verlöten.
 
 J6 so aufsetzen, dass er möglichst wenig übersteht. Verlöten
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_10_Steckerleisten_01.jpg" alt="PCB00.03.10_10_Steckerleisten_01.jpg" class="inline" />
+<figcaption>PCB00.03.10_10_Steckerleisten_01.jpg</figcaption>
+</figure>
 
 ## Part 11: Sensorboards
 Bei einem Sensorboard das Plastikteil der Buchse zum Sensor vorsichtig entfernen und die Kontakte umbiegen. Die umgebogenen Kontakte sitzen auf der Seite des ESP32.
