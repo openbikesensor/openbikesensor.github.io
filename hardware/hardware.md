@@ -7,6 +7,7 @@ nav_order: 4
 
 # Hardware 
 
+## Model selection
 Starting to build an OpenBikeSensor, there are three "models" to choose from.
 
 "HC-SR04P" featuring the correspondent sensors and the PCB 00.02.xx.
@@ -26,6 +27,9 @@ Starting to build an OpenBikeSensor, there are three "models" to choose from.
 | VerticalCase                 |              | X            |
 
 Featured in the current workshops is the "JSN-SR04T Vertical"
+
+## Construction kits
+Because the OpenBikeSensor consists many parts from many different sources, bulk orders organized by local groups are advisable.
 
 <figure>
   <img src="images_00.03.xx/Bausatz_VerticalCase_pcb00.03.10_1000px.jpg" alt="Bausatz" class="inline"/>
