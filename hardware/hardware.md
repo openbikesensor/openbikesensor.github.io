@@ -27,6 +27,12 @@ Starting to build an OpenBikeSensor, there are three "models" to choose from.
 
 Featured in the current workshops is the "JSN-SR04T Vertical"
 
+<figure>
+  <img src="hardware/images_00.03.xx/Bausatz_VerticalCase_pcb00.03.10_1000px.jpg" alt="Bausatz" class="inline"/>
+  <figcaption>OpenBikeSensor Construction Kit featuring Vertical Case and PCB 00.03.10</figcaption>
+</figure>
+
+
 ## JSN-SR04T Vertical hardware list:
 ### Basic items (same for all versions)
 * [30 pin ESP32](https://de.aliexpress.com/item/32928267626.html)
