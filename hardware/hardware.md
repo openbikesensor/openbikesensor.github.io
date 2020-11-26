@@ -44,7 +44,7 @@ Because the OpenBikeSensor consists many parts from many different sources, bulk
 * [0.96 inch OLED Display](https://www.aliexpress.com/item/32896971385.html)
 * [USB-C Charging Module](https://www.ebay.de/itm/173893903484)
 * [SD card module](https://de.aliexpress.com/item/32865801075.html)
-* [Automatic Buck-Boost Step Up Down Module for LiPo usage](https://www.ebay.de/itm/264075497616)
+* [Automatic Buck-Boost Step Up Down Module for LiPo usage, 3.3V-version](https://www.ebay.de/itm/264075497616)
 * [18650 LiIon Battery](https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652)
 * [SD Card](https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop) NOTE: Cheap SD cards have caused multiple problems in the first OpenBikeSensor prototypes
 * [Power Switch](https://www.reichelt.de/miniatur-kippschalter-1x-ein-ein-rnd-210-00435-p240567.html)
