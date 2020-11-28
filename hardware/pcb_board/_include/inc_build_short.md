@@ -349,16 +349,16 @@ Vorsichtig! Das innere Kabel ist sehr dünn und kann leicht durchtrennt werden. 
 <figcaption>PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg</figcaption>
 </figure>
 
+<figure>
+<img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short15.jpg" alt="Orientierung beachten!" class="inline"  />
+<figcaption>Orientierung des Steckers beachten!</figcaption>
+</figure>
+
 ## Part 16: Batteriekabel anlöten
 Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird an die Enden der Fahnen angelötet. Polung beachten. Im Zweifel nachmessen. Die Batterie wird mit dem kleinen Kabelbinder im Deckel fixiert. Batteriekontakte isolieren. **Batterie noch nicht einstecken.**
 <figure>
   <img src="images_00.03.10/PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" alt="PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" class="inline" />
 <figcaption>PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg</figcaption>
-</figure>
-
-<figure>
-<img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short15.jpg" alt="Orientierung beachten!" class="inline"  />
-<figcaption>Orientierung des Steckers beachten!</figcaption>
 </figure>
 
 
