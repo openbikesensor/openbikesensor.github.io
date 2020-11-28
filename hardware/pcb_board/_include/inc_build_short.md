@@ -378,6 +378,42 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
 
 
 **Der Taster ist hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff.**
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_01_Kabel_abisoliert_Crimp_in_Zange.jpg" alt="PCB00.03.10_17_Display_01_Kabel_abisoliert_Crimp_in_Zange.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_01_Kabel_abisoliert_Crimp_in_Zange.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_02_alle_5_Adern_gecrimpt.jpg" alt="PCB00.03.10_17_Display_02_alle_5_Adern_gecrimpt.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_02_alle_5_Adern_gecrimpt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_03_Stecker.jpg" alt="PCB00.03.10_17_Display_03_Stecker.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_03_Stecker.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg" alt="PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_05_verschiedene_Displays_vom_gleichen_Lieferanten.jpg" alt="PCB00.03.10_17_Display_05_verschiedene_Displays_vom_gleichen_Lieferanten.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_05_verschiedene_Displays_vom_gleichen_Lieferanten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg" alt="PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_07_Display_in_Gehäuse_einpassen_keine_Gewalt.jpg" alt="PCB00.03.10_17_Display_07_Display_in_Gehäuse_einpassen_keine_Gewalt.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_07_Display_in_Gehäuse_einpassen_keine_Gewalt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg" alt="PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg" alt="PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg</figcaption>
+</figure>
 
 
 ## Part 18: Test
