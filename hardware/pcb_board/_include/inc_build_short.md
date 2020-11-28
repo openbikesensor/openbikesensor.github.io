@@ -374,7 +374,11 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
 1. Display-Seite crimpen
 *  Nur 4x Crimpen! Das Kabel, das im OBS mit „BUT“ verbunden wird, wird an den Taster gelötet. In den Crimp für VDD muss zu dem Kabel ein zusätzliches kleines Kabel mit 2-3cm rein, das mit dem Taster verlötet wird.
 2. Display-Seite löten
-* VDD muss auch hier an Display UND Tasters verbunden werden. Die andere Seite des Tasters mit dem am OBS mit „BUT“ beschrifteteten Kabel verbinden. Die anderen 4 Kabel entsprechend Farbe und Beschriftung am PCB zuordnen.
+* VDD muss auch hier an Display UND Taster verbunden werden. Die andere Seite des Tasters mit dem am OBS mit „BUT“ beschrifteteten Kabel verbinden. Die anderen 4 Kabel entsprechend Farbe und Beschriftung am PCB zuordnen.
+
+
+**Der Taster ist hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff.**
+
 
 ## Part 18: Test
 Folgende Test in dieser Reihenfolge:
