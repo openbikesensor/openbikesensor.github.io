@@ -350,7 +350,7 @@ Vorsichtig! Das innere Kabel ist sehr dünn und kann leicht durchtrennt werden. 
 </figure>
 
 ## Part 16: Batteriekabel anlöten
-Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird an die Enden der Fahnen angelötet. Polung beachten. Im Zweifel nachmessen. Die Batterie wird mit dem kleinen Kabelbinder im Deckel fixiert. **Batterie noch nicht einstecken.**
+Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird an die Enden der Fahnen angelötet. Polung beachten. Im Zweifel nachmessen. Die Batterie wird mit dem kleinen Kabelbinder im Deckel fixiert. Batteriekontakte isolieren. **Batterie noch nicht einstecken.**
 <figure>
   <img src="images_00.03.10/PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" alt="PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" class="inline" />
 <figcaption>PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg</figcaption>
