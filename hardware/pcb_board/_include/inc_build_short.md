@@ -337,17 +337,34 @@ PCB fertig!!!
 
 ## Part 14: Schalter
 2x10cm Kabel crimpen, in 2fach Stecker einführen und an seitlich an Stecker löten. Orientierung ist wichtig, damit Schalterzustand mit der Beschriftung am OBS übereinstimmt.
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_14_Schalter_01_Schalter_mit_Kabel_und_Stecker.jpg" alt="PCB00.03.10_14_Schalter_01_Schalter_mit_Kabel_und_Stecker.jpg" class="inline" />
+<figcaption>PCB00.03.10_14_Schalter_01_Schalter_mit_Kabel_und_Stecker.jpg</figcaption>
+</figure>
 
 ## Part 15: Ultraschallsensor-Kabel kürzen (10cm) und crimpen
 Vorsichtig! Das innere Kabel ist sehr dünn und kann leicht durchtrennt werden. Es gibt genug Kabel und Crimpkontakte zum Üben!
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg" alt="PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg" class="inline" />
+<figcaption>PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg</figcaption>
+</figure>
 
 ## Part 16: Batteriekabel anlöten
 Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird an die Enden der Fahnen angelötet. Polung beachten. Im Zweifel nachmessen. Die Batterie wird mit dem kleinen Kabelbinder im Deckel fixiert. **Batterie noch nicht einstecken.**
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" alt="PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" class="inline" />
+<figcaption>PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg</figcaption>
+</figure>
 
+<figure>
+<img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short15.jpg" alt="Orientierung beachten!" class="inline"  />
+<figcaption>Orientierung des Steckers beachten!</figcaption>
+</figure>
 
 
 ## Part 17: Display-Kabel
 **Hinweis: Beim Display ist die Reihenfolge sehr wichtig! Ein Kabel mit Steckern auf beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.**
+
 Kabel abisolieren und auf einer Seite 5x crimpen. OBS-PCB und Display sind beschriftet. Gecrimpte Kabelenden entsprechend der Farben in den 5er Stecker einführen.
 
 Kabel durch Displaygehäuse-Unterteil führen!!!
