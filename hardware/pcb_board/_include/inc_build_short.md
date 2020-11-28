@@ -347,7 +347,7 @@ Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird 
 
 
 ## Part 17: Display-Kabel
-** Hinweis: Beim Display ist die Reihenfolge sehr wichtig! Ein Kabel mit Steckern auf beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.**
+**Hinweis: Beim Display ist die Reihenfolge sehr wichtig! Ein Kabel mit Steckern auf beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.**
 Kabel abisolieren und auf einer Seite 5x crimpen. OBS-PCB und Display sind beschriftet. Gecrimpte Kabelenden entsprechend der Farben in den 5er Stecker einführen.
 
 Kabel durch Displaygehäuse-Unterteil führen!!!
