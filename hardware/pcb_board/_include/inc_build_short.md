@@ -38,6 +38,8 @@ Inhalt: Bestücken des PCBs v00\.03\.10
   <figcaption>Sensor with vertical case mounted on bike</figcaption>
 </figure>
 
+## Hilfreiche Links und Anleitungen
+* [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY) Tutorial fürs Crimpen mit Zangen in 2 Schritten.
 
 
 ## Part 1: SMD
