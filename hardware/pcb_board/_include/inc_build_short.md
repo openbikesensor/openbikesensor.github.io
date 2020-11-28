@@ -259,14 +259,78 @@ J6 so aufsetzen, dass er möglichst wenig übersteht. Verlöten
 ## Part 11: Sensorboards
 Bei einem Sensorboard das Plastikteil der Buchse zum Sensor vorsichtig entfernen und die Kontakte umbiegen. Die umgebogenen Kontakte sitzen auf der Seite des ESP32.
 Sensorboards stecken, Beschriftung (+3V3, TRIG, ECHO, GND) beachten. Boards gerade und dicht am OBS-PCB ausrichten und verlöten.
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_11_Sensormodule_01_platzieren.jpg" alt="PCB00.03.10_11_Sensormodule_01_platzieren.jpg" class="inline" />
+<figcaption>PCB00.03.10_11_Sensormodule_01_platzieren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_11_Sensormodule_02_ausrichten.jpg" alt="PCB00.03.10_11_Sensormodule_02_ausrichten.jpg" class="inline" />
+<figcaption>PCB00.03.10_11_Sensormodule_02_ausrichten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_11_Sensormodule_03_drehen.jpg" alt="PCB00.03.10_11_Sensormodule_03_drehen.jpg" class="inline" />
+<figcaption>PCB00.03.10_11_Sensormodule_03_drehen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_11_Sensormodule_04_loeten.jpg" alt="PCB00.03.10_11_Sensormodule_04_loeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_11_Sensormodule_04_loeten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_11_Sensormodule_05_kuerzen.jpg" alt="PCB00.03.10_11_Sensormodule_05_kuerzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_11_Sensormodule_05_kuerzen.jpg</figcaption>
+</figure>
 
 ## Part 12: SD-Modul
 Gewinkelte Stiftleiste mit 6 Pins vorbereiten. Wie in der Abbildung gezeigt stecken. Die Ausrichtung ist wichtig, es gibt 8 Arten die Stiftleiste zu stecken, 7 funktionieren nicht.
 Stiftleiste mit Modul verlöten und überstehende Pins abkneifen. Modul auf OBS-PCB stecken (Beschriftung beachten). Verlöten und Stifte abkneifen.
-
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_12_SD-Karte_01_mit_Stiftleisten.jpg" alt="PCB00.03.10_12_SD-Karte_01_mit_Stiftleisten.jpg" class="inline" />
+<figcaption>PCB00.03.10_12_SD-Karte_01_mit_Stiftleisten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_12_SD-Karte_02_Stiftleiste_gesteckt.jpg" alt="PCB00.03.10_12_SD-Karte_02_Stiftleiste_gesteckt.jpg" class="inline" />
+<figcaption>PCB00.03.10_12_SD-Karte_02_Stiftleiste_gesteckt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_12_SD-Karte_03_Modul_platziert.jpg" alt="PCB00.03.10_12_SD-Karte_03_Modul_platziert.jpg" class="inline" />
+<figcaption>PCB00.03.10_12_SD-Karte_03_Modul_platziert.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_12_SD-Karte_04_Modul_geloetet.jpg" alt="PCB00.03.10_12_SD-Karte_04_Modul_geloetet.jpg" class="inline" />
+<figcaption>PCB00.03.10_12_SD-Karte_04_Modul_geloetet.jpg</figcaption>
+</figure>
 
 ## Part 13: GPS-Modul
 Gewinkelte Stiftleiste mit 4 Pins vorbereiten. Stiftleiste in OBS-PCB verlöten (Unterseite, langes Ende der Pins seitlich herausschauend). Eng anliegend verlöten. Danach GPS-Modul aufstecken und verlöten. Stifte kürzen.
+
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_13_GPS-Module_01_Modul.jpg" alt="PCB00.03.10_13_GPS-Module_01_Modul.jpg" class="inline" />
+<figcaption>PCB00.03.10_13_GPS-Module_01_Modul.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_13_GPS-Module_02_Modul_mit_Stiftleiste.jpg" alt="PCB00.03.10_13_GPS-Module_02_Modul_mit_Stiftleiste.jpg" class="inline" />
+<figcaption>PCB00.03.10_13_GPS-Module_02_Modul_mit_Stiftleiste.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_13_GPS-Module_03_Stiftleiste_ohne_Modul_ins_PCB_stecken.jpg" alt="PCB00.03.10_13_GPS-Module_03_Stiftleiste_ohne_Modul_ins_PCB_stecken.jpg" class="inline" />
+<figcaption>PCB00.03.10_13_GPS-Module_03_Stiftleiste_ohne_Modul_ins_PCB_stecken.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_13_GPS-Module_05_Stiftleiste_anloeten.jpg" alt="PCB00.03.10_13_GPS-Module_05_Stiftleiste_anloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_13_GPS-Module_05_Stiftleiste_anloeten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_13_GPS-Module_06_Stiftleiste_geloetet.jpg" alt="PCB00.03.10_13_GPS-Module_06_Stiftleiste_geloetet.jpg" class="inline" />
+<figcaption>PCB00.03.10_13_GPS-Module_06_Stiftleiste_geloetet.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_13_GPS-Module_07_GPS-Modul_ausgerichtet.jpg" alt="PCB00.03.10_13_GPS-Module_07_GPS-Modul_ausgerichtet.jpg" class="inline" />
+<figcaption>PCB00.03.10_13_GPS-Module_07_GPS-Modul_ausgerichtet.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.xx/PCB00.03.10_13_GPS-Module_08_GPS-Modul_geloetet.jpg" alt="PCB00.03.10_13_GPS-Module_08_GPS-Modul_geloetet.jpg" class="inline" />
+<figcaption>PCB00.03.10_13_GPS-Module_08_GPS-Modul_geloetet.jpg</figcaption>
+</figure>
 
 PCB fertig!!!
 
