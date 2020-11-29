@@ -415,8 +415,7 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
 <figcaption>PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg</figcaption>
 </figure>
 
-
-## Part 18: Test
+## Part 18: Testen der elektronischen Komponenten vor Einbau in das Gehäuse
 Folgende Test in dieser Reihenfolge:
 1. Ausschalten
 2. Jetzt die Batterie einstecken.
