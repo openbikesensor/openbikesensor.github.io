@@ -14,9 +14,17 @@ nav_order: 1
   <figcaption>Fully equipped PCB v00.03.10</figcaption>
 </figure>
 
-> TODO
+Quicklinks:
 
-[Get started now](getting_started/getting_started.md){: .btn .btn-blue }
+[Get started now](getting_started/usage.html){: .btn .btn-blue }
+
+[Bauteilübersicht](/hardware/hardware.html){: .btn .btn-blue }
+
+[v00.02.07 ausführliche Bauanleitung](/hardware/pcb_board/pcb_00.02.xx_building_long.html){: .btn .btn-blue }
+
+[v00.03.10 Kurzanleitung](hardware/pcb_board/pcb_00.03.xx_building_short.html){: .btn .btn-blue }
+
+Externe Links:
 
 [Video](https://www.youtube.com/watch?v=2bjJ3BmzRLc){: .btn }
 [Github](http://github.com/Friends-of-OpenBikeSensor){: .btn }
@@ -24,7 +32,6 @@ nav_order: 1
 [Daten-Portal](https://openbikesensor.hlrs.de/){: .btn }
 [E-Mail](mailto:info@openbikesensor.org){: .btn }
 [Twitter](http://twitter.com/openbikesensor?lang=de){: .btn }
-
 
 
 Auf Github liegen die Repositories der Firmware, des PCBs, der Gehäuse zum 3d-Drucken, Front- und Backend des Daten-Portals und diese Dokuseite.
