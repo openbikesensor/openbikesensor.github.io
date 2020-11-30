@@ -1,15 +1,5 @@
 # Detailierte Aufbauanleitung für den PCB {{ include.version }}
 
-{% if include.version == '00.02' %}
-
-# Entwurf
-**Diese Bauanleitung ist ein Entwurf. Sie enthält möglicherweise Fehler und falsche Bilder**
-{% elsif include.version == '00.03' %}
-
-# Entwurf
-**Diese Bauanleitung ist ein Entwurf. Sie enthält Fehler und falsche Bilder und muss noch auf die PCB-Version 00.03.xx angepasst werden.**
-{% endif %}
-
 <figure>
   {% if include.version == '00.02' %}
   <img src="Grafiken/20200726_184611.jpg" class="inline"/>
@@ -18,6 +8,11 @@
   {% endif %}
   <figcaption>Ein fertiger PCB in der Version {{ include.version }}</figcaption>
 </figure>
+
+{% if include.version == '00.02' %}
+
+# Entwurf
+**Diese Bauanleitung ist ein Entwurf. Sie enthält möglicherweise Fehler und falsche Bilder**
 
 
 Warnhinweise
@@ -567,3 +562,9 @@ Displaysteckverbinder J5
 [^1]: Lithium-Polymer
 
 [^2]: bill of material; zu deutsch Teileliste
+
+{% elsif include.version == '00.03' %}
+
+# Entwurf
+**Diese Bauanleitung ist ein Entwurf. Sie ist leer, bis entsprechende entsprechende Stellen der v00.02.xx auf die 00.03.xx angepasst wurden. Dazu gehören alle Bilder, aber auch Text zu den Sensorboards, die direkt auf das PCB geloetet werden.**
+{% endif %}
