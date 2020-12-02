@@ -398,10 +398,6 @@ Vorsichtig! Das innere Kabel ist sehr dünn und kann leicht durchtrennt werden. 
 <figcaption>PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg</figcaption>
 </figure>
 
-<figure>
-<img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short15.jpg" alt="Orientierung beachten!" class="inline" />
-<figcaption>Orientierung des Steckers beachten!</figcaption>
-</figure>
 {% endif %}
 
 ## Part 16: Batteriekabel anlöten
