@@ -163,6 +163,10 @@ Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt. Von unten 
 <figcaption>PCB00.03.10_03_Spannunsversorgung_07_Lademodulplatziert.jpg</figcaption>
 </figure>
 <figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg" alt="PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg</figcaption>
+</figure>
+<figure>
   <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg" alt="PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg" class="inline" />
 <figcaption>PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg</figcaption>
 </figure>
@@ -463,6 +467,36 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
   <img src="images_00.03.10/PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg" alt="PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg</figcaption>
 </figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg" alt="PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_11_Muttern_in_Gehaeuse_ziehen_mit_groeßeren_Schrauben.jpg" alt="PCB00.03.10_17_Display_11_Muttern_in_Gehaeuse_ziehen_mit_groeßeren_Schrauben.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_11_Muttern_in_Gehaeuse_ziehen_mit_groeßeren_Schrauben.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg" alt="PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_13_Zugsicherung.jpg" alt="PCB00.03.10_17_Display_13_Zugsicherung.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_13_Zugsicherung.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_14_Zugsicherung_erstes_teil_eingesetzt.jpg" alt="PCB00.03.10_17_Display_14_Zugsicherung_erstes_teil_eingesetzt.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_14_Zugsicherung_erstes_teil_eingesetzt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_15_Zugsicherung_zweites_Teil_eingesetzt.jpg" alt="PCB00.03.10_17_Display_15_Zugsicherung_zweites_Teil_eingesetzt.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_15_Zugsicherung_zweites_Teil_eingesetzt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_16_Zugsicherung_verschraubt.jpg" alt="PCB00.03.10_17_Display_16_Zugsicherung_verschraubt.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_16_Zugsicherung_verschraubt.jpg</figcaption>
+</figure>
+
+
 {% endif %}
 
 ## Part 18: Testen der elektronischen Komponenten vor Einbau in das Gehäuse
