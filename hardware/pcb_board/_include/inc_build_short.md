@@ -401,6 +401,14 @@ Vorsichtig! Das innere Kabel ist sehr dünn und kann leicht durchtrennt werden. 
   <img src="images_00.03.10/PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg" alt="PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg" class="inline" />
 <figcaption>PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg</figcaption>
 </figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_15_Sensor_02_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg" alt="PCB00.03.10_15_Sensor_02_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg" class="inline" />
+<figcaption>PCB00.03.10_15_Sensor_02_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_15_Sensor_03_Sensor_Detail_Stecker.jpg" alt="PCB00.03.10_15_Sensor_03_Sensor_Detail_Stecker.jpg" class="inline" />
+<figcaption>PCB00.03.10_15_Sensor_03_Sensor_Detail_Stecker.jpg</figcaption>
+</figure>
 
 {% endif %}
 
@@ -411,6 +419,10 @@ Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird 
 <figure>
   <img src="images_00.03.10/PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" alt="PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg" class="inline" />
 <figcaption>PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_16_Akku_02_Kontakte_isolieren.jpg" alt="PCB00.03.10_16_Akku_02_Kontakte_isolieren.jpg" class="inline" />
+<figcaption>PCB00.03.10_16_Akku_02_Kontakte_isolieren.jpg</figcaption>
 </figure>
 {% endif %}
 
@@ -460,6 +472,10 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
 <figcaption>PCB00.03.10_17_Display_07_Display_in_Gehäuse_einpassen_keine_Gewalt.jpg</figcaption>
 </figure>
 <figure>
+  <img src="images_00.03.10/PCB00.03.10_17_Display_07a_Display_mit_Seitenschneider_stutzen.jpg" alt="PCB00.03.10_17_Display_07a_Display_mit_Seitenschneider_stutzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_17_Display_07a_Display_mit_Seitenschneider_stutzen.jpg</figcaption>
+</figure>
+<figure>
   <img src="images_00.03.10/PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg" alt="PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg</figcaption>
 </figure>
@@ -506,9 +522,34 @@ Folgende Test in dieser Reihenfolge:
 3. Laden - ein normales USB-C Ladegerät anschließen. Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät. Bei vollem Akku leuchtet das Modul blau, sonst rot
 4. Einschalten - Ein Boot-screen sollte auf dem Display erscheinen
 
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg" alt="PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg" class="inline" />
+<figcaption>PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg</figcaption>
+</figure>
+
 ## Part 19: Gehäuse vorbereiten
 Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche können heraus fallen, andere sitzen sehr fest. 
 
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_19_Gehaeuse_03_GPS_Antenne_einsetzen_keine_Gewalt.jpg" alt="PCB00.03.10_19_Gehaeuse_03_GPS_Antenne_einsetzen_keine_Gewalt.jpg" class="inline" />
+<figcaption>PCB00.03.10_19_Gehaeuse_03_GPS_Antenne_einsetzen_keine_Gewalt.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_19_Gehaeuse_04_Akku_und_Ultraschallsensor_an_Deckel_montieren_Bezeichnung_UP_beachten.jpg" alt="PCB00.03.10_19_Gehaeuse_04_Akku_und_Ultraschallsensor_an_Deckel_montieren_Bezeichnung_UP_beachten.jpg" class="inline" />
+<figcaption>PCB00.03.10_19_Gehaeuse_04_Akku_und_Ultraschallsensor_an_Deckel_montieren_Bezeichnung_UP_beachten.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_19_Gehaeuse_05_GPS_anschliessen.jpg" alt="PCB00.03.10_19_Gehaeuse_05_GPS_anschliessen.jpg" class="inline" />
+<figcaption>PCB00.03.10_19_Gehaeuse_05_GPS_anschliessen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_19_Gehaeuse_06_US-Sensore_anstecken.jpg" alt="PCB00.03.10_19_Gehaeuse_06_US-Sensore_anstecken.jpg" class="inline" />
+<figcaption>PCB00.03.10_19_Gehaeuse_06_US-Sensore_anstecken.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_19_Gehaeuse_07_USB-C-Ladebuchse_ohne_Gewalt_in_Aussparung_einfaedeln.jpg" alt="PCB00.03.10_19_Gehaeuse_07_USB-C-Ladebuchse_ohne_Gewalt_in_Aussparung_einfaedeln.jpg" class="inline" />
+<figcaption>PCB00.03.10_19_Gehaeuse_07_USB-C-Ladebuchse_ohne_Gewalt_in_Aussparung_einfaedeln.jpg</figcaption>
+</figure>
 
 ## Part 20: PCB einbauen, Komponenten zusammenstecken
 
