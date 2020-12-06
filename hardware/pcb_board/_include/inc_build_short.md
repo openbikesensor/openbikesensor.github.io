@@ -78,7 +78,7 @@ Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden. Mit dem Seitens
 Buchsenleisten so stecken, dass die gekürzte Seite den Platz für C3 frei lässt
 
 * Buchsenleisten mit gestecktem ESP32 positionieren 
-** Beim Positionieren darauf achten, dass die inneren Kontakte auf den längeren Lötfahnen auf der Platine sitzen
+* Beim Positionieren darauf achten, dass die inneren Kontakte auf den längeren Lötfahnen auf der Platine sitzen
 * jede Leiste an 2 Ecken festlöten
 * Danach alle äußeren Verbindungen löten
 * ESP32 abziehen und dann die inneren Kontakte löten.
