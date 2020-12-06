@@ -74,20 +74,23 @@ Inhalt: Bestücken des PCBs v00\.03\.10
 {% endif %}
 
 ## Part 2: Buchsenleisten
-Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden. Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
-Buchsenleisten so stecken, dass die gekürzte Seite den Platz für C3 frei lässt
+Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden. 
+* Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
 
-* Buchsenleisten mit gestecktem ESP32 positionieren 
-* Beim Positionieren darauf achten, dass die inneren Kontakte auf den längeren Lötfahnen auf der Platine sitzen
-* jede Leiste an 2 Ecken festlöten
-* Danach alle äußeren Verbindungen löten
-* ESP32 abziehen und dann die inneren Kontakte löten.
+
+
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
   <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg" alt="PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg" class="inline" />
 <figcaption>PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg</figcaption>
 </figure>
+
+* Buchsenleisten so an ESP32 stecken, dass die gekürzte Seite den Platz für C3 frei lässt
+* Beachten: Erster Kontakt der gekürzten Buchsenleiste an C3 (ESP32 Board Richtung USB-Buchse) zeigt nach innen
+* Kontakte auf der gegenüberliegenden Seite zeigen versetzt nach innen
+* Längere Buchsenleiste steht gegenüber der Position von C3 über
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg" class="inline" />
 <figcaption>PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg</figcaption>
@@ -96,13 +99,20 @@ Buchsenleisten so stecken, dass die gekürzte Seite den Platz für C3 frei läss
   <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg" class="inline" />
 <figcaption>PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg</figcaption>
 </figure>
-<figure>
-  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg" class="inline" />
-<figcaption>PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg</figcaption>
-</figure>
+
+* Buchsenleisten mit gestecktem ESP32 positionieren 
+* Beim Positionieren darauf achten, dass die inneren Kontakte auf den längeren Lötfahnen auf der Platine sitzen: Auf Seite von J7 zeigt erster Pin nach außen, auf der anderen Seite erster Pin nach innen
+* Jede Leiste an 2 Ecken festlöten
+* Danach alle äußeren Verbindungen löten
+* ESP32 abziehen und dann die inneren Kontakte löten.
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg" alt="PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg" class="inline" />
 <figcaption>PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg</figcaption>
 </figure>
 <figure>
   <img src="images_00.03.10/PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg" alt="PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg" class="inline" />
@@ -128,10 +138,11 @@ Buchsenleisten so stecken, dass die gekürzte Seite den Platz für C3 frei läss
 
 ## Part 3: Spannungsmodule
 Für den roten Spannungsregler 1x1 und 1x2 Stifte vorbereiten.
-Stifte stecken, aber nicht verlöten! Das mit den Stiften ausgerichtete Modul an den SMD-Pads verlöten. Dann Stifte ziehen und die restlichen Kontakte verlöten.
+* Spannungsregler mit Stiften in zwei gegenüber liegenden LÖtstellen fixieren
+* Stifte nicht verlöten! 
+* Mit Stiften ausgerichtetes Modul an den anderen beiden SMD-Pads verlöten 
+* Stifte abziehen und die restlichen Kontakte verlöten
 
-Für das blaue Lademodul 2x2 Stifte und 2x1 Stift vorbereiten.
-Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt. Von unten 2 Stifte verlöten, dann umdrehen und restliche Kontakte löten. Die schwarzen Plastikteile entfernen und diese Seite auch verlöten. Alle Stifte mit dem Seitenschneider kürzen.
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -151,13 +162,21 @@ Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt. Von unten 
 <figcaption>PCB00.03.10_03_Spannunsversorgung_04_Boardloeten01.jpg</figcaption>
 </figure>
 <figure>
-  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg" alt="PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg" class="inline" />
-<figcaption>PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg</figcaption>
-</figure>
-<figure>
   <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg" class="inline" />
 <figcaption>PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg</figcaption>
 </figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg" alt="PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg</figcaption>
+</figure>
+
+Für das blaue Lademodul 2x2 Stifte und 2x1 Stift vorbereiten.
+* Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt 
+* Von unten 2 Stifte verlöten. Stifte auf der anderen Seite fixieren
+* Umdrehen und restliche Kontakte löten
+* Die schwarzen Plastikteile entfernen und diese Seite auch verlöten
+* Alle Stifte mit dem Seitenschneider kürzen
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg" alt="PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg" class="inline" />
 <figcaption>PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg</figcaption>
@@ -167,16 +186,16 @@ Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt. Von unten 
 <figcaption>PCB00.03.10_03_Spannunsversorgung_07_Lademodulplatziert.jpg</figcaption>
 </figure>
 <figure>
-  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg" alt="PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg" class="inline" />
-<figcaption>PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg</figcaption>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg</figcaption>
 </figure>
 <figure>
   <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg" alt="PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg" class="inline" />
 <figcaption>PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg</figcaption>
 </figure>
 <figure>
-  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg" alt="PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg" class="inline" />
-<figcaption>PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg</figcaption>
+  <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg" alt="PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg" class="inline" />
+<figcaption>PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg</figcaption>
 </figure>
 <figure>
   <img src="images_00.03.10/PCB00.03.10_03_Spannunsversorgung_11_Oberseitefertigverloetet.jpg" alt="PCB00.03.10_03_Spannunsversorgung_11_Oberseitefertigverloetet.jpg" class="inline" />
@@ -197,8 +216,10 @@ Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt. Von unten 
 {% endif %}
 
 ## Part 4: Kondensatoren
-Bei C2 und C3 muss die Polung beachtet werden!
-Kondensatoren C1 bis C3 stecken, zum fixieren umbiegen, verlöten und abkneifen. Bei C2 und C3 ist der lange Pin +, die mit Streifen markierte Seite -.
+Bei C2 und C3: Polung auf Platine und Kondensator beachten! (Langer Pin: „Plus“, mit Streifen markierte Seite: „Minus“)
+* Kondensatoren C1 bis C3 stecken
+* Zum Fixieren umbiegen
+* Verlöten und Draht abkneifen
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -220,7 +241,9 @@ Kondensatoren C1 bis C3 stecken, zum fixieren umbiegen, verlöten und abkneifen.
 {% endif %}
 
 ## Part 5: Der Transistor/die Brücke
-Den Transistor NICHT verwenden. Einige mit Transistor gebaute Module funktionieren nicht. Statt des Transistors wird eine Drahtbrücke aus den vorher abgekniffenen Kondensatorpins eingelötet, die die äußeren Kontakte verbindet.
+Den Transistor NICHT verwenden. Einige mit Transistor gebaute Module funktionieren nicht. 
+* Statt des Transistors eine Drahtbrücke aus den vorher abgekniffenen Kondensatorpins einlöten
+* Drahtbrücke verbindet die beiden äußeren Kontakte der Transistor-Position
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -238,7 +261,11 @@ Den Transistor NICHT verwenden. Einige mit Transistor gebaute Module funktionier
 {% endif %}
 
 ## Part 6: Widerstände
-Widerstände richtig zuordnen: aufsteigend R1=10kOhm, R2=150kOhm, R3=300kOhm. Widerstände stecken, verlöten abkneifen.
+Widerstände richtig zuordnen: 
+* R1=10kOhm (braun - schwarz - orange - gold)
+* R2=150kOhm (braun - grün - gelb - gold)
+* R3=300kOhm (orange - schwarz - gelb - gold)
+Widerstände stecken, verlöten abkneifen.
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -257,6 +284,8 @@ Widerstände richtig zuordnen: aufsteigend R1=10kOhm, R2=150kOhm, R3=300kOhm. Wi
 
 ## Part 7: Sicherung
 
+* Sicherung an Position F1 stecken, verlöten, abkneifen
+
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
   <img src="images_00.03.10/PCB00.03.10_07_Sicherung_01.jpg" alt="PCB00.03.10_07_Sicherung_01.jpg" class="inline" />
@@ -265,7 +294,10 @@ Widerstände richtig zuordnen: aufsteigend R1=10kOhm, R2=150kOhm, R3=300kOhm. Wi
 {% endif %}
 
 ## Part 8: Batteriekabel /-stecker
-Stecker zusammenstecken, Beschriftung auf der Platine beachten. Rot ist + und schwarz ist Minus.
+Stecker zusammenstecken 
+* Beschriftung auf der Platine beachten (Rot: „Plus“, Schwarz: „Minus“)
+* Auf der Rückseite anlöten
+* Kabel wieder abziehen
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -279,7 +311,10 @@ Stecker zusammenstecken, Beschriftung auf der Platine beachten. Rot ist + und sc
 {% endif %}
 
 ## Part 9: Diode
-Polung beachten. Diode umbiegen und stehend auf dem weiter vom Batteriestecker entfernten Kontakt aufsetzen. Der markierte Ring muss oben stehen. Löten und Enden abkneifen.
+Polung beachten!
+* Diode umbiegen und stehend auf dem weiter vom Batteriestecker entfernten Kontakt aufsetzen
+* Der markierte Ring muss oben stehen
+* Löten, Enden abkneifen
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -289,9 +324,12 @@ Polung beachten. Diode umbiegen und stehend auf dem weiter vom Batteriestecker e
 {% endif %}
 
 ## Part 10: Stiftleisten für Stecker
-J5: 5-Pin-Konnektor gemäß Markierung auf Platine aufsetzen. 2 Punkte von unten verlöten, umdrehen, den Rest verlöten.
+J5: 5-Pin-Konnektor gemäß Markierung auf Platine aufsetzen (Aussparungen zeigen Richtung Platine). 
+* 2 Punkte von unten verlöten
+* Platine umdrehen, restliche Pins verlöten.
 
-J6 so aufsetzen, dass er möglichst wenig übersteht. Verlöten
+J6 (Schalter-Stecker) hat keine Plung
+* 2-Pin-Connector so aufsetzen, dass er möglichst wenig über den Rand der Platine übersteht und Verlöten
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -301,8 +339,12 @@ J6 so aufsetzen, dass er möglichst wenig übersteht. Verlöten
 {% endif %}
 
 ## Part 11: Sensorboards
-Bei einem Sensorboard das Plastikteil der Buchse zum Sensor vorsichtig entfernen und die Kontakte umbiegen. Die umgebogenen Kontakte sitzen auf der Seite des ESP32.
-Sensorboards stecken, Beschriftung (+3V3, TRIG, ECHO, GND) beachten. Boards gerade und dicht am OBS-PCB ausrichten und verlöten.
+Beim Sensorboard mit Kontakten Richtung ESP32:
+* Plastikteil der Buchse zum Sensor vorsichtig entfernen 
+* Kontakte nach oben umbiegen – von den Steckkontakten weg 
+* Beide Sensorboards stecken, dabei Beschriftung (+3V3, TRIG, ECHO, GND) beachten 
+* Boards gerade und dicht am OBS-PCB ausrichten und verlöten
+* Überstehende Stifte kürzen
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -328,8 +370,12 @@ Sensorboards stecken, Beschriftung (+3V3, TRIG, ECHO, GND) beachten. Boards gera
 {% endif %}
 
 ## Part 12: SD-Modul
-Gewinkelte Stiftleiste mit 6 Pins vorbereiten. Wie in der Abbildung gezeigt stecken. Die Ausrichtung ist wichtig, es gibt 8 Arten die Stiftleiste zu stecken, 7 funktionieren nicht.
-Stiftleiste mit Modul verlöten und überstehende Pins abkneifen. Modul auf OBS-PCB stecken (Beschriftung beachten). Verlöten und Stifte abkneifen.
+Gewinkelte Stiftleiste mit 6 Pins vorbereiten. 
+* Gewinkelte Stiftleiste genau wie in der Abbildung gezeigt in SD-Modul stecken. 
+* Die Ausrichtung ist wichtig: Es gibt 8 Arten die Stiftleiste zu stecken, 7 funktionieren nicht.
+* Stiftleiste mit Modul verlöten und überstehende Pins abkneifen
+* Modul auf OBS-PCB stecken (Ausrichtung und Beschriftung beachten)
+* Verlöten und Stifte kürzen
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -351,7 +397,11 @@ Stiftleiste mit Modul verlöten und überstehende Pins abkneifen. Modul auf OBS-
 {% endif %}
 
 ## Part 13: GPS-Modul
-Gewinkelte Stiftleiste mit 4 Pins vorbereiten. Stiftleiste in OBS-PCB verlöten (Unterseite, langes Ende der Pins seitlich herausschauend). Eng anliegend verlöten. Danach GPS-Modul aufstecken und verlöten. Stifte kürzen.
+* Gewinkelte Stiftleiste mit 4 Pins vorbereiten
+* Stiftleiste in OBS-PCB verlöten (Unterseite, langes Ende der Pins seitlich herausschauend)
+* Eng anliegend verlöten
+* GPS-Modul aufstecken 
+* Verlöten und Stifte kürzen
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -384,11 +434,13 @@ Gewinkelte Stiftleiste mit 4 Pins vorbereiten. Stiftleiste in OBS-PCB verlöten 
 </figure>
 {% endif %}
 
-PCB fertig!!!
+Damit ist das PCB fertig bestückt!!!
 
 
 ## Part 14: Schalter
-2x10cm Kabel crimpen, in 2fach Stecker einführen und an seitlich an Stecker löten. Orientierung ist wichtig, damit Schalterzustand mit der Beschriftung am OBS übereinstimmt.
+* 2x10cm Kabel crimpen und in 2fach Stecker einführen 
+* Andere Kabelenden seitlich an Schaler löten
+* Orientierung beachten, damit Schalterzustand mit der Beschriftung (0 / I) am OBS-Gehäuse übereinstimmt
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -398,7 +450,9 @@ PCB fertig!!!
 {% endif %}
 
 ## Part 15: Ultraschallsensor-Kabel kürzen (10cm) und crimpen
-Vorsichtig! Das innere Kabel ist sehr dünn und kann leicht durchtrennt werden. Es gibt genug Kabel und Crimpkontakte zum Üben!
+Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht durchtrennt werden. 
+* Crimpkontakt muss für optimale verbindung Leiter und Isolierung greifen
+* Tipp: Mit überschüssigen Kabelteilen und Crimpkontakten üben
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -417,7 +471,13 @@ Vorsichtig! Das innere Kabel ist sehr dünn und kann leicht durchtrennt werden. 
 {% endif %}
 
 ## Part 16: Batteriekabel anlöten
-Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird an die Enden der Fahnen angelötet. Polung beachten. Im Zweifel nachmessen. Die Batterie wird mit dem kleinen Kabelbinder im Deckel fixiert. Batteriekontakte isolieren. **Batterie noch nicht einstecken.**
+Die Akkus sind mit Lötfahnen ausgestattet. 
+* Auf 12cm gekürztes Batteriekabel an die Enden der Fahnen angelöten 
+* Polung beachten: Pluspol an Akku auf der Seite mit Einkerbung im Akku-Gehäuse
+* **Polung Im Zweifel nachmessen** 
+* Die Batterie und Kabel werden mit einem kleinen Kabelbinder im Deckel fixiert
+* Batteriekontakte mit Isolierband o.Ä. isolieren
+**Batterie noch nicht einstecken.**
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -434,17 +494,17 @@ Die Akkus sind mit Lötfahnen ausgestattet. Das (auf 12cm gekürzte) Kabel wird 
 ## Part 17: Display-Kabel
 **Hinweis: Beim Display ist die Reihenfolge sehr wichtig! Ein Kabel mit Steckern auf beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.**
 
-Kabel abisolieren und auf einer Seite 5x crimpen. OBS-PCB und Display sind beschriftet. Gecrimpte Kabelenden entsprechend der Farben in den 5er Stecker einführen.
-
-Kabel durch Displaygehäuse-Unterteil führen!!!
-2 Optionen: 
-1. Display-Seite crimpen
-*  Nur 4x Crimpen! Das Kabel, das im OBS mit „BUT“ verbunden wird, wird an den Taster gelötet. In den Crimp für VDD muss zu dem Kabel ein zusätzliches kleines Kabel mit 2-3cm rein, das mit dem Taster verlötet wird.
-2. Display-Seite löten
-* VDD muss auch hier an Display UND Taster verbunden werden. Die andere Seite des Tasters mit dem am OBS mit „BUT“ beschrifteteten Kabel verbinden. Die anderen 4 Kabel entsprechend Farbe und Beschriftung am PCB zuordnen.
-
-
-**Der Taster ist hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff.**
+Kabel abisolieren und auf einer Seite 5x crimpen. 
+* OBS-PCB und Display sind beschriftet
+* Gecrimpte Kabelenden in den 5er Stecker einführen
+* Zuordnung Farben zu Beschriftung notieren
+	Empfehlung: 
+	Braun – VCC/VDD
+	Schwarz – GND
+	Blau – BUT
+	Weiß – SDA
+	Grau – SCL
+**Kabel nur 1-2mm abisolieren und für stabilen Halt mit Isolierung crimpen**
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
@@ -459,6 +519,23 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
   <img src="images_00.03.10/PCB00.03.10_17_Display_03_Stecker.jpg" alt="PCB00.03.10_17_Display_03_Stecker.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_03_Stecker.jpg</figcaption>
 </figure>
+
+* **Vor Anschluss des Displays Kabel durch Displaygehäuse-Unterteil führen**
+Zwei Optionen für Anschluss an das OLED-Displayboard 
+1. Display-Seite crimpen
+*  Nur 4x Crimpen! 
+* Das Kabel, das im OBS mit „BUT“ verbunden wird, zunächst frei lassen
+* Kabel für VDD zusammen mit zweitem 2-3 cm Kabel crimpen
+* Am OLED-Displayboard Plastikteile an Steckkontakten entfernen und Pins um ca. 1/3 kürzen
+* Prüfen, ob Crimpstecker bündig auf Platine steckt, 
+* Ggf. Pins weiter kürzen, damit Board und Pins ins Displaygehäuse passen
+
+2. Display-Seite löten
+* VDD muss auch hier an Display UND Taster verbunden werden
+* Die andere Seite des Tasters mit dem am OBS mit „BUT“ beschrifteteten Kabel verbinden
+* Die übrigen 4 Kabel entsprechend Farbe und Beschriftung am PCB zuordnen.
+
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg" alt="PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg</figcaption>
@@ -471,6 +548,11 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
   <img src="images_00.03.10/PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg" alt="PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg</figcaption>
 </figure>
+
+* OLED-Boards haben teils etwas unterschiedliche Größen
+* OLED Displayboard ggf. wie abgebildet etwas kürzen
+* Board und Button in Displayoberseite einsetzen
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_17_Display_07_Display_in_Geh&auml;use_einpassen_keine_Gewalt.jpg" alt="PCB00.03.10_17_Display_07_Display_in_Geh&auml;use_einpassen_keine_Gewalt.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_07_Display_in_Gehäuse_einpassen_keine_Gewalt.jpg</figcaption>
@@ -483,10 +565,22 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
   <img src="images_00.03.10/PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg" alt="PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg</figcaption>
 </figure>
+
+
+* Kabel von BUT an ein Ende des Tasters anlöten
+* Kurze Kabel von VDD an zweiten Pin des Tasters löten
+**Achtung: Taster ist hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff**
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg" alt="PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg</figcaption>
 </figure>
+
+**Display zusammensetzen**
+* Magnete in Displaygehäuse und Lenkerhalterung passend zur Fixierung einlegen
+* Muttern mit längeren Schrauben in Aussparungen in Gehäuse-Unterseite einziehen
+* Längere Schrauben durch M3x18 ersetzen
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg" alt="PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg</figcaption>
@@ -499,6 +593,13 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
   <img src="images_00.03.10/PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg" alt="PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg</figcaption>
 </figure>
+
+**Zugsicherung einsetzen**
+* Erstes Teil der Zugsicherung einsetzen
+* Zweites Teil der Zugsicherung von außen angewinkelt eindrücken
+* Für optimale Zugentlastung Kabel auf ganzer Länge der Zugsicherung mit Isolierung fixieren (Muttern und Schrauben M3xXX anziehen)
+* Fixierung für Sechskant-Muttern auf einem Teil der Zugsicherung beachten
+
 <figure>
   <img src="images_00.03.10/PCB00.03.10_17_Display_13_Zugsicherung.jpg" alt="PCB00.03.10_17_Display_13_Zugsicherung.jpg" class="inline" />
 <figcaption>PCB00.03.10_17_Display_13_Zugsicherung.jpg</figcaption>
@@ -520,12 +621,20 @@ Kabel durch Displaygehäuse-Unterteil führen!!!
 {% endif %}
 
 ## Part 18: Testen der elektronischen Komponenten vor Einbau in das Gehäuse
-Folgende Test in dieser Reihenfolge:
+Folgende Tests in dieser Reihenfolge:
 1. Ausschalten
-2. Jetzt die Batterie einstecken.
-3. Laden - ein normales USB-C Ladegerät anschließen. Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät. Bei vollem Akku leuchtet das Modul blau, sonst rot
-4. Einschalten - Ein Boot-screen sollte auf dem Display erscheinen
-
+2. Batteriekabel polungsrichtig einstecken.
+3. Laden: Normales USB-C Ladegerät (5 V) anschließen
+*  Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät
+* Bei vollem Akku leuchtet das Modul blau, sonst rot
+4. Einschalten 
+* Boot-Screen sollte auf dem Display erscheinen
+* Druck auf Taster wechselt von Boot-Screen zu einfacher Distanz-Anzeige (-- cm)
+5. Bei angeschlossener GPS-Antenne GPS-Funktion im Freien testen
+* Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige
+6. Sensoren-Funktion testen: Sensoren mit Sensor-Boards verbinden
+* Polung beachten
+* Bei 
 <figure>
   <img src="images_00.03.10/PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg" alt="PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg" class="inline" />
 <figcaption>PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg</figcaption>
