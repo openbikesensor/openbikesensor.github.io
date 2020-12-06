@@ -27,7 +27,7 @@ Quicklinks:
 Externe Links:
 
 [Homepage](https://openbikesensor.org){: .btn }
-[Video](https://www.youtube.com/watch?v=2bjJ3BmzRLc){: .btn }
+[Video](https://www.youtube.com/watch?v=YrpipBDGe9s){: .btn }
 [Github](http://github.com/Friends-of-OpenBikeSensor){: .btn }
 [Slack](https://openbikesensor.org/slack){: .btn }
 [Daten-Portal](https://openbikesensor.hlrs.de/){: .btn }
