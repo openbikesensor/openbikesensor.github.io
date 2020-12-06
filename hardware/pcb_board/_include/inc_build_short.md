@@ -77,7 +77,11 @@ Inhalt: Bestücken des PCBs v00\.03\.10
 Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden. Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
 Buchsenleisten so stecken, dass die gekürzte Seite den Platz für C3 frei lässt
 
-Buchsenleisten mit gestecktem ESP32 positionieren und jede Leiste an 2 Ecken festlöten. Danach alle äußeren Verbindungen löten, ESP32 abziehen und dann die inneren Kontakte löten.
+* Buchsenleisten mit gestecktem ESP32 positionieren 
+** Beim Positionieren darauf achten, dass die inneren Kontakte auf den längeren Lötfahnen auf der Platine sitzen
+* jede Leiste an 2 Ecken festlöten
+* Danach alle äußeren Verbindungen löten
+* ESP32 abziehen und dann die inneren Kontakte löten.
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>
