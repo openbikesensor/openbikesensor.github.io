@@ -666,6 +666,50 @@ Alle Muttern vor den elektronischen Bauteilen in das Geh√§use stecken. Manche k√
 
 ## Part 20: PCB einbauen, Komponenten zusammenstecken
 
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_01_Displaykabel_zwischen_SD-Kartenleser_und_GPS_fuehren.jpg" alt="PCB00.03.10_20_Zusammenbau_01_Displaykabel_zwischen_SD-Kartenleser_und_GPS_fuehren.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_01_Displaykabel_zwischen_SD-Kartenleser_und_GPS_fuehren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_02_PCB_festschrauben.jpg" alt="PCB00.03.10_20_Zusammenbau_02_PCB_festschrauben.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_02_PCB_festschrauben.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_03_Halterung_und_Zugsicherung_festschrauben.jpg" alt="PCB00.03.10_20_Zusammenbau_03_Halterung_und_Zugsicherung_festschrauben.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_03_Halterung_und_Zugsicherung_festschrauben.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten_8-10Lagen_Alufolien_mit_Klebeband_isoliert_oder_eingeschweisst.jpg" alt="PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten_8-10Lagen_Alufolien_mit_Klebeband_isoliert_oder_eingeschweisst.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten_8-10Lagen_Alufolien_mit_Klebeband_isoliert_oder_eingeschweisst.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_05_Abschirmung_platzieren.jpg" alt="PCB00.03.10_20_Zusammenbau_05_Abschirmung_platzieren.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_05_Abschirmung_platzieren.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_06_GPS-Deckel_festschrauben_Orientierung_Halterung.jpg" alt="PCB00.03.10_20_Zusammenbau_06_GPS-Deckel_festschrauben_Orientierung_Halterung.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_06_GPS-Deckel_festschrauben_Orientierung_Halterung.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_07_Deckel_festschrauben.jpg" alt="PCB00.03.10_20_Zusammenbau_07_Deckel_festschrauben.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_07_Deckel_festschrauben.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_08_Magnete_in_USB-Deckel_druecken.jpg" alt="PCB00.03.10_20_Zusammenbau_08_Magnete_in_USB-Deckel_druecken.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_08_Magnete_in_USB-Deckel_druecken.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_09_weitere_Magnete_draufsetzen.jpg" alt="PCB00.03.10_20_Zusammenbau_09_weitere_Magnete_draufsetzen.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_09_weitere_Magnete_draufsetzen.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_10_mithilfe_des_Deckels_Magnete_in_Gehaeuse_druecken.jpg" alt="PCB00.03.10_20_Zusammenbau_10_mithilfe_des_Deckels_Magnete_in_Gehaeuse_druecken.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_10_mithilfe_des_Deckels_Magnete_in_Gehaeuse_druecken.jpg</figcaption>
+</figure>
+<figure>
+  <img src="images_00.03.10/PCB00.03.10_20_Zusammenbau_11_fertig.jpg" alt="PCB00.03.10_20_Zusammenbau_11_fertig.jpg" class="inline" />
+<figcaption>PCB00.03.10_20_Zusammenbau_11_fertig.jpg</figcaption>
+</figure>
 
 
 
