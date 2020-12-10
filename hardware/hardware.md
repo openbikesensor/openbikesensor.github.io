@@ -58,7 +58,8 @@ Because the OpenBikeSensor consists many parts from many different sources, bulk
 * 2xSMD connector - [10pcs](https://www.ebay.de/itm/10-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEU-BP/231930033721), [100pcs](https://www.ebay.de/itm/100-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEW/233091176275)
 
 ### Vertical Case
-* [Vertical Case](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor3dPrintableCase/tree/master/VerticalCase)
+* [Vertical Case](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/MainCase/VerticalCase)
+* [SlideOn Display](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/DisplayCase/SlideOnDisplay)
 * [4x 20x10x2mm magnets](https://www.amazon.de/dp/B085CBZTQJ)
 * [4x 3x3x3mm magnets](https://www.amazon.de/dp/B079KDYBZ8)
 * 15x M3x8mm DIN912
