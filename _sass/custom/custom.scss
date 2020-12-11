@@ -45,6 +45,12 @@ figure {
     margin: 0;
     text-align: center;
     padding: 0.5rem 2rem;
+    white-space: normal;
+
+    // For now we are using filenames at some points as figcaption, which do
+    // not contain breakable spaces. Make them behave ;)
+    word-wrap: break-word;
+    overflow: hidden;
   }
 }
 
