@@ -18,6 +18,11 @@
     {%- assign settings = slider.settings -%}
     var {{ slider.selector }} = new IdealImageSlider.Slider({
       selector: '#{{ slider.selector }}',
+
+      // hardcode settings
+      transitionDuration: 250,
+      effect: "fade",
+
       {% if settings.height -%}
       height: {{ settings.height }},
       {% endif -%}
@@ -29,12 +34,6 @@
       {% endif -%}
       {% if settings.interval -%}
       interval: {{ settings.interval }},
-      {% endif -%}
-      {% if settings.transitionDuration -%}
-      transitionDuration: {{ settings.transitionDuration }},
-      {% endif -%}
-      {% if settings.effect -%}
-      effect: {{ settings.effect }},
       {% endif -%}
       {% if settings.disableNav -%}
       disableNav: {{ settings.disableNav }},
