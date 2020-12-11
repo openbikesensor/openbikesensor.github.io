@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Upgrade von 0.2 nach 0.3+ü
-has_children: true
-parent: Software
-nav_order: 1
+title: Upgrade auf 0.3.x
+parent: Firmware
+grand_parent: Software
+nav_order: 100
 ---
 
 # Firmware Upgrade von <0.3 auf 0.3+

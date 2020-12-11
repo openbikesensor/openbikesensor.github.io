@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Setup Development Environment
+title: Development Setup
 parent: Firmware
 grand_parent: Software
+nav_order: 3
 ---
 
-# Setup Development Environment
+# Setup of Development Environment
 
 ## [VSCode](https://code.visualstudio.com/)
 <a name="vscode"></a>

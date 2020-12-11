@@ -3,6 +3,7 @@ layout: default
 title: Architecture
 parent: Firmware
 grand_parent: Software
+nav_order: 1
 ---
 
 # Architecture
