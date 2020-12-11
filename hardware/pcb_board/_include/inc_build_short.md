@@ -56,9 +56,9 @@ Inhalt: Bestücken des PCBs v00\.03\.10
 * Zweite Lötstelle des nun fixierten Widerstandes ausführen
 
 {% if include.version == '00.02' -%}
-  **ToDo: Bilder für Version 00.02.xx hinzufügen.** 
+**ToDo: Bilder für Version 00.02.xx hinzufügen.** 
 {% elsif include.version == '00.03' %}
-  {% include slider.html selector="Instructions_00_03_10_SMD" %}
+{% include slider.html selector="Instructions_00_03_10_SMD" %}
 {% endif %}
 
 ## Part 2: Buchsenleisten
