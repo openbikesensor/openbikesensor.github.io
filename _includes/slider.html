@@ -5,7 +5,7 @@
   {%- assign slider = site.data.sliders | where:"selector",include.selector | first -%}
   <div id="{{ slider.selector }}" class="noprint">
   {% for image in slider.images -%}
-    <a href="{{ image.src }}"><img data-src="{{ image.data-src | relative_url }}" data-src-2x="{{ image.data-src-2x | relative_url }}" src="{{ image.src | relative_url }}" title="{{ image.title }}" alt="{{ image.alt }}"></a>
+    <a href="{{ image.src }}" target="_blank"><img data-src="{{ image.data-src | relative_url }}" data-src-2x="{{ image.data-src-2x | relative_url }}" src="{{ image.src | relative_url }}" title="{{ image.title }}" alt="{{ image.alt }}"></a>
   {% endfor -%}
   </div>
 
