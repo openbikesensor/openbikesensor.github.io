@@ -55,7 +55,9 @@
     {% if slider.captions == true -%}
     {{ slider.selector }}.addCaptions();
     {% endif -%}
+    {% if slider.autostart == true -%}
     {{ slider.selector }}.start();
+    {% endif %}
   {% endfor -%}
   </script>
 {%- endif -%}
