@@ -48,3 +48,25 @@ figure {
   }
 }
 
+
+// specificity hack
+.iis-bullet-nav.iis-bullet-nav {
+  opacity: 1;
+
+  a {
+    width: 16px;
+    height: 16px;
+    border-width: 4px;
+    border-color: black;
+    background: black;
+  }
+}
+
+.iis-caption.iis-caption {
+  background: rgba(0,0,0,0.8);
+  font: inherit;
+
+  .iis-caption-content {
+    white-space: normal;
+  }
+}
