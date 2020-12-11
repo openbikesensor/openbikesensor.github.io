@@ -2,7 +2,7 @@
 
 <figure>
   {% if include.version == '00.02' %}
-  <img src="Grafiken/20200726_184611.jpg" class="inline"/>
+  <img src="/assets/images/v00.02/20200726_184611.jpg" class="inline"/>
   {% elsif include.version == '00.03' %}
   <img src="images/OpenBikeSensor_PCB_v00.03.10_Building_short5.jpg" class="inline"/>
   {% endif %}
@@ -116,7 +116,7 @@ reference="fig:20200726_121811"}):
 -   ein Multimeter
 
 ![Überblick über das benötigte
-Werkzeug](Grafiken/20200726_121811.jpg){#fig:20200726_121811
+Werkzeug](/assets/images/v00.02//20200726_121811.jpg){#fig:20200726_121811
 width="95%"}
 
 Du hast dir die in Abbildung
@@ -143,7 +143,7 @@ geben um die Stelle ,,aufzufrischen". Beachte aber, dass nicht zu viel
 Zinn auf deiner Lötstelle ist!
 
 ![günstiges
-Multimeter](Grafiken/20200726_121402.jpg){#fig:20200726_121402
+Multimeter](/assets/images/v00.02//20200726_121402.jpg){#fig:20200726_121402
 width="99%"}
 
 Ebenfalls hilfreich können Halterungen für die Platine sein. Das können
@@ -161,23 +161,21 @@ Zange/Pinzette und Lötzinn) ideal bedienen kannst erreichst du ein
 optimales Ergebnis! Nimm dir also die Zeit. Mit der Zeit passiert das
 dann ganz automatisch.
 
-![Schraubstöcke](Grafiken/20200726_121444.jpg){#fig:20200726_121444
+![Schraubstöcke](/assets/images/v00.02//20200726_121444.jpg){#fig:20200726_121444
 width="99%"}
 
 ![verschiedene
-Entlötpumpen](Grafiken/20200726_174356.jpg){#fig:20200726_174356
+Entlötpumpen](/assets/images/v00.02/20200726_174356.jpg){#fig:20200726_174356
 width="99%"}
 
 Außerdem gibt es eine
-[Bestückungs-BOM](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for_soldering_Rev_0.02.07.html)
+[Bestückungs-BOM](/assets/html/BOM_for_soldering_Rev_0.02.07.html)
 die du in deinem Browser öffnen kannst. Wie in Abbildung
 [5](#fig:soldering_bom){reference-type="ref"
 reference="fig:soldering_bom"} kannst du dir dort die Position der
 Bauteile hervorheben lassen und findest so schneller die Stelle um die
 es gerade geht.
 
-![Module auflegen](Grafiken/Soldering_BOM.PNG){#fig:soldering_bom
-width="99%"}
 
 Bestücken der Platine
 =====================
@@ -229,18 +227,18 @@ ich während der gesamten Bestückung verwendet habe. Dies hat überhaupt
 nichts damit zu tun das man schlecht ist! Es ist ein Werkzeug, nutze es.
 
 ![ein Pad von R6
-vorverzinnen](Grafiken/20200922_185326.jpg){#fig:20200922_185326
+vorverzinnen](/assets/images/v00.02/20200922_185326.jpg){#fig:20200922_185326
 width="99%"}
 
 ![Widerstand mit Pinzette
-aufsetzen](Grafiken/20200922_185414.jpg){#fig:20200922_185414
+aufsetzen](/assets/images/v00.02/20200922_185414.jpg){#fig:20200922_185414
 width="99%"}
 
 ![Widerstand an einer Seite
-anlöten](Grafiken/20200922_185449.jpg){#fig:20200922_185449 width="99%"}
+anlöten](/assets/images/v00.02/20200922_185449.jpg){#fig:20200922_185449 width="99%"}
 
 ![verwendete Menge
-Entlötlitze](Grafiken/20200726_184519.jpg){#fig:20200726_184519
+Entlötlitze](/assets/images/v00.02/20200726_184519.jpg){#fig:20200726_184519
 width="99%"}
 
 In den bisherigen Bildern wurde ein Widerstand in der Gehäusegröße 0805
@@ -255,10 +253,10 @@ Gehäusegrößen zu bedeuten haben, dann findest du
 [hier](https://de.wikipedia.org/wiki/Chip-Bauform) weitere
 Informationen.
 
-![Widerstand im Package 0805](Grafiken/IMG_-vz92y3.jpg){#fig:R0805
+![Widerstand im Package 0805](/assets/images/v00.02/R6-SMD0805.jpg){#fig:R0805
 width="99%"}
 
-![Widerstand im Package 1206](Grafiken/IMG_l2oi9e.jpg){#fig:R1206
+![Widerstand im Package 1206](/assets/images/v00.02/R7-SMD1206.jpg){#fig:R1206
 width="99%"}
 
 Spannungsversorgung
@@ -283,11 +281,11 @@ vorsichtig Druck auf die Stelle aus. Sei nicht zu grob, das Plastik kann
 sonst auch manchmal direkt am Pin statt zwischen den Pins brechen.
 
 ![Seitenschneider vorsichtig
-ansetzen](Grafiken/20200726_121903.jpg){#fig:20200726_121903
+ansetzen](/assets/images/v00.02/20200726_121903.jpg){#fig:20200726_121903
 width="99%"}
 
 ![zerteilte
-Stiftleiste](Grafiken/20200726_121920.jpg){#fig:20200726_121920
+Stiftleiste](/assets/images/v00.02/20200726_121920.jpg){#fig:20200726_121920
 width="99%"}
 
 \
@@ -298,7 +296,7 @@ reference="fig:20200726_122303"}) benötigst du insgesamt 5 Pins, für das
 Lademodul M1 unten 6 Pins.
 
 ![Insgesamt 11 Pins
-vorbereiten](Grafiken/20200726_122303.jpg){#fig:20200726_122303
+vorbereiten](/assets/images/v00.02/20200726_122303.jpg){#fig:20200726_122303
 width="90%"}
 
 Stecke als nächstes die Pins von der Oberseite durch die Platine. Das
@@ -316,10 +314,10 @@ das nicht direkt gelingen, finde heraus welcher Pin noch schief steht
 und bessere ihn nach.\
 
 ![Pins von oben
-einstecken](Grafiken/20200726_123048.jpg){#fig:20200726_123048
+einstecken](/assets/images/v00.02/20200726_123048.jpg){#fig:20200726_123048
 width="99%"}
 
-![Module auflegen](Grafiken/20200726_123110.jpg){#fig:20200726_123110
+![Module auflegen](/assets/images/v00.02/20200726_123110.jpg){#fig:20200726_123110
 width="99%"}
 
 Hast du die Module aufgelegt löte sie an. Fange am besten erst nur mit
@@ -345,11 +343,11 @@ Ende sollten die Module wie in Abbildung
 reference="fig:20200726_123438"} aufliegen.
 
 ![Module vorsichtig mit Zange
-herunterdrücken](Grafiken/20200726_123429.jpg){#fig:20200726_123429
+herunterdrücken](/assets/images/v00.02/20200726_123429.jpg){#fig:20200726_123429
 width="99%"}
 
 ![Module in
-Endpositon](Grafiken/20200726_123438.jpg){#fig:20200726_123438
+Endpositon](/assets/images/v00.02/20200726_123438.jpg){#fig:20200726_123438
 width="99%"}
 
 ### Auflöten des Spannungsreglers ohne Pins {#sec:DCDCSMD}
@@ -364,10 +362,10 @@ festhalten. Sitzt das Modul gerade können die verbleibenden 4 Pads
 angelötet und das erste Pad nachgelötet werden.
 
 ![vorverzinntes Pad
-r.o.](Grafiken/20200902_191734.jpg){#fig:20200726_121444 width="99%"}
+r.o.](/assets/images/v00.02/20200902_191734.jpg){#fig:20200726_121444 width="99%"}
 
 ![fertig angelötetes
-Modul](Grafiken/20200902_191918.jpg){#fig:20200726_121444 width="99%"}
+Modul](/assets/images/v00.02/20200902_191918.jpg){#fig:20200726_121444 width="99%"}
 
 \
 Von der Gegenseite sollte die Platine nun wie in Abbildung
@@ -379,7 +377,7 @@ Plastik kürzen. Dies ist in Abbildung
 reference="fig:20200726_124649"} mit zu sehen.
 
 ![Platine von der
-Oberseite](Grafiken/20200726_123700.jpg){#fig:20200726_123700
+Oberseite](/assets/images/v00.02/20200726_123700.jpg){#fig:20200726_123700
 width="99%"}
 
 Einlöten Transistor (Q1) für das GPS-Modul
@@ -401,10 +399,10 @@ Abbildung [21](#fig:20200726_123700){reference-type="ref"
 reference="fig:20200726_123700"} gekürzt aussehen.
 
 ![Q1 von oben
-durchstecken](Grafiken/20200726_124649.jpg){#fig:20200726_124649
+durchstecken](/assets/images/v00.02/20200726_124649.jpg){#fig:20200726_124649
 width="99%"}
 
-![Ansicht auf Q1 von oben](Grafiken/20200726_124658.jpg){#fig:
+![Ansicht auf Q1 von oben](/assets/images/v00.02/20200726_124658.jpg){#fig:
 width="99%"}
 
 \
@@ -422,40 +420,40 @@ der Transistor nun an seiner Stelle bleiben. Löte die restlichen
 Lötstellen an und löte bei Bedarf die erste Lötstelle, mit Hilfe von
 etwas frischen Lötzinn erneut nach.
 
-![Beinchen von Q1 kürzen](Grafiken/20200726_124729.jpg){#fig:
+![Beinchen von Q1 kürzen](/assets/images/v00.02/20200726_124729.jpg){#fig:
 width="99%"}
 
-![Q1 angelötet](Grafiken/20200726_124826.jpg){#fig: width="99%"}
+![Q1 angelötet](/assets/images/v00.02/20200726_124826.jpg){#fig: width="99%"}
 
 Diode und Connectoren für Schalter und Akku
 -------------------------------------------
 
 ![Diode D2
-vorbereiten](Grafiken/20200726_125423.jpg){#fig:20200726_125423
+vorbereiten](/assets/images/v00.02/20200726_125423.jpg){#fig:20200726_125423
 width="99%"}
 
 ### Stiftleiste für J6
 
 ![D2, J1 und J6
-einstecken](Grafiken/20200902_151939.jpg){#fig:20200902_151939
+einstecken](/assets/images/v00.02/20200902_151939.jpg){#fig:20200902_151939
 width="99%"}
 
 ![,,Jumperkabel" als Hilfe
-aufstecken](Grafiken/20200726_175301.jpg){#fig:20200726_175301
+aufstecken](/assets/images/v00.02/20200726_175301.jpg){#fig:20200726_175301
 width="99%"}
 
 ### JST XH Steckverbinder für J6
 
-![J1 einsetzen](Grafiken/20200922_185855.jpg){#fig:20200922_185855
+![J1 einsetzen](/assets/images/v00.02/20200922_185855.jpg){#fig:20200922_185855
 width="99%"}
 
-![J6 einsetzen](Grafiken/20200922_185934.jpg){#fig:20200922_185934
+![J6 einsetzen](/assets/images/v00.02/20200922_185934.jpg){#fig:20200922_185934
 width="99%"}
 
 ![D2 leicht angehoben und abewinkelt
-einsetzen](Grafiken/20200922_190049.jpg){#fig: width="99%"}
+einsetzen](/assets/images/v00.02/20200922_190049.jpg){#fig: width="99%"}
 
-![Module auflegen](Grafiken/20200922_190101.jpg){#fig:20200922_190101
+![Module auflegen](/assets/images/v00.02/20200922_190101.jpg){#fig:20200922_190101
 width="99%"}
 
 ESP-Modul U1 auflöten
@@ -464,95 +462,95 @@ ESP-Modul U1 auflöten
 ### Buchsenleiste mit wechselseitigen Kontakten
 
 ![Leiste auf Länge
-kürzen](Grafiken/20200726_174543.jpg){#fig:20200726_174543 width="99%"}
+kürzen](/assets/images/v00.02/20200726_174543.jpg){#fig:20200726_174543 width="99%"}
 
 ![Buchsenleiste
-aufstecken](Grafiken/20200726_174611.jpg){#fig:20200726_174611
+aufstecken](/assets/images/v00.02/20200726_174611.jpg){#fig:20200726_174611
 width="99%"}
 
 ![beide Leisten an je 2 Stellen
-anlöten](Grafiken/20200726_175629.jpg){#fig:20200726_175629 width="99%"}
+anlöten](/assets/images/v00.02/20200726_175629.jpg){#fig:20200726_175629 width="99%"}
 
 ![Module vorsichtig
-abziehen](Grafiken/20200726_180111.jpg){#fig:20200726_180111
+abziehen](/assets/images/v00.02/20200726_180111.jpg){#fig:20200726_180111
 width="99%"}
 
 ### Buchsenleiste mit gleichseitig gebogenen Kontakten
 
 ![Stifte entsprechend
-kürzen](Grafiken/20200726_213655.jpg){#fig:20200726_213655 width="99%"}
+kürzen](/assets/images/v00.02/20200726_213655.jpg){#fig:20200726_213655 width="99%"}
 
 ![direkter Längenvergleich
-vorher/nachher](Grafiken/20200726_213730.jpg){#fig:20200726_213730
+vorher/nachher](/assets/images/v00.02/20200726_213730.jpg){#fig:20200726_213730
 width="99%"}
 
 ![Leiste auf jeder Seite an 2 äußeren Pins
-anlöten](Grafiken/20200902_192121.jpg){#fig:20200902_192121 width="99%"}
+anlöten](/assets/images/v00.02/20200902_192121.jpg){#fig:20200902_192121 width="99%"}
 
 Sicherung F1
 ------------
 
 ![Sicherung F1 einsetzen und
-anlöten](Grafiken/20200726_180127.jpg){#fig:20200726_180127 width="99%"}
+anlöten](/assets/images/v00.02/20200726_180127.jpg){#fig:20200726_180127 width="99%"}
 
 bedrahtete Widerstände R1, R2 und R3 und Kondensator C1
 -------------------------------------------------------
 
 ![Widerstände
-ausmessen](Grafiken/20200726_180343.jpg){#fig:20200726_180343
+ausmessen](/assets/images/v00.02/20200726_180343.jpg){#fig:20200726_180343
 width="99%"}
 
 ![Widerstände einsetzen und
-verdrillen](Grafiken/20200726_180708.jpg){#fig:20200726_180708
+verdrillen](/assets/images/v00.02/20200726_180708.jpg){#fig:20200726_180708
 width="99%"}
 
-![Verdrillung kürzen](Grafiken/20200726_180727.jpg){#fig:20200726_180727
+![Verdrillung kürzen](/assets/images/v00.02/20200726_180727.jpg){#fig:20200726_180727
 width="99%"}
 
 ![Verdrillung
-verlöten](Grafiken/20200726_180808.jpg){#fig:20200726_180808
+verlöten](/assets/images/v00.02/20200726_180808.jpg){#fig:20200726_180808
 width="99%"}
 
 ![Kodensator C1
-einsetzen](Grafiken/20200726_181136.jpg){#fig:20200726_181136
+einsetzen](/assets/images/v00.02/20200726_181136.jpg){#fig:20200726_181136
 width="99%"}
 
 ![Widerstand R1
-einsetzen](Grafiken/20200726_181412.jpg){#fig:20200726_181412
+einsetzen](/assets/images/v00.02/20200726_181412.jpg){#fig:20200726_181412
 width="99%"}
 
 **Optional: Steckverbinder J10 und J11 auflöten**
 -------------------------------------------------
 
-![Module auflegen](Grafiken/20200726_123816.jpg){#fig:20200726_123816
+![Module auflegen](/assets/images/v00.02/20200726_123816.jpg){#fig:20200726_123816
 width="99%"}
 
-![Module auflegen](Grafiken/20200726_123840.jpg){#fig:20200726_123840
+![Module auflegen](/assets/images/v00.02/20200726_123840.jpg){#fig:20200726_123840
 width="99%"}
 
-![Module auflegen](Grafiken/20200726_123857.jpg){#fig:20200726_123857
+![Module auflegen](/assets/images/v00.02/20200726_123857.jpg){#fig:20200726_123857
 width="99%"}
 
 ![Ein Pad
-vorverzinnen](Grafiken/20200726_181456.jpg){#fig:20200726_181456
+vorverzinnen](/assets/images/v00.02/20200726_181456.jpg){#fig:20200726_181456
 width="99%"}
 
 ![J10 Hilfe von Jumperkabel
-aufsetzen](Grafiken/20200726_181552.jpg){#fig:20200726_181552
+aufsetzen](/assets/images/v00.02/20200726_181552.jpg){#fig:20200726_181552
 width="99%"}
 
-![fertig anlöten](Grafiken/20200726_181810.jpg){#fig:20200726_181810
+![fertig anlöten](/assets/images/v00.02/20200726_181810.jpg){#fig:20200726_181810
 width="99%"}
 
 ![J11 mit Hilfe von Jumperkabel
-auflöten](Grafiken/20200726_182044.jpg){#fig:20200726_182044
+auflöten](/assets/images/v00.02/20200726_182044.jpg){#fig:20200726_182044
 width="99%"}
 
 Kondensatoren C2 und C3
 -----------------------
 
 ![bei Elkosauf Polung
-achten!](Grafiken/20200726_182349.jpg){#fig:20200726_182349 width="99%"}
+achten!](/assets/images/v00.02/20200726_182349.jpg){#fig:20200726_182349 width="99%"}
 
 Displaysteckverbinder J5
 ------------------------

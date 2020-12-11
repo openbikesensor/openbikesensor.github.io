@@ -18,51 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: OpenBikeSensor - Documentation
+title: OpenBikeSensor
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Documentation of the open source, open data and citizen science project OpenBikeSensor.
+description: >-
+  Home of the open source, open data and citizen science project
+  OpenBikeSensor.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: OpenBikeSensor
-github_username: Friends-of-OpenBikeSensor
+github_username: openbikesensor
 
-# Build settings
-#theme: minima
-#theme: jekyll-theme-cayman
-#theme: jekyll-theme-minimal
-#theme: just-the-docs # Enable in Gemfile
-remote_theme: pmarsceill/just-the-docs
-# baseurl: /OpenBikeSensorFirmware
-
-# plugins:
-#  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
    - Gemfile
    - Gemfile.lock
    - vendor
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Theme
-logo: "/data/logo_400x400.png"
+remote_theme: pmarsceill/just-the-docs
+
+# Theme "Just the docs" settings
+logo: "/assets/images/logo_400x400.png"
 search_enabled: true
 
 aux_links:
@@ -82,7 +59,6 @@ last_edit_time_format: "%b %e %Y at %I:%M %p"
 ## Color
 color_scheme: obs
 #color_scheme: dark
-
 
 # Github config
 # markdown: GFM
