@@ -48,37 +48,23 @@ Inhalt: Bestücken des PCBs v00\.03\.10
 
 
 ## Part 1: SMD
+
 * Widerstände R6 & R7
 * Lötpunkt auf ein Pad setzen
 * Widerstand mit der Pinzette auf das Pad schieben und gleichzeitig mit Lötkolben erhitzen
 * Schieben, bis er an der richtigen Stelle sitzt
 * Zweite Lötstelle des nun fixierten Widerstandes ausführen
 
-{% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
-<figure>
-  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor1.jpg" alt="PCB00.03.10_01_DetailSMDResistor1.jpg" class="inline" />
-<figcaption>PCB00.03.10_01_DetailSMDResistor1.jpg</figcaption>
-</figure>
-<figure>
-  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg" alt="PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg" class="inline" />
-<figcaption>PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg</figcaption>
-</figure>
-<figure>
-  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg" alt="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg" class="inline" />
-<figcaption>PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg</figcaption>
-</figure>
-<figure>
-  <img src="images_00.03.10/PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg" alt="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg" class="inline" />
-<figcaption>PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg</figcaption>
-</figure>
+{% if include.version == '00.02' -%}
+  **ToDo: Bilder für Version 00.02.xx hinzufügen.** 
+{% elsif include.version == '00.03' %}
+  {% include slider.html selector="Instructions_00_03_10_SMD" %}
 {% endif %}
 
 ## Part 2: Buchsenleisten
+
 Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden. 
 * Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
-
-
-
 
 {% if include.version == '00.02' %}**ToDo: Bilder für Version 00.02.xx hinzufügen.** {% elsif include.version == '00.03' %}
 <figure>

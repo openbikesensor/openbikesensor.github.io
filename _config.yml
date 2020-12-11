@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -54,6 +54,7 @@ exclude:
 #   - gemfiles/
    - Gemfile
    - Gemfile.lock
+   - vendor
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
@@ -76,7 +77,7 @@ heading_anchors: true
 ## Footer
 
 last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p" 
+last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 ## Color
 color_scheme: obs

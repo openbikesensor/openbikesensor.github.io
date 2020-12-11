@@ -11,3 +11,40 @@ blockquote p {
 }
 
 
+@media print {
+  .noprint {
+    display:none;
+  }
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
+
+figure {
+  margin: 2rem 0;
+
+  @media screen {
+    border: 1px solid #b3b3b3;
+    padding: 2px;
+  }
+
+  > img {
+    margin: 0 auto;
+    display: block;
+
+    @media print {
+      max-height: 10cm;
+    }
+  }
+
+  figcaption {
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    padding: 0.5rem 2rem;
+  }
+}
+
