@@ -24,8 +24,8 @@ OpenBikeSensor.
 [Homepage](https://openbikesensor.org){: .btn }
 [Github](http://github.com/Friends-of-OpenBikeSensor){: .btn }
 [Slack](https://openbikesensor.org/slack){: .btn }
-[Daten-Portal](https://openbikesensor.hlrs.de/){: .btn }
-[E-Mail](mailto:info@openbikesensor.org){: .btn }
+[Data Portal](https://openbikesensor.hlrs.de/){: .btn }
+[e-Mail](mailto:info@openbikesensor.org){: .btn }
 [Twitter](http://twitter.com/openbikesensor?lang=de){: .btn }
 
 
