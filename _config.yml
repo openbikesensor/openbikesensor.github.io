@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: OpenBikeSensor
-email: your-email@example.com
+email: info@openbikesensor.org
 description: >-
   Home of the open source, open data and citizen science project
   OpenBikeSensor.
