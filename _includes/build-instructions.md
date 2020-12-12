@@ -87,7 +87,7 @@ einfach besser als eine Tabelle es kann\
 Du findest Fehler oder hast Fragen? Dann melde dich entweder in unserem
 Slack ([openbikesensor.org/slack](openbikesensor.org/slack)) oder
 hinterlasse einen Issue in unserem Git
-<https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Building-Instructions>.
+<https://github.com/openbikesensor/OpenBikeSensor_PCB_Building-Instructions>.
 
 Vorbereitung
 ============

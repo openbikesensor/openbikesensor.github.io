@@ -22,7 +22,7 @@ OpenBikeSensor.
 ## External Links
 
 [Homepage](https://openbikesensor.org){: .btn }
-[Github](http://github.com/Friends-of-OpenBikeSensor){: .btn }
+[Github](http://github.com/openbikesensor){: .btn }
 [Slack](https://openbikesensor.org/slack){: .btn }
 [Data Portal](https://openbikesensor.hlrs.de/){: .btn }
 [e-Mail](mailto:info@openbikesensor.org){: .btn }

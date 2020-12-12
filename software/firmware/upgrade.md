@@ -22,7 +22,7 @@ Nach dem Upgrade startet man den OpenBikeSensor entweder ohne angeschlossenes Di
 **/dev/ttyUSB0** muss für den Benutzer beschreibbar sein.
 
 #### Variante 1: Download und Esptool
-Die aktuelle Firmware kann man [hier herunterladen](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensorFirmware/releases).
+Die aktuelle Firmware kann man [hier herunterladen](https://github.com/openbikesensor/OpenBikeSensorFirmware/releases).
 
 Dann führt man aus:
 
@@ -57,7 +57,7 @@ Git und PlatformIO müssen installiert sein.
 
 Zuerst klont man das Repo mit der Firmware.
 
-````git clone https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensorFirmware.git````
+````git clone https://github.com/openbikesensor/OpenBikeSensorFirmware.git````
 
 Dann wechselt man in das Verzeichnis
 ````cd OpenBikeSensorFirmware````

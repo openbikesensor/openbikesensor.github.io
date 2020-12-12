@@ -24,7 +24,7 @@ nav_order: 2
 ### Sensor and pcb related parts
 * 2x[JSN-SR04T](https://de.aliexpress.com/item/32737648330.html)
 * [resistors, capacitors, connectors, etc.](https://www.reichelt.de/my/1746485)
-* [PCB v00.03.xx](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/tree/JSN-SR04T)
+* [PCB v00.03.xx](https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/tree/JSN-SR04T)
 * 2xSMD connector - [10pcs](https://www.ebay.de/itm/10-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEU-BP/231930033721), [100pcs](https://www.ebay.de/itm/100-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEW/233091176275)
 
 ### Vertical Case
@@ -45,7 +45,7 @@ You need all items from above list, just replace the case with
 
 ### Horizontal case
 
-* [Horizontal Case](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor3dPrintableCase/tree/master/PCB_Case_Horizontal)
+* [Horizontal Case](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/PCB_Case_Horizontal)
 * Screws and nuts
 
 ## "HC-SR04P" variant
@@ -62,4 +62,4 @@ You need all items from above list, just replace the case with
 
 ## Full overview of all PCB 00.02.07-parts
 
-The hardware list can be [found here](https://htmlpreview.github.io/?https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html).
+The hardware list can be [found here](https://htmlpreview.github.io/?https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/blob/Mit_Verpolschutz/BOM_for%20overview_and_ordering_Rev_00.02.07.html).

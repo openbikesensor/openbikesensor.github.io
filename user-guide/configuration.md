@@ -67,7 +67,7 @@ Define your home location and diameter of the privacy zone in the corresponding 
 Setup for upload-server to collect track data
 - Preset for HLRS-project: openbikesensor.hlrs.de
 - To upload track data, you need a user account on the website openbikesensor.hlrs.de (or other compatible online-service) 
-- API Key: Insert the individual API key from your user account at openbiksensor.hlrs.de in the field below the upload sensor
+- API Key: Insert the individual API key from your user account at openbikesensor.hlrs.de in the field below the upload sensor
 
 #### Operation
 
@@ -108,7 +108,7 @@ update.
 
 You can directly upload a precompiled binary; the latest release can always be
 found
-[here](https://github.com/Friends-of-OpenBikeSensor/OpenBikeSensorFirmware/releases).
+[here](https://github.com/openbikesensor/OpenBikeSensorFirmware/releases).
 
 ### Reboot
 

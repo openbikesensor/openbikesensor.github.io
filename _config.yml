@@ -44,7 +44,7 @@ search_enabled: true
 
 aux_links:
   "GitHub":
-    - "//github.com/Friends-of-OpenBikeSensor"
+    - "//github.com/openbikesensor"
   "Twitter":
     - "//twitter.com/openbikesensor"
 
