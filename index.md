@@ -15,7 +15,7 @@ OpenBikeSensor.
 
 * [Introduction Video on Youtube](https://www.youtube.com/watch?v=YrpipBDGe9s)
 * [Get started now](getting_started/usage.html)
-* [Bill of Materials -- What you need to build your own OBS](/hardware/hardware.html)
+* [Bill of Materials -- What you need to build your own OBS](/hardware/parts.html)
 * [Build instructions for 00.02 (German)](/hardware/v00.02/build-instructions.html)
 * [Quick build instructions for 00.03 (German)](/hardware/v00.03/build-instructions-short.html)
 
