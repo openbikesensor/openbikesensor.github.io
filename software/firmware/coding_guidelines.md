@@ -3,6 +3,7 @@ layout: default
 title: Coding Guidelines
 parent: Firmware
 grand_parent: Software
+nav_order: 2
 ---
 
 # Coding Guidelines

@@ -4,11 +4,11 @@
   settings:
     height: "'4:3'"
   images:
-    - src: /hardware/pcb_board/images_00.03.10/PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg
+    - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg
       alt: Einen Lötpunkt auf eines der Pads von R7 setzen.
-    - src: /hardware/pcb_board/images_00.03.10/PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg
+    - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg
       alt: Der Lötpunkt ist auf ein Pad von R7 gesetzt
-    - src: /hardware/pcb_board/images_00.03.10/PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg
+    - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg
       alt: Den Widerstand flach von der Seite darauf schieben.
-    - src: /hardware/pcb_board/images_00.03.10/PCB00.03.10_01_DetailSMDResistor1.jpg
+    - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor1.jpg
       alt: Widerstand R6 ebenfalls so anbringen.
