@@ -1,14 +1,372 @@
-- selector: Instructions_00_03_10_SMD
+- selector: Instructions_00_03_10_ResistorsSMD
   captions: true
   bullets: true
   settings:
     height: "'4:3'"
   images:
     - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor_01_Loetpunkt.jpg
-      alt: Einen Lötpunkt auf eines der Pads von R7 setzen.
+      alt: Einen Lötpunkt auf eines der Pads von R7 setzen
     - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg
       alt: Der Lötpunkt ist auf ein Pad von R7 gesetzt
     - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg
-      alt: Den Widerstand flach von der Seite darauf schieben.
+      alt: Den Widerstand flach von der Seite darauf schieben
     - src: /assets/images/v00.03/PCB00.03.10_01_DetailSMDResistor1.jpg
-      alt: Widerstand R6 ebenfalls so anbringen.
+      alt: Widerstand R6 ebenfalls so anbringen
+
+- selector: Instructions_00_03_10_PinHeaders
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg
+      alt: Buchsenleite zuschneiden
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg
+      alt: Buchsenleisten auf ESP32 aufstecken
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg
+      alt: Buchsenleisten auf ESP32 aufstecken
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg
+      alt: Gemeinsam auf dem PCB platzieren
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg
+      alt: Zunächst an einem Eckpunkt fixieren
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg
+      alt: Ausrichten und auf der gegenüberliegenden Seite enbenfalls fixieren
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite07_an4Eckenloeten.jpg
+      alt: Ebenso die andere Seite
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite08_alleLoetstellen.jpg
+      alt: Alle äußeren Pins festlöten
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite09_alleLoetstellen.jpg
+      alt: Alle äußeren Pins festlöten
+    - src: /assets/images/v00.03/PCB00.03.10_02_DetailBuchsenleite10_innereLoetstellen.jpg
+      alt: Dann den ESP32 entfernen und die Innenseite verlöten
+
+- selector: Instructions_00_03_10_Regulator
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_01_Stiftleisten_ablaengen.jpg
+      alt: Stiftleisten ablängen
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_02_Stiftleisten_ablaengen.jpg
+      alt: Vorbereitete Stiftleisten
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_03_Boardplatzieren.jpg
+      alt: Board platzieren und mit Stiften ausrichten
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_04_Boardloeten01.jpg
+      alt: Freie Kontakte löten
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg
+      alt: Stifte entfernen
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg
+      alt: Restliche Kontakte löten
+
+- selector: Instructions_00_03_10_Charger
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg
+      alt: Lademodul mit Stiften
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_07_Lademodulplatziert.jpg
+      alt: Lademodul platziert
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg
+      alt: Oberseite mit 2 Lötstellen
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg
+      alt: Von unten anlöten
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg
+      alt: Schwarze Plastikteile von Stiftleiste entfernen
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_11_Oberseitefertigverloetet.jpg
+      alt: Oberseite fertig verlötet
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_12_Unterseite.jpg
+      alt: Unterseite
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_13_AufBeidenSeitenStifteKuerzen.jpg
+      alt: Auf beiden Seiten Stifte kürzen
+    - src: /assets/images/v00.03/PCB00.03.10_03_Spannunsversorgung_13_UnterseiteVerloetet.jpg
+      alt: Unterseite verlöten
+
+- selector: Instructions_00_03_10_Capacitors
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_04_Kondesatoren_01_Kondensatoren.jpg
+      alt: Die Kondensatoren
+    - src: /assets/images/v00.03/PCB00.03.10_04_Kondesatoren_01_KondensatorenPlatzieren.jpg
+      alt: Kondensatoren platzieren, auf Polung achten!
+    - src: /assets/images/v00.03/PCB00.03.10_04_Kondesatoren_01_KondensatorenUmbiegen.jpg
+      alt: Draht auf der Rückseite umbiegen
+    - src: /assets/images/v00.03/PCB00.03.10_04_Kondesatoren_01_KondensatorenVerloetenUndKuerzen.jpg
+      alt: Verlöten und Drähte kürzen
+
+
+- selector: Instructions_00_03_10_TransistorBridge
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_05_Transistorbruecke_01_Bruecke.jpg
+      alt: Aus einem Stück Draht eine Brücke biegen
+    - src: /assets/images/v00.03/PCB00.03.10_05_Transistorbruecke_01_BrueckeEinsetzen.jpg
+      alt: Die Brücke bei Q1 von der Oberseite einsetzen
+    - src: /assets/images/v00.03/PCB00.03.10_05_Transistorbruecke_01_BrueckeVerloetenUndKuerzen.jpg
+      alt: Auf der Rückseite verlöten und kürzen
+
+- selector: Instructions_00_03_10_ResistorsTHT
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg
+      alt: Die Widerstände bereitlegen
+    - src: /assets/images/v00.03/PCB00.03.10_06_Widerstaende_01_platzieren.jpg
+      alt: Auf dem Board platzieren
+    - src: /assets/images/v00.03/PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg
+      alt: Auf der Rückseite verlöten und kürzen
+
+- selector: Instructions_00_03_10_Fuse
+  captions: false
+  bullets: false # does not work on 1 image
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_07_Sicherung_01.jpg
+      alt: Die Sicherung (oben rechts) anbringen
+
+- selector: Instructions_00_03_10_BatteryConnector
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_08_Batteriestecker_01.jpg
+      alt: Der Batterieverbinder mit Kabel, um die Polung zu prüfen
+    - src: /assets/images/v00.03/PCB00.03.10_08_Batteriestecker_02.jpg
+      alt: Auf der Rückseite verlöten
+
+- selector: Instructions_00_03_10_Diode
+  captions: false
+  bullets: false # does not work on 1 image
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_09_Diode_01.jpg
+      alt: Die verlötete Diode
+
+- selector: Instructions_00_03_10_Connectors
+  captions: false
+  bullets: false # does not work on 1 image
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_10_Steckerleisten_01.jpg
+      alt: Verbinder für Schalter und Display auf der Oberseite anbringen
+
+- selector: Instructions_00_03_10_SensorBoards
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_11_Sensormodule_01_platzieren.jpg
+      alt: Boards grob platzieren
+    - src: /assets/images/v00.03/PCB00.03.10_11_Sensormodule_02_ausrichten.jpg
+      alt: Ausrichten, sodass sie senkrecht stehen und sich nicht berühren
+    - src: /assets/images/v00.03/PCB00.03.10_11_Sensormodule_04_loeten.jpg
+      alt: Kontakte auf der Rückseite verlöten
+    - src: /assets/images/v00.03/PCB00.03.10_11_Sensormodule_05_kuerzen.jpg
+      alt: Beine kürzen
+
+- selector: Instructions_00_03_10_SDCardModule
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_12_SD-Karte_01_mit_Stiftleisten.jpg
+      alt: SD-Karten Modul und Stiftleiste
+    - src: /assets/images/v00.03/PCB00.03.10_12_SD-Karte_02_Stiftleiste_gesteckt.jpg
+      alt: Stiftleiste in Modul einstecken und verlöten (Richtung beachten)
+    - src: /assets/images/v00.03/PCB00.03.10_12_SD-Karte_03_Modul_platziert.jpg
+      alt: Modul platzieren
+    - src: /assets/images/v00.03/PCB00.03.10_12_SD-Karte_04_Modul_geloetet.jpg
+      alt: Auf der Rückseite anlöten und kürzen
+
+- selector: Instructions_00_03_10_GPSModule
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_13_GPS-Module_01_Modul.jpg
+      alt: Das GPS-Modul mit Antenne (große Variante)
+    - src: /assets/images/v00.03/PCB00.03.10_13_GPS-Module_02_Modul_mit_Stiftleiste.jpg
+      alt: Das GPS-Modul mit Stiftleiste
+    - src: /assets/images/v00.03/PCB00.03.10_13_GPS-Module_03_Stiftleiste_ohne_Modul_ins_PCB_stecken.jpg
+      alt: Stiftleiste ohne Modul von unten ins PCB stecken
+    - src: /assets/images/v00.03/PCB00.03.10_13_GPS-Module_05_Stiftleiste_anloeten.jpg
+      alt: Stiftleiste auf Vorderseite anlöten
+    - src: /assets/images/v00.03/PCB00.03.10_13_GPS-Module_06_Stiftleiste_geloetet.jpg
+      alt: Stiftleiste gelötet
+    - src: /assets/images/v00.03/PCB00.03.10_13_GPS-Module_07_GPS-Modul_ausgerichtet.jpg
+      alt: GPS-Modul aufstecken und ausrichten
+    - src: /assets/images/v00.03/PCB00.03.10_13_GPS-Module_08_GPS-Modul_geloetet.jpg
+      alt: GPS-Modul anlöten, Kontakte kürzen
+
+- selector: Instructions_00_03_10_Switch
+  captions: false
+  bullets: false # does not work on 1 image
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_14_Schalter_01_Schalter_mit_Kabel_und_Stecker.jpg
+      alt: Schalter mit Kabel und stecker
+
+- selector: Instructions_00_03_10_SensorWires
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg
+      alt: Sensor mit gekürztem Kabel und Stecker
+    - src: /assets/images/v00.03/PCB00.03.10_15_Sensor_03_Sensor_Detail_Stecker.jpg
+      alt: Detailaufnahme Stecker und Schirmung
+
+- selector: Instructions_00_03_10_BatteryWires
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg
+      alt: Akku mit Kabel und Stecker (Polung beachten!)
+    - src: /assets/images/v00.03/PCB00.03.10_16_Akku_02_Kontakte_isolieren.jpg
+      alt: Kontakte isolieren
+
+- selector: Instructions_00_03_10_DisplayWiring
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_01_Kabel_abisoliert_Crimp_in_Zange.jpg
+      alt: Kabel abisoliert, Crimp in Zange
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_02_alle_5_Adern_gecrimpt.jpg
+      alt: Alle 5 Adern crimpen
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_03_Stecker.jpg
+      alt: OBS-Seite in Stecker einführen
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg
+      alt: Kabel durch Gehäuseunterteil ziehen
+
+- selector: Instructions_00_03_10_DisplayFitting
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_05_verschiedene_Displays_vom_gleichen_Lieferanten.jpg
+      alt: Verschiedene Displays vom gleichen Lieferanten
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_07_Display_in_Geh&auml;use_einpassen_keine_Gewalt.jpg
+      alt: Display in Gehäuse einpassen, ohne Gewalt
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_07a_Display_mit_Seitenschneider_stutzen.jpg
+      alt: Wenn nötig, Display mit Seitenschneider stutzen
+
+- selector: Instructions_00_03_10_Button
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg
+      alt: Kurzes Stück Kabel (2-3cm) für Button
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg
+      alt: Auf Display-Seite 4 Adern crimpen, Zusatzkabel zu VDD dazu
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg
+      alt: Fünftes Kabel und VDD Verbindungsstück an Stecker anlöten
+
+- selector: Instructions_00_03_10_DisplayAssembly
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg
+      alt: Magnete passend einlegen
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_11_Muttern_in_Gehaeuse_ziehen_mit_groeßeren_Schrauben.jpg
+      alt: Muttern in Gehäuse ziehen mithilfe langer Schrauben
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg
+      alt: Lange Schrauben durch die richtigen, kürzeren ersetzen
+
+- selector: Instructions_00_03_10_DisplayStrainRelief
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_13_Zugsicherung.jpg
+      alt: Die Teile der Zugentlastung
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_14_Zugsicherung_erstes_teil_eingesetzt.jpg
+      alt: Erstes Teil einsetzen
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_15_Zugsicherung_zweites_Teil_eingesetzt.jpg
+      alt: Zweites Teil einsetzen
+    - src: /assets/images/v00.03/PCB00.03.10_17_Display_16_Zugsicherung_verschraubt.jpg
+      alt: Zugentlastung verschrauben
+
+- selector: Instructions_00_03_10_Testing
+  captions: false
+  bullets: false # does not work on 1 image
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg
+      alt: Schalter und Batterie anschließen zum Testen
+
+- selector: Instructions_00_03_10_PrepareCase
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_19_Gehaeuse_03_GPS_Antenne_einsetzen_keine_Gewalt.jpg
+      alt: GPS-Antenne einsetzen (keine Gewalt)
+    - src: /assets/images/v00.03/PCB00.03.10_19_Gehaeuse_04_Akku_und_Ultraschallsensor_an_Deckel_montieren_Bezeichnung_UP_beachten.jpg
+      alt: Akku und Ultraschallsensor an Deckel montieren ("Up"-Pfeil beachten)
+    - src: /assets/images/v00.03/PCB00.03.10_19_Gehaeuse_05_GPS_anschliessen.jpg
+      alt: GPS-Antenne anschliessen
+    - src: /assets/images/v00.03/PCB00.03.10_19_Gehaeuse_06_US-Sensore_anstecken.jpg
+      alt: Ultraschallsensoren einstecken
+    - src: /assets/images/v00.03/PCB00.03.10_19_Gehaeuse_07_USB-C-Ladebuchse_ohne_Gewalt_in_Aussparung_einfaedeln.jpg
+      alt: Ladebuchse (USB-C) ohne Gewalt in die Aussparung einfädeln
+
+- selector: Instructions_00_03_10_FinalAssembly
+  captions: true
+  bullets: true
+  settings:
+    height: "'4:3'"
+  images:
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_01_Displaykabel_zwischen_SD-Kartenleser_und_GPS_fuehren.jpg
+      alt: Displaykabel zwischen SD-Kartenleser und GPS-Modul führen
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_02_PCB_festschrauben.jpg
+      alt: PCB festschrauben
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_03_Halterung_und_Zugsicherung_festschrauben.jpg
+      alt: Halterung und Zugentlastung festschrauben
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten_8-10Lagen_Alufolien_mit_Klebeband_isoliert_oder_eingeschweisst.jpg
+      alt: Abschirmung vorbereiten (8-10 Lagen Alufolie mit Klebeband isoliert oder eingeschweißt)
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_05_Abschirmung_platzieren.jpg
+      alt: Abschirmung platzieren
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_06_GPS-Deckel_festschrauben_Orientierung_Halterung.jpg
+      alt: GPS-Deckel festschrauben
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_07_Deckel_festschrauben.jpg
+      alt: Deckel festschrauben
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_08_Magnete_in_USB-Deckel_druecken.jpg
+      alt: Magnete in die Abdeckung der Ladebuchse eindrücken
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_09_weitere_Magnete_draufsetzen.jpg
+      alt: Weitere Magnete daraufsetzen (für korrekte Polung)
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_10_mithilfe_des_Deckels_Magnete_in_Gehaeuse_druecken.jpg
+      alt: Zusammen die Magnete in das Gehäuse drücken
+    - src: /assets/images/v00.03/PCB00.03.10_20_Zusammenbau_11_fertig.jpg
+      alt: Fertig
+
