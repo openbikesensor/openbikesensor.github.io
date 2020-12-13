@@ -285,12 +285,14 @@ das Gehäuse.**
 * Kabel abisolieren und auf einer Seite 5x crimpen. Dabei **nur 1-2mm
   abisolieren und für stabilen Halt mit Isolierung crimpen**.
 * Gecrimpte Kabelenden in den 5er Stecker einführen. OBS-PCB und Display sind
-  beschriftet. Zuordnung der Farben zu Beschriftung notieren. Empfehlung: 
+  beschriftet. Zuordnung der Farben zu Beschriftung notieren. {% comment %}Empfehlung: 
 	* Braun – VCC/VDD
 	* Schwarz – GND
 	* Blau – BUT
 	* Weiß – SDA
 	* Grau – SCL
+{% endcomment %}
+
 * **Vor Anschluss des Displays Kabel durch Displaygehäuse-Unterteil führen**
 * Zwei Optionen für Anschluss an das OLED-Displayboard 
   1. Display-Seite crimpen
