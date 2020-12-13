@@ -28,7 +28,6 @@ OpenBikeSensor.
 [e-Mail](mailto:info@openbikesensor.org){: .btn }
 [Twitter](http://twitter.com/openbikesensor?lang=de){: .btn }
 
-
 On [github.com/openbikesensor](https://github.com/openbikesensor), you'll find
 the repositories with the firmware, PCB, 3D printable cases, data portal, and
 the source of this website.
