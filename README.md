@@ -1,6 +1,6 @@
 # Find the documentation
 
-You can find the documentation at: https://friends-of-openbikesensor.github.io
+You can find the documentation at: https://openbikesensor.github.io/
 
 ## Build docs locally
 
