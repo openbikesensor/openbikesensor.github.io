@@ -2,7 +2,7 @@
 layout: default
 title: Kontakt
 has_children: false
-nav_order: 3
+nav_order: 11
 ---
 
 # Kontakt

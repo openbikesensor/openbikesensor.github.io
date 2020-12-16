@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Über
+title: Über uns
 has_children: false
-nav_order: 2
+nav_order: 10
 ---
 
 # Über uns – Wer steht hinter dem OpenBikeSensor und was ist das Ziel?
