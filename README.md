@@ -8,7 +8,7 @@ You can find the documentation at: https://openbikesensor.github.io/
 2. Clone this repo
 3. Run the following commands
   ```bash
-  cd Friends-of-OpenBikeSensor.github.io/
+  cd openbikesensor.github.io/
   bundle install
   make
   ```
