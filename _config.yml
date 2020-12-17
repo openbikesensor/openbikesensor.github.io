@@ -35,9 +35,6 @@ exclude:
    - Gemfile.lock
    - vendor
 
-plugins:
-  - jekyll-youtube
-   
 # Theme
 remote_theme: pmarsceill/just-the-docs
 
