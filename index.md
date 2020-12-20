@@ -18,7 +18,7 @@ Die Community kommuniziert zum Großteil im offen [Slack](https://openbikesensor
 
 In das Datenportal können die Nutzer die Daten ihres OpenBikeSensors hochladen und (falls sie wollen) ihre Daten als OpenData mit allen teilen.
 
-[Video über den OpenBikeSensor](https://www.youtube.com/watch?v=YrpipBDGe9s)
+<img class="youtube-video" data-video-id="YrpipBDGe9s" src="{{ "assets/thumbnails/YrpipBDGe9s.jpg" | relative_url }}" alt="Video über den OpenBikeSensor" />
 
 ## Visualisierung
 Wer noch Ideen zur Visualisierung, Automatisierung, Programmierung, Auswertung, etc. hat oder einfach am Projekt interessiert ist und auf dem Laufenden gehalten werden will, kann sich gerne in der Community auf Slack einbringen.
@@ -32,7 +32,8 @@ Dies ist ein Beispiel einer Auswertung von einigen Überholvorgängen in Stuttga
 
 
 ## Video
-[Eine frühere Version des OpenBikeSensor in Aktion](https://www.youtube.com/watch?v=izUD16ffs_Q)
+
+<img class="youtube-video" data-video-id="izUD16ffs_Q" src="{{ "/assets/thumbnails/izUD16ffs_Q.jpg" | relative_url }}" alt="Eine frühere Version des OpenBikeSensor in Aktion" />
 
 ## Unterstützen
 Falls ihr uns gerne unterstützen möchtet, aber euch die Zeit und/oder die Fähigkeiten zum Mitentwickeln von Hard- und Software zur Erfassung, Auswertung und Visualisierung fehlen, dann könnt ihr das ab sofort auch mit Spenden tun.
