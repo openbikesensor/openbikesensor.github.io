@@ -34,7 +34,7 @@ setColorTheme(theme == undefined ? 'light' : theme)
 
 function labnolIframe(div, videoId) {
   var iframe = document.createElement('iframe')
-  iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0')
+  iframe.setAttribute('src', 'https://www.youtube.com/embed/' + div.dataset.videoId + '?autoplay=1&rel=0')
   iframe.setAttribute('frameborder', '0')
   iframe.setAttribute('allowfullscreen', '1')
   iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture')
@@ -51,7 +51,7 @@ function initYouTubeVideos() {
     var videoId = img.dataset.videoId
 
     var div = document.createElement('div')
-    div.setAttribute('data-id', videoId)
+    div.setAttribute('data-video-id', videoId)
     div.className = 'youtube-video-wrapper'
 
     var playButton = document.createElement('div')
