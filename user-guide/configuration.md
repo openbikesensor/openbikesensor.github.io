@@ -16,7 +16,7 @@ device.
 
 - On first start of the configuration mode or if you are outside of the Range of your WiFi, the OpenBikeSensor will open a unique WiFi access point 
 - The access point is named after the MAC adress "OpenBikeSensor-xxxxxxxxxxxx" with the initial password "12345678" 
-- The configuration page can be found on "http://openbikesensor.local" or "172.20.0.1" on the AP 
+- The configuration page can be found on "172.20.0.1" on the AP 
 
 ### WiFi Mode
 - It might be neccessary to de-activate the mobile data on your mobile phone to access this page.  
