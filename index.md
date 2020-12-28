@@ -14,7 +14,7 @@ Ein fertiges Produkt ist es noch nicht, man kann ihn nicht bei uns kaufen. Aber 
 
 Auf Github liegen die Repositories der Firmware, des PCBs, der Gehäuse zum 3d-Drucken, Front- und Backend des Daten-Portals und diese Dokuseite.
 
-Die Community kommuniziert zum Großteil im offen [Slack](https://openbikesensor.org/slack).
+Die Community kommuniziert zum Großteil im offenen [Slack](https://openbikesensor.org/slack).
 
 In das Datenportal können die Nutzer die Daten ihres OpenBikeSensors hochladen und (falls sie wollen) ihre Daten als OpenData mit allen teilen.
 
