@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_exclude: true
+title: Slack
+parent: Contribute
+nav_order: 1
 ---
 
 # Slack
