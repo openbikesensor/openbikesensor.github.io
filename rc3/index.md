@@ -22,7 +22,7 @@ das Datenspenden von fleißigen Radler\*innen veröffentlicht.
 ## Wo geht's weiter?
 
 * [Unsere Homepage](https://openbikesensor.github.io)
-* [Offener Slack](https://join.slack.com/t/openbikesensor/shared_invite/zt-bxxr3taf-bD1UZqSmgFIy63qAm0MQXw)
+* [Offener Slack](https://openbikesensor.org/slack)
 * [Twitter @openbikesensor](https://twitter.com/openbikesensor)
 * [Github @openbikesensor](https://github.com/openbikesensor)
 
