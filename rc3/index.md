@@ -1,5 +1,6 @@
 ---
 layout: rc3
+nav_exclude: true
 ---
 
 # Hallo rC3!
