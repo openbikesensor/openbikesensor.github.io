@@ -15,5 +15,5 @@ Die Community kommuniziert zum Großteil im offenen Slack. Alle sind eingeladen,
 * Sammelbestellungen organisieren,
 * ...und vieles mehr!
 
-[Klick hier, um Slack beizutreten](https://openbikesensor.slack.com/join/shared_invite/zt-bxxr3taf-bD1UZqSmgFIy63qAm0MQXwslack)
+[Klick hier, um Slack beizutreten](https://openbikesensor.slack.com/join/shared_invite/zt-bxxr3taf-bD1UZqSmgFIy63qAm0MQXw)
 
