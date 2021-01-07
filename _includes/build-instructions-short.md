@@ -225,6 +225,8 @@ gibt es die [detaillierte Aufbauanleitung](/hardware/v{{ include.version
 * GPS-Modul aufstecken 
 * Verlöten und Stifte kürzen
 
+**Achtung! Achte darauf, dass das kurze Ende der Stiftleiste in das Board und das lange Ende in das GPS-Modul eingelötet wird. Ansonsten ragt das GPS-Modul aus dem Gehäuse heraus.*
+
 {% if include.version == '00.02' %}
 **ToDo: Bilder für Version 00.02.xx hinzufügen.**
 {% elsif include.version == '00.03' %}
