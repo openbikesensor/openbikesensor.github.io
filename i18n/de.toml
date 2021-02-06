@@ -2,4 +2,5 @@
 other = "Diese Seite gibt es noch nicht auf Deutsch, aber vielleicht sprichst Du ja..."
 
 [footer_all_rights_reserved]
-other = "Inhalte "
+other_X = "– Inhalte CC-BY, soweit nicht anders vermerkt"
+other = "– Alle Rechte vorbehalten"
