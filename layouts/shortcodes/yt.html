@@ -1,0 +1,10 @@
+{{ $Thumbnail := resources.Get (.Get  "thumbnail") }}
+<a class="youtube-video-wrapper" data-video-id="{{.Get "id"}}" href="https://www.youtube.com/watch?v={{ .Get "id" }}" target="_blank">
+  <div class="play"></div>
+  <div class="comment">Play content from youtube.com</div>
+	{{if (.Get "thumbnail")}}
+  <img src="{{ $Thumbnail.Permalink }}" alt="YouTube Thumbnail" class="thumbnail" />
+	{{else}}
+  <img src="//img.youtube.com/vi/{{.Get "id"}}/0.jpg" alt="YouTube Thumbnail" class="thumbnail" />
+	{{end}}
+</a>

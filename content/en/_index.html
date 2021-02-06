@@ -1,0 +1,86 @@
+---
+title: OpenBikeSensor
+linkTitle: About
+menu:
+  main:
+    weight: 10
+---
+
+{{< blocks/cover title="OpenBikeSensor" image_anchor="top" height="400" >}}
+<div class="mx-auto">
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/bep">
+		Github <i class="fab fa-github ml-2 "></i>
+	</a>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://openbikesensor.org/slack">
+		Slack<i class="fab fa-slack ml-2 "></i>
+	</a>
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
+		Documentation <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	</a>
+	<p class="lead mt-5">Passing distance measurement for cyclists. Open source, open data, open science.</p>
+</div>
+{{< /blocks/cover >}}
+
+
+{{% blocks/section color="secondary" %}}
+
+<div class="container homepage-container">
+The OpenBikeSensor is a small electronic device attached to a bicycle that records
+the distance to passing vehicles during the ride.
+
+It's not a finished product, and you cannot purchase an OpenBikeSensor. But
+there is plans and information available publicly to build your own. Have a
+look at <a href="https://github.com/openbikesensor">Github</a>, where there are
+repositories for the firmware, PCBs, the files for 3D printing the case, the
+software for the frontend and backend of the data portal, and this
+documentation page. You're invited to join and help develop the sensor.
+
+The community mostly communicates through the open <a href="https://openbikesensor.org/slack" target="_blank">Slack</a>.
+
+In our data portal, users can upload data recorded with their OpenBikeSensors and
+optionally share them as Open Data with the public.
+
+{{< yt id=YrpipBDGe9s thumbnail="/thumbnails/YrpipBDGe9s.jpg" >}}
+
+</div>
+
+{{% /blocks/section %}}
+
+{{% blocks/lead color="dark" %}}
+## Visualisation
+{{% /blocks/lead %}}
+
+{{% blocks/section color="secondary" %}}
+
+<div class="container homepage-container">
+
+An important part of this project is enabling the analysis of the collected data.
+That's why we write software to extract interesting values from the recorded
+track files and visualise them.
+
+Here we show an example visualisation of a number of overtaking manoeuvres and
+their distances from Stuttgart, Germany. The values come from an experienced
+cyclist who moves in traffic routinely with confidently. Of course this cyclist
+was passed many times below the legal threshold of 1.5m, some measurements are
+even as low as 50cm.
+
+<div style="display: flex; justify-content: center;">
+{{< imgproc visualisierung Resize "800x" />}}
+</div>
+
+Another example shows a single overtaking, of which a video recording was
+available as well. We overlay GPS information as well as the recorded sideways
+distance to the passing vehicle. We hope presenting information in context like
+this makes it easier to relate and get a feel for the danger the cyclist is
+exposed to in this very moment.
+
+{{< yt id=izUD16ffs_Q thumbnail="/thumbnails/izUD16ffs_Q.jpg" >}}
+
+If you have ideas for visualisation, automation, software and tool development
+and analysis of the data available from the recorded tracks, or you're just
+interested in joining the project or keeping up to date with it, please join
+the community in the open slack.
+
+</div>
+
+{{% /blocks/section %}}

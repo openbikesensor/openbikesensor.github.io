@@ -1,0 +1,143 @@
+body {
+  line-height: 1.7em;
+}
+
+.td-content {
+  max-width: 60rem;
+}
+
+.btn {
+    border-radius: 0.2rem;
+
+    &-lg {
+        border-radius: 0.4rem;
+    }
+
+    &-sm {
+        border-radius: 0.2rem;
+    }
+}
+
+.youtube-video-wrapper {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 3rem 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+  }
+
+  img {
+    object-fit: cover;
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    transition: 0.4s all;
+  }
+
+
+  &:hover img {
+    -webkit-filter: brightness(75%);
+  }
+
+  .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url('../images/play.png') no-repeat;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .comment {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50px);
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    color: white;
+  }
+}
+
+.ideal-image-slider {
+  max-width: 60rem;
+  margin: 2rem 0;
+}
+
+.print-only .noprint,
+.noprint .print-only {
+  display:none;
+}
+
+@media print {
+  .noprint {
+    display:none;
+  }
+
+  .td-content {
+    column-count: 2;
+    column-gap: 2rem;
+
+    > h1, > h2, > h3, > p, > ul, > .alert, > blockquote {
+      column-span: all;
+    }
+
+    figure {
+      break-inside: avoid;
+    }
+  }
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
+
+
+#td-cover-block-0 {
+    background-position: bottom center;
+}
+
+
+.container {
+  figure {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.homepage-container {
+  font-size: 13pt;
+}
+.lead {
+  font-weight: 500;
+}

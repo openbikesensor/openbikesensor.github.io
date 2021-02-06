@@ -1,0 +1,11 @@
+{{ if eq (.Get 0) 1 }}
+<p>{{ i18n "page_not_translated" }}</p>
+{{ end }}
+
+<ul>
+  {{ range $.Page.AllTranslations }}
+  {{ if ne . $.Page }}
+  <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>: {{ .Title }}</li>
+  {{ end }}
+  {{ end }}
+</ul>
