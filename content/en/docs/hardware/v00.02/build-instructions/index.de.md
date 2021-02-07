@@ -1,5 +1,6 @@
 ---
 title: Bauanleitung v00.02
+linkTitle: Bauanleitung
 ---
 
 {{< imgproc 20200726_184611.jpg Resize 600x >}}

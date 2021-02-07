@@ -4,7 +4,7 @@ linkTitle: Quick Start
 weight: 10
 ---
 
-> This guide assumes that you have a working OpenBikeSensor. [If you don't, start here!](/hardware)
+> This guide assumes that you have a working OpenBikeSensor. [If you don't, start here!]({{< ref "/docs/hardware" >}} "Hardware")
 
 In case you might get a OpenBikeSensor, you should do some first steps.
 

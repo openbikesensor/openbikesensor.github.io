@@ -1,8 +1,7 @@
 ---
-parent: Hardware
+title: Model selection
+weight: 10
 ---
-
-# Model selection
 
 Starting to build an OpenBikeSensor, there are three models to choose from.
 
