@@ -5,4 +5,33 @@ menu:
     weight: 40
 ---
 
-<!--add blocks of content here to add more sections to the community page -->
+<section class="row td-box td-box--1 position-relative td-box--gradient td-box--height-auto">
+<div class="container text-center td-arrow-down">
+<span class="h4 mb-0">
+  
+# Werde Teil der OpenBikeSensor-Community
+
+Der OpenBikeSensor ist ein offenes Projekt an dem alle teilnehmen können. Hilf
+mit, den Sensor weiterzuentwickeln, auszuprobieren, Daten zu sammeln und
+auszuwerten. So kannst du mitmachen:
+
+</span>
+</div>
+</section>
+
+{{% blocks/section color="dark" %}}
+
+{{% blocks/feature icon="fab fa-slack" title="Mitreden" url="https://twitter.com/openbikesensor" %}}
+Komm in unseren Slack, und chatte mit den anderen Teilnehmenden. Hier koordinieren wir fast alles. Unterstützung, Ideen, Events...
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-github" title="Mitmachen" url="https://github.com/openbikesensor" %}}
+Schau auch mal bei unseren Github-Repositories vorbei. Dort ist der ganze Code,
+alle Pläne und Anleitungen zu finden.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-twitter" title="Mitbekommen" url="https://twitter.com/openbikesensor" %}}
+Wir halten euch auf dem Laufenden bei Twitter. Jetzt folgen und nichts verpassen!
+{{% /blocks/feature %}}
+
+{{% /blocks/section %}}

@@ -5,7 +5,7 @@ weight: 10
 ---
 
 > Diese Anleitung geht davon aus, dass du einen funktionierenden OpenBikeSensor
-> hast. Wenn nicht, [starte hier](/hardware).
+> hast. Wenn nicht, [starte hier]({{< ref "/docs/hardware" >}} "Hardware").
 
 Sobald du einen OpenBikeSensor hast, solltest du ein paar Dinge damit tun:
 

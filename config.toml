@@ -160,29 +160,3 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 [params.ui.readingtime]
 enable = false
 
-[params.links]
-# End user relevant links. These will show up on left side of footer and in the community page if you have one.
-
-[[params.links.user]]
-	name = "Slack"
-	url = "https://openbikesensor.org/slack"
-	icon = "fab fa-slack"
-  desc = "Discussion and help from your fellow users"
-
-[[params.links.user]]
-	name ="Twitter"
-	url = "https://twitter.com/openbikesensor"
-	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news!"
-
-[[params.links.developer]]
-	name = "Slack"
-	url = "https://openbikesensor.org/slack"
-	icon = "fab fa-slack"
-  desc = "Coordination and communication."
-
-[[params.links.developer]]
-	name = "Github"
-	url = "https://github.com/openbikesensor"
-	icon = "fab fa-github"
-  desc = "Project repositories, issue reporting, and contributions"

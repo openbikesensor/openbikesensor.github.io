@@ -8,11 +8,10 @@ Eine **sinnvolle Konfiguration** ist voreingestellt und sollte nur bei Bedarf ve
 |Einstellung|Wert|
 |---|---|
 | Breite des Lenkers | 70 cm |
-|Anzeigemodus|linker und rechter Abstand,<br> Batteriestatus,<br> Überholvorgänge
-|Privatzone|nicht gespeichert
-|URL zum OBS-Portal|[https://openbikesensor.hlrs.de](https://openbikesensor.hlrs.de)
-|API Key als Benutzer-ID|exklusiv für ADFC WF
-|WLAN Login|Netzwerkname,<br> Netzwerkschlüssel
+|Anzeigemodus | linker und rechter Abstand, Batteriestatus, Überholvorgänge
+|Privatzone | nicht gespeichert
+|URL zum OBS-Portal | `https://openbikesensor.hlrs.de`
+|WLAN Login | Netzwerkname, Netzwerkschlüssel
 
 ## Anpassung der Konfiguration
 
