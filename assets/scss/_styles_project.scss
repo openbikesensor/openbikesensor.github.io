@@ -24,7 +24,7 @@ body {
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
-  max-width: 100%;
+  width: 100%;
   background: #000;
   margin: 3rem 0;
 
@@ -140,4 +140,13 @@ body {
 }
 .lead {
   font-weight: 500;
+}
+
+.donations {
+  background: white;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem auto;
 }
