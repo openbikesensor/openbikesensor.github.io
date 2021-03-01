@@ -1,6 +1,8 @@
-
 public/
 resources/
 node_modules/
 tech-doc-hugo
 
+# From jekyll, so that nobody accidentally commits old files
+_site
+.bundle
