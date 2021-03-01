@@ -35,7 +35,7 @@ aber gerade wenn du Anfänger bist könnte dies wichtig sein.
     Anleitungen zeigen sind Vorschläge und können Fehler enthalten. Bist
     du dir an einer Stelle nicht sicher oder du glaubst hier könnte ein
     Fehler vorhanden sein, dann melde dich in unserem
-    [Slack](openbikesensor.org/slack). Außerdem sind wir nicht für
+    [Slack]({{< relref "/slack" >}}). Außerdem sind wir nicht für
     Fehler verantwortlich die du während des Aufbaus machst. Sollte
     etwas schief gehen und du brauchst Hilfe kannst du dich natürlich
     auch bei uns melden.
@@ -83,8 +83,8 @@ es sich anbieten das entsprechende Kapitel zu überfliegen und dir so
 einfach besser als eine Tabelle es kann.
 
 Du findest Fehler oder hast Fragen? Dann melde dich entweder in unserem
-Slack ([openbikesensor.org/slack](openbikesensor.org/slack)) oder
-hinterlasse einen [Issue auf Github](https://github.com/openbikesensor/openbikesensor.github.io/issues/new).
+[Slack]({{< relref "/slack" >}})) oder hinterlasse einen [Issue auf
+Github](https://github.com/openbikesensor/openbikesensor.github.io/issues/new).
 
 ## Vorbereitung
 
