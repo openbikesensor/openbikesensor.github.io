@@ -1,0 +1,6 @@
+* @openbikesensor/website-team
+
+/content/en/_index.md @openbikesensor/core-team
+/content/de/_index.md @openbikesensor/core-team
+/.github/workflows/gh-pages.yml @openbikesensor/core-team
+/.github/CODEOWNERS @openbikesensor/core-team
