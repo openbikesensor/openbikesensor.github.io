@@ -21,16 +21,16 @@ auszuwerten. So kannst du mitmachen:
 
 {{% blocks/section color="dark" %}}
 
-{{% blocks/feature icon="fab fa-slack" title="Mitreden" url="/de/slack" %}}
+{{% blocks/feature icon="fab fa-slack" title="Mitreden" url="/de/slack" url_text="Beitreten" %}}
 Komm in unseren Slack, und chatte mit den anderen Teilnehmenden. Hier koordinieren wir fast alles. Unterstützung, Ideen, Events...
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Mitmachen" url="https://github.com/openbikesensor" %}}
+{{% blocks/feature icon="fab fa-github" title="Mitmachen" url="https://github.com/openbikesensor" url_text="Code" %}}
 Schau auch mal bei unseren Github-Repositories vorbei. Dort ist der ganze Code,
 alle Pläne und Anleitungen zu finden.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Mitbekommen" url="https://twitter.com/openbikesensor" %}}
+{{% blocks/feature icon="fab fa-twitter" title="Mitbekommen" url="https://twitter.com/openbikesensor" url_text="Folgen" %}}
 Wir halten euch auf dem Laufenden bei Twitter. Jetzt folgen und nichts verpassen!
 {{% /blocks/feature %}}
 
