@@ -4,8 +4,7 @@ linkTitle: Bauanleitung
 ---
 
 {{% alert title="Achtung" color="danger" %}}
-Diese Bauanleitung ist ein Entwurf. Sie enthält Fehler und falsche
-Bilder und muss noch vervollständigt werden.
+Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack]({{<relref "slack">}}) organisiert werden.
 {{% /alert %}}
 
 Dies ist die Kurzanleitung zum Aufbau eines OpenBikeSensors. In dieser
@@ -81,7 +80,7 @@ Das fertig bestückte PCB eines OBS v00.03.
     alt="Zunächst an einem Eckpunkt fixieren" >}}
   {{< slider-image
     src="PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg"
-    alt="Ausrichten und auf der gegenüberliegenden Seite enbenfalls fixieren" >}}
+    alt="Ausrichten und auf der gegenüberliegenden Seite ebenfalls fixieren" >}}
   {{< slider-image
     src="PCB00.03.10_02_DetailBuchsenleite07_an4Eckenloeten.jpg"
     alt="Ebenso die andere Seite" >}}
@@ -330,7 +329,7 @@ Das fertig bestückte PCB eines OBS v00.03.
 * Gewinkelte Stiftleiste mit 4 Pins vorbereiten
 * Stiftleiste in OBS-PCB verlöten (Unterseite, langes Ende der Pins seitlich herausschauend)
 * Eng anliegend verlöten
-* GPS-Modul aufstecken 
+* GPS-Modul aufstecken
 * Verlöten und Stifte kürzen
 
 * **Achtung!** Achte darauf, dass das kurze Ende der Stiftleiste in das Board und das lange Ende in das GPS-Modul eingelötet wird. Ansonsten ragt das GPS-Modul aus dem Gehäuse heraus.
@@ -338,7 +337,7 @@ Das fertig bestückte PCB eines OBS v00.03.
 {{< slider >}}
   {{< slider-image
     src="PCB00.03.10_13_GPS-Module_01_Modul.jpg"
-    alt="Das GPS-Modul mit Antenne (große Variante)" >}}
+    alt="Das GPS-Modul mit Antenne (große Variante). Überstehenden Teil der Platine abknicken und entfernen." >}}
   {{< slider-image
     src="PCB00.03.10_13_GPS-Module_02_Modul_mit_Stiftleiste.jpg"
     alt="Das GPS-Modul mit Stiftleiste" >}}
@@ -365,8 +364,11 @@ Das fertig bestückte PCB eines OBS v00.03.
 ## Schritt 14: Ein/Aus-Schalter
 
 * 2x10cm Kabel crimpen und in 2-fach Stecker einführen 
-* Andere Kabelenden seitlich an Schaler löten
-* Orientierung beachten, damit Schalterzustand mit der Beschriftung (0 / I) am OBS-Gehäuse übereinstimmt
+* Andere Kabelenden seitlich an den Schalter löten. 
+* **Achtung**: 
+  * Orientierung der Kabelenden und Auswahl der beiden Kontakte am Schalter beachten und eventuell mit Multimeter nachmessen, damit Schalterzustand später mit der Beschriftung am OBS-Gehäuse übereinstimmt (0 unten, I oben).
+  * Nur seitlich angelötet passen die Kabel später in das Gehäuse.
+  * Zu viel Hitze lässt den Schalter innen schmelzen, was zu Wackelkontakten führen kann.
 
 {{< slider >}}
   {{< slider-image
@@ -377,7 +379,7 @@ Das fertig bestückte PCB eines OBS v00.03.
 ## Schritt 15: Ultraschallsensor-Kabel kürzen und crimpen
 
 * Tipp: Zunächst mit überschüssigen Kabelteilen und Crimpkontakten üben!
-* Die langen schwarzen Kabel der Sensoren auf etwa 10cm kürzen.
+* Die langen schwarzen Kabel der Sensoren auf etwa 10cm kürzen, da die langen Kabel nicht in das Gehäuse passen und auch die Plastikeinfassung der bestehenden Stecker zu starr und zu dick für das Gehäuse ist
 * Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht durchtrennt werden. 
 * Crimpkontakt muss für optimale Verbindung Leiter und Isolierung greifen
 
@@ -423,15 +425,15 @@ das Gehäuse.**
 * **Vor Anschluss des Displays Kabel durch Displaygehäuse-Unterteil führen**
 * Zwei Optionen für Anschluss an das OLED-Displayboard 
   1. Display-Seite crimpen
-    *  Nur 4x Crimpen! 
+    * Nur 4x Crimpen! 
     * Das Kabel, das im OBS mit „BUT“ verbunden wird, zunächst frei lassen
     * Kabel für VDD zusammen mit zweitem 2-3 cm Kabel crimpen
-    * Am OLED-Displayboard Plastikteile an Steckkontakten entfernen und Pins um ca. 1/3 kürzen
-    * Prüfen, ob Crimpstecker bündig auf Platine steckt, 
+    * Am OLED-Displayboard Plastikteile an Steckkontakten entfernen und Pins um knapp 1/3 kürzen
+    * Prüfen, ob Crimpstecker bündig auf Platine steckt
     * Ggf. Pins weiter kürzen, damit Board und Pins ins Displaygehäuse passen
   2. Display-Seite löten
     * VDD muss auch hier an Display UND Taster verbunden werden
-    * Die andere Seite des Tasters mit dem am OBS mit „BUT“ beschrifteteten Kabel verbinden
+    * Die andere Seite des Tasters mit dem am OBS mit „BUT“ beschrifteten Kabel verbinden
     * Die übrigen 4 Kabel entsprechend Farbe und Beschriftung am PCB zuordnen.
 
 {{< slider >}}
@@ -449,8 +451,9 @@ das Gehäuse.**
     alt="Kabel durch Gehäuseunterteil ziehen" >}}
 {{< /slider >}}
 
-* OLED-Boards haben teils etwas unterschiedliche Größen
-* OLED Displayboard ggf. wie abgebildet etwas kürzen
+* 0,96 Zoll OLED-Boards haben teils etwas unterschiedliche Größen
+* OLED Displayboard ggf. wie abgebildet etwas kürzen, insbesondere an den Ecken
+* Je nach Genauigkeit des 3D-Drucks das Gehäuse etwas weiter ausfräsen
 * Board und Taster in Displayoberseite einsetzen
 
 {{< slider >}}
@@ -466,7 +469,7 @@ das Gehäuse.**
 {{< /slider >}}
 
 * Kabel von BUT an ein Ende des Tasters anlöten
-* Kurze Kabel von VDD an zweiten Pin des Tasters löten. **Achtung:** Taster ist
+* Kurze Kabel von VDD an zweiten Pin des Tasters löten. **Achtung:** Der Taster ist
   hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff.
 
 {{< slider >}}
@@ -484,7 +487,7 @@ das Gehäuse.**
 **Display zusammensetzen**
 
 * Magnete in Displaygehäuse und Lenkerhalterung passend zur Fixierung einlegen
-* Muttern mit längeren Schrauben in Aussparungen in Gehäuse-Unterseite einziehen
+* Muttern mit längeren Schrauben in Aussparungen in Gehäuse-Unterseite einziehen. Man kann bei Bedarf alle im Folgenden genutzten Muttern am äußeren Rand mit Sekundenkleber fixieren, dabei aber den Kleber unbedingt von den Gewinden fernhalten!
 * Längere Schrauben durch M3x18 ersetzen
 
 {{< slider >}}
@@ -502,7 +505,7 @@ das Gehäuse.**
 **Zugentlastung einsetzen**
 
 * Erstes Teil der Zugentlastung einsetzen
-* Zweites Teil der Zugentlastung von außen angewinkelt eindrücken
+* Zweites Teil der Zugentlastung von außen angewinkelt eindrücken, bei Bedarf die Seiten des einzusteckenden Endes zum Kabel hin schräg anschleifen
 * Für optimale Zugentlastung Kabel auf ganzer Länge der Zugentlastung mit Isolierung fixieren (Muttern und Schrauben M3xXX anziehen)
 * Fixierung für Sechskant-Muttern auf einem Teil der Zugentlastung beachten
  
@@ -523,20 +526,23 @@ das Gehäuse.**
 
 ## Schritt 18: Elektronik testen
 
+Zunächst muss die [OpenBikeSensor Firmware auf den ESP32 geflashed werden](https://github.com/openbikesensor/OpenBikeSensorFirmware).
+
 Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 
 1. Ausschalten
 2. Batteriekabel polungsrichtig einstecken.
 3. Laden: Normales USB-C Ladegerät (5 V) anschließen
     * Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät
-    * Bei vollem Akku leuchtet das Modul blau, sonst rot
-4. Einschalten 
-    * Boot-Screen sollte auf dem Display erscheinen
+    * Bei vollem Akku leuchtet das Modul blau, sonst rot. USB-C Kabel abstecken.
+4. Einschalten per Kippschalter (ohne dabei den Knopf am Display zu drücken)
+    * Boot-Screen sollte auf dem Display erscheinen. Wenn nicht, nochmal aus und, sofern nichts stinkt oder gar raucht, wieder einschalten.
     * Druck auf Taster wechselt von Boot-Screen zu einfacher Distanz-Anzeige (-- cm)
 5. Bei angeschlossener GPS-Antenne GPS-Funktion im Freien testen
-    * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige
+    * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs sehr lange dauern kann. 15 Minuten sind beim ersten Einschalten nicht ungewöhnlich.
 6. Sensoren-Funktion testen: Sensoren mit Sensor-Boards verbinden
     * Polung beachten
+    * Der Abstand wird abzüglich der Breite des Lenkers gemessen. In der Software kann man im [Konfigurationsmodus]({{<relref "configuration">}}) dessen Breite einstellen.
 
 {{< slider >}}
   {{< slider-image
@@ -546,7 +552,7 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 
 ## Schritt 19: Gehäuse vorbereiten
 
-Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche können heraus fallen, andere sitzen sehr fest. 
+Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche können herausfallen, andere sitzen sehr fest. Auch hier kann Sekundenkleber verwendet werden.
 
 {{< slider >}}
   {{< slider-image
@@ -557,7 +563,7 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
     alt="Akku und Ultraschallsensor an Deckel montieren ('Up'-Pfeil beachten)" >}}
   {{< slider-image
     src="PCB00.03.10_19_Gehaeuse_05_GPS_anschliessen.jpg"
-    alt="GPS-Antenne anschliessen" >}}
+    alt="GPS-Antenne anschließen" >}}
   {{< slider-image
     src="PCB00.03.10_19_Gehaeuse_06_US-Sensore_anstecken.jpg"
     alt="Ultraschallsensoren einstecken" >}}
@@ -577,13 +583,13 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
     alt="PCB festschrauben" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_03_Halterung_und_Zugsicherung_festschrauben.jpg"
-    alt="Halterung und Zugentlastung festschrauben" >}}
+    alt="Halterung und Zugentlastung (mit Kabelauslass Richtung Gehäusedeckel) festschrauben" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten_8-10Lagen_Alufolien_mit_Klebeband_isoliert_oder_eingeschweisst.jpg"
-    alt="Abschirmung vorbereiten (8-10 Lagen Alufolie mit Klebeband isoliert oder eingeschweißt)" >}}
+    alt="Abschirmung vorbereiten (8-10 Lagen Alufolie mit Klebeband isoliert oder eingeschweißt, alternativ der zugeschnittene Boden eines Teelichts, umwickelt mit einem Teil eines Gefrierbeutels)" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_05_Abschirmung_platzieren.jpg"
-    alt="Abschirmung platzieren" >}}
+    alt="Abschirmung zwischen den Sensorboards platzieren und vor Einbau des Ein/Ausschalters innenliegenden Federring entfernen, um Einbauhöhe nicht zu überschreiten" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_06_GPS-Deckel_festschrauben_Orientierung_Halterung.jpg"
     alt="GPS-Deckel festschrauben" >}}
@@ -592,7 +598,7 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
     alt="Deckel festschrauben" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_08_Magnete_in_USB-Deckel_druecken.jpg"
-    alt="Magnete in die Abdeckung der Ladebuchse eindrücken" >}}
+    alt="Magnete in die Abdeckung der Ladebuchse eindrücken (eventuell mit etwas Sekundenkleber)" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_09_weitere_Magnete_draufsetzen.jpg"
     alt="Weitere Magnete daraufsetzen (für korrekte Polung)" >}}
@@ -604,3 +610,4 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
     alt="Fertig" >}}
 {{< /slider >}}
 
+Viel Spaß bei der [Nutzung]({{<relref "user-guide">}})!
