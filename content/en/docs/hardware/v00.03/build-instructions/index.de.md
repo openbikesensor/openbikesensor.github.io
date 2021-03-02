@@ -4,7 +4,7 @@ linkTitle: Bauanleitung
 ---
 
 {{% alert title="Achtung" color="danger" %}}
-Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack](/slack) organisiert werden.
+Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack]({{<relref "slack">}}) organisiert werden.
 {{% /alert %}}
 
 Dies ist die Kurzanleitung zum Aufbau eines OpenBikeSensors. In dieser
@@ -366,7 +366,7 @@ Das fertig bestückte PCB eines OBS v00.03.
 * 2x10cm Kabel crimpen und in 2-fach Stecker einführen 
 * Andere Kabelenden seitlich an den Schalter löten. 
 * **Achtung**: 
-  * Orientierung der Kabelenden und Auswahl der Kontakte beiden am Schalter beachten und eventuell mit Multimeter nachmessen, damit Schalterzustand später mit der Beschriftung am OBS-Gehäuse übereinstimmt (0 unten, I oben).
+  * Orientierung der Kabelenden und Auswahl der beiden Kontakte am Schalter beachten und eventuell mit Multimeter nachmessen, damit Schalterzustand später mit der Beschriftung am OBS-Gehäuse übereinstimmt (0 unten, I oben).
   * Nur seitlich angelötet passen die Kabel später in das Gehäuse.
   * Zu viel Hitze lässt den Schalter innen schmelzen, was zu Wackelkontakten führen kann.
 
@@ -453,7 +453,7 @@ das Gehäuse.**
 
 * 0,96 Zoll OLED-Boards haben teils etwas unterschiedliche Größen
 * OLED Displayboard ggf. wie abgebildet etwas kürzen, insbesondere an den Ecken
-* Bei manchen 3D Drucken bei Bedarf das Gehäuse etwas weiter ausfräsen
+* Je nach Genauigkeit des 3D-Drucks das Gehäuse etwas weiter ausfräsen
 * Board und Taster in Displayoberseite einsetzen
 
 {{< slider >}}
@@ -536,13 +536,13 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
     * Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät
     * Bei vollem Akku leuchtet das Modul blau, sonst rot. USB-C Kabel abstecken.
 4. Einschalten per Kippschalter (ohne dabei den Knopf am Display zu drücken)
-    * Boot-Screen sollte auf dem Display erscheinen. Wenn nicht, nochmal aus und wieder einschalten.
+    * Boot-Screen sollte auf dem Display erscheinen. Wenn nicht, nochmal aus und, sofern nichts stinkt oder gar raucht, wieder einschalten.
     * Druck auf Taster wechselt von Boot-Screen zu einfacher Distanz-Anzeige (-- cm)
 5. Bei angeschlossener GPS-Antenne GPS-Funktion im Freien testen
-    * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs eine Weile dauern kann.
+    * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs sehr lange dauern kann. 15 Minuten sind beim ersten Einschalten nicht ungewöhnlich.
 6. Sensoren-Funktion testen: Sensoren mit Sensor-Boards verbinden
     * Polung beachten
-    * Der Abstand wird abzüglich der Breite des Lenkers gemessen. In der Software kann man im [Konfigurationsmodus](../../../user-guide/configuration/) dessen Breite einstellen.
+    * Der Abstand wird abzüglich der Breite des Lenkers gemessen. In der Software kann man im [Konfigurationsmodus]({{<relref "configuration">}}) dessen Breite einstellen.
 
 {{< slider >}}
   {{< slider-image
@@ -610,4 +610,4 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
     alt="Fertig" >}}
 {{< /slider >}}
 
-Viel Spaß bei der [Nutzung](../../../user-guide/)!
+Viel Spaß bei der [Nutzung]({{<relref "user-guide">}})!
