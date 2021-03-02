@@ -10,6 +10,12 @@ Make sure to clone the repository with the `--recursive` flag, or if you forgot 
 git submodule update --init --recursive
 ```
 
+Install postcss and other postprocessing tools using npm:
+
+```bash
+npm install
+```
+
 To build the site for development, install [hugo](https://gohugo.io/) and then run:
 
 ```bash
