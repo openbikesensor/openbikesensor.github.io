@@ -52,7 +52,7 @@ aber gerade wenn du Anfänger bist könnte dies wichtig sein.
 
 -   Bei einem der Bauteile handelt es sich um eine LiPo[^1]-Batterie.
     Diese Batterien sind zwar heute weit verbreitet, können allerdings
-    bei falsche Handhabung in Brand geraten. Solltest du nicht vertraut
+    bei falscher Handhabung in Brand geraten. Solltest du nicht vertraut
     mit LiPos oder dir noch unsicher sein, lies bitte den entsprechenden
     Abschnitt in der Anleitung die die Vorbereitung und den Umgang mit
     dem Akku erklärt! Außerdem empfehlen wir die Zelle aus einer
@@ -83,7 +83,7 @@ es sich anbieten das entsprechende Kapitel zu überfliegen und dir so
 einfach besser als eine Tabelle es kann.
 
 Du findest Fehler oder hast Fragen? Dann melde dich entweder in unserem
-[Slack]({{< relref "/slack" >}})) oder hinterlasse einen [Issue auf
+[Slack]({{< relref "/slack" >}}) oder hinterlasse einen [Issue auf
 Github](https://github.com/openbikesensor/openbikesensor.github.io/issues/new).
 
 ## Vorbereitung
@@ -121,7 +121,7 @@ im Lötzinn enthaltene Flussmittel.
 Hilfreich kann es daher auch sein Flussmittel entweder in Form von Paste
 oder als Dosierstift zu haben. Hast du dies nicht zur Hand, kannst du
 auch mit der Entlötpumpe oder der Entlötlitze das alte Lötzinn entfernen
-und dann frisches Lötzinn mit frischen Flussmittel auf die Lötstelle
+und dann frisches Lötzinn mit frischem Flussmittel auf die Lötstelle
 geben. Manchmal reicht es auch schon nur ein wenig neues Lötzinn dazu zu
 geben um die Stelle "aufzufrischen". Beachte aber, dass nicht zu viel
 Zinn auf deiner Lötstelle ist!
@@ -130,11 +130,11 @@ Ebenfalls hilfreich können Halterungen für die Platine sein. Das können
 zum einen solch günstige Spannrahmen in schwarz-blau wie in der Abbildung
 unten sein oder auch ein solcher
 Kugelkopfschraubstock. Diese Schraubstöcke sind meist etwas teurer, sind
-aber extrem hilfreich wenn du öfter lötest. Die Platine oder auch andere
+aber extrem hilfreich, wenn du öfter lötest. Die Platine oder auch andere
 Werkstücke wie Stecker lassen sich dort schnell und flexibel einspannen
 und in beliebigen Winkeln ausrichten.
 
-**Tip**: richte dich nicht nach dem Werkstück aus, sondern versuche immer
+**Tipp**: richte dich nicht nach dem Werkstück aus, sondern versuche immer
 das Werkstück nach deiner besten Arbeitsposition auszurichten! Nur wenn
 du bequem sitzt und deine Werkzeuge (in diesem Fall Lötkolben,
 Zange/Pinzette und Lötzinn) ideal bedienen kannst erreichst du ein
@@ -175,7 +175,7 @@ Um den Widerstand nun anzulöten verzinne zuerst eines der Pads mit etwas
 Lötzinn. Es empfiehlt sich das Pad zu nehmen,
 an dem an wenigsten Kupfer ist und das möglichst nicht an eine große
 Fläche führt. Warum? Die Fläche wirkt wie ein Kühlkörper. Der Lötkolben
-muss dann nicht nur das Pad vorwärmen sondern auch einen Teil der großen
+muss dann nicht nur das Pad vorwärmen, sondern auch einen Teil der großen
 Fläche. Dein Lötkolben hat dann wohlmöglich mehr zu kämpfen und braucht
 mehr Zeit bis das Pad auf Temperatur ist.
 
@@ -187,22 +187,23 @@ Ein Pad von R6 vorverzinnen
 Nimm nun mit der SMD-Pinzette den Widerstand auf und lege ihn auf das
 Pad. Jetzt kannst du mit dem Lötkolben das
 zuvor aufgebrachte Lötzinn heiß machen und den Widerstand mit der
-Pinzette vorsichtig herunterdrücken. Die Lötzstelle muss dafür erst einmal
+Pinzette vorsichtig herunterdrücken. Die Lötstelle muss dafür erst einmal
 nicht schön aussehen, der Widerstand soll nur in seiner gewollten
 Position halten.
 
-{{< imgproc 20200922_185414 Resize 600x >}}
-Widerstand mit Pinzette aufsetzen
-{{< /imgproc >}}
-
-{{< imgproc 20200922_185449 Resize 600x >}}
-Widerstand an einer Seite anlöten
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200922_185414.jpg"
+    alt="Widerstand mit Pinzette aufsetzen" >}}
+  {{< slider-image
+    src="20200922_185449.jpg"
+    alt="Widerstand an einer Seite anlöten" >}}
+{{< /slider >}}
 
 Nun kannst du die zweite Seite anlöten. Wenn du damit zufrieden bist
 kannst du die erste Lötstelle nacharbeiten. Dies kannst du entweder tun
 indem du nochmal etwas Lötzinn oder etwas Flussmittel aus
-anderer Quelle (Flussmittelpaste oder Flussmittelstift) hinzu gibst.
+anderer Quelle (Flussmittelpaste oder Flussmittelstift) hinzugibst.
 Hast du nun zu viel Lötzinn auf der Stelle kannst du entweder versuchen
 mit zügigem Streichen des Lötkolbens über die Lötstelle etwas Lötzinn zu
 entfernen oder Entlötlitze zur Hilfe nehmen. Achte dabei darauf, dass du
@@ -245,19 +246,20 @@ aufzulöten. Schau dir beide Varianten an und entscheide dich, welche du
 versuchen willst.
 
 Die Pins der Stiftleiste lassen sich am einfachsten mit einem
-Seitenschneider auseinander trennen. Setze dafür, wie in Abbildung
+Seitenschneider auseinandertrennen. Setze dafür, wie in Abbildung
 zu sehen, vorsichtig den
 Seitenschneider an der Engstelle zwischen den beiden Pins an. Übe nun
 vorsichtig Druck auf die Stelle aus. Sei nicht zu grob, das Plastik kann
 sonst auch manchmal direkt am Pin statt zwischen den Pins brechen.
 
-{{< imgproc 20200726_121903 Resize 600x >}}
-Seitenschneider vorsichtig ansetzen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_121920 Resize 600x >}}
-Zerteilte Stiftleiste
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_121903.jpg"
+    alt="Seitenschneider vorsichtig ansetzen" >}}
+  {{< slider-image
+    src="20200726_121920.jpg"
+    alt="Zerteilte Stiftleiste" >}}
+{{< /slider >}}
 
 Für den Spannungsregler U4 benötigst du insgesamt 5 Pins, für das Lademodul M1
 6 Pins.
@@ -279,13 +281,14 @@ muss nicht perfekt sein, Ziel ist es die Module wie abgebildet
 das nicht direkt gelingen, finde heraus welcher Pin noch schief steht
 und bessere ihn nach.
 
-{{< imgproc 20200726_123048 Resize 600x >}}
-Pins von oben einstecken
-{{< /imgproc >}}
-
-{{< imgproc 20200726_123110 Resize 600x >}}
-Module auflegen
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_123048.jpg"
+    alt="Pins von oben einstecken" >}}
+  {{< slider-image
+    src="20200726_123110.jpg"
+    alt="Module auflegen" >}}
+{{< /slider >}}
 
 Hast du die Module aufgelegt, löte sie an. Fange am besten erst nur mit
 einem Pin an und prüfe, ob das Modul noch flach auf dem Board
@@ -306,13 +309,14 @@ Gewalt auf das Board aus. Der Lötkolben muss hier gerade relativ viel
 Metall durchwärmen, das kann also ein paar Sekunden länger dauern. Am
 Ende sollten die Module wie gezeigt aufliegen.
 
-{{< imgproc 20200726_123429 Resize 600x >}}
-Module vorsichtig mit Zange herunterdrücken
-{{< /imgproc >}}
-
-{{< imgproc 20200726_123438 Resize 600x >}}
-Module in Endpositon
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_123429.jpg"
+    alt="Module vorsichtig mit Zange herunterdrücken" >}}
+  {{< slider-image
+    src="20200726_123438.jpg"
+    alt="Module in Endposition" >}}
+{{< /slider >}}
 
 ### Auflöten des Spannungsreglers ohne Pins
 
@@ -326,13 +330,14 @@ erstmal nicht hübsch aussehen, sie soll erstmal nur mechanisch das Modul
 festhalten. Sitzt das Modul gerade können die verbleibenden 4 Pads
 angelötet und das erste Pad nachgelötet werden.
 
-{{< imgproc 20200902_191734 Resize 600x >}}
-vorverzinntes Pad r.o.
-{{< /imgproc >}}
-
-{{< imgproc 20200902_191918 Resize 600x >}}
-fertig angelötetes Modul
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200902_191734.jpg"
+    alt="vorverzinntes Pad r.o." >}}
+  {{< slider-image
+    src="20200902_191918.jpg"
+    alt="fertig angelötetes Modul" >}}
+{{< /slider >}}
 
 Von der Gegenseite sollte die Platine nun wie abgebildet
 aussehen. Die Pins die hier nun nach
@@ -349,7 +354,7 @@ Als nächstes wird der Transistor für das GPS-Modul eingelötet. Störe
 dich nicht daran, wenn der Transistor im Bild mit D1 beschriftet ist.
 Hier hat sich seit dem fotografierten Prototypen etwas
 geändert, der Transistor wird aber in exakt der gleichen Ausrichtung an
-genau der selben Stelle eingelötet.
+genau derselben Stelle eingelötet.
 
 Zuerst wird der Transistor dafür von oben eingesteckt, die abgeflachte
 Seite zeigt dabei, analog zur Beschriftung, in Richtung des Lademoduls
@@ -357,13 +362,14 @@ und des Spannungsreglers. Danach dreht ihr das Board um und haltet den
 Transistor mit einem Finger von unten fest, so dass er plan auf dem
 Board aufsitzt.
 
-{{< imgproc 20200726_124649 Resize 600x >}}
-Q1 von oben durchstecken
-{{< /imgproc >}}
-
-{{< imgproc 20200726_124658 Resize 600x >}}
-Ansicht auf Q1 von oben
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_124649.jpg"
+    alt="Q1 von oben durchstecken" >}}
+  {{< slider-image
+    src="20200726_124658.jpg"
+    alt="Ansicht auf Q1 von oben" >}}
+{{< /slider >}}
 
 Kürze nun die Beinchen auf etwa 1,5-2,0 mm über der Boardoberfläche. Das
 Lademodul daneben ist mit seiner Dicke dabei eine gute Orientierung.
@@ -378,13 +384,14 @@ der Transistor nun an seiner Stelle bleiben. Löte die restlichen
 Lötstellen an und löte bei Bedarf die erste Lötstelle mit Hilfe von
 etwas frischem Lötzinn nach.
 
-{{< imgproc 20200726_124729 Resize 600x >}}
-Beinchen von Q1 kürzen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_124826 Resize 600x >}}
-Q1 angelötet
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_124729.jpg"
+    alt="Beinchen von Q1 kürzen" >}}
+  {{< slider-image
+    src="20200726_124826.jpg"
+    alt="Q1 angelötet" >}}
+{{< /slider >}}
 
 ### Diode und Connectoren für Schalter und Akku
 
@@ -394,65 +401,64 @@ Diode D2 vorbereiten
 
 ### Stiftleiste für J6
 
-{{< imgproc 20200902_151939 Resize 600x >}}
-D2, J1 und J6 einstecken
-{{< /imgproc >}}
-
-{{< imgproc 20200726_175301 Resize 600x >}}
-"Jumperkabel" als Hilfe aufstecken
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200902_151939.jpg"
+    alt="D2, J1 und J6 einstecken" >}}
+  {{< slider-image
+    src="20200726_175301.jpg"
+    alt="'Jumperkabel' als Hilfe aufstecken" >}}
+{{< /slider >}}
 
 ### JST XH Steckverbinder für J6
 
-{{< imgproc 20200922_185855 Resize 600x >}}
-J1 einsetzen
-{{< /imgproc >}}
-
-{{< imgproc 20200922_185934 Resize 600x >}}
-J6 einsetzen
-{{< /imgproc >}}
-
-{{< imgproc 20200922_190049 Resize 600x >}}
-D2 leicht angehoben und abgewinkelt einsetzen
-{{< /imgproc >}}
-
-{{< imgproc 20200922_190101 Resize 600x >}}
-Module auflegen
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200922_185855.jpg"
+    alt="J1 einsetzen" >}}
+  {{< slider-image
+    src="20200922_185934.jpg"
+    alt="J6 einsetzen" >}}
+  {{< slider-image
+    src="20200922_190049.jpg"
+    alt="D2 leicht angehoben und abgewinkelt einsetzen" >}}
+  {{< slider-image
+    src="20200922_190101.jpg"
+    alt="Module auflegen" >}}
+{{< /slider >}}
 
 ### ESP-Modul U1 auflöten
 
 ### Buchsenleiste mit wechselseitigen Kontakten
 
-{{< imgproc 20200726_174543 Resize 600x >}}
-Leiste auf Länge kürzen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_174611 Resize 600x >}}
-Buchsenleiste aufstecken
-{{< /imgproc >}}
-
-{{< imgproc 20200726_175629 Resize 600x >}}
-Beide Leisten an je 2 Stellen anlöten
-{{< /imgproc >}}
-
-{{< imgproc 20200726_180111 Resize 600x >}}
-Module vorsichtig abziehen
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_174543.jpg"
+    alt="Leiste auf Länge kürzen" >}}
+  {{< slider-image
+    src="20200726_174611.jpg"
+    alt="Buchsenleiste aufstecken" >}}
+  {{< slider-image
+    src="20200726_175629.jpg"
+    alt="Beide Leisten an je 2 Stellen anlöten" >}}
+  {{< slider-image
+    src="20200726_180111.jpg"
+    alt="Module vorsichtig abziehen" >}}
+{{< /slider >}}
 
 ### Buchsenleiste mit gleichseitig gebogenen Kontakten
 
-{{< imgproc 20200726_213655 Resize 600x >}}
-Stifte entsprechend kürzen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_213730 Resize 600x >}}
-direkter Längenvergleich vorher/nachher
-{{< /imgproc >}}
-
-{{< imgproc 20200902_192121 Resize 600x >}}
-Leiste auf jeder Seite an 2 äußeren Pins anlöten
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_213655.jpg"
+    alt="Stifte entsprechend kürzen" >}}
+  {{< slider-image
+    src="20200726_213730.jpg"
+    alt="direkter Längenvergleich vorher/nachher" >}}
+  {{< slider-image
+    src="20200902_192121.jpg"
+    alt="Leiste auf jeder Seite an 2 äußeren Pins anlöten" >}}
+{{< /slider >}}
 
 ### Sicherung F1
 
@@ -462,60 +468,53 @@ Sicherung F1 einsetzen und anlöten
 
 ### Bedrahtete Widerstände R1, R2 und R3 und Kondensator C1
 
-{{< imgproc 20200726_180343 Resize 600x >}}
-Widerstände ausmessen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_180708 Resize 600x >}}
-Widerstände einsetzen und verdrillen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_180727 Resize 600x >}}
-Verdrillung kürzen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_180808 Resize 600x >}}
-Verdrillung verlöten
-{{< /imgproc >}}
-
-{{< imgproc 20200726_181136 Resize 600x >}}
-Kodensator C1 einsetzen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_181412 Resize 600x >}}
-Widerstand R1 einsetzen
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_180343.jpg"
+    alt="Widerstände ausmessen" >}}
+  {{< slider-image
+    src="20200726_180708.jpg"
+    alt="Widerstände einsetzen und verdrillen" >}}
+  {{< slider-image
+    src="20200726_180727.jpg"
+    alt="Verdrillung kürzen" >}}
+  {{< slider-image
+    src="20200726_180808.jpg"
+    alt="Verdrillung verlöten" >}}
+  {{< slider-image
+    src="20200726_181136.jpg"
+    alt="Kodensator C1 einsetzen" >}}
+  {{< slider-image
+    src="20200726_181412.jpg"
+    alt="Widerstand R1 einsetzen" >}}
+{{< /slider >}}
 
 **Optional: Steckverbinder J10 und J11 auflöten**
 -------------------------------------------------
 
-{{< imgproc 20200726_123816 Resize 600x >}}
-Module auflegen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_123840 Resize 600x >}}
-Module auflegen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_123857 Resize 600x >}}
-Module auflegen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_181456 Resize 600x >}}
-Ein Pad vorverzinnen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_181552 Resize 600x >}}
-J10 Hilfe von Jumperkabel aufsetzen
-{{< /imgproc >}}
-
-{{< imgproc 20200726_181810 Resize 600x >}}
-Fertig anlöten
-{{< /imgproc >}}
-
-{{< imgproc 20200726_182044 Resize 600x >}}
-J11 mit Hilfe von Jumperkabel auflöten
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="20200726_123816.jpg"
+    alt="Module auflegen" >}}
+  {{< slider-image
+    src="20200726_123840.jpg"
+    alt="Module auflegen" >}}
+  {{< slider-image
+    src="20200726_123857.jpg"
+    alt="Module auflegen" >}}
+  {{< slider-image
+    src="20200726_181456.jpg"
+    alt="Ein Pad vorverzinnen" >}}
+  {{< slider-image
+    src="20200726_181552.jpg"
+    alt="J10 Hilfe von Jumperkabel aufsetzen" >}}
+  {{< slider-image
+    src="20200726_181810.jpg"
+    alt="Fertig anlöten" >}}
+  {{< slider-image
+    src="20200726_182044.jpg"
+    alt="J11 mit Hilfe von Jumperkabel auflöten" >}}
+{{< /slider >}}
 
 ### Kondensatoren C2 und C3
 
@@ -529,4 +528,4 @@ Bei Elkos auf Polung achten!
 
 [^1]: Lithium-Polymer
 
-[^2]: bill of material; zu deutsch Teileliste
+[^2]: bill of material; zu Deutsch Teileliste
