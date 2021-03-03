@@ -19,9 +19,10 @@
 			IIS._addClass(caption, 'iis-caption');
 
 			var captionContent = '';
-			if (slide.getAttribute('title')) {
+			// commenting out the following lines as a workaround, because they produce a caption from the "alt"-attribute and the lines after add an image description, also with the same text from the "alt"-attribute, whereas the "title" attribute does not seem to get parsed at all:
+			/* if (slide.getAttribute('title')) {
 				captionContent += '<div class="iis-caption-title">' + slide.getAttribute('title') + '</div>';
-			}
+			} */
 			if (slide.getAttribute('data-caption')) {
 				var dataCaption = slide.getAttribute('data-caption');
 				if (dataCaption.substring(0, 1) == '#' || dataCaption.substring(0, 1) == '.') {
