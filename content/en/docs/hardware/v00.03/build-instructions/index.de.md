@@ -4,24 +4,18 @@ linkTitle: Bauanleitung
 ---
 
 {{% alert title="Achtung" color="danger" %}}
-Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack]({{<relref "slack">}}) organisiert werden.
+Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack]({{<relref "/slack">}}) organisiert werden.
 {{% /alert %}}
 
-Dies ist die Kurzanleitung zum Aufbau eines OpenBikeSensors. In dieser
-Anleitung wird nicht erklärt, wie die einzelnen Schritte genau durchzuführen
-sind. Stattdessen gehen wir davon aus, dass die Grundtechniken wie Löten, das
-Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind.
-Für eine ausführlichere Anleitung mit Hilfestellung zu diesen Themenbereichen
-wird es bald eine detaillierte Aufbauanleitung geben.
+Dies ist die Anleitung zum Aufbau des vertikalen OpenBikeSensors v00.03.
 
 {{< imgproc "images/PCB00.03.10_short5" Fit "800x600" >}}
 Das fertig bestückte PCB eines OBS v00.03.
 {{< /imgproc >}}
 
-## Hilfreiche Links und Anleitungen
+## Voraussetzungen
 
-* [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY) Tutorial fürs Crimpen mit Zangen in 2 Schritten.
-
+Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind. Für letzteres empfehlen wir das [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise und Tipps zu Werkzeugbenutzung finden sich am Anfang der Bauanleitung für das [Vorgängermodell v00.02]({{<relref "/docs/hardware/v00.02/build-instructions">}}).
 
 ## Schritt 1: SMD-Widerstände
 
@@ -542,7 +536,7 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
     * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs sehr lange dauern kann. 15 Minuten sind beim ersten Einschalten nicht ungewöhnlich.
 6. Sensoren-Funktion testen: Sensoren mit Sensor-Boards verbinden
     * Polung beachten
-    * Der Abstand wird abzüglich der Breite des Lenkers gemessen. In der Software kann man im [Konfigurationsmodus]({{<relref "configuration">}}) dessen Breite einstellen.
+    * Der Abstand wird abzüglich der Breite des Lenkers gemessen. In der Software kann man im [Konfigurationsmodus]({{<relref "/docs/user-guide/configuration">}}) dessen Breite einstellen.
 
 {{< slider >}}
   {{< slider-image
@@ -610,4 +604,4 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
     alt="Fertig" >}}
 {{< /slider >}}
 
-Viel Spaß bei der [Nutzung]({{<relref "user-guide">}})!
+Viel Spaß bei der [Nutzung]({{<relref "/docs/user-guide">}})!
