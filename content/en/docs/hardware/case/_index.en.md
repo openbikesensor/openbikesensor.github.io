@@ -1,5 +1,6 @@
 ---
 title: Printing a case
+weight: 30
 ---
 
 Similar to the PCB, you will need to get an enclosure for your sensoric device.

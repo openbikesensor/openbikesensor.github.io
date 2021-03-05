@@ -4,6 +4,7 @@ description: >
   You will need a PCB (printed circuit board) to solder all components to.
   Here's how to get one.
 
+weight: 20
 ---
 
 A central part in each sensor build is the PCB (_printed circuit board_). The

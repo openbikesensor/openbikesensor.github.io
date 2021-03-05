@@ -5,6 +5,7 @@ description: >
   This means changes in hardware or design are anytime possible.
 
 linkTitle: Collective Orders
+weight: 50
 ---
 
 ## Some information we gathered during previous collective orders
