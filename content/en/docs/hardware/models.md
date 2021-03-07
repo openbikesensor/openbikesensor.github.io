@@ -21,15 +21,3 @@ Starting to build an OpenBikeSensor, there are three models to choose from.
 | VerticalCase                 |              | X            |
 
 **Featured in the current workshops is the _JSN-SR04T Vertical_.**
-
-
-## Note: Quality of Build Instructions
-
-Die detaillierte Anleitung für das PCB v00.02.xx ist inhaltlich sehr weit
-fortgeschritten. Wer das Board 00.03.xx aufbauen möchte findet hier auch viele
-allgemeine Hinweise. Die detaillierte Anleitung für das Board 00.03.xx bleibt
-leer, bis die Unterscheidung der Versionen in das gemeinsame Dokument
-eingepflegt wurde.
-
-Die Kurzanleitung wurde ursprünglich für das Board v00.03.10 geschrieben und
-muss für die v00.02.xx ebenfalls noch inhaltlich geprüft werden.
