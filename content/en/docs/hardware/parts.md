@@ -1,6 +1,7 @@
 ---
 title: Parts Lists for all versions
 linkTitle: Purchase Parts
+weight: 40
 ---
 
 ## JSN-SR04T Vertical hardware list
