@@ -53,7 +53,7 @@ function initSliders() {
       effect: 'fade',
       captions: true,
       bullets: true,
-      height: "'4:3'",
+      // height: '4:3',
     })
     if (slider._attributes) {
       slider.addBulletNav()
