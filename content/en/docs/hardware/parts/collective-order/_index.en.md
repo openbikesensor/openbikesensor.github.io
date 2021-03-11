@@ -46,8 +46,7 @@ AJ-SR04M: Model from collective order in February 2021
   * Transverse IC on the connector side
   * 11.0592 MHz Crystal
   * Working Voltage: 5 V
-* [Datasheet](https://web.archive.org/web/20180712193526/http://www.ekt2.com/pdf/412_CH_ULTRASONIC_MODULE_4PIN_WATERPROOF.pdf)
-* A document found often cited on Chinese webpages is 'JSN-SR04T一体化超声波测距说明书.pdf', which we cannot find for download
+* The datasheet found often cited on Chinese webpages is `JSN-SR04T一体化超声波测距说明书.pdf` ([english translation](jsn-sr04t-en.pdf)).
 
 {{< imgproc "jsn-sr04t-front-1.png" Resize 300x >}}
 JSN-SR04T: Front (1)
