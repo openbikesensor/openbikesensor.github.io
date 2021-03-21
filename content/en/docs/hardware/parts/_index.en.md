@@ -86,7 +86,7 @@ checking everything is important.
   <td colspan="3" align="center">1x</td>
 </tr>
 <tr>
-  <td><a href="https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862">Cable for display connection (see note)</a></td>
+  <td><a href="https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862">Cable for display connection</a> (see note)</td>
   <td colspan="3" align="center">ca. 2m</td>
 </tr>
 <tr>
