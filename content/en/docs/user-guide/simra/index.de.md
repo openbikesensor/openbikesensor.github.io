@@ -4,7 +4,19 @@ linkTitle: OBS mit SimRa
 weight: 100
 ---
 
-Seit der Firmware-Version 0.3 ist es möglich, den OpenBikeSensor per Bluetooth mit der SimRa App zu verbinden. SimRa steht für "Sicherheit im Radverkehr" und ist eine App, die beim Radfahren aktiviert ist und über die Sensoren des Smartphones herauszufinden versucht, wann es gefährliche Situationen gab, die man anschließend beschreiben und bewerten kann. Durch die Kopplung mit dem OpenBikeSensor bekommt die SimRa App zusätzlich die Überholabstände.
+
+{{% alert title="Hinweis" color="warning" %}}
+Die Integration von SimRa ist nur in den Firmware-Versionen 0.3.x bis 0.4.x
+verfügbar. Grund für die Entfernung ist die Größe des Bluetooth-Stacks, welcher
+Platz machen musste für TLS-Verschlüsselung der Kommunikation mit dem Gerät.
+Der Zwang nach einer Priorisierung an dieser Stelle tut uns Leid, und wir
+suchen weiterhin nach Lösungen, beides anzubieten. Ein Austausch des
+Prozessormoduls durch eines mit mehr Speicher ist möglich, aber nicht "offiziell"
+unterstützt. Wenn du dir ein Gerät mit mehr Speicher gebaut hast, kannst du
+auch die Firmware nach wie vor mit Bluetooth-Support kompilieren.
+{{% /alert %}}
+
+In Firmware-Versionen 0.3.x bis 0.4.x ist es möglich, den OpenBikeSensor per Bluetooth mit der SimRa App zu verbinden. SimRa steht für "Sicherheit im Radverkehr" und ist eine App, die beim Radfahren aktiviert ist und über die Sensoren des Smartphones herauszufinden versucht, wann es gefährliche Situationen gab, die man anschließend beschreiben und bewerten kann. Durch die Kopplung mit dem OpenBikeSensor bekommt die SimRa App zusätzlich die Überholabstände.
 
 ## SimRa App installieren
 * [Android (Google Play)](https://play.google.com/store/apps/details?id=de.tuberlin.mcc.simra.app)
