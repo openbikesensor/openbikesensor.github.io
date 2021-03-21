@@ -25,7 +25,7 @@ There are various models on the market, but most sold under the same name, JSN-S
 ### AJ-SR04M
 
 * Characteristics:
-  * Resistor R17 is used to control the behavior
+  * Resistor R19 is used to control the behavior
   * 8 MHz Crystal
   * Working Voltage: 3V to 5.5V
 * [Datasheet](https://github.com/tomaskovacik/kicad-library/tree/master/library/datasheet/K02-AJ-SR04)
