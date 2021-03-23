@@ -16,7 +16,7 @@ Install postcss and other postprocessing tools using npm:
 npm install
 ```
 
-To build the site for development, install [hugo](https://gohugo.io/) and then run:
+To build the site for development, install [hugo](https://gohugo.io/) (extended version!) and then run:
 
 ```bash
 hugo server -D
