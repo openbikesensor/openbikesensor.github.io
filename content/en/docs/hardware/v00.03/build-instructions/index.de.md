@@ -579,7 +579,7 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
     src="PCB00.03.10_20_Zusammenbau_03_Halterung_und_Zugsicherung_festschrauben.jpg"
     alt="Halterung und Zugentlastung (mit Kabelauslass Richtung Gehäusedeckel) festschrauben" >}}
   {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten_8-10Lagen_Alufolien_mit_Klebeband_isoliert_oder_eingeschweisst.jpg"
+    src="PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten.jpg"
     alt="Abschirmung vorbereiten (8-10 Lagen Alufolie mit Klebeband isoliert oder eingeschweißt, alternativ der zugeschnittene Boden eines Teelichts, umwickelt mit einem Teil eines Gefrierbeutels)" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_05_Abschirmung_platzieren.jpg"
