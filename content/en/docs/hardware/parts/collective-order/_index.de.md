@@ -46,8 +46,7 @@ AJ-SR04M: das Modell von der Sammelbestellung im February 2021
   * quer liegender IC an der Anschlussseite 
   * 11.0592 MHz Schwingquarz
   * Betriebsspannung: 5V
-* [Datenblatt](https://web.archive.org/web/20180712193526/http://www.ekt2.com/pdf/412_CH_ULTRASONIC_MODULE_4PIN_WATERPROOF.pdf)
-* ein Dokument, das oft auf Chinesischen Seiten erwähnt wird ist `JSN-SR04T一体化超声波测距说明书.pdf`, dafür haben wir keinen Download gefunden
+* Das Datenblatt, das oft auf Chinesischen Seiten erwähnt wird ist `JSN-SR04T一体化超声波测距说明书.pdf` ([Englische Übersetzung](jsn-sr04t-en.pdf)).
 
 {{< imgproc "jsn-sr04t-front-1.png" Resize 300x >}}
 JSN-SR04T: Vorderseite (1)
