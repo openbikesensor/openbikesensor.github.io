@@ -1,11 +1,6 @@
 ---
 title: Privacy Zones
 weight: 50
-resources:
-- src: privacy.jpg
-  title: "Image #:counter"
-  params:
-    byline: "CC-BY-SA? OpenBikeSensor Contributors"
 ---
 
 Privacy zones are an important concept in the OpenBikeSensor ecosystem. They
