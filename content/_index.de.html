@@ -1,6 +1,6 @@
 ---
 title: OpenBikeSensor
-linkTitle: Das Projekt
+linkTitle: Intro
 menu:
   main:
     weight: 10
@@ -13,29 +13,47 @@ resources:
 {{< blocks/cover title="OpenBikeSensor" image_anchor="top" height="400" >}}
 <div class="mx-auto">
 	
-	<p class="lead mt-5">Überholabstandsmessung für Radfahrende.</p>
-	<p class="lead mt-5">Open Innovation. Open Source. Open Data. Open Science.</p>
+	<h1>Überholabstandsmessung für Radfahrende.</h1>
+	<p>Wir stehen für Open Innovation, Open Source, Open Data & Open Science.</p>
+	
+	<br>
+	
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="#introduction" target="_blank" rel="noopener noreferrer nofollow">
+		<i class="fas fa-arrow-down"></i> Mehr erfahren
+	</a>
 	
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://twitter.com/openbikesensor" target="_blank" rel="noopener noreferrer nofollow">
-		Twitter <i class="fab fa-twitter ml-2 "></i>
+		<i class="fab fa-twitter ml-2 "></i> @OpenBikeSensor
 	</a>
 	
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/openbikesensor">
-		Github <i class="fab fa-github ml-2 "></i>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="#weitersagen" target="_blank" rel="noopener noreferrer nofollow">
+		<i class="fas fa-hand-holding-heart"></i> Unterstützen
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/slack" >}}">
-		Slack<i class="fab fa-slack ml-2 "></i>
-	</a>
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-		Dokumentation <i class="fas fa-arrow-alt-circle-right ml-2"></i>
-	</a>
-
+	
 </div>
 {{< /blocks/cover >}}
 
+{{% blocks/section color="primary" %}}
+	
+{{% blocks/feature icon="fab fa-slack" title="Mitreden & Mitentscheiden" url="/slack" url_text="Slack beitreten" %}}
+Komm in unseren offenen Slack. Tausche Dich aus. Stelle Fragen. Finde Leute aus Deiner Region. Hier koordinieren wir uns, stimmen uns ab und treffen gemeinschaftlich Entscheidungen.
+{{% /blocks/feature %}}
+	
+{{% blocks/feature icon="fas fa-biking" title="Bauen & Daten sammeln" url="/docs/hardware/v00.03/build-instructions/" url_text="Zur Bauanleitung" %}}
+Bau Dir Deinen eigenen Überholabstandsmesser. Wir unterstützen Dich dabei. Am besten schließt Du Dich einer der Sammelbestellungen und eines unserer Regio-Teams an.
+{{% /blocks/feature %}}
 
-{{% blocks/section color="secondary" %}}
+{{% blocks/feature icon="fab fa-github" title="Weiterentwickeln" url="https://github.com/openbikesensor" url_text="Zu den GitHub-Repositories" %}}
+Wir sind quelloffen. Via GitHub dokumentieren wir den kompletten Code. Hier findest Du alle Pläne und Anleitungen sowie die Software zur Visualisierung der gesammelten Daten.
+{{% /blocks/feature %}}
+	
+{{% /blocks/section %}}
+	
+
+{{% blocks/section color="#fff" %}}
 <div class="container">
+	
+	<h2 id="introduction">OpenBikeSensor – OpenCitizenScience</h2>
 
 Wir sind eine Gruppe von aktiven Alltagsradler:innen und möchten, Radfahren sicherer und populärer machen. Überall! 
 
@@ -43,60 +61,73 @@ Wie oft passiert es uns, dass uns ein Auto beinahe vom Sattel holt? Was wir alle
 
 {{< yt id=YrpipBDGe9s thumbnail="/thumbnails/YrpipBDGe9s.jpg" >}}
 	
-Der Überholabstandsmesser des OpenBikeSensor ist ein kleines technisches Gerät am Fahrrad. Während der Fahrt misst er den Abstand von überholenden Autos. Wir wünschen uns, dass er von vielen genutzt und weiterentwickelt wird. Die Anleitung zum Selberbauen und Montieren ist für alle als Open Source verfügbar <a href="https://github.com/openbikesensor" target="_blank" rel="noopener noreferrer nofollow">via Github</a>. 
-
-Unser Ziel ist, Schwachstellen und Verbesserungspotenzial in der Verkehrsinfrastruktur aufzuzeigen. Zudem wollen wir die gesellschaftliche Wirkung von Kampagnen wie beispielsweise #AnderthalbMeter (in Städten) messen. Daher ist es auch so wichtig, dass möglichst viele Alltagsradler:innen mit unseren Sensoren offene Daten (Open Data) erfassen. Mit den von allen gesammelten Daten wiederum lassen sich individuelle Auswertungen vornehmen; von Initiativen, Kommunen und von Euch (Open Citizen Science). 
-
-Es wäre toll, wenn schon bald viele mitmachen, und wir so zusammen Bewegung in die Sache bringen. 
-Klingt interessant? Schau vorbei in unserem <a href="{{< relref "/slack" >}}">Slack Workspace</a>.
-	
-
 </div>
-{{% /blocks/section %}}
-
-{{% blocks/lead color="dark" %}}
-## Visualisierung
-{{% /blocks/lead %}}
-
+{{% /blocks/section %}}	
+	
 {{% blocks/section color="secondary" %}}
 <div class="container">
+	
+	<h2>Teil der Lösung</h2>
+	
+Unser Ziel ist, Schwachstellen und Verbesserungspotenzial in der Verkehrsinfrastruktur aufzuzeigen und diese in Kooperation mit Stadtplanern zu beheben. Zudem wollen wir die gesellschaftliche Wirkung von Kampagnen wie beispielsweise <a href="https://twitter.com/search?q=%23AnderthalbMeter&src=typed_query&f=live" target="_blank" rel="noopener noreferrer nofollow">#AnderthalbMeter</a> (in Städten) messen. Um statistisch verlässliche OpenData zu erhalten, ist es wichtig, dass möglichst viele Alltagsradler:innen mit unseren Sensoren offene Daten erfassen. Mit den von allen gesammelten Daten wiederum lassen sich individuelle Auswertungen vornehmen; von Initiativen, Kommunen und von Euch (Open Citizen Science). 
 
-Ein wichtiger Bestandteil des Projektes ist die Auswertbarkeit der gesammelten
-Daten. Daher arbeiten wir fleißig daran, die in den jeweiligen "Tracks"
-gespeicherten Werte zu extrahieren und visuell aufzubereiten.
+Zentrales Hilfsmittel und Namensgeber des OpenBikeSensors ist unser Überholabstandsmesser,  ein kleines technisches Gerät am Fahrrad. Während der Fahrt misst er den Abstand nach links plus rechts (minus Lenkerbreite) und zeichnet die Fahrt via GPS auf. Überholmanöver kann die:der Radler:in per Taste am Lenker bestätigen. Nicht aufgezeichnet werden Fahrzeug- oder Personendaten der Überholenden. Uns geht es ausschließlich um die Seitenabstände zu anderen Verkehrsteilnehmer:innen. 
+	
+Wir wünschen uns, dass unser Sensor von vielen genutzt und weiterentwickelt wird. Die <a href="{{< relref "/docs/hardware/v00.03/build-instructions">}}">Anleitung zum Selberbauen und Montieren</a> ist für alle als Open Source verfügbar – hier auf unserer Website und <a href="https://github.com/openbikesensor" target="_blank" rel="noopener noreferrer nofollow">quelloffen via Github</a>. Wir entwickeln für die offenen Daten zudem <a href="{{< relref "#visualisierung">}}">Visualisierungskonezepte</a> (inklusive Visualisierungssoftware) und werten die Ergebnisse gemeinsam mit Forschungspartnern aus.
+	
+Uns geht es jedoch nicht nur um die Technik. Ergänzend entwickeln wir gemeinsam mit zivilgesellschaftlichen Organisationen und Kommunen regionale Aktionen, Kampagnen und Verkehrskonzepte. Wir gestalten Gesellschaft und leisten so einen Beitrag für mehr Lebensqualität in den Städten und auf dem Land.
 
-Hier zeigen wir nur ein Beispiel einer Auswertung von einigen Überholvorgängen
-in Stuttgart. Es handelt sich dabei um einen erfahrenen Radfahrer, der
-routiniert und selbstbewusst im Straßenverkehr unterwegs ist. Natürlich wurde
-auch er sehr oft mit weniger als 1,5m Abstand überholt, es gab sogar Messwerte
-unter 50cm.
 
-<div style="display: flex; justify-content: center;">
+Es wäre toll, wenn schon bald viele mitmachen, und wir so zusammen Bewegung in die Sache bringen. <br>
+Klingt interessant? Schau vorbei in unserem <a href="{{< relref "/slack" >}}">Slack Workspace</a>.
+	
+</div>	
+{{% /blocks/section %}}
+
+{{% blocks/section color="#000" %}}
+<div class="container">
+	
+<h2 id="visualisierung">Visualisierung</h2> 
+
+Ein wichtiger Bestandteil des Projektes ist die Auswertbarkeit der gesammelten Daten. Daher arbeiten wir fleißig daran, die in den jeweiligen "Tracks" gespeicherten Werte zu extrahieren und visuell aufzubereiten.
+
+Hier zeigen wir nur ein Beispiel einer Auswertung von einigen Überholvorgängen in Stuttgart. Es handelt sich dabei um einen erfahrenen Radfahrer, der routiniert und selbstbewusst im Straßenverkehr unterwegs ist. Natürlich wurde auch er sehr oft mit weniger als 1,5m Abstand überholt. Der Überholabstandsmesser erfasste sogar Messwerte unter 50 cm.
+
+<div style="display: flex; justify-content: left;">
 {{< imgproc visualisierung Resize "800x" />}}
 </div>
 
-Ein anderes Beispiel zeigt einen einzelnen Überholvorgang, von dem auch eine
-Videoaufzeichnung vorhanden war. Wir blenden dazu einige GPS-Informationen ein,
-sowie den gemessenen Seitenabstand im jeweiligen Moment des Videos. Die
-Gefahrensituation für den*die Radfahrer*in wird dadurch nachempfindbar.
+<br>
+	
+Ein anderes Beispiel zeigt einen einzelnen Überholvorgang, von dem auch eine Videoaufzeichnung vorhanden war. Wir blenden dazu einige GPS-Informationen ein, sowie den gemessenen Seitenabstand im jeweiligen Moment des Videos. Die Gefahrensituation für den:die Radfahrer:in wird dadurch nachempfindbar.
 
 {{< yt id=izUD16ffs_Q thumbnail="/thumbnails/izUD16ffs_Q.jpg" >}}
 
-Wer noch Ideen zur Visualisierung, Automatisierung, Programmierung, Auswertung,
-etc. hat oder einfach am Projekt interessiert ist und auf dem Laufenden
-gehalten werden will, kann sich gerne in der Community auf Slack einbringen.
+Wer noch Ideen zur Visualisierung, Automatisierung, Programmierung, Auswertung, etc. hat oder einfach am Projekt interessiert ist und mitgestalten will, ist herzlich in der Community via <a href="{{< relref "/slack" >}}">Slack</a> eingeladen.
 
 </div>
 {{% /blocks/section %}}
+	
 
-{{% blocks/lead color="dark" %}}
-## Unterstützen
-{{% /blocks/lead %}}
+{{% blocks/section color="primary" %}}
+<div class="container">	
+		
+	<h2 id="weitersagen" style="color: #fff;">Sei treibende Kraft</h2>
+	
+Es gibt viele Arten, wie Du das OpenCitizenScience-Projekt OpenBikeSensor unterstützen kannst, auch wenn Du nicht selbst aktiv werden möchtest. 
 
-{{% blocks/section color="secondary" %}}
-<div class="container">
+<br>
+	
+### Weitersagen heißt Unterstützen
+	
+Erzähle Freunden, Verwandten, Kolleg:innen und Geschäftspatner:innen von uns. <br>
+Folge uns via Twitter <a href="https://twitter.com/openbikesensor" target="_blank" rel="noopener noreferrer nofollow">@OpenBikeSensor</a> und werde Teil unserer Twitterei.
+	
+<br>
+	
+### Spenden – jeder Beitrag zählt
 
-Falls ihr uns gerne unterstützen möchtet, aber euch die Zeit und/oder die Fähigkeiten zum Mitentwickeln von Hard- und Software zur Erfassung, Auswertung und Visualisierung fehlen, dann könnt ihr das ab sofort auch mit Spenden tun. Wir haben folgendes Konto beim ADFC BW dafür. Bis 200€ reicht der Kontoauszug bei der Steuererklärung aus, um diese Spende auch absetzen zu können, dafür unbedingt den Verwendungszweck so ausfüllen!
+Die Arbeit rund um den OpenBikeSensor ist sehr zeitaufwändig und kostspielig. Wir sind schwarmfinanziert. So freuen wir uns über Spenden – ob klein oder groß. Wir haben folgendes Konto beim <a href="https://bw.adfc.de" target="_blank" rel="noopener noreferrer nofollow">ADFC BW</a> dafür. Bis 200€ reicht der Kontoauszug, um Spenden steuerlich absetzen zu können. Dafür unbedingt den Verwendungszweck so ausfüllen:
 
 <pre class="donations">
 IBAN: DE06 4306 0967 7030 7323 03
@@ -106,10 +137,11 @@ Verwendungszweck: Spende OpenBikeSensor
 
 Hier ein paar Beispiele, was wir mit euren Spenden alles erreichen können:
 
-* Wir kaufen mit Mengenrabatt und reduzierten Versandkosten neue Hardware und Bauteile ein. Diese bringen wir Euch dann zu Workshops, die wir hoffentlich bald wieder veranstalten können.
+* Wir kaufen mit Mengenrabatt und reduzierten Versandkosten neue Hardware und Bauteile ein. <br>Diese bringen wir Euch dann zu Workshops mit, die wir hoffentlich bald wieder veranstalten können.
 * Wir stellen Bausätze zusammen, damit Interessierte keine 6-8 Wochen auf Teile aus China warten müssen, sondern zügig loslegen können.
-* Wir bauen Geräte, die wir für Aktionszeiträume auch an Engagierte in eurer Stadt ausleihen.
-* Unsere Entwickler*innen können Hardware für Verbesserungen und Erweiterungen bestellen, ohne das Geld selbst vorschießen zu müssen.
+* Wir bauen Geräte, die wir für Aktionszeiträume an Engagierte ausleihen. Die Koordination übernehmen unsere Regio-Teams.
+* Unsere Entwickler:innen können Hardware für Verbesserungen und Erweiterungen bestellen, ohne das Geld selbst vorschießen zu müssen.
+* Wir finanzieren die IT-Infrastruktur für Ko-Kreation und Kollaboration unseres Netzwerks.
 
 </div>
 {{% /blocks/section %}}
