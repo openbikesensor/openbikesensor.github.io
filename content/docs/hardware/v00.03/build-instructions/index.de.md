@@ -1,6 +1,8 @@
 ---
 title: Bauanleitung v00.03
 linkTitle: Bauanleitung
+aliases:
+- /bauanleitung
 ---
 
 {{% alert title="Achtung" color="danger" %}}

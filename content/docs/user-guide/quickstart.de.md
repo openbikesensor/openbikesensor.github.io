@@ -2,6 +2,8 @@
 title: Schnellstart-Anleitung
 linkTitle: Schnellstart
 weight: 10
+aliases:
+- /start
 ---
 
 > Diese Anleitung geht davon aus, dass du einen funktionierenden OpenBikeSensor

@@ -2,6 +2,8 @@
 linkTitle: Montage
 title: Montage des Sensors am Fahrrad
 weight: 15
+aliases:
+- /montage
 ---
 
 {{% alert title="Hinweis" color="info" %}}
