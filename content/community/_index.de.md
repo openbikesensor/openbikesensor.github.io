@@ -21,7 +21,7 @@ auszuwerten. So kannst du mitmachen:
 
 {{% blocks/section color="dark" %}}
 
-{{% blocks/feature icon="fab fa-slack" title="Mitreden" url="/de/slack" url_text="Beitreten" %}}
+{{% blocks/feature icon="fab fa-slack" title="Mitreden" url="/slack" url_text="Beitreten" %}}
 Komm in unseren Slack, und chatte mit den anderen Teilnehmenden. Hier koordinieren wir fast alles. Unterstützung, Ideen, Events...
 {{% /blocks/feature %}}
 

@@ -20,7 +20,7 @@ with development of the sensor, testing, collecting data and analysing it. Here 
 
 {{% blocks/section color="dark" %}}
 
-{{% blocks/feature icon="fab fa-slack" title="Communicate" url="/slack" url_text="Join"%}}
+{{% blocks/feature icon="fab fa-slack" title="Communicate" url="/en/slack" url_text="Join"%}}
 Feel free to join the Slack, and have a chat about the project. We coordinate everything here: Support, Ideas, Events...
 {{% /blocks/feature %}}
 
