@@ -26,6 +26,7 @@ checking everything is important.
 * **JSN-SR04T**: Take care to get the right version, there are numerous variants out there, some of which do not work at all. Refer to [this page]({{< relref "collective-order" >}}) for some more details.
 * Some items can be ordered for much cheaper in bulk, some are only available in bulk. Form collective orders to save a lot of money.
 * On some cheap items, it makes sense to order a few more than you need as spare parts (SMD resistors, screws and nuts, crimping contacts, wire). See also "Consumables" below.
+* For most of the "Passive and various components" there is a predefined [shopping list](https://www.reichelt.de/my/1746485) (*note*: Some parts can no longer be ordered from this dealer and have been replaced with alternatives.) 
 * **Cases** need to be [3D printed in PETG]({{< relref "case" >}}). There are various different designs for each use case, we've just listed the most common combinations here. Have a look around the [case design repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase) on Github. You can print these yourself, ask on Slack, or purchase prints of the provided files from a 3d printing service, though this is usually rather expensive. 
 * **PCB**: You will need a [special PCB manufactured]({{< relref "pcb" >}}) according to the design files. This is best done in bulk as well, somebody might have spares and can send them to you. Ask in Slack! 
 
@@ -89,16 +90,81 @@ checking everything is important.
   <td><a href="https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862">Cable for display connection</a> (see note)</td>
   <td colspan="3" align="center">ca. 2m</td>
 </tr>
+
 <tr>
   <td>Passive and various components</td>
-  <td colspan="3" align="center">
-    Purchase according to <a href="https://www.reichelt.de/my/1746485">this list</a>
-  </td>
+  <td colspan="3" align="center">see notes</td>
 </tr>
 <tr>
-  <td>
-  16pin 2.54mm SMD connectors (<a href="https://www.ebay.de/itm/10-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEU-BP/231930033721">10pcs</a>, <a href="https://www.ebay.de/itm/100-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEW/233091176275">100pcs</a>)
-  </td>
+  <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">JST contact BXH-001T-P0.6</a></td>
+  <td colspan="3" align="center">7</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">JST housing XHP-2</a></td>
+  <td colspan="3" align="center">6</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x4-polig-xh-jst-xh4p-bu-p185087.html">JST housing XHP-4</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x5-polig-xh-jst-xh5p-bu-p185088.html">JST housing XHP-5</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-stiftleiste-gerade-1x2-polig-xh-jst-xh2p-st-p185073.html">JST shrouded header B2B-XH-A</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-stiftleiste-gerade-1x5-polig-xh-jst-xh5p-st-p185076.html">JST shrouded header B5B-XH-A</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html">resistor (CFR) 10 kΩ, 250 mW, 5 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5--1-4w-150k-p1355.html">resistor (CFR) 150 kΩ, 250 mW, 5 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-300-kohm-0207-250-mw-5--1-4w-300k-p1407.html">resistor (CFR) 300 kΩ, 250 mW, 5 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.conrad.de/de/p/tru-components-tc-1206s4f1101t5e203-dickschicht-widerstand-1-1-k-smd-1206-0-25-w-1-1-st-tape-cut-1584104.html">SMD resistor 1.1 kΩ, 1206, 0.25 W, 1 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/vielschicht-keramikkondensator-100n-10--x7r-2-5-100n-p22853.html">ceramic capacitor 100 nF, 10 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html">radial electrolytic capacitor 22 µF, 10 V</a></td>
+  <td colspan="3" align="center">2</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/schottkydiode-60-v-5-a-do-201ad-sb-560-p16081.html">Schottky diode, 60 V, 5 A</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/rueckstellende-sicherungen-max-40a-30v-6-6s-pfra-110-p35211.html">resettable fuse, max. 40 A - 30 V, 6.6 sec</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html">PCB connector straight, 2-pin (pin and socket, hard wired)</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/de/de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html">36-pin header, angled, pitch 2.54</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/de/de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html">40-pin header, straight, pitch 2.54</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.fischerelektronik.de/web_fischer/de_DE/$catalogue/fischerData/PR/BL_LP5SMD_/datasheet.xhtml?branch=Steckverbinder">15 pin 2.54mm SMD connectors (BL LP 5 SMD)</a></td>
   <td colspan="3" align="center">2x</td>
 </tr>
 <tr>
