@@ -64,7 +64,7 @@ checking everything is important.
   <td colspan="3" align="center">1x</td>
 </tr>
 <tr>
-  <td><a href="https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652">18650 LiIon Battery</a></td>
+  <td><a href="https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652">18650 LiIon Battery</a>, with U solder tags</td>
   <td colspan="3" align="center">1x</td>
 </tr>
 <tr>
