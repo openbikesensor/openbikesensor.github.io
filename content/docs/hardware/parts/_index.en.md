@@ -19,7 +19,7 @@ checking everything is important.
 
 ### Notes
 
-* **ESP32 Development Board**: There are different versions of this module, you will need one with 30 pins.
+* **ESP32 Development Board**: There are different versions of this module, you will need one with 30 pins. Which often referenced as "ESP32 DEVKIT v1".
 * **SD Card**: Cheap cards have caused multiple problems, choose a brand name like SanDisk.
 * **GPS Module**: Consider the [large antenna variant](https://de.aliexpress.com/item/1550843440.html) (optional in "JSN-SR04T Vertical" but mandatory in "JSN-SR04T Horizontal"), [alternative link with antenna only option](https://de.aliexpress.com/item/1005001635722164.html)
 * **Display cable**: Do not go cheap on this cable, buy name brand LifY11Y, or the display connection might not work reliably. Two meters should be plenty even for large bikes and a few failed attempts at crimping its ends. Cat5 or Cat6 cable might work electrically as well, but usually isn't as flexible and "nice".
