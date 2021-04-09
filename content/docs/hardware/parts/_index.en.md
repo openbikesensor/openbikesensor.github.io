@@ -110,7 +110,7 @@ checking everything is important.
 
 <tr><th colspan="4">Sensor modules</th></tr>
 <tr>
-  <td><a href="https://de.aliexpress.com/item/32737648330.html">JSN-SR04T</a></td>
+  <td><a href="https://de.aliexpress.com/item/32737648330.html">JSN-SR04T</a> (see note)</td>
   <td colspan="2" align="center">2x</td>
   <td align="center">&ndash;</td>
 </tr>
