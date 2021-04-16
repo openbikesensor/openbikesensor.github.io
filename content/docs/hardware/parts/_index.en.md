@@ -101,7 +101,7 @@ checking everything is important.
 </tr>
 <tr>
   <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">JST housing XHP-2</a></td>
-  <td colspan="3" align="center">6</td>
+  <td colspan="3" align="center">3</td>
 </tr>
 <tr>
   <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x4-polig-xh-jst-xh4p-bu-p185087.html">JST housing XHP-4</a></td>
