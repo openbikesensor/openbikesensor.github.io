@@ -133,7 +133,7 @@ checking everything is important.
 </tr>
 <tr>
   <td><a href="https://www.conrad.de/de/p/tru-components-tc-1206s4f1101t5e203-dickschicht-widerstand-1-1-k-smd-1206-0-25-w-1-1-st-tape-cut-1584104.html">SMD resistor 1.1 kΩ, 1206, 0.25 W, 1 %</a></td>
-  <td colspan="3" align="center">1</td>
+  <td colspan="3" align="center">2</td>
 </tr>
 <tr>
   <td><a href="https://www.reichelt.de/vielschicht-keramikkondensator-100n-10--x7r-2-5-100n-p22853.html">ceramic capacitor 100 nF, 10 %</a></td>
