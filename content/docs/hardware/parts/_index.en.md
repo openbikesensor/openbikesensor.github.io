@@ -97,7 +97,7 @@ checking everything is important.
 </tr>
 <tr>
   <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">JST contact BXH-001T-P0.6</a></td>
-  <td colspan="3" align="center">7</td>
+  <td colspan="3" align="center">15</td>
 </tr>
 <tr>
   <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">JST housing XHP-2</a></td>
