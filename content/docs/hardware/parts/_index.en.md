@@ -144,7 +144,7 @@ checking everything is important.
   <td colspan="3" align="center">2</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/schottkydiode-60-v-5-a-do-201ad-sb-560-p16081.html">Schottky diode, 60 V, 5 A</a></td>
+  <td><a href="https://www.reichelt.de/schottkydiode-60-v-5-a-do-201ad-sb-560-p16081.html">Schottky diode, 60 V, 5 A, DO-201AD</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
