@@ -120,15 +120,15 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html">resistor (CFR) 10 kΩ, 250 mW, 5 %</a></td>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html">resistor (THT) 10 kΩ, 250 mW, 5 %</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5--1-4w-150k-p1355.html">resistor (CFR) 150 kΩ, 250 mW, 5 %</a></td>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5--1-4w-150k-p1355.html">resistor (THT) 150 kΩ, 250 mW, 5 %</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-300-kohm-0207-250-mw-5--1-4w-300k-p1407.html">resistor (CFR) 300 kΩ, 250 mW, 5 %</a></td>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-300-kohm-0207-250-mw-5--1-4w-300k-p1407.html">resistor (THT) 300 kΩ, 250 mW, 5 %</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
