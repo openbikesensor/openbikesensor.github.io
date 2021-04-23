@@ -100,7 +100,7 @@ checking everything is important.
   <td colspan="3" align="center">15</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">JST housing XHP-2</a></td>
+  <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x2-polig-xh-jst-xh2p-bu-p185085.html">JST housing XHP-2</a></td>
   <td colspan="3" align="center">3</td>
 </tr>
 <tr>
