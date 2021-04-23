@@ -156,11 +156,11 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/de/de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html">36-pin header, angled, pitch 2.54</a></td>
+  <td><a href="https://www.reichelt.de/de/de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html">36-pin header, angled, pitch 2.54<br>(only a total of 10 pins are used)</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/de/de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html">40-pin header, straight, pitch 2.54</a></td>
+  <td><a href="https://www.reichelt.de/de/de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html">40-pin header, straight, pitch 2.54<br>(only a total of 11 pins are used)</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
