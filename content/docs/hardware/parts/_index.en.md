@@ -164,7 +164,7 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.fischerelektronik.de/web_fischer/de_DE/$catalogue/fischerData/PR/BL_LP5SMD_/datasheet.xhtml?branch=Steckverbinder">15 pin 2.54mm SMD connectors (BL LP 5 SMD)</a></td>
+  <td><a href="https://www.fischerelektronik.de/web_fischer/de_DE/$catalogue/fischerData/PR/BL_LP5SMD_/datasheet.xhtml?branch=Steckverbinder">15 pin 2.54mm SMD connectors (BL LP 5 SMD)<br>(15 pin is hard to find; you can also buy longer and cut to size)</a></td>
   <td colspan="3" align="center">2x</td>
 </tr>
 <tr>
