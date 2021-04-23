@@ -140,7 +140,7 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html">Radial electrolytic capacitor 22 µF, 10 V</a></td>
+  <td><a href="https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html">Radial electrolytic capacitor 22 µF, 10 V, low ESR</a></td>
   <td colspan="3" align="center">2</td>
 </tr>
 <tr>
