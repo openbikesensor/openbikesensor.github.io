@@ -120,15 +120,15 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html">resistor (THT) 10 kΩ, 250 mW, 5 %</a></td>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html">Resistor (THT) 10 kΩ, 250 mW, 5 %</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5--1-4w-150k-p1355.html">resistor (THT) 150 kΩ, 250 mW, 5 %</a></td>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5--1-4w-150k-p1355.html">Resistor (THT) 150 kΩ, 250 mW, 5 %</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-300-kohm-0207-250-mw-5--1-4w-300k-p1407.html">resistor (THT) 300 kΩ, 250 mW, 5 %</a></td>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-300-kohm-0207-250-mw-5--1-4w-300k-p1407.html">Resistor (THT) 300 kΩ, 250 mW, 5 %</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
@@ -136,11 +136,11 @@ checking everything is important.
   <td colspan="3" align="center">2</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/vielschicht-keramikkondensator-100n-10--x7r-2-5-100n-p22853.html">ceramic capacitor 100 nF, 10 %</a></td>
+  <td><a href="https://www.reichelt.de/vielschicht-keramikkondensator-100n-10--x7r-2-5-100n-p22853.html">Ceramic capacitor 100 nF, 10 %</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html">radial electrolytic capacitor 22 µF, 10 V</a></td>
+  <td><a href="https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html">Radial electrolytic capacitor 22 µF, 10 V</a></td>
   <td colspan="3" align="center">2</td>
 </tr>
 <tr>
@@ -148,7 +148,7 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/rueckstellende-sicherungen-max-40a-30v-6-6s-pfra-110-p35211.html">resettable fuse, max. 40 A - 30 V, 6.6 sec</a></td>
+  <td><a href="https://www.reichelt.de/rueckstellende-sicherungen-max-40a-30v-6-6s-pfra-110-p35211.html">Resettable fuse, max. 40 A - 30 V, 6.6 sec</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
