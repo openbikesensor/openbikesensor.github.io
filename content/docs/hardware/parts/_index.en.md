@@ -148,7 +148,7 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/rueckstellende-sicherungen-max-40a-30v-6-6s-pfra-110-p35211.html">Resettable fuse, max. 40 A - 30 V, 6.6 sec</a></td>
+  <td><a href="https://www.reichelt.de/rueckstellende-sicherungen-max-40a-30v-6-6s-pfra-110-p35211.html">Resettable fuse, max. 40 A - 30 V, 6.6 sec<br>PFRA type with radial connectors</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
