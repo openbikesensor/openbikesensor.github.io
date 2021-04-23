@@ -152,7 +152,7 @@ checking everything is important.
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
-  <td><a href="https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html">PCB connector straight, 2-pin (pin and socket, hard wired)</a></td>
+  <td><a href="https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html">PCB connector straight, 2-pin (pin and socket, hard wired), pitch 2.54<br>(it's the connector for the battery)</a></td>
   <td colspan="3" align="center">1</td>
 </tr>
 <tr>
