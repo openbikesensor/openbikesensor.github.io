@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div style="height: 120px"></div>
+
+<div class="container">
+
+{{ .Content }}
+
+{{ range .Pages }}
+  {{ .Render "li" }}
+{{ end }}
+
+</div>
+{{ end }}
