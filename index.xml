@@ -1,1 +1,46 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenBikeSensor – OpenBikeSensor</title><link>/</link><description>Recent content on OpenBikeSensor</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenBikeSensor – OpenBikeSensor</title><link>/</link><description>Recent content on OpenBikeSensor</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: OpenBikeSensor goes LGPL</title><link>/blog/2020/03/23/openbikesensor-goes-lgpl/</link><pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate><guid>/blog/2020/03/23/openbikesensor-goes-lgpl/</guid><description>
+&lt;p>Als Open Source Projekt freuen wir uns, bekanntgeben zu können, dass wir uns
+auf eine gemeinsame Lizenz für unsere bestehenden und zukünftigen Software-,
+Design- und Dokumentationswerke geeinigt haben.&lt;/p>
+&lt;p>Nach langer Diskussion hat sich die Community über die Grundsätze einer freien
+und quelloffenen Arbeit verständigt, die das Projekt hoffentlich lange
+begleiten werden.&lt;/p>
+&lt;p>Freier Zugang zu Information sowie deren freie Verwendung ist ein Grundsatz der
+uns allen sehr wichtig ist. Daher stand auch nie wirklich zur Diskussion, eine
+Open-Source-Lizenz für unsere Werke zu wählen.&lt;/p>
+&lt;p>Wir haben uns gemeinsam entschieden, unsere Softwareprojekte und
+Hardwaredesigns, sowie die begleitende Dokumentation unter den Bedingungen der
+&lt;a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">&lt;strong>GNU Lesser General Public
+License&lt;/strong>&lt;/a> zu veröffentlichen.&lt;/p>
+&lt;p>Diese Lizenz entspricht unseren Wünschen nach folgenden Eigenschaften:&lt;/p>
+&lt;ul>
+&lt;li>Alle dürfen die Werke verwenden, für private, öffentliche, kommerzielle und
+alle weiteren Zwecke. Wir schränken die Freiheit der Nutzung nicht ein.&lt;/li>
+&lt;li>Alle dürfen die Werke weiterentwickeln, sofern die Weiterentwicklung unter
+der gleichen Lizenz weiter veröffentlich wird. In der Regel erfolgt dies
+durch Rückführen der Änderung ins Originalprojekt, worüber wir uns sehr
+freuen.&lt;/li>
+&lt;li>Kommerzielle Nutzung der Werke ist erlaubt, unter den Bedingungen der Lizenz.
+Wir haben den starken Wunsch, dass Unternehmen, die unsere Werke nutzen, auch
+unserem Grundsatz freier Daten folgen, und erhobene Daten in Form von Open
+Data veröffentlichen bzw. in unsere Veröffentlichungen integrieren.&lt;/li>
+&lt;li>Die Entwicklung von Werken, die unsere Werke beinhalten oder integrieren, ist
+erlaubt. Wir erzwingen mit der LGPL keine Verwendung einer bestimmten Lizenz,
+wünschen uns aber natürlich auch hier freie Lizenzen.&lt;/li>
+&lt;/ul>
+&lt;h3 id="sind-das-nicht-unnütze-hürden">Sind das nicht unnütze Hürden?&lt;/h3>
+&lt;p>Es mag unintuitiv erscheinen, aber eine Lizenz für die Bestandteile eines
+Projekts wie unseres ist keine Hürde für Menschen, die sich beteiligen wollen
+&amp;ndash; im Gegenteil! Ohne richtige Lizenz greift nämlich einzig und allein das
+Urheberrecht, das die Nutzung oder Veränderung ohne Erlaubnis grundsätzlich
+verbietet. Dank einer Lizenz haben alle einen fest definierten
+Handlungsspielraum, und mit einer Open-Source Lizenz speziell einen besonders
+großen. Alle wissen, was sie tun dürfen.&lt;/p>
+&lt;p>Die Freiheit von Informationen und Werkzeugen (frei, nicht kostenlos!) ist ein
+gesellschaftliches Gut, das wir fördern wollen. Dazu kommen viele strategische
+Vorteile, die Open-Source Projekte genießen, die es voranbringen.&lt;/p>
+&lt;p>Wenn du mehr zum Thema Open Source, Freiheit von Software und Informationen
+wissen möchtest, schau dich doch einmal bei der &lt;a href="https://www.fsf.org/de">Free Software
+Foundation&lt;/a> um.&lt;/p>
+&lt;p>&lt;a href="/community/">Werde auch du auch Teil des OpenBikeSensors!&lt;/a> Dank
+Open-Source Lizenz ist das einfach und unkompliziert möglich.&lt;/p></description></item></channel></rss>
