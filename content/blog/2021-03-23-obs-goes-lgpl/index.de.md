@@ -1,7 +1,6 @@
 ---
 title: "OpenBikeSensor goes LGPL"
 date: '2020-03-23'
-draft: true
 ---
 
 Als Open Source Projekt freuen wir uns, bekanntgeben zu können, dass wir uns
