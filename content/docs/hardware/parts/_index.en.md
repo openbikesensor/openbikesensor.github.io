@@ -19,13 +19,14 @@ checking everything is important.
 
 ### Notes
 
-* **ESP32 Development Board**: There are different versions of this module, you will need one with 30 pins.
+* **ESP32 Development Board**: There are different versions of this module, you will need one with 30 pins. Which often referenced as "ESP32 DEVKIT v1".
 * **SD Card**: Cheap cards have caused multiple problems, choose a brand name like SanDisk.
 * **GPS Module**: Consider the [large antenna variant](https://de.aliexpress.com/item/1550843440.html) (optional in "JSN-SR04T Vertical" but mandatory in "JSN-SR04T Horizontal"), [alternative link with antenna only option](https://de.aliexpress.com/item/1005001635722164.html)
 * **Display cable**: Do not go cheap on this cable, buy name brand LifY11Y, or the display connection might not work reliably. Two meters should be plenty even for large bikes and a few failed attempts at crimping its ends. Cat5 or Cat6 cable might work electrically as well, but usually isn't as flexible and "nice".
 * **JSN-SR04T**: Take care to get the right version, there are numerous variants out there, some of which do not work at all. Refer to [this page]({{< relref "collective-order" >}}) for some more details.
 * Some items can be ordered for much cheaper in bulk, some are only available in bulk. Form collective orders to save a lot of money.
 * On some cheap items, it makes sense to order a few more than you need as spare parts (SMD resistors, screws and nuts, crimping contacts, wire). See also "Consumables" below.
+* For most of the "Passive and various components" there is a predefined [shopping list](https://www.reichelt.de/my/1746485) (*note*: Some parts can no longer be ordered from this dealer and have been replaced with alternatives.) 
 * **Cases** need to be [3D printed in PETG]({{< relref "case" >}}). There are various different designs for each use case, we've just listed the most common combinations here. Have a look around the [case design repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase) on Github. You can print these yourself, ask on Slack, or purchase prints of the provided files from a 3d printing service, though this is usually rather expensive. 
 * **PCB**: You will need a [special PCB manufactured]({{< relref "pcb" >}}) according to the design files. This is best done in bulk as well, somebody might have spares and can send them to you. Ask in Slack! 
 
@@ -64,7 +65,7 @@ checking everything is important.
   <td colspan="3" align="center">1x</td>
 </tr>
 <tr>
-  <td><a href="https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652">18650 LiIon Battery</a></td>
+  <td><a href="https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652">18650 LiIon Battery</a>, with U solder tags</td>
   <td colspan="3" align="center">1x</td>
 </tr>
 <tr>
@@ -89,16 +90,81 @@ checking everything is important.
   <td><a href="https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862">Cable for display connection</a> (see note)</td>
   <td colspan="3" align="center">ca. 2m</td>
 </tr>
+
 <tr>
   <td>Passive and various components</td>
-  <td colspan="3" align="center">
-    Purchase according to <a href="https://www.reichelt.de/my/1746485">this list</a>
-  </td>
+  <td colspan="3" align="center">see notes</td>
 </tr>
 <tr>
-  <td>
-  16pin 2.54mm SMD connectors (<a href="https://www.ebay.de/itm/10-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEU-BP/231930033721">10pcs</a>, <a href="https://www.ebay.de/itm/100-pcs-SMD-Buchsenleiste-1x-16-polig-RM-2-54mm-NEW/233091176275">100pcs</a>)
-  </td>
+  <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">JST contact BXH-001T-P0.6</a></td>
+  <td colspan="3" align="center">15</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x2-polig-xh-jst-xh2p-bu-p185085.html">JST housing XHP-2</a></td>
+  <td colspan="3" align="center">3</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x4-polig-xh-jst-xh4p-bu-p185087.html">JST housing XHP-4</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x5-polig-xh-jst-xh5p-bu-p185088.html">JST housing XHP-5</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-stiftleiste-gerade-1x2-polig-xh-jst-xh2p-st-p185073.html">JST shrouded header B2B-XH-A</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/jst-stiftleiste-gerade-1x5-polig-xh-jst-xh5p-st-p185076.html">JST shrouded header B5B-XH-A</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html">Resistor (THT) 10 kΩ, 250 mW, 5 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-150-kohm-0207-250-mw-5--1-4w-150k-p1355.html">Resistor (THT) 150 kΩ, 250 mW, 5 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/widerstand-kohleschicht-300-kohm-0207-250-mw-5--1-4w-300k-p1407.html">Resistor (THT) 300 kΩ, 250 mW, 5 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.conrad.de/de/p/tru-components-tc-1206s4f1101t5e203-dickschicht-widerstand-1-1-k-smd-1206-0-25-w-1-1-st-tape-cut-1584104.html">SMD resistor 1.1 kΩ, 1206, 0.25 W, 1 %<br>(for PCB 00.03.12 it is a THT type)</a></td>
+  <td colspan="3" align="center">2</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/vielschicht-keramikkondensator-100n-10--x7r-2-5-100n-p22853.html">Ceramic capacitor 100 nF, 10 %</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/elko-radial-22-uf-10-v-1000-h-low-esr-aec-q200-rad-fc-22-10-p84587.html">Radial electrolytic capacitor 22 µF, 10 V, low ESR</a></td>
+  <td colspan="3" align="center">2</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/schottkydiode-60-v-5-a-do-201ad-sb-560-p16081.html">Schottky diode, 60 V, 5 A, DO-201AD</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/rueckstellende-sicherungen-max-40a-30v-6-6s-pfra-110-p35211.html">Resettable fuse, max. 40 A - 30 V, 6.6 sec<br>PFRA type with radial connectors</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html">PCB connector straight, 2-pin (pin and socket, hard wired), pitch 2.54<br>(it's the connector for the battery)</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/de/de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html">36-pin header, angled, pitch 2.54<br>(only a total of 10 pins are used)</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.reichelt.de/de/de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html">40-pin header, straight, pitch 2.54<br>(only a total of 11 pins are used)</a></td>
+  <td colspan="3" align="center">1</td>
+</tr>
+<tr>
+  <td><a href="https://www.fischerelektronik.de/web_fischer/de_DE/$catalogue/fischerData/PR/BL_LP5SMD_/datasheet.xhtml?branch=Steckverbinder">15 pin 2.54mm SMD connectors (BL LP 5 SMD)<br>(15 pin is hard to find; you can also buy longer and cut to size)</a></td>
   <td colspan="3" align="center">2x</td>
 </tr>
 <tr>
@@ -110,7 +176,7 @@ checking everything is important.
 
 <tr><th colspan="4">Sensor modules</th></tr>
 <tr>
-  <td><a href="https://de.aliexpress.com/item/32737648330.html">JSN-SR04T</a></td>
+  <td><a href="https://de.aliexpress.com/item/32737648330.html">JSN-SR04T</a> (see note)</td>
   <td colspan="2" align="center">2x</td>
   <td align="center">&ndash;</td>
 </tr>
