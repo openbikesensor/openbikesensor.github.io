@@ -14,7 +14,7 @@ begleiten werden.
 
 Freier Zugang zu Information sowie deren freie Verwendung ist ein Grundsatz der
 uns allen sehr wichtig ist. Daher stand auch nie wirklich zur Diskussion, eine
-richtige Open-Source-Lizenz für unsere Werke zu wählen.
+Open-Source-Lizenz für unsere Werke zu wählen.
 
 Wir haben uns gemeinsam entschieden, unsere Softwareprojekte und
 Hardwaredesigns, sowie die begleitende Dokumentation unter den Bedingungen der
@@ -52,9 +52,9 @@ gesellschaftliches Gut, das wir fördern wollen. Dazu kommen viele strategische
 Vorteile, die Open-Source Projekte genießen, die es voranbringen.
 
 Wenn du mehr zum Thema Open Source, Freiheit von Software und Informationen
-möchtest, schau dich doch bei der [Free Software
-Foundation](https://www.fsf.org/de) um!
+wissen möchtest, schau dich doch einmal bei der [Free Software
+Foundation](https://www.fsf.org/de) um.
 
 [Werde auch du auch Teil des OpenBikeSensors!]({{< ref "community" >}}) Dank
-Open-Source Lizenz ist das einfach und unkompliziert möglich!
+Open-Source Lizenz ist das einfach und unkompliziert möglich.
 
