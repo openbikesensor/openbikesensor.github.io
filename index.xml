@@ -1,4 +1,27 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenBikeSensor – OpenBikeSensor</title><link>/</link><description>Recent content on OpenBikeSensor</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: OpenBikeSensor goes LGPL</title><link>/blog/2020/03/23/openbikesensor-goes-lgpl/</link><pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate><guid>/blog/2020/03/23/openbikesensor-goes-lgpl/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenBikeSensor – OpenBikeSensor</title><link>/</link><description>Recent content on OpenBikeSensor</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Das Projekt OpenBikeSensor im Ersten</title><link>/blog/2021/03/28/das-projekt-openbikesensor-im-ersten/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/28/das-projekt-openbikesensor-im-ersten/</guid><description>
+&lt;p>Am 26. März 2021 hat die ARD im Magazin „Brisant” einen Beitrag des
+SWR zum Thema Überholabstände zu Radfahrenden ausgestrahlt, mit dabei unser
+Projekt.&lt;/p>
+&lt;p>Der Beitrag beginnt mit erschreckenden Bildern von Überholvorgängen um das
+Problem zu verdeutlichen. Als Beispiel wird die auch uns bekannte Strecke im
+Stuttgarter Kaltental gezeigt.&lt;/p>
+&lt;p>Das Projekt OpenBikeSensor und unser Überholabstandsmesser werden dann als Teil
+der Lösung vorgestellt.&lt;/p>
+&lt;p>Wir freuen uns sehr über diesen gelungenen Beitrag. In den Tagen nach der
+Ausstrahlung kammen immer mehr neue Mitglieder in den Slack, die durch diese
+öffentliche Aufmerksamkeit von OpenBikeSensor erfahren haben, und nun Teil der
+immer weiter wachsenden Community geworden sind.&lt;/p>
+&lt;p>Den ganzen Fernsehbeitrag haben wir hier eingebunden, und &lt;a href="https://www.swr.de/radfahren/bedraengt-geschnitten-und-beschimpft-100.html">auf swr.de&lt;/a>
+dazu gibt es dazu auch noch einen schriftlichen Artikel.&lt;/p>
+&lt;iframe
+src="https://www.swr.de/~embed/radfahren/bedraengt-geschnitten-und-beschimpft-100.html"
+width="800"
+height="450"
+frameborder="0"
+webkitallowfullscreen
+mozallowfullscreen
+allowfullscreen
+>&lt;/iframe></description></item><item><title>Blog: OpenBikeSensor goes LGPL</title><link>/blog/2021/03/23/openbikesensor-goes-lgpl/</link><pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/23/openbikesensor-goes-lgpl/</guid><description>
 &lt;p>Als Open Source Projekt freuen wir uns, bekanntgeben zu können, dass wir uns
 auf eine gemeinsame Lizenz für unsere bestehenden und zukünftigen Software-,
 Design- und Dokumentationswerke geeinigt haben.&lt;/p>
