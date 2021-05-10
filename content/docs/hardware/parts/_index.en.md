@@ -218,31 +218,37 @@ checking everything is important.
 </tr>
 <tr>
   <td>M3x8mm DIN912</td>
-  <td align="center">15x</td>
+  <td align="center">15x&ensp;(for v00.03.11)<br>19x&ensp;(for v00.03.12)</td>
   <td align="center">TBD</td>
   <td align="center">TBD</td>
 </tr>
 <tr>
   <td>M3x16mm DIN912</td>
-  <td align="center">3x</td>
+  <td align="center">&ensp;3x&ensp;(for v00.03.11)</td>
   <td align="center">TBD</td>
   <td align="center">TBD</td>
 </tr>
 <tr>
   <td>M3x45mm DIN912</td>
-  <td align="center">5x</td>
+  <td align="center">&ensp;5x&ensp;(for v00.03.11)</td>
   <td align="center">TBD</td>
   <td align="center">TBD</td>
 </tr>
 <tr>
   <td>M3x30mm DIN912</td>
-  <td align="center">5x</td>
+  <td align="center">&ensp;5x&ensp;(for v00.03.11)<br>&ensp;1x&ensp;(for v00.03.12)</td>
   <td align="center">TBD</td>
   <td align="center">TBD</td>
 </tr>
 <tr>
   <td>M3 nut DIN934</td>
-  <td align="center">27x</td>
+  <td align="center">27x&ensp;(for v00.03.11)<br>&ensp;6x&ensp;(for v00.03.12)</td>
+  <td align="center">TBD</td>
+  <td align="center">TBD</td>
+</tr>
+<tr>
+  <td><a href="https://www.amazon.de/dp/B08BCRZZS3">Heat-set inserts M3 x 5.7</a></td>
+  <td align="center">13x&ensp;(for v00.03.12)</td>
   <td align="center">TBD</td>
   <td align="center">TBD</td>
 </tr>
