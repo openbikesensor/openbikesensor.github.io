@@ -11,7 +11,7 @@ make it available for everyone.
 
 While we cannot list everything we build upon, here are some honorable mentions
 that we would like to acknowledge, either because they are obscure and little
-known but deserve publicity, or have tremendous impact on our project. 
+known but deserve publicity, or have tremendous impact on our project.
 
 In no particular order:
 

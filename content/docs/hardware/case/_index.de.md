@@ -1,6 +1,6 @@
 ---
-title: Software
-weight: 60
+title: Gehäusedruck
+weight: 30
 ---
 
 {{< language-switch 1 >}}

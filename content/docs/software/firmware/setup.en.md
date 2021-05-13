@@ -7,7 +7,7 @@ weight: 20
 Our firmware uses the great [PlatformIO](https://platformio.org/) for easy
 management of the toolchains and dependencies required when developing an
 application for an embedded device. Thanks to this, you are rather free in the
-choice of the development environment. Here are some options. 
+choice of the development environment. Here are some options.
 
 {{% alert color="info" %}}
 We do not support *Arduino IDE* anymore since we've switched to PlatformIO.
@@ -22,7 +22,7 @@ for the foreseeable future.
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
 2. Open the `open-bike-sensor.code-workspace` in the project root.
 3. Install the recommended extensions (this might take a while, because [Platform.io]() gets installed) and restart VSCode when required.
-4. Linux only: Install `platformio-udev.rules` by [following this guide](https://docs.platformio.org/en/latest/faq.html#platformio-udev-rules). 
+4. Linux only: Install `platformio-udev.rules` by [following this guide](https://docs.platformio.org/en/latest/faq.html#platformio-udev-rules).
 5. Compile the code (Sidebar: `👽 > Build`; Bottom bar: `✅`)
 6. Connect your ESP and upload the code (Sidebar: `👽 > Upload`; Bottom bar: ➡️)
 
@@ -44,7 +44,7 @@ Use the `Clean` command and delete the `.pio` directory. Compiling the code agai
 1. Clone the repository.
 1. Copy `custom_config.ini.example` to `custom_config.ini`  and modify it to
    contain your upload port (only required if autodetection fails, or you want
-   to flash via OTA). 
+   to flash via OTA).
 1. Connect the sensor via USB, or put it into server mode for OTA flashing.
 1. Run `platformio run -t upload`. This will compile and upload your firmware.
 
@@ -53,7 +53,7 @@ Use the `Clean` command and delete the `.pio` directory. Compiling the code agai
 
 Information on this proprietary IDE can be found
 [here](https://www.jetbrains.com/de-de/clion/). While it works for now, it is
-not officially supported by the OBS team. 
+not officially supported by the OBS team.
 
 1. Install [PlatformIO Core (CLI)](https://docs.platformio.org/en/latest/core/installation.html#installation-methods).
 1. Download and open [CLion](https://www.jetbrains.com/de-de/clion/).

@@ -10,7 +10,7 @@ OpenBikeSensor Construction Kit featuring Vertical Case and PCB 00.03.10
 {{< /imgproc >}}
 
 
-* Options to get a case 
+* Options to get a case
 * Where are the source files
 * Printing parameters
 
