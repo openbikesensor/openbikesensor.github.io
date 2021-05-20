@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  website:
+    image: monachus/hugo
+    volumes:
+      - "./:/usr/share/blog"
+    command:
+      - hugo
+      - server
+      - -D
+      - --bind=0.0.0.0
+    ports:
+     - "1313:1313"
