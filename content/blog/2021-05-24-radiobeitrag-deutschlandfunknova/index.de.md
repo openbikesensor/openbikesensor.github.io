@@ -1,7 +1,7 @@
 ---
 title: Der OpenBikeSensor auf Deutschlandfunk
 linkTitle: Der OpenBikeSensor auf Deutschlandfunk
-date: 2021-05-25
+date: 2021-05-24
 ---
 
 Bereits am 09. Mai 2021 gab es einen Beitrag über den OpenBikeSensor in der Sendung [Netzbasteln](https://www.deutschlandfunknova.de/serien/netzbasteln) auf Detschlandfunk Nova.
