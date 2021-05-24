@@ -8,7 +8,7 @@ services:
       - hugo
       - server
       - -D
-      - --ignoreCache
       - --bind=0.0.0.0
+#      - --ignoreCache
     ports:
      - "1313:1313"
