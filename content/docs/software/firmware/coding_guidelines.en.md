@@ -5,7 +5,7 @@ weight: 99
 
 ## platformio.ini
 
-The `platformio.ini` is the main project configuration file. 
+The `platformio.ini` is the main project configuration file.
 It configures [PlatformIO](https://docs.platformio.org/en/latest/projectconf/section_platformio.html#id4) to build and flash the ESP32
 
 ## custom_config.ini

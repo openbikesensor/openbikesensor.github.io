@@ -1,4 +1,3 @@
-
 ---
 title: "OpenBikeSensor Documentation"
 linkTitle: "Documentation"
