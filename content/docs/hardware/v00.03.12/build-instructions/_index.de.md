@@ -1,8 +1,9 @@
 ---
-title: Bauanleitung
+title: Bauanleitung für v00.03.12
 linkTitle: Bauanleitung
 aliases:
 - /bauanleitung
+- /bauanleitung/v00.03.12
 ---
 
 {{% alert title="Achtung" color="danger" %}}

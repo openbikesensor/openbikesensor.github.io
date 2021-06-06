@@ -1,5 +1,5 @@
 ---
-title: Bauanleitung
+title: Bauanleitung für v00.03.10
 linkTitle: Bauanleitung
 aliases:
 - /bauanleitung/v00.03.10
