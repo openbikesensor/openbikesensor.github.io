@@ -1,8 +1,8 @@
 ---
-title: Bauanleitung v00.03
+title: Bauanleitung
 linkTitle: Bauanleitung
 aliases:
-- /bauanleitung
+- /bauanleitung/v00.03.10
 ---
 
 {{% alert title="Achtung" color="danger" %}}
@@ -28,29 +28,29 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
   * Andere Seite normal festlöten.
 
 {{< slider >}}
-  {{< slider-image 
+  {{< slider-image
     src="DetailSMDResistor_01_Loetpunkt"
     alt="Einen Lötpunkt auf eines der Pads von R7 setzen" >}}
-  {{< slider-image 
-    src="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg" 
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg"
     alt="Der Lötpunkt ist auf ein Pad von R7 gesetzt" >}}
-  {{< slider-image 
-    src="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg" 
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg"
     alt="Den Widerstand flach von der Seite darauf schieben" >}}
-  {{< slider-image 
-    src="PCB00.03.10_01_DetailSMDResistor1.jpg" 
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor1.jpg"
     alt="Widerstand R6 ebenfalls so anbringen" >}}
 {{< /slider >}}
 
 ## Schritt 2: Buchsenleisten
 
-* Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden. 
+* Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden.
 * Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
 * Buchsenleisten so an ESP32 stecken, dass die gekürzte Seite den Platz für C3 frei lässt
 * Beachten: Erster Kontakt der gekürzten Buchsenleiste an C3 (ESP32 Board Richtung USB-Buchse) zeigt nach innen
 * Kontakte auf der gegenüberliegenden Seite zeigen versetzt nach innen
 * Längere Buchsenleiste steht gegenüber der Position von C3 über
-* Buchsenleisten mit gestecktem ESP32 positionieren 
+* Buchsenleisten mit gestecktem ESP32 positionieren
 * Beim Positionieren darauf achten, dass die inneren Kontakte auf den längeren
   Lötfahnen auf der Platine sitzen: Auf Seite von J7 zeigt erster Pin nach
   außen, auf der anderen Seite erster Pin nach innen
@@ -96,7 +96,7 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 * Für den roten Spannungsregler 1x1 und 1x2 Stifte vorbereiten.
 * Spannungsregler mit Stiften in zwei gegenüber liegenden Lötstellen fixieren
 * Stifte nicht verlöten!
-* Mit Stiften ausgerichtetes Modul an den anderen beiden SMD-Pads verlöten 
+* Mit Stiften ausgerichtetes Modul an den anderen beiden SMD-Pads verlöten
 * Stifte abziehen und die restlichen Kontakte verlöten
 
 {{< slider >}}
@@ -120,8 +120,8 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Restliche Kontakte löten" >}}
 {{< /slider >}}
 
-* Für das blaue Lademodul 2x2 Stifte und 2x1 Stift vorbereiten. 
-* Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt 
+* Für das blaue Lademodul 2x2 Stifte und 2x1 Stift vorbereiten.
+* Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt
 * Von unten 2 Stifte verlöten. Stifte auf der anderen Seite fixieren
 * Umdrehen und restliche Kontakte löten
 * Die schwarzen Plastikteile entfernen und diese Seite auch verlöten
@@ -199,7 +199,7 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 
 ## Schritt 6: THT-Widerstände
 
-* Widerstände richtig zuordnen: 
+* Widerstände richtig zuordnen:
   * R1=10kOhm (braun - schwarz - orange - gold)
   * R2=150kOhm (braun - grün - gelb - gold)
   * R3=300kOhm (orange - schwarz - gelb - gold)
@@ -229,7 +229,7 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 
 ## Schritt 8: Batteriekabel /-stecker
 
-* Stecker zusammenstecken 
+* Stecker zusammenstecken
 * Beschriftung auf der Platine beachten (Rot: „Plus“, Schwarz: „Minus“)
 * Auf der Rückseite anlöten
 * Kabel wieder abziehen
@@ -255,10 +255,10 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     src="PCB00.03.10_09_Diode_01.jpg"
     alt="Die verlötete Diode" >}}
 {{< /slider >}}
-     
-## Schritt 10: Verbinder für Taster und Display 
 
-* J5: 5-Pin-Konnektor gemäß Markierung auf Platine aufsetzen (Aussparungen zeigen Richtung Platine). 
+## Schritt 10: Verbinder für Taster und Display
+
+* J5: 5-Pin-Konnektor gemäß Markierung auf Platine aufsetzen (Aussparungen zeigen Richtung Platine).
   * 2 Punkte von unten verlöten
   * Platine umdrehen, restliche Pins verlöten.
 
@@ -275,9 +275,9 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 ## Schritt 11: Sensorboards
 
 * Beim Sensorboard mit Kontakten Richtung ESP32:
-  * Plastikteil der Buchse zum Sensor vorsichtig entfernen 
-  * Kontakte nach oben umbiegen – von den Steckkontakten weg 
-* Beide Sensorboards stecken, dabei Beschriftung (+3V3, TRIG, ECHO, GND) beachten 
+  * Plastikteil der Buchse zum Sensor vorsichtig entfernen
+  * Kontakte nach oben umbiegen – von den Steckkontakten weg
+* Beide Sensorboards stecken, dabei Beschriftung (+3V3, TRIG, ECHO, GND) beachten
 * Boards gerade und dicht am OBS-PCB ausrichten und verlöten
 * Überstehende Stifte kürzen
 
@@ -298,8 +298,8 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 
 ## Schritt 12: SD-Modul
 
-* Gewinkelte Stiftleiste mit 6 Pins vorbereiten. 
-* Gewinkelte Stiftleiste genau wie in der Abbildung gezeigt in SD-Modul stecken. 
+* Gewinkelte Stiftleiste mit 6 Pins vorbereiten.
+* Gewinkelte Stiftleiste genau wie in der Abbildung gezeigt in SD-Modul stecken.
 * Die Ausrichtung ist wichtig: Es gibt 8 Arten die Stiftleiste zu stecken, 7 funktionieren nicht.
 * Stiftleiste mit Modul verlöten und überstehende Pins abkneifen
 * Modul auf OBS-PCB stecken (Ausrichtung und Beschriftung beachten)
@@ -359,9 +359,9 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 
 ## Schritt 14: Ein/Aus-Schalter
 
-* 2x10cm Kabel crimpen und in 2-fach Stecker einführen 
-* Andere Kabelenden seitlich an den Schalter löten. 
-* **Achtung**: 
+* 2x10cm Kabel crimpen und in 2-fach Stecker einführen
+* Andere Kabelenden seitlich an den Schalter löten.
+* **Achtung**:
   * Orientierung der Kabelenden und Auswahl der beiden Kontakte am Schalter beachten und eventuell mit Multimeter nachmessen, damit Schalterzustand später mit der Beschriftung am OBS-Gehäuse übereinstimmt (0 unten, I oben).
   * Nur seitlich angelötet passen die Kabel später in das Gehäuse.
   * Zu viel Hitze lässt den Schalter innen schmelzen, was zu Wackelkontakten führen kann.
@@ -376,7 +376,7 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 
 * Tipp: Zunächst mit überschüssigen Kabelteilen und Crimpkontakten üben!
 * Die langen schwarzen Kabel der Sensoren auf etwa 10cm kürzen, da die langen Kabel nicht in das Gehäuse passen und auch die Plastikeinfassung der bestehenden Stecker zu starr und zu dick für das Gehäuse ist
-* Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht durchtrennt werden. 
+* Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht durchtrennt werden.
 * Crimpkontakt muss für optimale Verbindung Leiter und Isolierung greifen
 
 {{< slider >}}
@@ -390,10 +390,10 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 
 ## Schritt 16: Batteriekabel anlöten
 
-* Die Akkus sind mit Lötfahnen ausgestattet. 
-* Auf 12cm gekürztes Batteriekabel an die Enden der Fahnen angelöten 
+* Die Akkus sind mit Lötfahnen ausgestattet.
+* Auf 12cm gekürztes Batteriekabel an die Enden der Fahnen angelöten
 * Polung beachten: Pluspol an Akku auf der Seite mit Einkerbung im Akku-Gehäuse
-* **Polung Im Zweifel nachmessen** 
+* **Polung Im Zweifel nachmessen**
 * Die Batterie und Kabel werden mit einem kleinen Kabelbinder im Deckel fixiert
 * Batteriekontakte mit Isolierband o.Ä. isolieren
 
@@ -419,9 +419,9 @@ das Gehäuse.**
 * Gecrimpte Kabelenden in den 5er Stecker einführen. OBS-PCB und Display sind
   beschriftet. Zuordnung der Farben zu Beschriftung notieren.
 * **Vor Anschluss des Displays Kabel durch Displaygehäuse-Unterteil führen**
-* Zwei Optionen für Anschluss an das OLED-Displayboard 
+* Zwei Optionen für Anschluss an das OLED-Displayboard
   1. Display-Seite crimpen
-    * Nur 4x Crimpen! 
+    * Nur 4x Crimpen!
     * Das Kabel, das im OBS mit „BUT“ verbunden wird, zunächst frei lassen
     * Kabel für VDD zusammen mit zweitem 2-3 cm Kabel crimpen
     * Am OLED-Displayboard Plastikteile an Steckkontakten entfernen und Pins um knapp 1/3 kürzen
@@ -504,7 +504,7 @@ das Gehäuse.**
 * Zweites Teil der Zugentlastung von außen angewinkelt eindrücken, bei Bedarf die Seiten des einzusteckenden Endes zum Kabel hin schräg anschleifen
 * Für optimale Zugentlastung Kabel auf ganzer Länge der Zugentlastung mit Isolierung fixieren (Muttern und Schrauben M3xXX anziehen)
 * Fixierung für Sechskant-Muttern auf einem Teil der Zugentlastung beachten
- 
+
 {{< slider >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_13_Zugsicherung.jpg"
