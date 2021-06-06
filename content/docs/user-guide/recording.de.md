@@ -39,9 +39,11 @@ auf einer SD-Karte gespeichert.  Darin sind alle Hindernisse innerhalb des
 maximalen Messbereiches (285 cm) enthalten, auch Häuser, Masten, Radfahrer,
 Fußgänger usw., die nicht dem Messzweck dienen.  Nähert sich ein KFZ von
 hinten, muss der Knopf am Display gedrückt werden, um den Überholvorgang zu
-markieren.
+erfassen. Bitte achte dabei auf deine eigene Sicherheit: Es ist nicht notwendig, 
+während des Überholvorgangs selbst auf den Button zu drücken. Es ist ausreichend, 
+dies innerhalb von ca. 5 Sekunden nach der ersten Erfassung des Seitenabstands zu tun. 
 
-Das Display bestätigt dies:
+Das Display bestätigt den Überholvorgang:
 
 * durch kurzes Invertieren der Anzeige
 * durch Hochzählen der Anzeige „press“
