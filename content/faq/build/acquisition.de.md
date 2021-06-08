@@ -15,5 +15,5 @@ bequemer, einen Bausatz zu erhalten. Zusammenbauen musst du den dann aber selbst
 
 Wenn du dich an einer Sammelbestellung beteiligen möchtest, oder dir sogar
 vorstellen könntest eine zu organisieren (eine [Bauteileliste]({{< ref
-"/docs/hardware/parts" >}}) mit Hinweisen und Bestell-Links haben wir), melde
+"docs/hardware/v00.03.12/parts" >}}) mit Hinweisen und Bestell-Links haben wir), melde
 dich bitte im Slack-Kanal `#obs_hw_bauteil-börse`.

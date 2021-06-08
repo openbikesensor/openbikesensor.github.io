@@ -1,6 +1,16 @@
-{{ $original := .Page.Resources.GetMatch (printf "**%s*" (.Get 0)) }}
-{{ $command := .Get 1 }}
+{{ $pageFile := .Page.Resources.GetMatch (printf "**%s*" (.Get 0)) }}
+{{ $globalFile := resources.GetMatch (printf "**%s*" (.Get 0)) }}
 {{ $options := .Get 2 }}
+{{ $command := .Get 1 }}
+{{ if $pageFile }}
+{{ .Scratch.Set "original" $pageFile }}
+{{ else if $globalFile }}
+{{ .Scratch.Set "original" $globalFile }}
+{{ else }}
+{{ errorf "Image %s not found." (.Get 0) }}
+{{ end }}
+{{ $original := .Scratch.Get "original" }}
+
 {{ if eq $command "Fit"}}
 {{ .Scratch.Set "image" ($original.Fit $options) }}
 {{ else if eq $command "Resize"}}
@@ -13,6 +23,7 @@
 {{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
+
 <div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: {{ add $image.Width 10 }}px">
   <a href="{{ $original.RelPermalink }}" target="_blank">
     <img class="card-img-top" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">

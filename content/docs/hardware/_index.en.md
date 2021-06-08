@@ -7,13 +7,13 @@ This section documents the possible sensor configurations you can build for
 yourself, and also provides instructions what you need to purchase and how you
 are able to build your own OBS.
 
-Starting out, make sure to check out the [model selection]({{< relref "models" >}}) to figure
+Starting out, make sure to check out the [model selection]({{< relref "general/models" >}}) to figure
 out which version of the OBS you want to build.
 
-Next up, you will need to figure out all the [parts]({{< relref "parts" >}}) that you need to
-purchase or create. This includes a lot of electronic components, a PCB, the 3D
-printed case and fixtures, wires and fasteners. Check out the detailed BOM for
-your version.
+Next up, you will need to figure out all the parts that you need to purchase or
+create for your selected model. This includes a lot of electronic components, a
+PCB, the 3D printed case and fixtures, wires and fasteners. Check out the
+detailed BOM for your version.
 
 We also provide instructions here on printing your own cases, ordering PCBs
 from your favorite manufacturer, and for assembly of the sensor from all the
@@ -23,7 +23,7 @@ parts.
 documentation are not complete. If you run into trouble, ask in Slack. Don't
 expect a smooth experience just yet -- but we're working on it. However, don't
 fear, while not necessarily straightforward at all times, it is still very much
-possible for beginners to complete this build and construct their own OBS. 
+possible for beginners to complete this build and construct their own OBS.
 
 ## Construction kits
 

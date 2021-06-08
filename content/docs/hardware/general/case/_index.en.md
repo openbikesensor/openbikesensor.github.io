@@ -1,5 +1,5 @@
 ---
-title: Gehäusedruck
+title: Printing a case
 weight: 30
 ---
 

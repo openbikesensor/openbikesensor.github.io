@@ -109,7 +109,7 @@ Du hast dir die in der Abbildung abgebildeten Werkzeuge genauer
 angesehen und die Lötstation und das Multimeter kosten mehrere 100 Euro?
 Keine Sorge, du brauchst nicht so teures Equipment. Ich habe dieses
 Werkzeug nur verwendet, da ich es zur Verfügung habe! Du kannst
-natürlich auch günstigere Werkzeuge, z.B. ein einfacheres Multimeter 
+natürlich auch günstigere Werkzeuge, z.B. ein einfacheres Multimeter
 verwenden. Auch die Lötstation muss
 keine so teure sein. Eine klare Empfehlung ist nur eine Lötstation oder
 ein Lötkolben mit einer einstellbaren Temperaturregelung. Du solltest mit

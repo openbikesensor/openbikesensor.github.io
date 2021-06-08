@@ -1,11 +1,19 @@
 ---
-title: Sammelbestellungen
+title: Hinweise für Sammelbestellungen
+linkTitle: Sammelbestellungen
 weight: 10
 ---
 
+{{% alert title="Du möchtest an einer Sammelbestellung teilnehmen?" color="info" %}}
+Diese Dokumentationsseite beschreibt Hinweise für Menschen, die eine
+Sammelbestellung _organisieren_. Wenn du an der Organisation aktueller
+Sammelbestellungen interessiert bist, und zum Beispiel einen Bausatz auf diese
+Weise erhalten möchtest, besuch den Kanal `#obs_hw_bauteil-börse` im Slack.
+{{% /alert %}}
+
+
 Diese Seite soll einige Informationen bereitstellen, die wir bei früheren
 Sammelbestellungen gesammelt haben.
-
 
 ## Überprüfe alles noch einmal
 
@@ -43,7 +51,7 @@ AJ-SR04M: das Modell von der Sammelbestellung im February 2021
 
 * Eigenschaften:
   * vermutlich kein Widerstand um den Betriebsmodus zu ändern
-  * quer liegender IC an der Anschlussseite 
+  * quer liegender IC an der Anschlussseite
   * 11.0592 MHz Schwingquarz
   * Betriebsspannung: 5V
 * Das Datenblatt, das oft auf Chinesischen Seiten erwähnt wird ist `JSN-SR04T一体化超声波测距说明书.pdf` ([Englische Übersetzung](jsn-sr04t-en.pdf)).
