@@ -21,8 +21,9 @@ Das fertig bestückte PCB eines OBS v00.03.
 Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind. Für letzteres empfehlen wir das [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise und Tipps zu Werkzeugbenutzung finden sich am Anfang der Bauanleitung für das [Vorgängermodell v00.02]({{<relref "/docs/hardware/v00.02/build-instructions">}}).
 
 ## Schritt 1: SMD-Widerstände
+In Revision 00.03.12 können die Widerstände R6 und R7 entweder als SMD- oder als THT-Widerstände ([Through Hole Technology](https://commons.wikimedia.org/wiki/File:3_Resistors.jpg)) gelötet werden, je nachdem welche man zur Verfügung hat. Falls SMD-Widerstände gewählt werden, sollten die jetzt eingelötet werden. THT-Widerstände werden in einem späteren Schritt gelötet.
 
-* Widerstände R6 und R7 anbringen:
+* SMD-Widerstände R6 und R7 anbringen (Fotos zeigen eine ältere Platinen-Revision):
   * Einen Lötpunkt auf ein Pad setzen.
   * Widerstand flach auf das PCB legen, Lötpunkt erneut schmelzen und
     das Bauteil mit der Pinzette darauf schieben.
@@ -204,7 +205,8 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
   * R1=10kOhm (braun - schwarz - orange - gold)
   * R2=150kOhm (braun - grün - gelb - gold)
   * R3=300kOhm (orange - schwarz - gelb - gold)
-* Widerstände stecken, verlöten, abkneifen.
+  * R6/R7=1,1kOhm (braun - braun - rot - gold) (falls nicht schon als SMD-Widerstand in Schritt 1 gelötet)
+* Widerstände stecken, verlöten, abkneifen (Die Fotos zeigen eine ältere Platinen-Revision bei denen R6 und R7 SMD-Widerstande sind).
 
 {{< slider >}}
   {{< slider-image
