@@ -9,7 +9,10 @@ aliases:
 Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack]({{<relref "/slack">}}) organisiert werden.
 {{% /alert %}}
 
-Dies ist die Anleitung zum Aufbau des vertikalen OpenBikeSensors v00.03.
+Dies ist die Anleitung zum Aufbau des vertikalen OpenBikeSensors v00.03.10. Sie
+funktioniert ebenfalls für das PCB v00.03.11. Für neuere Versionen solltest du
+auch neuere Anleitungen verwenden. Bauanleitungen für andere Versionen können
+über das Dokumentationsmenü aufgerufen werden.
 
 {{< imgproc "images/PCB00.03.10_short5" Fit "800x600" >}}
 Das fertig bestückte PCB eines OBS v00.03.
