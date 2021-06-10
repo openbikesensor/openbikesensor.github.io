@@ -15,9 +15,9 @@ Datenpool abgeleitet. Dieser wird durch das Portal veröffentlicht und fließt i
 die globale Datenbank ein.
 
 Die Betreiber:innen einzelner Porale können außerdem Nebenabsprachen mit ihren
-Nutzenden treffen zur über das beschriebene Vorgehen herausgehenden Nutzung der
-hochgeladenen Daten. Dies ist zum Beispiel bei einigen Forschungsprojekten der
-Fall.
+Nutzenden treffen, welche über das beschriebene Vorgehen zur Nutzung der
+hochgeladenen Daten hinausgehen. Dies ist zum Beispiel bei einigen
+Forschungsprojekten der Fall.
 
 **Hinweis:** Dies alles ist Konzeption und Zukunftsmusik. Auf dem Weg der
 Umsetzung sind noch viele Schritte zu tun.
