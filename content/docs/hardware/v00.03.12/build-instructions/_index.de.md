@@ -6,20 +6,33 @@ aliases:
 - /bauanleitung/v00.03.12
 ---
 
-{{% alert title="Achtung" color="danger" %}}
-Diese Bauanleitung enthält möglicherweise noch Fehler und Teile die noch nicht aktualisiert wurden seit der letzte Version.
+{{% alert title="Veraltete Bilder" color="danger" %}}
+Die Bilder sind noch nicht angepasst für diese Version. Im Zweifel Texte beachten!
 {{% /alert %}}
 
 Dies ist die Anleitung zum Aufbau des vertikalen OpenBikeSensors v00.03.12.
 Andere Versionen können über das Dokumentationsmenü aufgerufen werden.
 
+Die beschriebene Vorgehensweise ist nur eine Möglichkeit, zu einem
+funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,
+kannst du das natürlich tun. Solltest du einen massentauglichen besseren oder
+einfacheren Weg für einen der Schritte finden, freuen wir uns über
+[Änderungsvorschläge](https://github.com/openbikesensor/openbikesensor.github.io/pulls),
+oder eine kurze Nachricht im Slack.
+
 {{< imgproc "images/PCB00.03.10_short5" Fit "800x600" >}}
-Das fertig bestückte PCB eines OBS v00.03.
+Das fertig bestückte PCB eines OBS v00.03.10 (Vorgängerversion!)
 {{< /imgproc >}}
 
 ## Voraussetzungen
 
-Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind. Für letzteres empfehlen wir das [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise und Tipps zu Werkzeugbenutzung finden sich am Anfang der Bauanleitung für das [Vorgängermodell v00.02]({{<relref "/docs/hardware/v00.02/build-instructions">}}).
+Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das
+Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind.
+Für letzteres empfehlen wir das
+[JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise
+und Tipps zu Werkzeugbenutzung finden sich am Anfang der ausführlichen
+Bauanleitung für das [Modell v00.02]({{<relref
+"/docs/hardware/v00.02/build-instructions">}}).
 
 ## Schritt 1: Buchsenleisten
 
@@ -164,10 +177,6 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
   * Andere Seite normal festlöten.
   * R7 **nicht** so verbauen (s.o.)
 * Normale THT-Widerstände (R1, R2, R3, R6) stecken, verlöten, Beine kürzen.
-
-{{% alert title="Achtung" color="danger" %}}
-Die Bilder sind noch nicht angepasst für diese Version. Text beachten!
-{{% /alert %}}
 
 {{< slider >}}
   {{< slider-image
