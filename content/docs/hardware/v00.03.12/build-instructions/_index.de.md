@@ -21,30 +21,7 @@ Das fertig bestückte PCB eines OBS v00.03.
 
 Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind. Für letzteres empfehlen wir das [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise und Tipps zu Werkzeugbenutzung finden sich am Anfang der Bauanleitung für das [Vorgängermodell v00.02]({{<relref "/docs/hardware/v00.02/build-instructions">}}).
 
-## Schritt 1: SMD-Widerstände
-
-* Widerstände R6 und R7 anbringen:
-  * Einen Lötpunkt auf ein Pad setzen.
-  * Widerstand flach auf das PCB legen, Lötpunkt erneut schmelzen und
-    das Bauteil mit der Pinzette darauf schieben.
-  * Andere Seite normal festlöten.
-
-{{< slider >}}
-  {{< slider-image
-    src="DetailSMDResistor_01_Loetpunkt"
-    alt="Einen Lötpunkt auf eines der Pads von R7 setzen" >}}
-  {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg"
-    alt="Der Lötpunkt ist auf ein Pad von R7 gesetzt" >}}
-  {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg"
-    alt="Den Widerstand flach von der Seite darauf schieben" >}}
-  {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor1.jpg"
-    alt="Widerstand R6 ebenfalls so anbringen" >}}
-{{< /slider >}}
-
-## Schritt 2: Buchsenleisten
+## Schritt 1: Buchsenleisten
 
 * Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden.
 * Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
@@ -93,7 +70,7 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Dann den ESP32 entfernen und die Innenseite verlöten" >}}
 {{< /slider >}}
 
-## Schritt 3: Stromversorgung
+## Schritt 2: Stromversorgung
 
 * Für den roten Spannungsregler 1x1 und 1x2 Stifte vorbereiten.
 * Spannungsregler mit Stiften in zwei gegenüber liegenden Lötstellen fixieren
@@ -159,6 +136,63 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Unterseite verlöten" >}}
 {{< /slider >}}
 
+## Schritt 3: Widerstände
+
+* Widerstände richtig zuordnen (Farbcodes z.B. via [kiloohm.info](http://kiloohm.info/) decodieren):
+  * **R1:** 10&thinsp;kΩ (braun - schwarz - orange - gold)
+  * **R2:** 150&thinsp;kΩ (braun - grün - gelb - gold)
+  * **R3:** 300&thinsp;kΩ (orange - schwarz - gelb - gold)
+  * **R6, R7:** 1,1&thinsp;kΩ (braun - braun - rot - gold) oder 1&thinsp;kΩ (braun - schwarz - rot - gold)
+* **Achtung!** R7 wird anders verlötet!
+  * Leider enthält die Platine einen Fehler, und R7 kann nicht wie vorgesehen platziert werden, sonst ist der Widerstand dem einen Sensorboard im Weg.
+  * Statt auf der Oberseite verlöten wir den Widerstand auf der Unterseite.
+  * Die Beinchen werden dabei nicht durch die Löcher gesteckt. Wir behandeln den Widerstand wie ein SMD-Bauteil.
+  * Pads identifizieren. Eines der Pads auf der Platinenunterseite mit etwas
+    Lötzinn benetzen. Sehr wenig Zinn verwenden, sonst sickert es durch das
+    Loch durch und bildet auf der Rückseite eine Perle, die dann im Weg ist.
+  * Zinn wieder verflüssigen, Widerstand mit einem Bein darin fixieren. Der
+    Widerstand liegt flach auf der Unterseite der Platine auf, mit nicht
+    gebogenen Beinen.
+  * Anderes Bein mit Lötzinn auf anderes Pad löten.
+  * Beine kürzen.
+  * Falls doch Lötzinn zur Oberseite der Platine durchgesickert ist, mit
+    Entlötlitze reduzieren.
+* Falls ein SMD-Widerstand für R6 verwendet werden soll:
+  * Einen Lötpunkt auf ein Pad setzen.
+  * Widerstand flach auf das PCB legen, Lötpunkt erneut schmelzen und
+    das Bauteil mit der Pinzette darauf schieben.
+  * Andere Seite normal festlöten.
+  * R7 **nicht** so verbauen (s.o.)
+* Normale THT-Widerstände (R1, R2, R3, R6) stecken, verlöten, Beine kürzen.
+
+{{< slider >}}
+  {{< slider-image
+    src="PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg"
+    alt="Die Widerstände bereitlegen" >}}
+  {{< slider-image
+    src="PCB00.03.10_06_Widerstaende_01_platzieren.jpg"
+    alt="Auf dem Board platzieren" >}}
+  {{< slider-image
+    src="PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg"
+    alt="Auf der Rückseite verlöten und kürzen" >}}
+{{< /slider >}}
+  *
+
+{{< slider >}}
+  {{< slider-image
+    src="DetailSMDResistor_01_Loetpunkt"
+    alt="Einen Lötpunkt auf eines der Pads von R7 setzen" >}}
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg"
+    alt="Der Lötpunkt ist auf ein Pad von R7 gesetzt" >}}
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg"
+    alt="Den Widerstand flach von der Seite darauf schieben" >}}
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor1.jpg"
+    alt="Widerstand R6 ebenfalls so anbringen" >}}
+{{< /slider >}}
+
 ## Schritt 4: Kondensatoren
 
 * Bei C2 und C3: Polung auf Platine und Kondensator beachten! (Langer Pin: „Plus“, mit Streifen markierte Seite: „Minus“)
@@ -199,25 +233,6 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Auf der Rückseite verlöten und kürzen" >}}
 {{< /slider >}}
 
-## Schritt 6: THT-Widerstände
-
-* Widerstände richtig zuordnen:
-  * R1=10kOhm (braun - schwarz - orange - gold)
-  * R2=150kOhm (braun - grün - gelb - gold)
-  * R3=300kOhm (orange - schwarz - gelb - gold)
-* Widerstände stecken, verlöten, abkneifen.
-
-{{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg"
-    alt="Die Widerstände bereitlegen" >}}
-  {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_platzieren.jpg"
-    alt="Auf dem Board platzieren" >}}
-  {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg"
-    alt="Auf der Rückseite verlöten und kürzen" >}}
-{{< /slider >}}
 
 ## Schritt 7: Sicherung
 
