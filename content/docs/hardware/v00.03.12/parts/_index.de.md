@@ -96,6 +96,11 @@ aliases:
   <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x2-polig-xh-jst-xh2p-bu-p185085.html">Link</a></td>
 </tr>
 <tr>
+  <td>2</td>
+  <td>JST-XH Platinenstecker 2-polig 90°</td>
+  <td><a href="https://www.reichelt.de/jst-stiftleiste-90-1x2-polig-xh-jst-xh2p-st90-p185079.html">Link</a></td>
+</tr>
+<tr>
   <td>1</td>
   <td>JST-XH Gehäuse 4-polig (XHP-4)</td>
   <td><a href="https://www.reichelt.de/jst-buchsengehaeuse-1x4-polig-xh-jst-xh4p-bu-p185087.html">Link</a></td>
