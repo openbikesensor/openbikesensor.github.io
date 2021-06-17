@@ -483,7 +483,7 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.
   oder Seitenschneider)
 * Modifizerten JST-Stecker auf die gekürzten Pins aufstecken (Polung beachten).
   Gegebenenfalls die Pins weiter kürzen, bis der Stecker ganz auf dem Board
-  aufliegt, damit er Displaygehäuse passt.
+  aufliegt, damit er ins Displaygehäuse passt.
 
 | OBS-Seite   | Displayseite   | Button   | Vorschlag Farbe        |
 | ----------- | -------------- | -------- | ---------------------- |
@@ -594,13 +594,13 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
   - Die 4 Sechskant-Muttern einsetzen, Halterung mit Zugentlastung anbringen und
     damit das Kabel fixieren. Noch nicht festziehen, nur sicherstellen dass die
     Muttern nicht mehr herausfallen.
-  - Später werden wir das Kabel auf die richtige Länge ziehen und die Halterung
-    Schrauben fest anziehen.
+  - Später werden wir das Kabel auf die richtige Länge ziehen und die Schrauben
+    dann fest anziehen.
 * Einen Ultraschallsensor in den Deckel einbauen.
 * PCB in Hauptgehäuse platzieren
   - SD-Karte einlegen.
   - ESP32 aufstecken.
-  - Gesamtes Boad in leichtem Winkel herabsenken, am Displaykabel vorbei
+  - Gesamtes Board in leichtem Winkel herabsenken, am Displaykabel vorbei
     navigieren, und auf Ausrichtung der USB-C Ladebuchse achten.
   - Bei Bedarf Unreinheiten des Gehäuses (vom 3D-Druck) entfernen, wenn das PCB
     daran hängen bleibt.
