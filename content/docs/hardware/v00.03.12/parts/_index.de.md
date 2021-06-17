@@ -34,7 +34,7 @@ aliases:
 <tr>
   <td>1</td>
   <td>USB-C Lademodul</td>
-  <td><a href="https://www.ebay.de/itm/173893903484">Link</a></td>
+  <td><a href="https://de.aliexpress.com/item/4000126454159.html">Link1</a> <a href="https://de.aliexpress.com/item/1005001859371001.html">Link2</a></td>
 </tr>
 <tr>
   <td>1</td>
@@ -44,27 +44,27 @@ aliases:
 <tr>
   <td>1</td>
   <td>Buck-Boost Modul for LiPo, 3.3V</td>
-  <td><a href="https://www.ebay.de/itm/264075497616">Link</a></td>
+  <td><a href="https://de.aliexpress.com/item/32892547111.html">Link</a></td>
 </tr>
 <tr>
   <td>1</td>
   <td>18650 LiIon-Akku (mit Lötfahnen)</td>
-  <td><a href="https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652">Link</a></td>
+  <td><a href="https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-29e-2900mah-3-7v-lithium-akku-loetfahne-u_1006211_1652">Link1</a> <a href="https://www.nkon.nl/catalogsearch/result/?q=INR18650-29E">Link2</a></td>
 </tr>
 <tr>
   <td>1</td>
   <td>SD-Karte (Hinweis beachten)</td>
-  <td><a href="https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop">Link</a></td>
+  <td><a href="https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop">Link1</a> <a href="https://de.aliexpress.com/item/32865801075.html">Link2</a></td>
 </tr>
 <tr>
   <td>1</td>
   <td>GPS-NEO-6M Modul (Hinweis beachten)</td>
-  <td><a href="https://www.ebay.de/itm/GPS-NEO-6M-7M-8M-GY-GPS6MV2-Module-Aircraft-Flight-Controller-For-Arduino/272373338855">Link</a></td>
+  <td><a href="https://de.aliexpress.com/item/1005001621909155.html">Link1</a> <a href="https://de.aliexpress.com/item/1005001825455846.html">Link2</a> <a href="https://de.aliexpress.com/item/32582974860.html">Link3</a> <a href="https://de.aliexpress.com/item/4000781171314.html">Link4</a></td>
 </tr>
 <tr>
   <td>2</td>
   <td>JSN-SR04T Sensormodule (Hinweis beachten)</td>
-  <td><a href="https://de.aliexpress.com/item/32737648330.html">Link</a></td>
+  <td><a href="https://de.aliexpress.com/item/4000057298353.html">JSN-SR04T-v3.0</a> <a href="https://de.aliexpress.com/item/4000089886629.html">AJ-SR04M-Link1</a> <a href="https://de.aliexpress.com/item/32898663512.html">AJ-SR04M-Link2</a></td>
 </tr>
 
 <tr><th colspan="3">Kleinteile</th></tr>
@@ -76,7 +76,7 @@ aliases:
 <tr>
   <td>1</td>
   <td>Miniatur-Kippschalter</td>
-  <td><a href="https://www.reichelt.de/miniatur-kippschalter-1x-ein-ein-rnd-210-00435-p240567.html">Link</a></td>
+  <td><a href="https://www.reichelt.de/miniatur-kippschalter-1x-ein-ein-rnd-210-00435-p240567.html">Link1</a> <a href="https://de.aliexpress.com/item/32917875732.html">Link2</a></td>
 </tr>
 <tr>
   <td>ca. 2m</td>
