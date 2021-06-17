@@ -107,11 +107,25 @@ body {
 }
 
 @media print {
+  html, body {
+    font-size: 10pt;
+    line-height: 1.3;
+  }
+
   .noprint {
     display:none;
   }
 
+  .td-main main {
+    max-width: 100% !important;
+    flex: 1 1 0;
+  }
+
   .td-content {
+    max-width: 100%;
+    columns: 2;
+    column-gap: 4rem;
+
     > h1,
     > h2,
     > h3,
@@ -125,15 +139,45 @@ body {
     > pre,
     .footnotes,
     > blockquote {
-      column-span: all;
+      // column-span: all;
       max-width: 100%;
+    }
+
+    li {
+      margin-bottom: 0 !important;
+    }
+
+    h2 {
+      font-size: 1.6em;
+    }
+    h3 {
+      font-size: 1.3em;
+    }
+
+    .print-figures {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
     }
 
     figure {
       break-inside: avoid;
-      max-width: 50%;
-      float: left;
-      padding: 0.5em;
+      margin: 0;
+    }
+
+    .section-index,
+    // "Last changed" row
+    > .text-muted:last-child {
+      display: none;
+    }
+
+    // Uncomment this to print without figures and images
+    // .card, .print-figures, img {
+    //   display: none;
+    // }
+
+    .alert {
+      border-width: 2px;
     }
   }
 }
