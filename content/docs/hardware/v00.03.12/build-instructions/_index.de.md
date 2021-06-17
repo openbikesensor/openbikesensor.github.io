@@ -6,58 +6,47 @@ aliases:
 - /bauanleitung/v00.03.12
 ---
 
-{{% alert title="Achtung" color="danger" %}}
-Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack]({{<relref "/slack">}}) organisiert werden.
+{{% alert title="Veraltete Bilder" color="danger" %}}
+Die Bilder sind noch nicht angepasst für diese Version. Im Zweifel Texte beachten!
 {{% /alert %}}
 
-Dies ist die Anleitung zum Aufbau des vertikalen OpenBikeSensors v00.03.
+Dies ist die Anleitung zum Aufbau des vertikalen OpenBikeSensors v00.03.12.
+Andere Versionen können über das Dokumentationsmenü aufgerufen werden.
+
+Die beschriebene Vorgehensweise ist nur eine Möglichkeit, zu einem
+funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,
+kannst du das natürlich tun. Solltest du einen massentauglichen besseren oder
+einfacheren Weg für einen der Schritte finden, freuen wir uns über
+[Änderungsvorschläge](https://github.com/openbikesensor/openbikesensor.github.io/pulls),
+oder eine kurze Nachricht im Slack.
 
 {{< imgproc "images/PCB00.03.10_short5" Fit "800x600" >}}
-Das fertig bestückte PCB eines OBS v00.03.
+Das fertig bestückte PCB eines OBS v00.03.10 (Vorgängerversion!)
 {{< /imgproc >}}
 
 ## Voraussetzungen
 
-Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind. Für letzteres empfehlen wir das [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise und Tipps zu Werkzeugbenutzung finden sich am Anfang der Bauanleitung für das [Vorgängermodell v00.02]({{<relref "/docs/hardware/v00.02/build-instructions">}}).
+Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das
+Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind.
+Für letzteres empfehlen wir das
+[JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise
+und Tipps zu Werkzeugbenutzung finden sich am Anfang der ausführlichen
+Bauanleitung für das [Modell v00.02]({{<relref
+"/docs/hardware/v00.02/build-instructions">}}).
 
-## Schritt 1: SMD-Widerstände
+## Schritt 1: Buchsenleisten
 
-* Widerstände R6 und R7 anbringen:
-  * Einen Lötpunkt auf ein Pad setzen.
-  * Widerstand flach auf das PCB legen, Lötpunkt erneut schmelzen und
-    das Bauteil mit der Pinzette darauf schieben.
-  * Andere Seite normal festlöten.
-
-{{< slider >}}
-  {{< slider-image
-    src="DetailSMDResistor_01_Loetpunkt"
-    alt="Einen Lötpunkt auf eines der Pads von R7 setzen" >}}
-  {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg"
-    alt="Der Lötpunkt ist auf ein Pad von R7 gesetzt" >}}
-  {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg"
-    alt="Den Widerstand flach von der Seite darauf schieben" >}}
-  {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor1.jpg"
-    alt="Widerstand R6 ebenfalls so anbringen" >}}
-{{< /slider >}}
-
-## Schritt 2: Buchsenleisten
-
-* Eine der beiden Buchsenleisten muss auf 15 Pins gekürzt werden.
-* Mit dem Seitenschneider kürzen und mit dem Cuttermesser nacharbeiten.
-* Buchsenleisten so an ESP32 stecken, dass die gekürzte Seite den Platz für C3 frei lässt
-* Beachten: Erster Kontakt der gekürzten Buchsenleiste an C3 (ESP32 Board Richtung USB-Buchse) zeigt nach innen
-* Kontakte auf der gegenüberliegenden Seite zeigen versetzt nach innen
-* Längere Buchsenleiste steht gegenüber der Position von C3 über
-* Buchsenleisten mit gestecktem ESP32 positionieren
-* Beim Positionieren darauf achten, dass die inneren Kontakte auf den längeren
-  Lötfahnen auf der Platine sitzen: Auf Seite von J7 zeigt erster Pin nach
-  außen, auf der anderen Seite erster Pin nach innen
-* Jede Leiste an 2 Ecken festlöten
-* Danach alle äußeren Verbindungen löten
-* ESP32 abziehen und dann die inneren Kontakte löten.
+* Falls nur Buchsenleisten mit 16 Pins vorhanden sind, müssen diese auf 15 Pins gekürzt werden:
+  * Mit dem Seitenschneider kürzen.
+  * Mit dem Cuttermesser oder Schleifpapier nacharbeiten, um keine scharfe Kante zu hinterlassen.
+* Buchsenleisten auf ESP32 stecken
+  * Auf Ausrichtung achten! Die Pads sind nicht symmetrisch, auf je einer Seite
+    ist nur jeder zweite Pin mit Pad versehen. Vor dem Verlöten mit Footprint
+    vergleichen, ob jeder Pin auch ein Pad bekommt.
+* Buchsenleisten mit gestecktem ESP32 positionieren.
+* Jede Leiste an 2 äußeren Pins festlöten.
+* Danach alle äußeren Verbindungen verlöten.
+* ESP32 abziehen und die inneren Kontakte anlöten.
 
 {{< slider >}}
   {{< slider-image
@@ -92,13 +81,13 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Dann den ESP32 entfernen und die Innenseite verlöten" >}}
 {{< /slider >}}
 
-## Schritt 3: Stromversorgung
+## Schritt 2: Spannungsregler (rot)
 
 * Für den roten Spannungsregler 1x1 und 1x2 Stifte vorbereiten.
 * Spannungsregler mit Stiften in zwei gegenüber liegenden Lötstellen fixieren
 * Stifte nicht verlöten!
-* Mit Stiften ausgerichtetes Modul an den anderen beiden SMD-Pads verlöten
-* Stifte abziehen und die restlichen Kontakte verlöten
+* Mit Stiften ausgerichtetes Modul an den anderen beiden SMD-Pads verlöten.
+* Stifte abziehen und die restlichen Kontakte in SMD-Bauweise verlöten.
 
 {{< slider >}}
   {{< slider-image
@@ -121,12 +110,14 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Restliche Kontakte löten" >}}
 {{< /slider >}}
 
+## Schritt 3: Lademodul (blau)
+
 * Für das blaue Lademodul 2x2 Stifte und 2x1 Stift vorbereiten.
-* Modul mit Stiften fixieren und darauf achten, dass es am PCB anliegt
+* Modul mit Stiften fixieren und darauf achten, dass es flach am PCB anliegt.
 * Von unten 2 Stifte verlöten. Stifte auf der anderen Seite fixieren
-* Umdrehen und restliche Kontakte löten
-* Die schwarzen Plastikteile entfernen und diese Seite auch verlöten
-* Alle Stifte mit dem Seitenschneider kürzen
+* Umdrehen und restliche Kontakte löten.
+* Die schwarzen Plastikteile entfernen und diese Seite auch verlöten.
+* Alle Stifte mit dem Seitenschneider kürzen.
 
 {{< slider >}}
   {{< slider-image
@@ -158,7 +149,60 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Unterseite verlöten" >}}
 {{< /slider >}}
 
-## Schritt 4: Kondensatoren
+## Schritt 4: Widerstände
+
+* Widerstände richtig zuordnen (Farbcodes z.B. via [kiloohm.info](http://kiloohm.info/) decodieren):
+  * **R1:** 10&thinsp;kΩ (braun - schwarz - orange - gold)
+  * **R2:** 150&thinsp;kΩ (braun - grün - gelb - gold)
+  * **R3:** 300&thinsp;kΩ (orange - schwarz - gelb - gold)
+  * **R6, R7:** 1,1&thinsp;kΩ (braun - braun - rot - gold) oder 1&thinsp;kΩ (braun - schwarz - rot - gold)
+* **Achtung!** R7 wird anders verlötet!
+  * Leider enthält die Platine einen Fehler, und R7 kann nicht wie vorgesehen platziert werden, sonst ist der Widerstand dem einen Sensorboard im Weg.
+  * Statt auf der Oberseite verlöten wir den Widerstand auf der Unterseite.
+  * Die Beinchen werden dabei nicht durch die Löcher gesteckt. Wir behandeln den Widerstand wie ein SMD-Bauteil.
+  * Pads identifizieren. Eines der Pads auf der Platinenunterseite mit etwas
+    Lötzinn benetzen. Sehr wenig Zinn verwenden, sonst sickert es durch das
+    Loch durch und bildet auf der Rückseite eine Perle, die dann im Weg ist.
+  * Zinn wieder verflüssigen, Widerstand mit einem Bein darin fixieren. Der
+    Widerstand liegt flach auf der Unterseite der Platine auf, mit nicht
+    gebogenen Beinen.
+  * Anderes Bein mit Lötzinn auf anderes Pad löten.
+  * Beine kürzen.
+  * Falls doch Lötzinn zur Oberseite der Platine durchgesickert ist, mit
+    Entlötlitze reduzieren.
+* Falls ein SMD-Widerstand für R6 verwendet werden soll:
+  * Einen Lötpunkt auf ein Pad setzen.
+  * Widerstand flach auf das PCB legen, Lötpunkt erneut schmelzen und
+    das Bauteil mit der Pinzette darauf schieben.
+  * Andere Seite normal festlöten.
+  * R7 **nicht** so verbauen (s.o.)
+* Normale THT-Widerstände (R1, R2, R3, R6) stecken, verlöten, Beine kürzen.
+
+{{< slider >}}
+  {{< slider-image
+    src="PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg"
+    alt="Die Widerstände bereitlegen" >}}
+  {{< slider-image
+    src="PCB00.03.10_06_Widerstaende_01_platzieren.jpg"
+    alt="Auf dem Board platzieren" >}}
+  {{< slider-image
+    src="PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg"
+    alt="Auf der Rückseite verlöten und kürzen" >}}
+  {{< slider-image
+    src="DetailSMDResistor_01_Loetpunkt"
+    alt="Einen Lötpunkt auf eines der Pads von R7 setzen" >}}
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg"
+    alt="Der Lötpunkt ist auf ein Pad von R7 gesetzt" >}}
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg"
+    alt="Den Widerstand flach von der Seite darauf schieben" >}}
+  {{< slider-image
+    src="PCB00.03.10_01_DetailSMDResistor1.jpg"
+    alt="Widerstand R6 ebenfalls so anbringen" >}}
+{{< /slider >}}
+
+## Schritt 5: Kondensatoren
 
 * Bei C2 und C3: Polung auf Platine und Kondensator beachten! (Langer Pin: „Plus“, mit Streifen markierte Seite: „Minus“)
 * Kondensatoren C1 bis C3 stecken
@@ -180,43 +224,9 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Verlöten und Drähte kürzen" >}}
 {{< /slider >}}
 
-## Schritt 5: Den Transistor überbrücken
+## Schritt 6: Lötpunkt / Brücke
 
-* Den Transistor NICHT verwenden. Einige mit Transistor gebaute Module funktionieren nicht.
-* Statt des Transistors eine Drahtbrücke aus den vorher abgekniffenen Kondensatorpins einlöten
-* Drahtbrücke verbindet die beiden äußeren Kontakte der Transistor-Position.
-
-{{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_05_Transistorbruecke_01_Bruecke.jpg"
-    alt="Aus einem Stück Draht eine Brücke biegen" >}}
-  {{< slider-image
-    src="PCB00.03.10_05_Transistorbruecke_01_BrueckeEinsetzen.jpg"
-    alt="Die Brücke bei Q1 von der Oberseite einsetzen" >}}
-  {{< slider-image
-    src="PCB00.03.10_05_Transistorbruecke_01_BrueckeVerloetenUndKuerzen.jpg"
-    alt="Auf der Rückseite verlöten und kürzen" >}}
-{{< /slider >}}
-
-## Schritt 6: THT-Widerstände
-
-* Widerstände richtig zuordnen:
-  * R1=10kOhm (braun - schwarz - orange - gold)
-  * R2=150kOhm (braun - grün - gelb - gold)
-  * R3=300kOhm (orange - schwarz - gelb - gold)
-* Widerstände stecken, verlöten, abkneifen.
-
-{{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg"
-    alt="Die Widerstände bereitlegen" >}}
-  {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_platzieren.jpg"
-    alt="Auf dem Board platzieren" >}}
-  {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg"
-    alt="Auf der Rückseite verlöten und kürzen" >}}
-{{< /slider >}}
+* JP1 mit einem Lötpunkt versehen und damit überbrücken
 
 ## Schritt 7: Sicherung
 
@@ -275,11 +285,16 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 
 ## Schritt 11: Sensorboards
 
-* Beim Sensorboard mit Kontakten Richtung ESP32:
-  * Plastikteil der Buchse zum Sensor vorsichtig entfernen
+* Falls gewinkelte, 2-polige JST-Steckerverbinder vorhanden sind:
+  * Die JST-Stecker aus dem Sensorboard auslöten.
+  * Gewinkelte JST-Stecker stattdessen einlöten.
+  * Das Kabel, wenn eingesteckt, sollte weg von den 4 Pins des Boards zeigen
+    (nach oben, wenn montiert).
+* Andernfalls:
+  * Weißes Plastikteil der JST-Buchse vorsichtig entfernen
   * Kontakte nach oben umbiegen – von den Steckkontakten weg
 * Beide Sensorboards stecken, dabei Beschriftung (+3V3, TRIG, ECHO, GND) beachten
-* Boards gerade und dicht am OBS-PCB ausrichten und verlöten
+* Boards senkrecht und direkt auf der Grundplatine aufliegend verlöten
 * Überstehende Stifte kürzen
 
 {{< slider >}}
@@ -376,8 +391,14 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
 ## Schritt 15: Ultraschallsensor-Kabel kürzen und crimpen
 
 * Tipp: Zunächst mit überschüssigen Kabelteilen und Crimpkontakten üben!
-* Die langen schwarzen Kabel der Sensoren auf etwa 10cm kürzen, da die langen Kabel nicht in das Gehäuse passen und auch die Plastikeinfassung der bestehenden Stecker zu starr und zu dick für das Gehäuse ist
-* Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht durchtrennt werden.
+* Die langen schwarzen Kabel der Sensoren auf etwa 10cm kürzen, da die langen
+  Kabel nicht in das Gehäuse passen und auch die Plastikeinfassung der
+  bestehenden Stecker zu starr und zu dick für das Gehäuse ist
+* Empfehlung: Schrumpfschlauch (sofern vorhanden, optional) direkt nach dem
+  Kürzen auf das schwarze Sensorkabel aufziehen, noch bevor es abisoliert und
+  gecrimpt wird.
+* Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht
+  durchtrennt werden.
 * Crimpkontakt muss für optimale Verbindung Leiter und Isolierung greifen
 
 {{< slider >}}
@@ -409,29 +430,70 @@ Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das Abisoliere
     alt="Kontakte isolieren" >}}
 {{< /slider >}}
 
-## Schritt 17: Display-Kabel
+## Schritt 17: Gehäuse vorbereiten
 
-**Hinweis: Beim Display ist die Reihenfolge sehr wichtig! Ein Kabel mit
-Steckern auf beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch
-das Gehäuse.**
+* Einpressmuttern ("heat-set inserts") einbauen:
+  - Den Lötkolben auf ca. 180-220°C einstellen, gut reinigen (kein Lot an der
+    Spitze). Nach Möglichkeit eigene Spitze für diese Aufgabe verwenden, und
+    danach wieder wechseln.
+  - Einpressmutter so weit wie möglich von Hand in das vorgesehene Loch drücken.
+  - Lötkolben auflegen, nur sehr leichten Druck ausüben.
+  - Mutter so senkrecht wie möglich behutsam versinken lassen.
+  - Die Mutter sollte lieber etwas zu tief sitzen, als über den Rand
+    überstehen, um die Gehäuseteile bündig miteinander verbinden zu können.
+  - Die Muttern mit denen das PCB befestigt wird nicht zu tief versenken, sonst
+    bildet sich eine Ausbuchtung auf der Außenseite, wo das Logo ist.
+* Einpressmuttern hier platzieren:
+  * 3 Muttern in Hauptgehäuse für das PCB (mit Montagelöchern der Platine vergleichen)
+  * 2 Muttern in Hauptgehäuse beim GPS-Deckel
+  * 5 Muttern in Hauptgehäuse für Hauptdeckel
+  * 3 Muttern in Displaygehäuse
 
-* Kabel abisolieren und auf einer Seite 5x crimpen. Dabei **nur 1-2mm
-  abisolieren und für stabilen Halt mit Isolierung crimpen**.
-* Gecrimpte Kabelenden in den 5er Stecker einführen. OBS-PCB und Display sind
-  beschriftet. Zuordnung der Farben zu Beschriftung notieren.
-* **Vor Anschluss des Displays Kabel durch Displaygehäuse-Unterteil führen**
-* Zwei Optionen für Anschluss an das OLED-Displayboard
-  1. Display-Seite crimpen
-    * Nur 4x Crimpen!
-    * Das Kabel, das im OBS mit „BUT“ verbunden wird, zunächst frei lassen
-    * Kabel für VDD zusammen mit zweitem 2-3 cm Kabel crimpen
-    * Am OLED-Displayboard Plastikteile an Steckkontakten entfernen und Pins um knapp 1/3 kürzen
-    * Prüfen, ob Crimpstecker bündig auf Platine steckt
-    * Ggf. Pins weiter kürzen, damit Board und Pins ins Displaygehäuse passen
-  2. Display-Seite löten
-    * VDD muss auch hier an Display UND Taster verbunden werden
-    * Die andere Seite des Tasters mit dem am OBS mit „BUT“ beschrifteten Kabel verbinden
-    * Die übrigen 4 Kabel entsprechend Farbe und Beschriftung am PCB zuordnen.
+## Schritt 18: Display-Kabel
+
+{{% alert title="Reihenfolge beachten" color="warning" %}}
+Beim Display ist die Reihenfolge sehr wichtig! Ein Kabel mit Steckern auf
+beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.
+{{% /alert %}}
+
+* Kabel durch Displaygehäuse-Unterteil führen.
+* Button in Gehäuseoberteil einschrauben.
+* Stecker OBS-Seite
+  * Richtiges Kabelende identifizieren anhand Durchziehrichtung durch
+    Displaygehäuse-Unterteil.
+  * Die Außenisolierung kann gut auf ca. 5cm abisoliert werden.
+  * Die einzelnen Litzen **nur 1-2mm abisolieren** und alle 5 Litzen crimpen.
+    Für stabilen Halt müssen die äußeren Flügel des Crimpkontakts die
+    Isolierung der jeweiligen Litze greifen.
+  * Gecrimpte Kabelenden ins 5er-Gehäuse einführen. OBS-PCB und Display sind
+    beschriftet. Zuordnung der Farben zu Beschriftung notieren. Unten gibt es
+    eine Verkabelungstabelle mit Farbvorschlag.
+* Stecker Display-Seite
+  * Nur 3 Kabel crimpen: `GND`, `SDA`, `SCL`
+  * `BUT` an eine Seite des Buttons löten. **Achtung:** Der Taster ist
+    hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff.
+  * Kleines Kabelstück (ca. 3cm):
+    - vorbereiten, einseitig crimpen
+    - mit `+3V3` zusammen an andere Buttonseite löten
+    - Crimpkontakt entspricht jetzt `+3V3` bzw. `VDD` (am Display)
+* Am OLED-Displayboard Plastikteile an Steckkontakten entfernen und Pins um
+  knapp 1/3 kürzen
+* Vom JST-Gehäuse (4-polig) die Arretierung (auf der einen Seite leicht
+  hervorstehende Plastikflügel) entfernen, also eben abschneiden (Cuttermesser
+  oder Seitenschneider)
+* Modifizerten JST-Stecker auf die gekürzten Pins aufstecken (Polung beachten).
+  Gegebenenfalls die Pins weiter kürzen, bis der Stecker ganz auf dem Board
+  aufliegt, damit er ins Displaygehäuse passt.
+
+| OBS-Seite   | Displayseite   | Button   | Vorschlag Farbe        |
+| ----------- | -------------- | -------- | ---------------------- |
+| `SDA`       | `SDA`          |          | blau                   |
+| `GND`       | `GND`          |          | schwarz                |
+| `BUT`       | -              | Pin 1    | grau                   |
+| `SCL`       | `SCK`          | -        | weiß                   |
+| `+3V3`      | -              | Pin 2    | braun                  |
+| -           | `VDD`          | Pin 2    | (kurzes Stück Kabel)   |
+
 
 {{< slider >}}
   {{< slider-image
@@ -448,10 +510,24 @@ das Gehäuse.**
     alt="Kabel durch Gehäuseunterteil ziehen" >}}
 {{< /slider >}}
 
-* 0,96 Zoll OLED-Boards haben teils etwas unterschiedliche Größen
-* OLED Displayboard ggf. wie abgebildet etwas kürzen, insbesondere an den Ecken
-* Je nach Genauigkeit des 3D-Drucks das Gehäuse etwas weiter ausfräsen
-* Board und Taster in Displayoberseite einsetzen
+## Schritt 19: Display Zusammenbau
+
+* 0,96-Zoll OLED-Boards haben teils etwas unterschiedliche Größen
+  * Platine des Displays nach Bedarf etwas zurechtschneiden, insbesondere an den Ecken (Seitenschneider)
+  * Je nach Genauigkeit des 3D-Drucks das Gehäuse etwas weiter ausfräsen
+* Schutzfolie von Display abziehen
+* Display in Gehäuseoberteil (das mit dem Button) einsetzen
+* Magnete in die Seitentasche einsetzen.
+  * Wenn Kompatibilität mit anderen OBS gewünscht ist, muss auf gleiche Polung
+    geachtet werden, da sonst die Halterungen nicht austauschbar sind.
+* Gehäuseunterteil aufsetzen und mit Schrauben fixieren.
+* Zugentlastung einsetzen:
+  * Erste Hälfte der Zugentlastung einsetzen
+  * Zweite Hälfte von außen angewinkelt eindrücken, bei Bedarf die unteren
+    Ecken mit dem Seitenschneider leicht abrunden, damit sie sich leichter in
+    die vorgesehene Position stecken lässt.
+  * Mit M3x8 Schrauben und Muttern fixieren, dabei auf sechseckige Fixierung
+    für Sechskant-Muttern auf jeweils einer Seite der Zugentlastung achten.
 
 {{< slider >}}
   {{< slider-image
@@ -463,50 +539,12 @@ das Gehäuse.**
   {{< slider-image
     src="PCB00.03.10_17_Display_07a_Display_mit_Seitenschneider_stutzen.jpg"
     alt="Wenn nötig, Display mit Seitenschneider stutzen" >}}
-{{< /slider >}}
-
-* Kabel von BUT an ein Ende des Tasters anlöten
-* Kurze Kabel von VDD an zweiten Pin des Tasters löten. **Achtung:** Der Taster ist
-  hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff.
-
-{{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_17_Display_06_kurzes_Stueck_Kabel_2-3cm.jpg"
-    alt="Kurzes Stück Kabel (2-3cm) für Button" >}}
-  {{< slider-image
-    src="PCB00.03.10_17_Display_08_Gegenseite_nur_4_Adern_crimpen_1_Zusatzkabel_auf_VDD.jpg"
-    alt="Auf Display-Seite 4 Adern crimpen, Zusatzkabel zu VDD dazu" >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg"
     alt="Fünftes Kabel und VDD Verbindungsstück an Stecker anlöten" >}}
-{{< /slider >}}
-
-**Display zusammensetzen**
-
-* Magnete in Displaygehäuse und Lenkerhalterung passend zur Fixierung einlegen
-* Muttern mit längeren Schrauben in Aussparungen in Gehäuse-Unterseite einziehen. Man kann bei Bedarf alle im Folgenden genutzten Muttern am äußeren Rand mit Sekundenkleber fixieren, dabei aber den Kleber unbedingt von den Gewinden fernhalten!
-* Längere Schrauben durch M3x18 ersetzen
-
-{{< slider >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg"
     alt="Magnete passend einlegen" >}}
-  {{< slider-image
-    src="PCB00.03.10_17_Display_11_Muttern_in_Gehaeuse_ziehen_mit_groeßeren_Schrauben.jpg"
-    alt="Muttern in Gehäuse ziehen mithilfe langer Schrauben" >}}
-  {{< slider-image
-    src="PCB00.03.10_17_Display_12_Grosse_Schrauben_durch_richtige_ersetzen.jpg"
-    alt="Lange Schrauben durch die richtigen, kürzeren ersetzen" >}}
-{{< /slider >}}
-
-**Zugentlastung einsetzen**
-
-* Erstes Teil der Zugentlastung einsetzen
-* Zweites Teil der Zugentlastung von außen angewinkelt eindrücken, bei Bedarf die Seiten des einzusteckenden Endes zum Kabel hin schräg anschleifen
-* Für optimale Zugentlastung Kabel auf ganzer Länge der Zugentlastung mit Isolierung fixieren (Muttern und Schrauben M3xXX anziehen)
-* Fixierung für Sechskant-Muttern auf einem Teil der Zugentlastung beachten
-
-{{< slider >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_13_Zugsicherung.jpg"
     alt="Die Teile der Zugentlastung" >}}
@@ -521,7 +559,7 @@ das Gehäuse.**
     alt="Zugentlastung verschrauben" >}}
 {{< /slider >}}
 
-## Schritt 18: Elektronik testen
+## Schritt 20: Elektronik testen
 
 Zunächst muss die [OpenBikeSensor Firmware auf den ESP32 geflashed werden](https://github.com/openbikesensor/OpenBikeSensorFirmware).
 
@@ -547,14 +585,60 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
     alt="Schalter und Batterie anschließen zum Testen" >}}
 {{< /slider >}}
 
-## Schritt 19: Gehäuse vorbereiten
+## Schritt 21: Zusammenbau
 
-Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche können herausfallen, andere sitzen sehr fest. Auch hier kann Sekundenkleber verwendet werden.
+* Kabel und Halterung
+  - Displaykabel durch rechteckiges Loch einführen (der 5-polige JST-Stecker
+    passt diagonal hindurch).
+  - Etwa 5-10cm des Kabels im Gehäuse lassen.
+  - Die 4 Sechskant-Muttern einsetzen, Halterung mit Zugentlastung anbringen und
+    damit das Kabel fixieren. Noch nicht festziehen, nur sicherstellen dass die
+    Muttern nicht mehr herausfallen.
+  - Später werden wir das Kabel auf die richtige Länge ziehen und die Schrauben
+    dann fest anziehen.
+* Einen Ultraschallsensor in den Deckel einbauen.
+* PCB in Hauptgehäuse platzieren
+  - SD-Karte einlegen.
+  - ESP32 aufstecken.
+  - Gesamtes Board in leichtem Winkel herabsenken, am Displaykabel vorbei
+    navigieren, und auf Ausrichtung der USB-C Ladebuchse achten.
+  - Bei Bedarf Unreinheiten des Gehäuses (vom 3D-Druck) entfernen, wenn das PCB
+    daran hängen bleibt.
+  - Mit 3 Stück M3x6 oder M3x8 in Unterseite verschrauben.
+* Displaykabel in Gehäuse einstecken.
+  - Das Kabel sollte außen um die Elektronik herumgeführt werden, *nicht*
+    zwischen dem GPS- und SD-Karten-Modul hindurch. Im neuen Gehäuse sollte
+    dort genug Platz sein.
+  - Jetzt zeigt sich auch, warum ca. 5cm Abisolierung hier sinnvoll ist, denn
+    ohne Isolierung ist das Kabel flexibler.
+  - Stecker eindrücken (z.B. mit Pinzette)
+  - Kabel so weit aus der Zugsicherung herausziehen, bis kein überschüssiges
+    Kabel im Innenraum des Gehäuses ist, aber das Kabel nicht straff liegt.
+  - Schrauben der Zugsicherung/Halterung anziehen
+* GPS-Antenne einsetzen
+  - Kabel mit kleinem Stecker durch das kleine Loch fädeln.
+  - GPS-Antenne mit Schirmung nach unten, Keramik nach oben, in Aussparung einsetzen.
+  - Stecker in GPS-Board aufstecken (sehr filigran, aber auch schwer zu
+    stecken, z.B. mit Pinzette zusammendrücken, dabei auf richtigen Sitz achten
+    um den Stecker nicht zu beschädigen).
+  - GPS-Deckel auf Antenne aufschieben und mit 2 Stück M3x6 oder M3x8 fixieren.
+* Schalter in Gehäuse einsetzen
+  - Einschaltrichtung mit "I/O" Aufdruck des Gehäuses vergleichen.
+  - Wenn möglich mit der mitgelieferten Unterlegscheibe und Mutter fixieren.
+  - Andernfalls hält der Deckel den Schalter auch an Ort und Stelle, aber er
+    könnte etwas wackeln.
+  - Schalter einstecken.
+* Sensoren einbauen
+  - Auf der Rückseite des Sensors gibt es einen Pfeil, der mit "UP" die
+    Richtung markiert, wo später oben sein soll.
+  - Einen Sensor ins Hauptgehäuse einbauen, den anderen in den Deckel.
+  - Sensoren einstecken. Wenn möglich, den Sensor im Gehäuse an das nächste
+    Sensorboard anschließen, den Sensor vom Deckel in das entferntere.
+* Akku einbauen
+  - Akku im Deckel mit Kabelbinder fixieren.
+  - Einstecken. Polung beachten!
 
 {{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_19_Gehaeuse_03_GPS_Antenne_einsetzen_keine_Gewalt.jpg"
-    alt="GPS-Antenne einsetzen (keine Gewalt)" >}}
   {{< slider-image
     src="PCB00.03.10_19_Gehaeuse_04_Akku_und_Ultraschallsensor_an_Deckel_montieren_Bezeichnung_UP_beachten.jpg"
     alt="Akku und Ultraschallsensor an Deckel montieren ('Up'-Pfeil beachten)" >}}
@@ -567,14 +651,6 @@ Alle Muttern vor den elektronischen Bauteilen in das Gehäuse stecken. Manche k�
   {{< slider-image
     src="PCB00.03.10_19_Gehaeuse_07_USB-C-Ladebuchse_ohne_Gewalt_in_Aussparung_einfaedeln.jpg"
     alt="Ladebuchse (USB-C) ohne Gewalt in die Aussparung einfädeln" >}}
-{{< /slider >}}
-
-## Schritt 20: Zusammenbau
-
-{{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_01_Displaykabel_zwischen_SD-Kartenleser_und_GPS_fuehren.jpg"
-    alt="Displaykabel zwischen SD-Kartenleser und GPS-Modul führen" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_02_PCB_festschrauben.jpg"
     alt="PCB festschrauben" >}}
