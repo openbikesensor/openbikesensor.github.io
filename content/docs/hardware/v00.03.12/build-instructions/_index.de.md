@@ -20,8 +20,8 @@ einfacheren Weg für einen der Schritte finden, freuen wir uns über
 [Änderungsvorschläge](https://github.com/openbikesensor/openbikesensor.github.io/pulls),
 oder eine kurze Nachricht im Slack.
 
-{{< imgproc "images/PCB00.03.10_short5" Fit "800x600" >}}
-Das fertig bestückte PCB eines OBS v00.03.10 (Vorgängerversion!)
+{{< imgproc "v00.03.12/19_Assembly/DSC08101.JPG" Fit "800x600" >}}
+Ein fertig gebauter OpenBikeSensor der Version v00.03.12
 {{< /imgproc >}}
 
 ## Voraussetzungen
@@ -50,34 +50,31 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
+    src="v00.03.12/01_Pin_Headers/DSC07898.JPG"
+    alt="Bauteile bereitlegen" >}}
+  {{< slider-image
     src="PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg"
-    alt="Buchsenleite zuschneiden" >}}
+    alt="Buchsenleite wenn nötig auf 15 Pins zuschneiden" >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite02_ausrichten.jpg"
+    src="v00.03.12/01_Pin_Headers/DSC07901.JPG"
     alt="Buchsenleisten auf ESP32 aufstecken" >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite03_ausrichten.jpg"
-    alt="Buchsenleisten auf ESP32 aufstecken" >}}
+    src="v00.03.12/01_Pin_Headers/DSC07902.JPG"
+    alt="Gemeinsam auf dem PCB platzieren. Ausrichtung der abwechselnden Pins (innen) prüfen." >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite04_aufPCBplatzieren.jpg"
-    alt="Gemeinsam auf dem PCB platzieren" >}}
-  {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite04_an4Eckenloeten.jpg"
+    src="v00.03.12/01_Pin_Headers/DSC07903.JPG"
     alt="Zunächst an einem Eckpunkt fixieren" >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite06_an4Eckenloeten.jpg"
+    src="v00.03.12/01_Pin_Headers/DSC07905.JPG"
     alt="Ausrichten und auf der gegenüberliegenden Seite ebenfalls fixieren" >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite07_an4Eckenloeten.jpg"
-    alt="Ebenso die andere Seite" >}}
+    src="v00.03.12/01_Pin_Headers/DSC07913.JPG"
+    alt="Alle äußeren Pins festlöten (beidseitig)" >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite08_alleLoetstellen.jpg"
-    alt="Alle äußeren Pins festlöten" >}}
+    src="v00.03.12/01_Pin_Headers/DSC07915.JPG"
+    alt="Alle äußeren Pins festgelötet" >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite09_alleLoetstellen.jpg"
-    alt="Alle äußeren Pins festlöten" >}}
-  {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite10_innereLoetstellen.jpg"
+    src="v00.03.12/01_Pin_Headers/DSC07926.JPG"
     alt="Dann den ESP32 entfernen und die Innenseite verlöten" >}}
 {{< /slider >}}
 
@@ -94,20 +91,17 @@ Bauanleitung für das [Modell v00.02]({{<relref
     src="PCB00.03.10_03_Spannunsversorgung_01_Stiftleisten_ablaengen.jpg"
     alt="Stiftleisten ablängen" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_02_Stiftleisten_ablaengen.jpg"
-    alt="Vorbereitete Stiftleisten" >}}
+    src="v00.03.12/02_Regulator/DSC07928.JPG"
+    alt="Bauteile bereitlegen" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_03_Boardplatzieren.jpg"
-    alt="Board platzieren und mit Stiften ausrichten" >}}
+    src="v00.03.12/02_Regulator/DSC07934.JPG"
+    alt="Board platzieren und mit Stiften ausrichten, anderes Pad wie SMD verlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_04_Boardloeten01.jpg"
+    src="v00.03.12/02_Regulator/DSC07935.JPG"
     alt="Freie Kontakte löten" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_06_Stifte_entfernen.jpg"
-    alt="Stifte entfernen" >}}
-  {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_05_fertigloeten.jpg"
-    alt="Restliche Kontakte löten" >}}
+    src="v00.03.12/02_Regulator/DSC07938.JPG"
+    alt="Stifte entfernen und restliche Kontakte löten" >}}
 {{< /slider >}}
 
 ## Schritt 3: Lademodul (blau)
@@ -121,32 +115,29 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_07_LademodulmitStiften.jpg"
-    alt="Lademodul mit Stiften" >}}
+    src="v00.03.12/03_Charger/DSC07944.JPG"
+    alt="Bauteile bereitlegen" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_07_Lademodulplatziert.jpg"
-    alt="Lademodul platziert" >}}
+    src="v00.03.12/03_Charger/DSC07945.JPG"
+    alt="Lademodul und Stifte platziert" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_10_Oberseitemit2Loetstellen.jpg"
-    alt="Oberseite mit 2 Lötstellen" >}}
+    src="v00.03.12/03_Charger/DSC07951.JPG"
+    alt="Auf Oberseite verlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_09_vonUntenAnloten.jpg"
-    alt="Von unten anlöten" >}}
+    src="v00.03.12/03_Charger/DSC07954.JPG"
+    alt="Alle Stifte auf Oberseite verlötet" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_08_schwarze_Plastikteile_von_Stiftleiste_entfernt.jpg"
+    src="v00.03.12/03_Charger/DSC07959.JPG"
     alt="Schwarze Plastikteile von Stiftleiste entfernen" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_11_Oberseitefertigverloetet.jpg"
-    alt="Oberseite fertig verlötet" >}}
+    src="v00.03.12/03_Charger/DSC07961.JPG"
+    alt="Schwarze Plastikteile von Stiftleiste entfernt" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_12_Unterseite.jpg"
-    alt="Unterseite" >}}
+    src="v00.03.12/03_Charger/DSC07964.JPG"
+    alt="Oberseite verlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_13_AufBeidenSeitenStifteKuerzen.jpg"
-    alt="Auf beiden Seiten Stifte kürzen" >}}
-  {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_13_UnterseiteVerloetet.jpg"
-    alt="Unterseite verlöten" >}}
+    src="v00.03.12/03_Charger/DSC07968.JPG"
+    alt="Stifte kürzen" >}}
 {{< /slider >}}
 
 ## Schritt 4: Widerstände
@@ -180,26 +171,26 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_bereitlegen.jpg"
-    alt="Die Widerstände bereitlegen" >}}
+    src="v00.03.12/04_Resistors_R7/DSC07880.JPG"
+    alt="R7: Eines der Pads verzinnen" >}}
   {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_platzieren.jpg"
-    alt="Auf dem Board platzieren" >}}
+    src="v00.03.12/04_Resistors_R7/DSC07885.JPG"
+    alt="R7: Den Widerstand wie ein SMD-Bauteil einseitig anlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_06_Widerstaende_01_verloetenUndKuerzen.jpg"
-    alt="Auf der Rückseite verlöten und kürzen" >}}
+    src="v00.03.12/04_Resistors_R7/DSC07889.JPG"
+    alt="R7: Die zweite Seite verlöten" >}}
   {{< slider-image
-    src="DetailSMDResistor_01_Loetpunkt"
-    alt="Einen Lötpunkt auf eines der Pads von R7 setzen" >}}
+    src="v00.03.12/04_Resistors_R7/DSC07890.JPG"
+    alt="R7: Fertig montiert" >}}
   {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor_02_Loetpunktgesetzt.jpg"
-    alt="Der Lötpunkt ist auf ein Pad von R7 gesetzt" >}}
+    src="v00.03.12/04_Resistors_R6/DSC07891.JPG"
+    alt="Ein Widerstand (R6) platziert" >}}
   {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor_03_Widerstandaufschieben.jpg"
-    alt="Den Widerstand flach von der Seite darauf schieben" >}}
+    src="v00.03.12/04_Resistors_R6/DSC07893.JPG"
+    alt="Auf der Rückseite verlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_01_DetailSMDResistor1.jpg"
-    alt="Widerstand R6 ebenfalls so anbringen" >}}
+    src="v00.03.12/04_Resistors_R6/DSC07895.JPG"
+    alt="Beine kürzen. Widerstände R1-R3 ebenso montieren." >}}
 {{< /slider >}}
 
 ## Schritt 5: Kondensatoren
@@ -214,60 +205,58 @@ Bauanleitung für das [Modell v00.02]({{<relref
     src="PCB00.03.10_04_Kondesatoren_01_Kondensatoren.jpg"
     alt="Die Kondensatoren" >}}
   {{< slider-image
-    src="PCB00.03.10_04_Kondesatoren_01_KondensatorenPlatzieren.jpg"
+    src="v00.03.12/05_Caps/DSC07970.JPG"
     alt="Kondensatoren platzieren, auf Polung achten!" >}}
   {{< slider-image
-    src="PCB00.03.10_04_Kondesatoren_01_KondensatorenUmbiegen.jpg"
-    alt="Draht auf der Rückseite umbiegen" >}}
+    src="v00.03.12/05_Caps/DSC07971.JPG"
+    alt="Auf der Rückseite umbiegen und verlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_04_Kondesatoren_01_KondensatorenVerloetenUndKuerzen.jpg"
-    alt="Verlöten und Drähte kürzen" >}}
+    src="v00.03.12/05_Caps/DSC07979.JPG"
+    alt="Drähte kürzen" >}}
+  {{< slider-image
+    src="v00.03.12/05_Caps/DSC07984.JPG"
+    alt="Widerstände und Kondensatoren fertig platziert" >}}
 {{< /slider >}}
 
 ## Schritt 6: Lötpunkt / Brücke
 
 * JP1 mit einem Lötpunkt versehen und damit überbrücken
+* Erstes Bild im nächsten Schritt zeigt das Ergebnis
 
-## Schritt 7: Sicherung
+## Schritt 7: Stromversorgung
 
-* Sicherung an Position F1 stecken, verlöten, abkneifen
+* Sicherung
+  * Position F1
+  * Richtung egal
+  * Die kleinen Biegungen in den Beinchen sorgen für den richtigen Abstand
+  * Einstecken, senkrecht verlöten, Beine abkneifen
+* Batteriestecker
+  * Stecker und Kabel zusammenstecken
+  * Beschriftung auf der Platine beachten (Rot: „Plus“, Schwarz: „Minus“)
+  * Auf der Rückseite anlöten
+  * Kabel wieder abziehen
+* Diode
+  * **Polung beachten**: Die Diode "steht" auf dem Kreis auf dem PCB, aber der
+    weiße Ring auf der Diode dabei zeigt nach oben.
+  * Diode umbiegen und aufstecken
+  * Enden vor dem Löten etwas kürzen, um beim Löten weniger Metall aufheizen zu
+    müssen
+  * Verlöten: Eigentlich sollen Halbleiter nur kurz gelötet werden, aber dieses
+    ist ein sehr großes Bauteil, und auch erstaunlich robust. Arbeite zügig,
+    aber erwarte dass es eine Weile dauert, bis das Bauteil und die Pads auf
+    Temperatur gebracht sind und das Lötzinn schmilzt.
+  * Achtung, die Diode nimmt viel Hitze auf und ist noch lange nach dem Löten
+    sehr heiß.
+  * Enden nachkürzen
 
-{{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_07_Sicherung_01.jpg"
-    alt="Die Sicherung (oben rechts) anbringen" >}}
-{{< /slider >}}
-
-## Schritt 8: Batteriekabel /-stecker
-
-* Stecker zusammenstecken
-* Beschriftung auf der Platine beachten (Rot: „Plus“, Schwarz: „Minus“)
-* Auf der Rückseite anlöten
-* Kabel wieder abziehen
-
-{{< slider >}}
-  {{< slider-image
-    src="PCB00.03.10_08_Batteriestecker_01.jpg"
-    alt="Der Batterieverbinder mit Kabel, um die Polung zu prüfen" >}}
-  {{< slider-image
-    src="PCB00.03.10_08_Batteriestecker_02.jpg"
-    alt="Auf der Rückseite verlöten" >}}
-{{< /slider >}}
-
-## Schritt 9: Diode
-
-* Polung beachten!
-* Diode umbiegen und stehend auf dem weiter vom Batteriestecker entfernten Kontakt aufsetzen
-* Der markierte Ring muss oben stehen
-* Löten, Enden abkneifen
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_09_Diode_01.jpg"
-    alt="Die verlötete Diode" >}}
+    src="v00.03.12/07_Power/DSC08004.JPG"
+    alt="Die fertig platzierten Bauteile (oben links)" >}}
 {{< /slider >}}
 
-## Schritt 10: Verbinder für Taster und Display
+## Schritt 8: Verbinder für Taster und Display
 
 * J5: 5-Pin-Konnektor gemäß Markierung auf Platine aufsetzen (Aussparungen zeigen Richtung Platine).
   * 2 Punkte von unten verlöten
@@ -279,11 +268,17 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_10_Steckerleisten_01.jpg"
-    alt="Verbinder für Schalter und Display auf der Oberseite anbringen" >}}
+    src="v00.03.12/08_Connectors/DSC08005.JPG"
+    alt="5-poligen Stecker richtigherum aufstecken" >}}
+  {{< slider-image
+    src="v00.03.12/08_Connectors/DSC08006.JPG"
+    alt="Auf der Rückseite verlöten, auf guten Sitz achten" >}}
+  {{< slider-image
+    src="v00.03.12/08_Connectors/DSC08010.JPG"
+    alt="2-poligen Stecker ebenso montieren" >}}
 {{< /slider >}}
 
-## Schritt 11: Sensorboards
+## Schritt 9: Sensorboards
 
 * Falls gewinkelte, 2-polige JST-Steckerverbinder vorhanden sind:
   * Die JST-Stecker aus dem Sensorboard auslöten.
@@ -299,20 +294,23 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_11_Sensormodule_01_platzieren.jpg"
-    alt="Boards grob platzieren" >}}
+    src="v00.03.12/09_Sensor_Boards/DSC08012.JPG"
+    alt="Ein einzelnes Sensorboard" >}}
   {{< slider-image
-    src="PCB00.03.10_11_Sensormodule_02_ausrichten.jpg"
-    alt="Ausrichten, sodass sie senkrecht stehen und sich nicht berühren" >}}
+    src="v00.03.12/09_Sensor_Boards/DSC08013.JPG"
+    alt="Das weiße Kunststoffteil entfernen" >}}
   {{< slider-image
-    src="PCB00.03.10_11_Sensormodule_04_loeten.jpg"
-    alt="Kontakte auf der Rückseite verlöten" >}}
+    src="v00.03.12/09_Sensor_Boards/DSC08014.JPG"
+    alt="Kontakte des alten Steckers auslöten, neuen Stecker einlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_11_Sensormodule_05_kuerzen.jpg"
-    alt="Beine kürzen" >}}
+    src="v00.03.12/09_Sensor_Boards/DSC08020.JPG"
+    alt="Sensorboards platzieren (neue JST-Stecker bereits montiert)" >}}
+  {{< slider-image
+    src="v00.03.12/09_Sensor_Boards/DSC08024.JPG"
+    alt="Auf der Rückseite verlöten, Beine kürzen" >}}
 {{< /slider >}}
 
-## Schritt 12: SD-Modul
+## Schritt 10: SD-Modul
 
 * Gewinkelte Stiftleiste mit 6 Pins vorbereiten.
 * Gewinkelte Stiftleiste genau wie in der Abbildung gezeigt in SD-Modul stecken.
@@ -323,20 +321,23 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_12_SD-Karte_01_mit_Stiftleisten.jpg"
+    src="v00.03.12/10_SD_Module/DSC08025.JPG"
     alt="SD-Karten Modul und Stiftleiste" >}}
   {{< slider-image
-    src="PCB00.03.10_12_SD-Karte_02_Stiftleiste_gesteckt.jpg"
-    alt="Stiftleiste in Modul einstecken und verlöten (Richtung beachten)" >}}
+    src="v00.03.12/10_SD_Module/DSC08026.JPG"
+    alt="Stiftleiste in Modul einstecken (Richtung beachten)" >}}
   {{< slider-image
-    src="PCB00.03.10_12_SD-Karte_03_Modul_platziert.jpg"
+    src="v00.03.12/10_SD_Module/DSC08027.JPG"
+    alt="Stiftleiste in Modul verlöten" >}}
+  {{< slider-image
+    src="v00.03.12/10_SD_Module/DSC08028.JPG"
     alt="Modul platzieren" >}}
   {{< slider-image
-    src="PCB00.03.10_12_SD-Karte_04_Modul_geloetet.jpg"
+    src="v00.03.12/10_SD_Module/DSC08032.JPG"
     alt="Auf der Rückseite anlöten und kürzen" >}}
 {{< /slider >}}
 
-## Schritt 13: GPS-Modul
+## Schritt 11: GPS-Modul
 
 * Gewinkelte Stiftleiste mit 4 Pins vorbereiten
 * Stiftleiste in OBS-PCB verlöten (Unterseite, langes Ende der Pins seitlich herausschauend)
@@ -348,32 +349,20 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_13_GPS-Module_01_Modul.jpg"
-    alt="Das GPS-Modul mit Antenne (große Variante). Überstehenden Teil der Platine abknicken und entfernen." >}}
+    src="v00.03.12/11_GPS_Module/DSC08033.JPG"
+    alt="4-polige Winkelstiftleiste abkürzen und stecken (Richtung beachten)" >}}
   {{< slider-image
-    src="PCB00.03.10_13_GPS-Module_02_Modul_mit_Stiftleiste.jpg"
-    alt="Das GPS-Modul mit Stiftleiste" >}}
+    src="v00.03.12/11_GPS_Module/DSC08034.JPG"
+    alt="Auf der Oberseite verlöten" >}}
   {{< slider-image
-    src="PCB00.03.10_13_GPS-Module_03_Stiftleiste_ohne_Modul_ins_PCB_stecken.jpg"
-    alt="Stiftleiste ohne Modul von unten ins PCB stecken" >}}
-  {{< slider-image
-    src="PCB00.03.10_13_GPS-Module_05_Stiftleiste_anloeten.jpg"
-    alt="Stiftleiste auf Vorderseite anlöten" >}}
-  {{< slider-image
-    src="PCB00.03.10_13_GPS-Module_06_Stiftleiste_geloetet.jpg"
-    alt="Stiftleiste gelötet" >}}
-  {{< slider-image
-    src="PCB00.03.10_13_GPS-Module_07_GPS-Modul_ausgerichtet.jpg"
-    alt="GPS-Modul aufstecken und ausrichten" >}}
-  {{< slider-image
-    src="PCB00.03.10_13_GPS-Module_08_GPS-Modul_geloetet.jpg"
-    alt="GPS-Modul anlöten, Kontakte kürzen" >}}
+    src="v00.03.12/11_GPS_Module/DSC08035.JPG"
+    alt="GPS-Modul senkrecht aufstecken und verlöten" >}}
 {{< /slider >}}
 
 
 **Damit ist das PCB fertig bestückt!!!**
 
-## Schritt 14: Ein/Aus-Schalter
+## Schritt 12: Ein/Aus-Schalter
 
 * 2x10cm Kabel crimpen und in 2-fach Stecker einführen
 * Andere Kabelenden seitlich an den Schalter löten.
@@ -384,11 +373,11 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_14_Schalter_01_Schalter_mit_Kabel_und_Stecker.jpg"
-    alt="Schalter mit Kabel und stecker" >}}
+    src="v00.03.12/12_Switch/DSC08041.JPG"
+    alt="Schalter mit Kabel und Stecker" >}}
 {{< /slider >}}
 
-## Schritt 15: Ultraschallsensor-Kabel kürzen und crimpen
+## Schritt 13: Ultraschallsensor-Kabel kürzen und crimpen
 
 * Tipp: Zunächst mit überschüssigen Kabelteilen und Crimpkontakten üben!
 * Die langen schwarzen Kabel der Sensoren auf etwa 10cm kürzen, da die langen
@@ -403,14 +392,14 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_15_Sensor_01_Sensor_mit_gekuerztem_Kabel_und_Stecker.jpg"
+    src="v00.03.12/13_Sensor_Wiring/DSC08040.JPG"
     alt="Sensor mit gekürztem Kabel und Stecker" >}}
   {{< slider-image
     src="PCB00.03.10_15_Sensor_03_Sensor_Detail_Stecker.jpg"
     alt="Detailaufnahme Stecker und Schirmung" >}}
 {{< /slider >}}
 
-## Schritt 16: Batteriekabel anlöten
+## Schritt 14: Batteriekabel anlöten
 
 * Die Akkus sind mit Lötfahnen ausgestattet.
 * Auf 12cm gekürztes Batteriekabel an die Enden der Fahnen angelöten
@@ -423,14 +412,14 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_16_Akku_01_Akku_mit_Kabel_und_Stecker.jpg"
+    src="v00.03.12/14_Battery_Wiring/DSC08044.JPG"
     alt="Akku mit Kabel und Stecker (Polung beachten!)" >}}
   {{< slider-image
-    src="PCB00.03.10_16_Akku_02_Kontakte_isolieren.jpg"
+    src="v00.03.12/14_Battery_Wiring/DSC08045.JPG"
     alt="Kontakte isolieren" >}}
 {{< /slider >}}
 
-## Schritt 17: Gehäuse vorbereiten
+## Schritt 15: Gehäuse vorbereiten
 
 * Einpressmuttern ("heat-set inserts") einbauen:
   - Den Lötkolben auf ca. 180-220°C einstellen, gut reinigen (kein Lot an der
@@ -448,15 +437,39 @@ Bauanleitung für das [Modell v00.02]({{<relref
   * 2 Muttern in Hauptgehäuse beim GPS-Deckel
   * 5 Muttern in Hauptgehäuse für Hauptdeckel
   * 3 Muttern in Displaygehäuse
+* Kleine Würfelmagnete in USB-Abdeckung einsetzen
+  * Wenn Kompatibilität mit anderen OBS gewünscht ist, muss auf gleiche Polung
+    geachtet werden, da sonst die Abdeckungen nicht austauschbar sind.
+  * Erst Magnete in Abdeckung einsetzen.
+  * Dann einen Magnet auf einen der eingesetzten platzieren und die
+    Abdeckung ins Hauptgehäuse stecken, dabei den einzelnen Magneten ins
+    Hauptgehäuse eindrücken. Mit der anderen Seite wiederholen.
 
-## Schritt 18: Display-Kabel
+{{< slider >}}
+  {{< slider-image
+    src="v00.03.12/15_Prepare_Case/DSC08072.JPG"
+    alt="Einpressmuttern in Displaygehäuse einschmelzen" >}}
+  {{< slider-image
+    src="v00.03.12/15_Prepare_Case/DSC08074.JPG"
+    alt="Hauptgehäuse mit Einpressmuttern" >}}
+  {{< slider-image
+    src="v00.03.12/15_Prepare_Case/DSC08075.JPG"
+    alt="USB-Abdeckung mit Magneten" >}}
+{{< /slider >}}
+
+## Schritt 16: Display-Kabel
 
 {{% alert title="Reihenfolge beachten" color="warning" %}}
 Beim Display ist die Reihenfolge sehr wichtig! Ein Kabel mit Steckern auf
 beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.
 {{% /alert %}}
 
-* Kabel durch Displaygehäuse-Unterteil führen.
+* Zugentlastung in Displaygehäuse-Unterteil einsetzen:
+  * Erste Hälfte der Zugentlastung einsetzen
+  * Zweite Hälfte von außen angewinkelt eindrücken, bei Bedarf die unteren
+    Ecken mit dem Seitenschneider leicht abrunden, damit sie sich leichter in
+    die vorgesehene Position stecken lässt.
+* Kabel durch Displaygehäuse-Unterteil und Zugentlastung führen.
 * Button in Gehäuseoberteil einschrauben.
 * Stecker OBS-Seite
   * Richtiges Kabelende identifizieren anhand Durchziehrichtung durch
@@ -497,20 +510,29 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_17_Display_01_Kabel_abisoliert_Crimp_in_Zange.jpg"
-    alt="Kabel abisoliert, Crimp in Zange" >}}
+    src="v00.03.12/16_Display_Wiring/DSC08046.JPG"
+    alt="Das untere Teil des Displaygehäuses mit Zugentlastung" >}}
+  {{< slider-image
+    src="v00.03.12/16_Display_Wiring/DSC08061.JPG"
+    alt="Kabel durch Unterteil geführt" >}}
+  {{< slider-image
+    src="v00.03.12/16_Display_Wiring/DSC08053.JPG"
+    alt="Button in Displayoberteil eingeschraubt" >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_02_alle_5_Adern_gecrimpt.jpg"
-    alt="Alle 5 Adern crimpen" >}}
+    alt="OBS-Seite: Alle 5 Adern crimpen" >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_03_Stecker.jpg"
     alt="OBS-Seite in Stecker einführen" >}}
   {{< slider-image
-    src="PCB00.03.10_17_Display_04_Kabel_durch_Gehaeuseunterteil_ziehen.jpg"
-    alt="Kabel durch Gehäuseunterteil ziehen" >}}
+    src="v00.03.12/16_Display_Wiring/DSC08054.JPG"
+    alt="Zwei Kabel an Button löten (Pin 2)" >}}
+  {{< slider-image
+    src="v00.03.12/16_Display_Wiring/DSC08059.JPG"
+    alt="Display-Seite: Button und Stecker fertig" >}}
 {{< /slider >}}
 
-## Schritt 19: Display Zusammenbau
+## Schritt 17: Display Zusammenbau
 
 * 0,96-Zoll OLED-Boards haben teils etwas unterschiedliche Größen
   * Platine des Displays nach Bedarf etwas zurechtschneiden, insbesondere an den Ecken (Seitenschneider)
@@ -521,45 +543,31 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.
   * Wenn Kompatibilität mit anderen OBS gewünscht ist, muss auf gleiche Polung
     geachtet werden, da sonst die Halterungen nicht austauschbar sind.
 * Gehäuseunterteil aufsetzen und mit Schrauben fixieren.
-* Zugentlastung einsetzen:
-  * Erste Hälfte der Zugentlastung einsetzen
-  * Zweite Hälfte von außen angewinkelt eindrücken, bei Bedarf die unteren
-    Ecken mit dem Seitenschneider leicht abrunden, damit sie sich leichter in
-    die vorgesehene Position stecken lässt.
-  * Mit M3x8 Schrauben und Muttern fixieren, dabei auf sechseckige Fixierung
-    für Sechskant-Muttern auf jeweils einer Seite der Zugentlastung achten.
+* Zugentlastung mit M3x8 Schrauben und Muttern fixieren, dabei auf sechseckige Fixierung
+  für Sechskant-Muttern auf jeweils einer Seite der Zugentlastung achten.
 
 {{< slider >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_05_verschiedene_Displays_vom_gleichen_Lieferanten.jpg"
     alt="Verschiedene Displays vom gleichen Lieferanten" >}}
   {{< slider-image
-    src="PCB00.03.10_17_Display_07_Display_in_Gehäuse_einpassen_keine_Gewalt.jpg"
-    alt="Display in Gehäuse einpassen, ohne Gewalt" >}}
-  {{< slider-image
     src="PCB00.03.10_17_Display_07a_Display_mit_Seitenschneider_stutzen.jpg"
     alt="Wenn nötig, Display mit Seitenschneider stutzen" >}}
   {{< slider-image
-    src="PCB00.03.10_17_Display_09_Fuenftes_Kabel_und_VDD_Verbindung_an_Stecker_Anloeten.jpg"
-    alt="Fünftes Kabel und VDD Verbindungsstück an Stecker anlöten" >}}
+    src="v00.03.12/17_Display_Assembly/DSC08060.JPG"
+    alt="Display in Gehäuse einpassen, ohne Gewalt" >}}
   {{< slider-image
-    src="PCB00.03.10_17_Display_10_Magnete_passend_einlegen.jpg"
+    src="v00.03.12/17_Display_Assembly/DSC08064.JPG"
     alt="Magnete passend einlegen" >}}
   {{< slider-image
-    src="PCB00.03.10_17_Display_13_Zugsicherung.jpg"
-    alt="Die Teile der Zugentlastung" >}}
+    src="v00.03.12/17_Display_Assembly/DSC08066.JPG"
+    alt="Das Display mit verschraubtem Gehäuse" >}}
   {{< slider-image
-    src="PCB00.03.10_17_Display_14_Zugsicherung_erstes_teil_eingesetzt.jpg"
-    alt="Erstes Teil einsetzen" >}}
-  {{< slider-image
-    src="PCB00.03.10_17_Display_15_Zugsicherung_zweites_Teil_eingesetzt.jpg"
-    alt="Zweites Teil einsetzen" >}}
-  {{< slider-image
-    src="PCB00.03.10_17_Display_16_Zugsicherung_verschraubt.jpg"
-    alt="Zugentlastung verschrauben" >}}
+    src="v00.03.12/17_Display_Assembly/DSC08068.JPG"
+    alt="Zugsicherung fixieren" >}}
 {{< /slider >}}
 
-## Schritt 20: Elektronik testen
+## Schritt 18: Elektronik testen
 
 Zunächst muss die [OpenBikeSensor Firmware auf den ESP32 geflashed werden](https://github.com/openbikesensor/OpenBikeSensorFirmware).
 
@@ -581,11 +589,11 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_18_Test_Schalter_und_Batterie_anschließen_Testen.jpg"
-    alt="Schalter und Batterie anschließen zum Testen" >}}
+    src="v00.03.12/18_Testing/DSC08091.JPG"
+    alt="Die Elektronik funktioniert" >}}
 {{< /slider >}}
 
-## Schritt 21: Zusammenbau
+## Schritt 19: Zusammenbau
 
 * Kabel und Halterung
   - Displaykabel durch rechteckiges Loch einführen (der 5-polige JST-Stecker
@@ -640,11 +648,8 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_19_Gehaeuse_04_Akku_und_Ultraschallsensor_an_Deckel_montieren_Bezeichnung_UP_beachten.jpg"
+    src="v00.03.12/19_Assembly/DSC08084.JPG"
     alt="Akku und Ultraschallsensor an Deckel montieren ('Up'-Pfeil beachten)" >}}
-  {{< slider-image
-    src="PCB00.03.10_19_Gehaeuse_05_GPS_anschliessen.jpg"
-    alt="GPS-Antenne anschließen" >}}
   {{< slider-image
     src="PCB00.03.10_19_Gehaeuse_06_US-Sensore_anstecken.jpg"
     alt="Ultraschallsensoren einstecken" >}}
@@ -670,17 +675,8 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
     src="PCB00.03.10_20_Zusammenbau_07_Deckel_festschrauben.jpg"
     alt="Deckel festschrauben" >}}
   {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_08_Magnete_in_USB-Deckel_druecken.jpg"
-    alt="Magnete in die Abdeckung der Ladebuchse eindrücken (eventuell mit etwas Sekundenkleber)" >}}
-  {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_09_weitere_Magnete_draufsetzen.jpg"
-    alt="Weitere Magnete daraufsetzen (für korrekte Polung)" >}}
-  {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_10_mithilfe_des_Deckels_Magnete_in_Gehaeuse_druecken.jpg"
-    alt="Zusammen die Magnete in das Gehäuse drücken" >}}
-  {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_11_fertig.jpg"
-    alt="Fertig" >}}
+    src="v00.03.12/19_Assembly/DSC08101.JPG"
+    alt="Fertig!" >}}
 {{< /slider >}}
 
 Viel Spaß bei der [Nutzung]({{<relref "/docs/user-guide">}})!
