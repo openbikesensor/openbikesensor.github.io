@@ -195,8 +195,12 @@ Bauanleitung für das [Modell v00.02]({{<relref
 
 ## Schritt 5: Kondensatoren
 
-* Bei C2 und C3: Polung auf Platine und Kondensator beachten! (Langer Pin: „Plus“, mit Streifen markierte Seite: „Minus“)
-* Kondensatoren C1 bis C3 stecken
+* C1: Blauer Keramik-Kondensator
+* C2/C3: Runde Elektrolyt-Kondenstatoren (Elkos)
+  * Polung auf Platine und Kondensator beachten!
+  * Langer Pin: Plus / Mit Streifen markierte Seite: Minus
+  * Auf Platine: Plus beschriftet, Minus Halbkreis ausgefüllt
+* Kondensatoren einstecken
 * Zum Fixieren umbiegen
 * Verlöten und Draht abkneifen
 
