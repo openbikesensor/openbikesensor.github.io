@@ -33,9 +33,10 @@ This only works if you have already installed the firmware once via USB.
 
 1. Put the sensor into server mode by pressing the button while it boots. Your
    computer and the sensor must be in the same wireless network.
-2. Copy `custom_config.ini.example` to `custom_config.ini` and add these lines:
+2. Copy `custom_config.ini.example` to `custom_config.ini` and add these in the `[env:esp32dev]` section:
 
     ```ini
+    ; inside [env:esp32dev]
     ; IP of your sensor device
     upload_port = 192.168.0.123
     upload_protocol = espota
