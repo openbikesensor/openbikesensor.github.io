@@ -232,7 +232,10 @@ Bauanleitung für das [Modell v00.02]({{<relref
   * Einstecken, senkrecht verlöten, Beine abkneifen
 * Batteriestecker
   * Stecker und Kabel zusammenstecken
-  * Beschriftung auf der Platine beachten (Rot: „Plus“, Schwarz: „Minus“)
+  * Beschriftung auf der Platine beachten (Rot: „Plus“, Schwarz: „Minus“)<br>
+    (**ACHTUNG**: wenn ihr ein schwarzes und braunes Kabel habt, dann ist der Stecker
+    auf der Platine um 180 ° gedreht, auf dem Bild ist der Stecker für das
+    schwarze und rote Kabel zu sehen)
   * Auf der Rückseite anlöten
   * Kabel wieder abziehen
 * Diode
