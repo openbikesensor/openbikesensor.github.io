@@ -88,7 +88,7 @@ aliases:
 <tr>
   <td>15</td>
   <td>JST-XH Crimp-Kontakte (BXH-001T-P0.6)</td>
-  <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">Link</a></td>
+  <td><a href="https://www.reichelt.de/jst-crimpkontakt-buchse-xh-jst-xh-ckb-p185091.html">Link1</a> <a href="https://de.farnell.com/en-DE/jst-japan-solderless-terminals/bxh-001t-p0-6/crimp-terminal-xh-28-22awg/dp/1516301?ost=bxh-001t-p0-6">Link2</a></td>
 </tr>
 <tr>
   <td>3</td>
@@ -123,7 +123,7 @@ aliases:
 <tr>
   <td>1</td>
   <td>Batteriekabel und Platinenstecker (gerade, 2-polig, mit rot-schwarzen Kabeln, 2.54mm RM)</td>
-  <td><a href="https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html">Link</a></td>
+  <td><a href="https://www.reichelt.de/platinensteckverbinder-gerade-weiss-2-polig-ps-25-2g-ws-p14825.html">Link1</a> <a href="https://www.pollin.de/p/buchsenleiste-serie-ps-451471">Link2a</a>/<a href="https://www.pollin.de/p/stiftleiste-serie-ps-451478">Link2b</a></td>
 </tr>
 <tr>
   <td>1</td>
@@ -213,7 +213,7 @@ aliases:
 <tr>
   <td>13</td>
   <td>Gewindeeinsatz / Einpressmutter M3x5.7</td>
-  <td><a href="https://www.amazon.de/dp/B08BCRZZS3">Link</a></td>
+  <td><a href="https://www.amazon.de/dp/B08BCRZZS3">Link1</a> <a href="https://turmberg3d.de/products/gewindeeinsatze-fur-kunststoffteile?variant=39376894066883">Link2</a></td>
 </tr>
 
 <tr><th colspan="3">Spezialanfertigungen</th></tr>
