@@ -21,6 +21,8 @@ Alle Dateien liegen auf Github. Für ein Standardgehäuse mit ADFC Logo
 
 ** Material, Farben, Druckeinstellungen 
 Für den Druck verwende ich PETG da dieses Material leicht zu drucken ist, relativ Kostengünstig, und robust. 
+{{< imgproc case Resize 600x >}} 20210608_100901 OBS Gehäuse crop.jpg {{< /imgproc >}}
+
 
 
 
