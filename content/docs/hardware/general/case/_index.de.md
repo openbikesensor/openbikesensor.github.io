@@ -58,22 +58,27 @@ liegen auf ADFC page
 Es gibt verschieden Möglichkeiten den OBS Sensor am Fahrrad zu montieren,  
 1. Standard Sattelhalterung
 [OBS-Mounting-A-002_StandardSeatPostMount_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-002_StandardSeatPostMount_v0.1.1.stl)
-2. verlängerte Sattelhalterung: steht weiter heraus, ist aufgrund der Hebelwirkung mechanisch mehr belastet
+2. verlängerte Sattelhalterung: steht weiter heraus, ist aufgrund der Hebelwirkung mechanisch mehr belastet 
 [OBS-Mounting-C-002_ExtendedSeatPostMount.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-C-002_ExtendedSeatPostMount.stl)
+
 3. Querstangen halterung: wenn die Sattelhalterungen nicht möglich sind kann die Montage weiter vorne erfolgen
 [OBS-Mounting-B-002_TopTubeMount.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-B-002_TopTubeMount.stl)
 
 ### Anzeige und Auslöseknopf am Lenker - Display
-1. Anzeigegehäuse Unterteil
+ 1. Anzeigegehäuse Unterteil
 [OBS-Display-A-002_HeatSetInsert_Display_Bottom_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-002_HeatSetInsert_Display_Bottom_v0.1.0.stl)
-2. Anzeigegehäuse Oberteil 
+
+ 2. Anzeigegehäuse Oberteil 
 [OBS-Display-A-001_HeatSetInsert_Display_Top_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-001_HeatSetInsert_Display_Top_v0.1.0.stl)
-3. Display montage 3 Alternativen
+
+ 3. Display montage 3 Alternativen
 3.1 einfache Kabelbinder schiene
 [OBS-Display-A-005_Kabelbinder_Schiene_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-005_Kabelbinder_Schiene_v0.1.1.stl)
-3.1 Kabelbinder schiene gedreht (2Teile)
+
+3.2 Kabelbinder schiene gedreht (2Teile)
 [OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl)
 [OBS-Display-C-006_Kabelbinder_Halter_gedreht_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-C-006_Kabelbinder_Halter_gedreht_v0.1.0.stl)
+
 3.3. Schraubklammer 3 Teile
 [OBS-Display-B-005_Schiene_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-005_Schiene_v0.1.0.stl)
 [OBS-Display-B-006_Oberschale_v0.1.0.stp](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-006_Oberschale_v0.1.0.stp)
