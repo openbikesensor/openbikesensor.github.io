@@ -202,9 +202,15 @@ body {
   }
 }
 
+main.td-main > .container:first-child {
+  margin-top: calc(64px + 4rem);
+  margin-bottom: 4rem;
+}
+
 .homepage-container {
   font-size: 13pt;
 }
+
 .lead {
   font-weight: 500;
 }
@@ -216,4 +222,16 @@ body {
   padding: 1rem 2rem;
   display: inline-block;
   margin: 1rem auto;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 2rem;
+  padding-left: 1.4rem;
+  border-left: 4px solid #E8E8E8;
+}
+
+.container.copy {
+  max-width: 50rem;
+  text-align: justify;
 }

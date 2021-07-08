@@ -1,0 +1,6 @@
+<ol>
+  {{ range .Page.Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{.TableOfContents}}
+  {{ end }}
+</ol>

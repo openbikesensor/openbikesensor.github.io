@@ -2,10 +2,8 @@
 title: Slack
 ---
 
-
 {{% blocks/section color="secondary" %}}
 <div class="container">
-
 
 # Slack
 
