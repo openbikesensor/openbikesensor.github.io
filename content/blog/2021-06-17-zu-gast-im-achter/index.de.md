@@ -1,5 +1,5 @@
 ---
-title: OpenBikeSensor zu Gast im Achter
+title: OpenBikeSensor zu Gast im "Achter"
 linkTitle: Zu Gast im Achter
 date: 2021-06-17
 ---
@@ -8,11 +8,11 @@ Zum internationalen Tag des Fahrrads (03.06.) hatte sich Thomas Albrecht, Fahrra
 
 ## Achter, das Fahrrad-Magazin für Stuttgart und Umgebung
 
-Ein Mal monatlich geht im Freien Radio Stuttgart das Fahrradmagazin "Achter" auf Sendung. Es ist ein Kessel "Buntes" zum Thema Fahrrad aus Berichten, Gesprächen mit Akteuren und viel Musik. 
+Ein Mal monatlich geht im Freien Radio Stuttgart das Fahrrad-Magazin "Achter" auf Sendung. Es ist ein Kessel "Buntes" zum Thema Fahrrad aus Berichten, Gesprächen mit Akteuren und viel Musik. 
 
 In der [Juni-Ausgabe]( https://www.freie-radios.net/109695), stellt das Team zum Einen das "Radbündnis Filder" vor [ ab 0'41'' ]. Hier diskutieren Evelyn Sindermann und Thomas die typischen Probleme, die sich an Gemarkungsgrenzen in Sachen Fahrrad-Infrastruktur ergeben. Evelyn berichtet, wie das Aktionsbündnis vorgeht und erste Erfolge in Aussicht stehen.
 
-Anschließend fasst Constanze die zentralen Resultate der [Mitmach-Aktion "Besser Radfahren"](https://www.swr.de/radfahren/ergebnisse-mitmachaktion-grafiken-besser-radfahren-100.html) des SWR und des Klimabündnisses zusammen [ 11'45'' ]. Bei dieser Aktion wurden die Rückmeldungen von über 10.000en Radfahrenden von Experten der Hochschule Karlsruhe ausgewertet. Die Daten stehen anonymisiert für eigene Auswertungen zur Verfügung: [Download Ergebnisse der Mitmach-Aktion #BesserRadfahren](https://www.swr.de/radfahren/besserradfahren-alle-meldungen-datenexport-100.xlsx)
+Anschließend fasst Constanze die zentralen Resultate der [Mitmach-Aktion "Besser Radfahren"](https://www.swr.de/radfahren/ergebnisse-mitmachaktion-grafiken-besser-radfahren-100.html) des SWR und des Klimabündnisses zusammen [ 11'45'' ]. Bei dieser Aktion wurden die Rückmeldungen von über 10.000en Radfahrenden von Experten der Hochschule Karlsruhe ausgewertet. Die Daten stehen anonymisiert für eigene Auswertungen zur Verfügung: [Download Ergebnisse der Mitmach-Aktion #BesserRadfahren](https://www.swr.de/radfahren/besserradfahren-alle-meldungen-datenexport-100.xlsx).
 
 Alle Beiträge des SWR zur Aktion findet Ihr unter [www.swr.de/radfahren](https://www.swr.de/radfahren).
 
