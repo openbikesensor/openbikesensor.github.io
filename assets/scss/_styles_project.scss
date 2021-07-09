@@ -205,6 +205,7 @@ body {
 .homepage-container {
   font-size: 13pt;
 }
+
 .lead {
   font-weight: 500;
 }
@@ -216,4 +217,13 @@ body {
   padding: 1rem 2rem;
   display: inline-block;
   margin: 1rem auto;
+}
+
+.accordion .card-header {
+  cursor: pointer;
+  transition: background 0.1s;
+
+  &:hover {
+    background-color: #FFF;
+  }
 }

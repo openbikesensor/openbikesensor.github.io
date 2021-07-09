@@ -1,7 +1,7 @@
 ---
-category: Bau und Beschaffung
 title: >
     Woher bekomme ich den Überholabstandsmesser?
+slug: woher-bekomme-ich-den-ueberholabstandsmesser
 ---
 
 Wir entwickeln in ehrenamtlicher Arbeit diese Gerät, aber wir verkaufen es
