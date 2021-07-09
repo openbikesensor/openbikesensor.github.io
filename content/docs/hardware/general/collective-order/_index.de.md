@@ -95,3 +95,14 @@ JSN-SR04T-2.0
 {{< imgproc "jsn-sr04t-v3.0.png" Resize 600x >}}
 JSN-SR04T-v3.0
 {{< />}}
+
+### SR04M-2
+
+Nach ersten Tests scheint, dass dieses Modell nicht im OpenBikeSensor Abstandsmesser funktioniert.
+
+* Eigenschaften:
+  * unbekannt
+
+{{< imgproc "sr04m-2.png" Resize 600x >}}
+SR04M-2
+{{< />}}

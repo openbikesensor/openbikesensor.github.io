@@ -78,7 +78,7 @@ JSN-SR04T-2.0
 
 ### JSN-SR04T-V3.0
 
-* Characteristics
+* Characteristics:
   * Resistor "mode" and the shorts "M1" and "M2" are used to control the behavior
   * 8 MHz Crystal
   * Working Voltage: 3.3V - 5.5V
@@ -86,4 +86,15 @@ JSN-SR04T-2.0
 
 {{< imgproc "jsn-sr04t-v3.0.png" Resize 600x >}}
 JSN-SR04T-v3.0
+{{< />}}
+
+### SR04M-2
+
+After some initial testing, it seems this model does not work in the OpenBikeSensor device.
+
+* Characteristics:
+  * unknown
+
+{{< imgproc "sr04m-2.png" Resize 600x >}}
+SR04M-2
 {{< />}}
