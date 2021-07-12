@@ -62,36 +62,36 @@ Für meine Zwecke habe ich ausschließlich die stl Dateien verwendet, dieses kan
 2. In der slicer SW wird der .stl file (oder mehrere files) möglichst so gelegt das es wenig Überhänge gibt
 {{< slider >}}
 {{< slider-image
-    src="1. OBS-MainCase-A02_lid_adfc-logo_gedreht.jpg"
-    alt="So soll es aussehen, aber die Drucklage ist anders " >}}
+    src="OBS-MainCase-A02_lid_adfc-logo_gedreht.jpg"
+    alt="1. So soll es aussehen, aber die Drucklage ist anders " >}}
 {{< slider-image
-    src="2. OBS-MainCase-A02_lid_adfc-logo_Drucklage.jpg"
-    alt="Drucken mit dem Gesicht nach unten" >}}
+    src="OBS-MainCase-A02_lid_adfc-logo_Drucklage.jpg"
+    alt="2. Drucken mit dem Gesicht nach unten" >}}
  {{< /slider >}}
 
 3. Einstellungen beim Vorbereiten
 {{< slider >}}
   {{< slider-image
-    src="1. UM3_CuraUI_ case_prepare.jpg"
-    alt="Cura view auf main case im Vorbereitungsmode" >}}
+    src="UM3_CuraUI_case_prepare.jpg"
+    alt="1. Cura view auf main case im Vorbereitungsmode" >}}
   {{< slider-image
-    src="UM3_CuraUI_ case_extruder.jpg"
+    src="UM3_CuraUI_case_extruder.jpg"
     alt="2. Einstellung auf PETG und 2 Extruder" >}}
  {{< slider-image
-    src="UM3_CuraUI_ case_settings.jpg"
-    alt="Settings für Druckdichte (Infill), Support, Düsendurchmesser" >}}
+    src="UM3_CuraUI_case_settings.jpg"
+    alt="3. Settings für Druckdichte (Infill), Support, Düsendurchmesser" >}}
 {{< slider-image
-    src="UM3_CuraUI_ case_slice.jpg"
-    alt="3. Einstellung auf PETG und 2 Extruder" >}}
+    src="UM3_CuraUI_case_slice.jpg"
+    alt="4. starte slicing" >}}
  {{< /slider >}}
 
 4. Slicen starten: Cura erstellt nun einen file im format .gcode, der alle Befehle für den speziellen Drucker enthält (z.B. Druckdichte, Material, etc.). 
 {{< slider >}}
 {{< slider-image
-    src="UM3_CuraUI_ case_slice_information.jpg"
+    src="UM3_CuraUI_case_slice_information.jpg"
     alt="1. Nachdem alle Einstellungen erfolgt sind, wird das slicing gestartet " >}}
 {{< slider-image
-    src="UM3_CuraUI_ case_slice_preview.jpg"
+    src="UM3_CuraUI_case_slice_preview.jpg"
     alt="2. Slicing information gibt es preview, mit den beiden Schiebern unten und rechts ist jede einzelne Bahn die gedruckt wird sichtbar" >}}
  {{< /slider >}}
 
