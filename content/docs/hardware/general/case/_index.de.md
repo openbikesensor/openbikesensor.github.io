@@ -7,8 +7,6 @@ weight: 30
 OpenBikeSensor-Bausatz der Version 00.03.10, mit einem "Vertical Case"
 {{< /imgproc >}}
 
-TODO:
-
 ## Vorwort
 Diese Anleitung entsteht, weil ich versuche selbst ein komplettes OBS Gehäuse zu drucken, selbst aber keine Erfahrung weder mit dem 3D-Druck noch mit File respositories auf Github hatte. Viele Leute haben mit geholfen und dieses Wissen möchte ich weitergeben in einer hoffentlich verständlichen und einfachen Form. 
 Da ich Gehäuse für den ADFC Ulm, Neu-Ulm benötige, sind die Beispiele oft mit ADFC Logo, Farben etc. gezeigt. Das ist nur eine Option, design und Farben sind beliebig austauschbar, das Gehäuse ist generisch und der Druckvorgang immer der gleiche. 
@@ -159,14 +157,35 @@ Lage der 3 Halterungen und Locking pin auf dem Drucker {{< /imgproc >}}
     [OBS-Display-B-007_Unterschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-007_Unterschale_v0.1.0.stl)
 
 ### Materialverbrauch und Zeitbedarf
+Nach dem slicen wird angezeigt wie lange der Durckvorgang dauert und wieviel Material für den Druck benötigt wird. Abhängig davon wie fein man durckt und mit welchem Infill kann die Zeit sehr unterschiedlich sein. 
 
+## Troubleshooting
+### Lage der Druckteile und Überhänge
+Beim Druck der Gehäuseteile ist die Lage des Teiles wichtig, denn man möchte Überhänge vermeiden, also wenn der Drucker in der luft drucken würde. Man positioniert ein Teil auf dem Drucker das es möglichst wenig oder unkritische Übergänge bildet.   
+Die stl Dateien auf Github sind meistens nicht optimal für den Druck ausgerichtet. Aber schon nach dem Laden des stl files in Cura werden in der Vorschau die Überhänge in rot angezeigt.   
+Am Beispiel des Deckels ist es sehr offensichtlich das die Lage eine wesentliche Rolle spielt, wie herum das Teil auf die Druckerplatte gelegt werden soll.
+Aber selbst bei einer optimalen Lage wie im Beispiel des Sensorgehäuses zeigt Cura wo sich trotzdem noch Überhänge bilden. Manche Überhänge wie Schraubenlöcher sind unkritisch da der Drucker das selbst überbrücken kann (brigding).  
+Doch wenn der Übergang zu groß wird können sich viele Fäden ziehen. Um das zu vermeiden kann die Support funktion eingeschalten werden, der Drucker erstellt dann leichte Stützstrukturen, die nach dem Druck wieder entfernt werden. 
 
-## Druckeigenheiten
-### Lage der Druckteile
-Beim Druck der Gehäuseteile ist die Lage des Teiles wichtig, denn amn möchte vermeiden das es Überhänge gibt
+{{< slider >}}
+{{< slider-image
+    src="UM3_CuraUI_ lid_Überhänge.jpg"
+    alt="1. schlechte Positionierung siehe in rot Überhänge" >}}
+{{< slider-image
+    src="UM3_CuraUI_ lid_richtige_Lage.jpg"
+    alt="2. Richtig positionieren ist wichtig" >}}
+{{< slider-image
+    src="UM3_CuraUI_ case_Überhänge.jpg"
+    alt="3. In der Vorschau werden bereits in rot Überhänge angezeigt " >}}
+{{< slider-image
+    src="UM3_CuraUI_ case_support_einschalten.jpg"
+    alt="4. Wenn support gewünscht dann Häckchen setzen" >}}
+{{< slider-image
+    src="UM3_CuraUI_ case_supportstruktur.jpg"
+    alt="5. Die zusätzliche supportstruktur kann man nach dem Slicing in Preview sehen" >}}
+ {{< /slider >}}
 
-
-
+Nach dem Druck mit Supportstruktor, muss diese mechanisch herausgebrochen und entfernt werden.
 
 
 ## Zusammenbau des Gehäuses
