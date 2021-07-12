@@ -23,7 +23,7 @@ Der Druck eines kompletten OBS Gehäusesatzes oder auch nur Teile ist problemlos
 ### Drucker und Material - PETG
 Für den Druck verwende ich einen Ultimaker 3 dieser hat 2 extruder so das man mit 2 Filamenten gleichzeitig drucken, das wurde nur relevant für das OBS Logo und das ADFC logo, ansonsten ist das Gehäuse mit einem Filament gedruckt. Man kann nei Drucker mit einem Extruder natürlich das Filament wechseln.
 
-Wichtig ist die Slicer SW die den Druck für den jeweiligen Durcker aufbereitet. Für den Ultimaker (und viele andere Drucker) kann Cura https://ultimaker.com/software/ultimaker-cura verwendet werden (für Linux, Windows und Apple). Der Vorteil ist,  Cura kann man sich auf einen separaten PC laden und auf diesem offline probieren was die besten Einstellungen sind, Cura erstellt beim slicen ein file mit gcode, der alle Befehle für den speziellen Drucker enthält. Diesen file habe ich mit einem USB stick auf den Drucker geladen und den Druck gestartet. 
+Wichtig ist die Slicer SW die den Druck für den jeweiligen Durcker aufbereitet. Für den Ultimaker (und viele andere Drucker) kann Cura https://ultimaker.com/software/ultimaker-cura verwendet werden (für Linux, Windows und Apple). Der Vorteil ist,  Cura kann man sich auf einen separaten PC laden und auf diesem offline probieren was die besten Einstellungen sind.  
 
 ### Material und Farben
 
@@ -40,12 +40,32 @@ PETG ermöglicht auch den Kauf vieler verschieden farbiger und auch transparente
 {{< imgproc OBS_main_case_and_lid_with_logos.jpg Resize 600x >}} 
 Beispiel eines gedruckten Gehäuses mit Logos {{< /imgproc >}}
 
-## Welche Dateien wähle ich um mein Gehäuse zu drucken?
-Alle Dateien für das Openbikesensor projekt wie SW, FW, Docs und auch die 3D Druckdateien liegen auf Github unter "OpenBikeSensor3dPrintableCase/MainCase/VerticalCase_JSN-AJ".
+## Druckvorbereitung und Druckdateien auswahl
+Alle Dateien für das Openbikesensor projekt wie SW, FW, Docs und auch die 3D Druckdateien liegen auf Github. Unter "OpenBikeSensor3dPrintableCase/MainCase/VerticalCase_JSN-AJ" sind viele verschiedene Druckdateien für unsere Gehäuse vorhanden
 Die Gehäuselemente werden unterschieden in 
 + Sensor Gehäuse - main case
 + Fahrradhalterung für Sensor Gehäuse - Mounting
 + Anzeige mit Lenkerhalterung - Display
+
+Auf Github findet man für jedes Teil eine Druckdatei in 3 verschiedene Formaten stp, itp und stl.
+
+(.STEP oder .stp: ist das STEP format ein standard zum Austausch von Produkt model data. Diese Dateien stellen 3D-Objekte in CAD-Software dar und können zugehörige Informationen enthalten.)
+
+(.ipt beschreibt ein einzelnes Konstruktionselement im Autodesk Inventor)
+
+(.stl file format verwendet grobe Dreiecke, um die Oberflächenform und -fläche einer 3D-CAD-Konstruktion zu beschreiben. Es beschreibt die Rohdaten ohne spezifische Einheiten)
+
+Für meine Zwecke habe ich ausschließlich die stl Dateien verwendet, dieses ist weit verbreitet und wird viel im 3D printing eingesetzt. 
+
+### Schritte um Dateien von Github zu laden und für den 3D Drucker vorzubereiten?
+
+1. Der Import eines .stl files in eine slicer SW (wie z.B. Cura) ist der erste Schritt um ein 3D objekt zu drucken
+2. In der slicer SW wird der .stl file (oder mehrere files) möglichst so gelegt das es wenig Überhänge gibt
+3. 
+4. Slicen starten: Cura erstellt nun einen file im format .gcode, der alle Befehle für den speziellen Drucker enthält (z.B. Druckdichte, Material, etc.). 
+5. Übertrag auf den 3D Drucker: Nachdem mein verwendeter Drucker in einem anderen Gebäude steht habe ich den .gcode file einfach auf einen USB stick gespeichet und diesen an den Drucker gesteckt. 
+6. Im Ultimaker 3 Menu wird dann der File für den Druck ausgewählt und der Druck gestartet.
+
 ### Sensor gehäuse - Main case
 Die Sensoren und Elektronik wird im Sensorgehäuse eingebaut. Empfohlen wird hier das Gehäuse mit dem OBS logo zu drucken, einmal aus Respekt zur OBS Community aber auch um damit zu werden. 5 Teile sind zum Drucken
 1. Für das Gehäuse mit dem OBS Logo habe ich folgende 2 files verwendet:
