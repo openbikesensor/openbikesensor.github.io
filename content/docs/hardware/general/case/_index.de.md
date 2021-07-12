@@ -3,15 +3,15 @@ title: Gehäusedruck
 weight: 30
 ---
 
-{{< imgproc OBS_vertical_case_alle_Teile.jpg Resize 600x >}}
+{{< imgproc "OBS_vertical_case_alle_Teile.jpg" Fit "800x600" >}}
 OpenBikeSensor-Bausatz der Version 00.03.10, mit einem "Vertical Case"
 {{< /imgproc >}}
 
 TODO:
 
 ## Vorwort
-Diese Anleitung entstand weil ich versuche selbst ein komplettes OBS Gehäuse zu drucken aber keine Erfahrung weder mit dem 3D-Druck noch mit File respositories auf Git hatte. Viele Leute haben mit geholfen und dieses Wissen möchte ich weitergeben in einer hoffentlich verständlichen und einfachen Form. 
-Da ich Gehäuse für den ADFC (Ulm, Neu-Ulm) benötige, sind die Beispiele oft mit ADFC Logo, Farben etc. gezeigt. Das ist nur eine Option, design und Farben sind belieging austauschbar, das Gehäuse ist generisch und der Druckvorgang immer der gleiche. 
+Diese Anleitung entstand, weil ich versuche selbst ein komplettes OBS Gehäuse zu drucken, selbst aber keine Erfahrung weder mit dem 3D-Druck noch mit File respositories auf Github hatte. Viele Leute haben mit geholfen und dieses Wissen möchte ich weitergeben in einer hoffentlich verständlichen und einfachen Form. 
+Da ich Gehäuse für den ADFC Ulm, Neu-Ulm benötige, sind die Beispiele oft mit ADFC Logo, Farben etc. gezeigt. Das ist nur eine Option, design und Farben sind beliebig austauschbar, das Gehäuse ist generisch und der Druckvorgang immer der gleiche. 
 
 ## Wie komme ich an ein Gehäuse?
 + Idealerweise könnte man ein Gehäuse einfach kaufen. Doch es gibt weder eine Serienfertigung noch einen offiziellen Dienstleister der den Gehäusedruck übernemhen würde.
@@ -37,7 +37,7 @@ PETG ist das Material das die meisten Vorteile für unser Projekt bietet:
 - nachteilig ist allerdings die UV Beständigkeit die nicht so hoch ist wie bei ABS oder ASA doch die Vorteile überwiegen diese Einschränkuzng
 
 PETG ermöglicht auch den Kauf vieler verschieden farbiger und auch transparenter Filamente 
-{{< imgproc OBS_main_case_and_lid_with_logos.jpg Resize 600x >}} 
+{{< imgproc "OBS_main_case_and_lid_with_logos.jpg" Resize 600x >}} 
 Beispiel eines gedruckten Gehäuses mit Logos {{< /imgproc >}}
 
 ## Druckvorbereitung und Druckdateien auswahl
@@ -49,27 +49,59 @@ Die Gehäuselemente werden unterschieden in
 
 Auf Github findet man für jedes Teil eine Druckdatei in 3 verschiedene Formaten stp, itp und stl.
 
-(.STEP oder .stp: ist das STEP format ein standard zum Austausch von Produkt model data. Diese Dateien stellen 3D-Objekte in CAD-Software dar und können zugehörige Informationen enthalten.)
+  *(.STEP oder .stp: ist das STEP format ein standard zum Austausch von Produkt model data. Diese Dateien stellen 3D-Objekte in CAD-Software dar und können zugehörige Informationen enthalten.)*  
+  *(.ipt beschreibt ein einzelnes Konstruktionselement im Autodesk Inventor)*  
+  *(.stl file format verwendet grobe Dreiecke, um die Oberflächenform und -fläche einer 3D-CAD-Konstruktion zu beschreiben. Es beschreibt die Rohdaten ohne spezifische Einheiten)*
 
-(.ipt beschreibt ein einzelnes Konstruktionselement im Autodesk Inventor)
+Für meine Zwecke habe ich ausschließlich die stl Dateien verwendet, dieses kann mit Cura verwendet werden 
 
-(.stl file format verwendet grobe Dreiecke, um die Oberflächenform und -fläche einer 3D-CAD-Konstruktion zu beschreiben. Es beschreibt die Rohdaten ohne spezifische Einheiten)
-
-Für meine Zwecke habe ich ausschließlich die stl Dateien verwendet, dieses ist weit verbreitet und wird viel im 3D printing eingesetzt. 
 
 ### Schritte um Dateien von Github zu laden und für den 3D Drucker vorzubereiten?
 
 1. Der Import eines .stl files in eine slicer SW (wie z.B. Cura) ist der erste Schritt um ein 3D objekt zu drucken
 2. In der slicer SW wird der .stl file (oder mehrere files) möglichst so gelegt das es wenig Überhänge gibt
-3. 
+{{< slider >}}
+{{< slider-image
+    src="1. OBS-MainCase-A02_lid_adfc-logo_gedreht.jpg"
+    alt="So soll es aussehen, aber die Drucklage ist anders " >}}
+{{< slider-image
+    src="2. OBS-MainCase-A02_lid_adfc-logo_Drucklage.jpg"
+    alt="Drucken mit dem Gesicht nach unten" >}}
+ {{< /slider >}}
+
+3. Einstellungen beim Vorbereiten
+{{< slider >}}
+  {{< slider-image
+    src="1. UM3_CuraUI_ case_prepare.jpg"
+    alt="Cura view auf main case im Vorbereitungsmode" >}}
+  {{< slider-image
+    src="UM3_CuraUI_ case_extruder.jpg"
+    alt="2. Einstellung auf PETG und 2 Extruder" >}}
+ {{< slider-image
+    src="UM3_CuraUI_ case_settings.jpg"
+    alt="Settings für Druckdichte (Infill), Support, Düsendurchmesser" >}}
+{{< slider-image
+    src="UM3_CuraUI_ case_slice.jpg"
+    alt="3. Einstellung auf PETG und 2 Extruder" >}}
+ {{< /slider >}}
+
 4. Slicen starten: Cura erstellt nun einen file im format .gcode, der alle Befehle für den speziellen Drucker enthält (z.B. Druckdichte, Material, etc.). 
+{{< slider >}}
+{{< slider-image
+    src="UM3_CuraUI_ case_slice_information.jpg"
+    alt="1. Nachdem alle Einstellungen erfolgt sind, wird das slicing gestartet " >}}
+{{< slider-image
+    src="UM3_CuraUI_ case_slice_preview.jpg"
+    alt="2. Slicing information gibt es preview, mit den beiden Schiebern unten und rechts ist jede einzelne Bahn die gedruckt wird sichtbar" >}}
+ {{< /slider >}}
+
 5. Übertrag auf den 3D Drucker: Nachdem mein verwendeter Drucker in einem anderen Gebäude steht habe ich den .gcode file einfach auf einen USB stick gespeichet und diesen an den Drucker gesteckt. 
 6. Im Ultimaker 3 Menu wird dann der File für den Druck ausgewählt und der Druck gestartet.
 
 ### Sensor gehäuse - Main case
 Die Sensoren und Elektronik wird im Sensorgehäuse eingebaut. Empfohlen wird hier das Gehäuse mit dem OBS logo zu drucken, einmal aus Respekt zur OBS Community aber auch um damit zu werden. 5 Teile sind zum Drucken
 1. Für das Gehäuse mit dem OBS Logo habe ich folgende 2 files verwendet:
-[OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl)
+[OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl) und 
 [OBS-MainCase-B-001b_inner_logo_part.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001b_inner_logo_part.stl)
 2. Das zweite Teil ist der Gehäusedeckel (lid), diesen gibt es ohne text, oder mit dem OBS logo, oder mit ADFC logo wie ich ihn gedruckt habe. Dazu braucht man 2 files:
 liegen auf ADFC page
