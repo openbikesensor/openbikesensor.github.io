@@ -14,8 +14,9 @@ Da ich Gehäuse für den ADFC Ulm, Neu-Ulm benötige, sind die Beispiele oft mit
 ## Wie komme ich an ein Gehäuse?
 + Idealerweise könnte man ein Gehäuse einfach kaufen. Doch es gibt weder eine Serienfertigung noch einen offiziellen Dienstleister der den Gehäusedruck übernemhen würde.
 + Unter Umständen findet man in der Community hifreiche Bastler die einem ein Gehäuse mit herstellen. Am besten anfragen in Slack
-+ In dieser Anleitung geht es darum ein Gehäuse selbst zu drucken und herzustellen.
++ In dieser Anleitung geht es darum ein komplettes Gehäuse mit Halterungen selbst zu drucken und herzustellen.
 Der Druck eines kompletten OBS Gehäusesatzes oder auch nur Teile ist problemlos möglich, vorrausgesetzt man hat einen 3D Drucker zur Verfügung. Der 3D-Druck kostet ca 5€ Material (Filamentkosten können variieren), Verschleiß, Stromkosten und Zeit. Dazu aber ca. 10-20h Druckzeit.
+Die nachfolgende Beschreibung baut auf dem [VerticalCase_JSN-AJ](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/MainCase/VerticalCase_JSN-AJ) für das Sensorgehäuse auf und auf dem [SlideOnDisplay](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/DisplayCase/SlideOnDisplay) für den Lenker Auslöseknopf und Anzeige. Aus Menge der angebotenen Modelle sind das die beiden Standardmodelle.  
 
 ## Drucker, Material, SW, Druckeinstellungen 
 ### Drucker und Material - PETG
@@ -45,13 +46,13 @@ Die Gehäuselemente werden unterschieden in
 + Fahrradhalterung für Sensor Gehäuse - Mounting
 + Anzeige mit Lenkerhalterung - Display
 
-Auf Github findet man für jedes Teil eine Druckdatei in 3 verschiedene Formaten stp, itp und stl.
+Auf Github findet man für jedes Teil eine Druckdatei in 3 verschiedenen Formaten stp, itp und stl.
 
-  *(.STEP oder .stp: ist das STEP format ein standard zum Austausch von Produkt model data. Diese Dateien stellen 3D-Objekte in CAD-Software dar und können zugehörige Informationen enthalten.)*  
+  *(.STEP oder .stp: das STEP format ist ein standard zum Austausch von Produkt model daten. Diese Dateien stellen 3D-Objekte in CAD-Software dar und können zugehörige Informationen enthalten.)*  
   *(.ipt beschreibt ein einzelnes Konstruktionselement im Autodesk Inventor)*  
-  *(.stl file format verwendet grobe Dreiecke, um die Oberflächenform und -fläche einer 3D-CAD-Konstruktion zu beschreiben. Es beschreibt die Rohdaten ohne spezifische Einheiten)*
+  *(.stl file format beschreibt die Oberflächenform und -fläche einer 3D-CAD-Konstruktion. Es beschreibt die Rohdaten ohne spezifische Einheiten)*
 
-Für meine Zwecke habe ich ausschließlich die stl Dateien verwendet, dieses kann mit Cura verwendet werden 
+Für meine Zwecke habe ich ausschließlich die *.stl Dateien von Github verwendet, diese werden dann mit Cura weiter verarbeitet. 
 
 
 ### Schritte um Dateien von Github zu laden und für den 3D Drucker vorzubereiten?
@@ -93,7 +94,7 @@ Für meine Zwecke habe ich ausschließlich die stl Dateien verwendet, dieses kan
     alt="2. Slicing information gibt es preview, mit den beiden Schiebern unten und rechts ist jede einzelne Bahn die gedruckt wird sichtbar" >}}
  {{< /slider >}}
 
-5. Übertrag auf den 3D Drucker: Nachdem mein verwendeter Drucker in einem anderen Gebäude steht habe ich den .gcode file einfach auf einen USB stick gespeichet und diesen an den Drucker gesteckt. 
+5. Übertrag auf den 3D Drucker: Nachdem mein verwendeter Drucker in einem anderen Gebäude steht, speichere ich den .gcode file auf einem USB stick und stecke diesen an den Drucker. 
 6. Im Ultimaker 3 Menu wird dann der File für den Druck ausgewählt und der Druck gestartet.
 
 ### Sensor gehäuse - Main case
@@ -156,14 +157,18 @@ Lage der 3 Halterungen und Locking pin auf dem Drucker {{< /imgproc >}}
     [OBS-Display-B-006_Oberschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-006_Oberschale_v0.1.0.stl)    
     [OBS-Display-B-007_Unterschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-007_Unterschale_v0.1.0.stl)
 
+    3.4. Kabelzugentlastung 1 Teil (muss 2mal gedruckt werden)   
+[OBS-Display-A-003_Zugentlastung_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-003_Zugentlastung_v0.1.1.stl)
+
+
 ### Materialverbrauch und Zeitbedarf
 Nach dem slicen wird angezeigt wie lange der Durckvorgang dauert und wieviel Material für den Druck benötigt wird. Abhängig davon wie fein man durckt und mit welchem Infill kann die Zeit sehr unterschiedlich sein. 
 
 ## Troubleshooting
 ### Lage der Druckteile und Überhänge
 Beim Druck der Gehäuseteile ist die Lage des Teiles wichtig, denn man möchte Überhänge vermeiden, also wenn der Drucker in der luft drucken würde. Man positioniert ein Teil auf dem Drucker das es möglichst wenig oder unkritische Übergänge bildet.   
-Die stl Dateien auf Github sind meistens nicht optimal für den Druck ausgerichtet. Aber schon nach dem Laden des stl files in Cura werden in der Vorschau die Überhänge in rot angezeigt.   
-Am Beispiel des Deckels ist es sehr offensichtlich das die Lage eine wesentliche Rolle spielt, wie herum das Teil auf die Druckerplatte gelegt werden soll.
+Die *.stl Dateien auf Github sind meist nicht optimal für den Druck ausgerichtet. Aber schon nach dem Laden des stl files in Cura werden in der Vorschau die Überhänge in rot angezeigt.   
+Am Beispiel des Deckels (Bilder 1 und 2) ist es sehr offensichtlich das die Lage eine wesentliche Rolle spielt, wie herum das Teil auf die Druckerplatte gelegt werden soll.
 Aber selbst bei einer optimalen Lage wie im Beispiel des Sensorgehäuses zeigt Cura wo sich trotzdem noch Überhänge bilden. Manche Überhänge wie Schraubenlöcher sind unkritisch da der Drucker das selbst überbrücken kann (brigding).  
 Doch wenn der Übergang zu groß wird können sich viele Fäden ziehen. Um das zu vermeiden kann die Support funktion eingeschalten werden, der Drucker erstellt dann leichte Stützstrukturen, die nach dem Druck wieder entfernt werden. 
 
@@ -188,6 +193,8 @@ Doch wenn der Übergang zu groß wird können sich viele Fäden ziehen. Um das z
 Nach dem Druck mit Supportstruktor, muss diese mechanisch herausgebrochen und entfernt werden.
 
 
-## Zusammenbau des Gehäuses
+## Weitere Anleitungen
++ Detaillierte [Anleitung für den Zusammenbau](https://www.openbikesensor.org/docs/hardware/v00.03.12/build-instructions/) des gesamten OBS beschreibt den Einbau der elektronischen Komponenten in die beiden Gehäuse
++ Die [Montage des Sensors](https://www.openbikesensor.org/docs/user-guide/mounting/) am Fahrrad wird mit einem vertical case und verschiedenen Halterungen für das Displaygehäuse gezeigt
 
 
