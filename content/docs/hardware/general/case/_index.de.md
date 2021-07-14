@@ -98,6 +98,8 @@ Für meine Zwecke habe ich ausschließlich die *.stl Dateien von Github verwende
 6. Im Ultimaker 3 Menu wird dann der File für den Druck ausgewählt und der Druck gestartet.
 
 ### Sensor gehäuse - Main case
+{{< imgproc "OBS_Gehäuse_mit_Deckel_und_text.jpg" Resize 600x >}} 
+Sensorgehäuse mit Deckel und Montage{{< /imgproc >}}
 Die Sensoren und Elektronik wird im Sensorgehäuse eingebaut. Empfohlen wird hier das Gehäuse mit dem OBS logo zu drucken, einmal aus Respekt zur OBS Community aber auch um damit zu werden. 5 Teile sind zum Drucken
 1. Für das Gehäuse mit dem OBS Logo habe ich folgende 2 files verwendet:   
 [OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl)   
@@ -134,6 +136,8 @@ Lage der 3 Halterungen und Locking pin auf dem Drucker {{< /imgproc >}}
 
 
 ### Anzeige und Auslöseknopf am Lenker - Display
+{{< imgproc "20210707_142649_OBS_Display_text.jpg" Resize 400x >}} 
+Display mit Sechskantmutter und Schraubklammer{{< /imgproc >}}
  1. Anzeigegehäuse Unterteil   
      mit Einpressmuttern [OBS-Display-A-002_HeatSetInsert_Display_Bottom_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-002_HeatSetInsert_Display_Bottom_v0.1.0.stl)   
      oder mit Sechskant muttern [OBS-Display-B-002_Sechskantmutter_Display_Bottom_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-002_Sechskantmutter_Display_Bottom_v0.1.0.stl)
@@ -162,7 +166,7 @@ Lage der 3 Halterungen und Locking pin auf dem Drucker {{< /imgproc >}}
 
 
 ### Materialverbrauch und Zeitbedarf
-Nach dem slicen wird angezeigt wie lange der Durckvorgang dauert und wieviel Material für den Druck benötigt wird. Abhängig davon wie fein man durckt und mit welchem Infill kann die Zeit sehr unterschiedlich sein. 
+Nach dem slicen wird angezeigt wie lange der Durckvorgang dauert und wieviel Material für den Druck benötigt wird. Abhängig davon wie fein man druckt und mit welcher Druckdichte (Infill) kann die Druckdauer sehr unterschiedlich sein. 
 
 ## Troubleshooting
 ### Lage der Druckteile und Überhänge
@@ -191,6 +195,18 @@ Doch wenn der Übergang zu groß wird können sich viele Fäden ziehen. Um das z
  {{< /slider >}}
 
 Nach dem Druck mit Supportstruktor, muss diese mechanisch herausgebrochen und entfernt werden.
+
+### Fehlerhafte Drucke
+
+{{< slider >}}
+{{< slider-image
+    src="OBS_prints_1418_support missing.JPG"
+    alt="Support fehlt, Düse vom 2.Extruder verstopft" >}}
+{{< slider-image
+    src="OBS_prints_1422_broken_slide.JPG"
+    alt="brüchige Verbindung, vermutlich Druckdichte (Infill) zu gering" >}}
+ {{< /slider >}}
+
 
 
 ## Weitere Anleitungen
