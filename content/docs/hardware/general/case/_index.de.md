@@ -20,6 +20,8 @@ Die nachfolgende Beschreibung baut auf dem [VerticalCase_JSN-AJ](https://github.
 
 ## Drucker, Material, SW, Druckeinstellungen 
 ### Drucker und Material - PETG
+{{< imgproc "Ultimaker_at_work.jpg" Resize 400x >}} 
+Ultimkaer 3 fertig mit Displaygehäuse und Zugentlastung {{< /imgproc >}}
 Für den Druck verwende ich einen Ultimaker 3 dieser hat 2 extruder so das man mit 2 Filamenten gleichzeitig drucken, das wurde nur relevant für das OBS Logo und das ADFC logo, ansonsten ist das Gehäuse mit einem Filament gedruckt. Man kann nei Drucker mit einem Extruder natürlich das Filament wechseln.
 
 Wichtig ist die Slicer SW die den Druck für den jeweiligen Durcker aufbereitet. Für den Ultimaker (und viele andere Drucker) kann Cura https://ultimaker.com/software/ultimaker-cura verwendet werden (für Linux, Windows und Apple). Der Vorteil ist,  Cura kann man sich auf einen separaten PC laden und auf diesem offline probieren was die besten Einstellungen sind.  
@@ -36,7 +38,7 @@ PETG ist das Material das die meisten Vorteile für unser Projekt bietet:
 - nachteilig ist allerdings die UV Beständigkeit die nicht so hoch ist wie bei ABS oder ASA. Doch die Vorteile überwiegen diese Einschränkuzng
 
 PETG ermöglicht auch den Kauf vieler verschieden farbiger und auch transparenter Filamente 
-{{< imgproc "OBS_main_case_and_lid_with_logos.jpg" Resize 600x >}} 
+{{< imgproc "OBS_main_case_and_lid_with_logos.jpg" Resize 800x >}} 
 Beispiel eines gedruckten Gehäuses mit Logos {{< /imgproc >}}
 
 ## Druckvorbereitung und Druckdateien auswahl
@@ -119,6 +121,8 @@ Lage der Sensorgehäuse elemente auf dem Drucker {{< /imgproc >}}
 
 
 ### Fahrradhalterungen - Mounts
+{{< imgproc "Zwei_halterungen.jpg" Resize 800x >}} 
+Zwei Halterungen{{< /imgproc >}}
 Es gibt verschieden Möglichkeiten den OBS Sensor am Fahrrad zu montieren,  
 1. Standard Sattelhalterung (Standard Seat post Mount):  
 [OBS-Mounting-A-002_StandardSeatPostMount_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-002_StandardSeatPostMount_v0.1.1.stl)
@@ -149,19 +153,25 @@ Display mit Sechskantmutter und Schraubklammer{{< /imgproc >}}
 
  3. Display montage am Lenker - 3 Alternativen:
 
-     3.1 einfache Kabelbinder schiene   
+    3.1 einfache Kabelbinder schiene   
 [OBS-Display-A-005_Kabelbinder_Schiene_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-005_Kabelbinder_Schiene_v0.1.1.stl)
 
-     3.2 Kabelbinder schiene gedreht (2Teile)   
-[OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl)   
+    3.2 Kabelbinder schiene gedreht (2Teile)   
+   [OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl)   
 [OBS-Display-C-006_Kabelbinder_Halter_gedreht_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-C-006_Kabelbinder_Halter_gedreht_v0.1.0.stl)
 
-     3.3. Schraubklammer 3 Teile   
-    [OBS-Display-B-005_Schiene_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-005_Schiene_v0.1.0.stl)   
-    [OBS-Display-B-006_Oberschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-006_Oberschale_v0.1.0.stl)    
-    [OBS-Display-B-007_Unterschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-007_Unterschale_v0.1.0.stl)
+   
+    3.3. Schraubklammer 3 Teile    
+{{< imgproc "Halterung_Display.JPG" Resize 300x >}} Schraubklammer und Schiene für Display{{< /imgproc >}}
 
-    3.4. Kabelzugentlastung 1 Teil (muss 2mal gedruckt werden)   
+    [OBS-Display-B-005_Schiene_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-005_Schiene_v0.1.0.stl)   
+[OBS-Display-B-006_Oberschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-006_Oberschale_v0.1.0.stl)    
+[OBS-Display-B-007_Unterschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-007_Unterschale_v0.1.0.stl)
+
+    3.4. Kabelzugentlastung 1 Teil (muss 2mal gedruckt werden)  
+{{< imgproc "Zugentlastung mit Schrauben.JPG" Resize 300x >}} 
+Zugentlastung besteht aus zwei gleichen Teilen ,mit M3 x10 Schrauben verbunden{{< /imgproc >}}
+
 [OBS-Display-A-003_Zugentlastung_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-003_Zugentlastung_v0.1.1.stl)
 
 
@@ -194,10 +204,10 @@ Doch wenn der Übergang zu groß wird können sich viele Fäden ziehen. Um das z
     alt="5. Die zusätzliche supportstruktur kann man nach dem Slicing in Preview sehen" >}}
  {{< /slider >}}
 
-Nach dem Druck mit Supportstruktor, muss diese mechanisch herausgebrochen und entfernt werden.
+Nach dem Druck mit Supportstruktur, muss diese mechanisch herausgebrochen und entfernt werden.
 
 ### Fehlerhafte Drucke
-
+Einige Fehler traten während der Drucke auf:
 {{< slider >}}
 {{< slider-image
     src="OBS_prints_1418_support missing.JPG"
