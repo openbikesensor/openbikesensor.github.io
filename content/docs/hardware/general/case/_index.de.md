@@ -12,7 +12,7 @@ Diese Anleitung entsteht, weil ich versuche selbst ein komplettes OBS Gehäuse z
 Da ich Gehäuse für den ADFC Ulm, Neu-Ulm benötige, sind die Beispiele oft mit ADFC Logo, Farben etc. gezeigt. Das ist nur eine Option, design und Farben sind beliebig austauschbar, das Gehäuse ist generisch und der Druckvorgang immer der gleiche. 
 
 ## Wie komme ich an ein Gehäuse?
-+ Idealerweise könnte man ein Gehäuse einfach kaufen. Doch es gibt weder eine Serienfertigung noch einen offiziellen Dienstleister der den Gehäusedruck übernemhen würde.
++ Idealerweise könnte man ein Gehäuse einfach kaufen. Doch es gibt weder eine Serienfertigung noch einen offiziellen Dienstleister, der den Gehäusedruck übernemhen würde.
 + Unter Umständen findet man in der Community hifreiche Bastler die einem ein Gehäuse mit herstellen. Am besten anfragen in Slack
 + In dieser Anleitung geht es darum ein komplettes Gehäuse mit Halterungen selbst zu drucken und herzustellen.
 Der Druck eines kompletten OBS Gehäusesatzes oder auch nur Teile ist problemlos möglich, vorrausgesetzt man hat einen 3D Drucker zur Verfügung. Der 3D-Druck kostet ca 5€ Material (Filamentkosten können variieren), Verschleiß, Stromkosten und Zeit. Dazu aber ca. 10-20h Druckzeit.
@@ -22,26 +22,26 @@ Die nachfolgende Beschreibung baut auf dem [VerticalCase_JSN-AJ](https://github.
 ### Drucker und Material - PETG
 {{< imgproc "Ultimaker_at_work.jpg" Resize 400x >}} 
 Ultimkaer 3 fertig mit Displaygehäuse und Zugentlastung {{< /imgproc >}}
-Für den Druck verwende ich einen Ultimaker 3 dieser hat 2 extruder so das man mit 2 Filamenten gleichzeitig drucken, das wurde nur relevant für das OBS Logo und das ADFC logo, ansonsten ist das Gehäuse mit einem Filament gedruckt. Man kann nei Drucker mit einem Extruder natürlich das Filament wechseln.
+Für den Druck verwende ich einen Ultimaker 3 dieser hat 2 Extruder so das man mit 2 Filamenten gleichzeitig drucken kann. Das vereinfacht den Druck des Sensorgehäuses und des Deckels, da für das OBS Logo und das ADFC logo 2 Farben verwendet werden. Bei einem Drucker mit nur einem Extruder, muß man während des Drucks das Filament wechseln. Ansonsten können alle Teile mit einem Filament gedruckt werden.
 
-Wichtig ist die Slicer SW die den Druck für den jeweiligen Durcker aufbereitet. Für den Ultimaker (und viele andere Drucker) kann Cura https://ultimaker.com/software/ultimaker-cura verwendet werden (für Linux, Windows und Apple). Der Vorteil ist,  Cura kann man sich auf einen separaten PC laden und auf diesem offline probieren was die besten Einstellungen sind.  
+Wichtig ist die Slicer Software, die den Druck für den jeweiligen Durcker aufbereitet. Für den Ultimaker (und viele andere Drucker) kann Cura von der offiziellen Website https://ultimaker.com/software/ultimaker-cura heruntergeladen und kostenlos verwendet werden (für Linux, Windows und Apple). (Ein Vorteil für mich ist: Cura Läuft offline auf meinem privaten PC und darauf erstelle ich die Druckfiles. Die ferigen Druckfiles (gcode format) lade ich auf einem USB stick mit und stecke ihn den Ultimaker3 der sich in einem anderen Gebäude befindet.) 
 
 ### Material und Farben
 
-PETG ist das Material das die meisten Vorteile für unser Projekt bietet:
+PETG ist das Material, welches die meisten Vorteile für unser Projekt bietet:
 
 + hohe Schlagfestigkeit und dennoch flexibel - wichtig für den Einsatz am Fahrrad
-+ Hydrophob, geringe Wasseraufnahme - wichtig für Außeneinsatz
++ Hydrophob, wasserabweisend - wichtig für Außeneinsatz
 + niedrige Viskosität (Zähigkeit)
-+ geruchsneutrales Drucken - erleichtert das Drucken auch zuHause in den 4 Wänden.
++ geruchsneutrales Drucken - erleichtert das Drucken auch zu Hause in den 4 Wänden.
 + gute Witterungsbeständigkeit - Wichtig für Montage am Fahrrad
-- nachteilig ist allerdings die UV Beständigkeit die nicht so hoch ist wie bei ABS oder ASA. Doch die Vorteile überwiegen diese Einschränkuzng
+- nachteilig ist allerdings die UV Beständigkeit, die nicht so hoch ist wie bei ABS oder ASA. Doch die Vorteile überwiegen diese Einschränkung
 
 PETG ermöglicht auch den Kauf vieler verschieden farbiger und auch transparenter Filamente 
 {{< imgproc "OBS_main_case_and_lid_with_logos.jpg" Resize 800x >}} 
 Beispiel eines gedruckten Gehäuses mit Logos {{< /imgproc >}}
 
-## Druckvorbereitung und Druckdateien auswahl
+## Druckvorbereitung und Auswahl der Druckdateien
 Alle Dateien für das Openbikesensor projekt wie SW, FW, Docs und auch die 3D Druckdateien liegen auf Github. Unter "OpenBikeSensor3dPrintableCase/MainCase/VerticalCase_JSN-AJ" sind viele verschiedene Druckdateien für unsere Gehäuse vorhanden
 Die Gehäuselemente werden unterschieden in 
 + Sensor Gehäuse - main case
