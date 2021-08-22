@@ -8,15 +8,15 @@ OpenBikeSensor-Bausatz der Version 00.03.10, mit einem "Vertical Case"
 {{< /imgproc >}}
 
 ## Vorwort
-Diese Anleitung entsteht, weil ich versuche selbst ein komplettes OBS Gehäuse zu drucken, selbst aber keine Erfahrung weder mit dem 3D-Druck noch mit File respositories auf Github hatte. Viele Leute haben mit geholfen und dieses Wissen möchte ich weitergeben in einer hoffentlich verständlichen und einfachen Form. 
-Da ich Gehäuse für den ADFC Ulm, Neu-Ulm benötige, sind die Beispiele oft mit ADFC Logo, Farben etc. gezeigt. Das ist nur eine Option, design und Farben sind beliebig austauschbar, das Gehäuse ist generisch und der Druckvorgang immer der gleiche. 
+Diese Anleitung entstand, weil ich versuche selbst ein komplettes OpenBikeSensor Gehäuse zu drucken, selbst aber keine Erfahrung weder mit dem 3D-Druck noch mit File respositories auf GitHub hatte. Viele Leute haben mit geholfen und letztendlich haben wir 10 Gehäuse gedruckt. Dieses Wissen möchte ich weitergeben in einer hoffentlich verständlichen und einfachen Form. Deswegen ist die Beschreibung auch aus meiner Sicht geschrieben, es gibt bestimmt andere effizientere Wege um zu einem ähnlichen Ergebnis zu gelangen
+Da ich Gehäuse für den ADFC Ulm, Neu-Ulm benötige, sind die Beispiele oft mit ADFC Logo, Farben etc. gezeigt. Das ist nur eine Option, Design und Farben sind beliebig austauschbar, das Gehäuse ist generisch und der Druckvorgang immer der gleiche. 
 
 ## Wie komme ich an ein Gehäuse?
-+ Idealerweise könnte man ein Gehäuse einfach kaufen. Doch es gibt weder eine Serienfertigung noch einen offiziellen Dienstleister, der den Gehäusedruck übernemhen würde.
-+ Unter Umständen findet man in der Community hifreiche Bastler die einem ein Gehäuse mit herstellen. Am besten anfragen in Slack
++ Idealerweise könnte man ein Gehäuse einfach kaufen. Doch es gibt weder eine Serienfertigung, noch kenne ich einen offiziellen Dienstleister, der den Gehäusedruck übernehmen würde.
++ Unter Umständen findet man in der Community hilfreiche Bastler, die einem ein Gehäuse mit herstellen. Dazu am besten in Slack anfragen. Eine andere Möglichkeit ist einen lokalen "Makerspace" zu finden die 3D Drucker und Know-How zur Verfügung stellen.
 + In dieser Anleitung geht es darum ein komplettes Gehäuse mit Halterungen selbst zu drucken und herzustellen.
-Der Druck eines kompletten OBS Gehäusesatzes oder auch nur Teile ist problemlos möglich, vorrausgesetzt man hat einen 3D Drucker zur Verfügung. Der 3D-Druck kostet ca 5€ Material (Filamentkosten können variieren), Verschleiß, Stromkosten und Zeit. Dazu aber ca. 10-20h Druckzeit.
-Die nachfolgende Beschreibung baut auf dem [VerticalCase_JSN-AJ](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/MainCase/VerticalCase_JSN-AJ) für das Sensorgehäuse auf und auf dem [SlideOnDisplay](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/DisplayCase/SlideOnDisplay) für den Lenker Auslöseknopf und Anzeige. Aus Menge der angebotenen Modelle sind das die beiden Standardmodelle.  
+Der Druck eines kompletten OBS Gehäusesatzes oder auch nur Teile ist problemlos möglich, vorausgesetzt man hat einen 3D Drucker zur Verfügung. Der 3D-Druck kostet ca 5€ Material (Filamentkosten können variieren), Verschleiß, Stromkosten und vor allem Zeit, ca. 10-20h Druckzeit muß man schon einplanen.  
+Die nachfolgende Beschreibung verwendet für das Sensorgehäuse die Dateien von [VerticalCase_JSN-AJ](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/MainCase/VerticalCase_JSN-AJ). Für den Lenker Auslöseknopf und Anzeige werden die Dateien von [SlideOnDisplay](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/DisplayCase/SlideOnDisplay) verwendet. Aus der Vielzahl der angebotenen Modelle sind das die beiden Standardmodelle.  
 
 ## Drucker, Material, SW, Druckeinstellungen 
 ### Drucker und Material - PETG
@@ -42,25 +42,25 @@ PETG ermöglicht auch den Kauf vieler verschieden farbiger und auch transparente
 Beispiel eines gedruckten Gehäuses mit Logos {{< /imgproc >}}
 
 ## Druckvorbereitung und Auswahl der Druckdateien
-Alle Dateien für das Openbikesensor projekt wie SW, FW, Docs und auch die 3D Druckdateien liegen auf Github. Unter "OpenBikeSensor3dPrintableCase/MainCase/VerticalCase_JSN-AJ" sind viele verschiedene Druckdateien für unsere Gehäuse vorhanden
+Alle Dateien für das OpenBikeSensor projekt wie Software, Firmware, Dokumentation und auch die 3D Druckdateien liegen auf GitHub. Unter "OpenBikeSensor3dPrintableCase/MainCase/VerticalCase_JSN-AJ" sind viele verschiedene Druckdateien für unsere Gehäuse vorhanden
 Die Gehäuselemente werden unterschieden in 
 + Sensor Gehäuse - main case
 + Fahrradhalterung für Sensor Gehäuse - Mounting
 + Anzeige mit Lenkerhalterung - Display
 
-Auf Github findet man für jedes Teil eine Druckdatei in 3 verschiedenen Formaten stp, itp und stl.
+Auf GitHub findet man für jedes Teil eine Druckdatei in 3 verschiedenen Formaten stp, itp und stl.
 
-  *(.STEP oder .stp: das STEP format ist ein standard zum Austausch von Produkt model daten. Diese Dateien stellen 3D-Objekte in CAD-Software dar und können zugehörige Informationen enthalten.)*  
+  *(.STEP oder .stp: das STEP Format ist ein Standard zum Austausch von Produkt Model Daten. Diese Dateien stellen 3D-Objekte in CAD-Software dar und können zugehörige Informationen enthalten.)*  
   *(.ipt beschreibt ein einzelnes Konstruktionselement im Autodesk Inventor)*  
   *(.stl file format beschreibt die Oberflächenform und -fläche einer 3D-CAD-Konstruktion. Es beschreibt die Rohdaten ohne spezifische Einheiten)*
 
-Für meine Zwecke habe ich ausschließlich die *.stl Dateien von Github verwendet, diese werden dann mit Cura weiter verarbeitet. 
+In dieser Beschreibung wurden ausschließlich die *.stl Dateien von GitHub für den 3D Druck verwendet, diese werden dann mit Cura weiter verarbeitet. 
 
 
-### Schritte um Dateien von Github zu laden und für den 3D Drucker vorzubereiten?
+### Schritte um Dateien von GitHub zu laden und für den 3D Drucker vorzubereiten?
 
-1. Der Import eines .stl files in eine slicer SW (wie z.B. Cura) ist der erste Schritt um ein 3D objekt zu drucken
-2. In der slicer SW wird der .stl file (oder mehrere files) möglichst so gelegt das es wenig Überhänge gibt
+1. Der Import einer .stl Datei in eine slicer SW (wie z.B. Cura) ist der erste Schritt um ein 3D Objekt zu drucken
+2. In der slicer SW wird die .stl Datei (oder mehrere Dateien) so auf die Druckplatte gelegt, daß es möglichst wenig Überhänge gibt
 {{< slider >}}
 {{< slider-image
     src="OBS-MainCase-A02_lid_adfc-logo_gedreht.jpg"
@@ -86,7 +86,7 @@ Für meine Zwecke habe ich ausschließlich die *.stl Dateien von Github verwende
     alt="4. starte slicing" >}}
  {{< /slider >}}
 
-4. Slicen starten: Cura erstellt nun einen file im format .gcode, der alle Befehle für den speziellen Drucker enthält (z.B. Druckdichte, Material, etc.). 
+4. Slicen starten: Cura erstellt nun eine Datei im format .gcode, der alle Befehle für den speziellen Drucker enthält (z.B. Druckdichte, Material, etc.). 
 {{< slider >}}
 {{< slider-image
     src="UM3_CuraUI_case_slice_information.jpg"
@@ -96,13 +96,15 @@ Für meine Zwecke habe ich ausschließlich die *.stl Dateien von Github verwende
     alt="2. Slicing information gibt es preview, mit den beiden Schiebern unten und rechts ist jede einzelne Bahn die gedruckt wird sichtbar" >}}
  {{< /slider >}}
 
-5. Übertrag auf den 3D Drucker: Nachdem mein verwendeter Drucker in einem anderen Gebäude steht, speichere ich den .gcode file auf einem USB stick und stecke diesen an den Drucker. 
-6. Im Ultimaker 3 Menu wird dann der File für den Druck ausgewählt und der Druck gestartet.
+5. Übertrag auf den 3D Drucker: Nachdem mein verwendeter Drucker in einem anderen Gebäude steht, speichere ich die .gcode Datei auf einem USB stick und stecke diesen an den Drucker. 
+6. Im Ultimaker 3 Menu wird dann diese *.gcode Datei für den Druck ausgewählt und der Druck gestartet.
 
 ### Sensor gehäuse - Main case
 {{< imgproc "OBS_Gehäuse_mit_Deckel_und_text.jpg" Resize 600x >}} 
 Sensorgehäuse mit Deckel und Montage{{< /imgproc >}}
-Die Sensoren und Elektronik wird im Sensorgehäuse eingebaut. Empfohlen wird hier das Gehäuse mit dem OBS logo zu drucken, einmal aus Respekt zur OBS Community aber auch um damit zu werden. 5 Teile sind zum Drucken
+Die Sensoren und Elektronik wird im Sensorgehäuse eingebaut. Empfohlen wird hier das Gehäuse mit dem OBS logo zu drucken, einmal aus Respekt zur OBS Community, aber auch um damit für das OpenBikeSensor Projekt zu werben.
+
+5 Teile sind zum Drucken
 1. Für das Gehäuse mit dem OBS Logo habe ich folgende 2 files verwendet:   
 [OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl)   
 und [OBS-MainCase-B-001b_inner_logo_part.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001b_inner_logo_part.stl)
@@ -124,19 +126,19 @@ Lage der Sensorgehäuse elemente auf dem Drucker {{< /imgproc >}}
 {{< imgproc "Zwei_halterungen.jpg" Resize 800x >}} 
 Zwei Halterungen{{< /imgproc >}}
 Es gibt verschieden Möglichkeiten den OBS Sensor am Fahrrad zu montieren,  
-1. Standard Sattelhalterung (Standard Seat post Mount):  
+1. Standard Sattelhalterung (Standard Seat Post Mount):  
 [OBS-Mounting-A-002_StandardSeatPostMount_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-002_StandardSeatPostMount_v0.1.1.stl)
-2. verlängerte Sattelhalterung (Extended Seat Post Mount): steht weiter heraus, ist aufgrund der Hebelwirkung mechanisch mehr belastet   
+2. Verlängerte Sattelhalterung (Extended Seat Post Mount): steht weiter heraus, ist aufgrund der Hebelwirkung mechanisch mehr belastet   
 [OBS-Mounting-C-002_ExtendedSeatPostMount.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-C-002_ExtendedSeatPostMount.stl)
 
-3. Querstangen halterung (Top Tube Mount): wenn die Sattelhalterungen nicht möglich sind kann die Montage weiter vorne erfolgen   
+3. Querstangenhalterung (Top Tube Mount): wenn die Sattelhalterungen nicht verwendbar sind, kann die Montage weiter vorne an der Querstange erfolgen   
 [OBS-Mounting-B-002_TopTubeMount.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-B-002_TopTubeMount.stl)
 
-4. Schließpin (Locking pin):   
+4. Sicherungspin (Locking pin): fixiert Sensorgehäuse an der Halterung  
 [OBS-Mounting-A-003_LockingPin_v0.1.3.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-003_LockingPin_v0.1.3.stl) 
 
 {{< imgproc "UM3_curaUI_OBS-Mounting-all_mounts_mit_text.jpg" Resize 800x >}} 
-Lage der 3 Halterungen und Locking pin auf dem Drucker {{< /imgproc >}}
+Lage der 3 Halterungen und Sicherungspin auf dem Drucker {{< /imgproc >}}
 
 
 ### Anzeige und Auslöseknopf am Lenker - Display
@@ -144,19 +146,19 @@ Lage der 3 Halterungen und Locking pin auf dem Drucker {{< /imgproc >}}
 Display mit Sechskantmutter und Schraubklammer{{< /imgproc >}}
  1. Anzeigegehäuse Unterteil   
      mit Einpressmuttern [OBS-Display-A-002_HeatSetInsert_Display_Bottom_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-002_HeatSetInsert_Display_Bottom_v0.1.0.stl)   
-     oder mit Sechskant muttern [OBS-Display-B-002_Sechskantmutter_Display_Bottom_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-002_Sechskantmutter_Display_Bottom_v0.1.0.stl)
+     oder mit Sechskantmuttern [OBS-Display-B-002_Sechskantmutter_Display_Bottom_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-002_Sechskantmutter_Display_Bottom_v0.1.0.stl)
 
  2. Anzeigegehäuse Oberteil   
     mit Einpressmuttern [OBS-Display-A-001_HeatSetInsert_Display_Top_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-001_HeatSetInsert_Display_Top_v0.1.0.stl)   
-    oder mit Sechskant muttern [OBS-Display-B-001_Sechskantmutter_Display_Top_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-001_Sechskantmutter_Display_Top_v0.1.0.stl)
+    oder mit Sechskantmuttern [OBS-Display-B-001_Sechskantmutter_Display_Top_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-001_Sechskantmutter_Display_Top_v0.1.0.stl)
 
 
  3. Display montage am Lenker - 3 Alternativen:
 
-    3.1 einfache Kabelbinder schiene   
+    3.1 einfache Kabelbinderschiene   
 [OBS-Display-A-005_Kabelbinder_Schiene_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-005_Kabelbinder_Schiene_v0.1.1.stl)
 
-    3.2 Kabelbinder schiene gedreht (2Teile)   
+    3.2 Kabelbinderschiene gedreht (2 Teile)   
    [OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-C-005_Kabelbinder_Schiene_gedreht_v0.1.0.stl)   
 [OBS-Display-C-006_Kabelbinder_Halter_gedreht_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-C-006_Kabelbinder_Halter_gedreht_v0.1.0.stl)
 
@@ -168,9 +170,9 @@ Display mit Sechskantmutter und Schraubklammer{{< /imgproc >}}
 [OBS-Display-B-006_Oberschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-006_Oberschale_v0.1.0.stl)    
 [OBS-Display-B-007_Unterschale_v0.1.0.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-B-007_Unterschale_v0.1.0.stl)
 
-    3.4. Kabelzugentlastung 1 Teil (muss 2mal gedruckt werden)  
+    3.4. Kabelzugentlastung 1 Teil (muss 2 mal gedruckt werden)  
 {{< imgproc "Zugentlastung mit Schrauben.JPG" Resize 300x >}} 
-Zugentlastung besteht aus zwei gleichen Teilen ,mit M3 x10 Schrauben verbunden{{< /imgproc >}}
+Zugentlastung besteht aus zwei gleichen Teilen, die mit 2 M3 x10 Schrauben verbunden werden{{< /imgproc >}}
 
 [OBS-Display-A-003_Zugentlastung_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/DisplayCase/SlideOnDisplay/OBS-Display-A-003_Zugentlastung_v0.1.1.stl)
 
@@ -181,7 +183,7 @@ Nach dem slicen wird angezeigt wie lange der Durckvorgang dauert und wieviel Mat
 ## Troubleshooting
 ### Lage der Druckteile und Überhänge
 Beim Druck der Gehäuseteile ist die Lage des Teiles wichtig, denn man möchte Überhänge vermeiden, also wenn der Drucker in der luft drucken würde. Man positioniert ein Teil auf dem Drucker das es möglichst wenig oder unkritische Übergänge bildet.   
-Die *.stl Dateien auf Github sind meist nicht optimal für den Druck ausgerichtet. Aber schon nach dem Laden des stl files in Cura werden in der Vorschau die Überhänge in rot angezeigt.   
+Die *.stl Dateien auf GitHub sind meist nicht optimal für den Druck ausgerichtet. Aber schon nach dem Laden des stl files in Cura werden in der Vorschau die Überhänge in rot angezeigt.   
 Am Beispiel des Deckels (Bilder 1 und 2) ist es sehr offensichtlich das die Lage eine wesentliche Rolle spielt, wie herum das Teil auf die Druckerplatte gelegt werden soll.
 Aber selbst bei einer optimalen Lage wie im Beispiel des Sensorgehäuses zeigt Cura wo sich trotzdem noch Überhänge bilden. Manche Überhänge wie Schraubenlöcher sind unkritisch da der Drucker das selbst überbrücken kann (brigding).  
 Doch wenn der Übergang zu groß wird können sich viele Fäden ziehen. Um das zu vermeiden kann die Support funktion eingeschalten werden, der Drucker erstellt dann leichte Stützstrukturen, die nach dem Druck wieder entfernt werden. 
