@@ -64,7 +64,7 @@ In dieser Beschreibung wurden ausschließlich die *.stl Dateien von GitHub für 
 {{< slider >}}
 {{< slider-image
     src="OBS-MainCase-A02_lid_adfc-logo_gedreht.jpg"
-    alt="1. So soll es aussehen, aber die Drucklage ist anders " >}}
+    alt="1. So sollte es aussehen, kann aber in dieser Lage so nicht gedruckt werden" >}}
 {{< slider-image
     src="OBS-MainCase-A02_lid_adfc-logo_Drucklage.jpg"
     alt="2. Drucken mit dem Gesicht nach unten" >}}
@@ -90,13 +90,13 @@ In dieser Beschreibung wurden ausschließlich die *.stl Dateien von GitHub für 
 {{< slider >}}
 {{< slider-image
     src="UM3_CuraUI_case_slice_information.jpg"
-    alt="1. Nachdem alle Einstellungen erfolgt sind, wird das slicing gestartet " >}}
+    alt="1. Nachdem alle Einstellungen erfolgt sind, wird das Slicing gestartet " >}}
 {{< slider-image
     src="UM3_CuraUI_case_slice_preview.jpg"
-    alt="2. Slicing information gibt es preview, mit den beiden Schiebern unten und rechts ist jede einzelne Bahn die gedruckt wird sichtbar" >}}
+    alt="2. Slicing information gibt es im Preview, mit den beiden Schiebern unten und rechts kann man jede einzelne Bahn des Extruders verfolgen" >}}
  {{< /slider >}}
 
-5. Übertrag auf den 3D Drucker: Nachdem mein verwendeter Drucker in einem anderen Gebäude steht, speichere ich die .gcode Datei auf einem USB stick und stecke diesen an den Drucker. 
+5. Übertrag auf den 3D Drucker: Wenn der 3D-Drucker am PC oder im Netz angeschlossen ist, kann man die *.gcode Datei direkt auf den Drucker übertragen. In meinem Fall steht der verwendete 3D-Drucker in einem anderen Gebäude, und deswegen speichere ich die .gcode Datei auf einen USB stick und stecke diesen dann an den Drucker. 
 6. Im Ultimaker 3 Menu wird dann diese *.gcode Datei für den Druck ausgewählt und der Druck gestartet.
 
 ### Sensor gehäuse - Main case
