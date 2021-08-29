@@ -59,8 +59,8 @@ In dieser Beschreibung wurden ausschließlich die *.stl Dateien von GitHub für 
 
 ### Schritte um Dateien von GitHub zu laden und für den 3D Drucker vorzubereiten?
 
-1. Der Import einer .stl Datei in eine slicer SW (wie z.B. Cura) ist der erste Schritt um ein 3D Objekt zu drucken
-2. In der slicer SW wird die .stl Datei (oder mehrere Dateien) so auf die Druckplatte gelegt, daß es möglichst wenig Überhänge gibt
+1. Der Import einer .stl Datei in eine Slicer Software (wie z.B. Cura) ist der erste Schritt um ein 3D Objekt zu drucken
+2. In der Slicer Software wird die .stl Datei (oder mehrere Dateien) so auf die Druckplatte gelegt, dass es möglichst wenig Überhänge gibt
 {{< slider >}}
 {{< slider-image
     src="OBS-MainCase-A02_lid_adfc-logo_gedreht.jpg"
