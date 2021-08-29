@@ -44,7 +44,7 @@ Es gibt 4 Alternativen für den OpenBikeSensor um persöhnliche Daten zu schütz
 
 2. Wenn Du Deine eigenen Daten haben möchtest, diese aber nicht veröffentlicht werden sollen, kannst Du die Privatsphäre-Zonen stattdessen im Datenportal einrichten. Das bedeutet zwar, dass man darauf vertrauen muß, dass die Software des Datenportals ihre Aufgabe ordnungsgemäß erfüllt (und niemand kann garantieren, dass dies der Fall ist, aber wir versprechen, dass wir unser Bestes geben), aber Du kannst dann die unmaskierten Daten selbst vom Portal herunterladen.
 
-3. Eine dritte Möglichkeit besteht darin, die Daten niemals direkt vom OBS in das Datenportal hochzuladen, sondern die Track-Dateien auf Deinen Computer zu verschieben. Dann kannst Du ein Skript zu zusammenstellen, um die Daten zu privatisieren, bevor sie von dort aus in das Datenportal hochladen werden.
+3. Eine dritte Möglichkeit besteht darin, die Daten nicht direkt vom OBS in das Datenportal hochzuladen, sondern die Track-Dateien erst einmal auf Deinen Computer zu verschieben. Dann kannst Du mit einem eigenen Skript die Daten privatisieren, bevor sie von Deinem Computer aus in das Datenportal hochladen werden.
 
 4. Die sicherste Option ist natürlich, die Daten überhaupt nicht hochzuladen. Aber wozu bauen wir dann einen OpenBikeSensor und ein Auswerte Software?
 

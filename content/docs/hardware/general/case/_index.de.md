@@ -24,7 +24,7 @@ Die nachfolgende Beschreibung verwendet für das Sensorgehäuse die Dateien von 
 Ultimkaer 3 fertig mit Displaygehäuse und Zugentlastung {{< /imgproc >}}
 Für den Druck verwende ich einen Ultimaker 3 dieser hat 2 Extruder so das man mit 2 Filamenten gleichzeitig drucken kann. Das vereinfacht den Druck des Sensorgehäuses und des Deckels, da für das OBS Logo und das ADFC logo 2 Farben verwendet werden. Bei einem Drucker mit nur einem Extruder, muß man während des Drucks das Filament wechseln. Ansonsten können alle Teile mit einem Filament gedruckt werden.
 
-Wichtig ist die Slicer Software, die den Druck für den jeweiligen Durcker aufbereitet. Für den Ultimaker (und viele andere Drucker) kann Cura von der offiziellen Website https://ultimaker.com/software/ultimaker-cura heruntergeladen und kostenlos verwendet werden (für Linux, Windows und Apple). (Ein Vorteil für mich ist: Cura Läuft offline auf meinem privaten PC und darauf erstelle ich die Druckfiles. Die ferigen Druckfiles (gcode format) lade ich auf einem USB stick mit und stecke ihn den Ultimaker3 der sich in einem anderen Gebäude befindet.) 
+Wichtig ist die Slicer Software, die den Druck für den jeweiligen Durcker aufbereitet. Für den Ultimaker (und viele andere Drucker) kann Cura von der offiziellen Website https://ultimaker.com/software/ultimaker-cura heruntergeladen und kostenlos verwendet werden (für Linux, Windows und Apple). (Ein Vorteil für mich ist: Cura Läuft offline auf meinem privaten PC und darauf erstelle ich die Druckdateien. Die fertigen Druckdateien (gcode format) lade ich auf einen USB stick und stecke ihn den Ultimaker3 der sich in einem anderen Gebäude befindet.) 
 
 ### Material und Farben
 
@@ -37,12 +37,12 @@ PETG ist das Material, welches die meisten Vorteile für unser Projekt bietet:
 + gute Witterungsbeständigkeit - Wichtig für Montage am Fahrrad
 - nachteilig ist allerdings die UV Beständigkeit, die nicht so hoch ist wie bei ABS oder ASA. Doch die Vorteile überwiegen diese Einschränkung
 
-PETG ermöglicht auch den Kauf vieler verschieden farbiger und auch transparenter Filamente 
+PETG ermöglicht auch die Verwendung von vielen verschiedenen farbiger und auch transparenter Filamente 
 {{< imgproc "OBS_main_case_and_lid_with_logos.jpg" Resize 800x >}} 
 Beispiel eines gedruckten Gehäuses mit Logos {{< /imgproc >}}
 
 ## Druckvorbereitung und Auswahl der Druckdateien
-Alle Dateien für das OpenBikeSensor projekt wie Software, Firmware, Dokumentation und auch die 3D Druckdateien liegen auf GitHub. Unter "OpenBikeSensor3dPrintableCase/MainCase/VerticalCase_JSN-AJ" sind viele verschiedene Druckdateien für unsere Gehäuse vorhanden
+Alle Dateien für das OpenBikeSensor Projekt wie Software, Firmware, Dokumentation und auch die 3D Druckdateien liegen auf GitHub. Unter "OpenBikeSensor3dPrintableCase/MainCase/VerticalCase_JSN-AJ" sind viele verschiedene Druckdateien für unsere Gehäuse vorhanden
 Die Gehäuselemente werden unterschieden in 
 + Sensor Gehäuse - main case
 + Fahrradhalterung für Sensor Gehäuse - Mounting
@@ -83,7 +83,7 @@ In dieser Beschreibung wurden ausschließlich die *.stl Dateien von GitHub für 
     alt="3. Settings für Druckdichte (Infill), Support, Düsendurchmesser" >}}
 {{< slider-image
     src="UM3_CuraUI_case_slice.jpg"
-    alt="4. starte slicing" >}}
+    alt="4. starte Slicing" >}}
  {{< /slider >}}
 
 4. Slicen starten: Cura erstellt nun eine Datei im format .gcode, der alle Befehle für den speziellen Drucker enthält (z.B. Druckdichte, Material, etc.). 
@@ -108,8 +108,8 @@ Die Sensoren und Elektronik wird im Sensorgehäuse eingebaut. Empfohlen wird hie
 1. Für das Gehäuse mit dem OBS Logo habe ich folgende 2 files verwendet:   
 [OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001a_MainCase_with_0.4mm_OBS-logo.stl)   
 und [OBS-MainCase-B-001b_inner_logo_part.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-B-001b_inner_logo_part.stl)
-2. Das zweite Teil ist der Gehäusedeckel (lid), diesen gibt es ohne text, oder mit dem OBS logo, oder mit ADFC logo wie ich ihn gedruckt habe. Dazu braucht man 2 files:
-liegen auf ADFC page
+2. Das zweite Teil ist der Gehäusedeckel (lid), diesen gibt es ohne Text, oder mit dem OBS logo, oder mit ADFC logo wie ich ihn gedruckt habe. Dazu braucht man 2 files:
+liegen auf der [ADFC page - Vorlagen zum OpenBikeSensor ](https://aktiv.adfc.de/fileadmin/user_upload/Aktivenbereich/Arbeit_und_Engagement_im_ADFC/Verkehrspolitische_Themen/OpenBikeSensor/OpenBikeSensor_Case_mit_ADFC_Logo.zip) (Zugang für für aktive ADFC Mitglieder)
 3. GPS deckel: Zusätzlich zum Sensorgehäuse braucht man:   
 [OBS-MainCase-A-004_GPS-Cover_v0.1.2.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-A-004_GPS-Cover_v0.1.2.stl)
 
