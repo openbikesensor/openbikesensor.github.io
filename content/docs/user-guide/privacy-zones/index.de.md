@@ -27,7 +27,7 @@ Eine Privatsphäre-Zone ist ein kreisförmiger Bereich, der durch einen Mittelpu
     Das Zuhause
     Der Arbeitsplatz, Schule, Uni
     Wohnungen von Freunden
-    Jeder Ort, an dem Du häufig mit dem Fahrrad Dich regelmäßig aufhältst
+    Jeder Ort, an dem Du Dich mit dem Fahrrad regelmäßig aufhältst
 
 ## Aufzeichnungsalternativen
 
