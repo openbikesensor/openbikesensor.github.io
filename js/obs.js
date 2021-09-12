@@ -1,5 +1,5 @@
 (() => {
-  // js/obs.js
+  // <stdin>
   function replaceWithIframe(div, videoId) {
     let iframe = document.createElement("iframe");
     iframe.setAttribute("src", "https://www.youtube.com/embed/" + div.dataset.videoId + "?autoplay=1&rel=0");
