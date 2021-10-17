@@ -1,8 +1,8 @@
 ---
-category: Bau und Beschaffung
 title: >
     Ich bin kein:e Profi-Bastler:in, kann ich trotzdem einen
     Überholabstandsmesser bauen?
+slug: ich-bin-neuling
 ---
 
 Ja. Natürlich hilft es, so etwas schon einmal gemacht zu haben. Aber mit

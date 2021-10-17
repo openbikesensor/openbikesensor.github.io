@@ -1,7 +1,7 @@
 ---
-category: Bau und Beschaffung
 title: >
     Ich brauche eine Platine (PCB), woher bekomme ich die?
+slug: woher-bekomme-ich-eine-platine
 ---
 
 Wir veröffentlichen [auf

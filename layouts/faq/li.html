@@ -1,29 +1,24 @@
 {{ if .IsNode }}
-  <h2>{{ .Title }}</h2>
+  <h2 class="display-2 text-center my-5 font-weight-light">{{ .Title }}</h2>
   {{ .Content }}
 
-  <div class="row accordion my-4">
+  <div class="row">
   {{ range .Pages }}
     {{ .Render "li" }}
   {{ end }}
   </div>
 {{ else }}
 
-<div class="col col-lg-6 col-md-12 mb-4">
-<div class="card">
-  <div class="card-header" id="heading{{ .UniqueID }}">
-    <h5 class="mb-0">
+<div class="col col-sm-12 col-md-6 col-lg-4">
+  <div class="card card-body mb-4">
+    <a href="{{ .Permalink }}">
+    <h4 class="card-title">
       {{ .Title }}
-    </h5>
+    </h4>
+    </a>
+
+    {{ .Content  }}
   </div>
-
-  <div id="collapse{{ .UniqueID }}" class="collapse show" aria-labelledby="heading{{ .UniqueID }}" data-parent="#accordion">
-      <div class="card-body">
-        {{ .Content }}
-      </div>
-    </div>
-
-</div>
 </div>
 
 {{ end }}
