@@ -2,6 +2,14 @@
 
 You can find this site at https://www.openbikesensor.org/
 
+## Contributing
+
+Please phrase your contributions as pull requests to the `main` branch. Once you have passed the review 
+and your commit is merged they will be built by github pages and appear on https://test.openbikesensor.org.
+After validating that everything renders OK on the test site, they are ready to be merged to the `production`
+branch which in turn feeds the main site.
+
+
 ## Development
 
 Make sure to clone the repository with the `--recursive` flag, or if you forgot that, initialize submodules like this:
