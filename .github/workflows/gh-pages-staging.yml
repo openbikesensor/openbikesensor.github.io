@@ -1,4 +1,4 @@
-name: github pages
+name: github pages staging
 
 on:
   push:
@@ -41,6 +41,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
           publish_dir: ./public
-          cname: www.openbikesensor.org
+          external_repository: openbikesensor/website-staging
+          cname: test.openbikesensor.org
+          publish_branch: main
