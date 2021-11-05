@@ -662,7 +662,8 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
     Sensorboard anschließen, den Sensor vom Deckel in das entferntere.
   - Bei Phantommessungen auf den Sensoren hat es in einigen Fällen geholfen,
     die Kabel der Sensoren möglichst weit voneinander entfernt zu führen:
-      - Deckelsensorkabel an der Oberkante des Sensorboards beim ESP entlang
+      - Deckelsensorkabel läuft an der Oberkante des ESP-seitigen Sensorboards
+        entlang.
       - Gehäusesensorkabel möglichst weit vom Deckelsensor entfernt und von
         unten zum Steckkontakt des hinteren Sensorboards führen. So sind 
         beide Sensorkabel möglichst weit vom jeweils entegengesetzten Board
