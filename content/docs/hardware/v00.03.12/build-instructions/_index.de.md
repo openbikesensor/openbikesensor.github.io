@@ -290,7 +290,7 @@ Bauanleitung für das [Modell v00.02]({{<relref
     (nach oben, wenn montiert).
 * Andernfalls:
   * Weißes Plastikteil der JST-Buchse vorsichtig entfernen
-  * Kontakte nach oben umbiegen – von den Steckkontakten weg
+  * Kontakte nach oben umbiegen – von den Steckkontakten weg
 * Beide Sensorboards stecken, dabei Beschriftung (+3V3, TRIG, ECHO, GND) beachten
 * Boards senkrecht und direkt auf der Grundplatine aufliegend verlöten
 * Überstehende Stifte kürzen
@@ -389,7 +389,7 @@ Bauanleitung für das [Modell v00.02]({{<relref
 * Empfehlung: Schrumpfschlauch (sofern vorhanden, optional) direkt nach dem
   Kürzen auf das schwarze Sensorkabel aufziehen, noch bevor es abisoliert und
   gecrimpt wird.
-* Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht
+* Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht
   durchtrennt werden.
 * Crimpkontakt muss für optimale Verbindung Leiter und Isolierung greifen
 
@@ -633,11 +633,26 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
     stecken, z.B. mit Pinzette zusammendrücken, dabei auf richtigen Sitz achten
     um den Stecker nicht zu beschädigen).
   - GPS-Deckel auf Antenne aufschieben und mit 2 Stück M3x6 oder M3x8 fixieren.
+  - Falls das Antennenkabel nicht reicht, kann die GPS-Antenne mithilfe eines
+    hinreichend langen Antennenkabels mit IPEX/U.FL Stecker verlängert werden.
+    Hierzu:
+       - Wird der Metallschild des GPS moduls abgelötet
+       - Das neue Kabel wird vorsichtig durch Rollen unter Cuttermesser auf etwa 
+         5-7mm abisoliert
+       - Die Schirmung wird zurückgeschoben
+       - Noch vorsichtiger wird die innere Isolierung durch ganz sanftes rollen
+         mit dem Cuttermesser abisoliert.
+       - Das kurze Kabel wird ab- und das neue, längere angelötet.
+       - Der Metallschild des Moduls wird wieder in ursprünglicher Ausrichtung 
+         aufgelötet.
 * Schalter in Gehäuse einsetzen
   - Einschaltrichtung mit "I/O" Aufdruck des Gehäuses vergleichen.
   - Wenn möglich mit der mitgelieferten Unterlegscheibe und Mutter fixieren.
   - Andernfalls hält der Deckel den Schalter auch an Ort und Stelle, aber er
     könnte etwas wackeln.
+  - Schalterkabel entlang der Gehäusewand zur Buchse führen. Möglichst
+    beide Adern verdrillen oder falls vorhanden zweiadriges Kabel
+    verwenden.
   - Schalter einstecken.
 * Sensoren einbauen
   - Auf der Rückseite des Sensors gibt es einen Pfeil, der mit "UP" die
@@ -645,9 +660,20 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
   - Einen Sensor ins Hauptgehäuse einbauen, den anderen in den Deckel.
   - Sensoren einstecken. Wenn möglich, den Sensor im Gehäuse an das nächste
     Sensorboard anschließen, den Sensor vom Deckel in das entferntere.
+  - Bei Phantommessungen auf den Sensoren hat es in einigen Fällen geholfen,
+    die Kabel der Sensoren möglichst weit voneinander entfernt zu führen:
+      - Deckelsensorkabel an der Oberkante des Sensorboards beim ESP entlang
+      - Gehäusesensorkabel möglichst weit vom Deckelsensor entfernt und von
+        unten zum Steckkontakt des hinteren Sensorboards führen. So sind 
+        beide Sensorkabel möglichst weit vom jeweils entegengesetzten Board
+        entfernt.
+    
 * Akku einbauen
   - Akku im Deckel mit Kabelbinder fixieren.
   - Einstecken. Polung beachten!
+  - Möglicherweise überstehendes Kabel möglichst auf der Seite des GPS 
+    verstauen. Beide Adern verdrillen und parallel legen oder falls 
+    vorhanden zweiadriges Kabel verwenden.
 
 {{< slider >}}
   {{< slider-image
