@@ -18,7 +18,7 @@ funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,
 kannst du das natürlich tun. Solltest du einen massentauglichen besseren oder
 einfacheren Weg für einen der Schritte finden, freuen wir uns über
 [Änderungsvorschläge](https://github.com/openbikesensor/openbikesensor.github.io/pulls),
-oder eine kurze Nachricht im Slack.
+oder eine kurze [Nachricht]({{< relref "/community" >}}).
 
 {{< imgproc "v00.03.12/19_Assembly/DSC08101.JPG" Fit "800x600" >}}
 Ein fertig gebauter OpenBikeSensor der Version v00.03.12

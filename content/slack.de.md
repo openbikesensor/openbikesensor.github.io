@@ -9,15 +9,24 @@ title: Slack
 
 # Slack
 
-Die Community kommuniziert zum Großteil im offenen Slack. Alle sind eingeladen, beizutreten. Dort könnt ihr
+Wir versuchen, langsam aber sicher unsere Abhängigkeit von Slack zu lösen, und
+stattdessen in andere Kommunikationskanäle umzuziehen.
 
-* um Hilfe fragen beim Nachbau,
-* euch informieren über aktuelle Aktionen,
-* erfahren wie ihr bei der Entwicklung mithelfen könnt,
-* Sammelbestellungen organisieren,
-* ...und vieles mehr!
+Dennoch, einige Themen klären wir vorerst weiterhin in Slack:
+
+* kurzfristige Koordinierung
+* Terminankündigungen
+* Community-Themen
+* Sammelbestellungen
+* einige Lokalgruppen
+
+Falls du andere Themen, wie die technische Weiterentwicklung,
+Forschungsprojekte, Hilfe und Support und vieles weiteres disktuieren oder
+erfragen möchtest, schau doch stattdessen zunächst im [Forum]({{< relref
+"/community" >}}) vorbei.
 
 [Klick hier, um Slack beizutreten](https://openbikesensor.slack.com/join/shared_invite/zt-bxxr3taf-bD1UZqSmgFIy63qAm0MQXw)
+
 
 </div>
 {{% /blocks/section %}}

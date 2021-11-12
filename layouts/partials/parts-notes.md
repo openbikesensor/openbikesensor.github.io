@@ -53,9 +53,9 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   Die Community pflegt aktiv ein bestimmtes Gehäuse für jede PCB-Version.
   Schau' dich im
   [Gehäuse-Repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase)
-  auf Github um. Du kannst dein Gehäuse selbst drucken, im Slack andere darum
-  bitten, oder fertige Drucke anhand der Designdateien von einem
-  3D-Druck-Service bestellen (das ist aber in der Regel relativ teuer).
+  auf Github um. Du kannst dein Gehäuse selbst drucken, andere Mitglieder der
+  Community darum bitten, oder fertige Drucke anhand der Designdateien von
+  einem 3D-Druck-Service bestellen (das ist aber in der Regel relativ teuer).
 
 * **PCB**: Du benötigst ein PCB der passenden Version, speziell [anhand der
   Designdateien hergestellt]({{ ref . "/docs/hardware/general/pcb" }}). Dies sollte am besten

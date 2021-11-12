@@ -12,8 +12,9 @@ Optionen:
 * Das PCB anhand der Designdateien von einem Platinenhersteller anfertigen
   lassen. Je nachdem wo, in welcher Qualität und wie viele Platinen du
   bestellst wird dies erstaunlich wenig bis sehr viel kosten.
-* Finde heraus, ob jemensch anders schon Platinen anhand der gleichen Dateien hat herstellen lassen. Eventuell hat er:sie noch
-  Exemplare übrig, frag am besten im [Slack]({{< ref "slack" >}}) nach dafür.
+* Finde heraus, ob jemensch anders schon Platinen anhand der gleichen Dateien
+  hat herstellen lassen. Eventuell hat er:sie noch Exemplare übrig, frag am
+  besten [in der Community]({{< ref "/community" >}}) nach.
 * Bastel dir selbst eine Platine, ganz im DIY-Stil. Da unseren Platinen jedoch
   Durchkontaktierungen und beidseitige Leiterbahnen benötigen, ist das
   besonders schwierig. Je nach Ausrüstung und Erfahrung ist es aber machbar.

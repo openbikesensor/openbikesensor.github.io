@@ -17,7 +17,7 @@ Prinzipiell gibt es 3 Features, von denen wir nur 2 unterstützen können:
 
 Wir haben uns dazu entschieden, Bluetooth *vorläufig* auszubauen, da es das am
 wenigsten genutzte Feature ist. Hast du Interesse an einer anderen Kombination,
-melde dich bitte im Slack (#obs_sw_firmware) oder auf Github. 
+melde dich bitte auf Github.
 
 Alternativ gibt es auch die Möglichkeit, das Prozessormoduls durch eines mit
 mehr Speicher auszutauschen. Wenn du dir ein Gerät mit mehr Speicher gebaut
@@ -54,19 +54,19 @@ Bluetooth muss natürlich auf dem Smartphone aktiviert sein.
 ### Android
 
 1. App starten.
-2. In die Einstellungen gehen und unten OpenBikeSensor aktivieren: 
+2. In die Einstellungen gehen und unten OpenBikeSensor aktivieren:
 
     {{< imgproc enable_obs None />}}
-  
+
 3. OpenBikeSensor Einstellungen öffnen. Verfügbare Geräte werden gesucht.
 
     {{< imgproc found None />}}
 
-4. Auf den Eintrag mit "OpenBikeSensor xxx" drücken und anschließend auf "Verbinden" drücken. 
-  
+4. Auf den Eintrag mit "OpenBikeSensor xxx" drücken und anschließend auf "Verbinden" drücken.
+
     {{< imgproc connecting None />}}
 5. Der jeweils gemessene Wert sollte jetzt angezeigt werden.
-  
+
     {{< imgproc connected None />}}
 
 6. Jetzt muss man noch einstellen, wie breit der Lenker des Fahrrad (von der
