@@ -227,3 +227,20 @@ body {
     background-color: #FFF;
   }
 }
+
+.alert-info {
+  border: 0;
+  background: #E1F5FE;
+  border-radius: 4px;
+  font-size: 1.0rem;
+
+  .alert-heading {
+    font-size: 1.2rem;
+    color: #1E88E5;
+  }
+}
+
+.alert > ul:last-child,
+.alert > p:last-child {
+  margin-bottom: 0;
+}
