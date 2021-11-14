@@ -29,7 +29,7 @@ on topics like: help and support, local groups, projects, events and further dev
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Develop" url="https://github.com/openbikesensor" url_text="Show repositories" %}}
-Whatever we create, we make open source. Everything is available on GitHub,
+We publish everything we create as open source. Everything is available on GitHub,
 including the software code, schematics, blueprints, CAD models, instructions
 and documentation.
 {{% /blocks/feature %}}
