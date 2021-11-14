@@ -24,8 +24,9 @@ Regeln durch Bestellung bei einem Hersteller anhand der Designdateien passiert.
 
 **Hinweis:** Diese Website ist noch (und auf absehbare Zeit) in Arbeit, einige
 Teile könnten unvollständig sein oder komplett fehlen. Auch Fehler sind nie
-auszuschließen.  Wenn du Schwierigkeiten hast, frag auf jeden Fall im Slack
-nach. Erwarte nicht, dass alles auf Anhieb klappt, aber es gibt genug Leute die
+auszuschließen.  Wenn du Schwierigkeiten hast,
+[frag auf jeden Fall nach Hilfe]({{< relref "/community" >}}).
+Erwarte nicht, dass alles auf Anhieb klappt, aber es gibt genug Leute die
 dir gern weiterhelfen, und ihr Wissen teilen. Aber du brauchst auch keine Angst
 zu haben, loszulegen -- selbst wenn nicht immer offensichtlich ist, wie alles
 funktioniert, so ist es trotzdem auch für Anfänger:innen möglich, erfolgreich
@@ -38,7 +39,7 @@ sind Sammelbestellungen eine gute Möglichkeit die Komplexität aufzuteilen und
 für jede:n Einzelne:n zu verringern. Dabei sparen wir alle Geld, denn in Menge
 bestellt sind viele Teile günstiger. Wenn du dich mit einer Lokalgruppe oder
 überregional vernetzen möchtest, um so einn Sammelbestellung durchzuführen oder
-daran teilzunehmen, komm in unseren Slack!
+daran teilzunehmen, komm in unsere [Community]({{< relref "/community" >}})!
 
 {{< imgproc construction-kit Resize 600x >}}
 OpenBikeSensor 00.03.10 Bausatz

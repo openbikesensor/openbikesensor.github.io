@@ -15,7 +15,7 @@ manufactured piece of equipment that's hard to build yourself. Here are your opt
   on *where*, at *which quality* and *how many boards* you order, this will
   cost a little to a lot of money.
 * Find somebody who has ordered your selected PCB already and still has
-  duplicates in stock. Ask in Slack for this.
+  duplicates in stock. Ask around [in the community]({{< relref "/community" >}}).
 * Build the PCB in a DIY fashion. Since the PCB uses vias and through-hole
   components, this is going to be hard, but if you're properly equipped and
   have done this before, or are not afraid of repeated failure, this might be

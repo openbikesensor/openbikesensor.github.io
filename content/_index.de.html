@@ -13,19 +13,23 @@ resources:
 {{< blocks/cover title="OpenBikeSensor" image_anchor="top" height="400" >}}
 <div class="mx-auto">
 
-	<h1>Überholabstandsmessung für Radfahrende.</h1>
-	<p class="mb-5">Wir stehen für Open Innovation, Open Source, Open Data & Open Science.</p>
+	<h2 class="mb-3">Überholabstandsmessung für Radfahrende</h2>
+	<p class="mb-5">Open Innovation, Open Source, Open Data, Open Science</p>
 
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="#einleitung">
-		<i class="fas fa-arrow-down mr-2"></i> Mehr erfahren
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://forum.openbikesensor.org" target="_blank" rel="noopener noreferrer nofollow">
+		<i class="fab fa-discourse mr-1"></i> Forum
 	</a>
 
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://twitter.com/openbikesensor" target="_blank" rel="noopener noreferrer nofollow">
-		<i class="fab fa-twitter mr-2"></i> @OpenBikeSensor
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/docs" >}}">
+    <i class="fas fa-book-open mr-1"></i> Dokumentation
+	</a>
+
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/openbikesensor" target="_blank" rel="noopener noreferrer nofollow">
+		<i class="fab fa-github mr-1"></i> Github
 	</a>
 
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="#unterstuetzen" rel="noopener noreferrer nofollow">
-		<i class="fas fa-hand-holding-heart mr-2"></i> Unterstützen
+		<i class="fas fa-hand-holding-heart mr-1"></i> Unterstützen
 	</a>
 
 </div>
@@ -33,17 +37,27 @@ resources:
 
 {{% blocks/section color="primary" %}}
 
-{{% blocks/feature icon="fab fa-slack" title="Mitreden & Mitentscheiden" url="/slack" url_text="Slack beitreten" %}}
-Komm in unseren offenen Slack. Tausche Dich aus. Stelle Fragen. Finde Leute aus Deiner Region. Hier koordinieren wir uns, stimmen uns ab und treffen gemeinschaftlich Entscheidungen.
+<div class="container">
+<div class="row" style="padding: 0">
+{{% blocks/feature icon="fab fa-discourse" title="Fragen und Diskutieren" url="https://forum.openbikesensor.org" url_text="Zum Forum" %}}
+Komm in unser Discourse-Forum, und diskutiere mit den anderen Interessierten
+und Aktiven. Hier findet fast alles einen Platz: Unterstützung bei Problemen,
+Lokalgruppen, Forschungs&shy;projekte, Events, Entwicklungsthemen, und vieles mehr.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-biking" title="Bauen & Daten sammeln" url="/docs/hardware/v00.03.12/build-instructions/" url_text="Zur Bauanleitung" %}}
-Bau Dir Deinen eigenen Überholabstandsmesser. Wir unterstützen Dich dabei. Am besten schließt Du Dich einer der Sammelbestellungen und einem unserer Regio-Teams an.
+{{% blocks/feature icon="fas fa-biking" title="Bauen & Daten sammeln" url="/bauanleitung" url_text="Zur Bauanleitung" %}}
+Bau Dir Deinen eigenen Überholabstandsmesser. Wir unterstützen Dich dabei. Am
+besten schließt Du Dich einer der Sammelbestellungen und einem unserer
+Regio-Teams an.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Weiterentwickeln" url="https://github.com/openbikesensor" url_text="Zu den GitHub-Repositories" %}}
-Was wir erstellen ist quelloffen, auf GitHub veröffentlichen wir den kompletten Code. Hier findest Du auch alle Pläne und Anleitungen sowie die Software zur Visualisierung der gesammelten Daten.
+Was wir erstellen ist quelloffen, auf GitHub veröffentlichen wir den kompletten
+Code. Hier findest Du auch alle Pläne und Anleitungen sowie die Software zur
+Visualisierung der gesammelten Daten.
 {{% /blocks/feature %}}
+</div>
+</div>
 
 {{% /blocks/section %}}
 
@@ -79,7 +93,7 @@ Uns geht es jedoch nicht nur um die Technik. Ergänzend entwickeln wir gemeinsam
 
 Es wäre toll, wenn schon bald viele mitmachen, und wir so zusammen Bewegung in die Sache bringen.
 
-Klingt interessant? Schau vorbei in unserem <a href="{{< relref "/slack" >}}">Slack Workspace</a>.
+Klingt interessant? <a href="{{< relref "/community" >}}">Hier kannst du Teil der Community werden.</a>
 
 </div>
 {{% /blocks/section %}}
@@ -101,7 +115,7 @@ Ein anderes Beispiel zeigt einen einzelnen Überholvorgang, von dem auch eine Vi
 
 {{< yt id=izUD16ffs_Q thumbnail="/thumbnails/izUD16ffs_Q.jpg" >}}
 
-Wer noch Ideen zur Visualisierung, Automatisierung, Programmierung, Auswertung, etc. hat oder einfach am Projekt interessiert ist und mitgestalten will, ist herzlich in der Community via <a href="{{< relref "/slack" >}}">Slack</a> eingeladen.
+Wer noch Ideen zur Visualisierung, Automatisierung, Programmierung, Auswertung, etc. hat oder einfach am Projekt interessiert ist und mitgestalten will, ist herzlich <a href="{{< relref "/community" >}}">in die Community</a> eingeladen.
 
 </div>
 {{% /blocks/section %}}

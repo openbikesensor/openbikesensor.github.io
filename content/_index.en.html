@@ -8,19 +8,51 @@ menu:
 
 {{< blocks/cover title="OpenBikeSensor" image_anchor="top" height="400" >}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/openbikesensor">
-		Github <i class="fab fa-github ml-2 "></i>
+	<h2 class="mb-3">Passing distance measurement for cyclists</h2>
+	<p class="mb-5">Open Innovation, Open Source, Open Data, Open Science</p>
+
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://forum.openbikesensor.org" target="_blank" rel="noopener noreferrer nofollow">
+		<i class="fab fa-discourse mr-1"></i> Forum
 	</a>
-  <a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/slack" >}}">
-		Slack<i class="fab fa-slack ml-2 "></i>
+
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/docs" >}}">
+    <i class="fas fa-book-open mr-1"></i> Documentation
 	</a>
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-		Documentation <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/openbikesensor" target="_blank" rel="noopener noreferrer nofollow">
+		<i class="fab fa-github mr-1"></i> Github
 	</a>
-	<p class="lead mt-5">Passing distance measurement for cyclists. Open source, open data, open science.</p>
+
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="#unterstuetzen" rel="noopener noreferrer nofollow">
+		<i class="fas fa-hand-holding-heart mr-1"></i> Support
+	</a>
 </div>
 {{< /blocks/cover >}}
 
+{{% blocks/section color="primary" %}}
+
+<div class="container">
+<div class="row" style="padding: 0">
+{{% blocks/feature icon="fab fa-discourse" title="Ask and discuss" url="https://forum.openbikesensor.org" url_text="Zum Forum" %}}
+Come over to our Discourse forum for discussions with other interested and active community members
+on topics like: help and support, local groups, projects, events and further developments.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-biking" title="Build & measure" url="/bauanleitung" url_text="Zur Bauanleitung" %}}
+Build your own device. We will support you as much as we can. How about joining
+a local group of builders and cyclists, and join a collective order to save on
+parts?
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-github" title="Develop" url="https://github.com/openbikesensor" url_text="Zu den GitHub-Repositories" %}}
+We publish everything we create as open source. Everything is available on GitHub,
+including the software code, schematics, blueprints, CAD models, instructions
+and documentation.
+{{% /blocks/feature %}}
+</div>
+</div>
+
+{{% /blocks/section %}}
 
 {{% blocks/section color="secondary" %}}
 <div class="container">
@@ -33,9 +65,7 @@ there is plans and information available publicly to build your own. Have a
 look at <a href="https://github.com/openbikesensor">Github</a>, where there are
 repositories for the firmware, PCBs, the files for 3D printing the case, the
 software for the frontend and backend of the data portal, and this
-documentation page. You're invited to join and help develop the sensor.
-
-The community mostly communicates through the open <a href="{{< relref "/slack" >}}">Slack</a>.
+documentation page. <a href="{{< relref "/community" >}}">You're invited to join</a> and help develop the sensor.
 
 In our data portal, users can upload data recorded with their OpenBikeSensors and
 optionally share them as Open Data with the public.
@@ -76,8 +106,8 @@ exposed to in this very moment.
 
 If you have ideas for visualisation, automation, software and tool development
 and analysis of the data available from the recorded tracks, or you're just
-interested in joining the project or keeping up to date with it, please join
-the community in the open slack.
+interested in joining the project or keeping up to date with it, please
+<a href="{{< relref "/community" >}}">join the community</a>.
 
 </div>
 {{% /blocks/section %}}

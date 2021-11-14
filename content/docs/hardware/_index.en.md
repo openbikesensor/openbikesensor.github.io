@@ -20,7 +20,8 @@ from your favorite manufacturer, and for assembly of the sensor from all the
 parts.
 
 **Note:** This website is still work-in-progress, and some parts of the
-documentation are not complete. If you run into trouble, ask in Slack. Don't
+documentation are not complete. If you run into trouble, ask in the
+[Community]({{< relref "/community" >}}). Don't
 expect a smooth experience just yet -- but we're working on it. However, don't
 fear, while not necessarily straightforward at all times, it is still very much
 possible for beginners to complete this build and construct their own OBS.
@@ -28,8 +29,10 @@ possible for beginners to complete this build and construct their own OBS.
 ## Construction kits
 
 Because the OpenBikeSensor consists many parts from many different sources,
-bulk orders organized by local groups are advisable. Head over to Slack if you
-want to organize or paricipate in a bulk order.
+bulk orders organized by local groups are advisable. Head over to
+[Community]({{< relref "/community" >}}) if you want to organize or paricipate
+in a bulk order.
+
 
 {{< imgproc construction-kit Resize 600x >}}
 OpenBikeSensor Construction Kit featuring Vertical Case and PCB 00.03.10

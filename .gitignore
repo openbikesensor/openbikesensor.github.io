@@ -6,3 +6,4 @@ tech-doc-hugo
 # From jekyll, so that nobody accidentally commits old files
 _site
 .bundle
+.hugo_build.lock

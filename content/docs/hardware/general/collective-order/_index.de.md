@@ -8,7 +8,7 @@ weight: 10
 Diese Dokumentationsseite beschreibt Hinweise für Menschen, die eine
 Sammelbestellung _organisieren_. Wenn du an der Organisation aktueller
 Sammelbestellungen interessiert bist, und zum Beispiel einen Bausatz auf diese
-Weise erhalten möchtest, besuch den Kanal `#obs_hw_bauteil-börse` im Slack.
+Weise erhalten möchtest, [schau doch in der Community vorbei]({{< relref "/community" >}}).
 {{% /alert %}}
 
 
