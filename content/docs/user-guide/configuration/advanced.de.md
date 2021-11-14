@@ -15,7 +15,7 @@ Eine **sinnvolle Konfiguration** ist voreingestellt und sollte nur bei Bedarf ve
 
 ## Anpassung der Konfiguration
 
-Die Konfiguration kann bei bestehender WLAN-Verbindung im Webbrowser vorgenommen werden. Dazu muss am Gerät der Konfigurationsmodus aktiviert werden. 
+Die Konfiguration kann bei bestehender WLAN-Verbindung im Webbrowser vorgenommen werden. Dazu muss am Gerät der Konfigurationsmodus aktiviert werden.
 
 ### Konfigurationsmodus einschalten
 
@@ -28,7 +28,7 @@ Es gibt zwei unterschiedliche Betriebsmodi.
   Beim ersten Start des Konfigurationsmodus oder wenn Sie sich außerhalb der
   Reichweite ihres WLANs befinden, öffnet der OpenBikeSensor einen eigenen
   WLAN-Access-Point:
-  
+
   * Der WLAN-Name beinhaltet die MAC-Adresse des Gerätes `OpenBikeSensor-xxxxxxxxxxxx`.
   * Das Standardpasswort lautet `12345678`.
   * Die Konfigurationsseite kann über [http://172.20.0.1](http://172.20.0.1) aufgerufen werden.
@@ -90,7 +90,7 @@ Es gibt zwei unterschiedliche Betriebsmodi.
 
 * **Operation**
 
-  * Enable Bluetooth – (ab Firmware Version 0.3dev.) aktivieren, wenn Sie den OpenBikeSensor mit einer kompatiblen Smartphone App, wie z.B. SimRa, verbinden wollen
+  * Enable Bluetooth – aktivieren, wenn Sie den OpenBikeSensor mit einer kompatiblen Smartphone App, wie z.B. SimRa, verbinden wollen
   * SimRa Mode – aktivieren, wenn die den OpenBikeSensor mit der SimRa App verbinden
 
 ### Privacy Zones
