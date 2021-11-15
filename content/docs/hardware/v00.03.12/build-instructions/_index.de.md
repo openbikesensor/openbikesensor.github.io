@@ -392,6 +392,7 @@ Bauanleitung für das [Modell v00.02]({{<relref
 * Vorsichtig! Koax-Kabel – der innere Leiter ist sehr dünn und kann leicht
   durchtrennt werden.
 * Crimpkontakt muss für optimale Verbindung Leiter und Isolierung greifen
+* Beim Belegen der Steckkontakte des Steckers auf die Polung achten. Bei einigen Modulen ist ein Beachten der Polung nicht erforderlich, andere funktionieren nicht oder schlechter bei falscher Polung. Beim Einsatz der 90° gewinkelten Lötbuchsen wird die Polung der Buchsen verdreht. Der Schirm der Leitung liegt auf Minus.
 
 {{< slider >}}
   {{< slider-image
@@ -587,7 +588,7 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 5. Bei angeschlossener GPS-Antenne GPS-Funktion im Freien testen
     * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs sehr lange dauern kann. 15 Minuten sind beim ersten Einschalten nicht ungewöhnlich.
 6. Sensoren-Funktion testen: Sensoren mit Sensor-Boards verbinden
-    * Polung beachten
+    * Polung beachten. Siehe hierzu auch Schritt 13.
     * Der Abstand wird abzüglich der Breite des Lenkers gemessen. In der Software kann man im [Konfigurationsmodus]({{<relref "/docs/user-guide/configuration">}}) dessen Breite einstellen.
 
 {{< slider >}}
