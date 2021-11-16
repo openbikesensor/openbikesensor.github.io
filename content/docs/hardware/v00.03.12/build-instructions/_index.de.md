@@ -573,7 +573,7 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht mehr durch das Gehäuse.
 
 ## Schritt 18: Elektronik testen
 
-Zunächst muss die [OpenBikeSensor Firmware auf den ESP32 geflashed werden](https://github.com/openbikesensor/OpenBikeSensorFirmware).
+Zunächst muss die [OpenBikeSensor Firmware auf den ESP32 geflashed werden](https://github.com/openbikesensor/OpenBikeSensorFirmware/blob/master/docs/software/firmware/initial_flash.md).
 
 Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 
