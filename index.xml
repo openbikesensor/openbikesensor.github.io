@@ -1,4 +1,32 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenBikeSensor – OpenBikeSensor</title><link>/</link><description>Recent content on OpenBikeSensor</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: OpenBikeSensor zu Gast im "Achter"</title><link>/blog/2021/06/17/openbikesensor-zu-gast-im-achter/</link><pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate><guid>/blog/2021/06/17/openbikesensor-zu-gast-im-achter/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenBikeSensor – OpenBikeSensor</title><link>/</link><description>Recent content on OpenBikeSensor</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Startschuss für neues OpenBikeSensor-Forum</title><link>/blog/2021/11/12/startschuss-f%C3%BCr-neues-openbikesensor-forum/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>/blog/2021/11/12/startschuss-f%C3%BCr-neues-openbikesensor-forum/</guid><description>
+&lt;p>Wir haben vor Kurzem unser eigenes Forum gestartet, und nun heißt es offiziell:
+Herzlich willkommen im OpenBikeSensor Discourse:&lt;/p>
+&lt;p>&lt;a href="https://forum.openbikesensor.org">https://forum.openbikesensor.org&lt;/a>&lt;/p>
+&lt;p>Da wir uns aus verschiedenen Gründen von Slack verabschieden müssen und wollen,
+waren wir lange auf der Suche nach etwas neuem. Wir hoffen, dass das Forum für
+einen Großteil der Kommunikation zwischen Mitgliedern der Community der
+richtige Platz ist. Vorteile sind vor allem:&lt;/p>
+&lt;ul>
+&lt;li>Das Forum kann öffentlich gelesen werden. So sind bekannte Probleme und deren
+Lösungen auffindbar, Entscheidungen transparent nachvollziehbar, und die
+Einstiegshürde zum Projekt generell geringer.&lt;/li>
+&lt;li>Die Kommunikation verläuft automatisch in Threads. Neue und aktive Themen
+landen ganz oben, es ist leichter die Diskussionen zu verfolgen. Starke
+Moderationstools erlauben das &amp;ldquo;Aufräumen&amp;rdquo; und Aufbereiten von Informationen,
+sodass Gesagtes langfristig hilfreich bleibt.&lt;/li>
+&lt;li>Wir haben datenschutztechnisch die Kontrolle und müssen keinem US-Konzern
+unsere Daten anvertrauen.&lt;/li>
+&lt;li>Discourse, die Forumssoftware, ist Open Source. Es werden nicht plötzlich
+hohe Kosten auf uns zukommen, wenn das Projekt &amp;ldquo;zu groß&amp;rdquo; geworden ist.&lt;/li>
+&lt;/ul>
+&lt;p>Was uns nun noch fehlt, ist eine Möglichkeit zur schnellen und unkomplizierten
+&amp;ldquo;Ad-Hoc Kommunikation&amp;rdquo;, also ein Chat für kurzlebige Informationen oder
+Koordinierung, sowie 1:1-Gespräche. Wir werden hier vermutlich eine Lösung mit
+&lt;a href="https://matrix.org/">Matrix&lt;/a> anstreben, aber die genaue Umsetzung fehlt noch.&lt;/p>
+&lt;p>Vorerst bleibt der Slack wo er ist, aber wenn das Forum für die passenden
+Themen gut angenommen wird, werden wir hoffentlich bald einige Channel
+archivieren können.&lt;/p>
+&lt;p>Wir sehen uns im Forum!&lt;/p></description></item><item><title>Blog: OpenBikeSensor zu Gast im "Achter"</title><link>/blog/2021/06/17/openbikesensor-zu-gast-im-achter/</link><pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate><guid>/blog/2021/06/17/openbikesensor-zu-gast-im-achter/</guid><description>
 &lt;p>Zum internationalen Tag des Fahrrads (03.06.) hatte sich Thomas Albrecht, Fahrrad-Enthusiast aus Esslingen am Neckar und Moderator beim Freien Radio Stuttgart, einen Abstandsmesser von uns geliehen. Aus seiner Begeisterung für diesen Testlauf heraus lud er (unter anderen) Franziska zum Fahrrad-Magazin ein.&lt;/p>
 &lt;h2 id="achter-das-fahrrad-magazin-für-stuttgart-und-umgebung">Achter, das Fahrrad-Magazin für Stuttgart und Umgebung&lt;/h2>
 &lt;p>Ein Mal monatlich geht im Freien Radio Stuttgart das Fahrrad-Magazin &amp;ldquo;Achter&amp;rdquo; auf Sendung. Es ist ein Kessel &amp;ldquo;Buntes&amp;rdquo; zum Thema Fahrrad aus Berichten, Gesprächen mit Akteuren und viel Musik.&lt;/p>
