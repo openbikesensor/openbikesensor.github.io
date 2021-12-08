@@ -2,7 +2,8 @@
 title: Community
 menu:
   main:
-    weight: 40
+    weight: 20
+    parent: project
 aliases:
 - /kontakt
 - /contact
