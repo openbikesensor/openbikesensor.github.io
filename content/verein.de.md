@@ -50,7 +50,8 @@ Der Vereinszweck ist in der Satzung festgelegt und lautet:
 
 Allen natürlichen und juristischen Personen steht es frei, einen Antrag auf
 Aufnahme in den neuen Verein beim Vorstand zu stellen. In Kürze werden wir
-dafür ein Antragsformular und eine Kontaktmöglichkeit hier bereitstellen.
+dafür ein Antragsformular und eine Kontaktmöglichkeit auf dieser Seite
+bereitstellen.
 
 Eine Mitgliedschaft im Verein ist jedoch **keine Voraussetzung für die
 Mitarbeit** am Projekt. Die bisherige Community soll so, wie sie ist, bestehen
