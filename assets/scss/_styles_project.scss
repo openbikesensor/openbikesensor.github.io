@@ -244,3 +244,20 @@ body {
 .alert > p:last-child {
   margin-bottom: 0;
 }
+
+.nav-item.dropdown .dropdown-menu {
+  margin-top: -1px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding-left: 1rem;
+
+  &:active, &.active {
+    background: none;
+    font-weight: bold;
+  }
+}
