@@ -37,7 +37,7 @@ der Gründung.
 ### Wie geht's weiter?
 
 Von den 16 Gründungsmitgliedern wurde ein Vorstand aus
-sieben Personen gewählt, die sich num um eine Menge Formalia kümmern werden.
+sieben Personen gewählt, die sich nun um eine Menge Formalia kümmern werden.
 Dazu gehören ein Termin im Notariat, Korrespondenz mit dem Finanzamt, die
 Eröffnung und Führung eines Bankkontos und noch einige andere
 Verwaltungsaufgaben. Das wird einige Monate dauern, bis ein "ordentlicher"
