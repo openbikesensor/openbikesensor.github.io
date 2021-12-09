@@ -305,7 +305,7 @@ body {
   a {
     display: block;
     color: inherit;
-    border-radius: 6px;
+    border-radius: 3px;
     padding: 0.25rem 0.75rem;
 
     white-space: nowrap;
@@ -314,12 +314,12 @@ body {
 
     &:hover {
       color: inherit;
-      background: rgba(255, 255, 255, 0.5);
+      background: #F6F6F6;
     }
 
     &.current-page {
-      background: white;
-      border-color: #DDD;
+      font-weight: 700;
+      color: $link-color;
     }
   }
 }
