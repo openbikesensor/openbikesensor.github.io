@@ -43,8 +43,8 @@ Eröffnung und Führung eines Bankkontos und noch einige andere
 Verwaltungsaufgaben. Das wird einige Monate dauern, bis ein "ordentlicher"
 Vereinsbetrieb möglich ist.
 
-Der Vorstand nach der Gründung besteht aus @rotger, @thomaso und Margit mit den
-Beisitzenden @Mentra, @SubOptimal, @gluap und @opatut.
+Der Vorstand nach der Gründung besteht aus @rotger, @thomaso und @margit mit
+den Beisitzenden @Mentra, @SubOptimal, @gluap und @opatut.
 
 ### Was bringt eine Mitgliedschaft?
 
