@@ -335,4 +335,27 @@ body {
     height: auto;
     min-height: calc(100vh - 128px);
   }
+
+  .td-main {
+    display: flex;
+
+    .td-sidebar {
+      max-width: 20rem;
+      min-width: 15rem;
+      flex: 1 1 0;
+      margin-right: 2rem;
+    }
+
+    .td-toc {
+      max-width: 20rem;
+      min-width: 12rem;
+      flex: 1 1 0;
+      margin-left: 2rem;
+      padding: 1rem;
+    }
+
+    > main {
+      flex: 4 4 0;
+    }
+  }
 }
