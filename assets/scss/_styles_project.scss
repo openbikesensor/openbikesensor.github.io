@@ -1,3 +1,5 @@
+@import "./_variables_project.scss";
+
 body {
   line-height: 1.7em;
 }
@@ -269,5 +271,68 @@ body {
     margin-left: 1rem;
     border-left: 4px solid #DDD;
     color: #777;
+  }
+}
+
+.td-sidebar-nav {
+  padding: 1rem;
+  font-family: "Open Sans";
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    ul ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 2px;
+    }
+  }
+
+  & > ul > li {
+    margin-bottom: 1rem;
+
+    & > a {
+      font-weight: 700;
+      text-transform: uppercase;
+
+    }
+  }
+
+  a {
+    display: block;
+    color: inherit;
+    border-radius: 6px;
+    padding: 0.25rem 0.75rem;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+      color: inherit;
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    &.current-page {
+      background: white;
+      border-color: #DDD;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .td-sidebar-nav {
+    // max-height: calc(100vh - 64px);
+    max-height: none;
+    overflow: initial;
+  }
+
+  .td-sidebar__inner {
+    height: auto;
+    min-height: calc(100vh - 128px);
   }
 }
