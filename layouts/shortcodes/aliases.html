@@ -1,0 +1,20 @@
+{{ $site := .Site }}
+
+<div class="table-responsive text-nowrap my-4">
+  <table class="table table-sm">
+    <thead>
+      <tr><th>Seite</th><th>Alias</th></tr>
+    </thead>
+    <tbody>
+      {{ range $site.AllPages }}
+        {{ $page := . }}
+        {{ range $page.Aliases }}
+          <tr>
+            <td>{{ $page.Title }}</td>
+            <td><a href="{{ . | absURL }}">{{ . | absURL }}</a></td>
+          </tr>
+        {{ end }}
+      {{ end }}
+    </tbody>
+  </table>
+</div>
