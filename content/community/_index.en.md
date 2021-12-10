@@ -5,7 +5,6 @@ menu:
     weight: 20
     parent: project
 aliases:
-- /kontakt
 - /contact
 ---
 

@@ -6,7 +6,6 @@ menu:
     parent: project
 aliases:
 - /kontakt
-- /contact
 ---
 
 <section class="row td-box td-box--1 position-relative td-box--gradient td-box--height-auto">
