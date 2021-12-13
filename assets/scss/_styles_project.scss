@@ -1,5 +1,7 @@
 @import "./_variables_project.scss";
 
+@import "fonts";
+
 body {
   line-height: 1.7em;
 }
@@ -276,7 +278,6 @@ body {
 
 .td-sidebar-nav {
   padding: 1rem;
-  font-family: "Open Sans";
 
   ul {
     list-style: none;
