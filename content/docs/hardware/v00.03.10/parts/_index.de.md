@@ -3,7 +3,7 @@ title: Bauteile für v00.03.10
 linkTitle: Bauteile
 weight: 40
 aliases:
-- /bauteile
+- /bauteile/v00.03.10
 ---
 
 {{% pageinfo color="warning" %}}

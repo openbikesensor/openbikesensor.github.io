@@ -599,6 +599,10 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 
 ## Schritt 19: Zusammenbau
 
+Vor dem Zusammenbau empfieht es sich, die Firmware auf den ESP32 aufzuspielen,
+dann braucht dieser später nicht mehr für diesen Schritt ausgebaut werden.
+Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}}).
+
 * Kabel und Halterung
   - Displaykabel durch rechteckiges Loch einführen (der 5-polige JST-Stecker
     passt diagonal hindurch).
@@ -638,13 +642,13 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
     hinreichend langen Antennenkabels mit IPEX/U.FL Stecker verlängert werden.
     Hierzu:
        - Wird der Metallschild des GPS moduls abgelötet
-       - Das neue Kabel wird vorsichtig durch Rollen unter Cuttermesser auf etwa 
+       - Das neue Kabel wird vorsichtig durch Rollen unter Cuttermesser auf etwa
          5-7mm abisoliert
        - Die Schirmung wird zurückgeschoben
        - Noch vorsichtiger wird die innere Isolierung durch ganz sanftes rollen
          mit dem Cuttermesser abisoliert.
        - Das kurze Kabel wird ab- und das neue, längere angelötet.
-       - Der Metallschild des Moduls wird wieder in ursprünglicher Ausrichtung 
+       - Der Metallschild des Moduls wird wieder in ursprünglicher Ausrichtung
          aufgelötet.
 * Schalter in Gehäuse einsetzen
   - Einschaltrichtung mit "I/O" Aufdruck des Gehäuses vergleichen.
@@ -666,15 +670,15 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
       - Deckelsensorkabel läuft an der Oberkante des ESP-seitigen Sensorboards
         entlang.
       - Gehäusesensorkabel möglichst weit vom Deckelsensor entfernt und von
-        unten zum Steckkontakt des hinteren Sensorboards führen. So sind 
+        unten zum Steckkontakt des hinteren Sensorboards führen. So sind
         beide Sensorkabel möglichst weit vom jeweils entegengesetzten Board
         entfernt.
-    
+
 * Akku einbauen
   - Akku im Deckel mit Kabelbinder fixieren.
   - Einstecken. Polung beachten!
-  - Möglicherweise überstehendes Kabel möglichst auf der Seite des GPS 
-    verstauen. Beide Adern verdrillen und parallel legen oder falls 
+  - Möglicherweise überstehendes Kabel möglichst auf der Seite des GPS
+    verstauen. Beide Adern verdrillen und parallel legen oder falls
     vorhanden zweiadriges Kabel verwenden.
 
 {{< slider >}}

@@ -573,6 +573,10 @@ Alle Muttern vor den elektronischen Bauteilen in das Geh채use stecken. Manche k�
 
 ## Schritt 20: Zusammenbau
 
+Vor dem Zusammenbau empfieht es sich, die Firmware auf den ESP32 aufzuspielen,
+dann braucht dieser sp채ter nicht mehr f체r diesen Schritt ausgebaut werden.
+Folge daf체r [der Anleitung f체r dein Betriebssystem]({{< relref "firmware" >}}).
+
 {{< slider >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_01_Displaykabel_zwischen_SD-Kartenleser_und_GPS_fuehren.jpg"
