@@ -25,9 +25,10 @@ OpenBikeSensor-Bausatz der Version 00.03.10, mit einem "Vertical Case"
 ## Wie komme ich an ein Gehäuse?
 
 Unter Umständen findet man in der Community hilfreiche Bastler:innen, die einem
-ein Gehäuse mit herstellen -- hierzu fragst du am besten in Slack nach. Eine
-andere Möglichkeit ist, einen lokalen Maker- oder Hackspace zu finden, in dem
-3D-Drucker und Know-How zur Verfügung stehen.
+ein Gehäuse mit herstellen -- hierzu fragst du am besten [im Forum]({{<
+relref "/community" >}}) nach. Eine andere Möglichkeit ist, einen lokalen
+Maker- oder Hackspace zu finden, in dem 3D-Drucker und Know-How zur Verfügung
+stehen.
 
 In dieser Anleitung geht es darum, ein komplettes Gehäuse mit Halterungen
 selbst zu drucken und herzustellen.  Der Druck eines kompletten OpenBikeSensor-Gehäusesatzes, oder auch nur von Teilen davon, ist problemlos möglich, vorausgesetzt man hat einen 3D-Drucker zur Verfügung.

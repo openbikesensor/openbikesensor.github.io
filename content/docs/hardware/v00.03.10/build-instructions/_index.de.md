@@ -6,7 +6,7 @@ aliases:
 ---
 
 {{% alert title="Achtung" color="danger" %}}
-Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [Slack]({{<relref "/slack">}}) organisiert werden.
+Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [das Forum]({{<relref "/community">}}) organisiert werden.
 {{% /alert %}}
 
 Dies ist die Anleitung zum Aufbau des vertikalen OpenBikeSensors v00.03.10. Sie
