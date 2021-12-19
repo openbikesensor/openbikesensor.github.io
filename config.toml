@@ -61,10 +61,6 @@ title = "OpenBikeSensor"
 description = "Passing distance measurement for cyclists. Open source, open data, open science."
 languageName = "English"
 weight = 1
-  [[languages.en.menu.main]]
-    identifier = 'project'
-    name = 'Project'
-    weight = 40
 
 [languages.de]
 title = "OpenBikeSensor"
@@ -72,10 +68,6 @@ description = "Überholabstandsmessung für Radfahrende. Open source, open data,
 languageName ="Deutsch"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
-  [[languages.de.menu.main]]
-    identifier = 'project'
-    name = 'Projekt'
-    weight = 40
 
 [markup]
   [markup.goldmark]

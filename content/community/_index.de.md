@@ -1,9 +1,8 @@
 ---
-title: Die Community
+title: Community
 menu:
   main:
-    weight: 20
-    parent: project
+    weight: 25
 aliases:
 - /kontakt
 - /slack
