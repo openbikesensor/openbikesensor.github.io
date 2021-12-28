@@ -58,6 +58,11 @@ python3 esptool.py \
 
 Probiere dich einfach durch.
 
+Versionsupdates können in weiterer Folge über die Weboberfläche des OpenBikeSensors erfolgen und nicht mehr durch den oben angeführten, doch recht komplizierten Vorgang.
+
+Jetzt ist dein OpenBikeSensor einsatzbereit und du kannst mit der [Basiskonfiguration](https://openbikesensor.org/docs/user-guide/configuration/minimal/) fortfahren!
+
+
 
 ## Bei Problemen
 
