@@ -1,9 +1,7 @@
 ---
 title: Der Verein
 menu:
-  main:
-    parent: project
-    weight: 50
+  main
 aliases:
 - /ev
 ---
