@@ -32,7 +32,10 @@ Für letzteres empfehlen wir das
 [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise
 und Tipps zu Werkzeugbenutzung finden sich am Anfang der ausführlichen
 Bauanleitung für das [Modell v00.02]({{<relref
-"/docs/hardware/v00.02/build-instructions">}}).
+"/docs/hardware/v00.02/build-instructions">}}). Wenn du unsicher bist, wo
+du ein Bauteil auf dem Board unterbringen sollst, kannst du [die
+interaktive Stückliste (BOM)](/html/BOM_00.03.12.html) verwenden, um dir
+anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
 
 ## Schritt 1: Buchsenleisten
 
