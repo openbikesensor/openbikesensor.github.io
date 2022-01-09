@@ -20,6 +20,10 @@ OpenBikeSensor-Bausatz der Version 00.03.10, mit einem "Vertical Case"
   ADFC Logo, Farben etc. gezeigt. Das ist nur eine Option, Design und Farben sind
   beliebig austauschbar, das Gehäuse ist generisch und der Druckvorgang immer der
   gleiche.
+
+  Ein Paar Änderungen wurden durch die Community an der Anleitung vorgenommen,
+  um auf neue Teile und neue Erkenntnisse hinzuweisen, die zum Zeitpunkt
+  der Entstehung des Dokuments noch nicht bekannt waren.
 {{% /alert %}}
 
 ## Wie komme ich an ein Gehäuse?
@@ -177,9 +181,16 @@ liegen auf der [ADFC page - Vorlagen zum OpenBikeSensor ](https://aktiv.adfc.de/
 4. USB Cover:
 [OBS-MainCase-A-003_USB-Cover_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-A-003_USB-Cover_v0.1.1.stl)
 5. Anschluß für die Fahrradhalterungen
-[OBS-Mounting-A-001_StandardOBSMount_v0.1.2.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-001_StandardOBSMount_v0.1.2.stl)
+[OBS-Mounting-A-001_StandardOBSMount_v0.1.2.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-001_StandardOBSMount_v0.1.2.stl). 
+  {{< imgproc "Mounting-A-001.png" Resize 800x >}} 
+  Der Anschluss für die Fahradhalterung ist das Gehäuseteil mit der höchsten 
+  Belastung, es wird deshalb empfohlen, für dieses Teil mit höherem 
+  Infill (>50%) zu drucken, und die Wandstärke auf 2.4mm zu erhöhen, 
+  respektive je nach Slicer bei einer 0.4mm Düse 6 Perimeter zu wählen.
+  {{< /imgproc >}}
 
-{{< imgproc "UM3_curaUI_OBS-Maincase-all_pieces.jpg" Resize 800x >}}
+
+{{< imgproc "case parts - prusaslicer.png" Resize 800x >}}
 Lage der Sensorgehäuse elemente auf dem Drucker {{< /imgproc >}}
 
 
@@ -257,10 +268,14 @@ herum das Teil auf die Druckerplatte gelegt werden soll.
 Aber selbst bei einer optimalen Lage wie im Beispiel des Sensorgehäuses zeigt
 Cura wo sich trotzdem noch Überhänge bilden. Manche Überhänge wie
 Schraubenlöcher sind unkritisch da der Drucker das selbst überbrücken kann
-(brigding).  Doch wenn der Übergang zu groß wird können sich viele Fäden
+(Brigding). Doch wenn der Übergang zu groß wird können sich viele Fäden
 ziehen. Um das zu vermeiden kann die Supportfunktion eingeschalten werden, der
 Drucker erstellt dann leichte Stützstrukturen, die nach dem Druck wieder
-entfernt werden.
+entfernt werden. Mit gut eingestellten 3D-Druckern ist es aber auch schon gelungen,
+Gehäuse ganz ohne Supportstrukturen zu drucken. Je nach Druckvolumen kann es sich
+also lohnen, hier zu experimentieren, um ohne Supportstruktur auszukommen. Dazu 
+können in manchen Slicern auch testweise Teilausschnitte aus dem Gehäuse gedruckt 
+werden, um nur die kritischen Bereiche mit Überhängen einzeln testen zu können.
 
 {{< slider >}}
 {{< slider-image
