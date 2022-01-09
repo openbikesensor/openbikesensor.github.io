@@ -64,16 +64,23 @@ Druck [von](von) OpenBikeSensor-Gehäuseteilen.
 ## Material und Farben
 
 Das empfohlene Material für den Druck der Gehäuseteile ist PETG, das Material
-mit den meisten Vorteile für unser Projekt:
+mit den meisten Vorteilen für unser Projekt:
 
 * hohe Schlagfestigkeit und dennoch flexibel -- wichtig für den Einsatz am Fahrrad
 * hydrophob, wasserabweisend, witterungsbeständig -- wichtig für Außeneinsatz
 * geruchsneutrales Drucken -- erleichtert das Drucken auch zu Hause
 * niedrige Viskosität (Zähigkeit)
 * verfügbar in vielen verschiedenen Farben, sogar transparent
+* Glasübergangstemperatur von 80°C wird auch bei Sonnenschein normal nicht erreicht
 
 Nachteilig ist allerdings die UV Beständigkeit, die nicht so hoch ist wie bei
-ABS oder ASA. Doch die Vorteile überwiegen diese Einschränkung.
+ABS oder ASA. Doch die Vorteile überwiegen für die meisten Nutzer diese Einschränkung. 
+Wer viel Erfahrung im maßhaltigen Drucken mit ABS oder einem anderen hitzebeständigen 
+Material hat, kann natürlich auch auf dieses zurückgreifen.
+
+Explizit abraten müssen wir von PLA - bei PLA-Gehäusen kann die 
+Glasübergangstemperatur im Sonnenschein überschritten werden, wodurch sich
+das Gehäuse verzieht.
 
 {{< imgproc "OBS_main_case_and_lid_with_logos.jpg" Resize 800x >}}
     Beispiel eines gedruckten Gehäuses mit Logos
@@ -170,7 +177,7 @@ liegen auf der [ADFC page - Vorlagen zum OpenBikeSensor ](https://aktiv.adfc.de/
 4. USB Cover:
 [OBS-MainCase-A-003_USB-Cover_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-MainCase-A-003_USB-Cover_v0.1.1.stl)
 5. Anschluß für die Fahrradhalterungen
-[OBS-Mounting-A-001_StandardOBSMount_v0.1.1.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-001_StandardOBSMount_v0.1.1.stl)
+[OBS-Mounting-A-001_StandardOBSMount_v0.1.2.stl](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/master/MainCase/VerticalCase_JSN-AJ/OBS-Mounting-A-001_StandardOBSMount_v0.1.2.stl)
 
 {{< imgproc "UM3_curaUI_OBS-Maincase-all_pieces.jpg" Resize 800x >}}
 Lage der Sensorgehäuse elemente auf dem Drucker {{< /imgproc >}}
