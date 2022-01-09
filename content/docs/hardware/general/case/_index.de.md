@@ -186,7 +186,11 @@ liegen auf der [ADFC page - Vorlagen zum OpenBikeSensor ](https://aktiv.adfc.de/
   Der Anschluss für die Fahradhalterung ist das Gehäuseteil mit der höchsten 
   Belastung, es wird deshalb empfohlen, für dieses Teil mit höherem 
   Infill (>50%) zu drucken, und die Wandstärke auf 2.4mm zu erhöhen, 
-  respektive je nach Slicer bei einer 0.4mm Düse 6 Perimeter zu wählen.
+  respektive je nach Slicer bei einer 0.4mm Düse 6 Perimeter zu wählen. Das
+  Teil sollte seitlich stehend gedruckt werden, um die Extrusionsrichtung
+  in Belastungsrichtung auszurichten, was das Teil zusätzlich verstärkt. Bei
+  Haftungsproblemen kann das Teil in den Slicereinstellungen mit einem Brim
+  versehen werden.
   {{< /imgproc >}}
 
 
