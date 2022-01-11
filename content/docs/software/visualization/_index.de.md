@@ -19,7 +19,7 @@ höher verfügbar ist. Hat deine Distribution nur ältere Versionen, schau' doch
 mal ob
 [Anaconda](https://anaconda.org/)/[Conda](https://docs.conda.io/projects/conda/en/latest/index.html)
 dir hier aushelfen kann, lokal eine andere Version zu installieren. Prüfe deine
-Python-Version vorab mit dem Kommando `python -V`.
+Python-Version vorab mit dem Kommando `python3 -V`.
 
 Dieser Artikel beschreibt nur die Grundlagen, damit auch Anfänger:innen sich
 ihre Daten anzeigen können. Weitere Features und Details sind direkt im
