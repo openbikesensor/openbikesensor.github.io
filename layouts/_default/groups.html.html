@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div style="height: 120px;"></div>
+<div class="container content mb-5">
+{{ with .Content }}
+{{ . }}
+{{ end }}
+
+<ul>
+{{ range .Pages }}
+  <li><a href="{{ .Permalink }}">{{.Title}}</a></li>
+{{ end }}
+</ul>
+
+</div>
+</div>
+{{ end }}

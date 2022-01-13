@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div style="height: 120px;"></div>
+<div class="container content mb-5">
+
+<h1>{{ .Title }}</h1>
+{{ with .Content }}
+{{ . }}
+{{ end }}
+
+</div>
+</div>
+{{ end }}
+
