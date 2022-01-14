@@ -37,6 +37,40 @@ Der 3D-Druck kostet ca. 5 € Material (Filamentkosten können variieren), Versc
 
 Die nachfolgende Beschreibung verwendet für das Sensorgehäuse die Dateien von [VerticalCase_JSN-AJ](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/MainCase/VerticalCase_JSN-AJ). Für den Auslöseknopf und die Anzeige am Lenker werden die Dateien von [SlideOnDisplay](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/DisplayCase/SlideOnDisplay) verwendet. Aus der Vielzahl der angebotenen Modelle bilden diese beiden das [Standardmodell]({{< relref path="models" >}}).
 
+## Übersicht der Bauteile
+
+### Hauptgehäuse
+
+{{< 3dpart-table >}}
+{{< 3dpart name="MainCase/MainCase">}}Das Hauptgehäuse, in dem die Elektronik untergebracht ist.{{< /3dpart >}}
+{{< 3dpart name="MainCase/MainCaseLid">}}Der Deckel für das Hauptgehäuse, mit Batteriehalterung.{{< /3dpart >}}
+{{< 3dpart name="MainCase/UsbCover">}}Ein kleiner Deckel für die Öffnung des USB-C Ladesteckers im Hauptgehäuse.{{< /3dpart >}}
+{{< 3dpart name="MainCase/GpsAntennaLid">}}Ein kleiner Deckel für die GPS-Antenne im Hauptgehäuse.{{< /3dpart >}}
+{{< /3dpart-table >}}
+
+### Displaygehäuse
+
+{{< 3dpart-table >}}
+{{< 3dpart name="DisplayCase/DisplayCableStrainRelief">}}Zugsicherung für das Displaykabel im Displaygehäuse (2x drucken).{{< /3dpart >}}
+{{< 3dpart name="DisplayCase/DisplayCaseBottom">}}Die untere Hälfte des Displaygehäuses.{{< /3dpart >}}
+{{< 3dpart name="DisplayCase/DisplayCaseTop">}}Die obere Hälfte des Displaygehäuses.{{< /3dpart >}}
+{{< /3dpart-table >}}
+
+### Halterungen
+
+{{< 3dpart-table >}}
+{{< 3dpart name="Mounting/AttachmentCover">}}Eine Abdeckung für ungenutzte Montagepunkte am Hauptgehäuse (z. B. für kombinierte Back Rider und Top Rider Gehäuse).{{< /3dpart >}}
+{{< 3dpart name="Mounting/BikeRackMountCenter">}}Das Mittelstück für die Gepäckträgerhalterung in Quermontage.{{< /3dpart >}}
+{{< 3dpart name="Mounting/BikeRackMountCenterLongitudinal">}}Das Mittelstück für die Gepäckträgerhalterung in Längsmontage (ungewöhnlich).{{< /3dpart >}}
+{{< 3dpart name="Mounting/BikeRackMountSide">}}Ein Seitenstück der Gepäckträgerhalterung (2x drucken).{{< /3dpart >}}
+{{< 3dpart name="Mounting/HandlebarRail">}}Die Schiene für die Befestigung des Displays am Lenker.{{< /3dpart >}}
+{{< 3dpart name="Mounting/LockingPin">}}Der Befestigungsstift für das Hauptgehäuse.{{< /3dpart >}}
+{{< 3dpart name="Mounting/SeatPostMount">}}Die Sattelstützenhalterung.{{< /3dpart >}}
+{{< 3dpart name="Mounting/StandardMountAdapter">}}Wird am Hauptgehäuse montiert und ermöglicht das Aufschieben auf die Schienen der Halterungen. Wirkt ebenfalls als Zugsicherung für das Displaykabel am Hauptgehäuse.{{< /3dpart >}}
+{{< 3dpart name="Mounting/TopTubeMount">}}Die Halterung für das Oberrohr.{{< /3dpart >}}
+{{< /3dpart-table >}}
+
+
 ## Drucker und Slicer
 
 {{< imgproc "Ultimaker_at_work.jpg" Resize 600x >}}

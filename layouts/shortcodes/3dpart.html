@@ -1,0 +1,16 @@
+{{ $name := .Get  "name" }}
+<tr>
+  <td>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/render/thumbnails/{{ $name }}.png?raw=true">
+    <img src="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/render/thumbnails/{{ $name }}.png?raw=true" />
+    </a>
+  </td>
+  <td>
+    <b>{{ $name }}</b><br />
+    {{ .Inner }}
+  </td>
+  <td>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/src/{{ $name }}.scad">OpenSCAD</a>,
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/{{ $name }}.stl?raw=true">STL</a>
+  </td>
+</tr>
