@@ -103,6 +103,10 @@ body {
   margin: 2rem 0;
 }
 
+.slider.small {
+  max-width: 30rem;
+}
+
 .print-only .noprint,
 .noprint .print-only {
   display:none;
