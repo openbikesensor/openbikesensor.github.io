@@ -5,31 +5,97 @@ weight: 10
 
 ## Vorbereitung
 
-Lade das [neueste
-Release-Archiv](https://github.com/openbikesensor/OpenBikeSensorFirmware/releases)
+Lade das [neueste Release-Archiv](https://github.com/openbikesensor/OpenBikeSensorFirmware/releases) 
 der OBS-Firmware von GitHub herunter.
 
-Du benötigst die größere ZIP-Datei mit dem Namen
-`obs-v9.9.9.9999-initial-flash.zip`. Entpacke die Dateien in einen temporären
-Ordner, sie heißen `0x??????.bin`. Die Zahlen sind die Basisadresse, an die die
-Daten geflasht werden sollen.
+{{< imgproc "firmware-flash/release-assets.jpg" Fit "800x600" >}}
+Firmwaredateien unter GitHub Release im Bereich Assets
+{{< /imgproc >}}
+
+Du benötigst die ZIP-Datei mit dem Namen `obs-v9.9.9.9999-initial-flash.zip` (`v9.9.9.9999` steht für die Versionsnummer).
+Entpacke die Dateien in einem temporären Verzeichnis, sie heißen `0x??????.bin`. Die Zahlen sind die Basisadresse, an die
+die Daten geflasht werden sollen.
+
+## Installation
 
 Installiere das Programm `esptool`, falls es noch nicht installiert ist. Es ist in den
-meisten Linux-Distributionen verfügbar. Für Ubuntu reicht:
+meisten Linux-Distributionen verfügbar.
 
-```bash
-apt install esptool
+### Debian GNU/Linux, Ubuntu
+
+und davon abgeleitete Distributionen, wie z.&nbsp;B. Linux Mint
+
+```shell
+sudo apt install esptool
 ```
 
-Stelle sicher, dass du den Gerätenamen für das USB-Gerät kennst. Dies ist
-normalerweise `/dev/ttyUSB0` -- dies wird auch im Beispiel unten angenommen.
+### Fedora
+
+```shell
+sudo dnf install esptool
+```
+
+## Alternative Installation
+
+Sollte Deine Linux Distribution dieses Paket nicht enthalten, dann kannst du versuchen es so zu installieren.
+- Lege ein Verzeichnis an, in dem das Tool installiert werden soll, und wechsle in dieses Verzeichnis
+```shell
+mkdir ~/esptool
+cd ~/esptool
+```
+- für die Installation gib nacheinander folgende Befehle ein
+```shell
+python3 -m venv venv
+. venv/bin/activate
+pip install esptool
+```
+- nun lass dir die Version anzeigen
+```shell
+esptool.py version
+```
+- war die Installation erfolgreich, dann wird die Versionsnummer angezeigt (diese kann bei dir abweichend sein)
+```shell
+esptool.py v3.2
+3.2
+```
+
+## Gerätenamen herausfinden
+
+Stelle sicher, dass du den Gerätenamen für das USB-Gerät kennst. Sehr wahrscheinlich wird es `/dev/ttyUSB0` sein --
+dieser Name wird auch im weiteren Beispiel verwendet.
+
+Herausfinden kannst du den Namen mit folgenden Schritten:
+- den OpenBikeSensor noch nicht mit dem Computer verbinden
+- in einem Terminal eingeben und ausführen
+```shell
+ls -1d /dev/ttyUSB*
+```
+- wenn kein solches USB-Gerät an deinem Computer angeschlossen ist, wird ein Fehler angezeigt, anderenfalls eine Liste
+der vorhandenen `/dev/ttyUSB` Geräte, z.&nbsp;B.
+```shell
+/dev/ttyUSB0
+/dev/ttyUSB1
+```
+- nun den OpenBikeSensor anschließen, einige Sekunden warten und nochmal im Terminal eingeben und ausführen
+```shell
+ls -1d /dev/ttyUSB*
+```
+- nun sollte in der Liste der Geräte ein Eintrag dazugekommen sein, dies ist der Gerätename für deinen OpenBikeSensor
+```shell
+/dev/ttyUSB0
+/dev/ttyUSB1
+/dev/ttyUSB2  <-- neu hinzugekommen
+```
+
 
 ## Flashen
 
 Führe **im selben Verzeichnis**, in das du die ZIP-Datei entpackt hast, folgenden Befehl aus:
 
-```bash
-python3 esptool.py \
+**Achtung:** Ersetze `/dev/ttyUSB0` mit dem Gerätenamen den du im vorherigen Schritt ermittelt hast.
+
+```shell
+esptool \
     --chip esp32 \
     --port /dev/ttyUSB0 \
     --baud 921600 \
@@ -45,35 +111,30 @@ python3 esptool.py \
     0x10000 0x10000.bin
 ```
 
-**Achtung:** Je nach Distribution ist das Kommando leicht unterschiedlich. Eine dieser Varianten sollte funktionieren:
+**Achtung:** Hast du die alternative Installationsanleitung verwendet, dann musst du eventuell zuvor noch folgende Schritte ausführen.
+```shell
+cd ~/esptool
+. venv/bin/activate
+```
+Und das Kommando `esptool` durch `esptool.py` ersetzen.
 
-- `python3 esptool.py ...`
-- `python esptool.py ...`
-- `esptool.py ...`
-- `esptool ...`
-- `python3 /absoluter/pfad/zu/esptool.py ...` (Pfad beim Paketmanager recherchieren)
-- `python /absoluter/pfad/zu/esptool.py ...` (s. o.)
-- `python3 -m esptool ...`
-- `python -m esptool ...`
 
-Probiere dich einfach durch.
+## Versionsupdates
 
 Versionsupdates können in weiterer Folge über die Weboberfläche des OpenBikeSensors erfolgen und nicht mehr durch den oben angeführten, doch recht komplizierten Vorgang.
 
 Jetzt ist dein OpenBikeSensor einsatzbereit und du kannst mit der [Basiskonfiguration](https://openbikesensor.org/docs/user-guide/configuration/minimal/) fortfahren!
 
 
-
 ## Bei Problemen
 
 Wenn du keine Schreibberechtigung hast, kannst du den Dateimodus des Geräts ändern (oder das Kommando als root ausführen):
 
-```bash
-sudo chmod 0x777 /dev/ttyUSB0
+```shell
+sudo chmod 0x666 /dev/ttyUSB0
 ```
 
 Wenn du öfter mit dem ESP32 arbeitest, installiere dir entsprechende udev-Regeln.
 
 Sollte alles fehlschlagen, und du noch Fragen haben oder weitere Infos suchen, findest
 du [in der Community]({{< ref "/community" >}}) immer Hilfe.
-
