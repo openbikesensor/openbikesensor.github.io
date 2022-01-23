@@ -38,7 +38,7 @@ sudo dnf install esptool
 ## Alternative Installation
 
 Sollte Deine Linux Distribution dieses Paket nicht enthalten, dann kannst du versuchen es so zu installieren.
-- Lege ein Verzeichnis an, in dem das Tool installiert werden soll, und wechsle in dieses Verzeichnis
+- lege ein Verzeichnis an, in dem das Tool installiert werden soll, und wechsle in dieses Verzeichnis
 ```shell
 mkdir ~/esptool
 cd ~/esptool
@@ -117,6 +117,17 @@ cd ~/esptool
 . venv/bin/activate
 ```
 Und das Kommando `esptool` durch `esptool.py` ersetzen.
+
+**Achtung:** Erscheint eine Fehlermldung (sinngemäß) `bash: esptool: command not found`, dann ersetze im obigen Kommando `esptool` durch `esptool.py`. Hilft das nicht, dann versuche einen der folgenden Aufrufe.
+
+- `python3 esptool.py ...`
+- `python esptool.py ...`
+- `python3 /absoluter/pfad/zu/esptool.py ...` (Pfad beim Paketmanager recherchieren)
+- `python /absoluter/pfad/zu/esptool.py ...` (s. o.)
+- `python3 -m esptool ...`
+- `python -m esptool ...`
+
+Führt auch keiner dieser Aufrufe zum Erfolg, melde dich im Forum (https://forum.openbikesensor.org), wir finden gemeinsam eine Lösung.
 
 
 ## Versionsupdates
