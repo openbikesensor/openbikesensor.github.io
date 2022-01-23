@@ -289,8 +289,9 @@ Bauanleitung für das [Modell v00.02]({{<relref
   * Das Kabel, wenn eingesteckt, sollte weg von den 4 Pins des Boards zeigen
     (nach oben, wenn montiert).
 * Andernfalls:
-  * Weißes Plastikteil der JST-Buchse vorsichtig entfernen
-  * Kontakte nach oben umbiegen – von den Steckkontakten weg
+  * Die JST-Stecker aus dem Sensorboard auslöten.
+  * Durch eine 2-polige Winkelstiftleiste ersetzen.
+  * Dabei das kurze Ende nur so weit ins Sensorboard einführen, dass die Spitze der Stifte gerade so auf der anderen Seite herausschaut und dann verlöten.
 * Beide Sensorboards stecken, dabei Beschriftung (+3V3, TRIG, ECHO, GND) beachten
 * Boards senkrecht und direkt auf der Grundplatine aufliegend verlöten
 * Überstehende Stifte kürzen
