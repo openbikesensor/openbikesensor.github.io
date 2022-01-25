@@ -8,10 +8,6 @@ weight: 10
 Lade das [neueste Release-Archiv](https://github.com/openbikesensor/OpenBikeSensorFirmware/releases) 
 der OBS-Firmware von GitHub herunter.
 
-{{< imgproc "firmware-flash/release-assets.jpg" Fit "800x600" >}}
-Firmwaredateien unter GitHub Release im Bereich Assets
-{{< /imgproc >}}
-
 Du benötigst die ZIP-Datei mit dem Namen `obs-v9.9.9.9999-initial-flash.zip` (`v9.9.9.9999` steht für die Versionsnummer).
 Entpacke die Dateien in einem temporären Verzeichnis, sie heißen `0x??????.bin`. Die Zahlen sind die Basisadresse, an die
 die Daten geflasht werden sollen.
