@@ -7,7 +7,7 @@ aliases:
 ---
 
 {{% alert title="Hinweis" color="info" %}}
-  Diese Montageanleitung beschreibt die Montage des OpenBikeSensors im "VerticalCase", der [Standard-Variante]({{< relref "docs/hardware/general/models" >}}).
+  Diese Montageanleitung beschreibt die Montage des OpenBikeSensors der [Standard-Variante]({{< relref "docs/hardware/general/models" >}}).
 {{% /alert %}}
 
 ## Überblick
@@ -33,12 +33,14 @@ zu stehen oder gestohlen zu werden.
 
 * Bei der Sattelstützenhalterung zeigt die Schiene zum Aufschieben des
   Hauptgehäuses nach hinten, hierfür ist ein OpenBikeSensor Hauptgehäuse der
-  Variante "Back rider" nötig (das ist das Standardmodell).
+  Variante "Back Rider" nötig (das ist das Standardmodell).
 * Die Halterungen für Oberrohr und Gepäckträger haben die Schiene oben, hierfür
   ist ein "Top rider" Hauptgehäuse nötig, oder ein Adapter der einen "Back
   rider" zu einem "Top rider" macht. Alternativ fährt der OpenBikeSensor
   senkrecht, was für die Messergebnisse keinen Unterschied macht, aber nicht so
   ästhetisch ist und zu einem um 90° gedrehten Logo führt.
+* Die [Varianten "Back rider" und "Top Rider"]({{<relref
+  "docs/hardware/general/case/variants/">}}) werden in der Gehäusedokumentation erläutert.
 * Alle Halterungen haben die gleiche Schiene, die mit dem
   `StandardMountAdapter` kompatibel ist. Dieser wird an der passenden Stelle am
   Hauptgehäuse fest angeschraubt.

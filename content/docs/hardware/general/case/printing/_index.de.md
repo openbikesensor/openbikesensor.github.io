@@ -212,7 +212,7 @@ Die Bauteile des Hauptgehäuses auf dem Druckbett
     Zwei Halterungen, das <code>SeatPostMount</code> und eine alte Variante des <code>TopTubeMount</code>.
 {{< /imgproc >}}
 
-Es gibt verschiedene Möglichkeiten, den OBS Sensor am Fahrrad zu montieren:
+Es gibt verschiedene Möglichkeiten, den OBS Sensor am Fahrrad zu montieren. Wie die Halterungen angebracht werden und aussehen, ist in der [Montageanleitung]({{< relref "mounting" >}}) zu sehen.
 
 1. Standard: Sattelhalterung, an der Sattelstange hinter
    dem/der Fahrer:in montiert.
@@ -321,5 +321,9 @@ Einige Fehler traten während der Drucke auf:
 
 ## Weitere Anleitungen
 
-* Detaillierte [Anleitung für den Zusammenbau]({{< relref "docs/hardware/v00.03.12/build-instructions" >}}) des gesamten OpenBikeSensors beschreibt den Einbau der elektronischen Komponenten in die beiden Gehäuse.
-* Die [Montage des Sensors]({{< relref "mounting" >}}) am Fahrrad wird mit einem vertical case und verschiedenen Halterungen für das Displaygehäuse gezeigt
+* Detaillierte [Anleitung für den Zusammenbau]({{< relref
+  "docs/hardware/v00.03.12/build-instructions" >}}) des gesamten
+  OpenBikeSensors beschreibt den Einbau der elektronischen Komponenten in die
+  beiden Gehäuse.
+* Die [Montage des Sensors]({{< relref "mounting" >}}) am Fahrrad wird mit
+  verschiedenen Halterungen und für das Displaygehäuse gezeigt.

@@ -35,6 +35,8 @@ Eine detaillierte Anleitung zum Gehäusedruck gibt es [hier]({{< relref "." >}})
 
 ### Halterungen
 
+Die verschiedenen Halterungen und ihre Montage werden in der [Montageanleitung]({{< relref "mounting" >}}) beschrieben.
+
 {{< 3dpart-table >}}
 {{< 3dpart name="Mounting/AttachmentCover">}}Eine Abdeckung für ungenutzte Montagepunkte am Hauptgehäuse (z. B. für kombinierte Back Rider und Top Rider Gehäuse).{{< /3dpart >}}
 {{< 3dpart name="Mounting/BikeRackMountCenter">}}Das Mittelstück für die Gepäckträgerhalterung in Quermontage.{{< /3dpart >}}

@@ -35,6 +35,6 @@ in a bulk order.
 
 
 {{< imgproc construction-kit Resize 600x >}}
-OpenBikeSensor Construction Kit featuring Vertical Case and PCB 00.03.10
+    OpenBikeSensor Construction Kit (old version)
 {{< /imgproc >}}
 

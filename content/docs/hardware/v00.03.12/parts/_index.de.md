@@ -224,13 +224,8 @@ aliases:
 </tr>
 <tr>
   <td>1</td>
-  <td>Hauptgehäuse "Vertical Case"</td>
-  <td><a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/PCB_Case_Vertical">Link</a></td>
-</tr>
-<tr>
-  <td>1</td>
-  <td>Display-Gehäuse "SlideOnDisplay"</td>
-  <td><a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/master/DisplayCase/SlideOnDisplay">Link</a></td>
+  <td>Hauptgehäuse, Displaygehäuse, Halterung(en)</td>
+  <td><a href={{< relref "docs/hardware/general/case" >}}>Link</a></td>
 </tr>
 
 </tbody>
