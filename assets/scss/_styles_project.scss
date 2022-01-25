@@ -4,6 +4,11 @@ body {
   line-height: 1.7em;
 }
 
+.award {
+  width: 130px;
+  transform: rotate(-20deg);
+}
+
 .td-navbar .navbar-brand svg {
   transform: scale(1.5);
   margin-right: 1.5rem;
@@ -19,15 +24,15 @@ body {
 }
 
 .btn {
+  border-radius: 0.2rem;
+
+  &-lg {
+    border-radius: 0.4rem;
+  }
+
+  &-sm {
     border-radius: 0.2rem;
-
-    &-lg {
-        border-radius: 0.4rem;
-    }
-
-    &-sm {
-        border-radius: 0.2rem;
-    }
+  }
 }
 
 .youtube-video-wrapper {
@@ -69,7 +74,6 @@ body {
     transition: 0.4s all;
   }
 
-
   &:hover img {
     -webkit-filter: brightness(75%);
   }
@@ -82,7 +86,7 @@ body {
     margin-left: -36px;
     margin-top: -36px;
     position: absolute;
-    background: url('../images/play.png') no-repeat;
+    background: url("../images/play.png") no-repeat;
     z-index: 1;
     cursor: pointer;
   }
@@ -109,7 +113,7 @@ body {
 
 .print-only .noprint,
 .noprint .print-only {
-  display:none;
+  display: none;
 }
 
 pre {
@@ -117,13 +121,14 @@ pre {
 }
 
 @media print {
-  html, body {
+  html,
+  body {
     font-size: 10pt;
     line-height: 1.3;
   }
 
   .noprint {
-    display:none;
+    display: none;
   }
 
   .td-main main {
@@ -198,11 +203,9 @@ pre {
   }
 }
 
-
 #td-cover-block-0 {
-    background-position: center;
+  background-position: center;
 }
-
 
 .container {
   figure {
@@ -222,7 +225,7 @@ pre {
 
 .donations {
   background: white;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   border-radius: 4px;
   padding: 1rem 2rem;
   display: inline-block;
@@ -234,7 +237,7 @@ pre {
   transition: background 0.1s;
 
   &:hover {
-    background-color: #FFF;
+    background-color: #fff;
   }
 }
 
@@ -242,7 +245,7 @@ pre {
 .alert.alert-warning {
   border: 0;
   border-radius: 4px;
-  font-size: 1.0rem;
+  font-size: 1rem;
 
   .alert-heading {
     font-size: 1.2rem;
@@ -250,18 +253,18 @@ pre {
 }
 
 .alert.alert-info {
-  background: #E1F5FE;
+  background: #e1f5fe;
 
   .alert-heading {
-    color: #1E88E5;
+    color: #1e88e5;
   }
 }
 
 .alert.alert-warning {
-  background: #FFE7E4;
+  background: #ffe7e4;
 
   .alert-heading {
-    color: #ED6A5A;
+    color: #ed6a5a;
   }
 }
 
@@ -281,18 +284,19 @@ pre {
 .dropdown-item {
   padding-left: 1rem;
 
-  &:active, &.active {
+  &:active,
+  &.active {
     background: none;
     font-weight: bold;
   }
 }
 
-
-.td-content, .content {
+.td-content,
+.content {
   blockquote {
     padding: 0.5rem 1.5rem;
     margin-left: 1rem;
-    border-left: 4px solid #DDD;
+    border-left: 4px solid #ddd;
     color: #777;
   }
 }
@@ -321,7 +325,6 @@ pre {
     & > a {
       font-weight: 700;
       text-transform: uppercase;
-
     }
   }
 
@@ -337,7 +340,7 @@ pre {
 
     &:hover {
       color: inherit;
-      background: #F6F6F6;
+      background: #f6f6f6;
     }
 
     &.current-page {
