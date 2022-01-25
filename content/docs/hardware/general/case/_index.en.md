@@ -1,5 +1,5 @@
 ---
-title: Printing a case
+title: Enclosure
 weight: 30
 ---
 

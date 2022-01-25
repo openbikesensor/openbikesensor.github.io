@@ -238,15 +238,30 @@ pre {
   }
 }
 
-.alert-info {
+.alert.alert-info,
+.alert.alert-warning {
   border: 0;
-  background: #E1F5FE;
   border-radius: 4px;
   font-size: 1.0rem;
 
   .alert-heading {
     font-size: 1.2rem;
+  }
+}
+
+.alert.alert-info {
+  background: #E1F5FE;
+
+  .alert-heading {
     color: #1E88E5;
+  }
+}
+
+.alert.alert-warning {
+  background: #FFE7E4;
+
+  .alert-heading {
+    color: #ED6A5A;
   }
 }
 
