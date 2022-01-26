@@ -65,7 +65,7 @@ liegen. Am besten benutzt du `git`, um dir eine Kopie herunterzuladen
 (*clone*), und dann kannst du die Parameter ändern:
 
 ```console
-git clone https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase
+git clone --recurse-submodules https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase
 cd OpenBikeSensor3dPrintableCase
 git checkout openscad
 ```

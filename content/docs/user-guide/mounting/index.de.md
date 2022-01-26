@@ -32,8 +32,10 @@ zu stehen oder gestohlen zu werden.
 ## Kompatibilität
 
 * Bei der Sattelstützenhalterung zeigt die Schiene zum Aufschieben des
-  Hauptgehäuses nach hinten, hierfür ist ein OpenBikeSensor Hauptgehäuse der
-  Variante "Back Rider" nötig (das ist das Standardmodell).
+  Hauptgehäuses nach hinten. Hierfür passt ein OpenBikeSensor Hauptgehäuse der
+  Variante "Back Rider" (das ist das Standardmodell) am besten, mit dem "Top
+  Rider" an dieser Halterung stünde das Gehäuse senkrecht und so wäre das Logo
+  verdreht.
 * Die Halterungen für Oberrohr und Gepäckträger haben die Schiene oben, hierfür
   ist ein "Top rider" Hauptgehäuse nötig, oder ein Adapter der einen "Back
   rider" zu einem "Top rider" macht. Alternativ fährt der OpenBikeSensor
@@ -64,10 +66,13 @@ Die Gepäckträger-Halterung besteht aus mehreren Teilen:
 
 * 2 Seitenteile
 * 1 Mittelteil, das es in längs- und Quervariante gibt
-* 2 Stück Rundholz oder Aluminium-Rohr mit Durchmesser 10mm
+* 2 Stück Rundholz oder Aluminium-Rohr mit Durchmesser 10&nbsp;mm, je nach
+  Größe des Gepäckträgers ca. 12-16&nbsp;cm lang.
 
 Die Rundstäbe verbinden die drei 3D-gedruckten Teile und lassen sich auf die
-benötigte Breite des Gepäckträgers anpassen. Sie sollten mit Sekundenkleber fixiert werden.
+benötigte Breite des Gepäckträgers anpassen. Seiten- und Mittelteile können
+mithilfe von Einschmelzmuttern und M3x8 Schrauben auf die Stäbe geklemmt oder
+für dauerhafte Montage mit den Stäben verklebt werden.
 
 Die Seitenteile werden mit Kabelbindern befestigt. Es gibt viele Möglichkeiten,
 diese Konstruktion am Fahrrad anzubringen:
@@ -95,7 +100,7 @@ hängt je nach Montageoption außerdem davon ab, ob ein Sensor angebracht ist
 oder nicht. Insgesamt ist die Wahl der Montageart also sehr individuell.
 
 Ein alternatives Mittelteil ermöglicht auch eine Montage in Längsrichtung
-(nicht gezeigt), bei der die "Seitenteile" auf 2 parallelen, quer zur
+(nicht gezeigt), bei der die "Seitenteile" auf zwei parallelen, quer zur
 Fahrtrichtung verlaufenden Stangen aufliegen.
 
 ### Oberrohr-Halterung
@@ -114,7 +119,7 @@ indem Arme oder Beine in den Bereich der Sensoren gelangen.
 Das Display wird am Lenker in der Nähe des linken oder rechten Handgriffes
 befestigt. Die ehemals verfügbaren Halterungen zum Anschrauben haben sich nicht
 bewährt, weil sie häufig gebrochen sind. Stattdessen wird nur noch eine
-Displayhalterung angeboten, diese wird mit 2 Kabelbindern oder alternativ mit
+Displayhalterung angeboten, diese wird mit zwei Kabelbindern oder alternativ mit
 einer Schlauchschelle befestigt. Auch hier hilft ein Stück Klebeband oder alter
 Fahrradschlauch gegen Verdrehen oder Verrutschen.
 
