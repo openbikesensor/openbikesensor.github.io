@@ -3,6 +3,10 @@ title: Logo-Druck (mehrfarbig)
 weight: 80
 ---
 
+{{< imgproc "main-case-printed" Resize 600x >}}
+  Ein Hauptgehäuse mit eingedrucktem Logo.
+{{< /imgproc >}}
+
 ## Logo-Dateien
 
 Statt der Bauteile `MainCase` und `MainCaseLid` werden entsprechende Bauteile

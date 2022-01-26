@@ -32,7 +32,7 @@ bald folgen.
 
 ## Drucker und Slicer
 
-{{< imgproc "Ultimaker_at_work.jpg" Resize 600x >}}
+{{< imgproc "ultimaker" Resize 600x >}}
   Der Ultimaker 3 hat ein Displaygehäuse mit Zugentlastung fertig gedruckt.
 {{< /imgproc >}}
 
@@ -69,7 +69,7 @@ mit den meisten Vorteile für unser Projekt:
 Nachteilig ist allerdings die UV Beständigkeit, die nicht so hoch ist wie bei
 ABS oder ASA. Doch die Vorteile überwiegen diese Einschränkung.
 
-{{< imgproc "OBS_main_case_and_lid_with_logos.jpg" Resize 800x >}}
+{{< imgproc "logo_preview" Resize 800x >}}
     Beispiel eines gedruckten Gehäuses mit Logos
 {{< /imgproc >}}
 
@@ -102,10 +102,10 @@ die Druckplatte gelegt, sodass es möglichst wenig Überhänge gibt:
 
 {{< slider >}}
   {{< slider-image
-      src="OBS-MainCase-A02_lid_adfc-logo_gedreht.jpg"
+      src="adfc_logo_gedreht"
       alt="1. So sollte es aussehen, kann aber in dieser Lage so nicht gedruckt werden" >}}
   {{< slider-image
-      src="OBS-MainCase-A02_lid_adfc-logo_Drucklage.jpg"
+      src="adfc_logo_drucklage"
       alt="2. Drucken mit dem Gesicht nach unten" >}}
 {{< /slider >}}
 
@@ -125,16 +125,16 @@ Informationsmaterial, Anleitungen und Tutorials gibt es massenweise im Netz.
 
 {{< slider >}}
   {{< slider-image
-    src="UM3_CuraUI_case_prepare.jpg"
+    src="cura_case_prepare"
     alt="1. Cura view auf main case im Vorbereitungsmode" >}}
   {{< slider-image
-    src="UM3_CuraUI_case_extruder.jpg"
+    src="cura_case_extruder"
     alt="2. Einstellung auf PETG und 2 Extruder" >}}
  {{< slider-image
-    src="UM3_CuraUI_case_settings.jpg"
+    src="cura_case_settings"
     alt="3. Settings für Druckdichte (Infill), Support, Düsendurchmesser" >}}
 {{< slider-image
-    src="UM3_CuraUI_case_slice.jpg"
+    src="cura_case_slice"
     alt="4. starte Slicing" >}}
  {{< /slider >}}
 
@@ -144,10 +144,10 @@ Temperaturen, etc.).
 
 {{< slider >}}
 {{< slider-image
-    src="UM3_CuraUI_case_slice_information.jpg"
+    src="cura_case_slice_information"
     alt="1. Nachdem alle Einstellungen erfolgt sind, wird das Slicing gestartet " >}}
 {{< slider-image
-    src="UM3_CuraUI_case_slice_preview.jpg"
+    src="cura_case_slice_preview"
     alt="2. Slicing information gibt es im Preview, mit den beiden Schiebern unten und rechts kann man jede einzelne Bahn des Extruders verfolgen" >}}
  {{< /slider >}}
 
@@ -201,14 +201,14 @@ Das Bauteil `StandardMountAdapter` gehört zwar eigentlich zu den Halterungen,
 wird aber fest am Hauptgehäuse angebracht und bildet eine Hälfte des
 Befestigungsmechanismus. Es gehört also auch irgendwie zum Hauptgehäuse.
 
-{{< imgproc "UM3_curaUI_OBS-Maincase-all_pieces.jpg" Resize 800x >}}
+{{< imgproc "cura_maincase_parts" Resize 800x >}}
 Die Bauteile des Hauptgehäuses auf dem Druckbett
 {{< /imgproc >}}
 
 
 ### Fahrradhalterung
 
-{{< imgproc "Zwei_halterungen.jpg" Resize 800x >}}
+{{< imgproc "mounts" Resize 800x >}}
     Zwei Halterungen, das <code>SeatPostMount</code> und eine alte Variante des <code>TopTubeMount</code>.
 {{< /imgproc >}}
 
@@ -230,7 +230,7 @@ Es gibt verschiedene Möglichkeiten, den OBS Sensor am Fahrrad zu montieren. Wie
 Außerdem nötig ist ein Sicherungsstift (`LockingPin`). Das Display wird mit der
 dazugehörigen Schiene (`Mounting/HandlebarRail`) am Lenker befestigt.
 
-{{< imgproc "UM3_curaUI_OBS-Mounting-all_mounts_mit_text.jpg" Resize 800x >}}
+{{< imgproc "cura_mounting_parts" Resize 800x >}}
     Lage dreier Halterungen und des Sicherungspin auf dem Druckbett (die
     verlängerte Variante kann parametrisch mit OpenSCAD erstellt werden). Der
     LockingPin sollte jedoch lieber stehend gedruckt werden.
@@ -249,7 +249,7 @@ In die Vertiefung der zwei Gehäusehälften werden zwei Magnete eingelegt, die
 das Display während der Fahrt an der Schiene (`HandlebarRail`, siehe
 "Fahrradhalterung" oben) halten.
 
-{{< imgproc "20210707_142649_OBS_Display_text.jpg" Resize 400x >}}
+{{< imgproc "display_labeled" Resize 400x >}}
     Fertiges Displaygehäuse (alte Version)
 {{< /imgproc >}}
 
@@ -290,19 +290,19 @@ entfernt werden.
 
 {{< slider >}}
 {{< slider-image
-    src="UM3_CuraUI_ lid_Überhänge.jpg"
+    src="cura_lid_overhangs"
     alt="1. Schlechte Positionierung erzeugt Überhänge (rot)" >}}
 {{< slider-image
-    src="UM3_CuraUI_ lid_richtige_Lage.jpg"
+    src="cura_lid_oriented"
     alt="2. Richtiges Positionieren ist wichtig" >}}
 {{< slider-image
-    src="UM3_CuraUI_ case_Überhänge.jpg"
+    src="cura_case_overhangs"
     alt="3. In der Vorschau werden bereits in rot Überhänge angezeigt" >}}
 {{< slider-image
-    src="UM3_CuraUI_ case_support_einschalten.jpg"
+    src="cura_case_enable_support"
     alt="4. Support einschalten" >}}
 {{< slider-image
-    src="UM3_CuraUI_ case_supportstruktur.jpg"
+    src="cura_case_supports"
     alt="5. Die zusätzliche Supportstruktur ist nach dem Slicing in der Vorschau sichtbar" >}}
  {{< /slider >}}
 
@@ -310,11 +310,11 @@ entfernt werden.
 
 Einige Fehler traten während der Drucke auf:
 
-{{< imgproc "OBS_prints_1418_support missing.JPG" Resize 400x >}}
+{{< imgproc "problem_support_missing" Resize 400x >}}
     Support fehlt, Düse vom 2. Extruder verstopft
 {{< /imgproc >}}
 
-{{< imgproc "OBS_prints_1422_broken_slide.JPG" Resize 400x >}}
+{{< imgproc "problem_broken_slide" Resize 400x >}}
     Brüchige Verbindung, vermutlich Druckdichte (Infill) zu gering
 {{< /imgproc >}}
 
