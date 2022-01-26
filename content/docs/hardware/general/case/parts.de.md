@@ -11,7 +11,7 @@ Github in der neuesten Version als ZIP-Archiv. Darin finden sich im Ordner
 `export` alle Dateien für den 3D-Druck:
 
 <div class="text-center my-4">
-<a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/openscad.zip">Alles herunterladen<a>
+<a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/main.zip">Alles herunterladen<a>
 </div>
 
 Eine detaillierte Anleitung zum Gehäusedruck gibt es [hier]({{< relref "." >}}).

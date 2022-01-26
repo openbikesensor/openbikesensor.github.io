@@ -36,7 +36,7 @@ Jede dieser vier Dateien gibt es für das Hauptgehäuses und seinen Deckel,
 insgesamt pro Logo also acht Dateien. Die vorgenerierten STL-Dateien für das
 OpenBikeSensor-Logo werden ebenfalls auf GitHub veröffentlicht und liegen dort
 im Verzeichnis
-[`export/logo/OpenBikeSensor/`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/openscad/export/logo/OpenBikeSensor).
+[`export/logo/OpenBikeSensor/`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/main/export/logo/OpenBikeSensor).
 
 ## OpenSCAD Logo Generator
 

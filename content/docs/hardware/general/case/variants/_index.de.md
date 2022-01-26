@@ -60,14 +60,13 @@ dies erst nach einigen Stunden 3D-Druck festzustellen.
 {{% /alert %}}
 
 Die STL-Dateien werden anhand der SCAD-Dateien erzeugt, die alle im
-[GitHub-Repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/openscad)
+[GitHub-Repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase)
 liegen. Am besten benutzt du `git`, um dir eine Kopie herunterzuladen
 (*clone*), und dann kannst du die Parameter ändern:
 
 ```console
 git clone --recurse-submodules https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase
 cd OpenBikeSensor3dPrintableCase
-git checkout openscad
 ```
 
 Jetzt kannst du die Datei `variables.scad` anpassen und deine gewünschten Werte

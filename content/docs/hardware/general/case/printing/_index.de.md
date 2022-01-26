@@ -88,7 +88,7 @@ exportierten STL-Dateien für den 3D-Druck können von GitHub direkt
 heruntergeladen werden:
 
 <div class="text-center my-4">
-<a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/openscad.zip">Gehäusedateien herunterladen<a>
+<a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/main.zip">Gehäusedateien herunterladen<a>
 </div>
 
 Im Archiv befindet sich ein Ordner `export/` mit den obigen Kategorien, und
@@ -184,18 +184,18 @@ individuell.
 
 Die Teile zum Drucken:
 
-* [`MainCase/MainCase.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/MainCase/MainCase.stl)
-* [`MainCase/MainCaseLid.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/MainCase/MainCaseLid.stl)
-* [`MainCase/UsbCover.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/MainCase/UsbCover.stl)
-* [`MainCase/GpsAntennaLid.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/MainCase/GpsAntennaLid.stl)
-* [`Mounting/StandardMountAdapter.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/Mounting/StandardMountAdapter.stl)
+* [`MainCase/MainCase.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/MainCase/MainCase.stl)
+* [`MainCase/MainCaseLid.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/MainCase/MainCaseLid.stl)
+* [`MainCase/UsbCover.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/MainCase/UsbCover.stl)
+* [`MainCase/GpsAntennaLid.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/MainCase/GpsAntennaLid.stl)
+* [`Mounting/StandardMountAdapter.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/StandardMountAdapter.stl)
 
 Die ersten zwei Teile gibt es jeweils auch mit OpenBikeSensor-Logo. Für jedes
 Bauteil sind hierfür vier Dateien verfügbar. Das Logo kann *invertiert* oder
 *normal* gedruckt werden, und für den Zweifarben-Druck sind pro Bauteil zwei
 Dateien nötig (*main* und *highlight*), die die in der jeweiligen Farbe zu
 druckenden Bestandteile repräsentieren. Hier sind demnach [alle acht Dateien für das
-OBS-Logo](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/openscad/export/logo/OpenBikeSensor).
+OBS-Logo](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/main/export/logo/OpenBikeSensor).
 
 Das Bauteil `StandardMountAdapter` gehört zwar eigentlich zu den Halterungen,
 wird aber fest am Hauptgehäuse angebracht und bildet eine Hälfte des
@@ -216,16 +216,16 @@ Es gibt verschiedene Möglichkeiten, den OBS Sensor am Fahrrad zu montieren. Wie
 
 1. Standard: Sattelhalterung, an der Sattelstange hinter
    dem/der Fahrer:in montiert.
-    - [`Mounting/SeatPostMount.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/Mounting/SeatPostMount.stl)
+    - [`Mounting/SeatPostMount.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/SeatPostMount.stl)
 2. Oberrohr-Halterung: Wenn die Sattelhalterungen nicht
    verwendbar sind, kann die Montage weiter vorne an der Querstange erfolgen.
-    - [`Mounting/TopTubeMount.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/Mounting/TopTubeMount.stl)
+    - [`Mounting/TopTubeMount.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/TopTubeMount.stl)
 3. Gepäckträgerhalterung: Dreiteilig, wird mit etwas Rundstab oder
    Alu-Rundprofil verbunden. Kann auf, unter oder hinter dem Gepäckträger
    montiert werden.
-    - [`Mounting/BikeRackMountSide`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/Mounting/BikeRackMountSide.stl) (2x drucken)
-    - [`Mounting/BikeRackMountCenter.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/Mounting/BikeRackMountCenter.stl)
-    - [`Mounting/BikeRackMountCenterLongitudinal.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/Mounting/BikeRackMountCenterLongitudinal.stl) (Alternative zu `BikeRackMountCenter` für die Längsmontage)
+    - [`Mounting/BikeRackMountSide`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/BikeRackMountSide.stl) (2x drucken)
+    - [`Mounting/BikeRackMountCenter.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/BikeRackMountCenter.stl)
+    - [`Mounting/BikeRackMountCenterLongitudinal.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/BikeRackMountCenterLongitudinal.stl) (Alternative zu `BikeRackMountCenter` für die Längsmontage)
 
 Außerdem nötig ist ein Sicherungsstift (`LockingPin`). Das Display wird mit der
 dazugehörigen Schiene (`Mounting/HandlebarRail`) am Lenker befestigt.
@@ -241,9 +241,9 @@ dazugehörigen Schiene (`Mounting/HandlebarRail`) am Lenker befestigt.
 
 Im Displaygehäuse sind nur das Display und der Knopf verbaut. Die nötigen Bauteile sind:
 
-* [`DisplayCase/DisplayCaseTop.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/DisplayCase/DisplayCaseTop.stl)
-* [`DisplayCase/DisplayCaseBottom.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/DisplayCase/DisplayCaseBottom.stl)
-* [`DisplayCase/DisplayCableStrainRelief.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/openscad/export/DisplayCase/DisplayCableStrainRelief.stl) (2x drucken)
+* [`DisplayCase/DisplayCaseTop.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseTop.stl)
+* [`DisplayCase/DisplayCaseBottom.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseBottom.stl)
+* [`DisplayCase/DisplayCableStrainRelief.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCableStrainRelief.stl) (2x drucken)
 
 In die Vertiefung der zwei Gehäusehälften werden zwei Magnete eingelegt, die
 das Display während der Fahrt an der Schiene (`HandlebarRail`, siehe
