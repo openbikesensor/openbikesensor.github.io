@@ -30,7 +30,7 @@ Wenn ein konfiguriertes WLAN in Reichweite ist, verbindet sich der OpenBikeSenso
 
 Nur in einem WLAN mit Internet funktioniert der Upload der Daten, der auch direkt vom OpenBikeSensor ausgelöst werden kann durch Drücken und Festhalten des Knopfes
 
-## Login in das Konfiguraitionsmenü OBS
+## Login in das Konfigurationsmenü
 Seit der Version 0.6.x wird eine HTTPS Verbindung angeboten und der Zugang zum Webinterface durch eine PIN gesichert.
 
 * Um das Konfigurationsmenü zu öffnen auf **go to https** klicken.
