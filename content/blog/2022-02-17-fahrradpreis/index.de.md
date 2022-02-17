@@ -13,7 +13,7 @@ Wir sind unglaublich stolz und froh, verkünden zu dürfen, beim diesjährigen D
 
 Auch freut uns die Bestätigung, die unserer Zusammenarbeit mit SimRa durch die gemeinsame Verleihung des Preises zuteil wird. Wir nehmen das als Zeichen, hier auf dem richtigen Weg zu sein. Besonders bei der hochkarätigen Konkurrenz hätten wir eine solche Platzierung eigentlich für unmöglich gehalten.
 
-Wir haben schon viel Zeit in die Entwicklung und den Einsatz des OpenBikeSensors gesteckt, und sind noch lange nicht fertig. Natürlich werden wir unseren Teil des Preisgelds im Sinne des OpenBikeSensors verwenden. Die Community hat sich bereits getroffen und sich ausgetauscht über mögliche Projekte die, auch dank dieses Preises, dieses Jahr angegangen werden können. Unter anderem sind das:
+Wir haben schon viel Zeit in die Entwicklung und den Einsatz des OpenBikeSensors gesteckt, und sind noch lange nicht fertig. Natürlich werden wir das Preisgeld im Sinne des OpenBikeSensors verwenden. Die Community hat sich bereits getroffen und sich ausgetauscht über mögliche Projekte die, auch dank dieses Preises, dieses Jahr angegangen werden können. Unter anderem sind das:
 
   - Anschaffung und Bau einer Reihe OpenBikeSensoren, die zeitweise (z.B. für ein paar Monate) an lokale Initiativen oder Forschungsprojekte verliehen werden können.
   - Unterstützung bei der Organisation von Einzel- und Sammelbestellungen. Die genauen Maßnahmen müssen noch in der Community besprochen werden. Dies kann z.b. durch Vorrätighalten von Hardwarekomponenten, Tests der Komponenten von neuen Anbietern oder Anschaffungen von Werkzeug zum Verleih an Initiativen im Selbstbau geschehen.
