@@ -4,7 +4,6 @@ menu:
   main:
     weight: 25
 aliases:
-- /contact
 - /en/slack
 ---
 

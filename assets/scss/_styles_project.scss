@@ -394,3 +394,24 @@ pre {
   font-size: 200px;
   opacity: 0.06;
 }
+
+address {
+    padding-left: 2rem;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+
+footer {
+    background: $primary;
+    color: white;
+    font-size: 0.8rem;
+    min-height: 0;
+    flex: 0 0 auto;
+    padding: 1rem 0;
+}
+
+.footer-copyright {
+    line-height: 1.5em;
+}
+
