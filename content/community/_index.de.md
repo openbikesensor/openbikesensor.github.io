@@ -72,16 +72,16 @@ bist herzlich zu diesen Treffen eingeladen, Neulinge sind immer willkommen!
 
 Für langlebige Kommunikation verwenden wir in der Community
 [das Forum]({{< relref "/community" >}}). Hier sind Inhalte auch nach Monaten
-noch gut zu finden, und besucher können auch ohne Anmeldung mitlesen.
+noch gut zu finden, und Besucher können auch ohne Anmeldung mitlesen.
 
 ### Matrix
-Echtzeitkommunikation findet bei uns [in unserem  Matrix-Space](https://matrix.to/#/#openbikesensor:matrix.org) statt - Das ist eine
-Open-Sourcige föderiertes Netzwerk, das sehr nutzerfreundliche Chatclients bietet
-wenn ihr Slack und Konsorten bedienen könnt, könnt ihr auch Matrix bedienen.
+Echtzeitkommunikation findet [in unserem Matrix-Space](https://matrix.to/#/#openbikesensor:matrix.org) statt - Das ist ein föderiertes Netzwerk, 
+das sehr nutzerfreundliche Chatclients bietet - wenn du Slack und Konsorten bedienen
+kannst, kannst auch einen Matrix Client bedienen.
 
 Früher haben wir hierfür Slack verwendet - Falls du dort durch die Archive
 blättern willst, kannst du uns im Forum ansprechen - noch kann man dort
-rein schauen.
+'rein schauen.
 
 </div>
 </div>
