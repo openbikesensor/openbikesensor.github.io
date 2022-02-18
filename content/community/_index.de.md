@@ -68,20 +68,20 @@ bist herzlich zu diesen Treffen eingeladen, Neulinge sind immer willkommen!
 </div>
 <div class="col-md-6">
 
-### Der ehemalige Slack-Workspace {#slack}
+### Das Forum
 
-Wir haben als Community lange Zeit Slack benutzt, um uns auszutauschen. Aus
-verschiedenen Gründen lösen wir uns gerade von Slack, und versuchen, unsere
-Kommunikation so weit es geht auf [das Forum]({{< relref "/community" >}}) zu
-verschieben.
+Für langlebige Kommunikation verwenden wir in der Community
+[das Forum]({{< relref "/community" >}}). Hier sind Inhalte auch nach Monaten
+noch gut zu finden, und besucher können auch ohne Anmeldung mitlesen.
 
-Für schnelle Absprachen und kurzlebige Nachrichten werden wir in nächster Zeit
-[Matrix](https://matrix.org/) ausprobieren. Wie das geht und wo wir zu finden
-sein werden, schreiben wir dann -- natürlich -- im Forum.
+### Matrix
+Echtzeitkommunikation findet bei uns [in unserem  Matrix-Space](https://matrix.to/#/#openbikesensor:matrix.org) statt - Das ist eine
+Open-Sourcige föderiertes Netzwerk, das sehr nutzerfreundliche Chatclients bietet
+wenn ihr Slack und Konsorten bedienen könnt, könnt ihr auch Matrix bedienen.
 
-Solltest du dennoch dem Slack beitreten wollen, z. B. um uns zu helfen
-wichtiges altes Wissen zu sichern und aufzubereiten, sprich uns in einem der
-offenen Treffen an. Wir freuen uns auf dich!
+Früher haben wir hierfür Slack verwendet - Falls du dort durch die Archive
+blättern willst, kannst du uns im Forum ansprechen - noch kann man dort
+rein schauen.
 
 </div>
 </div>
