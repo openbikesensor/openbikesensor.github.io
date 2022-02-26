@@ -22,7 +22,8 @@ Bitte beachte, dass sich das Projekt noch in der Entwicklung befindet, d.h.
 bestellst, speziell bei größeren Mengen, überprüfe bitte dass das zugrundeliegende
 Design und die Teileliste zusammenpassen. Und nicht das Eine neuer ist als
 das Andere. Wenn du mehrere Gehäuse drucken willst: Starte den Seriendruck
-erst, nachdem du ein Gerät fertig hast - so weißt du, dass alles passt.
+erst, nachdem du ein Gerät fertig gelötet und zusammengeschraubt hast - so 
+weißt du, dass alles passt.
 
 
 ## Ultraschallsensor-Boards
