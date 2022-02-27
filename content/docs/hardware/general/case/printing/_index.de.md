@@ -189,6 +189,7 @@ Die Teile zum Drucken:
 * [`MainCase/UsbCover.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/MainCase/UsbCover.stl)
 * [`MainCase/GpsAntennaLid.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/MainCase/GpsAntennaLid.stl)
 * [`Mounting/StandardMountAdapter.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/StandardMountAdapter.stl)
+* [`Mounting/AttachmentCover.stl`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/AttachmentCover.stl)
 
 Die ersten zwei Teile gibt es jeweils auch mit OpenBikeSensor-Logo. Für jedes
 Bauteil sind hierfür vier Dateien verfügbar. Das Logo kann *invertiert* oder
@@ -200,6 +201,10 @@ OBS-Logo](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/m
 Das Bauteil `StandardMountAdapter` gehört zwar eigentlich zu den Halterungen,
 wird aber fest am Hauptgehäuse angebracht und bildet eine Hälfte des
 Befestigungsmechanismus. Es gehört also auch irgendwie zum Hauptgehäuse.
+
+Das Bauteil `AttachmentCover` verschließt die Öffnung des Standardgehäuses,
+an der nicht die Halteklammer montiert wird. Dieses Teil wird nicht benötigt,
+wenn das Gehäuse ohne zweite Öffnung verwendet wird.
 
 {{< imgproc "cura_maincase_parts" Resize 800x >}}
 Die Bauteile des Hauptgehäuses auf dem Druckbett

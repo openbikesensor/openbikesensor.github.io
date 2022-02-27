@@ -626,6 +626,10 @@ Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}})
     daran hängen bleibt.
   - Mit 3 Stück M3x6 oder M3x8 in Unterseite verschrauben.
 * Displaykabel in Gehäuse einstecken.
+  - Falls du ein Gehäuse mit mehreren Montageöffnungen baust, entscheide dich, an
+    welcher Öffnung du die Halteklammer installieren willst. Diese Öffnung
+    führt auch das Kabel. Die andere Öffnung wird mit dem Deckel 
+    ``AttachmentCover`` verschlossen.
   - Das Kabel sollte außen um die Elektronik herumgeführt werden, *nicht*
     zwischen dem GPS- und SD-Karten-Modul hindurch. Im neuen Gehäuse sollte
     dort genug Platz sein.
