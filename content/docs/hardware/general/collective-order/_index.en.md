@@ -14,7 +14,8 @@ Please note that the project is still in development, which means that changes
 in hardware or design are possible anytime. Before ordering parts, especially
 in large quantities, double check that the design you're working off of and the
 list of items you are about to purchase match, and that neither is out of date
-or ahead of the other.
+or ahead of the other. If you print several devices only start printing in series
+after assembling the first one - that way you know that everything fits.
 
 
 ## Ultrasonic Sensor Boards

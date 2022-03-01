@@ -22,6 +22,19 @@ gibt es im [entsprechenden Abschnitt]({{< relref "general/case" >}}). Außerdem
 musst du eine [Platine erwerben]({{< relref "general/pcb" >}}), was in der
 Regeln durch Bestellung bei einem Hersteller anhand der Designdateien passiert.
 
+Wenn du mehrere OpenBikeSensoren herstellen möchtest, empfiehlt es sich, **bevor**
+du eine große Anzahl Gehäuse druckst ein Gerät komplett zusammen zu bauen. In
+der Vergangenheit kam es immer wieder dazu, dass sich Maße von Teilen geändert
+haben - z.b. lieferten Lieferanten plötzlich größere Displays. Wenn du einen 
+OpenBikeSensor mit den Teilen, die dir geliefert wurden, ins Gehäuse verbauen 
+konntest, kannst du relative sicher sein, dass du nicht später mit 10 Gehäusen 
+da stehst, in die die GPS-Antenne aus deiner Bestellung knapp nicht rein passt.
+
+Wenn du auf diese Weise bemerkst, dass Lieferanten plötzlich andere Teile
+liefern, [sprich es auf jeden Fall in der Community an]({{< relref "/community" >}}).
+Vielleicht muss die Lieferantenliste angepasst werden, oder es gibt eine
+einfache Änderung am Gehäuse, um auch mit den neuen Teilen kompatibel zu werden.
+
 **Hinweis:** Diese Website ist noch (und auf absehbare Zeit) in Arbeit, einige
 Teile könnten unvollständig sein oder komplett fehlen. Auch Fehler sind nie
 auszuschließen.  Wenn du Schwierigkeiten hast,

@@ -10,6 +10,13 @@ are able to build your own OBS.
 Starting out, make sure to check out the [model selection]({{< relref "general/models" >}}) to figure
 out which version of the OBS you want to build.
 
+If you plan to build multiple OBS it is recommended to first print and fully assemble
+one version. In the past sometimes suppliers have slightly changed dimensions
+of parts they deliver. If you notice that before you print a bunch of cases it
+can still be fixed in the model. In that case mention it in the 
+[Community]({{< relref "/community" >}}. This allows us to adapt supplier
+lists or the case as needed.
+
 Next up, you will need to figure out all the parts that you need to purchase or
 create for your selected model. This includes a lot of electronic components, a
 PCB, the 3D printed case and fixtures, wires and fasteners. Check out the

@@ -196,23 +196,23 @@ aliases:
   <td><a href="https://www.amazon.de/dp/B079KDYBZ8">Link</a></td>
 </tr>
 <tr>
-  <td>19</td>
-  <td>M3x8mm Zylinderschraube mit Innensechskant (DIN912)</td>
+  <td>26</td>
+  <td>M3x8mm Zylinderschraube mit Innensechskant (DIN912). (1x GPS, 8x für zwei Gehäuseöffnungen, 3x Platine, 5x Deckel, 3x Display, 6x 2 Gepäckträgerhalterungen), je nach Variante können weniger Schrauben reichen.</td>
   <td></td>
 </tr>
 <tr>
   <td>1</td>
-  <td>M3x30mm Zylinderschraube mit Innensechskant (DIN912)</td>
+  <td>M3x30mm Zylinderschraube mit Innensechskant (DIN912) (für den Locking Pin)</td>
   <td></td>
 </tr>
 <tr>
-  <td>6</td>
-  <td>M3 Mutter (DIN934)</td>
+  <td>8</td>
+  <td>M3 Mutter (DIN934) (je 4x für zwei Gehäuseöffnungen, je nach Variante können weniger Muttern reichen.)</td>
   <td></td>
 </tr>
 <tr>
-  <td>13</td>
-  <td>Gewindeeinsatz / Einpressmutter M3x5.7</td>
+  <td>18</td>
+  <td>Gewindeeinsatz / Einpressmutter M3x5.7 - (1x GPS, 5x Deckel, 3x Platine, 3x Display, 6x für 2 Gepäckträgerhalterungen, je nach Variante können weniger Muttern reichen.)</td>
   <td><a href="https://www.amazon.de/dp/B08BCRZZS3">Link1</a> <a href="https://turmberg3d.de/products/gewindeeinsatze-fur-kunststoffteile?variant=39376894066883">Link2</a></td>
 </tr>
 
