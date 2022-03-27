@@ -35,6 +35,11 @@ body {
   }
 }
 
+.btn-outline-light:hover {
+    background-color: #f1f1f6;
+    border-color: #f1f1f6;
+}
+
 .youtube-video-wrapper {
   display: block;
   position: relative;
@@ -393,6 +398,12 @@ pre {
   transform: translate(-50%, -50%);
   font-size: 200px;
   opacity: 0.06;
+  pointer-events: none;
+}
+
+.feature-cell {
+    display: flex;
+    flex-direction: column;
 }
 
 address {
