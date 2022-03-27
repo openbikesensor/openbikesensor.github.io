@@ -5,13 +5,13 @@ weight: 20
 
 Eine **sinnvolle Konfiguration** ist voreingestellt und sollte nur bei Bedarf verändert werden.
 
-|Einstellung|Wert|
-|---|---|
-| Breite des Lenkers | 70 cm |
-|Anzeigemodus | linker und rechter Abstand, Batteriestatus, Überholvorgänge
-|Privatzone | nicht gespeichert
-|URL zum OBS-Portal | `https://openbikesensor.hlrs.de`
-|WLAN Login | Netzwerkname, Netzwerkschlüssel
+| Einstellung        | Wert                                                                                                                                                 |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Breite des Lenkers | 70 cm                                                                                                                                                |
+| Anzeigemodus       | linker und rechter Abstand, Batteriestatus, Überholvorgänge                                                                                          |
+| Privatzone         | nicht gespeichert                                                                                                                                    |
+| URL zum OBS-Portal | `https://portal.openbikesensor.org` (siehe auch [Liste verfügbarer Portale](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688)) |
+| WLAN Login         | Netzwerkname, Netzwerkschlüssel                                                                                                                      |
 
 ## Anpassung der Konfiguration
 
@@ -84,9 +84,9 @@ Es gibt zwei unterschiedliche Betriebsmodi.
 
   Einrichtung eines Upload-Servers zum Sammeln von aufgezeichneten Streckendaten.
 
-  * Voreinstellung für das HLRS-Projekt: `openbikesensor.hlrs.de`
-  * um Streckendaten hochzuladen, benötigen Sie ein Benutzerkonto auf der Website `openbikesensor.hlrs.de` (oder einem anderen kompatiblen Online-Dienst)
-  * API-Schlüssel: tragen Sie den individuellen API-Schlüssel aus ihrem Benutzerkonto bei `openbikesensor.hlrs.de` in das Feld unterhalb des Upload-Sensors ein
+  - Wähle ein Portal aus [der Liste verfügbarer Portale im Forum](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688).
+  - Besuche das Portal, erstelle ein Konto, und öffne deine Einstellungen ("Settings").
+  - Kopiere die "API URL" (Adresse) und den "Personal API Key" (Schlüssel) in die Einstellungsseite des OpenBikeSensors. 
 
 * **Operation**
 
