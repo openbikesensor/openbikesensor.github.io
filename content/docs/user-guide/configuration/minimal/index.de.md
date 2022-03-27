@@ -55,7 +55,10 @@ Die Offsets zur größten Breite werden ab Sensor gemessen. Bei einem symmetrisc
 General menu: Einstellen der Offsets
 {{< /imgproc >}}
 
-Der API-Key aus dem Settings-Menü des eigenen Accounts im Portal [openbikesensor.hlrs.de](openbikesensor.hlrs.de) muss hier eingegeben werden. 
+Der "Personal API Key" aus dem Settings-Menü des eigenen Accounts im Portal
+muss hier eingegeben werden. Eine [Liste verfügbarer Portale befindet sich im
+Forum](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688).
+
 **Wichtig:** Speichern nicht vergessen.
 
 {{< imgproc OBS_Configuration_Menu_General_API-Key None >}}

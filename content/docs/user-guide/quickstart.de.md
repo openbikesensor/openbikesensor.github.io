@@ -38,7 +38,7 @@ Sobald du einen OpenBikeSensor hast, solltest du ein paar Dinge damit tun:
 9. Nach deiner Fahrt schalte das Gerät aus. Dafür halte den Knopf am Display
    gedrückt, während du den Strom abstellst. Nur so wird sichergestellt, dass
    keine Daten verloren gehen.
-10. Du kannst deine Daten [ins Portal](https://openbikesensor.hlrs.de/)
+10. Du kannst deine Daten [in ein Portal](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688)
     hochladen, indem du einen Account erstellst, den API-Key von den
     Profileinstellungen in die Konfiguration des OpenBikeSensors kopierst, und
     im Konfigurationsmodus auf "Upload tracks" drückst, oder den Knopf am

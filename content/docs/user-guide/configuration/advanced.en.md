@@ -61,9 +61,11 @@ Define your home location and diameter of the privacy zone in the corresponding 
 #### Upload User Data
 
 Setup for upload-server to collect track data
-- Preset for HLRS-project: openbikesensor.hlrs.de
-- To upload track data, you need a user account on the website openbikesensor.hlrs.de (or other compatible online-service)
-- API Key: Insert the individual API key from your user account at openbikesensor.hlrs.de in the field below the upload sensor
+
+- Choose a portal from [the list in the forums](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688)
+- Visit the portal, create a user account, and open your profile settings page
+- Copy and paste the API URL and Personal API Key into the settings page of
+  your OpenBikeSensor.
 
 #### Operation
 
