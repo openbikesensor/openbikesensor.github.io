@@ -38,18 +38,16 @@ Aufgabenbereiche. Auf Fragen antwortet, wer sich auskennt und die Zeit dazu hat
 
 ## Impressum
 
-Diese Webseite wird betrieben vom [Verein OpenBikeSensor]({{< relref "verein"
->}}), welcher derzeit in Gründung und noch kein "eingetragener Verein" ist.
-Neuigkeiten werden auf dieser Website veröffentlicht. Die Postanschrift des
-Vereins lautet:
+Diese Webseite wird betrieben vom [OpenBikeSensor e. V.]({{< relref "verein"
+>}}). Die Postanschrift des Vereins lautet:
 
 <address>
-OpenBikeSensor (Verein in Gründung)<br />
+OpenBikeSensor e. V.<br />
 Liststraße 43<br />
 70180 Stuttgart
 </address>
 
-Mit erfolgter Eintragung beim Amtsgericht Stuttgart wird die Vereinsregisternummer hier ergänzt. 
+Der Verein ist eingetragen beim Amtsgericht Stuttgart unter Vereinsregisternummer VR 725447.
 
 Der Verein wird vertreten durch den Vorstand. Vorsitzende des Vorstands sind:
 
