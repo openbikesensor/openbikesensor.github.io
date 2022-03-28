@@ -6,14 +6,19 @@ aliases:
 - /ev
 ---
 
-<div style="height: 120px;"></div>
-<div class="container content mb-5">
+<section class="row td-box td-box--1 position-relative">
+<div class="container text-center td-arrow-down">
 
-# OpenBikeSensor -- Verein in Gründung
+# OpenBikeSensor e. V.
+
+</div>
+</section>
+
+<section class="container content">
 
 Im Dezember 2021 haben wir gemeinsam einen Verein gegründet, um uns künftig die
-Arbeit zu erleichern. Der Verein trägt den Namen *OpenBikeSensor* und wird nach
-Eintragung im Vereinsregister Stuttgart den Zusatz "e. V." erhalten.
+Arbeit zu erleichern. Der Verein trägt den Namen *OpenBikeSensor e. V.* und ist
+beim Amtsgericht Stuttgart im Vereinsregister eingetragen.
 
 Die Gründung eines Vereins wurde speziell für die Vereinfachung rechtlicher
 Fragen diskutiert und angestrebt. Dazu zählen hauptsächlich die
@@ -28,7 +33,7 @@ können, um vor allem Einzelpersonen leichter mit Sensoren ausstatten zu können
 Möglicherweise kann der Verein auch Fördergelder beantragen bzw. erhalten und
 für den Vereinszweck aufwenden.
 
-## Vereinszweck
+### Vereinszweck
 
 Der Vereinszweck ist in der Satzung festgelegt und lautet:
 
@@ -44,18 +49,19 @@ Der Vereinszweck ist in der Satzung festgelegt und lautet:
 >
 > -- *Quelle: Gründungssatzung des Vereins OpenBikeSensor*
 
-## Mitgliedschaft
+### Mitgliedschaft
 
 Allen natürlichen und juristischen Personen steht es frei, einen Antrag auf
 Aufnahme in den neuen Verein beim Vorstand zu stellen. In Kürze werden wir
-dafür ein Antragsformular und eine Kontaktmöglichkeit auf dieser Seite
-bereitstellen.
+dafür ein Antragsformular auf dieser Seite bereitstellen. Zur Kontaktaufnahme
+mit dem Vorstand kann die E-Mail-Adresse aus dem [Impressum]({{< relref
+"contact" >}}) genutzt werden.
 
-Eine Mitgliedschaft im Verein ist jedoch **keine Voraussetzung für die
+Eine Mitgliedschaft im Verein ist ausdrücklich **keine Voraussetzung für die
 Mitarbeit** am Projekt. Die bisherige Community soll so, wie sie ist, bestehen
 bleiben und sich weiterhin selbst verwalten -- wer sich dazuzählt, gehört auch
 dazu -- wer sich einbringt, darf mit entscheiden! Das heißt, dass
 Entscheidungen, die keine rechtlichen oder finanziellen Auswirkungen haben, auf
 die übliche Art stattfinden.
 
-</div>
+</section>
