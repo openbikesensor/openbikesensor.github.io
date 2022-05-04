@@ -3,3 +3,6 @@ other = "Diese Seite gibt es noch nicht auf Deutsch, aber vielleicht sprichst Du
 
 [footer_all_rights_reserved]
 other = "– veröffentlicht unter LGPL-3.0"
+
+[print_entire_section]
+other = "Kapitel drucken"

@@ -1,4 +1,4 @@
-{{- $src := .Page.Resources.GetMatch (printf "**%s*" (.Get "src")) -}}
+{{- $src := default (resources.GetMatch (printf "**%s*" (.Get "src"))) (.Page.Resources.GetMatch (printf "**%s*" (.Get "src"))) -}}
 {{- $thumbnail := $src.Resize "1000x q75" -}}
 {{- $alt := .Get "alt" -}}
 <a href="{{ $src.Permalink }}" target="_blank" class="noprint">

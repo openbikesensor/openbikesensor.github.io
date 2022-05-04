@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{ hugo.Generator }}
+{{- $outputFormat := partial "outputformat.html" . -}}
+
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+
+{{ if and hugo.IsProduction (ne $outputFormat "print") -}}
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+{{ else -}}
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+{{ end -}}
+
+{{ partialCached "favicons.html" . }}
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/schema.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+{{ partialCached "head-css.html" . "asdf" }}
+
+{{ partial "hooks/head-end.html" . }}

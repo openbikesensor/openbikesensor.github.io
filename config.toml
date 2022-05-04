@@ -6,7 +6,7 @@ enableRobotsTXT = true
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 
-timeout = 50000 # uh oh
+timeout = 500000 # uh oh
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
@@ -51,7 +51,7 @@ anchor = "smart"
 privacyEnhanced = true
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+# id = "UA-00000000-0"
 
 # Language configuration
 
@@ -66,7 +66,6 @@ weight = 1
 title = "OpenBikeSensor"
 description = "Überholabstandsmessung für Radfahrende. Open source, open data, open science."
 languageName ="Deutsch"
-contentDir = "content/de"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
@@ -142,7 +141,7 @@ breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
-navbar_logo = false
+navbar_logo = true
 # Set to true to disable the About link in the site footer
 footer_about_disable = false
 

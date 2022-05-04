@@ -1,7 +1,9 @@
-<div class="slider noprint">
+{{ $class := .Get  "class" }}
+
+<div class="slider noprint {{ $class }}">
   {{ .Inner }}
 </div>
 
-<div class="print-only">
+<div class="print-only print-figures">
   {{ .Inner }}
 </div>

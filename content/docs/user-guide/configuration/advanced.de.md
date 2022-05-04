@@ -5,17 +5,17 @@ weight: 20
 
 Eine **sinnvolle Konfiguration** ist voreingestellt und sollte nur bei Bedarf verändert werden.
 
-|Einstellung|Wert|
-|---|---|
-| Breite des Lenkers | 70 cm |
-|Anzeigemodus | linker und rechter Abstand, Batteriestatus, Überholvorgänge
-|Privatzone | nicht gespeichert
-|URL zum OBS-Portal | `https://openbikesensor.hlrs.de`
-|WLAN Login | Netzwerkname, Netzwerkschlüssel
+| Einstellung        | Wert                                                                                                                                                 |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Breite des Lenkers | 70 cm                                                                                                                                                |
+| Anzeigemodus       | linker und rechter Abstand, Batteriestatus, Überholvorgänge                                                                                          |
+| Privatzone         | nicht gespeichert                                                                                                                                    |
+| URL zum OBS-Portal | `https://portal.openbikesensor.org` (siehe auch [Liste verfügbarer Portale](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688)) |
+| WLAN Login         | Netzwerkname, Netzwerkschlüssel                                                                                                                      |
 
 ## Anpassung der Konfiguration
 
-Die Konfiguration kann bei bestehender WLAN-Verbindung im Webbrowser vorgenommen werden. Dazu muss am Gerät der Konfigurationsmodus aktiviert werden. 
+Die Konfiguration kann bei bestehender WLAN-Verbindung im Webbrowser vorgenommen werden. Dazu muss am Gerät der Konfigurationsmodus aktiviert werden.
 
 ### Konfigurationsmodus einschalten
 
@@ -28,7 +28,7 @@ Es gibt zwei unterschiedliche Betriebsmodi.
   Beim ersten Start des Konfigurationsmodus oder wenn Sie sich außerhalb der
   Reichweite ihres WLANs befinden, öffnet der OpenBikeSensor einen eigenen
   WLAN-Access-Point:
-  
+
   * Der WLAN-Name beinhaltet die MAC-Adresse des Gerätes `OpenBikeSensor-xxxxxxxxxxxx`.
   * Das Standardpasswort lautet `12345678`.
   * Die Konfigurationsseite kann über [http://172.20.0.1](http://172.20.0.1) aufgerufen werden.
@@ -84,13 +84,13 @@ Es gibt zwei unterschiedliche Betriebsmodi.
 
   Einrichtung eines Upload-Servers zum Sammeln von aufgezeichneten Streckendaten.
 
-  * Voreinstellung für das HLRS-Projekt: `openbikesensor.hlrs.de`
-  * um Streckendaten hochzuladen, benötigen Sie ein Benutzerkonto auf der Website `openbikesensor.hlrs.de` (oder einem anderen kompatiblen Online-Dienst)
-  * API-Schlüssel: tragen Sie den individuellen API-Schlüssel aus ihrem Benutzerkonto bei `openbikesensor.hlrs.de` in das Feld unterhalb des Upload-Sensors ein
+  - Wähle ein Portal aus [der Liste verfügbarer Portale im Forum](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688).
+  - Besuche das Portal, erstelle ein Konto, und öffne deine Einstellungen ("Settings").
+  - Kopiere die "API URL" (Adresse) und den "Personal API Key" (Schlüssel) in die Einstellungsseite des OpenBikeSensors. 
 
 * **Operation**
 
-  * Enable Bluetooth – (ab Firmware Version 0.3dev.) aktivieren, wenn Sie den OpenBikeSensor mit einer kompatiblen Smartphone App, wie z.B. SimRa, verbinden wollen
+  * Enable Bluetooth – aktivieren, wenn Sie den OpenBikeSensor mit einer kompatiblen Smartphone App, wie z.B. SimRa, verbinden wollen
   * SimRa Mode – aktivieren, wenn die den OpenBikeSensor mit der SimRa App verbinden
 
 ### Privacy Zones

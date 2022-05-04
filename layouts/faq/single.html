@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div style="height: 120px"></div>
+
+<div class="container">
+
+<p class="mb-4">
+  <a href="{{ ref . "/faq" }}">
+    <i class="fa fa-arrow-left"></i>
+    Zurück zur FAQ
+  </a>
+</p>
+
+<h1 class="display-4 font-weight-light mb-4">
+  {{ .Title }}
+</h1>
+
+<div class="card card-body">
+  {{ .Content }}
+</div>
+
+</div>
+{{ end }}

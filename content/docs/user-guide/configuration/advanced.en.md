@@ -6,18 +6,18 @@ weight: 20
 ## How to enter configuration mode
 
 You can enter the configuration mode by pushing the button while turning on the
-device. 
+device.
 
 ### Access Point Mode
 
-- On first start of the configuration mode or if you are outside of the Range of your WiFi, the OpenBikeSensor will open a unique WiFi access point 
-- The access point is named after the MAC adress "OpenBikeSensor-xxxxxxxxxxxx" with the initial password "12345678" 
-- The configuration page can be found on "172.20.0.1" on the AP 
+- On first start of the configuration mode or if you are outside of the Range of your WiFi, the OpenBikeSensor will open a unique WiFi access point
+- The access point is named after the MAC adress "OpenBikeSensor-xxxxxxxxxxxx" with the initial password "12345678"
+- The configuration page can be found on "172.20.0.1" on the AP
 
 ### WiFi Mode
-- It might be neccessary to de-activate the mobile data on your mobile phone to access this page.  
-- OBS can also connect to an existing WiFi, if credentials were entered in a previous configuration (see WiFi Settings) 
-- Connected to an existing WiFi, the IP adress of the configuration page is shown on the device's display. 
+- It might be neccessary to de-activate the mobile data on your mobile phone to access this page.
+- OBS can also connect to an existing WiFi, if credentials were entered in a previous configuration (see WiFi Settings)
+- Connected to an existing WiFi, the IP adress of the configuration page is shown on the device's display.
 
 ## Structure of the Configuration Menus
 
@@ -33,12 +33,12 @@ You could define, in which way your device will acknowledge a valid GPS fix and 
 
 #### Generic Display
 
-- flip the display, if you need to mount it upside down 
+- flip the display, if you need to mount it upside down
 - invert the display bright / dark parts, which might help in bright sunlight.
 
 #### Measurement Display
 
-Here are several options, which values you might want to see on your display. 
+Here are several options, which values you might want to see on your display.
 - "simple mode" – display only of measurement to the left
 - Show left / right measurement
 - Show satellite – display of number of gps satellites recognized by the device
@@ -46,7 +46,7 @@ Here are several options, which values you might want to see on your display.
 - Show velocity – display of actual speed (quite rough because of slow
   measurement intervals)
 - Show confirmation stats – counts button press and confirmed detection of
-  surpassing events 
+  surpassing events
 - Show nerd details for distance sensors – display of raw data of sensors and
   number of measuring events within one second (helpful for troubleshooting)
 
@@ -61,13 +61,15 @@ Define your home location and diameter of the privacy zone in the corresponding 
 #### Upload User Data
 
 Setup for upload-server to collect track data
-- Preset for HLRS-project: openbikesensor.hlrs.de
-- To upload track data, you need a user account on the website openbikesensor.hlrs.de (or other compatible online-service) 
-- API Key: Insert the individual API key from your user account at openbikesensor.hlrs.de in the field below the upload sensor
+
+- Choose a portal from [the list in the forums](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688)
+- Visit the portal, create a user account, and open your profile settings page
+- Copy and paste the API URL and Personal API Key into the settings page of
+  your OpenBikeSensor.
 
 #### Operation
 
-- Enable Bluetooth – (from Firmware version 0.3dev.) check if you want to
+- Enable Bluetooth – check if you want to
   connect your Openbiksesensor to a compatible Smartphone App s.a. SimRa
 - SimRa Mode – check if you are connecting the Openbikesensor with the SimRa
   App

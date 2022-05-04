@@ -30,6 +30,17 @@ Wenn ein konfiguriertes WLAN in Reichweite ist, verbindet sich der OpenBikeSenso
 
 Nur in einem WLAN mit Internet funktioniert der Upload der Daten, der auch direkt vom OpenBikeSensor ausgelöst werden kann durch Drücken und Festhalten des Knopfes
 
+## Login in das Konfigurationsmenü
+Seit der Version 0.6.x wird eine HTTPS Verbindung angeboten und der Zugang zum Webinterface durch eine PIN gesichert.
+
+* Um das Konfigurationsmenü zu öffnen auf **go to https** klicken.
+  * (Seit Version 0.6.x) Bei der Verwendung von HTTPS ist eine Zertifikatswarnung zu erwarten, die abgenickt werden kann oder die man durch Import des Zertifikats in den Browser zum Schweigen gebracht bringen kann. Das Zertifikat wird im Dialog zum Download angeboten.
+  * (Seit Version 0.7.x) Statt **go to https** kann die Warnung durch **enable unencrypted access** umgangen werden. Dies sollte nur in sicheren Drahtlosnetzen verwendet werden (Beispiel: eigenes Heimnetz).
+
+* Nach Auswahl des Konfigurationsmodus wird im Browser ein Nutzername und ein Passwort verlangt.
+  * **Benutzer:**: `obs` (Anmerkung: der Benutzername wird nicht überprüft und die einzige Bedingung ist, dass die Zeichenfolge nicht leer gelassen wird)
+  * **Passwort:** wird im Display des OBS angezeigt.
+
 ## Wichtige Einstellungen im Konfigurationsmenü
 
 ### General
@@ -44,7 +55,10 @@ Die Offsets zur größten Breite werden ab Sensor gemessen. Bei einem symmetrisc
 General menu: Einstellen der Offsets
 {{< /imgproc >}}
 
-Der API-Key aus dem Settings-Menü des eigenen Accounts im Portal [openbikesensor.hlrs.de](openbikesensor.hlrs.de) muss hier eingegeben werden. 
+Der "Personal API Key" aus dem Settings-Menü des eigenen Accounts im Portal
+muss hier eingegeben werden. Eine [Liste verfügbarer Portale befindet sich im
+Forum](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688).
+
 **Wichtig:** Speichern nicht vergessen.
 
 {{< imgproc OBS_Configuration_Menu_General_API-Key None >}}

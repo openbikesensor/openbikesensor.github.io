@@ -1,0 +1,29 @@
+{{ $jsJquery := resources.Get "js/jquery-3.5.1.min.js" }}
+{{ $jsPopper := resources.Get "js/popper.min.js" }}
+{{ $jsBootstrap := resources.Get "js/bootstrap.min.js" }}
+{{ $jsVendor := (slice $jsJquery $jsPopper $jsBootstrap) | resources.Concat "js/vendor.js" }}
+
+{{ if .Site.IsServer }}
+<script src="{{ $jsVendor.RelPermalink }}"></script>
+{{ else }}
+{{ $jsVendor := $jsVendor | fingerprint }}
+<script src="{{ $jsVendor.RelPermalink }}" integrity="{{ $jsVendor.Data.Integrity }}" crossorigin="anonymous"></script>
+{{ end }}
+
+{{ $jsBase := resources.Get "js/base.js" }}
+{{ $jsAnchor := resources.Get "js/anchor.js" }}
+{{ if .Site.Params.offlineSearch }}
+{{ $jsSearch = resources.Get "js/offline-search.js" }}
+{{ end }}
+{{ $js := (slice $jsBase $jsAnchor) | resources.Concat "js/main.js" }}
+{{ if .Site.IsServer }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{ else }}
+{{ $js := $js | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+{{ end }}
+{{ if .Site.Params.prism_syntax_highlighting }}
+<!-- scripts for prism -->
+<script src='{{ "/js/prism.js" | relURL }}'></script>
+{{ end }}
+{{ partial "hooks/body-end.html" . }}
