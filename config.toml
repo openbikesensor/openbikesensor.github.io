@@ -86,7 +86,7 @@ time_format_blog = "02.01.2006"
 section = ["HTML", "print"]
 
 [params]
-copyright = "OpenBikeSensor contributors"
+copyright = "OpenBikeSensor Contributors"
 # privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
