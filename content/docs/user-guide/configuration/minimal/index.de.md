@@ -13,7 +13,7 @@ Zum direkten Nutzen eines neuen (oder sobald implementiert zurückgesetzen) Open
 
 ## Konfigurationsmodus einschalten
 
-Zum Aktivieren des Konfigurationsmodus bei gedrückter Taste das Gerät eingeschalten.
+Zum Aktivieren des Konfigurationsmodus bei gedrückter Taste das Gerät einschalten.
 
 Es gibt zwei unterschiedliche Betriebsmodi.
 
@@ -28,7 +28,7 @@ Ohne konfiguriertes WLAN in Reichweite öffnet der OpenBikeSensor einen eigenen 
 
 Wenn ein konfiguriertes WLAN in Reichweite ist, verbindet sich der OpenBikeSensor mit diesem und zeigt auf dem Display die IP-Adresse, über die im Browser eines Gerätes im gleichen WLAN die Konfigurationsseite erreicht wird. 
 
-Nur in einem WLAN mit Internet funktioniert der Upload der Daten, der auch direkt vom OpenBikeSensor ausgelöst werden kann durch Drücken und Festhalten des Knopfes
+Nur in einem WLAN mit Internet funktioniert der Upload der Daten, der auch direkt vom OpenBikeSensor ausgelöst werden kann, durch Drücken und Festhalten des Knopfes.
 
 ## Login in das Konfigurationsmenü
 Seit der Version 0.6.x wird eine HTTPS Verbindung angeboten und der Zugang zum Webinterface durch eine PIN gesichert.
@@ -38,7 +38,7 @@ Seit der Version 0.6.x wird eine HTTPS Verbindung angeboten und der Zugang zum W
   * (Seit Version 0.7.x) Statt **go to https** kann die Warnung durch **enable unencrypted access** umgangen werden. Dies sollte nur in sicheren Drahtlosnetzen verwendet werden (Beispiel: eigenes Heimnetz).
 
 * Nach Auswahl des Konfigurationsmodus wird im Browser ein Nutzername und ein Passwort verlangt.
-  * **Benutzer:**: `obs` (Anmerkung: der Benutzername wird nicht überprüft und die einzige Bedingung ist, dass die Zeichenfolge nicht leer gelassen wird)
+  * **Benutzer:** `obs` (Anmerkung: der Benutzername wird nicht überprüft und die einzige Bedingung ist, dass die Zeichenfolge nicht leer gelassen wird)
   * **Passwort:** wird im Display des OBS angezeigt.
 
 ## Wichtige Einstellungen im Konfigurationsmenü
