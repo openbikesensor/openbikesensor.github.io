@@ -19,8 +19,8 @@ aliases:
 
 ## Für fast alle Angelegenheiten
 
-.. ist die [OpenBikeSensor Community]({{< relref
-"community" >}}) der richtige Anlaufpunkt. Bitte richte deine Fragen zu allen
+... ist die [OpenBikeSensor Community]({{< relref "community" >}}) der richtige
+Anlaufpunkt. Bitte richte deine Fragen zu allen
 Themen rund um technische Inhalte, Unterstützung bei der Beschaffung und dem
 Bau von OpenBikeSensor Geräten, die technische Weiterentwicklung, die Nutzung
 der Daten, und alle anderen Themen, die das Projekt voranbringen, über das
@@ -38,8 +38,8 @@ Aufgabenbereiche. Auf Fragen antwortet, wer sich auskennt und die Zeit dazu hat
 
 ## Impressum
 
-Diese Webseite wird betrieben vom [OpenBikeSensor e. V.]({{< relref "verein"
->}}). Die Postanschrift des Vereins lautet:
+Diese Webseite wird betrieben vom [OpenBikeSensor e. V.]({{< relref "verein" >}}).
+Die Postanschrift des Vereins lautet:
 
 <address>
 OpenBikeSensor e. V.<br />
