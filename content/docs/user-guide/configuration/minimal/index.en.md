@@ -33,7 +33,7 @@ Data can only be uploaded from a WLAN with Internet. This can also be triggered 
 Since version 0.6.x, an HTTPS connection is offered, and a PIN secures access to the web interface.
 
 * To open the configuration menu, click on **go to https**.
-* (Since version 0.6.x) When using HTTPS, a certificate warning is expected, which can be dismissed or silenced by importing the certificate into the browser. The certificate is presented for download in the dialog.
+  * (Since version 0.6.x) When using HTTPS, a certificate warning is expected, which can be dismissed or silenced by importing the certificate into the browser. The certificate is presented for download in the dialog.
   * (Since version 0.7.x) Instead of **go to https**, the warning can be bypassed by selecting **enable unencrypted access**. This should only be used in secure wireless networks (example: own home network).
 
 * After selecting the configuration mode, the browser will ask for a username and password.
