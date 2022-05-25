@@ -37,7 +37,7 @@ Since version 0.6.x, an HTTPS connection is offered, and a PIN secures access to
   * (Since version 0.7.x) Instead of **go to https**, the warning can be bypassed by selecting **enable unencrypted access**. This should only be used in secure wireless networks (example: own home network).
 
 * After selecting the configuration mode, the browser will ask for a username and password.
-  * **User:**: `obs` (Note: the username is not checked, and the only condition is that the string is not left blank).
+  * **User:** `obs` (Note: the username is not checked, and the only condition is that the string is not left blank).
   * **Password:** is shown in the display of the OBS.
 
 ## Important settings in the configuration menu
