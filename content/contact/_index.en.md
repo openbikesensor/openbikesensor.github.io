@@ -60,6 +60,6 @@ for(var ffxidl=["ZQ","aA","bQ","cw","Lg","cw","IA","cw","ZQ","LQ","Ig","cg","Ig"
 // --></script><noscript>Please enable JavaScript to see the email address (<a href="https://www.email-encoder.com/enablejs/" target="_blank" rel="noopener noreferrer">How-to</a>).</noscript>.
 
 The community manages these mailboxes, and received requests may be published for discussion in the forum or through other channels.
-The board handles content that must be treated as confidential (see above).
+The board (see above) handles content that must be treated as confidential.
 
 </section>
