@@ -21,7 +21,7 @@ aliases:
 
 ... the [OpenBikeSensor Community]({{< relref "community" >}}) is the place to go. Please direct all of your questions around technical content and development, support for procurement and building OpenBikeSensor devices, all questions about data and its uses,  and all other topics that advance the project to the community forums.
 
-The community consists of a loose bunch of interested people who volunteer their time and skills as best they can. We, therefore, do not maintain any binding personnel responsibilities for specific areas of work. Questions are answered by those who know and have the time to answer them -- and that works extremely well for us. Don't be afraid to ask publicly ask for help -- many others will benefit as well.
+The community consists of a loose bunch of interested people who volunteer their time and skills as best they can. We, therefore, do not maintain any binding personnel responsibilities for specific areas of work. Questions are answered by those who know and have the time to answer them -- and that works extremely well for us. Don't be afraid to ask publicly for help -- many others will benefit as well.
 
 </section>
 <section class="container content">
