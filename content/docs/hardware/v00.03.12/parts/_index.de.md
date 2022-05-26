@@ -7,7 +7,7 @@ aliases:
 - /bauteile/v00.03.12
 ---
 
-{{< include-markdown-partial "parts-notes.md" >}}
+{{< include-markdown-partial "parts-notes.de.md" >}}
 
 ## Bauteile
 
@@ -232,4 +232,4 @@ aliases:
 </table>
 
 
-{{< include-markdown-partial "parts-tools.md" >}}
+{{< include-markdown-partial "parts-tools.de.md" >}}
