@@ -10,7 +10,7 @@ aliases:
 Diese Version des PCB ist veraltet. Neue Bestellungen sollten mit der aktuellsten Version durchgeführt werden.
 {{% /pageinfo %}}
 
-{{< include-markdown-partial "parts-notes.md" >}}
+{{< include-markdown-partial "parts-notes.de.md" >}}
 
 ## Bauteile
 
@@ -241,4 +241,4 @@ Diese Version des PCB ist veraltet. Neue Bestellungen sollten mit der aktuellste
 </table>
 
 
-{{< include-markdown-partial "parts-tools.md" >}}
+{{< include-markdown-partial "parts-tools.de.md" >}}
