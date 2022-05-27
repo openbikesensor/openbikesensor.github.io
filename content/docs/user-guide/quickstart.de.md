@@ -26,7 +26,7 @@ Sobald du einen OpenBikeSensor hast, solltest du ein paar Dinge damit tun:
    OpenBikeSensor erwartet eine Fat32 Partition, SD-Karten werden üblicherweise
    mit einer Fat32 Partition ausgeliefert, so dass sie im OpenBikeSensor direkt
    Benutzt werden können.
-6. Lade den Akku des Gerätes mit einem USB-C Kabel und einem normalen
+5. Lade den Akku des Gerätes mit einem USB-C Kabel und einem normalen
    USB-Ladegerät auf. Die LED am Lademodul leuchtet rot während des Ladens und
    wird blau, wenn der Akku voll ist. 
 6. Schalte das Gerät ein. Warte bis GPS-Koordinaten vorhanden sind. Dies kann
