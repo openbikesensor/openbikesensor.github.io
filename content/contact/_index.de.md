@@ -19,8 +19,8 @@ aliases:
 
 ## Für fast alle Angelegenheiten
 
-... ist die [OpenBikeSensor Community]({{< relref "community" >}}) der richtige
-Anlaufpunkt. Bitte richte deine Fragen zu allen
+.. ist die [OpenBikeSensor Community]({{< relref
+"community" >}}) der richtige Anlaufpunkt. Bitte richte deine Fragen zu allen
 Themen rund um technische Inhalte, Unterstützung bei der Beschaffung und dem
 Bau von OpenBikeSensor Geräten, die technische Weiterentwicklung, die Nutzung
 der Daten, und alle anderen Themen, die das Projekt voranbringen, über das
@@ -38,8 +38,8 @@ Aufgabenbereiche. Auf Fragen antwortet, wer sich auskennt und die Zeit dazu hat
 
 ## Impressum
 
-Diese Webseite wird betrieben vom [OpenBikeSensor e. V.]({{< relref "verein" >}}).
-Die Postanschrift des Vereins lautet:
+Diese Webseite wird betrieben vom [OpenBikeSensor e. V.]({{< relref "verein"
+>}}). Die Postanschrift des Vereins lautet:
 
 <address>
 OpenBikeSensor e. V.<br />
@@ -68,8 +68,8 @@ for(var dcibss=["dA","QA","cw","Og","bQ","ZQ","PQ","YQ","ZQ","aQ","Lg","LQ",
 56,19,46,23,73,17,74,3,54,85,65,59,20,33,6,1,93,30,60,34,90,69,22,44,77,10,
 31,26,64,71,57,75,89,80,92,63,11,29,32,37,49,83,91,8,4,14,61,70,28,5,86,62,7,
 12,78,88,45,48,27,18,51,43,76,16,35,72,25,47,84,55,41,13,2,68,82,42,87,40,36,
-38,52,53,0],tftzqr=new Array,i=0;i<pbcshz.length;i++)tftzqr[pbcshz[i]]=dcibss
-[i];for(var i=0;i<tftzqr.length;i++)document.write(atob(tftzqr[i]+"=="));
+38,52,53,0],tftzqr=new Array,i=0;i<pbcshz.length;i++)tftzqr[pbcshz[i]]
+=dcibss[i];for(var i=0;i<tftzqr.length;i++)document.write(atob(tftzqr[i]+"=="));
 // --></script><noscript>Please enable JavaScript to see the email address 
 (<a href="https://www.email-encoder.com/enablejs/" target="_blank" 
 rel="noopener noreferrer">How-to</a>).</noscript>.
