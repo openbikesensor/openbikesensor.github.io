@@ -42,14 +42,14 @@ reads:
 >
 > The purpose of the statutes is realized in particular through
 > * Promotion and implementation of scientific research projects on traffic 
-    > safety and traffic infrastructure, especially non-motorized traffic.
+>   safety and traffic infrastructure, especially non-motorized traffic.
 > * Promoting the development and dissemination of technologies for the 
-    > objective measurement and evaluation of relevant data.
-* Making data and findings available to the public as open data.
-> Networking researchers, public authorities, and stakeholders to promote 
+>   objective measurement and evaluation of relevant data.
+> * Making data and findings available to the public as open data.
+> * Networking researchers, public authorities, and stakeholders to promote 
 > the usability of collected data.
-* Organizing public meetings and informational and educational events.
-* Public outreach
+> * Organizing public meetings and informational and educational events.
+> * Public outreach
 >
 > -- *Source: Founding statutes of the OpenBikeSensor* association
 
@@ -58,7 +58,7 @@ reads:
 All private individuals and legal entities are free to submit an application 
 for admission to the new association to the board of directors. Shortly we 
 will provide an application form for this purpose on this page. To contact 
-the board, you can use the e-mail address from the [imprint]({{< relref
+the board, you can use the e-mail address from the [About Us]({{< relref
 "contact" >}}).
 
 Membership in the association is explicitly **not a prerequisite to 
