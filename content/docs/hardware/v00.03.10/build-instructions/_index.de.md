@@ -5,6 +5,8 @@ aliases:
 - /bauanleitung/v00.03.10
 ---
 
+{{< print-qr-link >}}
+
 {{% alert title="Achtung" color="danger" %}}
 Diese Bauanleitung enthält möglicherweise noch Fehler, allerdings war es damit durchaus schon möglich den OpenBikeSensor zu bauen. Sammelbestellungen der benötigten Teile können über [das Forum]({{<relref "/community">}}) organisiert werden.
 {{% /alert %}}

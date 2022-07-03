@@ -6,7 +6,9 @@ aliases:
 - /bauanleitung/v00.03.12
 ---
 
-{{% alert title="Veraltete Bilder" color="danger" %}}
+{{< print-qr-link >}}
+
+{{% alert title="Veraltete Bilder" color="warning" %}}
 Die Bilder sind noch nicht angepasst für diese Version. Im Zweifel Texte beachten!
 {{% /alert %}}
 

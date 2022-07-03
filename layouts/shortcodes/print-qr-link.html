@@ -1,0 +1,18 @@
+{{ $urls := .Page.Aliases | append .Page.RelPermalink }}
+{{ $found := false }}
+
+{{ range $urls }}
+    {{ if not $found }}
+        {{ $name := replaceRE "(^-+|-+$)" "" (replaceRE "[^a-z0-9]+" "-" . ) }}
+        {{ $imgFile := printf "qr/%s.png"  $name }}
+        {{ $img := resources.Get $imgFile }}
+        {{ if $img }}
+            {{ $found = true }}
+            <div class="print-qr-link print-only">
+                <p>Diese Seite gibt es auch online unter</p>
+                <a href="{{ . | absURL }}">{{ . | absURL }}</a>
+                <img src="{{ $img.Permalink }}" />
+            </div>
+        {{ end }}
+    {{ end }}
+{{ end }}
