@@ -293,7 +293,8 @@ pre {
 }
 
 .alert.alert-info,
-.alert.alert-warning {
+.alert.alert-warning,
+.alert.alert-success {
   border: 0;
   border-radius: 4px;
   font-size: 1rem;
@@ -318,6 +319,15 @@ pre {
     color: #ed6a5a;
   }
 }
+
+.alert.alert-success {
+  background: #ccefc6;
+
+  .alert-heading {
+    color: #199f67;
+  }
+}
+
 
 .alert > ul:last-child,
 .alert > p:last-child {
