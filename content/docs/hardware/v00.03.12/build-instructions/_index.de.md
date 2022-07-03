@@ -747,86 +747,75 @@ dann braucht dieser später nicht mehr für diesen Schritt ausgebaut werden.
 Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}}).
 
 * Kabel und Halterung
-  - Displaykabel durch rechteckiges Loch einführen (der 5-polige JST-Stecker
-    passt diagonal hindurch).
-  - Etwa 5-10cm des Kabels im Gehäuse lassen.
-  - Die 4 Sechskant-Muttern einsetzen, Halterung mit Zugentlastung anbringen und
-    damit das Kabel fixieren. Noch nicht festziehen, nur sicherstellen dass die
-    Muttern nicht mehr herausfallen.
-  - Später werden wir das Kabel auf die richtige Länge ziehen und die Schrauben
-    dann fest anziehen.
-* Einen Ultraschallsensor in den Deckel einbauen.
-* PCB in Hauptgehäuse platzieren
-  - SD-Karte einlegen.
-  - ESP32 aufstecken.
+  - Die vier Sechskant-Muttern in die Wand des Gehäuses einsetzen (bei Gehäuse
+    mit zwei Halterungen sind es 8 Muttern).
+  - Falls du ein Gehäuse mit mehreren Montageöffnungen baust, entscheide dich, an
+    welcher Öffnung du die Halteklammer installieren willst. Diese Öffnung
+    führt auch später das Kabel. Die andere Öffnung wird mit dem Deckel 
+    (``AttachmentCover``) verschlossen.
+* PCB im Hauptgehäuse platzieren
+  - Zunächst die SD-Karte einlegen und den ESP32 aufstecken, dabei auf die
+    Polung achten (USB-Markierung mit Mikro-USB-Stecker auf ESP32 abgleichen)
+    und sicherstellen, dass die Pins nicht um ein oder zwei Löcher verrutscht
+    eingesteckt werden. 
   - Gesamtes Board in leichtem Winkel herabsenken, am Displaykabel vorbei
     navigieren, und auf Ausrichtung der USB-C Ladebuchse achten.
   - Bei Bedarf Unreinheiten des Gehäuses (vom 3D-Druck) entfernen, wenn das PCB
     daran hängen bleibt.
-  - Mit 3 Stück M3x6 oder M3x8 in Unterseite verschrauben.
-* Displaykabel in Gehäuse einstecken.
-  - Falls du ein Gehäuse mit mehreren Montageöffnungen baust, entscheide dich, an
-    welcher Öffnung du die Halteklammer installieren willst. Diese Öffnung
-    führt auch das Kabel. Die andere Öffnung wird mit dem Deckel 
-    ``AttachmentCover`` verschlossen.
+  - Mit 3 Stück M3x6 oder M3x8 im Gehäuse verschrauben.
+* Displaykabel in Gehäuse einstecken
+  - Führe das Displaykabel mit dem Stecker voran von außen in das Hauptgehäuse hinein.
+  - Die Halterung mit Zugentlastung anbringen und damit das Kabel fixieren.
+    Noch nicht festziehen, nur sicherstellen dass die Muttern nicht mehr
+    herausfallen.
   - Das Kabel sollte außen um die Elektronik herumgeführt werden, *nicht*
     zwischen dem GPS- und SD-Karten-Modul hindurch. Im neuen Gehäuse sollte
     dort genug Platz sein.
   - Jetzt zeigt sich auch, warum ca. 5cm Abisolierung hier sinnvoll ist, denn
     ohne Isolierung ist das Kabel flexibler.
-  - Stecker eindrücken (z.B. mit Pinzette)
+  - Stecker einsetzen (z.B. mit Pinzette)
   - Kabel so weit aus der Zugsicherung herausziehen, bis kein überschüssiges
     Kabel im Innenraum des Gehäuses ist, aber das Kabel nicht straff liegt.
-  - Schrauben der Zugsicherung/Halterung anziehen
+  - Schrauben der Zugsicherung bzw. Halterung nun fest anziehen.
 * GPS-Antenne einsetzen
-  - Kabel mit kleinem Stecker durch das kleine Loch fädeln.
-  - GPS-Antenne mit Schirmung nach unten, Keramik nach oben, in Aussparung einsetzen.
-  - Stecker in GPS-Board aufstecken (sehr filigran, aber auch schwer zu
-    stecken, z.B. mit Pinzette zusammendrücken, dabei auf richtigen Sitz achten
-    um den Stecker nicht zu beschädigen).
-  - GPS-Deckel auf Antenne aufschieben und mit 2 Stück M3x6 oder M3x8 fixieren.
+  - Kabel der Antenne mit kleinem Stecker durch das kleine Loch fädeln.
+  - GPS-Antenne mit Schirmung nach unten und Keramik nach oben in die
+    quadratische Aussparung einsetzen.
+  - Den Antennenstecker auf das GPS-Board aufstecken. Der Stecker ist sehr
+    filigran und schwer zu stecken, es geht gut ihn mit den Fingern zu
+    platzieren und mit einer Pinzette den Stecker und die GPS-Modulplatine
+    zusammenzudrücken. Dabei auf richtigen Sitz achten um den Stecker nicht zu
+    beschädigen.
+  - Den GPS-Deckel über die Antenne schieben und mit einer M3x6 oder M3x8
+    Schraube fixieren.
   - Falls das Antennenkabel nicht reicht, kann die GPS-Antenne mithilfe eines
     hinreichend langen Antennenkabels mit IPEX/U.FL Stecker verlängert werden.
     Hierzu:
-       - Wird der Metallschild des GPS moduls abgelötet
-       - Das neue Kabel wird vorsichtig durch Rollen unter Cuttermesser auf etwa
-         5-7mm abisoliert
-       - Die Schirmung wird zurückgeschoben
-       - Noch vorsichtiger wird die innere Isolierung durch ganz sanftes rollen
-         mit dem Cuttermesser abisoliert.
-       - Das kurze Kabel wird ab- und das neue, längere angelötet.
-       - Der Metallschild des Moduls wird wieder in ursprünglicher Ausrichtung
-         aufgelötet.
+       - Den Metallschild des GPS-Moduls ablöten.
+       - Das neue Kabel vorsichtig durch Rollen unter Cuttermesser auf etwa
+         5-7mm abisolieren.
+       - Die Schirmung zurückschieben.
+       - Noch vorsichtiger die innere Isolierung durch ganz sanftes Rollen
+         mit dem Cuttermesser abisolieren.
+       - Das kurze Kabel ab- und das neue, längere anlöten.
+       - Den Metallschild des Moduls wieder in ursprünglicher Ausrichtung
+         auflöten.
 * Schalter in Gehäuse einsetzen
   - Einschaltrichtung mit "I/O" Aufdruck des Gehäuses vergleichen.
-  - Wenn möglich mit der mitgelieferten Unterlegscheibe und Mutter fixieren.
-  - Andernfalls hält der Deckel den Schalter auch an Ort und Stelle, aber er
-    könnte etwas wackeln.
-  - Schalterkabel entlang der Gehäusewand zur Buchse führen. Möglichst
-    beide Adern verdrillen oder falls vorhanden zweiadriges Kabel
-    verwenden.
-  - Schalter einstecken.
+  - Möglich mit der mitgelieferten Unterlegscheibe und Mutter fixieren.
+  - Schalterkabel verdrillen.
+  - Kabel entlang der Gehäusewand zur Buchse führen und dort einstecken.
 * Sensoren einbauen
   - Auf der Rückseite des Sensors gibt es einen Pfeil, der mit "UP" die
     Richtung markiert, wo später oben sein soll.
   - Einen Sensor ins Hauptgehäuse einbauen, den anderen in den Deckel.
-  - Sensoren einstecken. Wenn möglich, den Sensor im Gehäuse an das nächste
+  - Sensoren einstecken. Der Sensor im Gehäuse an das ihm naheliegendste
     Sensorboard anschließen, den Sensor vom Deckel in das entferntere.
-  - Bei Phantommessungen auf den Sensoren hat es in einigen Fällen geholfen,
-    die Kabel der Sensoren möglichst weit voneinander entfernt zu führen:
-      - Deckelsensorkabel läuft an der Oberkante des ESP-seitigen Sensorboards
-        entlang.
-      - Gehäusesensorkabel möglichst weit vom Deckelsensor entfernt und von
-        unten zum Steckkontakt des hinteren Sensorboards führen. So sind
-        beide Sensorkabel möglichst weit vom jeweils entegengesetzten Board
-        entfernt.
-
 * Akku einbauen
   - Akku im Deckel mit Kabelbinder fixieren.
   - Einstecken. Polung beachten!
   - Möglicherweise überstehendes Kabel möglichst auf der Seite des GPS
-    verstauen. Beide Adern verdrillen und parallel legen oder falls
-    vorhanden zweiadriges Kabel verwenden.
+    verstauen. Beide Adern verdrillen und parallel legen.
 
 {{< slider >}}
   {{< slider-image
@@ -861,4 +850,11 @@ Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}})
     alt="Fertig!" >}}
 {{< /slider >}}
 
-Viel Spaß bei der [Nutzung]({{<relref "/docs/user-guide">}})!
+
+{{% alert title="Geschafft!" color="success" %}}
+Dein OpenBikeSensor ist nun fertig. Herzlichen Glückwunsch, wir wünschen dir
+viel Spaß bei der Nutzung!
+
+In der [Bedienungsanleitung]({{<relref "/docs/user-guide">}}) findest du
+weiterführende Anleitungen zu Themen wie Montage, Konfiguration und Aufzeichnung.
+{{% /alert %}}
