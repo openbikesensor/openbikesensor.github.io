@@ -302,10 +302,16 @@ pre {
   .alert-heading {
     font-size: 1.2rem;
   }
+
+  @media print {
+    border-width: 2px;
+    border-style: solid;
+  }
 }
 
 .alert.alert-info {
   background: #e1f5fe;
+  border-color: #1e88e5;
 
   .alert-heading {
     color: #1e88e5;
@@ -314,6 +320,7 @@ pre {
 
 .alert.alert-warning {
   background: #ffe7e4;
+  border-color: #ed6a5a;
 
   .alert-heading {
     color: #ed6a5a;
@@ -322,6 +329,7 @@ pre {
 
 .alert.alert-success {
   background: #ccefc6;
+  border-color: #199f67;
 
   .alert-heading {
     color: #199f67;
