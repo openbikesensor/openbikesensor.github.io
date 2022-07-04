@@ -150,6 +150,11 @@ pre {
     columns: 2;
     column-gap: 4rem;
 
+    p, ul, ol, .alert {
+        line-height: 1.7em;
+        font-size: 11pt;
+    }
+
     > h1,
     > h2,
     > h3,
@@ -172,6 +177,7 @@ pre {
     }
 
     h2 {
+        break-before: column;
       font-size: 1.6em;
     }
     h3 {
@@ -184,9 +190,10 @@ pre {
     }
 
     figure {
-        display: inline-block;
+        // display: inline-block;
+        display: block;
         position: relative;
-        width: calc(50% - 0.25rem - 2px);
+        // width: calc(50% - 0.25rem - 2px);
         vertical-align: top;
         padding: 0.5rem;
         margin: 0;
@@ -234,6 +241,7 @@ pre {
 
     .alert {
       border-width: 2px;
+      break-inside: avoid;
     }
 
     > table {

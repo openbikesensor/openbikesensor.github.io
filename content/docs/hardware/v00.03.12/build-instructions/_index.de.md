@@ -64,10 +64,12 @@ anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
     alt="Bauteile bereitlegen" >}}
   {{< slider-image
     src="PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg"
-    alt="Buchsenleite wenn nötig auf 15 Pins zuschneiden" >}}
+    alt="Buchsenleite wenn nötig auf 15 Pins zuschneiden" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/01_Pin_Headers/DSC07901.JPG"
-    alt="Buchsenleisten auf ESP32 aufstecken" >}}
+    alt="Buchsenleisten auf ESP32 aufstecken"
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/01_Pin_Headers/DSC07902.JPG"
     alt="Gemeinsam auf dem PCB platzieren. Ausrichtung der abwechselnden Pins (innen) prüfen." >}}
@@ -76,13 +78,15 @@ anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
     alt="Zunächst an einem Eckpunkt fixieren" >}}
   {{< slider-image
     src="v00.03.12/01_Pin_Headers/DSC07905.JPG"
-    alt="Ausrichten und auf der gegenüberliegenden Seite ebenfalls fixieren" >}}
+    alt="Ausrichten und auf der gegenüberliegenden Seite ebenfalls fixieren"
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/01_Pin_Headers/DSC07913.JPG"
     alt="Alle äußeren Pins festlöten (beidseitig)" >}}
   {{< slider-image
     src="v00.03.12/01_Pin_Headers/DSC07915.JPG"
-    alt="Alle äußeren Pins festgelötet" >}}
+    alt="Alle äußeren Pins festgelötet"
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/01_Pin_Headers/DSC07926.JPG"
     alt="Dann den ESP32 entfernen und die Innenseite verlöten" >}}
@@ -108,7 +112,8 @@ anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
 {{< slider >}}
   {{< slider-image
     src="PCB00.03.10_03_Spannunsversorgung_01_Stiftleisten_ablaengen.jpg"
-    alt="Stiftleisten ablängen" >}}
+    alt="Stiftleisten ablängen" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/02_Regulator/DSC07928.JPG"
     alt="Bauteile bereitlegen" >}}
@@ -117,7 +122,8 @@ anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
     alt="Board platzieren und mit Stiften ausrichten, anderes Pad wie SMD verlöten" >}}
   {{< slider-image
     src="v00.03.12/02_Regulator/DSC07935.JPG"
-    alt="Freie Kontakte löten" >}}
+    alt="Freie Kontakte löten"
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/02_Regulator/DSC07938.JPG"
     alt="Stifte entfernen und restliche Kontakte löten" >}}
@@ -146,19 +152,22 @@ anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
     alt="Auf Oberseite verlöten" >}}
   {{< slider-image
     src="v00.03.12/03_Charger/DSC07954.JPG"
-    alt="Alle Stifte auf Oberseite verlötet" >}}
+    alt="Alle Stifte auf Oberseite verlötet" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/03_Charger/DSC07959.JPG"
     alt="Schwarze Plastikteile von Stiftleiste entfernen" >}}
   {{< slider-image
     src="v00.03.12/03_Charger/DSC07961.JPG"
-    alt="Schwarze Plastikteile von Stiftleiste entfernt" >}}
+    alt="Schwarze Plastikteile von Stiftleiste entfernt" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/03_Charger/DSC07964.JPG"
     alt="Oberseite verlöten" >}}
   {{< slider-image
     src="v00.03.12/03_Charger/DSC07968.JPG"
-    alt="Stifte kürzen" >}}
+    alt="Stifte kürzen" 
+    noprint=true >}}
 {{< /slider >}}
 
 ## Schritt 4: Widerstände
@@ -202,7 +211,8 @@ anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
     alt="R7: Die zweite Seite verlöten" >}}
   {{< slider-image
     src="v00.03.12/04_Resistors_R7/DSC07890.JPG"
-    alt="R7: Fertig montiert" >}}
+    alt="R7: Fertig montiert" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/04_Resistors_R6/DSC07891.JPG"
     alt="Ein Widerstand (R6) platziert" >}}
@@ -237,10 +247,12 @@ anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
     alt="Auf der Rückseite umbiegen und verlöten" >}}
   {{< slider-image
     src="v00.03.12/05_Caps/DSC07979.JPG"
-    alt="Drähte kürzen" >}}
+    alt="Drähte kürzen" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/05_Caps/DSC07984.JPG"
-    alt="Widerstände und Kondensatoren fertig platziert" >}}
+    alt="Widerstände und Kondensatoren fertig platziert" 
+    noprint=true >}}
 {{< /slider >}}
 
 ## Schritt 6: Lötpunkt / Brücke
@@ -358,7 +370,8 @@ vermutlich überspringen (bitte nachfragen) und direkt mit dem Einbau beginnen.
 {{< slider >}}
   {{< slider-image
     src="v00.03.12/09_Sensor_Boards/DSC08012.JPG"
-    alt="Ein einzelnes Sensorboard" >}}
+    alt="Ein einzelnes Sensorboard" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/09_Sensor_Boards/DSC08013.JPG"
     alt="Das weiße Kunststoffteil entfernen" >}}
@@ -413,13 +426,15 @@ vermutlich überspringen (bitte nachfragen) und direkt mit dem Einbau beginnen.
 {{< slider >}}
   {{< slider-image
     src="v00.03.12/10_SD_Module/DSC08025.JPG"
-    alt="SD-Karten Modul und Stiftleiste" >}}
+    alt="SD-Karten Modul und Stiftleiste" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/10_SD_Module/DSC08026.JPG"
-    alt="Stiftleiste in Modul einstecken (Richtung beachten)" >}}
+    alt="Stiftleiste in Modul einstecken (Richtung beachten)" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/10_SD_Module/DSC08027.JPG"
-    alt="Stiftleiste in Modul verlöten" >}}
+    alt="Stiftleiste in Modul verlöten (Richtung beachten)" >}}
   {{< slider-image
     src="v00.03.12/10_SD_Module/DSC08028.JPG"
     alt="Modul platzieren" >}}
@@ -697,10 +712,12 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht unbedingt durch das Gehäu
 {{< slider >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_05_verschiedene_Displays_vom_gleichen_Lieferanten.jpg"
-    alt="Verschiedene Displays vom gleichen Lieferanten" >}}
+    alt="Verschiedene Displays vom gleichen Lieferanten" 
+    noprint=true >}}
   {{< slider-image
     src="PCB00.03.10_17_Display_07a_Display_mit_Seitenschneider_stutzen.jpg"
-    alt="Wenn nötig, Display mit Seitenschneider stutzen" >}}
+    alt="Wenn nötig, Display mit Seitenschneider stutzen" 
+    noprint=true >}}
   {{< slider-image
     src="v00.03.12/17_Display_Assembly/DSC08060.JPG"
     alt="Display in Gehäuse einpassen, ohne Gewalt" >}}
@@ -738,7 +755,8 @@ Vor dem Einbau ins Gehäuse testen wir die Elektronik in dieser Reihenfolge:
 {{< slider >}}
   {{< slider-image
     src="v00.03.12/18_Testing/DSC08091.JPG"
-    alt="Die Elektronik funktioniert" >}}
+    alt="Die Elektronik funktioniert" 
+    noprint=true >}}
 {{< /slider >}}
 
 ## Schritt 19: Zusammenbau
@@ -833,13 +851,7 @@ Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}})
     alt="PCB festschrauben" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_03_Halterung_und_Zugsicherung_festschrauben.jpg"
-    alt="Halterung und Zugentlastung (mit Kabelauslass Richtung Gehäusedeckel) festschrauben" >}}
-  {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_04_Abschirmung_vorbereiten.jpg"
-    alt="Abschirmung vorbereiten (8-10 Lagen Alufolie mit Klebeband isoliert oder eingeschweißt, alternativ der zugeschnittene Boden eines Teelichts, umwickelt mit einem Teil eines Gefrierbeutels)" >}}
-  {{< slider-image
-    src="PCB00.03.10_20_Zusammenbau_05_Abschirmung_platzieren.jpg"
-    alt="Abschirmung zwischen den Sensorboards platzieren und vor Einbau des Ein/Ausschalters innenliegenden Federring entfernen, um Einbauhöhe nicht zu überschreiten" >}}
+    alt="Halterung und Zugentlastung festschrauben" >}}
   {{< slider-image
     src="PCB00.03.10_20_Zusammenbau_06_GPS-Deckel_festschrauben_Orientierung_Halterung.jpg"
     alt="GPS-Deckel festschrauben" >}}
@@ -848,7 +860,8 @@ Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}})
     alt="Deckel festschrauben" >}}
   {{< slider-image
     src="v00.03.12/19_Assembly/DSC08101.JPG"
-    alt="Fertig!" >}}
+    alt="Fertig!"
+    noprint=true >}}
 {{< /slider >}}
 
 
