@@ -562,24 +562,24 @@ einige Versuche benötigst und so immer weniger Kabellänge übrig ist.
 
 ## Schritt 15: Gehäuse vorbereiten
 
-* Einpressmuttern ("heat-set inserts") einbauen:
+* Einpressgewinde ("heat-set inserts") einbauen:
   - Den Lötkolben auf ca. 180-220°C einstellen, gut reinigen (kein Lot an der
     Spitze). Nach Möglichkeit eigene Spitze für diese Aufgabe verwenden, und
     danach wieder wechseln.
-  - Einpressmutter so weit wie möglich von Hand in das vorgesehene Loch drücken.
+  - Einpressgewinde so weit wie möglich von Hand in das vorgesehene Loch drücken.
   - Lötkolben auflegen, nur sehr leichten Druck ausüben.
-  - Mutter so senkrecht wie möglich behutsam versinken lassen.
-  - Die Mutter sollte lieber etwas zu tief sitzen, als über den Rand
+  - Gewinde so senkrecht wie möglich behutsam versinken lassen.
+  - Das Gewinde sollte lieber etwas zu tief sitzen, als über den Rand
     überzustehen, um die Gehäuseteile bündig miteinander verbinden zu können.
-  - Die Muttern mit denen das PCB befestigt wird nicht zu tief versenken, sonst
+  - Die Gewinde, mit denen das PCB befestigt wird, nicht zu tief versenken, sonst
     bildet sich eine Ausbuchtung auf der Außenseite.
-  - **Vorsicht:** Die Einpressmuttern sind noch lange nach dem Einsetzen heiß
+  - **Vorsicht:** Die Einpressgewinde sind noch lange nach dem Einsetzen heiß
     und kühlen erst langsam ab. Gehäuse am besten einige Minuten zur Seite legen.
-* Einpressmuttern hier platzieren:
-  * 3 Muttern in Hauptgehäuse für das PCB (mit Montagelöchern der Platine vergleichen)
-  * 5 Muttern in Hauptgehäuse für Hauptdeckel
-  * 1 Mutter in Hauptgehäuse beim GPS-Deckel
-  * 3 Muttern in Displaygehäuse
+* Einpressgewinde hier platzieren:
+  * 3 Stück in Hauptgehäuse für das PCB (mit Montagelöchern der Platine vergleichen)
+  * 5 Stück in Hauptgehäuse für Hauptdeckel
+  * 1 Stück in Hauptgehäuse beim GPS-Deckel
+  * 3 Stück in Displaygehäuse
 * Kleine Würfelmagnete in USB-Abdeckung einsetzen
   * Wenn Kompatibilität mit anderen OBS gewünscht ist, muss auf gleiche Polung
     geachtet werden, da sonst die Abdeckungen nicht austauschbar sind.
@@ -595,10 +595,10 @@ einige Versuche benötigst und so immer weniger Kabellänge übrig ist.
 {{< slider >}}
   {{< slider-image
     src="v00.03.12/15_Prepare_Case/DSC08072.JPG"
-    alt="Einpressmuttern in Displaygehäuse einschmelzen" >}}
+    alt="Einpressgewinde in Displaygehäuse einschmelzen" >}}
   {{< slider-image
     src="v00.03.12/15_Prepare_Case/DSC08074.JPG"
-    alt="Hauptgehäuse mit Einpressmuttern" >}}
+    alt="Hauptgehäuse mit Einpressgewinde" >}}
   {{< slider-image
     src="v00.03.12/15_Prepare_Case/DSC08075.JPG"
     alt="USB-Abdeckung mit Magneten" >}}
@@ -690,8 +690,8 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht unbedingt durch das Gehäu
   * Wenn Kompatibilität mit anderen OBS gewünscht ist, muss auf gleiche Polung
     geachtet werden, da sonst die Halterungen nicht austauschbar sind.
 * Gehäuseunterteil aufsetzen und mit Schrauben fixieren.
-* Zugentlastung mit M3x8 Schrauben und Muttern fixieren, dabei auf sechseckige Fixierung
-  für Sechskant-Muttern auf jeweils einer Seite der Zugentlastung achten.
+* Zugentlastung mit M3x8 Schrauben und Sechskantmuttern fixieren, dabei auf
+  sechseckige Fixierung auf jeweils einer Seite der Zugentlastung achten.
 
 {{< slider >}}
   {{< slider-image
@@ -747,8 +747,8 @@ dann braucht dieser später nicht mehr für diesen Schritt ausgebaut werden.
 Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}}).
 
 * Kabel und Halterung
-  - Die vier Sechskant-Muttern in die Wand des Gehäuses einsetzen (bei Gehäuse
-    mit zwei Halterungen sind es 8 Muttern).
+  - Die vier Sechskantmuttern in die Wand des Gehäuses einsetzen (bei Gehäuse
+    mit zwei Halterungen sind es acht Sechskantmuttern).
   - Falls du ein Gehäuse mit mehreren Montageöffnungen baust, entscheide dich, an
     welcher Öffnung du die Halteklammer installieren willst. Diese Öffnung
     führt auch später das Kabel. Die andere Öffnung wird mit dem Deckel 
