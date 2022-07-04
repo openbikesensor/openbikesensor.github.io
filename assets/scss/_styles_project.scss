@@ -502,36 +502,34 @@ footer {
     border: 1px solid black;
     background: white;
 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
     padding: 1mm;
-    padding-left : 2rem;
+    padding-left: 4mm;
 
-    display: inline-grid;
-    column-gap: 1rem;
-    grid-template-columns: 1fr auto;
-    grid-template-rows: 1fr auto auto 1fr;
-    grid-template-areas: 
-        ". img"
-        "p img"
-        "a img"
-        ". img";
-
-    p { grid-area: p;}
-    a { grid-area: a;}
     img { 
-        grid-area: img; 
         width: 3cm;
+        flex:  0 0 auto;
     }
 
-    p, a {
-        font-size: 1.2rem;
+    p { 
+        flex: 1 1 0;
         margin: 0;
+        padding: 0;
+        font-size: 11pt;
+        overflow: hidden;
+        word-wrap: break-word;
     }
 
     a {
         color: inherit;
+        display: block;
         text-decoration: inherit;
         font-weight: bold;
         font-family: $font-family-monospace;
+        white-space: wrap;
+        letter-spacing: -0.5pt;
     }
 }
 

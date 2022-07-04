@@ -1,5 +1,5 @@
 ---
-title: Bauanleitung für v00.03.12
+title: Bauanleitung für den OpenBikeSensor v00.03.12
 linkTitle: Bauanleitung
 aliases:
 - /bauanleitung
