@@ -768,6 +768,11 @@ Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}})
 * Kabel und Halterung
   - Die vier Sechskantmuttern in die Wand des Gehäuses einsetzen (bei Gehäuse
     mit zwei Halterungen sind es acht Sechskantmuttern).
+  - Sind die Sechskantlöcher eng, die Muttern mit der längeren M3 Schraube
+    von der Außenseite in die Öffnung ziehen.
+  - Ist ein Sechskantloch auch dafür zu eng, vorsichtig mit dem Lötkolben
+    nachdrücken, und die Mutter von der Außenseite mit der längeren Schraube führen.
+    Vermeide dabei, mit dem Lötkolben das Plastik zu berühren.
   - Falls du ein Gehäuse mit mehreren Montageöffnungen baust, entscheide dich, an
     welcher Öffnung du die Halteklammer installieren willst. Diese Öffnung
     führt auch später das Kabel. Die andere Öffnung wird mit dem Deckel 
@@ -821,14 +826,14 @@ Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}})
          auflöten.
 * Schalter in Gehäuse einsetzen
   - Einschaltrichtung mit "I/O" Aufdruck des Gehäuses vergleichen.
-  - Möglich mit der mitgelieferten Unterlegscheibe und Mutter fixieren.
+  - Möglichst mit der mitgelieferten Unterlegscheibe und Mutter fixieren.
   - Schalterkabel verdrillen.
   - Kabel entlang der Gehäusewand zur Buchse führen und dort einstecken.
 * Sensoren einbauen
   - Auf der Rückseite des Sensors gibt es einen Pfeil, der mit "UP" die
     Richtung markiert, wo später oben sein soll.
   - Einen Sensor ins Hauptgehäuse einbauen, den anderen in den Deckel.
-  - Sensoren einstecken. Der Sensor im Gehäuse an das ihm naheliegendste
+  - Sensoren einstecken. Den Sensor im Gehäuse an das ihm naheliegendste
     Sensorboard anschließen, den Sensor vom Deckel in das entferntere.
 * Akku einbauen
   - Akku im Deckel mit Kabelbinder fixieren.
