@@ -782,8 +782,8 @@ Folge dafür [der Anleitung für dein Betriebssystem]({{< relref "firmware" >}})
     Polung achten (USB-Markierung mit Mikro-USB-Stecker auf ESP32 abgleichen)
     und sicherstellen, dass die Pins nicht um ein oder zwei Löcher verrutscht
     eingesteckt werden. 
-  - Gesamtes Board in leichtem Winkel herabsenken, am Displaykabel vorbei
-    navigieren, und auf Ausrichtung der USB-C Ladebuchse achten.
+  - Gesamtes Board in leichtem Winkel herabsenken, auf Ausrichtung der USB-C
+    Ladebuchse achten. Bei Wiederzusammenbau am Displaykabel vorbei navigieren.
   - Bei Bedarf Unreinheiten des Gehäuses (vom 3D-Druck) entfernen, wenn das PCB
     daran hängen bleibt.
   - Mit 3 Stück M3x6 oder M3x8 im Gehäuse verschrauben.
