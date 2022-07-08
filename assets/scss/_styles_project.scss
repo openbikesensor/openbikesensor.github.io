@@ -125,11 +125,15 @@ pre {
   max-width: 100%;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 @media print {
   html,
   body {
     font-size: 10pt;
     line-height: 1.3;
+
+    font-family: 'Libre Baskerville';
   }
 
   .noprint {
@@ -145,6 +149,11 @@ pre {
     max-width: 100%;
     columns: 2;
     column-gap: 4rem;
+
+    p, ul, ol, .alert {
+        line-height: 1.7em;
+        font-size: 11pt;
+    }
 
     > h1,
     > h2,
@@ -175,14 +184,47 @@ pre {
     }
 
     .print-figures {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 1rem;
+      counter-reset: step-figure;
+      margin: 1rem 0;
     }
 
     figure {
-      break-inside: avoid;
-      margin: 0;
+        // display: inline-block;
+        display: block;
+        position: relative;
+        // width: calc(50% - 0.25rem - 2px);
+        vertical-align: top;
+        padding: 0.5rem;
+        margin: 0;
+        margin-bottom: 0.5rem;
+
+        &:nth-of-type(2n) {
+            margin-left: 0.5rem;
+        }
+
+        break-inside: avoid;
+        counter-increment: step-figure;
+        figcaption {
+            &:before {
+                content: counter(step-figure);
+                border: 2px solid black;
+                border-radius: 100px;
+                padding: 0.3rem;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                min-width: 1.5em;
+                max-height: 1.5em;
+                text-align: center;
+                position: absolute;
+                left: 0;
+                top: 0; 
+            }
+            position: relative;
+            padding-left: 2.4rem;
+            margin-top: 0.5rem;
+        }
     }
 
     .section-index,
@@ -198,6 +240,17 @@ pre {
 
     .alert {
       border-width: 2px;
+      break-inside: avoid;
+    }
+
+    > table {
+        margin: 1rem auto;
+        break-inside: avoid;
+
+        td, thead th {
+            border: 1px solid black;
+            padding: 0.25rem 0.75rem;
+        }
     }
   }
 }
@@ -247,7 +300,8 @@ pre {
 }
 
 .alert.alert-info,
-.alert.alert-warning {
+.alert.alert-warning,
+.alert.alert-success {
   border: 0;
   border-radius: 4px;
   font-size: 1rem;
@@ -255,10 +309,16 @@ pre {
   .alert-heading {
     font-size: 1.2rem;
   }
+
+  @media print {
+    border-width: 2px;
+    border-style: solid;
+  }
 }
 
 .alert.alert-info {
   background: #e1f5fe;
+  border-color: #1e88e5;
 
   .alert-heading {
     color: #1e88e5;
@@ -267,11 +327,22 @@ pre {
 
 .alert.alert-warning {
   background: #ffe7e4;
+  border-color: #ed6a5a;
 
   .alert-heading {
     color: #ed6a5a;
   }
 }
+
+.alert.alert-success {
+  background: #ccefc6;
+  border-color: #199f67;
+
+  .alert-heading {
+    color: #199f67;
+  }
+}
+
 
 .alert > ul:last-child,
 .alert > p:last-child {
@@ -426,3 +497,43 @@ footer {
     line-height: 1.5em;
 }
 
+
+.print-qr-link { 
+    border: 1px solid black;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 1mm;
+    padding-left: 4mm;
+
+    img { 
+        width: 3cm;
+        flex:  0 0 auto;
+    }
+
+    p { 
+        flex: 1 1 0;
+        margin: 0;
+        padding: 0;
+        font-size: 11pt;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    a {
+        color: inherit;
+        display: block;
+        text-decoration: inherit;
+        font-weight: bold;
+        font-family: $font-family-monospace;
+        white-space: wrap;
+        letter-spacing: -0.5pt;
+    }
+}
+
+@page {
+  size: A4 portrait;
+  margin: 0.6in;
+}
