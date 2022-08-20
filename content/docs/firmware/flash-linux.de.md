@@ -88,7 +88,9 @@ ls -1d /dev/ttyUSB*
 
 Führe **im selben Verzeichnis**, in das du die ZIP-Datei entpackt hast, folgenden Befehl aus:
 
-**Achtung:** Ersetze `/dev/ttyUSB0` mit dem Gerätenamen den du im vorherigen Schritt ermittelt hast.
+{{% alert title="Achtung" color="warning" %}}
+Ersetze `/dev/ttyUSB0` mit dem Gerätenamen den du im vorherigen Schritt ermittelt hast.
+{{% /alert %}}
 
 ```shell
 esptool \
@@ -107,14 +109,23 @@ esptool \
     0x10000 0x10000.bin
 ```
 
-**Achtung:** Hast du die alternative Installationsanleitung verwendet, dann musst du eventuell zuvor noch folgende Schritte ausführen.
+{{% alert title="Achtung" color="warning" %}}
+Hast du die alternative Installationsanleitung verwendet, dann musst du eventuell zuvor noch folgende Schritte ausführen.
+{{% /alert %}}
+
+
 ```shell
 cd ~/esptool
 . venv/bin/activate
 ```
 Und das Kommando `esptool` durch `esptool.py` ersetzen.
 
-**Achtung:** Erscheint eine Fehlermldung (sinngemäß) `bash: esptool: command not found`, dann ersetze im obigen Kommando `esptool` durch `esptool.py`. Hilft das nicht, dann versuche einen der folgenden Aufrufe.
+{{% alert title="Achtung" color="warning" %}}
+Erscheint eine Fehlermldung (sinngemäß) `bash: esptool: command not found`, dann ersetze im obigen Kommando `esptool` durch `esptool.py`. 
+Hilft das nicht, dann versuche einen der folgenden Aufrufe.
+{{% /alert %}}
+
+
 
 - `python3 esptool.py ...`
 - `python esptool.py ...`
