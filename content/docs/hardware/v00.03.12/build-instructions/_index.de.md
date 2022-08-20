@@ -898,7 +898,7 @@ dann muss dieser später nicht mehr ausgebaut werden.
   - Einstecken. Polung beachten!
   - Möglicherweise überstehendes Kabel möglichst auf der Seite des GPS
     verstauen. Beide Adern verdrillen und parallel legen.
-* Konfiguraton des Sensors:
+* Konfiguration des Sensors:
   * Die Anzeige kann im [Konfigurationsmodus]({{<relref "/docs/user-guide/configuration">}}) auf den Simple-Mode gestellt werden.
    * Außerdem kann die Breite des Lenkers und WLAN eingestellt werden.
    * Bei einem Reboot des Sensors wird nun auf der Sensor-Anzeige der Simple-Mode mit dem Abstand des linken Sensors angezeigt - abzüglich der Breite des Lenkers.
