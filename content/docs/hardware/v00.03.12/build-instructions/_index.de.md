@@ -803,7 +803,7 @@ Am schnellsten sollte dies mit dem Chrome-Browser über diese Webseite gehen:
     * Boot-Screen sollte auf dem Display erscheinen. Wenn nicht, nochmal aus und, sofern nichts stinkt oder gar raucht, wieder einschalten.
 6. Bei angeschlossener GPS-Antenne GPS-Funktion im Freien testen
     * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs sehr lange dauern kann. 15 Minuten sind beim ersten Einschalten nicht ungewöhnlich.
-    * Alternativ kann durch einen Druck auf den Taster von dem Boot-Screen zu Sensor-Anzeige gewechelt werden.
+    * Alternativ kann durch einen Druck auf den Taster vom Boot-Screen zur Sensor-Anzeige gewechelt werden.
 7. Sensoren-Funktion testen: 
     * Sensoren mit den Sensor-Boards verbinden
       * Die Polung beachten. Siehe hierzu auch Schritt 13.
