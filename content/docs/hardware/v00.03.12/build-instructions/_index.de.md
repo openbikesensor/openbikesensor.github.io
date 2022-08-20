@@ -807,7 +807,7 @@ Am schnellsten sollte dies mit dem Chrome-Browser über diese Webseite gehen:
 7. Sensoren-Funktion testen: 
     * Sensoren mit den Sensor-Boards verbinden
       * Die Polung beachten. Siehe hierzu auch Schritt 13.
-    * Zur Sensor-Anzeige wechseln, auf welcher der Fusszeile die Roh-Werte der Abstände (ohne Lenkerabstand) der Ultraschall-Sensoren live angezeigt werden (Option "raw details" in der Konfiguration).
+    * Zur Sensor-Anzeige wechseln, auf welcher in der Fußzeile die Roh-Werte, der Abstände (ohne Lenkerabstand) der Ultraschall-Sensoren, live angezeigt werden (Option "raw details" in der Konfiguration).
     * *Hinweis*: Der Linke Sensor wird an dem außeren, dem Loch zugewandte, Sensor-Board, angeschlossen.
 
 {{< slider >}}
