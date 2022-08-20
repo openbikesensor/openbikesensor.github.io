@@ -291,7 +291,7 @@ aliases:
     <a href="https://www.amazon.de/dp/B079KDYBZ8">amazon.de</a>
   </td>
 </tr>
-<tr>iö
+<tr>
   <td>28</td>
   <td>M3x8mm Zylinderschraube mit Innensechskant (DIN912). (1x GPS, 8x für zwei Gehäuseöffnungen, 3x Platine, 5x Deckel, 3x Display, 6x 2 Gepäckträgerhalterungen, 2x für Kabelzugentlastung), je nach Variante können weniger Schrauben reichen.</td>
   <td></td>
