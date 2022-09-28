@@ -14,7 +14,7 @@ einkaufen möchtest (z.B. für Sammelbestellungen), oder die Bauteile aus China
 geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
 überprüfen.
 
-## Notizen
+## Hinweise
 
 * **ESP32 Development Board**: Von diesem Modul existieren einige verschiedene
   Versionen. Du brauchst die Variante mit 30 Pins. Diese wird oft unter der
