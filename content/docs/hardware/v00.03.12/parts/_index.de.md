@@ -94,13 +94,15 @@ aliases:
 <tr>
   <td>2</td>
   <td>JSN-SR04T Sensormodule (Hinweis beachten)</td>
+
   <td>
     <a href="https://de.aliexpress.com/item/4000057298353.html">aliexpress.com (JSN-SR04T-v3.0)</a>
-    <br/>
+    <!--<br/>
     <a href="https://de.aliexpress.com/item/4000089886629.html">aliexpress.com (AJ-SR04M-Link1)</a>
     <br/>
-    <a href="https://de.aliexpress.com/item/32898663512.html">aliexpress.com (AJ-SR04M-Link2)</a>
+    <a href="https://de.aliexpress.com/item/32898663512.html">aliexpress.com (AJ-SR04M-Link2)</a>-->
   </td>
+
 </tr>
 
 <tr><th colspan="3">Kleinteile</th></tr>

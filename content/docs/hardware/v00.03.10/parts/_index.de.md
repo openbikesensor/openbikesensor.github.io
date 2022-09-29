@@ -8,6 +8,7 @@ aliases:
 
 {{% pageinfo color="warning" %}}
 Diese Version des PCB ist veraltet. Neue Bestellungen sollten mit der aktuellsten Version durchgeführt werden.
+Insbesondere die Bestelllinks hier werden nicht mehr gepflegt.
 {{% /pageinfo %}}
 
 {{< include-markdown-partial "parts-notes.md" >}}
