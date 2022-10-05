@@ -7,6 +7,10 @@ aliases:
 - /bauteile/v00.03.12
 ---
 
+{{% pageinfo color="warning" %}}
+Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir arbeiten zurzeit daran, bei neuen Lieferanten testzubestellen. Wenn du gerade bestellst, kannst du @gluap im Forum kontaktieren, um bei der Testbestellung dieser Komponenten mitzumachen. 
+{{% /pageinfo %}}
+
 {{< include-markdown-partial "parts-notes.md" >}}
 
 ## Bauteile
@@ -72,8 +76,6 @@ aliases:
   <td>SD-Karte, 16 GB / 32 GB (Hinweis beachten)</td>
   <td>
     <a href="https://www.reichelt.de/microsdhc-speicherkarte-32gb-sandisk-ultra-sdsqua4032ggn6ma-p297179.html">reichelt.de</a>
-    <br/>
-    <a href="https://de.aliexpress.com/item/32865801075.html">aliexpress.com</a>
     <br/>
     <a href="https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop">google Suche</a> 
   </td>
