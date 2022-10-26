@@ -35,7 +35,7 @@ für den Vereinszweck aufwenden.
 
 ### Vereinszweck
 
-Der Vereinszweck ist in der Satzung festgelegt und lautet:
+Der Vereinszweck ist in der [Satzung](/docs/Satzung.pdf) festgelegt und lautet:
 
 > Der Zweck des Vereins ist, unabhängig und parteipolitisch neutral der Unfallprävention im Straßenverkehr, der Förderung der Wissenschaft und Forschung sowie der Volksbildung im Sinne des § 52 Absatz 2 Nr. 1 AO zu dienen.
 >
@@ -47,7 +47,7 @@ Der Vereinszweck ist in der Satzung festgelegt und lautet:
 > * Durchführung von öffentlichen Treffen sowie Informations- und Lehrveranstaltungen
 > * Öffentlichkeitsarbeit
 >
-> -- *Quelle: Gründungssatzung des Vereins OpenBikeSensor*
+> -- *Quelle: [Gründungssatzung des Vereins OpenBikeSensor](/docs/Satzung.pdf)*
 
 ### Mitgliedschaft
 
