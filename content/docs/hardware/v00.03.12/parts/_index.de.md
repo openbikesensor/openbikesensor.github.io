@@ -29,7 +29,9 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>1</td>
   <td>ESP32-WROOM Development Board (Hinweis beachten)</td>
   <td>
-    <a href="https://de.aliexpress.com/item/32928267626.html">aliexpress.com</a>
+    <a href="https://www.aliexpress.com/item/1005001636295529.html">aliexpress.com</a> - Wanzai Store (Variante <i>ESP-32 30P</i>)<br>
+    <a href="https://www.aliexpress.com/item/32959541446.html">aliexpress.com</a> - Win win. (Variante <i>ESP-32 30P</i>)<br>
+    <a href="https://www.aliexpress.com/item/1005001929935550.html">aliexpress.com</a> - KEWEITE Store (Variante <i>ESP-32</i>)<br>
   </td>
 </tr>
 <tr>
