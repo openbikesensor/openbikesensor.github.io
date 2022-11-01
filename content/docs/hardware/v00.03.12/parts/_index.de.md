@@ -55,6 +55,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>SD-Karten-Modul</td>
   <td>
     <a href="https://de.aliexpress.com/item/32865801075.html">aliexpress.com</a>
+    <a href="https://www.androegg.de/shop/esp8266-stm-32-arduino-spi-kartenleser-33v/">androegg.de</a>[<a href="https://forum.openbikesensor.org/t/erfahrungen-mit-bauteilen-von-anderen-haendlern-lieferanten/1301/8?u=gluap">forenthread</a>]
   </td>
 </tr>
 <tr>
@@ -115,15 +116,16 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>12mm Drucktaster</td>
   <td>
     <a href="https://www.aliexpress.com/item/4000295670163.html">aliexpress.com</a>
+    <a href="https://de.aliexpress.com/item/32672509409.html">aliexpress.com</a>
   </td>
 </tr>
 <tr>
   <td>1</td>
   <td>Miniatur-Kippschalter</td>
   <td>
-    <a href="https://www.reichelt.de/miniatur-kippschalter-1x-ein-ein-rnd-210-00435-p240567.html">Link1</a>
+    <a href="https://www.reichelt.de/de/de/miniatur-kippschalter-ein-ein-3-a-250-v-goobay-10020-p285987.html">reichelt.de</a>
     <br/>
-    <a href="https://de.aliexpress.com/item/32917875732.html">reichelt.de</a>
+    <a href="https://de.aliexpress.com/item/32917875732.html">aliexpress.com</a>
   </td>
 </tr>
 <tr>
@@ -288,6 +290,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>Neodym-Magnete, 20x10x2mm</td>
   <td>
     <a href="https://www.amazon.de/dp/B085CBZTQJ">amazon.de</a>
+    <a href="https://www.supermagnete.de/quadermagnete-neodym/quadermagnet-20mm-10mm-2mm_Q-20-10-02-N">supermagnete.de (teuer, stark)</a>
   </td>
 </tr>
 <tr>
@@ -295,6 +298,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>Neodym-Magnete, 3x3x3mm</td>
   <td>
     <a href="https://www.amazon.de/dp/B079KDYBZ8">amazon.de</a>
+    <a href="https://www.supermagnete.de/wuerfelmagnete-neodym/wuerfelmagnet-3mm_W-03-N">supermagnete.de</a>
   </td>
 </tr>
 <tr>
