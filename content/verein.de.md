@@ -51,17 +51,24 @@ Der Vereinszweck ist in der [Satzung](/docs/Satzung.pdf) festgelegt und lautet:
 
 ### Mitgliedschaft
 
-Allen natürlichen und juristischen Personen steht es frei, einen Antrag auf
-Aufnahme in den neuen Verein beim Vorstand zu stellen. In Kürze werden wir
-dafür ein Antragsformular auf dieser Seite bereitstellen. Zur Kontaktaufnahme
-mit dem Vorstand kann die E-Mail-Adresse aus dem [Impressum]({{< relref
-"contact" >}}) genutzt werden.
-
 Eine Mitgliedschaft im Verein ist ausdrücklich **keine Voraussetzung für die
-Mitarbeit** am Projekt. Die bisherige Community soll so, wie sie ist, bestehen
-bleiben und sich weiterhin selbst verwalten -- wer sich dazuzählt, gehört auch
+Mitarbeit** am Projekt. Die Community bleibt unabhängig vom Verein nach wie vor
+besteht und verwaltet sich weiterhin selbst -- wer sich dazuzählt, gehört auch
 dazu -- wer sich einbringt, darf mit entscheiden! Das heißt, dass
 Entscheidungen, die keine rechtlichen oder finanziellen Auswirkungen haben, auf
 die übliche Art stattfinden.
+
+Allen natürlichen und juristischen Personen steht es frei, einen Antrag auf
+Aufnahme in den Verein zu stellen. Dies geht ganz unkompliziert unter diesem Link:
+
+<a href="https://easyverein.com/public/OBS/applicationform/4368" class="btn btn-primary btn-large">Zum Beitrittsformular</a>
+
+Der Jahresbeitrag für Mitglieder unterstützt den Verein insbesondere durch
+finanzielle Stabilität für wiederkehrende Ausgaben wie Vereinsverwaltung und
+IT-Infrastruktur, auch für die Community. Die aktuell gültigen Jahresbeiträge
+für Mitglieder sind auf dem Beitrittsformular (siehe oben) beschrieben.
+
+Zur Kontaktaufnahme mit dem Vorstand kann die E-Mail-Adresse aus dem
+[Impressum]({{< relref "contact" >}}) genutzt werden.
 
 </section>
