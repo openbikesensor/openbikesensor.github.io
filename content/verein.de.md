@@ -52,8 +52,8 @@ Der Vereinszweck ist in der [Satzung](/docs/Satzung.pdf) festgelegt und lautet:
 ### Mitgliedschaft
 
 Eine Mitgliedschaft im Verein ist ausdrücklich **keine Voraussetzung für die
-Mitarbeit** am Projekt. Die Community bleibt unabhängig vom Verein nach wie vor
-besteht und verwaltet sich weiterhin selbst -- wer sich dazuzählt, gehört auch
+Mitarbeit** am Projekt. Die Community besteht nach wie vor unabhängig vom Verein
+und verwaltet sich weiterhin selbst -- wer sich dazuzählt, gehört auch
 dazu -- wer sich einbringt, darf mit entscheiden! Das heißt, dass
 Entscheidungen, die keine rechtlichen oder finanziellen Auswirkungen haben, auf
 die übliche Art stattfinden.
