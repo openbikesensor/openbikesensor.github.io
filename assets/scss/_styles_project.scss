@@ -126,33 +126,10 @@ pre {
 }
 
 
-/* libre-baskerville-regular - latin */
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('/fonts/libre-baskerville-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/libre-baskerville-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* libre-baskerville-700 - latin */
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-       url('/fonts/libre-baskerville-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/libre-baskerville-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
 @media print {
   html,
   body {
     font-size: 10pt;
-    line-height: 1.3;
-
-    font-family: 'Libre Baskerville';
   }
 
   .noprint {
@@ -197,6 +174,8 @@ pre {
 
     h2 {
       font-size: 1.6em;
+      column-span: all;
+      // page-break-before: always;
     }
     h3 {
       font-size: 1.3em;
@@ -208,10 +187,10 @@ pre {
     }
 
     figure {
-        // display: inline-block;
-        display: block;
+        display: inline-block;
+        // display: block;
         position: relative;
-        // width: calc(50% - 0.25rem - 2px);
+        width: calc(50% - 0.25rem - 2px);
         vertical-align: top;
         padding: 0.5rem;
         margin: 0;
@@ -238,7 +217,7 @@ pre {
                 text-align: center;
                 position: absolute;
                 left: 0;
-                top: 0; 
+                top: 0;
             }
             position: relative;
             padding-left: 2.4rem;
@@ -517,7 +496,7 @@ footer {
 }
 
 
-.print-qr-link { 
+.print-qr-link {
     border: 1px solid black;
     background: white;
 
@@ -530,12 +509,12 @@ footer {
     padding: 1mm;
     padding-left: 4mm;
 
-    img { 
+    img {
         width: 3cm;
         flex:  0 0 auto;
     }
 
-    p { 
+    p {
         flex: 1 1 0;
         margin: 0;
         padding: 0;
@@ -556,7 +535,7 @@ footer {
 }
 
 @page {
-  size: A4 portrait;
+  size: A4 landscape;
   margin: 0.6in;
 }
 

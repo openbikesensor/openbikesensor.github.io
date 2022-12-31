@@ -64,15 +64,15 @@ languageName ="Deutsch"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
-[languages.de.menu] 
+[languages.de.menu]
 [[languages.de.menu.main]]
 identifier = "project"
-name = "Das Projekt" 
+name = "Das Projekt"
 url = "/project/"
 weight = 20
 [[languages.de.menu.main]]
 identifier = "device"
-name = "Das Gerät" 
+name = "Das Gerät"
 url = "/device/"
 weight = 30
 
@@ -167,3 +167,31 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # add "hide_readingtime: true" to the page's front matter
 [params.ui.readingtime]
 enable = false
+
+[params.resistor_colors]
+black = "#212121"
+brown = "#795548"
+red = "#C62828"
+orange = "#FB8C00"
+yellow = "#FFEB3B"
+green = "#8BC34A"
+blue = "#03A9F4"
+violet = "#AB47BC"
+gray = "#78909C"
+white = "#FAFAFA"
+gold = "#D4AF37"
+silver = "#CFD8DC"
+
+[params.resistor_names]
+black = "schwarz"
+brown = "braun"
+red = "rot"
+orange = "orange"
+yellow = "gelb"
+green = "grün"
+blue = "blau"
+violet = "lila"
+gray = "gray"
+white = "weiß"
+gold = "gold"
+silver = "silber"
