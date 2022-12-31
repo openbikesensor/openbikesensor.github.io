@@ -15,22 +15,23 @@ Problem zu verdeutlichen. Als Beispiel wird die auch uns bekannte Strecke im
 Stuttgarter Kaltental gezeigt.
 
 Das Projekt OpenBikeSensor und unser Überholabstandsmesser werden dann als Teil
-der Lösung vorgestellt. 
+der Lösung vorgestellt.
 
 Wir freuen uns sehr über diesen gelungenen Beitrag. In den Tagen nach der
 Ausstrahlung kammen immer mehr neue Mitglieder in den Slack, die durch diese
 öffentliche Aufmerksamkeit von OpenBikeSensor erfahren haben, und nun Teil der
 immer weiter wachsenden Community geworden sind.
 
-Den ganzen Fernsehbeitrag haben wir hier eingebunden, und [auf swr.de](https://www.swr.de/radfahren/bedraengt-geschnitten-und-beschimpft-100.html)
-dazu gibt es dazu auch noch einen schriftlichen Artikel.
+Den ganzen Fernsehbeitrag haben wir hier eingebunden, und auf [swr.de](https://www.swr.de/wissen/odysso/bedraengt-geschnitten-beschimpft-radfahrer-leben-gefaehrlich-im-deutschen-strassenverkehr-100.html)
+gibt es dazu auch noch einen schriftlichen Artikel.
 
 <iframe 
-  src="https://www.swr.de/~embed/radfahren/bedraengt-geschnitten-und-beschimpft-100.html" 
-  width="800" 
-  height="450" 
-  frameborder="0" 
-  webkitallowfullscreen 
-  mozallowfullscreen 
+  src="https://www.ardmediathek.de/embed/Y3JpZDovL3N3ci5kZS9hZXgvbzE0NDgwNTc"
+  width="800"
+  height="450"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
   allowfullscreen
+  scrolling="no"
 ></iframe>
