@@ -101,7 +101,9 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>JSN-SR04T Sensormodule (Hinweis beachten)</td>
 
   <td>
-    <a href="https://de.aliexpress.com/item/4000057298353.html">aliexpress.com (JSN-SR04T-v3.0)</a>
+    <a href="https://de.aliexpress.com/item/4000057298353.html">EC-Buying, aliexpress.com (JSN-SR04T-v3.0)</a>
+    <br/>
+    <a href="https://de.aliexpress.com/item/32863960886.html">EC-Buying, aliexpress.com (JSN-SR04T-v3.0)</a>
     <!--<br/>
     <a href="https://de.aliexpress.com/item/4000089886629.html">aliexpress.com (AJ-SR04M-Link1)</a>
     <br/>
