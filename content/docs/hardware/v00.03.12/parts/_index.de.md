@@ -104,10 +104,8 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
     <a href="https://de.aliexpress.com/item/4000057298353.html">EC-Buying, aliexpress.com (JSN-SR04T-v3.0)</a>
     <br/>
     <a href="https://de.aliexpress.com/item/32863960886.html">EC-Buying, aliexpress.com (JSN-SR04T-v3.0)</a>
-    <!--<br/>
-    <a href="https://de.aliexpress.com/item/4000089886629.html">aliexpress.com (AJ-SR04M-Link1)</a>
     <br/>
-    <a href="https://de.aliexpress.com/item/32898663512.html">aliexpress.com (AJ-SR04M-Link2)</a>-->
+    <a href="https://www.androegg.de/shop/jsn-sr04t-ver-2-ttl-ultraschall-distanz-naeherungs-sensor-set">androegg.de (JSN-SR04T-v3.0)</a>
   </td>
 
 </tr>
