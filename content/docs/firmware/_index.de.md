@@ -43,3 +43,13 @@ Eine neue Version der Firmware kann direkt über die Bedienoberfläche
 eingespielt werden. Hierfür gibt es entsprechende Menüpunkte im Hauptmenü. Ein
 Auseinanderbauen des Geräts und der Anschluss an einen Computer sind dafür
 nicht mehr nötig.
+
+## Bauen und Flashen der Firmware aus dem gihub-Repository
+
+### mit VisualStudio Code und PlatformIO
+
+Zunächst [VS Code](https://code.visualstudio.com/) und darin die Erweiterung [PlatformIO](https://platformio.org/)
+installieren. 
+
+Danach den gewünschten Stand der OBS-Firmware aus dem [github-Repository](https://github.com/openbikesensor/OpenBikeSensorFirmware) klonen und das Verzeichnis in VS Code öffnen. Dann mit dem Upload-Befehl (Pfeil nach rechts in der Fußzeile von VS Code) oder per `pio run -t upload` in der PlatformIO CLI auf den ESP32 flashen.
+
