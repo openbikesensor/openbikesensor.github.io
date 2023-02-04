@@ -559,3 +559,76 @@ footer {
   size: A4 portrait;
   margin: 0.6in;
 }
+
+.td-default main section.device-types-row {
+    background: #F8F8F8;
+    padding: 0;
+}
+
+.device-type-cell {
+    text-align: center;
+    padding-block: 4rem;
+    display: flex;
+    flex-direction: column;
+
+    .label {
+        order: -2;
+        height: 40px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1.5rem;
+        border-radius: 1000px;
+        margin-bottom: 1rem;
+        background: #EEE;
+        text-transform: uppercase;
+        letter-spacing: 0.7pt;
+        font-weight: 700;
+        font-size: 80%;
+    }
+
+    h4 {
+        order: -1;
+    }
+
+    &.light {
+        background: #FFF;
+    }
+
+    img {
+        margin-block: 1rem;
+        width: 70%;
+        height: 200px;
+        object-fit: contain;
+        align-self: center;
+    }
+
+    h4 > span {
+        display: block;
+        font-size: 120%;
+        opacity: 0.5;
+        margin-top: 0.2rem;
+    }
+
+    &.construction {
+        .label {
+            background: #ffd600;
+        }
+        img {
+            opacity: 0.3;
+        }
+    }
+
+    &.recommended {
+        .label {
+            background: #0029a7;
+            color: white;
+        }
+    }
+
+    ul {
+        text-align: left;
+        // align-self: center;
+    }
+}
