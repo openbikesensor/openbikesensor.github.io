@@ -6,10 +6,11 @@ aliases:
 - /start
 ---
 
-Diese Anleitung geht davon aus, dass du einen funktionierenden OpenBikeSensor
-hast. Wenn nicht, [starte hier]({{< ref "/docs/classic" >}} "Hardware").
+Diese Anleitung geht davon aus, dass du einen funktionierenden 
+[OpenBikeSensor Classic]({{< ref "/docs/classic" >}}) hast.
 
-Mit diesen Schritten kannst du mit deinem neuen OpenBikeSensor direkt losradeln:
+Mit diesen Schritten kannst du mit deinem neuen OpenBikeSensor direkt
+losradeln:
 
 1. Befestige die Halterung für den OpenBikeSensor und die Lenkerhalterung für
    das Display. Dies funktioniert je nach Modell unterschiedlich, siehe 
