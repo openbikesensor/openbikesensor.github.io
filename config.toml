@@ -62,12 +62,36 @@ description = "Passing distance measurement for cyclists. Open source, open data
 languageName = "English"
 weight = 1
 
+[languages.en.menu] 
+[[languages.en.menu.main]]
+identifier = "project"
+name = "The project" 
+url = "/project/"
+weight = 20
+[[languages.en.menu.main]]
+identifier = "device"
+name = "The device" 
+url = "/device/"
+weight = 30
+
 [languages.de]
 title = "OpenBikeSensor"
 description = "Überholabstandsmessung für Radfahrende. Open source, open data, open science."
 languageName ="Deutsch"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
+
+[languages.de.menu] 
+[[languages.de.menu.main]]
+identifier = "project"
+name = "Das Projekt" 
+url = "/project/"
+weight = 20
+[[languages.de.menu.main]]
+identifier = "device"
+name = "Das Gerät" 
+url = "/device/"
+weight = 30
 
 [markup]
   [markup.goldmark]
@@ -160,4 +184,3 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # add "hide_readingtime: true" to the page's front matter
 [params.ui.readingtime]
 enable = false
-

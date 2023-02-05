@@ -1,8 +1,9 @@
 ---
-title: Karte
+title: Karte der Initiativen
 menu:
   main:
-    weight: 25
+    parent: project
+    weight: 40
 aliases:
 - /map
 ---

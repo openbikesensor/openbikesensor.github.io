@@ -3,6 +3,7 @@ title: Community
 menu:
   main:
     weight: 25
+    parent: project
 aliases:
 - /en/slack
 ---
