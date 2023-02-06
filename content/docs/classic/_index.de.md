@@ -6,6 +6,7 @@ menu:
   main:
     parent: device
     weight: 120
+    name: OpenBikeSensor Classic
 aliases:
 - /docs/hardware
 ---

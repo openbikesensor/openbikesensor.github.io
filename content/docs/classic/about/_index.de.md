@@ -1,10 +1,6 @@
 ---
 title: Überblick
 weight: 10
-menu:
-  main:
-    parent: device
-    weight: 120
 ---
 
 Der *OpenBikeSensor Classic* ist das Originalgerät, das seit 2018 in
