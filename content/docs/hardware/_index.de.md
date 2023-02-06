@@ -1,6 +1,10 @@
 ---
 title: Hardware
 weight: 40
+menu:
+  main:
+    parent: device
+    weight: 120
 ---
 
 Dieser Bereich der Dokumentation beschreibt die möglichen Konfigurationen,

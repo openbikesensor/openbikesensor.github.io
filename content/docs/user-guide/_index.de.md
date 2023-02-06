@@ -1,6 +1,10 @@
 ---
 title: Bedienungsanleitung
 weight: 20
+menu:
+  main:
+    parent: device
+    weight: 100
 ---
  
 Dieser Abschnitt hilft dir bei der *Benutzung* deines OpenBikeSensors (OBS).

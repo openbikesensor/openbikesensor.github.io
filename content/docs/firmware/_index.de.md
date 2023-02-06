@@ -3,6 +3,10 @@ title: Firmware
 weight: 60
 aliases:
 - /flash
+menu:
+  main:
+    parent: device
+    weight: 140
 ---
 
 Firmware ist die Bezeichung für Software, die auf eingebetteten Systemen wie
