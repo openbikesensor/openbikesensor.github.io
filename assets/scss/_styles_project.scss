@@ -521,7 +521,10 @@ footer {
     border: 1px solid black;
     background: white;
 
-    display: flex;
+    display: none;
+    @media print {
+        display: flex;
+    }
     align-items: center;
     overflow: hidden;
     padding: 1mm;

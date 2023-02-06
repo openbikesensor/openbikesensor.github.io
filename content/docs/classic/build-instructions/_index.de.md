@@ -1,8 +1,9 @@
 ---
-title: Bauanleitung für den OpenBikeSensor
+title: Bauanleitung  (OpenBikeSensor Classic)
 weight: 50
 linkTitle: Bauanleitung
 aliases:
+- /bauanleitung/classic
 - /bauanleitung
 - /bauanleitung/v00.03.12
 - /docs/hardware/v00.03.12/build-instructions
