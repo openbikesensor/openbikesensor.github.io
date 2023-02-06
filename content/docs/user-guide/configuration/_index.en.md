@@ -149,7 +149,7 @@ while inside one of these zones.
 ### WiFi Settings
 
 The OpenBikeSensor can connect to an existing wifi network if you enter its
-credentials here. This is required for data upload to a portal and also useful
+credentials here. This is required for data upload to a portal and is also useful
 if you want to access the configuration page without switching away from your
 home network.
 
