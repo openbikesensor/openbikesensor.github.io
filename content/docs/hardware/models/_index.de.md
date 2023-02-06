@@ -1,6 +1,8 @@
 ---
 title: Modellauswahl
 weight: 10
+aliases:
+- /docs/hardware/general/models
 ---
 
 Wenn du einen OpenBikeSensor Abstandsmesser bauen möchtest, musst du zunächst

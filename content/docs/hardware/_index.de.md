@@ -13,7 +13,7 @@ haben hier Bestelllisten für die Komponenten, und Anleitungen wie diese
 zusammenzufügen sind.
 
 Am Anfang solltest du dir klar werden, [welche Variante]({{< relref
-"general/models" >}}) du bauen möchtest. Hiervon hängt ab, welche Teile du
+"models" >}}) du bauen möchtest. Hiervon hängt ab, welche Teile du
 benötigst. Die "Standard-Variante" ist immer in der Anleitung zur aktuellsten
 Version beschrieben.
 
@@ -22,8 +22,8 @@ mechanische Bauteile und natürlich ein Gehäuse, sowie Kleinkram, z.B. Kabel un
 Befestigungen.
 
 Das Gehäuse wird im 3D-Druck-Verfahren hergestellt. Anweisungen und Anleitungen
-gibt es im [entsprechenden Abschnitt]({{< relref "general/case" >}}). Außerdem
-musst du eine [Platine erwerben]({{< relref "general/pcb" >}}), was in der
+gibt es im [entsprechenden Abschnitt]({{< relref "case" >}}). Außerdem
+musst du eine [Platine erwerben]({{< relref "pcb" >}}), was in der
 Regeln durch Bestellung bei einem Hersteller anhand der Designdateien passiert.
 
 Wenn du mehrere OpenBikeSensoren herstellen möchtest, empfiehlt es sich, **bevor**

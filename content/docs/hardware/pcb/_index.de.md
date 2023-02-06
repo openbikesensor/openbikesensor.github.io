@@ -1,6 +1,8 @@
 ---
 title: Platine
 weight: 20
+aliases:
+- /docs/hardware/general/pcb
 ---
 
 Ein sehr wichtiger Bestandteil des Gerätes ist die Platine, auch

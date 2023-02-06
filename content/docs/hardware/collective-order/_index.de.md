@@ -2,6 +2,8 @@
 title: Hinweise für Sammelbestellungen
 linkTitle: Sammelbestellungen
 weight: 10
+aliases:
+- /docs/hardware/general/collective-order
 ---
 
 {{% alert title="Du möchtest an einer Sammelbestellung teilnehmen?" color="info" %}}

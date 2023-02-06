@@ -327,7 +327,7 @@ Einige Fehler traten während der Drucke auf:
 ## Weitere Anleitungen
 
 * Detaillierte [Anleitung für den Zusammenbau]({{< relref
-  "docs/hardware/v00.03.12/build-instructions" >}}) des gesamten
+  "docs/hardware/build-instructions" >}}) des gesamten
   OpenBikeSensors beschreibt den Einbau der elektronischen Komponenten in die
   beiden Gehäuse.
 * Die [Montage des Sensors]({{< relref "mounting" >}}) am Fahrrad wird mit

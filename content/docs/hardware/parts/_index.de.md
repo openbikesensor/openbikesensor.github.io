@@ -1,10 +1,10 @@
 ---
-title: Bauteile für v00.03.12
-linkTitle: Bauteile
+title: Bauteile
 weight: 40
 aliases:
 - /bauteile
 - /bauteile/v00.03.12
+- /docs/hardware/v00.03.12/parts
 ---
 
 {{% pageinfo color="warning" %}}
@@ -352,7 +352,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>1</td>
   <td>3D-Druck: Hauptgehäuse, Displaygehäuse, Halterung(en)</td>
   <td>
-    <a href={{< relref "docs/hardware/general/case" >}}>Link</a>
+    <a href={{< relref "docs/hardware/case" >}}>Link</a>
   </td>
 </tr>
 

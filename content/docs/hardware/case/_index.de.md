@@ -1,6 +1,8 @@
 ---
 title: Gehäuse
 weight: 30
+aliases:
+- /docs/hardware/general/case
 ---
 
 {{< imgproc "OBS_vertical_case_alle_Teile.jpg" Fit "800x600" >}}
