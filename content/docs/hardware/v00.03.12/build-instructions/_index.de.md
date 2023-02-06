@@ -27,18 +27,57 @@ oder eine kurze [Nachricht]({{< relref "/community" >}}).
 Ein fertig gebauter OpenBikeSensor der Version v00.03.12
 {{< /imgproc >}}
 
-## Voraussetzungen
+## Voraussetzungen und Hinweise
 
-Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das
-Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt sind.
-Für letzteres empfehlen wir das
-[JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). Warnhinweise
-und Tipps zu Werkzeugbenutzung finden sich am Anfang der ausführlichen
-Bauanleitung für das [Modell v00.02]({{<relref
-"/docs/hardware/v00.02/build-instructions">}}). Wenn du unsicher bist, wo
-du ein Bauteil auf dem Board unterbringen sollst, kannst du [die
-interaktive Stückliste (BOM)](/html/BOM_00.03.12.html) verwenden, um dir
-anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
+Achtung, bitte lies die folgenden Hinweise bevor du mit dem Aufbau
+anfängst. Wir wissen genau wie du, dass keiner gerne Warnhinweise liest,
+aber gerade wenn du Anfänger bist könnte dies wichtig sein.
+
+- Diese Anleitung setzt voraus, dass die Grundtechniken wie Löten, das
+  Abisolieren von Kabeln und das Crimpen von JST-Verbindern bereits bekannt
+  sind. Für letzteres empfehlen wir das
+  [JST-Crimp-Tutorial](https://www.youtube.com/watch?v=jHfYzrSF4pY). 
+
+- Wenn du unsicher bist, wo du ein Bauteil auf dem Board unterbringen sollst,
+  kannst du [die interaktive Stückliste (BOM)](/html/BOM_00.03.12.html)
+  verwenden, um dir anzeigen zu lassen, wo ein Bauteil eingesetzt werden kann.
+ 
+- Du baust den Sensor vollkommen selbstständig und ohne unsere Aufsicht auf. Du
+  bist daher auch selbst für Fehler oder Verletzungen verantwortlich, sollten
+  welche auftreten.
+ 
+- Gehe bewusst und gewissenhaft mit deinen Werkzeugen um. An scharfen
+  Werkzeugen wie einem Cuttermesser oder einem Seitenschneider kannst du dich
+  schneiden. Das vordere Ende des Lötkolbens kann bis zu 450°C heiß werden.
+  Berühre daher immer nur das dafür vorgesehen Griffstück. Sollte er dir
+  wegrutschen oder herunterfallen weiche daher lieber aus anstatt ihn
+  aufzufangen.
+ 
+- Es handelt sich beim OpenBikeSensor um ein frei verfügbares Design, und nicht
+  um ein fertiges Gerät. Alles, was wir dir mit den Bauteillisten,
+  Schaltungsentwürfen und Anleitungen zeigen, sind Vorschläge und kann Fehler
+  enthalten. Bist du dir an einer Stelle nicht sicher oder du glaubst einen
+  Fehler gefunden zu haben, dann melde dich in der [Community]({{<
+  relref "/community" >}}). Außerdem sind wir nicht für Fehler verantwortlich
+  die du während des Aufbaus machst. Sollte etwas schief gehen und du brauchst
+  Hilfe kannst du dich natürlich trotzdem an uns wenden.
+ 
+- Die Dämpfe, die beim Löten durch das Verbrennen des Flussmittels (Flux)
+  entstehen, können gesundheitsschädlich sein. Atme sie daher nicht direkt ein.
+  Du hast bei dir daheim oder in deinem Makerspace eine Lötdampfabsaugung? Dann
+  nutze sie! Gerade bleifreies Lötzinn enthält mehr Flussmittel und ist daher
+  während des Lötens auch deutlich gesundheitsschädlicher. Solltest du keine
+  Absaugung haben ist daher bleihaltiges Zinn empfehlenswerter. Dieses solltest
+  du allerdings wiederum nicht in den Mund nehmen und dir nach dem Löten die
+  Hände waschen.
+ 
+- Bei einem der Bauteile handelt es sich um eine LiPo[^1]-Batterie. Diese
+  Batterien sind zwar heute weit verbreitet, können allerdings bei falscher
+  Handhabung in Brand geraten. Solltest du nicht vertraut mit LiPos oder dir
+  noch unsicher sein, lies bitte den Abschnitt in der Anleitung zur Vorbereitung und zum Umgang mit den Akkus 
+  sehr aufmerksam. Außerdem empfehlen wir, die Zelle aus einer
+  vertrauenswürdigen Quelle zu beschaffen und nicht die billigste Zelle aus
+  China zu bestellen.
 
 ## Schritt 1: Buchsenleisten
 
