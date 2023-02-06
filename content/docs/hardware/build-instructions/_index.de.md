@@ -1,5 +1,6 @@
 ---
 title: Bauanleitung für den OpenBikeSensor
+weight: 50
 linkTitle: Bauanleitung
 aliases:
 - /bauanleitung

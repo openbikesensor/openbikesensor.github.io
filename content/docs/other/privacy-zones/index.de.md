@@ -8,14 +8,12 @@ resources:
     byline: "CC-BY-SA? OpenBikeSensor Contributors"
 ---
 
-{{< language-switch 1 >}}
-
 Privatsphäre-Zonen sind ein wichtiges Konzept im OpenBikeSensor-Ökosystem. Sie werden im OpenBikeSensor selbst, als auch im Datenportal verwendet, um Deinen Standort in bestimmten Bereichen zu verbergen.
 
 Dies ist eine Funktion zum Schutz der Privatsphäre. Da hochgeladene Daten im Datenportal (Open Data Repository) veröffentlicht werden können, ist es für den Benutzer möglich Privatsphäre-Zonen konfigurieren, um die eigene Privatsphäre zu verbergen. Im schlimmsten Fall könnte ein böswilliger Akteur anhand der Daten herausfinden, wo Du wohnst, arbeitest oder Dich häufig aufhälst.
-Hinweis
+
 {{% alert title="Note" color="info" %}}
-Das Datenportal unterstützt ##noch keine## Privatsphäre-Zonen. Aber wir arbeiten daran, und die hier beschriebene Vorgehensweise entspricht dem, was möglich sein wird.
+Das Datenportal unterstützt **noch keine** Privatsphäre-Zonen. Aber wir arbeiten daran, und die hier beschriebene Vorgehensweise entspricht dem, was möglich sein wird.
 {{% /alert %}}
 
 ## So funktionieren Privatsphäre-Zonen
@@ -24,19 +22,19 @@ Eine Privatsphäre-Zone kann entweder im Sensorgerät selbst konfiguriert werden
 
 Eine Privatsphäre-Zone ist ein kreisförmiger Bereich, der durch einen Mittelpunkt und einen Radius definiert ist. Damit können Daten maskiert werden. Du kannst mehrere dieser Zonen an relevanten Orten einrichten, damit böswillige Akteure nicht erkennen können, wo Deine Spuren beginnen und enden:
 
-    Das Zuhause
-    Der Arbeitsplatz, Schule, Uni
-    Wohnungen von Freunden
-    Jeder Ort, an dem Du Dich mit dem Fahrrad regelmäßig aufhältst
+* Das Zuhause
+* Der Arbeitsplatz, Schule, Uni
+* Wohnungen von Freunden
+* Jeder Ort, an dem Du Dich mit dem Fahrrad regelmäßig aufhältst
 
 ## Aufzeichnungsalternativen
 
 Es gibt 4 Alternativen für den OpenBikeSensor um persöhnliche Daten zu schützen:
 
-    1. Privatsphäre-Zonen im OBS einrichten
-    2. Privatsphäre-Zonen im Datenportal einrichten
-    3. die Track daten auf eigenem PC privatisieren bevor sie ins Portal hochgeldaen werden
-    4. Keine Daten hochladen
+1. Privatsphäre-Zonen im OBS einrichten
+2. Privatsphäre-Zonen im Datenportal einrichten
+3. die Track daten auf eigenem PC privatisieren bevor sie ins Portal hochgeldaen werden
+4. Keine Daten hochladen
 
 ## Welchen Modus kannst Du auswählen
 

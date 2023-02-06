@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-weight: 22
+weight: 102
 ---
 
 Dieser Bereich enthält Anleitungen und Links zu Informationen, die bei
