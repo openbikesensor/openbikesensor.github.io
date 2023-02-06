@@ -7,7 +7,10 @@ aliases:
 ---
 
 {{% alert title="Hinweis" color="info" %}}
-  Diese Montageanleitung beschreibt die Montage des OpenBikeSensors der [Standard-Variante]({{< relref "docs/classic/models" >}}).
+  Diese Montageanleitung beschreibt die Montage des [OpenBikeSensors
+  Classic]({{< relref "docs/classic" >}}) in der Standardvariante, wie sie auf
+  dieser Website beschrieben ist. Falls du ein alternatives Gehäuse verwendest,
+  trifft sie für dich eventuell nicht zu.
 {{% /alert %}}
 
 ## Überblick

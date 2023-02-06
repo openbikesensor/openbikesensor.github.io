@@ -1,6 +1,6 @@
 ---
 title: Bauteile
-weight: 40
+weight: 20
 aliases:
 - /bauteile
 - /bauteile/v00.03.12

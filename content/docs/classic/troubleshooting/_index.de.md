@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting
+title: Fehlersuche
 weight: 102
 ---
 
