@@ -7,7 +7,7 @@ aliases:
 ---
 
 Diese Anleitung geht davon aus, dass du einen funktionierenden OpenBikeSensor
-hast. Wenn nicht, [starte hier]({{< ref "/docs/hardware" >}} "Hardware").
+hast. Wenn nicht, [starte hier]({{< ref "/docs/classic" >}} "Hardware").
 
 Mit diesen Schritten kannst du mit deinem neuen OpenBikeSensor direkt losradeln:
 

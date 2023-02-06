@@ -3,8 +3,8 @@ CMD=qrencode -d 300
 
 URLS := \
 	/bauanleitung \
-	/docs/hardware/v00.03.12/build-instructions \
-	/docs/hardware/v00.03.10/build-instructions 
+	/docs/classic/v00.03.12/build-instructions \
+	/docs/classic/v00.03.10/build-instructions 
 
 all:
 

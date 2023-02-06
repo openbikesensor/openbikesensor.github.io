@@ -1,10 +1,12 @@
 ---
-title: Hardware
+title: OpenBikeSensor Classic
 weight: 40
 menu:
   main:
     parent: device
     weight: 120
+aliases:
+- /docs/hardware
 ---
 
 Dieser Bereich der Dokumentation beschreibt die möglichen Konfigurationen,

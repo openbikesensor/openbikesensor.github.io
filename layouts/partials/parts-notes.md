@@ -58,7 +58,7 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   einem 3D-Druck-Service bestellen (das ist aber in der Regel relativ teuer).
 
 * **PCB**: Du benötigst ein PCB der passenden Version, speziell [anhand der
-  Designdateien hergestellt]({{ ref . "/docs/hardware/pcb" }}). Dies sollte am besten
+  Designdateien hergestellt]({{ ref . "/docs/classic/pcb" }}). Dies sollte am besten
   ebenfalls in großen Mengen bestellt werden, da der Stückpreis dann stark
   sinkt. Frag' auf jeden Fall im Slack nach, ob irgendwer noch welche auf Lager
   hat, bevor du neue anfertigen lässt!

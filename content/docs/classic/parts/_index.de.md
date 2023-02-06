@@ -352,7 +352,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>1</td>
   <td>3D-Druck: Hauptgehäuse, Displaygehäuse, Halterung(en)</td>
   <td>
-    <a href={{< relref "docs/hardware/case" >}}>Link</a>
+    <a href={{< relref "docs/classic/case" >}}>Link</a>
   </td>
 </tr>
 
