@@ -87,7 +87,7 @@ With these settings you'll now be able to correctly record your journeys and the
 
 ## All settings
 
-Eine sensible configuration is preloaded with the device and should only
+One sensible configuration is preloaded with the device and should only
 be modified if needed. Here we explain all the options.
 
 ### General
