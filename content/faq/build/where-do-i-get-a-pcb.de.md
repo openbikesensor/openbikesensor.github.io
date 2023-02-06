@@ -16,4 +16,4 @@ etwa 0,50 € pro Stück an. In Deutschland gefertigt und damit schneller und
 umweltschonender geliefert kosten Platinen 3 bis 5 € pro Stück, dies ist für
 mittelgroße Bestellungen natürlich auch eine gute Option.
 
-[&raquo; Dokumentation zum PCB (Englisch)]({{< ref path="/docs/hardware/general/pcb" lang="en" >}})
+[&raquo; Dokumentation zum PCB (Englisch)]({{< ref path="/docs/hardware/general/pcb" >}})

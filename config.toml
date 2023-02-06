@@ -56,23 +56,6 @@ privacyEnhanced = true
 # Language configuration
 
 [languages]
-[languages.en]
-title = "OpenBikeSensor"
-description = "Passing distance measurement for cyclists. Open source, open data, open science."
-languageName = "English"
-weight = 1
-
-[languages.en.menu] 
-[[languages.en.menu.main]]
-identifier = "project"
-name = "The project" 
-url = "/project/"
-weight = 20
-[[languages.en.menu.main]]
-identifier = "device"
-name = "The device" 
-url = "/device/"
-weight = 30
 
 [languages.de]
 title = "OpenBikeSensor"

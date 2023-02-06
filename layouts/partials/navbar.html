@@ -31,14 +31,7 @@
         {{ end }}
 			</li>
 			{{ end }}
-
-			{{ if  (gt (len .Site.Home.Translations) 0) }}
-			<li class="nav-item dropdown d-none d-lg-block">
-				{{ partial "navbar-lang-selector.html" . }}
-			</li>
-			{{ end }}
 		</ul>
 	</div>
-	<div class="navbar-nav d-none d-lg-block">{{ partial "search-input.html" . }}</div>
   </div>
 </nav>

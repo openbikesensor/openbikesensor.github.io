@@ -15,6 +15,6 @@ möglich sein, im Portal solche Zonen zu verwalten und die Anonymisierung dort
 durchführen zu lassen.
 
 Zur Theorie und zum Konzept haben wir [einen Artikel]({{< relref
-path="docs/user-guide/privacy-zones" lang="en" >}}) (englischsprachig) als Teil
+path="docs/user-guide/privacy-zones" >}}) als Teil
 der Dokumentation verfasst.
 
