@@ -1,7 +1,7 @@
 {{ $currentPage := . }}
-{{ $cover := .HasShortcode "blocks/cover" }}
+{{ $large := (eq .Section "docs") }}
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
-  <div class="container">
+    {{ if not $large }}<div class="container">{{ end }}
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
 		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}{{ end }}</span><span class="text-uppercase font-weight-bold">{{ .Site.Title }}</span>
 	</a>
@@ -33,5 +33,5 @@
 			{{ end }}
 		</ul>
 	</div>
-  </div>
+    {{ if not $large }}</div>{{ end }}
 </nav>
