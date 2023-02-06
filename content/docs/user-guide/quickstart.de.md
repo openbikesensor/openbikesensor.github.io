@@ -6,15 +6,15 @@ aliases:
 - /start
 ---
 
-> Diese Anleitung geht davon aus, dass du einen funktionierenden OpenBikeSensor
-> hast. Wenn nicht, [starte hier]({{< ref "/docs/hardware" >}} "Hardware").
+Diese Anleitung geht davon aus, dass du einen funktionierenden OpenBikeSensor
+hast. Wenn nicht, [starte hier]({{< ref "/docs/hardware" >}} "Hardware").
 
-Sobald du einen OpenBikeSensor hast, solltest du ein paar Dinge damit tun:
+Mit diesen Schritten kannst du mit deinem neuen OpenBikeSensor direkt losradeln:
 
 1. Befestige die Halterung für den OpenBikeSensor und die Lenkerhalterung für
-   das Display. Dies funktioniert je nach Modell unterschiedlich. Siehe auch
+   das Display. Dies funktioniert je nach Modell unterschiedlich, siehe 
    [Montageanleitung]({{< relref "mounting" >}}).
-2. Miss den Abstand vom Rand der Lenkstange zur Mitte des Fahrrads, auf beiden
+2. Miss den Abstand vom Rand der Lenkstange zur Mitte des Fahrrads auf beiden
    Seiten. Zieh jeweils die Hälfte der Breite des OpenBikeSensors ab, und gib
    dies in den Einstellungen entsprechend als Abstands-Offset an. Wie du in den
    Konfigurationsmodus kommst, siehst du in der [Minimal-Konfiguration]({{<
@@ -23,9 +23,9 @@ Sobald du einen OpenBikeSensor hast, solltest du ein paar Dinge damit tun:
    Smartphone lässt sich dein aktueller Standort bestimmen, den du dann
    eintippen kannst.
 4. Prüfe, ob deine SD-Karte funktioniert und am besten auch leer ist. Der
-   OpenBikeSensor erwartet eine Fat32 Partition, SD-Karten werden üblicherweise
-   mit einer Fat32 Partition ausgeliefert, so dass sie im OpenBikeSensor direkt
-   Benutzt werden können.
+   OpenBikeSensor erwartet eine FAT-32 Partition, SD-Karten werden üblicherweise
+   mit einer FAT-32 Partition ausgeliefert, so dass sie im OpenBikeSensor direkt
+   benutzt werden können.
 6. Lade den Akku des Gerätes mit einem USB-C Kabel und einem normalen
    USB-Ladegerät auf. Die LED am Lademodul leuchtet rot während des Ladens und
    wird blau, wenn der Akku voll ist. 
