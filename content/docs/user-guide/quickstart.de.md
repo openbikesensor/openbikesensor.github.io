@@ -17,8 +17,8 @@ Mit diesen Schritten kannst du mit deinem neuen OpenBikeSensor direkt losradeln:
 2. Miss den Abstand vom Rand der Lenkstange zur Mitte des Fahrrads auf beiden
    Seiten. Zieh jeweils die Hälfte der Breite des OpenBikeSensors ab, und gib
    dies in den Einstellungen entsprechend als Abstands-Offset an. Wie du in den
-   Konfigurationsmodus kommst, siehst du in der [Minimal-Konfiguration]({{<
-   relref "configuration/minimal" >}}).
+   Konfigurationsmodus kommst, siehst du in der [Konfigurationsanleitung]({{<
+   ref "configuration" >}}).
 3. Richte deine Privatsphäre-Zonen ein. Mit einer Karten-App auf einem
    Smartphone lässt sich dein aktueller Standort bestimmen, den du dann
    eintippen kannst.

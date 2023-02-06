@@ -111,7 +111,7 @@ OpenBikeSensors erfolgen und nicht mehr durch den oben angeführten, doch recht
 komplizierten Vorgang.
 
 Jetzt ist dein OpenBikeSensor einsatzbereit und du kannst mit der
-[Basiskonfiguration]({{< ref "/docs/user-guide/configuration/minimal" >}})
+[Konfiguration]({{< relref "configuration" >}})
 fortfahren!
 
 ## Bei Problemen
