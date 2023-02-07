@@ -7,6 +7,12 @@ aliases:
 - /bauanleitung
 - /bauanleitung/v00.03.12
 - /docs/hardware/v00.03.12/build-instructions
+description: >
+    Sobald der Bausatz für den OpenBikeSensor Classic zusammengestellt ist,
+    kann anhand dieser Anleitung der Bau begonnen werden. Dies besteht aus
+    einer Menge Lötarbeit, sowie dem Test der Elektronik und dem Einbau in das
+    Gehäuse.
+
 ---
 
 {{< print-qr-link >}}
@@ -15,9 +21,10 @@ aliases:
 Die Bilder sind noch nicht angepasst für diese Version. Im Zweifel Texte beachten!
 {{% /alert %}}
 
-Dies ist die Anleitung zum Aufbau des OpenBikeSensors v00.03.12 in der
-Standardvariante. Andere Versionen können über das Dokumentationsmenü
-aufgerufen werden.
+Dies ist die Anleitung zum Aufbau des OpenBikeSensor Classic. Die aktuelle
+Version dieser Bauanleitung setzt die Hauptplatine der Version v00.03.12
+voraus, sowie die Verwendung der auf dieser Website dokumentierten
+Bau- und Gehäuseteile.
 
 Die beschriebene Vorgehensweise ist nur eine Möglichkeit, zu einem
 funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,

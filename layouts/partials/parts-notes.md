@@ -1,7 +1,5 @@
-Diese Seite beschreibt die Bauteile, die bestellt oder anderweitig organisiert
-werden müssen, um ein Gerät zusammenzubauen.  Bitte lies sie sorgfältig durch,
-und auch den Abschnitt "Notizen", denn bei einige Teilen musst du aufpassen,
-das richtige zu erwischen.
+Bitte lies diese Seite sorgfältig durch, und auch den Abschnitt "Notizen", denn
+bei einige Teilen musst du aufpassen, das richtige zu erwischen.
 
 Einige Links könnten in der Zukunft kaputt gehen, wir werden dann versuchen
 neue zu finden und Verkäufer:innen zu verlinken, mit denen wir gute Erfahrungen

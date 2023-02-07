@@ -1,13 +1,15 @@
 ---
 title: Fehlersuche
 weight: 102
+description: >
+    Dieser Bereich enthält Anleitungen und Links zu Informationen, die bei
+    bekannten Schwierigkeiten und Problemen Abhilfe schaffen könnten. 
+    
 ---
 
-Dieser Bereich enthält Anleitungen und Links zu Informationen, die bei
-bekannten Schwierigkeiten und Problemen Abhilfe schaffen könnten. Solltest du
-einem Problem begegnen, das hier noch nicht aufgeführt ist, könnte eine [Suche
-im Forum](https://forum.openbikesensor.org/search) helfen. Findest du auch dort
-nichts, ist die [Kategorie *Hilfe &
+Solltest du einem Problem begegnen, das hier noch nicht aufgeführt ist, könnte
+eine [Suche im Forum](https://forum.openbikesensor.org/search) helfen. Findest
+du auch dort nichts, ist die [Kategorie *Hilfe &
 Support*](https://forum.openbikesensor.org/c/support/10) der richtige Ort, eine
 Frage zu stellen und Unterstützung zu bekommen.
 

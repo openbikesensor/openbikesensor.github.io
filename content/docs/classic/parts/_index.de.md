@@ -5,7 +5,12 @@ aliases:
 - /bauteile
 - /bauteile/v00.03.12
 - /docs/hardware/v00.03.12/parts
+description: >
+    Diese Seite listet alle Bauteile auf, die bestellt oder hergestellt werden
+    müssen, um einen OpenBikeSensor Classic zusammenzubauen.  
+
 ---
+
 
 {{% pageinfo color="warning" %}}
 Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir arbeiten zurzeit daran, bei neuen Lieferanten testzubestellen. Wenn du gerade bestellst, kannst du @gluap im Forum kontaktieren, um bei der Testbestellung dieser Komponenten mitzumachen. 

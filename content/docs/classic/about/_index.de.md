@@ -1,11 +1,11 @@
 ---
 title: Überblick
 weight: 10
+description: >
+    Der OpenBikeSensor Classic ist das Originalgerät, das seit 2018 in
+    ehrenamtlicher Arbeit von vielen Beteiligten als Open Hardware Design
+    entworfen und entwickelt wird.
 ---
-
-Der *OpenBikeSensor Classic* ist das Originalgerät, das seit 2018 in
-ehrenamtlicher Arbeit von vielen Beteiligten als Open Hardware Design entworfen
-und entwickelt wird.
 
 Die *Classic* Variante des OpenBikeSensors ist ein eigenständiges Design, das
 alle benötigten Funktionalitäten zum Aufzeichnen von Überholabständen vereint.

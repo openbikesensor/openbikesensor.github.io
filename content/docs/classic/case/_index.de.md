@@ -3,6 +3,11 @@ title: Gehäuse
 weight: 30
 aliases:
 - /docs/hardware/general/case
+description: >
+    In das Gehäuse des OpenBikeSensor Classic werden die elektronischen
+    Komponenten eingebaut. Es wird im 3D-Druck-Verfahren selbst gefertigt.
+    
+
 ---
 
 {{< imgproc "OBS_vertical_case_alle_Teile.jpg" Fit "800x600" >}}

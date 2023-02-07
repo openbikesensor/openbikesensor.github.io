@@ -3,6 +3,11 @@ title: Platine
 weight: 20
 aliases:
 - /docs/hardware/general/pcb
+description: >
+    Die Hauptplatine des OpenBikeSensor Classic verbindet alle Module
+    und elektronisch Einzelbauteile miteinander. Hier beschreiben wir,
+    wie du eine solche Platine bekommst.
+
 ---
 
 Ein sehr wichtiger Bestandteil des Gerätes ist die Platine, auch
