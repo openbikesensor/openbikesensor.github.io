@@ -5,7 +5,10 @@
     iframe.setAttribute("src", "https://www.youtube.com/embed/" + div.dataset.videoId + "?autoplay=1&rel=0");
     iframe.setAttribute("frameborder", "0");
     iframe.setAttribute("allowfullscreen", "1");
-    iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    iframe.setAttribute(
+      "allow",
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    );
     while (div.childNodes.length) {
       div.removeChild(div.childNodes[0]);
     }
