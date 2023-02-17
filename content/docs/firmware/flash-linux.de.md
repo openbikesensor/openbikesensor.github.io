@@ -141,7 +141,7 @@ Führt auch keiner dieser Aufrufe zum Erfolg, melde dich im Forum (https://forum
 
 Versionsupdates können in weiterer Folge über die Weboberfläche des OpenBikeSensors erfolgen und nicht mehr durch den oben angeführten, doch recht komplizierten Vorgang.
 
-Jetzt ist dein OpenBikeSensor einsatzbereit und du kannst mit der [Basiskonfiguration](https://openbikesensor.org/docs/user-guide/configuration/minimal/) fortfahren!
+Jetzt ist dein OpenBikeSensor einsatzbereit und du kannst mit der [Konfiguration]({{< relref "configuration" >}}) fortfahren!
 
 
 ## Bei Problemen
