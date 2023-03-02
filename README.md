@@ -1,6 +1,6 @@
 # OpenBikeSensor Website and Documentation 
 
-You can find this site at https://www.openbikesensor.org/
+You can find this site at [https://www.openbikesensor.org/](https://www.openbikesensor.org/).
 
 ## Contributing
 
@@ -28,7 +28,7 @@ Install postcss and other postprocessing tools using npm:
 npm install
 ```
 
-To build the site for development, you can choose between docker and a locally installed version og hugo.
+To build the site for development, you can choose between docker and a locally installed version of hugo.
 
 ### Run hugo with docker
 
@@ -54,7 +54,7 @@ hugo server -D
 We try to keep up to date with hugo and docsy. The current docsy version is
 referenced in the submodule, so we're not sticking to any releases there. The
 current hugo version is specified in the [github flow
-file](.github/workflows/gh-pages.yml).
+file](.github/workflows/gh-pages-staging.yml).
 
 Since hugo does not introduce many breaking changes, it should be fine to work
 with other versions locally. If you run into trouble, try to install the exact
