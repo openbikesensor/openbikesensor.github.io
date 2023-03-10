@@ -62,7 +62,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>1</td>
   <td>Buck-Boost Modul for LiPo, 3.3V (Spannungsregler)</td>
   <td>
-    <a href="https://de.aliexpress.com/item/32892547111.html">aliexpress.com</a>
+    <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung ``A1731i`` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span> 
   </td>
 </tr>
 <tr>
