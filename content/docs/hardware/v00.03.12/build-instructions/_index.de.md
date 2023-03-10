@@ -96,6 +96,10 @@ Vor dem Verlöten mit der Platine vergleichen, ob jeder Pin auch ein Pad bekommt
 
 ## Schritt 2: Spannungsregler (rot)
 
+{{% alert title="Achtung" color="warning" %}}
+In letzter Zeit haben einige Händler schlechte 3.3V Spannungsregler geliefert. Wenn du OpenBikeSensoren lötest oder Workshops veranstaltest, untersuche zunächst, ob du funktionierende Module hast. Auf den funktionierenden Modulen steht auf dem sechsbeinigen Spannungsreglerbauteil eine Typenbezeichnung. Die Module mit ``A1731i`` **funktionieren NICHT**.
+{{% /alert %}}
+
 * Wir verwenden Stiftleisten, um den Spannungsregler richtig zu positionieren. Verlötet
   werden diese nicht, sondern später wieder herausgezogen und beim Lademodul
   benutzt.
