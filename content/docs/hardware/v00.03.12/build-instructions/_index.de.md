@@ -97,7 +97,7 @@ Vor dem Verlöten mit der Platine vergleichen, ob jeder Pin auch ein Pad bekommt
 ## Schritt 2: Spannungsregler (rot)
 
 {{% alert title="Achtung" color="warning" %}}
-In letzter Zeit haben einige Händler schlechte 3.3V Spannungsregler geliefert. Wenn du OpenBikeSensoren lötest oder Workshops veranstaltest, untersuche zunächst, ob du funktionierende Module hast. Auf den funktionierenden Modulen steht auf dem sechsbeinigen Spannungsreglerbauteil eine Typenbezeichnung. Die Module mit ``A1731i`` **funktionieren NICHT**.
+In letzter Zeit haben einige Händler schlechte 3,3V Spannungsregler geliefert. Wenn du OpenBikeSensoren lötest oder Workshops veranstaltest, untersuche zunächst, ob du funktionierende Module hast. Auf den funktionierenden Modulen steht auf dem sechsbeinigen Spannungsreglerbauteil eine Typenbezeichnung. Die Module mit ``A1731i`` **funktionieren NICHT**.
 {{% /alert %}}
 
 * Wir verwenden Stiftleisten, um den Spannungsregler richtig zu positionieren. Verlötet
@@ -355,12 +355,12 @@ vermutlich überspringen (bitte nachfragen) und direkt mit dem Einbau beginnen.
 {{% /alert %}}
 {{% alert title="Achtung: Auf Polung achten" color="warning" %}}
 Die Sensorboards haben den Plus- und Minuspol markiert.
-Bitte merken oder markieren, falls die Polung durch den Folgenden Umbau nicht mehr zu
+Bitte merken oder markieren, falls die Polung durch den folgenden Umbau nicht mehr zu
 lesen ist.
 {{% /alert %}}
 * Option 1: (bevorzugt, benötigt gewinkelte 2-polige JST-Stecker)
   * Die JST-Stecker aus dem Sensorboard auslöten. Hierfür:
-    - Das weiße Kunststoffteil abziehen
+    - Das weiße Kunststoffteil abziehen.
     - Die zurückbleibenden Metallstifte mit etwas mehr Lötzinn versehen und
       herausziehen.
     - Das innere Paar Löcher von Lötzinn befreien (Entlötsaugpumpe oder
@@ -382,8 +382,8 @@ Crimpen entsprechend umgekehrt gepolt in das Steckergehäuse eingeführt.
   * Den weißen Kunststoff vom JST-Stecker abziehen
   * Die zurückbleibenden Metallstifte vorsichtig umbiegen, sodass sie weg von
     der vierpoligen Stifteleiste "nach oben" zeigen, dabei die Biegung in etwa
-    2mm Abstand vom Board anfangen.
-  * Die Stifte können dabei brechen, dann muss kreativ repariert werden ;)
+    2&thinsp;mm Abstand vom Board anfangen.
+  * Die Stifte können dabei brechen, dann muss kreativ repariert werden. ;)
   * Hier lässt sich ein JST-Stecker einstecken, aber nicht arretieren. Wir
     hatten jedoch bisher keine Probleme mit dieser Variante im Betrieb.
 
@@ -402,7 +402,7 @@ Crimpen entsprechend umgekehrt gepolt in das Steckergehäuse eingeführt.
 
 ### Einbau
 
-* Beide Sensorboards stecken, dabei Beschriftung (+3V3, TRIG, ECHO, GND)
+* Beide Sensorboards stecken, dabei Beschriftung (`+3V3`, `TRIG`, `ECHO`, `GND`)
   beachten. Die Boards stehen sich "gegenüber" und dürfen einander nicht
   berühren. Wenn die Platzierung der Boards klar ist, das inner Board wieder
   beiseite legen.
@@ -465,7 +465,7 @@ Crimpen entsprechend umgekehrt gepolt in das Steckergehäuse eingeführt.
 
 ## Schritt 11: GPS-Modul
 
-* Gewinkelte Stiftleiste mit 4 Pins vorbereiten
+* Gewinkelte Stiftleiste mit 4 Pins vorbereiten.
 * Stiftleiste in PCB einlöten:
   * Von der Unterseite stecken.
   * Langes Ende der Pins steht seitlich heraus.
@@ -474,10 +474,10 @@ Achte darauf, dass das kurze Ende der Stiftleiste in das Board
 und das lange Ende in das GPS-Modul eingelötet wird. Ansonsten ragt das
 GPS-Modul aus dem Gehäuse heraus.
 {{% /alert %}}
-* Eng anliegend verlöten, Stifte kürzen
+* Eng anliegend verlöten, Stifte kürzen.
 * GPS-Modul aufstecken, sodass es in der Aussparung des PCB liegt.
-* Einen Pin Verlöten, Ausrichtung korrigieren wie bei Sensorboards 
-* Restliche Pins Verlöten und Stifte kürzen
+* Einen Pin verlöten, Ausrichtung korrigieren wie bei Sensorboards 
+* Restliche Pins Verlöten und Stifte kürzen.
 
 {{< slider >}}
   {{< slider-image
@@ -517,10 +517,10 @@ einige Versuche benötigst und so immer weniger Kabellänge übrig ist.
 
 ## Schritt 12: Ein/Aus-Schalter
 
-* Zwei Stück Kabel, ca. 10cm lang, abtrennen.
+* Zwei Stück Kabel, ca. 10&thinsp;cm lang, abtrennen.
 * Einseitig crimpen und in 2-fach JST Steckergehäuse einführen.
 * Andere Kabelenden an den Schalter löten.
-  * Etwa 5mm des Kabels abisolieren.
+  * Etwa 5&thinsp;mm des Kabels abisolieren.
   * Drahtenden verdrillen und verzinnen.
   * Zu einem "U" oder "Z" biegen und in die Öse an den Schalterpins einführen.
   * Nur kurz löten, sonst schmilzt der Kunststoff im Stecker.
@@ -538,7 +538,7 @@ in welche Richtung die Kabel gelöten werden müssen.
 
 ## Schritt 13: Ultraschallsensor-Kabel kürzen und crimpen
 
-* Die langen schwarzen Kabel der Sensoren auf etwa 10cm kürzen, da die langen
+* Die langen schwarzen Kabel der Sensoren auf etwa 10&thinsp;cm kürzen, da die langen
   Kabel nicht in das Gehäuse passen und auch die Plastikeinfassung der
   bestehenden Stecker zu starr und zu dick für das Gehäuse ist.
 * *Empfehlung*: Schrumpfschlauch (sofern vorhanden, optional) direkt nach dem
@@ -556,9 +556,9 @@ damit du dies nicht erst an den gekürzten Kabeln lernst.
 [Hier gibt es ein Video aus der Community](https://www.youtube.com/watch?v=Z607TQjel1M), welches den folgenden Prozess zeigt.
 {{% /alert %}}
 * Abisolieren:
-  * Etwa 2cm des Kabels abisolieren.
+  * Etwa 2&thinsp;cm des Kabels abisolieren.
   * Die Schirmung zur Seite schieben und alle Leiter miteinander verdrillen (dies ist einer der zwei Leiter, die gecript werden müssen). 
-  * Den inneren Leiter etwa 1mm abisolieren.     
+  * Den inneren Leiter etwa 1&thinsp;mm abisolieren.     
 * Crimpen:
   * Beide Leiter werden gecript.
   * Der Crimpkontakt muss für optimale Verbindung den inneren Leiter und seine Isolierung greifen.
@@ -574,7 +574,7 @@ liegt auf Minus, der innere Leiter ist Plus.
 Die korrekte Belegung findet sich auf den Sensorbords.
 {{% /alert %}}
 * Zum Schluss Schrumpfschlauch (falls vorhanden) erhitzen und befestigen, dabei
-  etwa 3-5mm vom Stecker entfernt positionieren um ein Biegen in Steckernähe
+  etwa 3-5&thinsp;mm vom Stecker entfernt positionieren um ein Biegen in Steckernähe
   beim Einstecken zu ermöglichen. 
     * *Hinweis*: Dieser Schritt kann auch erst nach dem Testen der Eletronik 
     gemacht werden, wenn sichergestellt ist, dass der Sensor korrekt funktioniert.
@@ -592,7 +592,7 @@ Die korrekte Belegung findet sich auf den Sensorbords.
 
 * Die Akkus müssen mit Lötfahnen ausgestattet sein. Akkus ohne Lötfahnen dürfen
   nicht gelötet werden!
-* Das Batteriekabel (rot und schwarz) auf ca. 12cm kürzen und neu auf ca. 5mm
+* Das Batteriekabel (rot und schwarz) auf ca. 12&thinsp;cm kürzen und neu auf ca. 5&thinsp;mm
   abisolieren.
 * Die Polung der Batterie identifizieren. Der Pluspol ist auf der Seite mit
   Einkerbung im Akku-Gehäuse, und in der Regel auch mit einem Plus auf dem
@@ -682,8 +682,8 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht unbedingt durch das Gehäu
 * Button in Gehäuseoberteil einschrauben.
 * Stecker OBS-Seite
   * Das andere Kabelende durch das Displaygehäuse-Unterteil stecken.
-  * Die Außenisolierung kann gut auf ca. 5cm abisoliert werden.
-  * Die einzelnen Litzen **nur 1-2mm abisolieren** und alle 5 Litzen crimpen.
+  * Die Außenisolierung kann gut auf ca. 5&thinsp;cm abisoliert werden.
+  * Die einzelnen Litzen **nur 1-2&thinsp;mm abisolieren** und alle 5 Litzen crimpen.
     Für stabilen Halt müssen die äußeren Flügel des Crimpkontakts die
     Isolierung der jeweiligen Litze greifen.
   * Gecrimpte Kabelenden in das JST-Gehäuse (5-polig) einführen.
@@ -694,12 +694,12 @@ beiden Seiten oder gelötetem Kabel/Knopf passt nicht unbedingt durch das Gehäu
     hervorstehende Plastikflügel) entfernen, also eben abschneiden (Cuttermesser
     oder Seitenschneider).
   * Nur 3 Kabel crimpen: `GND`, `SDA`, `SCL`. Die Außenisolierung auf 
-    ca. 2cm abisolieren. 
+    ca. 2&thinsp;cm abisolieren. 
   * `BUT` an eine Seite des Buttons löten. 
   * {{% alert title="Achtung: Button hitzeempfindlich" color="warning" %}}
 Der Button ist hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunststoff.
 {{% /alert %}}
-  * Kleines Kabelstück (ca. 3cm):
+  * Kleines Kabelstück (ca. 3&thinsp;cm):
     - vorbereiten, einseitig crimpen
     - mit `+3V3` zusammen an andere Buttonseite löten
     - Crimpkontakt entspricht jetzt `+3V3` bzw. `VDD` (am Display)
@@ -739,14 +739,14 @@ Der Button ist hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunst
     alt="Display-Seite: Button und Stecker fertig" >}}
 {{< /slider >}}
 
-## Schritt 17: Display Zusammenbau
+## Schritt 17: Display-Zusammenbau
 
 * 0,96-Zoll OLED-Displayboard vorbereiten
   * Die OLED-Boards haben teils etwas unterschiedliche Größen
     * Platine des Displays nach Bedarf etwas zurechtschneiden, insbesondere an den Ecken (Seitenschneider)
     * Je nach Genauigkeit des 3D-Drucks das Gehäuse etwas weiter ausfräsen
   * Schutzfolie von Display abziehen
-  * Plastikteile an Steckkontakten entfernen und Pins um etwa 2mm kürzen.
+  * Plastikteile an Steckkontakten entfernen und Pins um etwa 2&thinsp;mm kürzen.
 * Display in Gehäuseoberteil (das mit dem Button) einsetzen.
 * Stecker auf die gekürzten Pins aufstecken (Polung beachten). Gegebenenfalls die Pins weiter kürzen, 
   bis der Stecker ganz auf dem Board aufliegt, damit er ins Displaygehäuse passt.
@@ -784,14 +784,14 @@ Der Button ist hitzeempfindlich, bei zu langem/heißem Löten schmilzt der Kunst
 {{< /slider >}}
 
 
-## Schritt 18: ESP32 flaschen
+## Schritt 18: ESP32 flashen
 
 Zunächst muss die OpenBikeSensor-Firmware auf den ESP32 geflashed werden. 
 Am schnellsten sollte dies mit dem Chrome-Browser über diese Webseite gehen:
 
 * https://install.openbikesensor.org
 
-[Folge alternaitv der Anleitung für dein Betriebssystem]({{< relref "firmware" >}}).
+[Folge alternativ der Anleitung für dein Betriebssystem]({{< relref "firmware" >}}).
 
 ## Schritt 19: Elektronik testen
 
@@ -801,10 +801,10 @@ Am schnellsten sollte dies mit dem Chrome-Browser über diese Webseite gehen:
 2. Batteriekabel polungsrichtig einstecken.
 3. Laden: Normales USB-C Ladegerät (5 V) anschließen
     * Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät
-    * Bei vollem Akku leuchtet das Modul blau, sonst rot. 
+    * Bei vollem Akku leuchtet das Modul blau, sonst rot.
 4. USB-C Kabel abstecken.
 5. Einschalten per Kippschalter (ohne dabei den Knopf am Display zu drücken)
-    * Boot-Screen sollte auf dem Display erscheinen. Wenn nicht, nochmal aus und, sofern nichts stinkt oder gar raucht, wieder einschalten.
+    * Boot-Screen sollte auf dem Display erscheinen. Wenn nicht, nochmal aus- und, sofern nichts stinkt oder gar raucht, wieder einschalten.
 6. Bei angeschlossener GPS-Antenne GPS-Funktion im Freien testen
     * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs sehr lange dauern kann. 15 Minuten sind beim ersten Einschalten nicht ungewöhnlich.
     * Alternativ kann durch einen Druck auf den Taster vom Boot-Screen zur Sensor-Anzeige gewechelt werden.
@@ -812,7 +812,7 @@ Am schnellsten sollte dies mit dem Chrome-Browser über diese Webseite gehen:
     * Sensoren mit den Sensor-Boards verbinden
       * Die Polung beachten. Siehe hierzu auch Schritt 13.
     * Zur Sensor-Anzeige wechseln, auf welcher in der Fußzeile die Roh-Werte, der Abstände (ohne Lenkerabstand) der Ultraschall-Sensoren, live angezeigt werden (Option "raw details" in der Konfiguration).
-    * *Hinweis*: Der linke Sensor wird am äußeren, dem Loch zugewandten, Sensor-Board angeschlossen.
+    * *Hinweis*: Der linke Sensor wird am äußeren, dem Loch zugewandten Sensor-Board angeschlossen.
 
 {{< slider >}}
   {{< slider-image
@@ -850,14 +850,14 @@ dann muss dieser später nicht mehr ausgebaut werden.
   - Mit 3 Stück M3x6 oder M3x8 im Gehäuse verschrauben.
 * Displaykabel in Gehäuse einstecken
   - Führe das Displaykabel mit dem Stecker voran von außen in das Hauptgehäuse hinein
-    (Falls in Schritt 16 nicht geschehen).
+    (falls in Schritt 16 nicht geschehen).
   - Die Halterung mit Zugentlastung anbringen und damit das Kabel fixieren.
     Noch nicht festziehen, nur sicherstellen dass die Muttern nicht mehr
     herausfallen.
   - Das Kabel sollte außen um die Elektronik herumgeführt werden, *nicht*
     zwischen dem GPS- und SD-Karten-Modul hindurch. Im neuen Gehäuse sollte
     dort genug Platz sein.
-  - Jetzt zeigt sich auch, warum ca. 5cm Abisolierung hier sinnvoll ist, denn
+  - Jetzt zeigt sich auch, warum ca. 5&thinsp;cm Abisolierung hier sinnvoll ist, denn
     ohne Isolierung ist das Kabel flexibler.
   - Stecker einsetzen (z.B. mit Pinzette)
   - Kabel so weit aus der Zugsicherung herausziehen, bis kein überschüssiges
@@ -879,7 +879,7 @@ dann muss dieser später nicht mehr ausgebaut werden.
     Hierzu:
        - Den Metallschild des GPS-Moduls ablöten.
        - Das neue Kabel vorsichtig durch Rollen unter Cuttermesser auf etwa
-         5-7mm abisolieren.
+         5-7&thinsp;mm abisolieren.
        - Die Schirmung zurückschieben.
        - Noch vorsichtiger die innere Isolierung durch ganz sanftes Rollen
          mit dem Cuttermesser abisolieren.
