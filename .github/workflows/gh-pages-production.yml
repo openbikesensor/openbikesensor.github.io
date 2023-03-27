@@ -36,7 +36,7 @@ jobs:
       - run: npm ci
 
       - name: Build
-        run: hugo --minify -b "https://openbikesensor.org"
+        run: hugo --minify -b "https://www.openbikesensor.org"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
