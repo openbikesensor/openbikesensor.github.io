@@ -33,7 +33,7 @@ Führe **im selben Verzeichnis**, in das du die ZIP-Datei entpackt hast, folgend
 ```bash
 esptool.py \
     --chip esp32 \
-    --port /dev/ttyUSB0 \
+    --port /dev/tty.usbserial-0001 \
     --baud 921600 \
     --before default_reset \
     --after hard_reset \
@@ -54,7 +54,7 @@ Wenn du keine Schreibberechtigung hast, kannst du den Dateimodus des Geräts
 ändern (oder das Kommando als root ausführen):
 
 ```bash
-sudo chmod 0x777 /dev/ttyUSB0
+sudo chmod 0x777 /dev/tty.usbserial-0001
 ```
 
 Sollte alles fehlschlagen, und du noch Fragen haben oder weitere Infos suchen, findest
