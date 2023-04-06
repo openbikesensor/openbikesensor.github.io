@@ -1089,7 +1089,7 @@ Homebrew kannst du es so bekommen:</p><div class=highlight><pre tabindex=0 style
 normalerweise <code>/dev/tty.usbserial-0001</code> &ndash; dies wird auch im Beispiel unten
 angenommen. Auf macOS kannst du deine aktuellen USB-Geräte mit <code>ioreg -p IOUSB -w0 -l</code> auflisten. Suche im Zweifelsfall nach einem USB-zu-UART-USB-Gerät.</p><h2 id=flashen>Flashen</h2><p>Führe <strong>im selben Verzeichnis</strong>, in das du die ZIP-Datei entpackt hast, folgenden Befehl aus:</p><div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>esptool.py <span style=color:#4e9a06>\
 </span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    --chip esp32 <span style=color:#4e9a06>\
-</span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    --port /dev/ttyUSB0 <span style=color:#4e9a06>\
+</span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    --port /dev/tty.usbserial-0001 <span style=color:#4e9a06>\
 </span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    --baud <span style=color:#0000cf;font-weight:700>921600</span> <span style=color:#4e9a06>\
 </span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    --before default_reset <span style=color:#4e9a06>\
 </span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    --after hard_reset <span style=color:#4e9a06>\
@@ -1102,7 +1102,7 @@ angenommen. Auf macOS kannst du deine aktuellen USB-Geräte mit <code>ioreg -p I
 </span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    0xe000 0x0e000.bin <span style=color:#4e9a06>\
 </span></span></span><span style=display:flex><span><span style=color:#4e9a06></span>    0x10000 0x10000.bin
 </span></span></code></pre></div><h2 id=bei-problemen>Bei Problemen</h2><p>Wenn du keine Schreibberechtigung hast, kannst du den Dateimodus des Geräts
-ändern (oder das Kommando als root ausführen):</p><div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo chmod 0x777 /dev/ttyUSB0
+ändern (oder das Kommando als root ausführen):</p><div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo chmod 0x777 /dev/tty.usbserial-0001
 </span></span></code></pre></div><p>Sollte alles fehlschlagen, und du noch Fragen haben oder weitere Infos suchen, findest
 du <a href=https://openbikesensor.org/community/>in der Community</a> immer Hilfe.</p></div><div class=td-content style=page-break-before:always><h1 id=pg-a507897b027215aa57e0fd9f63cf72ce>4 - Software</h1></div><div class=td-content><h1 id=pg-3737c4611db7492af409eea6e4e5dc47>4.1 - Offline-Visualisierung</h1><p>Dieser Artikel beschreibt das Vorgehen, um offline, also ohne ein voll
 funktionsfähiges Portal, eine Visualisierung bestehender Trackdateien
