@@ -94,6 +94,13 @@ heruntergeladen werden:
 Im Archiv befindet sich ein Ordner `export/` mit den obigen Kategorien, und
 darin sind jeweils die STL-Dateien für den Slicer zu finden.
 
+{{% alert title="Achtung: Kompatibilität zwischen Versionen" color="warning" %}}
+Wir halten die Teile zu Halterungen älterer Versionen kompatibel. Aber Teile für ein Geräteelement (z.B. Hauptgehäuse und Deckel, Display und Deckel, die verschiedenen 
+Elemente der Sattelhalterung) können sich zwischen Versionen verändern. Wenn du ein einzelnes Gehäuseteil (z.B. Deckel mit Logo) als ``.stl`` bekommst, prüfe genau im Slicer, ob
+es zu deinen Gehäusedateien passt. Wenn du z.B. ein ``MainCaseLid`` mit Logo weitergeben möchtest, gib ihn am besten im Bundle mit ``MainCase`` weiter. 
+{{% /alert %}}
+
+
 ### Allgemeines Vorgehen
 
 Der Import einer STL-Datei in eine Slicer Software (wie z.B. Cura) ist der

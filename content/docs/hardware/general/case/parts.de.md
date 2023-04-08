@@ -14,6 +14,12 @@ Github in der neuesten Version als ZIP-Archiv. Darin finden sich im Ordner
 <a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/main.zip">Alles herunterladen<a>
 </div>
 
+{{% alert title="Achtung: Kompatibilität zwischen Versionen" color="warning" %}}
+Wir halten die Teile zu Halterungen älterer Versionen kompatibel. Aber Teile für ein Geräteelement (z.B. Gehäuse und Deckel, Display und Deckel, die verschiedenen 
+Elemente der Sattelhalterung) können sich zwischen Versionen verändern. Wenn du ein einzelnes Gehäuseteil (z.B. Deckel mit Logo) bekommst, prüfe genau im Slicer, ob
+es zu deinen Gehäusedateien passt. Wenn du z.B. ein ``MainCaseLid`` mit Logo weitergeben möchtest, gib ihn am besten im Bundle mit ``MainCase`` weiter. 
+{{% /alert %}}
+
 Eine detaillierte Anleitung zum Gehäusedruck gibt es [hier]({{< relref "." >}}).
 
 ### Hauptgehäuse
