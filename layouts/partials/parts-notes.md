@@ -21,7 +21,9 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   Bezeichnung "ESP32 DEVKIT v1" verkauft.
 
 * **SD-Karte**: Billige SD-Karten haben schon öfters Probleme verursacht, wähle
-  lieber ein Markenprodukt.
+  lieber ein Markenprodukt. Versuche eine SD-Karte unter 100 MB/s zu bekommen,
+  z.B. SanDisk Karten mit 120 MB/s haben auch schon Probleme verursacht, da sie
+  die von uns verwendete Schnittstelle nicht mehr unterstützen.
 
 * **GPS-Modul**: Bevorzuge die Variante mit großer Antenne
   ([Link1](https://de.aliexpress.com/item/1550843440.html),
