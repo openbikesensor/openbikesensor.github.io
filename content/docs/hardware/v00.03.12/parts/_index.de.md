@@ -78,7 +78,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>1</td>
   <td>SD-Karte, 16 GB / 32 GB (Hinweis beachten)</td>
   <td>
-    <a href="https://www.reichelt.de/microsdhc-speicherkarte-32gb-sandisk-ultra-sdsqua4032ggn6ma-p297179.html">reichelt.de</a>
+    <a href="https://www.amazon.de/gp/product/B008RDCC26/ref=ox_sc_saved_image_6?smid=A3JWKAKR8XB7XF&psc=1">amazon.de</a>
     <br/>
     <a href="https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop">google Suche</a> 
   </td>
