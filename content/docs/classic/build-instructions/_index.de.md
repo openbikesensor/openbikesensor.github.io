@@ -17,15 +17,11 @@ description: >
 
 {{< print-qr-link >}}
 
-{{% alert title="Achtung: Veraltete Bilder" color="warning" %}}
-Die Bilder sind noch nicht angepasst für diese Version. Sollte etwas bei dir
-anders aussehen, beachte vor allem die Texte.
-{{% /alert %}}
-
 Dies ist die Anleitung zum Aufbau des OpenBikeSensor Classic. Die aktuelle
-Version dieser Bauanleitung setzt die Hauptplatine der Version 1.0.0
-voraus, sowie die Verwendung der auf dieser Website dokumentierten
-Bau- und Gehäuseteile.
+Version dieser Bauanleitung setzt die Hauptplatine der Version 1.0.0 voraus,
+sowie die Verwendung der auf dieser Website dokumentierten Bau- und
+Gehäuseteile. Auch die benötigten Verbrauchsgüter und Werkzeuge sind bei der
+[Bauteileliste]({{< relref "../parts" >}}) beschrieben.
 
 Die beschriebene Vorgehensweise ist nur eine Möglichkeit, zu einem
 funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,
@@ -81,7 +77,6 @@ anfängst.
   relref "/community" >}}). Außerdem sind wir nicht für Fehler verantwortlich
   die du während des Aufbaus machst. Sollte etwas schief gehen und du brauchst
   Hilfe kannst du dich natürlich trotzdem an uns wenden.
-
 
 ## Buchsenleisten
 
@@ -215,7 +210,9 @@ Seitenschneider.
     noprint=true >}}
 {{< /slider >}}
 
-## Widerstände
+## Kleine elektronische Bauteile
+
+### Widerstände
 
 Ordne zunächst alle Widerstände richtig zu, indem du die Farbcodes abliest oder
 mit einem Multimeter misst:
@@ -248,7 +245,7 @@ gehen wir davon aus, dass du auch weißt, wie du sie anbringst.
     alt="Beine kürzen" >}}
 {{< /slider >}}
 
-## Kondensatoren
+### Kondensatoren
 
 Identifiziere zunächst alle Kondensatoren und ordne sie korrekt zu. **C1** ist
 ein 100&thinsp;nF großer Keramikkondensator, der ist in der Regel blau oder
@@ -288,7 +285,7 @@ Beine auf der Rückseite fest, und schneide dann den überstehenden Draht ab.
     noprint=true >}}
 {{< /slider >}}
 
-## Sicherung
+### Sicherung
 
 Die Sicherung **F1** ist in der Regel gelb, flach und hat 2 Beine. Der Körper
 ist rund oder rechteckig. Die Sicherung sieht so ähnlich aus wie ein
@@ -300,7 +297,7 @@ aufsitzen darf um korrekt zu funktionieren.
 
 Die Sicherung wie die bisherigen Bauteile eingebaut.
 
-## Batteriestecker
+### Batteriestecker
 
 {{% alert title="Achtung: Farben nicht eindeutig" color="warning" %}}
 Die Stecker sind nicht standardisiert und werden teilweise verdreht geliefert,
@@ -340,7 +337,7 @@ Stecke den Stecker auf die Platine, drehe sie um und löte auf der Rückseite
 einen der Pins fest. Prüfe nun, ob der Stecker gut und gerade auf der Platine
 sitzt, ansonsten kannst du nacharbeiten. Löte dann die andere Seite fest.
 
-## Diode
+### Diode
 
 Die Diode ist das größte der einzelnen Elemente, mit rundem schwarzen Körper
 und ziemlich dicken Beinen, die an beiden Seiten heraustreten. Ein Ende des
@@ -370,7 +367,7 @@ Länge.
     nach oben zeigt, und die Diode auf der Platine auf dem weißen Kreis steht.
 {{</ imgproc >}}
 
-## Verbinder für Taster und Display
+### Verbinder für Taster und Display
 
 Die weißen Buchsen für die Steckverbinder zum Ein- und Ausschalter (J2) sowie
 zum Display (J3) werden nebeneinander oben auf die Hauptplatine aufgelötet.
@@ -417,7 +414,7 @@ Winkelstiftleiste mit 2 Stiften. Führe dabei das kurze Ende nur so weit ins
 Sensorboard ein, dass die Spitze der Stifte gerade so auf der anderen Seite
 herausschaut. Diese Option solltest du nur wählen, wenn du keine gewinkelten
 JST-Buchsen zur Hand hast.
- 
+
 Die **letzte Option** ist ein wenig riskant und nicht besonders stabil, hat
 aber auch schon oft und erstaunlich gut funktioniert. Dafür ziehe den weißen
 Kunststoff der bestehenden JST-Buchse ab, und biege die zurückbleibenden
@@ -438,7 +435,7 @@ Platzierung der Boards klar ist, lege das innere Board wieder beiseite.
 
 Fixiere zunächst das äußere Board. Hierfür kannst du die Hauptplatine mit dem
 gestecktem Board auf den Kopf drehen, es steht so ganz gut von selbst.
-  
+
 Löte nur einen Pin an, danach prüfe wie üblich die Ausrichtung. In der Regel
 ist das Board beim ersten Versuch noch nicht senkrecht, und liegt auch nicht
 auf voller Länge auf dem PCB auf, sondern hat "Luft" darunter. Dies kannst du
@@ -448,7 +445,7 @@ kannst. Mit der anderen Hand kannst du jetzt noch den Lötkolben führen. Da der
 eine Pin bereits verlötet ist benötigst du kein dritte Hand für das Lötzinn.
 Passe so die Ausrichtung so lange an, bis sie aus allen Richtungen gut
 aussieht.
-  
+
 Erst dann werden die drei verbleibenden Pins verlötet. Platziere das zweite
 Sensorboard auf dieselbe Weise, und kürze am Ende alle Stifte.
 
@@ -489,11 +486,11 @@ Erst dann löte die restlichen Pins und kürze sie.
     Die 6-polige Winkelstiftleiste muss von oben ins SD-Modul eingesetzt
     werden, sodass die langen Enden der Stifte vom Modul weg zeigen und die
     schwarzen Plastikteile einige Millimeter über die Platine hinausragen.
-{{</ imgproc >}} 
+{{</ imgproc >}}
 
 {{< imgproc "gps-sd-placement.jpg" Fit "800x600" >}}
     Hier werden die zwei Module auf der Hauptplatine platziert. Die Oberseite
-    des Moduls zeigt in Richtung der Buchsenleiste für den ESP32. 
+    des Moduls zeigt in Richtung der Buchsenleiste für den ESP32.
 {{</ imgproc >}}
 
 ---
@@ -537,7 +534,7 @@ Führe die Crimps nun in ein 2-poliges JST-Steckergehäuse ein und verdrille die
 zwei Kabel zu einem, indem du den Schalter festhälst und den Stecker etwa 10-20
 mal drehst. Es wird sich ein wenig wieder lockern, aber sollte nun wie ein
 Kabel wirken, und keine große Schlaufe mehr bilden.
-  
+
 {{< imgproc "v00.03.12/12_Switch/DSC08041.JPG" Fit "500x500" >}}
     Schalter mit Kabel und Stecker.
 {{< /imgproc >}}
@@ -605,7 +602,7 @@ Kürze das Batteriekabel auf ca. 12cm und isoliere etwa 5mm der Enden ab.
 Identifiziere die Polung der Batterie, der Pluspol ist auf der Seite mit
 Einkerbung im Akku-Gehäuse, und in der Regel auch mit einem Plus auf dem
 Aufdruck markiert. **Im Zweifel miss mit dem Multimeter nach.**
-  
+
 Es empfiehlt sich, den Akku bereits in den Gehäusedeckel einzulegen, sodass er
 bei der Arbeit nicht wegrollt. Statte beide Lötfahnen an ihrem Ende zunächst
 mit einem großzügigen Lötpunkt aus. Lasse die Stellen wieder abkühlen, dann
@@ -638,7 +635,7 @@ Gehäuses. Stecke sie **noch nicht** ein.
 
 Im Haupt- sowie im Displaygehäuse gibt es einige Löcher, in die Gewindeeinsätze
 ("heat-set inserts") hinein gehören. Dort greifen später die Schrauben, die das
-ganze Gerät zusammenhalten. Die Gewinde müssen an folgende Stellen: 
+ganze Gerät zusammenhalten. Die Gewinde müssen an folgende Stellen:
 
 * 3 Stück in Hauptgehäuse für das PCB (mit Montagelöchern der Platine vergleichen)
 * 5 Stück in Hauptgehäuse für Hauptdeckel
@@ -648,7 +645,7 @@ ganze Gerät zusammenhalten. Die Gewinde müssen an folgende Stellen:
 Stelle deinen Lötkolben auf ca. 180-220°C ein und reinige die Spitze gründlich,
 sodass kein Lot mehr daran hängt. Alternativ kannst du eine eigene Spitze für
 diese Aufgabe verwenden, und danach wieder wechseln.
-    
+
 Finde eines der vorgesehenen Löcher, nimm ein Gewinde und drücke es so weit es
 geht von Hand in das Loch hinein. Halte das Gewinde bei Bedarf mit einer
 Pinzette fest, während du den Lötkolben auflegst und leichten Druck ausübst.
@@ -658,7 +655,7 @@ Das Gewinde sollte lieber etwas zu tief sitzen, als über den Rand überzustehen
 um die Gehäuseteile bündig miteinander verbinden zu können. Die Gewinde, mit
 denen das PCB befestigt wird, sollten allerdings auch nicht zu tief versinken,
 sonst bildet sich eine Ausbuchtung auf der Außenseite.
-    
+
 **Vorsicht:** Die Gewindeeinsätze sind noch lange nach dem Einsetzen heiß und
 kühlen erst langsam ab. Lege das Gehäuseteil am besten einige Minuten zur
 Seite, wenn du alle Gewinde darin platziert hast.
@@ -671,7 +668,7 @@ OpenBikeSensoren kompatibel sein soll, solltest du jetzt die Polung von einer Vo
 Setze zunächst die zwei Magnete in Abdeckung selbst ein. Die Magnete haben nur
 **in einer Achse** Anziehungskraft, sie dürfen also nicht seitlich eingesetzt
 werden. Es empfiehlt sich, die vier Magnete "als Stange" zu halten, um ein
-verdrehen zu vermeiden. Alternativ kannst du mit einem permanenten Marker die
+Verdrehen zu vermeiden. Alternativ kannst du mit einem permanenten Marker die
 richtige Seite markieren.
 
 Um die zwei Gegenstücke einzubauen, setze je einen Magneten auf einen der
@@ -689,7 +686,7 @@ sie auch mit etwas Sekunden- oder Alleskleber fixieren.
 {{< imgproc "v00.03.12/15_Prepare_Case/DSC08074.JPG" Fit "500x500" >}}
     Hauptgehäuse mit Einpressgewinde
 {{< /imgproc >}}
-    
+
 {{< imgproc "v00.03.12/15_Prepare_Case/DSC08075.JPG" Fit "500x500" >}}
     USB-Abdeckung mit Magneten
 {{< /imgproc >}}
@@ -697,89 +694,97 @@ sie auch mit etwas Sekunden- oder Alleskleber fixieren.
 ## Displayeinheit
 
 In diesem Abschnitt baust du das Display mit Knopf und Kabel in sein Gehäuse
-ein. Verwende folgende Tabelle als Vorschlag für die Zuordnung der Leiter zu
-ihren Anschlüssen, oder tausche die Farben durch deine eigene Zuordnung aus,
-falls dein Kabel andere Leitungsfarben verwendet.
+ein.
 
-| Farbe        | OBS-Seite      | Displayseite | Button  |
-| ------------ | -------------- | ------------ | ------- |
-| blau         | `SDA`          | `SDA`        |         |
-| schwarz      | `GND`          | `GND`        |         |
-| grau         | `BUT`          | -            | Pin 1   |
-| weiß         | `SCL`          | `SCK`        | -       |
-| braun        | `+3V3`         | -            | Pin 2   |
-| kurzes Kabel | -              | `VDD`        | Pin 2   |
+Verwende folgende Tabelle als Vorschlag für die Zuordnung der Leiter im
+Displaykabel zu ihren Anschlüssen, oder tausche die Farben durch deine eigene
+Zuordnung aus, falls dein Kabel andere Leitungsfarben verwendet.
+
+| Farbe                      | OBS-Seite      | Displayseite | Button  |
+| -------------------------- | -------------- | ------------ | ------- |
+| blau                       | `SDA`          | `SDA`        |         |
+| schwarz                    | `GND`          | `GND`        |         |
+| grau                       | `BUT`          | -            | Pin 1   |
+| weiß                       | `SCL`          | `SCK`        | -       |
+| braun                      | `+3V3`         | -            | Pin 2   |
+| kurzes Kabel (siehe unten) | -              | `VDD`        | Pin 2   |
 
 ### Kabel vorbereiten
 
-Entferne auf beiden Seiten des langen Displaykabel die Isolierung, auf der
+Entferne auf beiden Seiten des langen Displaykabel die **Isolierung**, auf der
 einen Seite ca. 5-7cm lang (dies ist die Seite für das Hauptgerät) und auf der
-anderen nur ca. 3cm. Die lange Seite wird vollständig gecrimpt, auf der kurzen
-Seite crimpe nur die drei Leiter für `GND`, `SDA`, `SCL` (oder laut Farbtabelle
-den schwarzen, blauen und weißen Leiter). Die zwei restlichen Leiter, `+3V3`
-(braun) und `BUT` (grau) werden angelötet und dafür ca. 5mm lang abisoliert.
+anderen nur ca. 3cm. Die lange Seite wird **vollständig gecrimpt**, auf der
+kurzen Seite **crimpe nur drei Leiter**, nämlich die für `GND`, `SDA`, `SCL`
+(oder laut Farbtabelle den schwarzen, blauen und weißen Leiter). Die zwei
+restlichen Leiter, `+3V3` (braun) und `BUT` (grau) werden angelötet und dafür
+ca. 5mm lang abisoliert.
 
-Bereite ein kleines Kabelstück von ca. 3cm Länge vor, und crimpe auch hier eine
+Bereite ein **kleines Kabelstück** von ca. 3cm Länge vor, und crimpe auch hier eine
 Seite und isoliere die andere ab.
 
+**Verzinne** alle Kabelenden die zum Löten vorgesehen sind (drei Stück).
 
 ### Knopf
 
-Schraube den Knopf in das Gehäuseoberteil des Displays hinein. Wenn die Mutter
+**Schraube den Knopf** in das Gehäuseoberteil des Displays hinein. Wenn die Mutter
 nicht das Gewinde greifen kann (den Knopf gibt es in verschiedenen Längen)
 kannst du auch etwas Heißkleber verwenden.
 
-Löte nun drei Leiter an die zwei Seiten des Buttons an, das kleine Kabel
-zusammen mit `+3V3` (braun) auf eine Seite, `BUT` (grau) auf die andere. Auch
-hier empfiehlt sich, wie beim Schalter, wenn du zuerst die abisolierten Kabel
-verzinnst, zu einer U-Form biegst und in die Ösen einhängst, um dann **nur kurz
-löten** zu müssen, damit der Kunststoffkörper des Knopfes nicht schmilzt.
-
+**Löte die drei Leiter** an die zwei Seiten des Buttons an. Dabei kommen das kleine
+Kabel mit `+3V3` (braun) zusammen auf eine Seite und `BUT` (grau) allein auf
+die andere. Auch hier empfiehlt sich, wie beim Schalter, wenn du zuerst die
+abisolierten und verzinnten Enden zu einer U-Form biegst und in die Ösen
+einhängst, um dann **nur kurz löten** zu müssen, damit der Kunststoffkörper des
+Knopfes nicht schmilzt.
 
 ### Stecker
 
-Entferne vom 4-poligen JST-Steckergehäuse die Arretierung (auf der einen Seite
+Ziehe am Displaymodul die **schwarzen Plastikteile** von der Stiftleiste ab und
+**kürze die vier Stifte** um jeweils ca. 2mm.
+
+Entferne vom 4-poligen JST-Steckergehäuse die **Arretierung** (auf der einen Seite
 leicht hervorstehende Plastikflügel), zum Beispiel mit einem Cuttermesser oder
-Seitenschneider. Nur so passt der Stecker am Ende in das kleine Gehäuse.
+Seitenschneider. Nur so passt der Stecker am Ende in das kleine Displaygehäuse.
 
-Ziehe außerdem am Displaymodul die schwarzen Plastikteile von der Stiftleiste
-ab und kürze die vier Stifte um jeweils ca. 2mm. Entferne auch die Schutzfolie
-vom Display. Sollte dein Display nicht ins Gehause passen, kannst du mit einem
-Seitenschneider die Ecken der Platine etwas bearbeiten, bis es passt.
-   
-Setze dann das Display in Gehäuseoberteil (das mit dem Button) ein, stecke den
-Stecker auf die gekürzten Pins (Polung beachten). Gegebenenfalls die Pins
-weiter kürzen, bis der Stecker ganz auf dem Board aufliegt, damit er ins
-Displaygehäuse passt.
-   
-Führe die gecrimpten Kabelenden in das 5-polige JST-Steckergehäuse ein. Die
-Zuordnung kannst du anhand der Tabelle und der Beschriftung auf der Hautplatine
-machen, oder du kopierst die abgebildete Reihenfolge.
+Stecke die 4 gecrimpten Kabelenden (drei vom langen Displaykabel und eines vom
+kurzen Kabelstück) in das Steckergehäuse. Die Zuordnung kannst du anhand der
+Tabelle und der Beschriftung auf der Displayplatine machen, oder du kompierst
+die abgebildete Reihenfolge.
 
-   
+Führe die 5 gecrimpten Kabelenden am langen abisolierten Ende des Kabels in das
+5-polige JST-Steckergehäuse ein. Die Zuordnung kannst du wieder anhand der
+Tabelle und der Beschriftung auf der Hautplatine machen, oder erneut die
+abgebildete Reihenfolge kopieren.
+
 ### Zusammenbau
 
-Setze die Magnete in die Seitentasche ein. Wenn dein Display mit anderen
-OpenBikeSensoren kompatibel sein soll, solltest du jetzt die Polung von einer
-Vorlage übernehmen.
+Entferne die **Schutzfolie** vom Display. Sollte dein Display nicht ins Gehäuse
+passen, kannst du mit einem Seitenschneider die Ecken der Platine etwas
+bearbeiten, bis es passt.
 
-Je nach Genauigkeit des 3D-Drucks können die Magnete lose sein und etwas
-klappern. Fixiere sie dann mit etwas Kleber oder umwickele sie mit Klebeband.
-    
-Setze die Gehäuseteile zusammen und drehe die drei Schrauben hinein, die sie zusammenhalten.
+Stecke den **4-poligen Stecker** auf die gekürzten Pins am Display und setze
+dieses in das Gehäuseoberteil ein. Kürze bei Bedarf die Pins weiter, bis der
+Stecker ganz auf der Displayplatine aufliegt, damit er ins Displaygehäuse
+passt.
 
-Stecke dann die beiden Hälften der Zugentlastung in die Öffnung der Unterseite
+Setze **zwei rechteckige Magnete** in die Seitentasche ein. Wenn dein Display
+mit anderen OpenBikeSensoren kompatibel sein soll, solltest du jetzt die
+Polarität von einer Vorlage übernehmen. Manchmal sind die Magnete etwas lose
+und klappern, fixiere sie dann mit Kleber oder umwickele sie mit Klebeband.
+
+Setze die Gehäuseteile zusammen und drehe die **drei Schrauben** hinein, die sie
+zusammenhalten.
+
+Stecke die beiden Hälften der **Zugentlastung** in die Öffnung der Unterseite
 aus der das Kabel herauskommt. Setze erst die eine Seite ein, und dann die
-zweite, welche du im Winkel einsetzt und dann mit der anderen zusammendrückst,
-sodass sie das Kabel hält. Falls das nicht so gut klappt kannst du die
-angewinkelten Ecken unten am zweiten Teil der Zugentlastung etwas mit einem
-Seitenschneider abrunden, sodass sie leichter hinein geht.
+zweite etwas angewinkelt, bevor du sie beide zusammendrückst, sodass sie das
+Kabel am nicht abisolierten Teil greifen. Falls der zweite Teil sich nicht
+hineinhebeln lässt kannst du die angewinkelten unteren Ecken etwas mit einem
+Seitenschneider weiter abrunden, sodass die Halterung leichter hinein geht.
 
-Schraube dann mit je zwei Schrauben und Sechskantmuttern die zwei Hälften
+Schraube mit je zwei Schrauben und Sechskantmuttern die zwei Hälften
 zusammen. Achte darauf, dass die sechseckige Fixierung auf jeweils einer Seite
 der Zugentlastung für die Mutter vorgesehen ist.
-
-
 
 {{< slider >}}
   {{< slider-image
@@ -826,47 +831,99 @@ der Zugentlastung für die Mutter vorgesehen ist.
 {{< /slider >}}
 
 
-## ESP32 flaschen
+## Firmware installieren
 
-Zunächst muss die OpenBikeSensor-Firmware auf den ESP32 geflashed werden.
-Am schnellsten sollte dies mit dem Chrome-Browser über diese Webseite gehen:
+Zunächst muss die OpenBikeSensor-Firmware auf den ESP32 installiert werden.
+Dieser Vorgang heißt auf Englisch "to flash" oder eingedeutscht "flashen".
 
-* https://install.openbikesensor.org
+Schließe dafür den ESP32 mit einem Mikro-USB Kabel direkt an einen Computer an.
+Benutze dann eine dieser Methoden, um die Firmware darauf zu installieren:
 
-[Folge alternaitv der Anleitung für dein Betriebssystem]({{< relref "firmware" >}}).
+* Das online Flash-Tool auf
+  [install.openbikesensor.org](https://install.openbikesensor.org), das du mit
+  einem aktuellen Chrome-Browser öffnen solltest. Dies ist die **einfachste
+  Methode**, falls sie bei dir funktioniert.
+* [Anleitung für Linux]({{< relref "../../firmware/flash-linux" >}})
+* [Anleitung für Windows]({{< relref "../../firmware/flash-windows" >}})
+* [Anleitung für MacOS]({{< relref "../../firmware/flash-macos" >}})
+
 
 ## Elektronik testen
 
-**Vor dem Einbau ins Gehäuse** testen wir die Elektronik in dieser Reihenfolge:
+**Vor dem Einbau ins Gehäuse** sollte die Elektronik getestet werden. Führe
+zunächst einen Sichttest der gelöteten Stellen durch, bevor du das erste Mal die
+Batterie und/oder ein Ladekabel anschließt.
 
-1. Ausschalten
-2. Batteriekabel polungsrichtig einstecken.
-3. Laden: Normales USB-C Ladegerät (5 V) anschließen
-    * Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät
-    * Bei vollem Akku leuchtet das Modul blau, sonst rot.
-4. USB-C Kabel abstecken.
-5. Einschalten per Kippschalter (ohne dabei den Knopf am Display zu drücken)
-    * Boot-Screen sollte auf dem Display erscheinen. Wenn nicht, nochmal aus und, sofern nichts stinkt oder gar raucht, wieder einschalten.
-6. Bei angeschlossener GPS-Antenne GPS-Funktion im Freien testen
-    * Nach einigen Minuten: GPS-Board blinkt, Boot-Screen wechselt zu Sensor-Anzeige. Werden 0 Satelliten angezeigt, wird trotzdem weitergesucht, was zu Beginn wegen des Downloads des Almanachs sehr lange dauern kann. 15 Minuten sind beim ersten Einschalten nicht ungewöhnlich.
-    * Alternativ kann durch einen Druck auf den Taster vom Boot-Screen zur Sensor-Anzeige gewechelt werden.
-7. Sensoren-Funktion testen:
-    * Sensoren mit den Sensor-Boards verbinden
-      * Die Polung beachten. Siehe hierzu auch Schritt 13.
-    * Zur Sensor-Anzeige wechseln, auf welcher in der Fußzeile die Roh-Werte, der Abstände (ohne Lenkerabstand) der Ultraschall-Sensoren, live angezeigt werden (Option "raw details" in der Konfiguration).
-    * *Hinweis*: Der linke Sensor wird am äußeren, dem Loch zugewandten, Sensor-Board angeschlossen.
+* Sind alle Lötpunkte gut verbunden?
+* Siehst du eine [kalte Lötstelle](https://de.wikipedia.org/wiki/L%C3%B6ten#Kalte_L%C3%B6tstelle) irgendwo?
+* Findest du auf der Platine heruntergetropftes Lötzinn oder einen Drahtrest,
+  der einen Kurzschluss verursachen könnte?
+* Sind irgendwo versehentlich benachbarte Pins miteinander verbunden worden
+  (häufig bei den Kondensatoren der Fall)?
+* Sind alle Module senkrecht und stabil eingebaut?
 
-{{< slider >}}
-  {{< slider-image
-    src="v00.03.12/18_Testing/DSC08091.JPG"
-    alt="Die Elektronik funktioniert"
-    noprint=true >}}
-{{< /slider >}}
+Löte bei Bedarf die fehlerhaften Stellen nach.
+
+Für den Test der Elektronik solltest du einen **vollständig geladenen Akku**
+verwenden. In Workshops ist meist einer vorbereitet, hast du nur den neuen und
+ungeladenen Akku, so kannst du ihn mit deinem OpenBikeSensor jetzt aufladen:
+
+1. Ziehe alle Stecker aus der Platine und entferne den ESP32.
+2. Stecke den Hauptschalter ein.
+3. Stecke das Batteriekabel polungsrichtig ein
+4. Schließe ein normales USB-C Ladegerät (5 V) an das Lademodul an.
+   * Einige Geräte funktionieren nur nach Anschluss an ein Ladegerät.
+   * Ein Handyladeadapter funktioniert eigentlich immer, neuere oder
+     leistungsfähigere USB-C Netzteile manchmal nicht.
+5. Während des Ladevorgangs leuchtet die LED am Lademodul rot, wenn der Akku
+   voll ist blau.
+
+Wenn du einen vollen Akku hast beginne mit dem **Test der Elektronik**:
+
+1. Ziehe den Akku zunächst wieder ab. Verbinde nur das Display und den
+   Hauptschalter und stecke den ESP32 auf seine Buchsenleisten. Achte dabei
+   darauf, dass der USB-Port des ESP32 in die auf der Platine markierte
+   Richtung zeigt.
+2. Achte darauf, dass der Schalter ausgeschaltet ist.
+3. Stecke die Batterie jetzt polungsrichtig ein.
+4. Schalte den Hauptschalter ein.
+   * Nach etwa einer Sekunde sollte der Startbildschirm auf dem Display
+     erscheinen.
+   * Wenn das nicht passiert, schalte das Gerät wieder aus. Sofern nichts
+     stinkt oder gar raucht, kannst du alle Verbindungen prüfen und es noch
+     einmal versuchen.
+   * Wenn dein Display funktioniert und ein OpenBikeSensor-Logo sowie etwas
+     Text anzeigt, schalte das Gerät aus und fahre mit dem nächsten Testschritt
+     fort.
+5. Stecke die SD-Karte in die Halterung. Starte das Gerät und warte, bis auf
+   dem Display "SD OK" erscheint.
+   * Kommt kein "SD OK" sondern ein "SD Error" und/oder ein Zähler, der 10
+     Sekunden lang zählt, so wurde deine SD-Karte nicht erkannt. Prüfe in
+     diesem Fall die Verbindungen zwischen dem ESP32 und dem SD-Modul auf
+     Leitfähigkeit, nimm dafür den
+     [Schaltplan](https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/blob/merged/OpenBikeSensor03/generated/OpenBikeSensor_pcb_Schaltplan.pdf)
+     zu Hilfe.
+   * Wenn deine SD-Karte funktioniert, schalte das Gerät aus und fahre mit dem
+     nächsten Testschritt fort.
+6. Stecke die GPS-Antenne an das GPS-Modul an. Sei vorsichtig mit dem kleinen
+   Stecker und der Buchse, sie können leicht verbiegen. Starte das Gerät und
+   lasse es eine Weile unter freiem Himmel liegen. Es kann bis zu 20 Minuten
+   dauern, bis ein GPS-Signal gefunden wurde. Keine Sorge, das ist nicht jedes
+   Mal so. Wenn das GPS-Signal gefunden wird, schaltet das Gerät vom
+   Startbildschirm in den Messmodus und zeigt die Abstände links und rechts an
+   (ohne Sensoren natürlich nicht). In diesem Fall fahre mit dem nächsten
+   Testschritt fort.
+7. Stecke die Ultraschallsensoren an ihre Module an. Starte das Gerät,
+   überspringe bei Bedarf mit dem Knopf das Suchen des GPS-Signals, und prüfe,
+   dass die Sensoren plausible Abstände messen.
+
+Wenn alle Komponenten korrekt funktionieren, kannst du das Gerät ausschalten,
+alle Verbindungen wieder trennen, und mit dem Einbau ins Gehäuse beginnen. Hast
+du einen Fehler gefunden, der sich nicht durch nachlöten reparieren lässt,
+hilft dir vielleicht eine der Anleitung auf der [Fehlersuche-Seite]({{< relref
+"../troubleshooting" >}}) weiter.
 
 ## Zusammenbau
-
-Vor dem Zusammenbau sicherstellen, dass die Firmware auf dem ESP32 aufgespielt ist,
-dann muss dieser später nicht mehr ausgebaut werden.
 
 * Kabel und Halterung
   - Die vier Sechskantmuttern in die Wand des Gehäuses einsetzen (bei Gehäuse
@@ -898,7 +955,7 @@ eine Top-Rider oder Back-Rider [Variante]({{< relref "../case/variants" >}})
 bauen möchtest, und führe das freie Ende des Kabels durch die entsprechende
 Öffnung im Hauptgehäuse. Möchtest du beide Halterungen montieren und dir damit
 beide Varianten ermöglichen, kannst du dir die Öffnung frei aussuchen.
-  - 
+  -
   - Die Halterung mit Zugentlastung anbringen und damit das Kabel fixieren.
     Noch nicht festziehen, nur sicherstellen dass die Muttern nicht mehr
     herausfallen.

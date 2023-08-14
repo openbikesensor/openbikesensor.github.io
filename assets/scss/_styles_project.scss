@@ -130,6 +130,7 @@ pre {
   html,
   body {
     font-size: 10pt;
+    min-width: 0 !important;
   }
 
   .noprint {
@@ -143,12 +144,13 @@ pre {
 
   .td-content {
     max-width: 100%;
-    columns: 2;
+    // columns: 2;
     column-gap: 4rem;
+    font-size: 1rem;
 
     p, ul, ol, .alert {
         line-height: 1.7em;
-        font-size: 11pt;
+        font-size: 1em;
     }
 
     > h1,
@@ -184,46 +186,43 @@ pre {
     .print-figures {
       counter-reset: step-figure;
       margin: 1rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
     }
 
-    figure {
-        display: inline-block;
+    figure, .card {
         // display: block;
         position: relative;
-        width: calc(50% - 0.25rem - 2px);
+        // width: calc(50% - 0.25rem - 2px);
         vertical-align: top;
-        padding: 0.5rem;
         margin: 0;
-        margin-bottom: 0.5rem;
-
-        &:nth-of-type(2n) {
-            margin-left: 0.5rem;
-        }
+        padding: 0 !important;
+        border: 1px solid black;
+        border-radius: 2mm;
+        overflow: hidden;
 
         break-inside: avoid;
         counter-increment: step-figure;
-        figcaption {
-            &:before {
-                content: counter(step-figure);
-                border: 2px solid black;
-                border-radius: 100px;
-                padding: 0.3rem;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: bold;
-                min-width: 1.5em;
-                max-height: 1.5em;
-                text-align: center;
-                position: absolute;
-                left: 0;
-                top: 0;
-            }
+        figcaption, .card-body {
             position: relative;
-            padding-left: 2.4rem;
-            margin-top: 0.5rem;
+            margin: 0;
+            padding: 0.2rem 0.5rem !important;
+            border-top: inherit;
         }
     }
+
+    // .card {
+    //   padding: 0 !important;
+    //   border: 1px solid black;
+    //   border-radius: 2mm;
+    //   break-inside: avoid;
+    //   overflow: hidden;
+    //
+    //   .card-body {
+    //
+    //   }
+    // }
 
     .section-index,
     // "Last changed" row
@@ -452,6 +451,28 @@ pre {
       flex: 1 1 0;
       margin-left: 2rem;
       padding: 1rem;
+      line-height: 1.2;
+
+      #TableOfContents a {
+        color: inherit;
+        &:hover {
+          color: #72A1E5;
+        }
+      }
+
+      li ul {
+        margin-bottom: 0.5em;
+      }
+
+      li li {
+        margin-left: 1.5em;
+        font-size: 0.9em;
+        list-style: inherit;
+        display: list-item;
+      }
+      li ul {
+        list-style: decimal;
+      }
     }
 
     > main {
@@ -535,7 +556,7 @@ footer {
 }
 
 @page {
-  size: A4 landscape;
+  size: A4 portrait;
   margin: 0.6in;
 }
 
