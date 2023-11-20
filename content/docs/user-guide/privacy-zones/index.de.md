@@ -8,8 +8,6 @@ resources:
     byline: "CC-BY-SA? OpenBikeSensor Contributors"
 ---
 
-{{< language-switch 1 >}}
-
 Privatsphäre-Zonen sind ein wichtiges Konzept im OpenBikeSensor-Ökosystem. Sie werden im OpenBikeSensor selbst, als auch im Datenportal verwendet, um Deinen Standort in bestimmten Bereichen zu verbergen.
 
 Dies ist eine Funktion zum Schutz der Privatsphäre. Da hochgeladene Daten im Datenportal (Open Data Repository) veröffentlicht werden können, ist es für den Benutzer möglich Privatsphäre-Zonen konfigurieren, um die eigene Privatsphäre zu verbergen. Im schlimmsten Fall könnte ein böswilliger Akteur anhand der Daten herausfinden, wo Du wohnst, arbeitest oder Dich häufig aufhälst.
