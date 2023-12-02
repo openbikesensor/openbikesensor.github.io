@@ -14,6 +14,12 @@ Github in der neuesten Version als ZIP-Archiv. Darin finden sich im Ordner
 <a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/main.zip">Alles herunterladen<a>
 </div>
 
+{{% alert title="Achtung: Kompatibilität zwischen Versionen" color="warning" %}}
+Wir halten die Teile zu Halterungen älterer Versionen kompatibel. Aber Teile für ein Geräteelement (z.B. Gehäuse und Deckel, Display und Deckel, die verschiedenen 
+Elemente der Sattelhalterung) können sich zwischen Versionen verändern. Wenn du ein einzelnes Gehäuseteil (z.B. Deckel mit Logo) bekommst, prüfe genau im Slicer, ob
+es zu deinen Gehäusedateien passt. Wenn du z.B. ein ``MainCaseLid`` mit Logo weitergeben möchtest, gib ihn am besten im Bundle mit ``MainCase`` weiter. 
+{{% /alert %}}
+
 Eine detaillierte Anleitung zum Gehäusedruck gibt es [hier]({{< relref "." >}}).
 
 ### Hauptgehäuse
@@ -42,7 +48,8 @@ Die verschiedenen Halterungen und ihre Montage werden in der [Montageanleitung](
 {{< 3dpart name="Mounting/BikeRackMountCenter">}}Das Mittelstück für die Gepäckträgerhalterung in Quermontage.{{< /3dpart >}}
 {{< 3dpart name="Mounting/BikeRackMountCenterLongitudinal">}}Das Mittelstück für die Gepäckträgerhalterung in Längsmontage (ungewöhnlich).{{< /3dpart >}}
 {{< 3dpart name="Mounting/BikeRackMountSide">}}Ein Seitenstück der Gepäckträgerhalterung (2x drucken).{{< /3dpart >}}
-{{< 3dpart name="Mounting/HandlebarRail">}}Die Schiene für die Befestigung des Displays am Lenker.{{< /3dpart >}}
+{{< 3dpart name="Mounting/HandlebarRail">}}Die Schiene für die Befestigung des Displays am Lenker (Version für Kabelbinderbefestigung).{{< /3dpart >}}
+{{< 3dpart name="Mounting/HandlebarRailOring">}}Die Schiene für die Befestigung des Displays am Lenker (Version für O-Ring-Befestigung).{{< /3dpart >}}
 {{< 3dpart name="Mounting/LockingPin">}}Der Befestigungsstift für das Hauptgehäuse.{{< /3dpart >}}
 {{< 3dpart name="Mounting/SeatPostMount">}}Die Sattelstützenhalterung.{{< /3dpart >}}
 {{< 3dpart name="Mounting/StandardMountAdapter">}}Wird am Hauptgehäuse montiert und ermöglicht das Aufschieben auf die Schienen der Halterungen. Wirkt ebenfalls als Zugsicherung für das Displaykabel am Hauptgehäuse.{{< /3dpart >}}

@@ -10,9 +10,9 @@ resources:
 
 Privatsphäre-Zonen sind ein wichtiges Konzept im OpenBikeSensor-Ökosystem. Sie werden im OpenBikeSensor selbst, als auch im Datenportal verwendet, um Deinen Standort in bestimmten Bereichen zu verbergen.
 
-Dies ist eine Funktion zum Schutz der Privatsphäre. Da hochgeladene Daten im Datenportal (Open Data Repository) veröffentlicht werden können, ist es für den Benutzer möglich Privatsphäre-Zonen konfigurieren, um die eigene Privatsphäre zu verbergen. Im schlimmsten Fall könnte ein böswilliger Akteur anhand der Daten herausfinden, wo Du wohnst, arbeitest oder Dich häufig aufhälst.
+Dies ist eine Funktion zum Schutz der Privatsphäre. Da hochgeladene Daten im Datenportal (Open Data Repository) veröffentlicht werden können, ist es für den Benutzer möglich Privatsphäre-Zonen zu konfigurieren, um die eigene Privatsphäre zu verbergen. Im schlimmsten Fall könnte ein böswilliger Akteur anhand der Daten herausfinden, wo Du wohnst, arbeitest oder Dich häufig aufhälst.
 
-{{% alert title="Note" color="info" %}}
+{{% alert title="Hinweis" color="info" %}}
 Das Datenportal unterstützt **noch keine** Privatsphäre-Zonen. Aber wir arbeiten daran, und die hier beschriebene Vorgehensweise entspricht dem, was möglich sein wird.
 {{% /alert %}}
 
@@ -20,7 +20,7 @@ Das Datenportal unterstützt **noch keine** Privatsphäre-Zonen. Aber wir arbeit
 
 Eine Privatsphäre-Zone kann entweder im Sensorgerät selbst konfiguriert werden - wodurch sich die Aufzeichnungsaktivität ändert - oder später im Datenportal, wo die Privatsphäre-Zone dann zum Filtern von Daten vor der Veröffentlichung verwendet wird. Je nachdem, wie man den Sensor verwendet und wie groß die Bedenken sind, kann man eine oder auch beide Optionen wählen.
 
-Eine Privatsphäre-Zone ist ein kreisförmiger Bereich, der durch einen Mittelpunkt und einen Radius definiert ist. Damit können Daten maskiert werden. Du kannst mehrere dieser Zonen an relevanten Orten einrichten, damit böswillige Akteure nicht erkennen können, wo Deine Spuren beginnen und enden:
+Eine Privatsphäre-Zone ist ein kreisförmiger Bereich, der durch einen Mittelpunkt und einen Radius definiert ist. Damit können Daten maskiert werden. Du kannst mehrere dieser Zonen an relevanten Orten einrichten, damit böswillige Akteure nicht erkennen können, wo deine Spuren beginnen und enden:
 
 * Das Zuhause
 * Der Arbeitsplatz, Schule, Uni
