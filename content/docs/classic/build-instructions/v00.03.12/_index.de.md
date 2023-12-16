@@ -1,8 +1,7 @@
 ---
 title: Bauanleitung für den OpenBikeSensor v00.03.12
-linkTitle: Bauanleitung_alt
+linkTitle: Alte Version v00.03.12
 aliases:
-- /bauanleitung/v00.03.12
 - /bauanleitung/v00.03.12
 - /docs/hardware/v00.03.12/build-instructions
 ---

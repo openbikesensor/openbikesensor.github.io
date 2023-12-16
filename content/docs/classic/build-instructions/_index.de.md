@@ -302,6 +302,8 @@ Hast du ein rote-schwarzes Batteriekabel solltest du für **rot an Plus** und
 **braun an Plus** und **schwarz an Minus**. Bei anderen Farben musst du dich
 selbst entscheiden.
 
+Kürze das Batteriekabel auf 12&nbsp;cm.
+
 Finde heraus, wie herum dein Stecker auf die Platine (bei J1 bzw. "Battery")
 gelötet werden muss, damit die Farbzuordnung mit der Platinenbedruckung
 übereinstimmt. Löse dann das Kabel vom Stecker.
@@ -427,12 +429,21 @@ auf voller Länge auf dem PCB auf, sondern hat "Luft" darunter. Dies kannst du
 gut korrigieren, indem du die Hauptplatine mit Board in eine Hand nimmst,
 sodass du mit dem Finger oder Daumen die Ausrichtung des Boards korrigieren
 kannst. Mit der anderen Hand kannst du jetzt noch den Lötkolben führen. Da der
-eine Pin bereits verlötet ist benötigst du kein dritte Hand für das Lötzinn.
+eine Pin bereits verlötet ist, benötigst du kein dritte Hand für das Lötzinn.
 Passe so die Ausrichtung so lange an, bis sie aus allen Richtungen gut
 aussieht.
 
 Erst dann werden die drei verbleibenden Pins verlötet. Platziere das zweite
 Sensorboard auf dieselbe Weise, und kürze am Ende alle Stifte.
+
+{{< slider >}}
+  {{< slider-image
+    src="v1.0.0/ultraschall1.jpg"
+    alt="Sensorboardplatzierung von oben." >}}
+  {{< slider-image
+    src="v1.0.0/ultraschall2.jpg"
+    alt="C1 und C2 platzieren." >}}
+{{< /slider >}}
 
 
 ## SD-Karten-Modul und GPS-Modul
@@ -447,20 +458,18 @@ und die meisten davon passen am Ende nicht.
 - Dann erst kommt die schwarze Kunststoffleiste.
 - Die lange, gerade Seite der Pins zeigt vom Modul weg.
 
-Verlöte die Stiftleiste mit dem SD-Modul verlöten und kürze die überstehenden Pins
+Verlöte die Winkelstiftleiste mit dem SD-Modul und kürze die überstehenden Pins
 auf der Rückseite.
 
-Auch auf das **GPS-Modul** muss eine Stiftleiste gelötet werden.
+Auch auf das **GPS-Modul** muss eine Winkelstiftleiste gelötet werden.
 
-{{% alert title="Achtung: Anordnung der Stiftleiste" color="information" %}}
-Dieser Abschnitt muss noch neu geschrieben werden, wenn feststeht, wie genau
-in Version 1.0.0 das GPS-Modul platziert werden muss.
-{{% /alert %}}
-
+- Die Stiftleiste wird mit der **langen** Seite in das GPS board gesteckt.
+- Die Stiftleiste steckt auf der Bestückungsseite des GPS Boards.
+- Die kurze Seite der Stiftleiste zeigt im rechten Winkel nach unten.
 
 Stecke die Module auf das PCB und achte dabei erneut auf die Ausrichtung. Die
 Oberseiten beider Modulplatinen müssen **zur Mitte der
-OpenBikeSensor-Hauptplatine** zeigen.
+OpenBikeSensor-Hauptplatine** zeigen. Beachte auch das Foto unten.
 
 Verlöte wie gewohnt erst einen der Pins auf der Rückseite. Prüfe, dass das
 Modul wirklich **senkrecht** auf der Hauptplatine steht und auch auf ganzer
@@ -505,7 +514,9 @@ einige Versuche benötigst und so immer weniger Kabellänge übrig ist.
 ## Ein/Aus-Schalter
 
 Schneide dir zwei kurze Stück Kabel von etwa 10cm Länge zurecht. Die eine Seite
-wird jeweils mit einem Crimp versehen.
+wird jeweils mit einem Crimp versehen. Falls dein Batteriekabel über 20cm lang
+ist, kannst du das Batteriekabel schon mal auf 12cm kürzen und die entstehenden
+Abschnitte für dein Schalterkabel verwenden.
 
 Isoliere die andere Seite beider Kabel ca. 5mm weit ab und verdrille die Enden.
 Nimm etwas Lötzinn und lasse es auf die freiliegenden Litzen fließen (dies wird
@@ -515,13 +526,12 @@ Biege die Enden in eine U-Form um. So lassen sie sich leicht in die Ösen des
 Schalters einführen und halten sich selbst dort fest, bis du sie festgelötet
 hast. Achte darauf nur kurz zu löten, sonst schmilzt der Kunststoff im Stecker.
 
-Führe die Crimps nun in ein 2-poliges JST-Steckergehäuse ein und verdrille die
-zwei Kabel zu einem, indem du den Schalter festhälst und den Stecker etwa 10-20
-mal drehst. Es wird sich ein wenig wieder lockern, aber sollte nun wie ein
-Kabel wirken, und keine große Schlaufe mehr bilden.
+Verdrille nun die zwei Kabel zu einem, und führe dann die zwei Crimps in
+das Steckergehäuse ein. Die Verdrillung wird sich ein wenig wieder lockern, 
+aber es sollte nun wie ein Kabel wirken, und keine große Schlaufe mehr bilden.
 
 {{< imgproc "v00.03.12/12_Switch/DSC08041.JPG" Fit "500x500" >}}
-    Schalter mit Kabel und Stecker.
+    Schalter mit Kabel und Stecker, noch unverdrillt..
 {{< /imgproc >}}
 
 ## Ultraschallsensor-Kabel kürzen und crimpen
@@ -669,7 +679,7 @@ sie auch mit etwas Sekunden- oder Alleskleber fixieren.
 {{< /imgproc >}}
 
 {{< imgproc "v00.03.12/15_Prepare_Case/DSC08074.JPG" Fit "500x500" >}}
-    Hauptgehäuse mit Einpressgewinde
+    Hauptgehäuse mit Einpressgewinde (ältere Version mit zwei Mutternn für GPS)
 {{< /imgproc >}}
 
 {{< imgproc "v00.03.12/15_Prepare_Case/DSC08075.JPG" Fit "500x500" >}}
@@ -720,7 +730,8 @@ Kabel mit `+3V3` (braun) zusammen auf eine Seite und `BUT` (grau) allein auf
 die andere. Auch hier empfiehlt sich, wie beim Schalter, wenn du zuerst die
 abisolierten und verzinnten Enden zu einer U-Form biegst und in die Ösen
 einhängst, um dann **nur kurz löten** zu müssen, damit der Kunststoffkörper des
-Knopfes nicht schmilzt.
+Knopfes nicht schmilzt. Wenn du mehrfach löten musst, lass den Taster zwischendurch
+abkühlen.
 
 ### Stecker
 
@@ -825,7 +836,7 @@ Schließe dafür den ESP32 mit einem Mikro-USB Kabel direkt an einen Computer an
 Benutze dann eine dieser Methoden, um die Firmware darauf zu installieren:
 
 * Das online Flash-Tool auf
-  [install.openbikesensor.org](https://install.openbikesensor.org), das du mit
+  [https://install.openbikesensor.org](https://install.openbikesensor.org), das du mit
   einem aktuellen Chrome-Browser öffnen solltest. Dies ist die **einfachste
   Methode**, falls sie bei dir funktioniert.
 * [Anleitung für Linux]({{< relref "../../firmware/flash-linux" >}})
@@ -863,7 +874,7 @@ ungeladenen Akku, so kannst du ihn mit deinem OpenBikeSensor jetzt aufladen:
 5. Während des Ladevorgangs leuchtet die LED am Lademodul rot, wenn der Akku
    voll ist blau.
 
-Wenn du einen vollen Akku hast beginne mit dem **Test der Elektronik**:
+Wenn du einen vollen Akku hast, beginne mit dem **Test der Elektronik**:
 
 1. Ziehe den Akku zunächst wieder ab. Verbinde nur das Display und den
    Hauptschalter und stecke den ESP32 auf seine Buchsenleisten. Achte dabei
@@ -923,15 +934,19 @@ hilft dir vielleicht eine der Anleitung auf der [Fehlersuche-Seite]({{< relref
     führt auch später das Kabel. Die andere Öffnung wird mit dem Deckel
     (``AttachmentCover``) verschlossen.
 * PCB im Hauptgehäuse platzieren
-  - Zunächst die SD-Karte einlegen und den ESP32 aufstecken, dabei auf die
-    Polung achten (USB-Markierung mit Mikro-USB-Stecker auf ESP32 abgleichen)
-    und sicherstellen, dass die Pins nicht um ein oder zwei Löcher verrutscht
-    eingesteckt werden.
+  - Zunächst die SD-Karte einlegen, den ESP abziehen.
   - Gesamtes Board in leichtem Winkel herabsenken, auf Ausrichtung der USB-C
     Ladebuchse achten. Bei Wiederzusammenbau am Displaykabel vorbei navigieren.
   - Bei Bedarf Unreinheiten des Gehäuses (vom 3D-Druck) entfernen, wenn das PCB
     daran hängen bleibt.
   - Mit 3 Stück M3x6 oder M3x8 im Gehäuse verschrauben.
+  - Nun kann der ESP wieder aufgesteckt werden. Dabei die Richtung der 
+    USB-Markierung mit Mikro-USB-Buchse dem ESP32 abgleichen,
+    und sicherstellen, dass die Pins nicht um ein oder zwei Löcher verrutscht
+    eingesteckt werden.
+  - Muss der ESP wieder abgezogen werden, um die Platinenschraube darunter wieder
+    zu lösen, kann man einen Inbus als "Enterhaken" verwenden, um den ESP zu lockern
+
 * Displaykabel in Gehäuse einstecken
   - Führe das Displaykabel mit dem Stecker voran von außen in das Hauptgehäuse hinein
     (Falls in Schritt 16 nicht geschehen).
@@ -940,9 +955,8 @@ eine Top-Rider oder Back-Rider [Variante]({{< relref "../case/variants" >}})
 bauen möchtest, und führe das freie Ende des Kabels durch die entsprechende
 Öffnung im Hauptgehäuse. Möchtest du beide Halterungen montieren und dir damit
 beide Varianten ermöglichen, kannst du dir die Öffnung frei aussuchen.
-  -
   - Die Halterung mit Zugentlastung anbringen und damit das Kabel fixieren.
-    Noch nicht festziehen, nur sicherstellen dass die Muttern nicht mehr
+    Noch nicht festziehen, nur sicherstellen, dass die Muttern nicht mehr
     herausfallen.
   - Das Kabel sollte außen um die Elektronik herumgeführt werden, *nicht*
     zwischen dem GPS- und SD-Karten-Modul hindurch. Im neuen Gehäuse sollte
@@ -979,7 +993,7 @@ beide Varianten ermöglichen, kannst du dir die Öffnung frei aussuchen.
 * Schalter in Gehäuse einsetzen
   - Einschaltrichtung mit "I/O" Aufdruck des Gehäuses vergleichen.
   - Möglichst mit der mitgelieferten Unterlegscheibe und Mutter fixieren.
-  - Schalterkabel verdrillen.
+  - Schalterkabel verdrillen, falls nicht bereits geschehen..
   - Kabel entlang der Gehäusewand zur Buchse führen und dort einstecken.
 * Sensoren einbauen
   - Auf der Rückseite des Sensors gibt es einen Pfeil, der mit "UP" die
@@ -991,11 +1005,12 @@ beide Varianten ermöglichen, kannst du dir die Öffnung frei aussuchen.
   - Akku im Deckel mit Kabelbinder fixieren (falls in Schritt 14 noch nicht erledigt)
   - Einstecken. Polung beachten!
   - Möglicherweise überstehendes Kabel möglichst auf der Seite des GPS
-    verstauen. Beide Adern verdrillen und parallel legen.
+    verstauen. Die Adern verdrillen und parallel legen.
 * Konfiguration des Sensors:
   * Die Anzeige kann im [Konfigurationsmodus]({{<relref "/docs/user-guide/configuration">}}) auf den Simple-Mode gestellt werden.
    * Außerdem kann die Breite des Lenkers und WLAN eingestellt werden.
    * Bei einem Reboot des Sensors wird nun auf der Sensor-Anzeige der Simple-Mode mit dem Abstand des linken Sensors angezeigt - abzüglich der Breite des Lenkers.
+   * Alternativ im Profimodus weiterfahren.
 * Montage und Testfahrt mit dem Fahrrad.
 
 {{< slider >}}
