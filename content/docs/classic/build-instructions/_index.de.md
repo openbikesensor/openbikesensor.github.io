@@ -1,18 +1,16 @@
 ---
-title: Bauanleitung  (OpenBikeSensor Classic)
+title: Bauanleitung  (OpenBikeSensor Classic 1.0.0)
 weight: 50
 linkTitle: Bauanleitung
 aliases:
 - /bauanleitung/classic
 - /bauanleitung
-- /bauanleitung/v00.03.12
-- /docs/hardware/v00.03.12/build-instructions
+
 description: >
     Sobald der Bausatz für den OpenBikeSensor Classic zusammengestellt ist,
-    kann anhand dieser Anleitung der Bau begonnen werden. Dies besteht aus
-    einer Menge Lötarbeit, sowie dem Test der Elektronik und dem Einbau in das
-    Gehäuse.
-
+    kann anhand dieser Anleitung der Bau begonnen werden. Der Zusammenbau
+    besteht aus einer Menge Lötarbeit, sowie dem Test der Elektronik und 
+    dem Einbau in das Gehäuse.
 ---
 
 {{< print-qr-link >}}
@@ -21,7 +19,11 @@ Dies ist die Anleitung zum Aufbau des OpenBikeSensor Classic. Die aktuelle
 Version dieser Bauanleitung setzt die Hauptplatine der Version 1.0.0 voraus,
 sowie die Verwendung der auf dieser Website dokumentierten Bau- und
 Gehäuseteile. Auch die benötigten Verbrauchsgüter und Werkzeuge sind bei der
-[Bauteileliste]({{< relref "../parts" >}}) beschrieben.
+[Bauteileliste]({{< relref "../parts" >}}) beschrieben. Hast du einen älteren
+Bausatz mit der Platinenversion 00.03.12 kannst du diesen entweder
+mit einer Platine Version 1.0.0 upgraden und der Bauanleitung 1.0.0 folgen
+(alle Bauteile sind gleich), oder du kannst.
+[hier die Anleitung für die 0.03.12 Platine finden]({{< ref "/docs/classic/build-instructions/v00.03.12" >}}) 
 
 Die beschriebene Vorgehensweise ist nur eine Möglichkeit, zu einem
 funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,
@@ -97,36 +99,26 @@ Pins an.
 
 {{< slider >}}
   {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07898.JPG"
+    src="v1.0.0/ESP32_02.JPG"
     alt="Bauteile bereitlegen" >}}
   {{< slider-image
-    src="PCB00.03.10_02_DetailBuchsenleite01_zuschneiden.jpg"
-    alt="Buchsenleite wenn nötig auf 15 Pins zuschneiden"
+    src="v1.0.0/ESP32_03.JPG"
+    alt="Buchsenleistung an ESP gesteckt und auf dem Board positioniert."
     noprint=true >}}
   {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07901.JPG"
-    alt="Buchsenleisten auf ESP32 aufstecken"
+    src="v1.0.0/ESP32_04.JPG"
+    alt="Erste Ecke löten und Positionierung kontrollieren."
     noprint=true >}}
   {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07902.JPG"
-    alt="Gemeinsam auf dem PCB platzieren. Ausrichtung der abwechselnden Pins (innen) prüfen." >}}
+    src="v1.0.0/ESP32_06.JPG"
+    alt="In finaler Positionierung die verbleibenden äußeren Pins löten." >}}
   {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07903.JPG"
-    alt="Zunächst an einem Eckpunkt fixieren" >}}
-  {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07905.JPG"
+    src="v1.0.0/ESP32_08.JPG"
     alt="Ausrichten und auf der gegenüberliegenden Seite ebenfalls fixieren"
     noprint=true >}}
   {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07913.JPG"
-    alt="Alle äußeren Pins festlöten (beidseitig)" >}}
-  {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07915.JPG"
-    alt="Alle äußeren Pins festgelötet"
-    noprint=true >}}
-  {{< slider-image
-    src="v00.03.12/01_Pin_Headers/DSC07926.JPG"
-    alt="Dann den ESP32 entfernen und die Innenseite verlöten" >}}
+    src="v1.0.0/ESP32_09.JPG"
+    alt="Innere Pins festlöten" >}}
 {{< /slider >}}
 
 ## Spannungsregler (rot)
@@ -143,22 +135,19 @@ passieren.
 
 {{< slider >}}
   {{< slider-image
-    src="PCB00.03.10_03_Spannunsversorgung_01_Stiftleisten_ablaengen.jpg"
-    alt="Stiftleisten ablängen"
+    src="v1.0.0/spannungswandler1.jpg"
+    alt="Eines der Pads mit Lötzinn benetzen."
     noprint=true >}}
   {{< slider-image
-    src="v00.03.12/02_Regulator/DSC07928.JPG"
-    alt="Bauteile bereitlegen" >}}
+    src="v1.0.0/spannungswandler2.jpg"
+    alt="Lötzinn erhitzen, und das Modul positionieren." >}}
   {{< slider-image
-    src="v00.03.12/02_Regulator/DSC07934.JPG"
-    alt="Board platzieren und mit Stiften ausrichten, anderes Pad wie SMD verlöten" >}}
+    src="v1.0.0/spannungswandler3.jpg"
+    alt="Wenn fertig positioniert restliche Pins verlööten." >}}
   {{< slider-image
-    src="v00.03.12/02_Regulator/DSC07935.JPG"
-    alt="Freie Kontakte löten"
+    src="v1.0.0/spannungswandler4.jpg"
+    alt="Verlötet"
     noprint=true >}}
-  {{< slider-image
-    src="v00.03.12/02_Regulator/DSC07938.JPG"
-    alt="Stifte entfernen und restliche Kontakte löten" >}}
 {{< /slider >}}
 
 ## USB-C-Lademodul (blau)
@@ -182,37 +171,33 @@ Seitenschneider.
 
 {{< slider >}}
   {{< slider-image
-    src="v00.03.12/03_Charger/DSC07944.JPG"
-    alt="Bauteile bereitlegen" >}}
+    src="v1.0.0/charger1.jpg"
+    alt="Mit stiftleisten fixieren" >}}
   {{< slider-image
-    src="v00.03.12/03_Charger/DSC07945.JPG"
-    alt="Lademodul und Stifte platziert" >}}
+    src="v1.0.0/charger2.jpg"
+    alt="Mit Verpackungsmaterial (z.B. aus der ESP32 Verpackung) fixieren und Platine umdrehen" >}}
   {{< slider-image
-    src="v00.03.12/03_Charger/DSC07951.JPG"
-    alt="Auf Oberseite verlöten" >}}
+    src="v1.0.0/charger3.jpg"
+    alt="Pins auf der Platinenoberseite verlöten" >}}
   {{< slider-image
-    src="v00.03.12/03_Charger/DSC07954.JPG"
-    alt="Alle Stifte auf Oberseite verlötet"
+    src="v1.0.0/charger4.jpg"
+    alt="Plastikteile von den Pins abziehen"
     noprint=true >}}
   {{< slider-image
-    src="v00.03.12/03_Charger/DSC07959.JPG"
-    alt="Schwarze Plastikteile von Stiftleiste entfernen" >}}
-  {{< slider-image
-    src="v00.03.12/03_Charger/DSC07961.JPG"
-    alt="Schwarze Plastikteile von Stiftleiste entfernt"
-    noprint=true >}}
-  {{< slider-image
-    src="v00.03.12/03_Charger/DSC07964.JPG"
-    alt="Oberseite verlöten" >}}
-  {{< slider-image
-    src="v00.03.12/03_Charger/DSC07968.JPG"
-    alt="Stifte kürzen"
-    noprint=true >}}
+    src="v1.0.0/charger5.jpg"
+    alt="Pins mit dem blauen Modul verlöten" >}}
 {{< /slider >}}
 
 ## Kleine elektronische Bauteile
 
 ### Widerstände
+
+{{% alert title="Achtung: Bauteile aus alter Version" color="warning" %}}
+Kommen deine Bauteile aus einem alten Bausatz, könnte es sein, dass
+die Widerstände auf einem Papier mit Widerstandswerten aufgeklebt sind.
+Ordne die Widerstände anhand der Tabelle neu zu, da die Widerstandsnummern
+sich mit 1.0.0 geändert haben.
+{{% /alert %}}
 
 Ordne zunächst alle Widerstände richtig zu, indem du die Farbcodes abliest oder
 mit einem Multimeter misst:
@@ -235,14 +220,14 @@ gehen wir davon aus, dass du auch weißt, wie du sie anbringst.
 
 {{< slider >}}
   {{< slider-image
-    src="v00.03.12/04_Resistors_R6/DSC07891.JPG"
-    alt="Einen Widerstand R6 platzieren" >}}
+    src="v1.0.0/widerstande1.jpg"
+    alt="Die Widerstände platzieren." >}}
   {{< slider-image
-    src="v00.03.12/04_Resistors_R6/DSC07893.JPG"
-    alt="Auf der Rückseite verlöten" >}}
+    src="v1.0.0/widerstande2.jpg"
+    alt="Auf der Rückseite durch Verbiegen fixieren." >}}
   {{< slider-image
-    src="v00.03.12/04_Resistors_R6/DSC07895.JPG"
-    alt="Beine kürzen" >}}
+    src="v1.0.0/widerstande3.jpg"
+    alt="Verlöten." >}}
 {{< /slider >}}
 
 ### Kondensatoren
@@ -270,18 +255,14 @@ Beine auf der Rückseite fest, und schneide dann den überstehenden Draht ab.
     src="PCB00.03.10_04_Kondesatoren_01_Kondensatoren.jpg"
     alt="Die Kondensatoren" >}}
   {{< slider-image
-    src="v00.03.12/05_Caps/DSC07970.JPG"
-    alt="Kondensatoren platzieren, auf Polung achten!" >}}
+    src="v1.0.0/kondensatoren01.jpg"
+    alt="C1 und C2 platzieren." >}}
   {{< slider-image
-    src="v00.03.12/05_Caps/DSC07971.JPG"
-    alt="Auf der Rückseite umbiegen und verlöten" >}}
+    src="v1.0.0/kondensatoren03.jpg"
+    alt="Prüfen: Passt C2 unter den ESP? Falls nicht: Hinreichend viel Beinchen nach oben überstehen lassen, um C2 liegend zu montieren." >}}
   {{< slider-image
-    src="v00.03.12/05_Caps/DSC07979.JPG"
-    alt="Drähte kürzen"
-    noprint=true >}}
-  {{< slider-image
-    src="v00.03.12/05_Caps/DSC07984.JPG"
-    alt="Widerstände und Kondensatoren fertig platziert"
+    src="v1.0.0/kondensatoren02.jpg"
+    alt="C3 Montieren. Wie bei C2 prüfen, ob er unter den ESP passt."
     noprint=true >}}
 {{< /slider >}}
 

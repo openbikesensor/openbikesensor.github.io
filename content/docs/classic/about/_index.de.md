@@ -25,7 +25,7 @@ zum Gehäuse und Hilfen beim Beschaffen der Teile.
   OpenBikeSensor entworfen und kann als Spezialanfertigung bei einem
   Platinenhersteller anhand der bereitgestellten Designdateienen bestellt
   werden. 
-* [Die Bauanleitung]({{< relref "build-instructions" >}}) beschreibt, wie die
+* [Die Bauanleitung]({{< relref "../build-instructions" >}}) beschreibt, wie die
   Bauteile auf der Hauptplatine installiert und das ganze ins Gehäuse
   eingesetzt werden.
  

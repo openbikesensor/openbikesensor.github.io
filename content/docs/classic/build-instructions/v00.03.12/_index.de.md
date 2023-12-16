@@ -1,15 +1,18 @@
 ---
 title: Bauanleitung für den OpenBikeSensor v00.03.12
-linkTitle: Bauanleitung
+linkTitle: Bauanleitung_alt
 aliases:
-- /bauanleitung
 - /bauanleitung/v00.03.12
+- /bauanleitung/v00.03.12
+- /docs/hardware/v00.03.12/build-instructions
 ---
 
 {{< print-qr-link >}}
 
-{{% alert title="Achtung: Veraltete Bilder" color="warning" %}}
-Die Bilder sind noch nicht angepasst für diese Version. Im Zweifel Texte beachten!
+{{% alert title="Achtung: Alte Version" color="warning" %}}
+Dies ist die Bauanleitung für den OpenBikeSensor mit der Platinenversion
+v00.03.12, wenn du eine aktuellere Platine hast, nutze [die aktuellere
+Bauanleitung.]({{< relref "../" >}})
 {{% /alert %}}
 
 Dies ist die Anleitung zum Aufbau des OpenBikeSensors v00.03.12 in der
