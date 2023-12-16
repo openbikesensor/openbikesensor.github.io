@@ -3,7 +3,15 @@ title: Flashen unter Linux
 weight: 10
 ---
 
-## Vorbereitung
+## Alternative 1: Installation via Browser
+Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [webinstaller](https://install.openbikesensor.org) in Google Chrome oder Chromium zu öffnen und der Schritt-Für-Schritt Anleitung dort zu folgen. Funktioniert das für dich nicht, probiere eine der anderen Alternativen.
+
+## Alternative 2: 
+In der [Allgemeinen Installationsanleitung]({{< ref "/docs/firmware" >}}) wird der betriebssystemunabhängige Weg über Visual Studio Code und Platformio geschildert.
+
+## Alternative 3: Installation mit esptool
+
+### Vorbereitung
 
 Lade das [neueste Release-Archiv](https://github.com/openbikesensor/OpenBikeSensorFirmware/releases) 
 der OBS-Firmware von GitHub herunter.
@@ -12,12 +20,12 @@ Du benötigst die ZIP-Datei mit dem Namen `obs-v9.9.9.9999-initial-flash.zip` (`
 Entpacke die Dateien in einem temporären Verzeichnis, sie heißen `0x??????.bin`. Die Zahlen sind die Basisadresse, an die
 die Daten geflasht werden sollen.
 
-## Installation
+### Installation
 
 Installiere das Programm `esptool`, falls es noch nicht installiert ist. Es ist in den
 meisten Linux-Distributionen verfügbar.
 
-### Debian GNU/Linux, Ubuntu
+#### Debian GNU/Linux, Ubuntu
 
 und davon abgeleitete Distributionen, wie z.&nbsp;B. Linux Mint
 
@@ -25,7 +33,7 @@ und davon abgeleitete Distributionen, wie z.&nbsp;B. Linux Mint
 sudo apt install esptool
 ```
 
-### Fedora
+#### Fedora
 
 ```shell
 sudo dnf install esptool
@@ -55,7 +63,7 @@ esptool.py v3.2
 3.2
 ```
 
-## Gerätenamen herausfinden
+### Gerätenamen herausfinden
 
 Stelle sicher, dass du den Gerätenamen für das USB-Gerät kennst. Sehr wahrscheinlich wird es `/dev/ttyUSB0` sein --
 dieser Name wird auch im weiteren Beispiel verwendet.
@@ -84,7 +92,7 @@ ls -1d /dev/ttyUSB*
 ```
 
 
-## Flashen
+### Flashen
 
 Führe **im selben Verzeichnis**, in das du die ZIP-Datei entpackt hast, folgenden Befehl aus:
 

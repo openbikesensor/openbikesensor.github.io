@@ -48,6 +48,10 @@ eingespielt werden. Hierfür gibt es entsprechende Menüpunkte im Hauptmenü. Ei
 Auseinanderbauen des Geräts und der Anschluss an einen Computer sind dafür
 nicht mehr nötig.
 
+GGF musst du zunächst das "Flashtool" (über die OpenBikeSensor Oberfläche) installieren.
+Danach kannst du, wenn dein OpenBikeSensor in einem internetfähigen WLAN eingebucht
+ist über das Wlan-Menü deines OpenBikeSensors Firmwareupdates anstoßen.
+
 ## Bauen und Flashen der Firmware aus dem gihub-Repository
 
 ### mit VisualStudio Code und PlatformIO
