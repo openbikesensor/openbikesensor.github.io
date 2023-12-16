@@ -231,6 +231,10 @@ gehen wir davon aus, dass du auch weißt, wie du sie anbringst.
 {{< /slider >}}
 
 ### Kondensatoren
+{{% alert title="Achtung: Unterschiedliche Kondensatorgrößen" color="warning" %}}
+Es gibt C2 und C3 in unterschiedlichen Baugrößen. Bevor du sie festlötest,
+prüfe, ob sie unter den ESP passen. Passen sie nicht, montiere sie liegend.
+{{% /alert %}}
 
 Identifiziere zunächst alle Kondensatoren und ordne sie korrekt zu. **C1** ist
 ein 100&thinsp;nF großer Keramikkondensator, der ist in der Regel blau oder
