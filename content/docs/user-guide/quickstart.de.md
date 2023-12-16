@@ -32,7 +32,7 @@ Lege dein Gerät unter freiem Himmel hin und schalte es ein. Nach ein paar
 Minuten sollte es von der Ansicht mit OpenBikeSensor Logo im Display
 von allein in die Messansicht (ohne OpenBikeSensor Logo im Display) wechseln.
 Geschieht dies nicht oder regelmäßig erst nach 10 oder mehr Minuten, sind
-probleme am GPS-Modul oder der Antenne wahrscheinlich. [In der Troubleshooting-Sektion]({{< ref "/docs/hardware/troubleshooting#ultraschallsensoren" >}}) findest du ein
+probleme am GPS-Modul oder der Antenne wahrscheinlich. [In der Troubleshooting-Sektion]({{< ref "/docs/classic/troubleshooting#ultraschallsensoren" >}}) findest du ein
 paar Links zur weiteren Diagnose.
 
 ### Ultraschallsensor testen
@@ -49,13 +49,13 @@ kommen.
 
 Werden trotzdem gelegentlich Messwerte angezeigt (und du befindest dich unter
 freiem Himmel, also nicht unter einem Baum/ einer Brücke), gibt es ein Problem
-mit dem Ultraschallsensor. [In der Troubleshooting-Sektion]({{< ref "/docs/hardware/troubleshooting#ultraschallsensoren" >}})
+mit dem Ultraschallsensor. [In der Troubleshooting-Sektion]({{< ref "/docs/classic/troubleshooting#ultraschallsensoren" >}})
 findest du weitere Informationen.
 
 Halte das Gerät nun mit der linken Seite in Richtung einer Wand, und gehe
 langsam auf die Wand zu. Du solltest etwa ab 2.50m Abstand von der Wand im
 Display eine abnehmende Distanz sehen. Siehst du keine Abstandsanzeige oder
-erst bei deutlich unter 2,50&nbsp;m  [Findest du in der Troubleshooting-Sektion]({{< ref "/docs/hardware/troubleshooting#ultraschallsensoren" >}})
+erst bei deutlich unter 2,50&nbsp;m  [Findest du in der Troubleshooting-Sektion]({{< ref "/docs/classic/troubleshooting#ultraschallsensoren" >}})
 weitere Informationen.
 
 Wenn du den Sensor in der Ansicht mit allen Messwerten
