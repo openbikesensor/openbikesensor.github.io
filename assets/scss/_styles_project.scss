@@ -126,33 +126,11 @@ pre {
 }
 
 
-/* libre-baskerville-regular - latin */
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('/fonts/libre-baskerville-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/libre-baskerville-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* libre-baskerville-700 - latin */
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-       url('/fonts/libre-baskerville-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/libre-baskerville-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
 @media print {
   html,
   body {
     font-size: 10pt;
-    line-height: 1.3;
-
-    font-family: 'Libre Baskerville';
+    min-width: 0 !important;
   }
 
   .noprint {
@@ -166,12 +144,13 @@ pre {
 
   .td-content {
     max-width: 100%;
-    columns: 2;
+    // columns: 2;
     column-gap: 4rem;
+    font-size: 1rem;
 
     p, ul, ol, .alert {
         line-height: 1.7em;
-        font-size: 11pt;
+        font-size: 1em;
     }
 
     > h1,
@@ -197,6 +176,8 @@ pre {
 
     h2 {
       font-size: 1.6em;
+      column-span: all;
+      // page-break-before: always;
     }
     h3 {
       font-size: 1.3em;
@@ -205,46 +186,43 @@ pre {
     .print-figures {
       counter-reset: step-figure;
       margin: 1rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
     }
 
-    figure {
-        // display: inline-block;
-        display: block;
+    figure, .card {
+        // display: block;
         position: relative;
         // width: calc(50% - 0.25rem - 2px);
         vertical-align: top;
-        padding: 0.5rem;
         margin: 0;
-        margin-bottom: 0.5rem;
-
-        &:nth-of-type(2n) {
-            margin-left: 0.5rem;
-        }
+        padding: 0 !important;
+        border: 1px solid black;
+        border-radius: 2mm;
+        overflow: hidden;
 
         break-inside: avoid;
         counter-increment: step-figure;
-        figcaption {
-            &:before {
-                content: counter(step-figure);
-                border: 2px solid black;
-                border-radius: 100px;
-                padding: 0.3rem;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: bold;
-                min-width: 1.5em;
-                max-height: 1.5em;
-                text-align: center;
-                position: absolute;
-                left: 0;
-                top: 0; 
-            }
+        figcaption, .card-body {
             position: relative;
-            padding-left: 2.4rem;
-            margin-top: 0.5rem;
+            margin: 0;
+            padding: 0.2rem 0.5rem !important;
+            border-top: inherit;
         }
     }
+
+    // .card {
+    //   padding: 0 !important;
+    //   border: 1px solid black;
+    //   border-radius: 2mm;
+    //   break-inside: avoid;
+    //   overflow: hidden;
+    //
+    //   .card-body {
+    //
+    //   }
+    // }
 
     .section-index,
     // "Last changed" row
@@ -473,6 +451,28 @@ pre {
       flex: 1 1 0;
       margin-left: 2rem;
       padding: 1rem;
+      line-height: 1.2;
+
+      #TableOfContents a {
+        color: inherit;
+        &:hover {
+          color: #72A1E5;
+        }
+      }
+
+      li ul {
+        margin-bottom: 0.5em;
+      }
+
+      li li {
+        margin-left: 1.5em;
+        font-size: 0.9em;
+        list-style: inherit;
+        display: list-item;
+      }
+      li ul {
+        list-style: decimal;
+      }
     }
 
     > main {
@@ -517,22 +517,25 @@ footer {
 }
 
 
-.print-qr-link { 
+.print-qr-link {
     border: 1px solid black;
     background: white;
 
-    display: flex;
+    display: none;
+    @media print {
+        display: flex;
+    }
     align-items: center;
     overflow: hidden;
     padding: 1mm;
     padding-left: 4mm;
 
-    img { 
+    img {
         width: 3cm;
         flex:  0 0 auto;
     }
 
-    p { 
+    p {
         flex: 1 1 0;
         margin: 0;
         padding: 0;
@@ -555,4 +558,77 @@ footer {
 @page {
   size: A4 portrait;
   margin: 0.6in;
+}
+
+.td-default main section.device-types-row {
+    background: #F8F8F8;
+    padding: 0;
+}
+
+.device-type-cell {
+    text-align: center;
+    padding-block: 4rem;
+    display: flex;
+    flex-direction: column;
+
+    .label {
+        order: -2;
+        height: 40px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1.5rem;
+        border-radius: 1000px;
+        margin-bottom: 1rem;
+        background: #EEE;
+        text-transform: uppercase;
+        letter-spacing: 0.7pt;
+        font-weight: 700;
+        font-size: 80%;
+    }
+
+    h4 {
+        order: -1;
+    }
+
+    &.light {
+        background: #FFF;
+    }
+
+    img {
+        margin-block: 1rem;
+        width: 70%;
+        height: 200px;
+        object-fit: contain;
+        align-self: center;
+    }
+
+    h4 > span {
+        display: block;
+        font-size: 120%;
+        opacity: 0.5;
+        margin-top: 0.2rem;
+    }
+
+    &.construction {
+        .label {
+            background: #ffd600;
+        }
+        img {
+            opacity: 0.3;
+        }
+    }
+
+    &.recommended {
+        .label {
+            background: #0029a7;
+            color: white;
+        }
+    }
+
+    ul {
+        text-align: left;
+        // align-self: center;
+    }
 }

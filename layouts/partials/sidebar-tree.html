@@ -41,7 +41,7 @@
                     {{ .LinkTitle }}
                 </a>
 
-                {{ if and (not .IsPage) (or ($currentPage.IsDescendant .) (lt $depth 1)) }}
+                {{ if and (not .IsPage) (or (eq $currentPage .) ($currentPage.IsDescendant .) (lt $depth 1)) }}
                     {{ template "section-tree-nav-section" (dict "page" $currentPage "section" . "depth" (add $depth 1)) }}
                 {{ end }}
             </li>

@@ -3,8 +3,8 @@ title: Flashen unter Windows
 weight: 11
 ---
 
-So flasht du eine neue Firmware auf deinen ESP32, wenn du einen
-Windows-Computer benutzt.
+## Installation via Browser
+Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [webinstaller](https://install.openbikesensor.org) in Google chrome zu öffnen und der Schritt-Für-Schritt anleitung dort zu folgen. Funktioniert das für dich nicht, folge den Schritten unten.
 
 ## Firmware herunterladen
 

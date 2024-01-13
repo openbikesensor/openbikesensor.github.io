@@ -1,7 +1,9 @@
 ---
-title: Der Verein
+title: OpenBikeSensor e. V.
 menu:
-  main
+  main:
+    parent: project
+    weight: 30
 aliases:
 - /ev
 ---

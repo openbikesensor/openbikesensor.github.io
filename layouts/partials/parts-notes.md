@@ -1,7 +1,5 @@
-Diese Seite beschreibt die Bauteile, die bestellt oder anderweitig organisiert
-werden müssen, um ein Gerät zusammenzubauen.  Bitte lies sie sorgfältig durch,
-und auch den Abschnitt "Notizen", denn bei einige Teilen musst du aufpassen,
-das richtige zu erwischen.
+Bitte lies diese Seite sorgfältig durch, und auch den Abschnitt "Notizen", denn
+bei einige Teilen musst du aufpassen, das richtige zu erwischen.
 
 Einige Links könnten in der Zukunft kaputt gehen, wir werden dann versuchen
 neue zu finden und Verkäufer:innen zu verlinken, mit denen wir gute Erfahrungen
@@ -40,7 +38,7 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
 
 * **JSN-SR04T**: Hier musst du auf die richtige Version achten. Es gibt eine
   ganze Menge Varianten, von denen viele nicht funktionieren. Wir haben [auf
-  dieser Seite]({{ ref . "/docs/hardware/general/collective-order" }}) dokumentiert, welche wir
+  dieser Seite]({{ ref . "collective-order" }}) dokumentiert, welche wir
   gefunden haben und wie gut die jeweils funktionieren.
 
 * Einige Bauteile können in größeren **Mengen** zu wesentlich günstigeren
@@ -50,7 +48,7 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   **Ersatz**, falls etwas verloren oder kaputt geht (Widerstände, Schrauben und
   Muttern, Crimp-Kontakte, Kabel und Litze, ...)
 
-* **Gehäuse** müssen [in PETG 3D-gedruckt]({{ ref . "/docs/hardware/general/case" }}) werden. Es
+* **Gehäuse** müssen [in PETG 3D-gedruckt]({{ ref . "case" }}) werden. Es
   gibt viele Versionen für verschiedene Zwecke und von verschiedenen Leuten.
   Die Community pflegt aktiv ein bestimmtes Gehäuse für jede PCB-Version.
   Schau' dich im
@@ -60,7 +58,7 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   einem 3D-Druck-Service bestellen (das ist aber in der Regel relativ teuer).
 
 * **PCB**: Du benötigst ein PCB der passenden Version, speziell [anhand der
-  Designdateien hergestellt]({{ ref . "/docs/hardware/general/pcb" }}). Dies sollte am besten
+  Designdateien hergestellt]({{ ref . "/docs/classic/pcb" }}). Dies sollte am besten
   ebenfalls in großen Mengen bestellt werden, da der Stückpreis dann stark
   sinkt. Frag' auf jeden Fall im Slack nach, ob irgendwer noch welche auf Lager
   hat, bevor du neue anfertigen lässt!

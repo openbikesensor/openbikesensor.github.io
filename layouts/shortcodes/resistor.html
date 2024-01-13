@@ -1,0 +1,50 @@
+{{ $colors := split (.Get 0) "," }}
+{{ $hasFive := eq (len $colors) 5 }}
+{{ $c1 := index site.Params.resistor_colors (index $colors 0) }}
+{{ $c2 := index site.Params.resistor_colors (index $colors 1) }}
+{{ $c3 := index site.Params.resistor_colors (index $colors 2) }}
+{{ $c4 := index site.Params.resistor_colors (index $colors 3) }}
+{{ $c5 := cond $hasFive (index site.Params.resistor_colors (index $colors 4)) "" }}
+
+{{ $bg := cond $hasFive "#8bd2ff" "#ffc482" }}
+
+<div style="font-size: 10pt">
+<svg
+   width="90"
+   height="30"
+   viewBox="0 0 15.875 5.2916668">
+  <defs>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14479">
+      <path
+         id="path14481"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 1.8520834,0 C 0.79375104,0 0.79375001,1.0583349 0.79375001,2.6458334 c 0,1.5874984 1.01e-6,2.6458333 1.05833339,2.6458333 1.0583322,0 1.0994152,-0.5126934 2.6458333,-0.5291666 h 3.4395834 3.4395829 c 1.546419,0.016473 1.587502,0.5291666 2.645834,0.5291666 1.058333,0 1.058333,-1.0583349 1.058333,-2.6458333 C 15.08125,1.0583349 15.08125,0 14.022917,0 12.964585,0 12.923502,0.5126934 11.377083,0.52916667 H 7.9375001 4.4979167 C 2.9514986,0.5126934 2.9104156,0 1.8520834,0 Z" />
+    </clipPath>
+  </defs>
+
+  <rect style="fill:#666666" width="15.875" height="0.5291667" x="0" y="2.3812501" />
+
+  <g clip-path="url(#clipPath14479)">
+    <rect style="fill:{{$bg}}" width="15.875" height="5.291667" x="0" y="0" />
+    {{- if $hasFive -}}
+      <rect style="fill:{{$c1}}" width="1.5875001" height="5.291667" x="2.6458333" y="0" />
+      <rect style="fill:{{$c2}}" width="1.5875001" height="5.291667" x="4.7624998" y="0" />
+      <rect style="fill:{{$c3}}" width="1.5875001" height="5.291667" x="6.8791666" y="0" />
+      <rect style="fill:{{$c4}}" width="1.5875001" height="5.291667" x="8.9958334" y="0" />
+      <rect style="fill:{{$c5}}" width="1.5875001" height="5.291667" x="11.641666" y="0" />
+    {{- else -}}
+      <rect style="fill:{{$c1}}" width="1.5875001" height="5.291667" x="2.6458333" y="0" />
+      <rect style="fill:{{$c2}}" width="1.5875001" height="5.291667" x="5.2916665" y="0" />
+      <rect style="fill:{{$c3}}" width="1.5875001" height="5.291667" x="7.9375" y="0" />
+      <rect style="fill:{{$c4}}" width="1.5875001" height="5.291667" x="11.641666" y="0" />
+    {{- end -}}
+  </g>
+</svg>
+
+{{ range $idx, $color := $colors -}}
+  {{- index site.Params.resistor_names . -}}
+  {{- if lt $idx (sub (len $colors) 1) -}}, {{ end -}}
+{{- end }}
+</div>
