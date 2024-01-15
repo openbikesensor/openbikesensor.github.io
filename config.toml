@@ -4,7 +4,7 @@ title = "Goldydocs"
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
+theme = ["github.com/google/docsy"]
 
 timeout = 500000 # uh oh
 
@@ -90,7 +90,7 @@ weight = 30
 
 # Comment out if you don't want the "print entire section" link enabled.
 [outputs]
-section = ["HTML", "print"]
+section = ["HTML"]
 
 [params]
 copyright = "OpenBikeSensor Contributors"

@@ -424,6 +424,11 @@ pre {
 }
 
 @media (min-width: 768px) {
+
+  .td-page-meta {
+        top: 4rem;
+      position: sticky;
+  }
   .td-sidebar-nav {
     // max-height: calc(100vh - 64px);
     max-height: none;
@@ -446,6 +451,13 @@ pre {
     }
 
     .td-toc {
+    order:2;
+     .td-toc {
+      top: 4rem;
+      position: sticky;
+      border-left: solid;
+      border-left-width: 1pt;
+      border-left-color: rgb(222, 226, 230);
       max-width: 20rem;
       min-width: 12rem;
       flex: 1 1 0;
@@ -473,6 +485,7 @@ pre {
       li ul {
         list-style: decimal;
       }
+    }
     }
 
     > main {

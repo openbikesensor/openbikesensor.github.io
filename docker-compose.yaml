@@ -1,9 +1,9 @@
 version: '3.3'
 services:
   website:
-    image: monachus/hugo
+    image: hugomods/hugo:latest
     volumes:
-      - "./:/usr/share/blog"
+      - "./:/src"
     command:
       - hugo
       - server
