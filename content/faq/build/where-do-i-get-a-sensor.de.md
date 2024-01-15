@@ -16,5 +16,5 @@ du den dann aber selbst.
 
 Wenn du dich an einer Sammelbestellung beteiligen möchtest, oder dir sogar
 vorstellen könntest eine zu organisieren (eine [Bauteileliste]({{< ref
-"docs/hardware/v00.03.12/parts" >}}) mit Hinweisen und Bestell-Links haben wir), melde
+"docs/classic/parts" >}}) mit Hinweisen und Bestell-Links haben wir), melde
 dich bitte im Forum [der Community]({{< ref "/community" >}}).

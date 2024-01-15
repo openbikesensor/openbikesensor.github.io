@@ -7,7 +7,10 @@ aliases:
 ---
 
 {{% alert title="Hinweis" color="info" %}}
-  Diese Montageanleitung beschreibt die Montage des OpenBikeSensors der [Standard-Variante]({{< relref "docs/hardware/general/models" >}}).
+  Diese Montageanleitung beschreibt die Montage des [OpenBikeSensors
+  Classic]({{< relref "docs/classic" >}}) in der Standardvariante, wie sie auf
+  dieser Website beschrieben ist. Falls du ein alternatives Gehäuse verwendest,
+  trifft sie für dich eventuell nicht zu.
 {{% /alert %}}
 
 ## Überblick
@@ -42,7 +45,7 @@ zu stehen oder gestohlen zu werden.
   senkrecht, was für die Messergebnisse keinen Unterschied macht, aber nicht so
   ästhetisch ist und zu einem um 90° gedrehten Logo führt.
 * Die [Varianten "Back rider" und "Top Rider"]({{<relref
-  "docs/hardware/general/case/variants/">}}) werden in der Gehäusedokumentation erläutert.
+  "docs/classic/case/variants">}}) werden in der Gehäusedokumentation erläutert.
 * Alle Halterungen haben die gleiche Schiene, die mit dem
   `StandardMountAdapter` kompatibel ist. Dieser wird an der passenden Stelle am
   Hauptgehäuse fest angeschraubt.

@@ -3,6 +3,10 @@ title: Firmware
 weight: 60
 aliases:
 - /flash
+menu:
+  main:
+    parent: device
+    weight: 140
 ---
 
 Firmware ist die Bezeichung für Software, die auf eingebetteten Systemen wie
@@ -43,6 +47,10 @@ Eine neue Version der Firmware kann direkt über die Bedienoberfläche
 eingespielt werden. Hierfür gibt es entsprechende Menüpunkte im Hauptmenü. Ein
 Auseinanderbauen des Geräts und der Anschluss an einen Computer sind dafür
 nicht mehr nötig.
+
+GGF musst du zunächst das "Flashtool" (über die OpenBikeSensor Oberfläche) installieren.
+Danach kannst du, wenn dein OpenBikeSensor in einem internetfähigen WLAN eingebucht
+ist über das Wlan-Menü deines OpenBikeSensors Firmwareupdates anstoßen.
 
 ## Bauen und Flashen der Firmware aus dem gihub-Repository
 
