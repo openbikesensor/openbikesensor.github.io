@@ -1,5 +1,9 @@
 name: github pages staging
 
+env:
+  GH_REPO: ${{github.repository}}
+  GH_BRANCH: main
+
 on:
   push:
     branches:
