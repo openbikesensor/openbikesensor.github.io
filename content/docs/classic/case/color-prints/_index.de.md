@@ -22,9 +22,9 @@ Je nach Logo und Filamentwahl kann es sinnvoll sein, das Logo zu invertieren.
 Je nach Drucktechnik sind pro Bauteil eine oder zwei Dateien notwendig, nämlich
 das Logo an sich, und das Bauteil, aus dem das Logo herausgeschnitten wurde.
 
-* **Main**: Der Hauptteil des Bauteils ohne Logo, bzw. bei invertierten Logo
+* **Main**: Der Hauptteil des Bauteils ohne Logo, bzw. bei invertiertem Logo
   der Hauptteil mit Logo, aber ohne Grundfläche.
-* **Highlight**: Das Logo, das herausgeschnitten wurde, bzw. bei invertierten
+* **Highlight**: Das Logo, das herausgeschnitten wurde, bzw. bei invertiertem
   Logo die Grundfläche ohne Logo.
 
 {{< imgproc "main-case-parts.png" Resize 600x >}}
@@ -32,8 +32,8 @@ das Logo an sich, und das Bauteil, aus dem das Logo herausgeschnitten wurde.
   das Gehäuse, nicht der Deckel).
 {{< /imgproc >}}
 
-Jede dieser vier Dateien gibt es für das Hauptgehäuses und seinen Deckel,
-insgesamt pro Logo also acht Dateien. Die vorgenerierten STL-Dateien für das
+Jede dieser vier Dateien gibt es für das Hauptgehäuse und seinen Deckel,
+insgesamt pro Logo also acht Dateien. Die vor generierten STL-Dateien für das
 OpenBikeSensor-Logo werden ebenfalls auf GitHub veröffentlicht und liegen dort
 im Verzeichnis
 [`export/logo/OpenBikeSensor/`](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/tree/main/export/logo/OpenBikeSensor).

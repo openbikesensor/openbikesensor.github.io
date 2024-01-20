@@ -16,16 +16,16 @@ Beim ersten Einschalten generiert der OpenBikeSensor ein Zertifikat, der erste S
 
 Ab dem zweiten Einschalten sollte auf dem Display das OpenBikeSensor Logo angezeigt
 werden und auf der rechten Seite ein paar Startmeldungen durchlaufen. Normalerweise steht
-dort: 
-- ``Versionsnummer``
-- ``Batteriespannung`` (wird diese nicht angezeigt, könnte es sein, dass es ein problem mit dem Spannungsteiler gibt, mit dem die Batteriespannung gemessen wird.)
-- ``config...``
-- ``<35|-|35>`` (Die konfigurierte linke und rechte Lenkerbreite, hier 35cm)
-- ``SD... OK``
-- ``Start GPS OK``
-- ``CSV file... OK``
-- ``Wait for GPS`` (Sobald das GPS-Datum gefunden wurde durch die aktuelle Uhrzeit ersetzt)
-- ``0Sats sn:98`` (Anzahl der bereits gefundenen Satteliten, SNR)
+dort:
+- `Versionsnummer`
+- `Batteriespannung` (wird diese nicht angezeigt, könnte es sein, dass es ein problem mit dem Spannungsteiler gibt, mit dem die Batteriespannung gemessen wird.)
+- `config...`
+- `<35|-|35>` (Die konfigurierte linke und rechte Lenkerbreite, hier 35&thinsp;cm)
+- `SD... OK`
+- `Start GPS OK`
+- `CSV file... OK`
+- `Wait for GPS` (Sobald das GPS-Datum gefunden wurde, wird es durch die aktuelle Uhrzeit ersetzt)
+- `0Sats sn:98` (Anzahl der bereits gefundenen Satelliten, SNR)
 
 ### GPS testen
 Lege dein Gerät unter freiem Himmel hin und schalte es ein. Nach ein paar
@@ -37,7 +37,7 @@ paar Links zur weiteren Diagnose.
 
 ### Ultraschallsensor testen
 Um sicherzugehen, dass dein Gerät voll funktionsfähig ist, führe vor
-der ersten Montage und danach regelmäßig (z.B. jedes mal nach dem Aufladen
+der ersten Montage und danach regelmäßig (z.B. jedes Mal nach dem Aufladen
 des Akkus oder wöchentlich) folgenden Test durch:
 
 Halte dein Gerät im Freien eingeschaltet mit der linken Seite zum Himmel und 
@@ -53,9 +53,9 @@ mit dem Ultraschallsensor. [In der Troubleshooting-Sektion]({{< ref "/docs/class
 findest du weitere Informationen.
 
 Halte das Gerät nun mit der linken Seite in Richtung einer Wand, und gehe
-langsam auf die Wand zu. Du solltest etwa ab 2.50m Abstand von der Wand im
+langsam auf die Wand zu. Du solltest etwa ab 2,50&thinsp;m Abstand von der Wand im
 Display eine abnehmende Distanz sehen. Siehst du keine Abstandsanzeige oder
-erst bei deutlich unter 2,50&nbsp;m  [Findest du in der Troubleshooting-Sektion]({{< ref "/docs/classic/troubleshooting#ultraschallsensoren" >}})
+erst bei deutlich unter 2,50&thinsp;m [Findest du in der Troubleshooting-Sektion]({{< ref "/docs/classic/troubleshooting#ultraschallsensoren" >}})
 weitere Informationen.
 
 Wenn du den Sensor in der Ansicht mit allen Messwerten
@@ -75,18 +75,18 @@ Sensor durchführen.
    Smartphone lässt sich dein aktueller Standort bestimmen, den du dann
    eintippen kannst.
 4. Prüfe, ob deine SD-Karte funktioniert und am besten auch leer ist. Der
-   OpenBikeSensor erwartet eine Fat32 Partition, SD-Karten werden üblicherweise
-   mit einer Fat32 Partition ausgeliefert, so dass sie im OpenBikeSensor direkt
-   Benutzt werden können. Neuere SD-Karten sind gelegentlich mit exFAT
+   OpenBikeSensor erwartet eine FAT32 Partition, SD-Karten werden üblicherweise
+   mit einer FAT32 Partition ausgeliefert, sodass sie im OpenBikeSensor direkt
+   benutzt werden können. Neuere SD-Karten sind gelegentlich mit exFAT
    formatiert und müssen auf FAT32 umformatiert werden.
-6. Lade den Akku des Gerätes mit einem USB-C Kabel und einem normalen
-   USB-Ladegerät auf. Die LED am Lademodul leuchtet rot während des Ladens und
+5. Lade den Akku des Gerätes mit einem USB-C Kabel und einem normalen
+   USB-Ladegerät auf. Die LED am Lademodul leuchtet während des Ladens rot und
    wird blau, wenn der Akku voll ist. Achtung: Lade an einem USB-A-Port auf,
    mit einem beidseitigen USB-C-Kabel oder einem Netzteil, das direkt in einen
-   USB-C-Stecker mündet funktioniert das Laden meist nicht, da das Lademodul
-   nicht USB-C-korrekt Ladespannung anfordert.
-6. Schalte das Gerät ein. Warte bis GPS-Koordinaten vorhanden sind. Dies kann
-   eine Weile dauern. Am schnellsten geht es, wenn das Geräte in Ruhe im Freien
+   USB-C-Stecker mündet, funktioniert das Laden meist nicht da das Lademodul
+   nicht USB-C konform Ladespannung anfordert.
+6. Schalte das Gerät ein. Warte bis GPS-Koordinaten vorhanden sind, dies kann
+   eine Weile dauern. Am schnellsten geht es, wenn das Gerät in Ruhe im Freien
    liegt und nicht bewegt wird.
 7. Montiere den Sensor am Fahrrad und fahre los. Bitte achte auf den Verkehr um
    dich herum und lass dich nicht durch das Gerät ablenken.

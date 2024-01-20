@@ -13,6 +13,8 @@
     {{ $newPageStub := resources.Get "stubs/new-page-template.md" }}
     {{ $newPageQS := querify "value" $newPageStub.Content "filename" "change-me.md" | safeURL }}
     {{ $newPageURL := printf "%s/new/%s?%s"  $gh_repo $gh_repo_path $newPageQS }}
+  <a href="{{ $editURL }}" class="td-page-meta--edit" target="_blank" rel="noopener" title="edit"><i class="fa-solid fa-pen-to-square fa-fw"></i></a>
+  <a href="{{ $issuesURL }}" class="td-page-meta--issue" target="_blank" rel="noopener" title="post issue"><i class="fa-solid fa-list-check fa-fw"></i></a>
 
     {{ if $gh_project_repo }}
       {{ $project_issueURL := printf "%s/issues/new" $gh_project_repo }}
@@ -20,6 +22,8 @@
     {{ end }}
 
   {{ end }}
-
+  {{ with .CurrentSection.AlternativeOutputFormats.Get "print" }}
+    <a id="print" href="{{ .Permalink | safeURL }}"><i class="fa fa-print fa-fw"></i> {{ T "print_entire_section" }}</a>
+  {{ end }}
   </div>
 {{ end }}

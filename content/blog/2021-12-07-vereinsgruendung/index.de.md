@@ -55,7 +55,7 @@ wofür eine Mitgliedschaft im Verein Voraussetzung ist, ist die Ernennung zum
 Vorstand. Ansonsten soll der Verein keineswegs die Arbeit der Community, wie
 sie bisher stattfand, einschränken.  Entscheidungen werden weiter gemeinsam mit
 allen Interessierten gefällt, in formlosen Onlinetreffen und zwischendurch im
-Forum, auf Github und via Chat, über Konsens- bzw. Widerstandsentscheide. Wenn
+Forum, auf GitHub und via Chat, über Konsens- bzw. Widerstandsentscheide. Wenn
 du trotzdem Mitglied werden willst, um den Verein in seiner Arbeit zu
 unterstützen und einen finanziellen Beitrag zu leisten, kann die Aufnahme beim
 Vorstand beantragt werden. Wir werden in Kürze ein Antragsformular und eine

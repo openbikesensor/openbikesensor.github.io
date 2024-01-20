@@ -4,7 +4,8 @@ weight: 10
 ---
 
 ## Alternative 1: Installation via Browser
-Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [webinstaller](https://install.openbikesensor.org) in Google Chrome oder Chromium zu öffnen und der Schritt-Für-Schritt Anleitung dort zu folgen. Funktioniert das für dich nicht, probiere eine der anderen Alternativen.
+Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [Web-Installer](https://install.openbikesensor.org) in Google Chrome oder Chromium zu öffnen und der Schritt-Für-Schritt Anleitung dort zu folgen.
+Funktioniert das für dich nicht, probiere eine der Alternativen.
 
 ## Alternative 2: 
 In der [Allgemeinen Installationsanleitung]({{< ref "/docs/firmware" >}}) wird der betriebssystemunabhängige Weg über Visual Studio Code und Platformio geschildert.
@@ -41,7 +42,7 @@ sudo dnf install esptool
 
 ## Alternative Installation
 
-Sollte Deine Linux Distribution dieses Paket nicht enthalten, dann kannst du versuchen es so zu installieren.
+Sollte Deine Linux Distribution dieses Paket nicht enthalten, dann kannst Du versuchen es so zu installieren.
 - lege ein Verzeichnis an, in dem das Tool installiert werden soll, und wechsle in dieses Verzeichnis
 ```shell
 mkdir ~/esptool
@@ -129,7 +130,7 @@ cd ~/esptool
 Und das Kommando `esptool` durch `esptool.py` ersetzen.
 
 {{% alert title="Achtung" color="warning" %}}
-Erscheint eine Fehlermldung (sinngemäß) `bash: esptool: command not found`, dann ersetze im obigen Kommando `esptool` durch `esptool.py`. 
+Erscheint eine Fehlermeldung (sinngemäß) `bash: esptool: command not found`, dann ersetze im obigen Kommando `esptool` durch `esptool.py`. 
 Hilft das nicht, dann versuche einen der folgenden Aufrufe.
 {{% /alert %}}
 
@@ -162,5 +163,5 @@ sudo chmod 0x666 /dev/ttyUSB0
 
 Wenn du öfter mit dem ESP32 arbeitest, installiere dir entsprechende udev-Regeln.
 
-Sollte alles fehlschlagen, und du noch Fragen haben oder weitere Infos suchen, findest
+Sollte alles fehlschlagen, und du noch Fragen haben oder weitere Informationen suchen, findest
 du [in der Community]({{< ref "/community" >}}) immer Hilfe.

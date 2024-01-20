@@ -3,7 +3,7 @@ title: Flashen mit platformio
 weight: 10
 ---
 
-Hast du ``git`` und ``python3`` installiert, kannst du mit folgenden Kommandos die OpenBikeSensor Firmware bauen und flashen.
+Hast du `git` und `python3` installiert, kannst du mit folgenden Kommandos die OpenBikeSensor Firmware bauen und flashen.
 
 ## Vorbereiten des Firmwareverzeichnisses:
 ```
@@ -16,7 +16,8 @@ venv/bin/pip install platformio
 ```
 
 ## Flashen
-Nun kannst du den ESP (nicht den OpenBikeSensor) per USB-Kabel mit deinem Rechner verbinden und mit folgendem Kommando die Firmware flashen. (je nach systemkonfiguration benötigtst du dafür evtl. root-rechte). GGF ist es dafür nötig den **boot**-Knopf am ESP zu drücken.
+Nun kannst du den ESP (nicht den OpenBikeSensor) per USB-Kabel mit deinem Rechner verbinden und mit folgendem Kommando die Firmware flashen (je nach Systemkonfiguration benötigst du dafür root-rechte).
+Ggf. ist es dafür nötig den **boot**-Knopf am ESP zu drücken.
 ```
 platformio run -t upload
 ```

@@ -21,8 +21,8 @@ Sammelbestellungen gesammelt haben.
 
 Bitte beachte, dass sich das Projekt noch in der Entwicklung befindet, d.h.
 Änderungen in Hardware oder Design sind zu jeder Zeit möglich. Bevor du Teile
-bestellst, speziell bei größeren Mengen, überprüfe bitte dass das zugrundeliegende
-Design und die Teileliste zusammenpassen. Und nicht das Eine neuer ist als
+bestellst, speziell bei größeren Mengen, überprüfe bitte, dass das zugrundeliegende
+Design und die Teileliste zusammenpassen und nicht das Eine neuer ist als
 das Andere. Wenn du mehrere Gehäuse drucken willst: Starte den Seriendruck
 erst, nachdem du ein Gerät fertig gelötet und zusammengeschraubt hast - so 
 weißt du, dass alles passt.
@@ -32,7 +32,7 @@ weißt du, dass alles passt.
 
 Die sensibelsten Teile des OBS sind die beiden Ultraschallsensoren.
 Es gibt verschiedene Modelle auf dem Markt, aber viele werden unter der gleichen
-Bezeichnung verkauft, JSN-SR04T.
+Bezeichnung verkauft: JSN-SR04T.
 
 ### AJ-SR04M
 
@@ -58,7 +58,7 @@ AJ-SR04M: das Modell von der Sammelbestellung im February 2021
   * quer liegender IC an der Anschlussseite
   * 11.0592 MHz Schwingquarz
   * Betriebsspannung: 5V
-* Das Datenblatt, das oft auf Chinesischen Seiten erwähnt wird ist `JSN-SR04T一体化超声波测距说明书.pdf` ([Englische Übersetzung](jsn-sr04t-en.pdf)).
+* Das Datenblatt, das oft auf Chinesischen Seiten erwähnt wird, ist `JSN-SR04T一体化超声波测距说明书.pdf` ([Englische Übersetzung](jsn-sr04t-en.pdf)).
 
 {{< imgproc "jsn-sr04t-front-1.png" Resize 300x >}}
 JSN-SR04T: Vorderseite (1)

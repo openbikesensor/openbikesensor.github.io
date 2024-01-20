@@ -13,12 +13,12 @@ description: >
 Ein sehr wichtiger Bestandteil des Gerätes ist die Platine, auch
 &bdquo;PCB&rdquo; (englisch _printed circuit board_) genannt. Der schwierige
 Teil hieran ist das &bdquo;printed&rdquo; -- ein PCB ist ein professionell
-hergestelltes Bauteil das schwierig selbst zu erstellen ist. Hier sind deine
+hergestelltes Bauteil, das schwierig selbst zu erstellen ist. Hier sind deine
 Optionen:
 
 * Das PCB anhand der Designdateien von einem Platinenhersteller anfertigen
   lassen. Je nachdem wo, in welcher Qualität und wie viele Platinen du
-  bestellst wird dies erstaunlich wenig bis sehr viel kosten.
+  bestellst, wird dies erstaunlich wenig bis sehr viel kosten.
 * Finde heraus, ob jemensch anders schon Platinen anhand der gleichen Dateien
   hat herstellen lassen. Eventuell hat er:sie noch Exemplare übrig, frag am
   besten [in der Community]({{< ref "/community" >}}) nach.
@@ -27,8 +27,8 @@ Optionen:
   besonders schwierig. Je nach Ausrüstung und Erfahrung ist es aber machbar.
   Besonders viel günstiger als bestellen ist es allerdings vermutlich nicht.
 * Benutze keine Platine. Du kannst einen kompatiblen Sensor ganz ohne Platine
-  zusammenbauen, indem du die Komponenten mit Kabeln aneinander lötests.
-  Allerdings haben wir hierfür keine Anleitung und das Gehäuse wird auch nicht
+  zusammenbauen, indem du die Komponenten mit Kabeln aneinander lötest.
+  Allerdings haben wir hierfür keine Anleitung und das Gehäuse wird wahrscheinlich auch nicht
   passen. Orientiere dich am Schaltplan, den Rest musst du selbst herausfinden.
 
 

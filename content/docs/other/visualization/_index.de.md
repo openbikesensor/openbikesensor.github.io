@@ -110,7 +110,7 @@ Tracks erkannt und eingelesen wurden.
 
 ## Visualisierung
 
-Für die folgenden Kommands wechseln wir zunächst ins Unterverzeichnis `visualization`:
+Für die folgenden Befehle wechseln wir zunächst ins Unterverzeichnis `visualization`:
 
 ```bash
 cd visualization
