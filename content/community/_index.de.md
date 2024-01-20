@@ -7,6 +7,7 @@ menu:
 aliases:
 - /kontakt
 - /slack
+- /project
 ---
 
 <section class="row td-box td-box--1 position-relative td-box--gradient td-box--height-auto">
