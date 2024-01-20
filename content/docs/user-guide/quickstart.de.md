@@ -84,7 +84,7 @@ Sensor durchführen.
    wird blau, wenn der Akku voll ist. Achtung: Lade an einem USB-A-Port auf,
    mit einem beidseitigen USB-C-Kabel oder einem Netzteil, das direkt in einen
    USB-C-Stecker mündet, funktioniert das Laden meist nicht da das Lademodul
-   nicht USB-C kompatible Ladespannung anfordert.
+   nicht USB-C konform Ladespannung anfordert.
 6. Schalte das Gerät ein. Warte bis GPS-Koordinaten vorhanden sind, dies kann
    eine Weile dauern. Am schnellsten geht es, wenn das Gerät in Ruhe im Freien
    liegt und nicht bewegt wird.

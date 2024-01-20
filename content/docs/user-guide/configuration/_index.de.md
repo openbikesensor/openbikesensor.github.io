@@ -55,7 +55,7 @@ Zum direkten Nutzen eines neuen OpenBikeSensors solltest du mindestens 3
 Einstellungen vornehmen:
 
 * Lenkerbreite
-  - Miss den horizontalen Abstand deines linken und rechten Lenker-Randes bis zur
+  - Miss den horizontalen Abstand deines linken und rechten Lenker-Endes bis zur
     Radmitte. Ein symmetrischer Lenker hat zum Beispiel 75&thinsp;cm Breite, das heißt
     37.5&thinsp;cm auf jeder Seite. Ein asymmetrisches Fahrrad hat eventuell
     unterschiedliche Werte.

@@ -73,7 +73,7 @@ dort gibt es immer Unterstützung.
 ## Vorbereiten der Dateien
 
 Du brauchst nun geschachtelte Ordner innerhalb des Ordners `obs-scripts`. Diese
-erstellst du mit `mkdir` oder `mkdir -p`, oder einfach mit der Graphischen
+erstellst du mit `mkdir` oder `mkdir -p`, oder einfach mit der graphischen
 Bedienoberfläche deines Betriebssystems.
 
 Wir benötigen folgende Struktur:

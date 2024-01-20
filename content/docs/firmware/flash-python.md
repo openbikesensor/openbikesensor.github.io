@@ -16,7 +16,7 @@ venv/bin/pip install platformio
 ```
 
 ## Flashen
-Nun kannst du den ESP (nicht den OpenBikeSensor) per USB-Kabel mit deinem Rechner verbinden und mit folgendem Kommando die Firmware flashen (je nach systemkonfiguration benötigst du dafür eventuell root-rechte).
+Nun kannst du den ESP (nicht den OpenBikeSensor) per USB-Kabel mit deinem Rechner verbinden und mit folgendem Kommando die Firmware flashen (je nach Systemkonfiguration benötigst du dafür root-rechte).
 Ggf. ist es dafür nötig den **boot**-Knopf am ESP zu drücken.
 ```
 platformio run -t upload

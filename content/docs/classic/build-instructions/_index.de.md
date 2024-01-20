@@ -232,7 +232,7 @@ gehen wir davon aus, dass du auch weißt, wie du sie anbringst.
 {{< /slider >}}
 
 ### Kondensatoren
-{{% alert title="Achtung: Unterschiedliche Kondensator größen" color="warning" %}}
+{{% alert title="Achtung: Unterschiedliche Kondensatorgrößen" color="warning" %}}
 Es gibt C2 und C3 in unterschiedlichen Baugrößen. Bevor du sie festlötest,
 prüfe, ob sie unter den ESP passen. Passen sie nicht, montiere sie liegend.
 {{% /alert %}}
@@ -411,8 +411,7 @@ Metallstifte vorsichtig um, sodass sie weg von der vierpoligen Stiftleiste
 Modulplatine anfangen. Am besten geht das mit einer stabilen Pinzette und einer
 Flachzange. Die Stifte können dabei brechen, dann musst du es kreativ
 reparieren. Auf die gebogenen Stifte lässt sich ein JST-Stecker aufstecken,
-aber nicht arretieren (Heißkleber kann hier beim Fixieren helfen).
-Wir hatten jedoch bisher keine Probleme mit dieser
+aber nicht arretieren. Wir hatten jedoch bisher keine Probleme mit dieser
 Variante im Betrieb.
 
 ### Einbau
@@ -441,7 +440,7 @@ Sensorboard auf dieselbe Weise, und kürze am Ende alle Stifte.
 {{< slider >}}
   {{< slider-image
     src="v1.0.0/ultraschall1.jpg"
-    alt="Sensorboard platzierung von oben." >}}
+    alt="Sensorboardplatzierung von oben." >}}
   {{< slider-image
     src="v1.0.0/ultraschall2.jpg"
     alt="C1 und C2 platzieren." >}}
@@ -633,7 +632,7 @@ Gehäuses. Stecke sie **noch nicht** ein.
 
 Im Haupt- sowie im Displaygehäuse gibt es einige Löcher, in die Gewindeeinsätze
 ("heat-set inserts") hineingehören. Dort greifen später die Schrauben, die das
-ganze Gerät zusammenhalten. Die Gewinde müssen an folgende Stellen:
+ganze Gerät zusammenhalten. Die Gewinde müssen an folgenden Stellen angebracht werden:
 
 * 3 Stück im Hauptgehäuse für das PCB (mit Montagelöchern der Platine vergleichen)
 * 5 Stück im Hauptgehäuse für den Hauptdeckel
@@ -955,7 +954,7 @@ hilft dir vielleicht eine der Anleitung auf der [Fehlersuche-Seite]({{< relref
 
 * Displaykabel in Gehäuse einstecken
   - Führe das Displaykabel mit dem Stecker voran von außen in das Hauptgehäuse hinein
-    (Falls vorher nicht geschehen).
+    (Falls nicht bereits geschehen).
 Entscheide dich, ob du
 eine Top-Rider oder Back-Rider [Variante]({{< relref "../case/variants" >}})
 bauen möchtest, und führe das freie Ende des Kabels durch die entsprechende
@@ -967,7 +966,7 @@ beide Varianten ermöglichen, kannst du dir die Öffnung frei aussuchen.
   - Das Kabel sollte außen um die Elektronik herumgeführt werden, *nicht*
     zwischen dem GPS- und SD-Karten-Modul hindurch. Im neuen Gehäuse sollte
     dafür genug Platz sein.
-  - Jetzt zeigt sich auch, warum ca. 5&thinsp;cm Abisolierung hier sinnvoll ist, denn
+  - Jetzt zeigt sich auch, warum ca. 5-10&thinsp;cm Abisolierung hier sinnvoll ist, denn
     ohne Isolierung ist das Kabel flexibler.
   - Stecker einsetzen (z.B. mit Pinzette)
   - Kabel so weit aus der Zugsicherung herausziehen, bis kein überschüssiges

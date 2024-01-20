@@ -11,7 +11,7 @@ menu:
 
 # Das Messgerät
 
-Kern unseres Projektes ist ein Gerät, dass die Überholabstände beim Radfahren
+Kern unseres Projektes ist ein Gerät, das die Überholabstände beim Radfahren
 aufzeichnet. Dieses Gerät haben wir als quelloffenes Design entwickelt, sodass
 du, wenn du magst, dir selbst eines bauen kannst und darfst! Hier siehst du alle
 Varianten.
