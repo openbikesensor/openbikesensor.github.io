@@ -13,7 +13,7 @@ description: >
 Ein sehr wichtiger Bestandteil des Gerätes ist die Platine, auch
 &bdquo;PCB&rdquo; (englisch _printed circuit board_) genannt. Der schwierige
 Teil hieran ist das &bdquo;printed&rdquo; -- ein PCB ist ein professionell
-hergestelltes Bauteil, dass schwierig selbst zu erstellen ist. Hier sind deine
+hergestelltes Bauteil, das schwierig selbst zu erstellen ist. Hier sind deine
 Optionen:
 
 * Das PCB anhand der Designdateien von einem Platinenhersteller anfertigen

@@ -175,7 +175,7 @@ Das Hauptgehäuse enthält den Großteil der Elektronik (PCB, Sensorboards,
 SD-Karte, GPS, Hauptschalter, Ladeelektronik) sowie die zwei Abstandssensoren,
 die GPS-Antenne und die Batterie.
 
-Sowohl der Hauptteil als auch der Deckel können mit einem Logo gedruckt werden.
+Sowohl das Hauptgehäuse als auch der Deckel können mit einem Logo gedruckt werden.
 Dies ist ein wenig mehr Aufwand, lohnt sich aber optisch sehr, und es hilft
 erfahrungsgemäß auch dabei, auf der Straße auf das Gerät angesprochen zu werden
 und dem Projekt mehr Aufmerksamkeit zu generieren.
@@ -292,8 +292,8 @@ sein, die Positionierung auf dem Druckbett ist daher auch besonders wichtig.
 
 Nach dem Laden der STL-Dateien in Cura werden in der Vorschau die Überhänge in
 Rot angezeigt. Am Beispiel des Deckels (Bilder 1 und 2) ist es sehr
-offensichtlich, dass die Lage eine wesentliche Rolle spielt, und zeigt wie herum das Teil
-auf die Druckerplatte gelegt werden soll.
+offensichtlich, dass die Lage eine wesentliche Rolle spielt, und zeigt, mit welcher Seite
+das Teil auf die Druckerplatte gelegt werden soll.
 
 Aber selbst bei einer optimalen Lage wie im Beispiel des Sensorgehäuses zeigt
 Cura wo sich trotzdem noch Überhänge bilden. Manche Überhänge wie
