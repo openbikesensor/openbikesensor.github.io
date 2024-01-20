@@ -14,7 +14,7 @@ In der Portalsoftware wird dann aus den sensiblen Daten ein öffentlicher
 Datenpool abgeleitet. Dieser wird durch das Portal veröffentlicht und fließt in
 die globale Datenbank ein.
 
-Die Betreiber:innen einzelner Porale können außerdem Nebenabsprachen mit ihren
+Die Betreiber:innen einzelner Portale können außerdem Nebenabsprachen mit ihren
 Nutzenden treffen, welche über das beschriebene Vorgehen zur Nutzung der
 hochgeladenen Daten hinausgehen. Dies ist zum Beispiel bei einigen
 Forschungsprojekten der Fall.

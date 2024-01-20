@@ -4,7 +4,7 @@ title: >
 slug: woher-bekomme-ich-den-ueberholabstandsmesser
 ---
 
-Wir entwickeln in ehrenamtlicher Arbeit diese Gerät, aber wir verkaufen es
+Wir entwickeln in ehrenamtlicher Arbeit dieses Gerät, aber wir verkaufen es
 nicht. Die Pläne sind frei im Internet verfügbar, sodass jede:r es selbst
 nachbauen kann. Kapazitäten zum (kommerziellen) Angebot fertiger Geräte haben
 wir aber keine.

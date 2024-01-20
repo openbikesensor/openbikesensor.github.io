@@ -30,7 +30,7 @@ hinten zeigt.
 Ein Gehäuse kann sowohl Top Rider als auch Back Rider gleichzeitig sein. Auf
 jeden der Montagepunkte passt der `StandardMountAdapter` (siehe
 [Gehäusebauteile]({{< relref "../parts" >}})). Ein ungenutzter Montagepunkt
-sollte mit dem `AttachmentCover` abgedeckt werden, um die Löcher zu schließen.
+sollte mit dem `AttachmentCover` abgedeckt werden, um das Loch zu schließen.
 
 Die Parametrierung erfolgt über die OpenSCAD-Variablen
 
@@ -55,14 +55,14 @@ Menge Anpassungsmöglichkeiten für jeden Anwendungsfall.
 Bitte bedenke, dass nicht jeder Wert für jeden Parameter sinnvoll ist, und wir
 nicht alle möglichen Werte testen können. Wenn du also das Gehäuse anpasst,
 dann prüfe zunächst, ob die generierten Bauteile deinen Anforderungen
-entsprechen, und vor allem ob sie Fehler enthalten. Es ist immer ärgerlich,
+entsprechen und vor allem, ob sie Fehler enthalten. Es ist immer ärgerlich,
 dies erst nach einigen Stunden 3D-Druck festzustellen.
 {{% /alert %}}
 
 Die STL-Dateien werden anhand der SCAD-Dateien erzeugt, die alle im
 [GitHub-Repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase)
 liegen. Am besten benutzt du `git`, um dir eine Kopie herunterzuladen
-(*clone*), und dann kannst du die Parameter ändern:
+(*clone*), dann kannst du die Parameter ändern:
 
 ```console
 git clone --recurse-submodules https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase
@@ -79,7 +79,7 @@ Paketmanager installieren kannst) anschauen. Einzelne Bauteile kannst du darin
 auch rendern (F6) und danach als STL exportieren (F7).
 
 Wenn du alle Teile neu generieren möchtest, kannst du auch in deinem Terminal
-`make` eingeben. Dies erzeugt alle geänderten Bauteile neu, möchtest du alle
+`make` eingeben. Dies erzeugt alle geänderten Bauteile neu. Möchtest du alle
 neu erstellen, hilft vorher ein `make clean`. Diese Bauteile werden dann nach
 `export/...` exportiert und überschreiben die dort vorhandenen STL-Dateien. Es
 dauert jedoch eine Weile die ganzen Geometrien zu berechnen, erwarte etwa 2-20

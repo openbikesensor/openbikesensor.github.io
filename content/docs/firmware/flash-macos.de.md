@@ -4,7 +4,8 @@ weight: 12
 ---
 
 ## Installation via Browser
-Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [webinstaller](https://install.openbikesensor.org) in Google Chrome zu öffnen und der Schritt-Für-Schritt anleitung dort zu folgen. Funktioniert das für dich nicht, folge den Schritten unten.
+Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [Web-Installer](https://install.openbikesensor.org) in Google Chrome zu öffnen und der Schritt-Für-Schritt anleitung dort zu folgen.
+Funktioniert das für dich nicht, folge den Schritten unten.
 
 ## Vorbereitung
 
@@ -60,5 +61,5 @@ Wenn du keine Schreibberechtigung hast, kannst du den Dateimodus des Geräts
 sudo chmod 0x777 /dev/tty.usbserial-0001
 ```
 
-Sollte alles fehlschlagen, und du noch Fragen haben oder weitere Infos suchen, findest
+Sollte alles fehlschlagen, und du noch Fragen haben oder weitere Informationen suchen, findest
 du [in der Community]({{< ref "/community" >}}) immer Hilfe.

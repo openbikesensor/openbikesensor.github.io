@@ -15,15 +15,15 @@ einplanen.
 {{% alert title="Hinweis zu alten Gehäuseversionen" color="info" %}}
 Bis Anfang 2022 gab es viele verschiedene Versionen des Gehäuses, einige mit
 leichten Unterschieden, andere erheblich anders aufgebaut. Allerdings wurden
-diese mit proprietären 3D-CAD Programmen erstellt, und waren nicht zugänglich
+diese mit proprietären 3D-CAD Programmen erstellt, und waren somit nicht zugänglich
 für die Allgemeinheit. Lediglich der Druck aus den STL-Dateien war für die
 meisten möglich, eigene Anpassungen oder eine schrittweise kollaborative
 Verbesserung waren aber ausgeschlossen.
 
 Das hat sich mit der Portierung nach OpenSCAD geändert. Nachfolgend verwenden
-wir in den Anleitungen nur diese neuen Modelle. Diese bieten aufgrund
-der möglichen Parametrierung wesentlich mehr Optionen, seien es leicht
-angepasste Dimensionen für andere Hardware (z. B. ein neues Displaymodul), oder
+wir in den Anleitungen nur diese neuen Modelle. Sie bieten aufgrund
+der möglichen Parametrierung wesentlich mehr Optionen, wie leicht
+angepasste Dimensionen für andere Hardware (z. B. ein neues Displaymodul), als auch
 verschiedene Optionen für die Befestigung am Rad.
 
 Eine Anleitung zum Generieren eigener Gehäusevarianten mit OpenSCAD wird [hier]({{< relref "variants" >}})
@@ -58,7 +58,7 @@ Druck von OpenBikeSensor-Gehäuseteilen.
 ## Material und Farben
 
 Das empfohlene Material für den Druck der Gehäuseteile ist PETG, das Material
-mit den meisten Vorteile für unser Projekt:
+mit den meisten Vorteilen für unser Projekt:
 
 * hohe Schlagfestigkeit und dennoch flexibel -- wichtig für den Einsatz am Fahrrad
 * hydrophob, wasserabweisend, witterungsbeständig -- wichtig für Außeneinsatz
@@ -75,9 +75,10 @@ ABS oder ASA. Doch die Vorteile überwiegen diese Einschränkung.
 
 ## Druckvorbereitung
 
-Alle Dateien für das OpenBikeSensor Projekt wie Software, Firmware, Dokumentation und auch die 3D-Druckdateien liegen auf GitHub.  Das Repository für die Gehäusedaten ist:
+Alle Dateien für das OpenBikeSensor Projekt wie Software, Firmware, Dokumentation und auch die 3D-Druckdateien liegen auf GitHub.
+Das Repository für die Gehäusedaten ist: [openbikesensor/OpenBikeSensor3dPrintableCase](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase)
 
-Die Gehäuselemente werden unterschieden in die Bestandteile
+Die Gehäuseelemente werden unterschieden in die Bestandteile
 
 + Hauptgehäuse (`MainCase`)
 + Displaygehäuse (`DisplayCase`)
@@ -88,16 +89,16 @@ exportierten STL-Dateien für den 3D-Druck können von GitHub direkt
 heruntergeladen werden:
 
 <div class="text-center my-4">
-<a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/main.zip">Gehäusedateien herunterladen<a>
+<a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/archive/refs/heads/main.zip">Gehäusedateien herunterladen</a>
 </div>
 
 Im Archiv befindet sich ein Ordner `export/` mit den obigen Kategorien, und
 darin sind jeweils die STL-Dateien für den Slicer zu finden.
 
 {{% alert title="Achtung: Kompatibilität zwischen Versionen" color="warning" %}}
-Wir halten die Teile zu Halterungen älterer Versionen kompatibel. Aber Teile für ein Geräteelement (z.B. Hauptgehäuse und Deckel, Display und Deckel, die verschiedenen 
-Elemente der Sattelhalterung) können sich zwischen Versionen verändern. Wenn du ein einzelnes Gehäuseteil (z.B. Deckel mit Logo) als ``.stl`` bekommst, prüfe genau im Slicer, ob
-es zu deinen Gehäusedateien passt. Wenn du z.B. ein ``MainCaseLid`` mit Logo weitergeben möchtest, gib ihn am besten im Bundle mit ``MainCase`` weiter. 
+Wir halten die Teile zu Halterungen älterer Versionen kompatibel, aber Teile für ein Geräteelement (z.B. Hauptgehäuse und Deckel, Display und Deckel, die verschiedenen 
+Elemente der Sattelhalterung) können sich zwischen Versionen verändern. Wenn du ein einzelnes Gehäuseteil (z.B. Deckel mit Logo) als `.stl` bekommst, prüfe genau im Slicer, ob
+es zu deinen Gehäusedateien passt. Wenn du z.B. ein `MainCaseLid` mit Logo weitergeben möchtest, gib es am besten im Bundle mit `MainCase` weiter. 
 {{% /alert %}}
 
 
@@ -116,14 +117,14 @@ die Druckplatte gelegt, sodass es möglichst wenig Überhänge gibt:
       alt="2. Drucken mit dem Gesicht nach unten" >}}
 {{< /slider >}}
 
-Die STL-Dateien werden in der Regel so generiert, dass sie nach dem importieren
+Die STL-Dateien werden in der Regel so generiert, dass sie nach dem Importieren
 bereits in der empfohlenen Lage auf dem Druckbett liegen. Auf Support kannst du
 dann in der Regel verzichten, denn bei der Modellierung wird bereits die
 supportfreie Druckbarkeit beachtet. Du kannst dich natürlich auch anders
 entscheiden und die Objekte drehen, sollte dein Drucker oder Slicer sonst keine
 guten Ergebnisse liefern.
 
-Als nächstes werden der richtige Drucker, das Filament und die
+Als Nächstes werden der richtige Drucker, das Filament und die
 Druckeinstellungen (Infull, Support, Geschwindigkeit, Schichtdicke, ...)
 gewählt. Hier gilt, dass du dich am besten an den Vorgaben der Hersteller (von
 Drucker und Filament) orientierst, aber auch immer ein bisschen experimentierst
@@ -152,7 +153,7 @@ Temperaturen, etc.).
 {{< slider >}}
 {{< slider-image
     src="cura_case_slice_information"
-    alt="1. Nachdem alle Einstellungen erfolgt sind, wird das Slicing gestartet " >}}
+    alt="1. Nachdem alle Einstellungen erfolgt sind, wird das Slicing gestartet" >}}
 {{< slider-image
     src="cura_case_slice_preview"
     alt="2. Slicing information gibt es im Preview, mit den beiden Schiebern unten und rechts kann man jede einzelne Bahn des Extruders verfolgen" >}}
@@ -161,10 +162,10 @@ Temperaturen, etc.).
 Die GCODE-Datei wird nun auf den 3D-Drucker übertragen. Je nach Druckermodell
 geschieht dies über WLAN, mithilfe einer SD-Karte oder eines USB-Sticks, oder
 der Drucker ist direkt (per USB) am PC angeschlossen. Das genaue Verfahren ist
-im Handbuch des Druckers vermutlich beschrieben.
+im Handbuch des Druckers beschrieben.
 
 Im Menü des Druckers wird die erstellte GCODE-Datei für den Druck ausgewählt
-und der Druck gestartet. Ab hier übernimmt der Roboter die Arbeit für uns, und
+und der Druck gestartet. Ab hier übernimmt der Roboter die Arbeit für uns und
 wenn wir alles richtig eingestellt haben, ist in einigen Minuten bis Stunden
 ein neues Gehäuseteil fertig.
 
@@ -174,16 +175,17 @@ Das Hauptgehäuse enthält den Großteil der Elektronik (PCB, Sensorboards,
 SD-Karte, GPS, Hauptschalter, Ladeelektronik) sowie die zwei Abstandssensoren,
 die GPS-Antenne und die Batterie.
 
-Sowohl das Hauptteil als auch der Deckel können mit einem Logo gedruckt werden.
+Sowohl der Hauptteil als auch der Deckel können mit einem Logo gedruckt werden.
 Dies ist ein wenig mehr Aufwand, lohnt sich aber optisch sehr, und es hilft
 erfahrungsgemäß auch dabei, auf der Straße auf das Gerät angesprochen zu werden
-und dem Projekt mehr Aufmerksamkeit zu generieren. Details zum Druck des Logos findest du hier: [Logo-Druck (mehrfarbig)]({{< relref "color-prints" >}}).
+und dem Projekt mehr Aufmerksamkeit zu generieren.
+Details zum Druck des Logos findest du hier: [Logo-Druck (mehrfarbig)]({{< relref "color-prints" >}}).
 
 {{% alert title="Logo-Varianten" color="info" %}}
 Wir freuen uns, wenn möglichst viele ihren OpenBikeSensor mit dem Projektlogo
 versehen. Ebenso kann ein eigenes Logo verwendet werden, zum Beispiel für
-Lokalgruppen oder -projekte. Dafür gibt es im Gehäuserepository eine technische
-Dokumentation zum generieren einer eigenen Logo-Variante. Wir empfehlen, den
+Lokalgruppen oder -projekte. Dafür gibt es im Gehäuse repository eine technische
+Dokumentation zum Generieren einer eigenen Logo-Variante. Wir empfehlen, den
 Deckel mit eigenem Logo zu drucken, und das OpenBikeSensor-Logo auf dem
 Hauptgehäuse beizubehalten. So sind alle Geräte einheitlich, und doch
 individuell.
@@ -224,7 +226,8 @@ Die Bauteile des Hauptgehäuses auf dem Druckbett
     Zwei Halterungen, das <code>SeatPostMount</code> und eine alte Variante des <code>TopTubeMount</code>.
 {{< /imgproc >}}
 
-Es gibt verschiedene Möglichkeiten, den OBS Sensor am Fahrrad zu montieren. Wie die Halterungen angebracht werden und aussehen, ist in der [Montageanleitung]({{< relref "mounting" >}}) zu sehen.
+Es gibt verschiedene Möglichkeiten, den OBS Sensor am Fahrrad zu montieren.
+Wie die Halterungen angebracht werden und aussehen, ist in der [Montageanleitung]({{< relref "mounting" >}}) zu sehen.
 
 1. Standard: Sattelhalterung, an der Sattelstange hinter
    dem/der Fahrer:in montiert.
@@ -244,8 +247,8 @@ dazugehörigen Schiene (`Mounting/HandlebarRail`) am Lenker befestigt.
 
 {{< imgproc "cura_mounting_parts" Resize 800x >}}
     Lage dreier Halterungen und des Sicherungspin auf dem Druckbett (die
-    verlängerte Variante kann parametrisch mit OpenSCAD erstellt werden). Der
-    LockingPin sollte jedoch lieber stehend gedruckt werden.
+    verlängerte Variante kann parametrisch mit OpenSCAD erstellt werden).
+    Der LockingPin sollte liegend gedruckt werden da er sonst brechen wird.
 {{< /imgproc >}}
 
 
@@ -270,13 +273,13 @@ das Display während der Fahrt an der Schiene (`HandlebarRail`, siehe
 
 Nach dem Slicen wird angezeigt, wie lange der Druckvorgang dauern wird und wie
 viel Material für den Druck benötigt wird. Abhängig von den Einstellungen kann
-die Druckdauer sehr unterschiedlich sein. Oft geht mit mehr
-Druckgeschwindigkeit ein Qualitätsverlust einher, sodass die beiden
+die Druckdauer sehr unterschiedlich sein. Oft geht mit höherer
+Druckgeschwindigkeit ein Qualitätsverlust einher, sodass beide
 gegeneinander abgewogen werden müssen.
 
 Üblich für den Druck eines ganzen Gehäuses ist daher je nach Drucker etwa 10
 Stunden in Summe. Die Kosten des Filaments belaufen sich auf ca. 3 €, wer
-Verschleiß und Stromkosten einrechnet kommt auf etwa 5 € Gesamtkosten.
+Verschleiß und Stromkosten einrechnet, kommt auf etwa 5 € Gesamtkosten.
 
 ## Troubleshooting
 
@@ -288,15 +291,15 @@ Das Design der Modelle ist bereits darauf ausgelegt, möglichst gut druckbar zu
 sein, die Positionierung auf dem Druckbett ist daher auch besonders wichtig.
 
 Nach dem Laden der STL-Dateien in Cura werden in der Vorschau die Überhänge in
-rot angezeigt.  Am Beispiel des Deckels (Bilder 1 und 2) ist es sehr
-offensichtlich das die Lage eine wesentliche Rolle spielt, wie herum das Teil
+Rot angezeigt. Am Beispiel des Deckels (Bilder 1 und 2) ist es sehr
+offensichtlich, dass die Lage eine wesentliche Rolle spielt, und zeigt wie herum das Teil
 auf die Druckerplatte gelegt werden soll.
 
 Aber selbst bei einer optimalen Lage wie im Beispiel des Sensorgehäuses zeigt
 Cura wo sich trotzdem noch Überhänge bilden. Manche Überhänge wie
-Schraubenlöcher sind unkritisch da der Drucker das selbst überbrücken kann
-(*bridging*).  Doch wenn der Übergang zu groß wird können sich viele Fäden
-ziehen. Um das zu vermeiden kann die Supportfunktion eingeschalten werden, der
+Schraubenlöcher sind unkritisch, da der Drucker das selbst überbrücken kann
+(*bridging*). Wenn der Übergang aber zu groß wird, können sich viele Fäden
+ziehen. Um das zu vermeiden, kann die Supportfunktion eingeschalten werden, der
 Drucker erstellt dann leichte Stützstrukturen, die nach dem Druck wieder
 entfernt werden.
 
@@ -309,7 +312,7 @@ entfernt werden.
     alt="2. Richtiges Positionieren ist wichtig" >}}
 {{< slider-image
     src="cura_case_overhangs"
-    alt="3. In der Vorschau werden bereits in rot Überhänge angezeigt" >}}
+    alt="3. In der Vorschau werden bereits in Rot Überhänge angezeigt" >}}
 {{< slider-image
     src="cura_case_enable_support"
     alt="4. Support einschalten" >}}

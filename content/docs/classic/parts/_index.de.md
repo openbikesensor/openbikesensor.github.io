@@ -13,7 +13,8 @@ description: >
 
 
 {{% pageinfo color="warning" %}}
-Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir arbeiten zurzeit daran, bei neuen Lieferanten testzubestellen. Wenn du gerade bestellst, kannst du @gluap im Forum kontaktieren, um bei der Testbestellung dieser Komponenten mitzumachen. 
+Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir arbeiten zurzeit daran, welche bei neuen Lieferanten bestellen.
+Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der Testbestellung dieser Komponenten mitzumachen.
 {{% /pageinfo %}}
 
 {{< include-markdown-partial "parts-notes.md" >}}
@@ -67,7 +68,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
   <td>1</td>
   <td>Buck-Boost Modul for LiPo, 3.3V (Spannungsregler)</td>
   <td>
-    <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung ``A1731i`` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span> 
+    <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung `A1731i` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span> 
   </td>
 </tr>
 <tr>
@@ -118,7 +119,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
 <tr><th colspan="3">Kleinteile</th></tr>
 <tr>
   <td>1</td>
-  <td>12mm Drucktaster</td>
+  <td>12&thinsp;mm Drucktaster</td>
   <td>
     <a href="https://www.aliexpress.com/item/4000295670163.html">aliexpress.com</a>
     <a href="https://de.aliexpress.com/item/32672509409.html">aliexpress.com</a>
@@ -201,7 +202,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
 </tr>
 <tr>
   <td>1</td>
-  <td>Platinenstecker für Batteriekabel (gerade, 2-polig, mit rot-schwarzen Kabeln, 2.54mm RM)</td>
+  <td>Platinenstecker für Batteriekabel (gerade, 2-polig, mit rot-schwarzen Kabeln, 2.54&thinsp;mm RM)</td>
   <td>
     <a href="https://www.pollin.de/p/buchsenleiste-serie-ps-451471">pollin.de 1</a>
     <br/>
@@ -210,21 +211,21 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
 </tr>
 <tr>
   <td>1</td>
-  <td>Winkelstiftleiste (mind. 10-polig, 2.54mm RM)</td>
+  <td>Winkelstiftleiste (mind. 10-polig, 2.54&thinsp;mm RM)</td>
   <td>
     <a href="https://www.reichelt.de/de/de/36pol-stiftleiste-gewinkelt-rm-2-54-sl-1x36w-2-54-p19505.html">reichelt.de</a>
   </td>
 </tr>
 <tr>
   <td>1</td>
-  <td>Stiftleiste gerade (mind. 11-polig, 2.54mm RM)</td>
+  <td>Stiftleiste gerade (mind. 11-polig, 2.54&thinsp;mm RM)</td>
   <td>
     <a href="https://www.reichelt.de/de/de/40pol-stiftleiste-gerade-rm-2-54-sl-1x40g-2-54-p19506.html">reichelt.de</a>
   </td>
 </tr>
 <tr>
   <td>2</td>
-  <td>SMD-Buchsenleisten (15-polige, 2.54mm SMD, wechselseitig, BL LP 5 SMD)<br/> (15-polige Variante ist selten; 16-polige kann gekürzt werden)</td>
+  <td>SMD-Buchsenleisten (15-polige, 2.54&thinsp;mm SMD, wechselseitig, BL LP 5 SMD)<br/> (15-polige Variante ist selten; 16-polige kann gekürzt werden)</td>
   <td>
     <a href="https://www.fischerelektronik.de/web_fischer/de_DE/$catalogue/fischerData/PR/BL_LP5SMD_/datasheet.xhtml?branch=Steckverbinder">fischerelektronik.de</a>
   </td>
@@ -292,7 +293,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
 <tr><th colspan="3">Mechanische Bauteile</th></tr>
 <tr>
   <td>4</td>
-  <td>Neodym-Magnete, 20x10x2mm</td>
+  <td>Neodym-Magnete, 20x10x2&thinsp;mm</td>
   <td>
     <a href="https://www.amazon.de/dp/B085CBZTQJ">amazon.de</a>
     <a href="https://www.supermagnete.de/quadermagnete-neodym/quadermagnet-20mm-10mm-2mm_Q-20-10-02-N">supermagnete.de (teuer, stark)</a>
@@ -300,7 +301,7 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
 </tr>
 <tr>
   <td>4</td>
-  <td>Neodym-Magnete, 3x3x3mm</td>
+  <td>Neodym-Magnete, 3x3x3&thinsp;mm</td>
   <td>
     <a href="https://www.amazon.de/dp/B079KDYBZ8">amazon.de</a>
     <a href="https://www.supermagnete.de/wuerfelmagnete-neodym/wuerfelmagnet-3mm_W-03-N">supermagnete.de</a>
@@ -308,12 +309,12 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
 </tr>
 <tr>
   <td>28</td>
-  <td>M3x8mm Zylinderschraube mit Innensechskant (DIN912). (1x GPS, 8x für zwei Gehäuseöffnungen, 3x Platine, 5x Deckel, 3x Display, 6x 2 Gepäckträgerhalterungen, 2x für Kabelzugentlastung), je nach Variante können weniger Schrauben reichen.</td>
+  <td>M3x8&thinsp;mm Zylinderschraube mit Innensechskant (DIN912). (1x GPS, 8x für zwei Gehäuseöffnungen, 3x Platine, 5x Deckel, 3x Display, 6x 2 Gepäckträgerhalterungen, 2x für Kabelzugentlastung), je nach Variante können weniger Schrauben reichen.</td>
   <td></td>
 </tr>
 <tr>
   <td>1</td>
-  <td>M3x30mm Zylinderschraube mit Innensechskant (DIN912) (für den Locking Pin)</td>
+  <td>M3x30&thinsp;mm Zylinderschraube mit Innensechskant (DIN912) (für den Locking Pin)</td>
   <td></td>
 </tr>
 <tr>

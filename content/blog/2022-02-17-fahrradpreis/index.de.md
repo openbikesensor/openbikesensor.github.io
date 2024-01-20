@@ -22,6 +22,11 @@ Wir haben schon viel Zeit in die Entwicklung und den Einsatz des OpenBikeSensors
 
 ### Jetzt mitmachen!
 
-Auch du kannst Teil des OpenBikeSensor-Projekts werden! Es werden immer Menschen gebraucht, die ihre Zeit und ihre Fähigkeiten einbringen. Das sind nicht nur technische Themen (Entwicklung und Dokumentation), sondern auch die Organisation der Community, von Hardwarebestellungen, und nicht zu vergessen die Kommunikation mit Entscheidungsträger:innen der Lokalpolitik und Medienvertreter:innen. Melde dich gerne bei uns [im Forum](https://forum.openbikesensor.org) oder schau dich auf dieser Website um, um mehr über das Projekt zu erfahren! [Auf der Karte](/map) kannst du sehen, ob es in deiner Nähe schon Initativen gibt.
+Auch du kannst Teil des OpenBikeSensor-Projekts werden!
+Es werden immer Menschen gebraucht, die ihre Zeit und ihre Fähigkeiten einbringen.
+Das sind nicht nur technische Themen (Entwicklung und Dokumentation), sondern auch die Organisation der Community, von Hardwarebestellungen, und nicht zu vergessen die Kommunikation mit Entscheidungsträger:innen der Lokalpolitik und Medienvertreter:innen.
+Melde dich gerne bei uns [im Forum](https://forum.openbikesensor.org) oder schau dich auf dieser Website um, um mehr über das Projekt zu erfahren! [Auf der Karte](/map) kannst du sehen, ob es in deiner Nähe schon Initativen gibt.
 
-Besonders gefragt sind im Moment **Python-, Embedded- oder Webentwickler:innen** sowie **Data Scientists**. Wenn du dich hier auskennst und Interesse hast, deine Fähigkeiten im Sinne einer wissenschaftlichen Untersuchung der Verkehrswende einzusetzen, können wir auf jeden Fall deine Hilfe gebrauchen! Melde dich im Forum, bei Matrix, oder direkt auf Github, und hilf uns, die Auswertung der gesammelten Daten wieder einen großen Schritt voranzubringen!
+Besonders gefragt sind im Moment **Python-, Embedded- oder Webentwickler:innen** sowie **Data Scientists**.
+Wenn du dich hier auskennst und Interesse hast, deine Fähigkeiten im Sinne einer wissenschaftlichen Untersuchung der Verkehrswende einzusetzen, können wir auf jeden Fall deine Hilfe gebrauchen!
+Melde dich im Forum, bei Matrix, oder direkt auf GitHub, und hilf uns, die Auswertung der gesammelten Daten wieder einen großen Schritt voranzubringen!

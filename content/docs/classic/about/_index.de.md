@@ -23,7 +23,7 @@ zum Gehäuse und Hilfen beim Beschaffen der Teile.
 * [Das Gehäuse]({{< relref "case" >}}) wird im 3D-Druck-Verfahren hergestellt.
 * [Die Hauptplatine]({{< relref "pcb" >}}) wurde speziell für den
   OpenBikeSensor entworfen und kann als Spezialanfertigung bei einem
-  Platinenhersteller anhand der bereitgestellten Designdateienen bestellt
+  Platinenhersteller anhand der bereitgestellten Designdateien bestellt
   werden. 
 * [Die Bauanleitung]({{< relref "../build-instructions" >}}) beschreibt, wie die
   Bauteile auf der Hauptplatine installiert und das ganze ins Gehäuse
@@ -37,7 +37,7 @@ baust du ihn dir selbst zusammen.
 Du brauchst auch keine Angst zu haben, damit loszulegen -- selbst wenn nicht
 immer sofort offensichtlich ist, wie alles funktioniert, so ist es trotzdem
 auch für Anfänger:innen möglich, erfolgreich einen Sensor anhand dieser
-Anleitungen zu bauen. Und wenn das mal nicht klappt, gibt es genug Leute die
+Anleitungen zu bauen. Und wenn das mal nicht klappt, gibt es genug Leute, die
 dir gern weiterhelfen, und ihr Wissen teilen. 
 
 Vielleicht kannst du dich auch mit einigen Anderen in deiner Gegend
@@ -45,7 +45,7 @@ zusammentun. Schau in [der Community]({{< relref "community" >}}) vorbei oder
 auf die [Karte der Initiativen]({{< relref "map" >}}), und finde
 Gleichgesinnte, mit denen du zusammen arbeiten und lernen kannst.
 
-Das Gerät besteht aus vielen Einzelteilen aus verschiedenen Quellen besteht.
+Das Gerät besteht aus vielen Einzelteilen aus verschiedenen Quellen.
 Sammelbestellungen sind eine gute Möglichkeit, die Komplexität aufzuteilen und
 für jede:n Einzelne:n zu verringern. Dabei sparen wir alle Geld, denn in Menge
 bestellt sind viele Teile günstiger. Auch solche Sammelbestellungen werden in
@@ -57,8 +57,8 @@ OpenBikeSensor Classic Bausatz (alte Version)
  
 ### Hinweis für den Bau großer Stückzahlen
 
-Leider hatten wir in der Verangenheit immer wieder Probleme damit, dass die aus
-China gelieferten fertigen Module nicht oder nur teilweise den Spezifikationen
+Leider hatten wir in der Vergangenheit immer wieder Probleme damit, dass die aus
+China gelieferten fertigen Module nicht, oder nur teilweise den Spezifikationen
 entsprachen. Auch die Abmaße von Teilen ändern sich manchmal, z.B. bekamen wir
 vom Lieferanten plötzlich größere Displays als üblich. 
 
@@ -89,5 +89,5 @@ und Bestelllisten, nur eine "Standard-Variante". Diese ist zur Zeit:
 
 Alternativen, wie alte Versionen oder andere Gehäuse, verlinken Aktive im Forum
 oder auf GitHub. Dort kannst du dich gern umschauen, falls du eine Anpassung
-wünscht und diese nicht selbst erfinden möchtest -- vielleicht hat das ja schon
+wünschst und diese nicht selbst erfinden möchtest -- vielleicht hat das ja schon
 irgendwer getan.

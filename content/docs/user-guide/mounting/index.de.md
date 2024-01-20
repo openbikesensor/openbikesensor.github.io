@@ -55,7 +55,7 @@ zu stehen oder gestohlen zu werden.
 
 ### Sattelstützen-Halterung
 
-Diese Halterung wird mittels zweier Kabelbindern (max 8mm breit) an der
+Diese Halterung wird mittels zweier Kabelbindern (max 8&thinsp;mm breit) an der
 Sattelstütze befestigt. Zur Verdrehsicherung kann ein Stück Isolierband oder
 Fahrradschlauch zwischen Sattelstütze und Halterung befestigt werden.
 
@@ -69,8 +69,8 @@ Die Gepäckträger-Halterung besteht aus mehreren Teilen:
 
 * 2 Seitenteile
 * 1 Mittelteil, das es in längs- und Quervariante gibt
-* 2 Stück Rundholz oder Aluminium-Rohr mit Durchmesser 10&nbsp;mm, je nach
-  Größe des Gepäckträgers ca. 12-16&nbsp;cm lang.
+* 2 Stück Rundholz oder Aluminium-Rohr mit Durchmesser 10&thinsp;mm, je nach
+  Größe des Gepäckträgers ca. 12-16&thinsp;cm lang.
 
 Die Rundstäbe verbinden die drei 3D-gedruckten Teile und lassen sich auf die
 benötigte Breite des Gepäckträgers anpassen. Seiten- und Mittelteile können
@@ -95,10 +95,10 @@ diese Konstruktion am Fahrrad anzubringen:
     alt="Option 4, unterhalb des Rücklichts" >}}
 {{< /slider >}}
 
-Die gewählte Option hängt stark vom Gepäckträger, dem Fahrrad, und der
+Die gewählte Option hängt stark vom Gepäckträger, dem Fahrrad und der
 gewünschten Nutzung ab. Nicht jede Montageart erlaubt die volle Nutzung des
 Gepäckträgers und schränkt z. B. die Nutzbarkeit der Gepäckauflagefläche oder
-die Anbringung von Satteltaschen ein. Ob die Nutzbarkeit eingeschränkt wird
+die Anbringung von Satteltaschen ein. Ob die Nutzbarkeit eingeschränkt wird,
 hängt je nach Montageoption außerdem davon ab, ob ein Sensor angebracht ist
 oder nicht. Insgesamt ist die Wahl der Montageart also sehr individuell.
 
@@ -115,7 +115,7 @@ nötig.
 
 Die Oberrohrhalterung sollte nur verwendet werden, wenn durch die Haltung
 des/der Fahrer:in keine Beeinträchtigung der Messergebnisse vorliegt, z. B.
-indem Arme oder Beine in den Bereich der Sensoren gelangen.
+wenn Arme oder Beine in den Bereich der Sensoren gelangen.
 
 ## Displayhalterung
 
@@ -139,9 +139,9 @@ um beim Drücken die Hand nicht vom Lenker nehmen zu müssen
 
 Zunächst muss der Sicherungsstift vorbereitet werden. Dafür wird in das
 3D-gedruckte Bauteil ein Schraube (M3x16 bis M3x20) eingeschraubt. Diese sollte
-fest darin sitzen, wenn sie nicht gut greift hilft ein wenig Sekundenkleber.
+fest darin sitzen, wenn sie nicht gut greift, hilft ein wenig Sekundenkleber.
 
-Dann wird das Gerät seitlich auf die Halterungsschiene geschoben und mit den
+Dann wird das Gerät seitlich auf die Halterungsschiene geschoben und mit dem
 Sicherungsstift gesichert. Der Stift wird dafür um 180° im Loch gedreht.
 
 {{< imgproc OBS_Mounting_VerticalCase_MainCase_Sliding_into_mount Resize "600x" >}}
@@ -153,7 +153,7 @@ Sicherungsstift gesichert. Der Stift wird dafür um 180° im Loch gedreht.
 {{< /imgproc >}}
 
 Es gibt Geräte mit sehr unterschiedlichen Kabellängen. Für große Tiefeinsteiger
-werden bis zu 1,8m Kabel benötigt. Das Kabel muss auf jeden Fall so verlegt
+werden bis zu 1,8&thinsp;m Kabel benötigt. Das Kabel muss auf jeden Fall so verlegt
 werden, dass es während der Fahrt die Sicherheit nicht beeinträchtigt. Es kann
 durch Umwickeln, wiederverwendbare Kabelbinder, Klebeband oder geeignete
 Kabelclips gesichert werden.

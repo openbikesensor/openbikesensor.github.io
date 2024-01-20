@@ -9,15 +9,15 @@ menu:
     weight: 140
 ---
 
-Firmware ist die Bezeichung für Software, die auf eingebetteten Systemen wie
+Firmware ist die Bezeichnung für Software, die auf eingebetteten Systemen wie
 dem ESP32 und anderen Mikroprozessoren läuft, und dort für die Funktionalität
 der Hardware verantwortlich ist. Beim OpenBikeSensor ist dies also ein Programm
 das wir selbst schreiben, mit dem der ESP32 bespielt wird, und das sich um die
 Aufzeichnung der zu messenden Daten, die Anzeige im Display und die ganze
 Konfigurationsoberfläche kümmert.
 
-Die Firmware wird, wie alle Softwareteile, unter Open Source Lizenz auf GitHub
-entwickelt: <https://github.com/openbikesensor/OpenBikeSensorFirmware>. Für die
+Die Firmware wird, wie alle Softwareteile, unter Open-Source-Lizenz auf GitHub
+entwickelt: [openbikesensor/OpenBikeSensorFirmware](https://github.com/openbikesensor/OpenBikeSensorFirmware). Für die
 Weiterentwicklung sind alle eingeladen, die sich für
 Mikroprozessorprogrammierung interessieren.
 
@@ -52,7 +52,7 @@ GGF musst du zunächst das "Flashtool" (über die OpenBikeSensor Oberfläche) in
 Danach kannst du, wenn dein OpenBikeSensor in einem internetfähigen WLAN eingebucht
 ist über das Wlan-Menü deines OpenBikeSensors Firmwareupdates anstoßen.
 
-## Bauen und Flashen der Firmware aus dem gihub-Repository
+## Bauen und Flashen der Firmware aus dem GitHub-Repository
 
 ### mit VisualStudio Code und PlatformIO
 

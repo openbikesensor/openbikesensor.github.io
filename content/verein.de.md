@@ -19,7 +19,7 @@ aliases:
 <section class="container content">
 
 Im Dezember 2021 haben wir gemeinsam einen Verein gegründet, um uns künftig die
-Arbeit zu erleichern. Der Verein trägt den Namen *OpenBikeSensor e. V.* und ist
+Arbeit zu erleichtern. Der Verein trägt den Namen *OpenBikeSensor e. V.* und ist
 beim Amtsgericht Stuttgart im Vereinsregister eingetragen.
 
 Die Gründung eines Vereins wurde speziell für die Vereinfachung rechtlicher
@@ -65,7 +65,7 @@ Aufnahme in den Verein zu stellen. Dies geht ganz unkompliziert unter diesem Lin
 
 <a href="https://easyverein.com/public/OBS/applicationform/4368" class="btn btn-primary btn-large">Zum Beitrittsformular</a>
 
-Der Jahresbeitrag für Mitglieder unterstützt den Verein insbesondere durch
+Der Jahresbeitrag für Mitglieder unterstützt den Verein, insbesondere durch
 finanzielle Stabilität für wiederkehrende Ausgaben wie Vereinsverwaltung und
 IT-Infrastruktur, auch für die Community. Die aktuell gültigen Jahresbeiträge
 für Mitglieder sind auf dem Beitrittsformular (siehe oben) beschrieben.
