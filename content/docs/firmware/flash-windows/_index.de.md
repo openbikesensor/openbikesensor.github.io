@@ -4,7 +4,8 @@ weight: 11
 ---
 
 ## Installation via Browser
-Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [webinstaller](https://install.openbikesensor.org) in Google chrome zu öffnen und der Schritt-Für-Schritt anleitung dort zu folgen. Funktioniert das für dich nicht, folge den Schritten unten.
+Der einfachste Weg, deinen OpenBikeSensor zu flashen, ist den [Web-Installer](https://install.openbikesensor.org) in Google chrome zu öffnen und der Schritt-Für-Schritt anleitung dort zu folgen.
+Funktioniert das für dich nicht, folge den Schritten unten.
 
 ## Firmware herunterladen
 
@@ -33,7 +34,7 @@ heraus gestartet.
 Du musst wahrscheinlich einen sogenannten USB-to-UART (seriellen) Treiber
 installieren, damit Windows mit dem Chip auf dem ESP-Entwicklungsboard
 kommunizieren kann. Da es sich um einen generischen Treiber handelt, hast du
-diesen möglicherweise bereits schon bei anderen Projekten installiert? Im
+diesen möglicherweise schon bei anderen Projekten installiert? Im
 Zweifelsfall lade und installiere sicherheitshalber den Treiber von der
 Herstellerseite, Silicon Labs. Eventuell kann es sich auch lohnen, auf die
 neueste Version zu aktualisieren. Der Treiber ist im Paket für die CP210x-Chips
@@ -116,8 +117,7 @@ fortfahren!
 
 ## Bei Problemen
 
-Wenn du eine rote Fehlermeldung erhältst, überprüfe ob die USB-Verbindung
+Wenn du eine rote Fehlermeldung erhältst, überprüfe, ob die USB-Verbindung
 korrekt ist und der richtige COM-Port ausgewählt wurde. Wenn alles fehlschlägt,
-und du hast Fragen oder weitere Infos suchst, findest du [in der Community]({{<
+und du hast Fragen oder weitere Informationen suchst, findest du [in der Community]({{<
 ref "/community" >}}) immer Hilfe.
-

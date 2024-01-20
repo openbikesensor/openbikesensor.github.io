@@ -1,7 +1,7 @@
 Bitte lies diese Seite sorgfältig durch, und auch den Abschnitt "Notizen", denn
 bei einige Teilen musst du aufpassen, das richtige zu erwischen.
 
-Einige Links könnten in der Zukunft kaputt gehen, wir werden dann versuchen
+Einige Links könnten in der Zukunft kaputtgehen, wir werden dann versuchen
 neue zu finden und Verkäufer:innen zu verlinken, mit denen wir gute Erfahrungen
 gemacht haben.
 
@@ -20,7 +20,7 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
 
 * **SD-Karte**: Billige SD-Karten haben schon öfters Probleme verursacht, wähle
   lieber ein Markenprodukt. Versuche eine SD-Karte unter 100 MB/s zu bekommen,
-  z.B. SanDisk Karten mit 120 MB/s haben auch schon Probleme verursacht, da sie
+  uns haben bspw. SanDisk Karten mit 120 MB/s schon Probleme verursacht, da sie
   die von uns verwendete Schnittstelle nicht mehr unterstützen.
 
 * **GPS-Modul**: Bevorzuge die Variante mit großer Antenne
@@ -34,7 +34,7 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   darunter leiden und nur unzuverlässig funktionieren. Zwei Meter Länge sind
   genug für große Fahrräder und ein paar extra Versuche bis das Crimpen klappt.
   Cat5 oder Cat6 Netzwerkkabel könnten zwar elektronisch auch funktionieren,
-  sind aber in der Regeln nicht so flexibel und fühlen sich nicht so gut an.
+  sind aber in der Regel nicht so flexibel und fühlen sich nicht so gut an.
 
 * **JSN-SR04T**: Hier musst du auf die richtige Version achten. Es gibt eine
   ganze Menge Varianten, von denen viele nicht funktionieren. Wir haben [auf
@@ -42,10 +42,10 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   gefunden haben und wie gut die jeweils funktionieren.
 
 * Einige Bauteile können in größeren **Mengen** zu wesentlich günstigeren
-  Preisen gekauft werden. Bildet Sammelbestellungen um viel Geld zu sparen!
+  Preisen gekauft werden. Bildet Sammelbestellungen, um viel Geld zu sparen!
 
 * Von besonders günstigen Teile kannst du gern etwas mehr bestellen, als
-  **Ersatz**, falls etwas verloren oder kaputt geht (Widerstände, Schrauben und
+  **Ersatz**, falls etwas verloren oder kaputtgeht (Widerstände, Schrauben und
   Muttern, Crimp-Kontakte, Kabel und Litze, ...)
 
 * **Gehäuse** müssen [in PETG 3D-gedruckt]({{ ref . "case" }}) werden. Es
@@ -53,7 +53,7 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
   Die Community pflegt aktiv ein bestimmtes Gehäuse für jede PCB-Version.
   Schau' dich im
   [Gehäuse-Repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase)
-  auf Github um. Du kannst dein Gehäuse selbst drucken, andere Mitglieder der
+  auf GitHub um. Du kannst dein Gehäuse selbst drucken, andere Mitglieder der
   Community darum bitten, oder fertige Drucke anhand der Designdateien von
   einem 3D-Druck-Service bestellen (das ist aber in der Regel relativ teuer).
 

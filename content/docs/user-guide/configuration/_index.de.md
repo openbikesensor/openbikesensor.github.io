@@ -7,7 +7,7 @@ weight: 20
 Diese Seite beschreibt, wie du an deinem **OpenBikeSensor Classic** die
 Einstellungen änderst.
 
-Wenn du deinen OpenBikeSensor zum ersten mal benutzt, solltest du zunächst
+Wenn du deinen OpenBikeSensor zum ersten Mal benutzt, solltest du zunächst
 einige wichtige Einstellungen anpassen. Mehr dazu unten bei "Wichtige
 Einstellungen".
 
@@ -30,7 +30,7 @@ Browser (z. B. Firefox) und gib dort in die Adressleiste die IP-Adresse ein,
 die im Display des Gerätes steht. 
 
 Es sollte sich nun die Login-Seite des OpenBikeSensors öffnen. Auf einem
-Smartphone muss du möglicherweise die mobilen Daten deaktivieren, damit das
+Smartphone musst Du möglicherweise die mobilen Daten deaktivieren, damit das
 funktioniert.
 
 ## Login in das Konfigurationsmenü
@@ -55,27 +55,27 @@ Zum direkten Nutzen eines neuen OpenBikeSensors solltest du mindestens 3
 Einstellungen vornehmen:
 
 * Lenkerbreite
-  - Miss den horizontalen Abstand deines linken und rechten Lenkerrands bis zur
-    Radmitte. Ein symmetrischer Lenker hat zum Beispiel 75cm Breite, das heißt
-    37.5cm auf jeder Seite. Ein asymmetrisches Fahrrad hat eventuell
+  - Miss den horizontalen Abstand deines linken und rechten Lenker-Randes bis zur
+    Radmitte. Ein symmetrischer Lenker hat zum Beispiel 75&thinsp;cm Breite, das heißt
+    37.5&thinsp;cm auf jeder Seite. Ein asymmetrisches Fahrrad hat eventuell
     unterschiedliche Werte.
-  - Ziehe von beiden Werten (links und rechts) jeweils 2.5cm ab, um die Breite
-    des Sensors (5cm) zu korrigieren. Unser obiger Beispiellenker hat dann
-    einen Offset-Wert von je 35cm.
+  - Ziehe von beiden Werten (links und rechts) jeweils 2.5&thinsp;cm ab, um die Breite
+    des Sensors (5&thinsp;cm) zu korrigieren. Unser obiger Beispiellenker hat dann
+    einen Offset-Wert von je 35&thinsp;cm.
   - Diese Werte, in Zentimetern, trage unter *General* bei *Offset Sensor Left*
     und *Offset Sensor Right* ein. 
   - Speichern nicht vergessen.
   - Nun kann das Gerät den tatsächlichen Abstand zum Fahrrad ermitteln, nachdem
     es den Abstand vom Sensor aus gemessen hat.
 * WLAN-Einstellungen zum Hochladen der Daten
-  - Um deine Fahrten hochzuladen musst du dem OpenBikeSensor beibringen, ins
+  - Um deine Fahrten hochzuladen, musst du dem OpenBikeSensor beibringen, ins
     Internet zu kommen. 
   - Trage dafür den Namen und das Passwort deines WLANs unter *Wifi* bei *SSID*
     und *Password* ein. Achte auf korrekte Schreibweise inklusive Groß- und
     Kleinschreibung bei beiden Einträgen.
   - Speichern nicht vergessen.
   - Beim nächsten Start in den Konfigurationsmodus wird das Gerät sich mit
-    diesem WLAN verbinden, und nur ein eigenes WLAN aufmachen, falls das nicht
+    diesem WLAN verbinden und nur ein eigenes WLAN aufmachen, falls das nicht
     klappt. Im Display kannst du sehen, in welchem WLAN das Gerät eingewählt
     ist.
 * API-Schlüssel
@@ -138,17 +138,17 @@ verändert werden. Hier erklären wir die einzelnen Einstellungen im Detail.
   oder nur den GPS-Track zu unterdrücken, aber immer noch alle bestätigten
   Überholvorgänge zu speichern.
 
-  Mehr Infos zu Privatsphäre-Zonen gibt es [auf dieser Seite]({{< relref "privacy-zones" >}}).
+  Mehr Informationen zu Privatsphäre-Zonen gibt es [auf dieser Seite]({{< relref "privacy-zones" >}}).
 
 * **Upload User Data**
 
-  Einrichtung der Portalverbindung zum Hochladen der aufgezeichneten
+  Einrichtung der Portal verbindung zum Hochladen der aufgezeichneten
   Streckendaten. Wie diese korrekt eingerichtet wird, ist oben bei "Wichtige
   Einstellungen" beschrieben.
 
 * **Operation**
 
-  * Enable Bluetooth – aktivieren, wenn du den OpenBikeSensor mit einer kompatiblen Smartphone App, wie z.B. SimRa, verbinden willst
+  * Enable Bluetooth – aktivieren, wenn du den OpenBikeSensor mit einer kompatiblen Smartphone-App, wie z.B. SimRa, verbinden willst
   * SimRa Mode – aktivieren, wenn du den OpenBikeSensor mit der SimRa App verbinden willst
 
 ### Privacy Zones
@@ -170,7 +170,7 @@ Hier kannst du Einstellungen des OpenBikeSensors auf deinem PC oder mobilen
 Gerät sichern. Zum Wiederherstellen aus einer gespeicherten Konfiguration wähle
 im Menü-Dialog die entsprechende Datei aus. 
 
-Verwende diese Option vor einem Firmware-Update um sicherzustellen, dass du
+Verwende diese Option vor einem Firmware-Update, um sicherzustellen, dass du
 deine Einstellungen wiederherstellen kannst, falls beim Update etwas
 schiefgeht.
 

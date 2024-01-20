@@ -4,8 +4,8 @@ You can find this site at [https://www.openbikesensor.org/](https://www.openbike
 
 ## Contributing
 
-Please phrase your contributions as pull requests to the `main` branch. Once you have passed the review
-and your commit is merged they will be built by github pages and appear on https://test.openbikesensor.org.
+Please create your contributions as pull requests to the `main` branch. Once you have passed the review
+and your commit is merged they will be built by GitHub pages and appear on https://test.openbikesensor.org.
 After validating that everything renders OK on the test site, they are ready to be merged to the `production`
 branch which in turn feeds the main site.
 
@@ -53,12 +53,12 @@ hugo server -D
 
 We try to keep up to date with hugo and docsy. The current docsy version is
 referenced in the submodule, so we're not sticking to any releases there. The
-current hugo version is specified in the [github flow
+current hugo version is specified in the [GitHub flow
 file](.github/workflows/gh-pages-staging.yml).
 
 Since hugo does not introduce many breaking changes, it should be fine to work
 with other versions locally. If you run into trouble, try to install the exact
-version referenced in the github flow file, as that is used to build this site
+version referenced in the GitHub flow file, as that is used to build this site
 for production. Always make sure to install hugo's *extended version*.
 
 As for Node.js, we currently use version 12 for installing the dependencies
@@ -67,7 +67,7 @@ operating system should work just as well, since we're not really using node
 itself, just the package manager (npm).
 
 If you want to update any of these components, feel free to do so and change
-the places where it is referenced in the github flow or submodule, as well as
+the places where it is referenced in the GitHub flow or submodule, as well as
 this documentation. It makes sense to stay up to date, but isn't really
 required for a site of this size and scope. When updating, please create a
 separate pull request to change the canonical version(s) in this repository.

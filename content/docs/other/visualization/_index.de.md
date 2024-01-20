@@ -73,7 +73,7 @@ dort gibt es immer Unterstützung.
 ## Vorbereiten der Dateien
 
 Du brauchst nun geschachtelte Ordner innerhalb des Ordners `obs-scripts`. Diese
-erstellst du mit `mkdir` oder `mkdir -p`, oder einfach mit der graphischen
+erstellst du mit `mkdir` oder `mkdir -p`, oder einfach mit der Graphischen
 Bedienoberfläche deines Betriebssystems.
 
 Wir benötigen folgende Struktur:
@@ -110,7 +110,7 @@ Tracks erkannt und eingelesen wurden.
 
 ## Visualisierung
 
-Für die folgenden Kommands wechseln wir zunächst ins Unterverzeichnis `visualization`:
+Für die folgenden Befehle wechseln wir zunächst ins Unterverzeichnis `visualization`:
 
 ```bash
 cd visualization

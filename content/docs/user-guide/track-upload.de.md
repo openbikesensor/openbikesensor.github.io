@@ -12,7 +12,7 @@ die Einrichtung der WLAN-Verbindung sowie des API-Zugangs zum Portal.
 ## Mit WLAN verbinden
 
 Halte den Knopf des OpenBikeSensors gedrückt und schalte ihn dann ein. Nun wird
-sich das Gerät in dein konfiguriertes WLAN einwählen. Sofern das klappt zeigt
+sich das Gerät in dein konfiguriertes WLAN einwählen. Sofern das klappt, zeigt
 der OpenBikeSensor den Namen des WLANs und die IP-Adresse im Display an.
 
 Kommt keine Verbindung zustande, macht der OpenBikeSensor nach 10 Sekunden einen
