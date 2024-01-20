@@ -10,6 +10,7 @@ aliases:
 ---
 
 <section class="row td-box td-box--1 position-relative td-box--gradient td-box--height-auto">
+<div class="container">
 <div class="container text-center td-arrow-down">
 <span class="h4 mb-0">
 
@@ -20,6 +21,7 @@ mit, den Sensor weiterzuentwickeln, auszuprobieren, Daten zu sammeln und
 auszuwerten. So kannst du mitmachen:
 
 </span>
+</div>
 </div>
 </section>
 

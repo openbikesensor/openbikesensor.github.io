@@ -7,6 +7,8 @@ menu:
 ---
 
 <section class="row td-box td-box--1 position-relative">
+<div class="containter">
+
 <div class="container text-center td-arrow-down">
 
 # Das Messgerät
@@ -16,11 +18,11 @@ aufzeichnet. Dieses Gerät haben wir als quelloffenes Design entwickelt, sodass
 du, wenn du magst, dir selbst eines bauen kannst und darfst! Hier siehst du alle
 Varianten.
 
-
+</div>
 </div>
 </section>
 
-<section class="row td-box td-box--height-auto device-types-row">
+<section class="td-box td-box--height-auto device-types-row">
 <div class="container">
 <div class="row p-0">
 
