@@ -121,7 +121,13 @@ Pins an.
     alt="Innere Pins festlöten" >}}
 {{< /slider >}}
 
-## Spannungsregler (rot)
+## Spannungsregler Option 1 (rot)
+{{% alert title="Achtung: Alternative Bestückungsvariante" color="warning" %}}
+Der rote Spannungsregler wird oft beschädigt geliefert. Deshalb gibt es eine
+alternative Bestückungsvariante mit einem besseren Regler von Adafruit.
+
+Hast du den Adafruit Regler, verzichte auf diesen Schritt.
+{{% /alert %}}
 
 Dieses Modul wird auf der Rückseite der Hauptplatine **in SMD-Bauweise verlötet**,
 also ohne durchgesteckte Stifte oder Beine. Die halbrunden Pads an den
@@ -446,6 +452,50 @@ Sensorboard auf dieselbe Weise, und kürze am Ende alle Stifte.
     alt="C1 und C2 platzieren." >}}
 {{< /slider >}}
 
+
+## Spannungsregler Option 2 (Adafruit)
+{{% alert title="Achtung: Alternative Bestückungsvariante" color="warning" %}}
+Hast du keinen Adafruit Regler, sondern oben das rote Modul
+verbaut, verzichte auf diesen Schritt.
+{{% /alert %}}
+
+Nach den Sensorboards kann das Adafruit Spannungsreglermodul verbaut werden.
+
+- Kürze die mitgelieferte Pinleiste auf drei Pins.
+- Stecke die Pinleiste von der Bestückungsseite auf das Board des Spannungsreglers.
+- Stecke den Spannungsregler von unten auf die OpenBikeSensor Platine, so dass
+  folgende Verbindungen entstehen (keine Sorge: das Ada board liefert auch 3.3v, hatte aber nicht genug Platz für die Nachkommastelle):
+  
+  | 3V3 Ada | OBS   |
+  |---------|-------|
+  | VIN     | VDC   |
+  | 3V      | 3.3V  |
+  | GND     | GND   |
+  
+- Klebe etwas Isolierband über die Lötstellen des Ultraschall boards unter das 3.3V
+  board
+- Verlöte die Pins auf beiden Seiten, wie immer erst einen Pin, Orientierung nachjustieren
+  dann die anderen Pins
+- **Setze eine Lötbrücke zwischen `EN` und `VIN` des 3.3V Reglers (siehe Bilder).** Du kannst
+  dafür z.B. einen abgeschnittenen Pin eines Widerstands verwenden.
+
+{{< slider >}}
+  {{< slider-image
+    src="v1.0.0/ada3v3_01.jpg"
+    alt="3.3V Board - Position und Lötbrückenpositionierung." >}}
+  {{< slider-image
+    src="v1.0.0/ada3v3_02.jpg"
+    alt="3.3V Board - Position mit Lötbrücke." >}}
+  {{< slider-image
+    src="v1.0.0/ada3v3_04.jpg"
+    alt="3V3 Board Pins - Ansicht von Platinenoberseite" >}}
+  {{< slider-image
+    src="v1.0.0/ada3v3_05.jpg"
+    alt="3.3V Board - Position mit Lötbrücke." >}}
+  {{< slider-image
+    src="v1.0.0/ada3v3_06.jpg"
+    alt="3.3V Board - Seitenansicht." >}}
+{{< /slider >}}
 
 ## SD-Karten-Modul und GPS-Modul
 
