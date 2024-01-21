@@ -66,7 +66,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
 </tr>
 <tr>
   <td rowspan=2>1</td>
-  <td>Alternative B "Rotes Modul" Buck-Boost Modul for LiPo, 3.3V (Spannungsregler). Eines der verlinkten Module reicht.</td>
+  <td>Alternative A "Rotes Modul" Buck-Boost Modul for LiPo, 3.3V (Spannungsregler). Eines der verlinkten Module reicht.</td>
   <td>
     <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung `A1731i` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span> 
   </td>
