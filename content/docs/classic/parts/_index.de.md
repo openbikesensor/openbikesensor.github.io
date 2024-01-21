@@ -65,10 +65,20 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
   </td>
 </tr>
 <tr>
-  <td>1</td>
-  <td>Buck-Boost Modul for LiPo, 3.3V (Spannungsregler)</td>
+  <td rowspan=2>1</td>
+  <td>Alternative B "Rotes Modul" Buck-Boost Modul for LiPo, 3.3V (Spannungsregler). Eines der verlinkten Module reicht.</td>
   <td>
     <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung `A1731i` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span> 
+  </td>
+</tr>
+<tr>
+
+  <td>Alternative B: Spannungsregler von Adafruit</td>
+  <td>
+        <a href="https://mou.sr/3u3wphg">mouser 1</a><br/>
+    <a href="https://mou.sr/429zrNp">mouser 2</a><br/>
+<a href="https://shop.pimoroni.com/products/ap3429a-3-3v-buck-converter-breakout-3-3v-output-1-2a-max?variant=32173899546707">pimoroni 1</a><br/>
+    <a href="https://shop.pimoroni.com/products/lm3671-3-3v-buck-converter-breakout-3-3v-output-600ma-max">pimoroni 2</a>
   </td>
 </tr>
 <tr>
