@@ -576,6 +576,8 @@ Nimm etwas Lötzinn und lasse es auf die freiliegenden Litzen fließen (dies wir
 Biege die Enden in eine U-Form um. So lassen sie sich leicht in die Ösen des
 Schalters einführen und halten sich selbst dort fest, bis du sie festgelötet
 hast. Achte darauf nur kurz zu löten, sonst schmilzt der Kunststoff im Stecker.
+Insbesondere der mittlere Pin ist hierbei kritisch, er muss dieselbe Länge wie die äußeren Pins haben,
+wird aber bei zu hoher Temperatur herausgedrückt.
 
 Verdrille nun beide Kabel auf voller Länge zu einem und führe dann die zwei Crimps in
 das Steckergehäuse ein. Die Verdrillung wird sich wieder ein wenig lockern, 
@@ -604,10 +606,10 @@ Kürze langen schwarzen Kabel der Sensoren auf etwa 10&thinsp;cm, da die langen 
 nicht in das Gehäuse passen und die Plastikeinfassung der bestehenden
 Stecker zu starr und zu dick für das Gehäuse ist.
 
-Entferne etwa 2&thinsp;cm der schwarzen Außenisolierung des Kabels. Schiebe die
+Entferne etwas mehr als 1&thinsp;cm der schwarzen Außenisolierung des Kabels. Schiebe die
 Schirmung zur Seite und verdrille die einzelnen Leiter miteinander. Dies ist
 einer der zwei Leiter, die gecrimpt werden müssen. Isoliere vom inneren Leiter
-nur etwa 1&thinsp;mm ab.
+nur etwa 2&thinsp;mm ab.
 
 Dann werden beide Leiter gecrimpt. Der Crimpkontakt muss für optimale
 Verbindung den inneren Leiter und seine Isolierung greifen. Kürze die
