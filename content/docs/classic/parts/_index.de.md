@@ -65,20 +65,20 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
   </td>
 </tr>
 <tr>
-  <td rowspan=2>1</td>
+  <td rowspan="2" class="align-middle">1</td>
   <td>Alternative A "Rotes Modul" Buck-Boost Modul for LiPo, 3.3V (Spannungsregler). Eines der verlinkten Module reicht.</td>
   <td>
     <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung `A1731i` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span> 
   </td>
 </tr>
 <tr>
-
-  <td>Alternative B: Spannungsregler von Adafruit</td>
+  <td>Alternative B: Spannungsregler von Adafruit, Modelle: <ul><li>Adafruit 2745 - LM3671</li><li>Adafruit 4711 - TLV62569</li></ul></td>
   <td>
-        <a href="https://mou.sr/3u3wphg">mouser 1</a><br/>
-    <a href="https://mou.sr/429zrNp">mouser 2</a><br/>
-<a href="https://shop.pimoroni.com/products/ap3429a-3-3v-buck-converter-breakout-3-3v-output-1-2a-max?variant=32173899546707">pimoroni 1</a><br/>
-    <a href="https://shop.pimoroni.com/products/lm3671-3-3v-buck-converter-breakout-3-3v-output-600ma-max">pimoroni 2</a>
+<a href="https://mou.sr/429zrNp">mouser.com 2745</a><br/>
+<a href="https://mou.sr/3u3wphg">mouser.com 4711</a><br/>
+<a href="https://www.adafruit.com/product/4711">adafruit.com 2745</a><br/>
+<a href="https://www.adafruit.com/product/2745">adafruit.com 4711</a>
+
   </td>
 </tr>
 <tr>
