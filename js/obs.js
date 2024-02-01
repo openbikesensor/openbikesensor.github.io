@@ -39,8 +39,8 @@
         transitionDuration: 250,
         effect: "fade",
         captions: true,
-        bullets: true
-        // height: '4:3',
+        bullets: true,
+        height: "16:9"
       });
       if (slider._attributes) {
         slider.addBulletNav();
