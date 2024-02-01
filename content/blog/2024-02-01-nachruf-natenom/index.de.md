@@ -6,6 +6,11 @@ description: >
   Wir trauern um Natenom, den engagierten Fahrradaktivisten aus Pforzheim
 
 ---
+
+{{< imgproc "natenom_nachruf_scale.jpg" Fit "1300x1300" >}}
+Natenoms OpenBikeSensor war gerade bei uns in Reparatur.
+{{< /imgproc >}}
+
 Natenom war seit 2019 beim OpenBikeSensor aktiv, als Tester der ersten Geräte, kreativer Kopf, Gründungsmitglied des Vereins und Freund. Er war einer der ersten OpenBikeSensor-Fahrer außerhalb Stuttgarts. Er plante mit den Entwicklern neue Features und unterstützte durch intensive Feldtests. Es gibt noch immer Ideen für die Zukunft von ihm in den Projektplänen. Bei den Communitytreffen war er stets als Fahrer fleißig dabei - und hat dort auch oft von seinen Erlebnissen im Straßenverkehr berichtet. Viele Aktive beim OpenBikeSensor kennen ihn aus diesen Communitytreffen, manche sind erst durch seine Blogbeiträge auf den OpenBikesensor aufmerksam geworden. 2021 hat Natenom den OpenBikeSensor e.V. mitgegründet.
 
 Wir kannten Natenom als extrem sichtbaren Radfahrer, der gut beleuchtet und mit Sichtbarkeitskleidung unterwegs war. Mit seinen Messdaten konnte er unter anderem zeigen, dass sein [Abstandshalter](https://natenom.de/tags/abstandshalter/) größere Überholabstände zur Folge hatte. Leider berichtete er später, dass ihm dieser Sicherheitshelfer polizeilich verboten wurde.
