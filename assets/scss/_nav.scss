@@ -1,63 +1,220 @@
-<nav class="js-navbar-scroll navbar navbar-expand-lg navbar-dark flex-row td-navbar">
-	<a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
-		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}{{ end }}</span>
-	</a>
-	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
+//
+// Main navbar
+//
 
-	<div class="collapse navbar-collapse justify-content-end" id="main_navbar">
-		<ul class="navbar-nav mr-4 mb-2 mb-lg-0 ps-4 ps-lg-2">
-			{{ $p := . }}
-			{{ range .Site.Menus.main }}
-			{{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }}
-			{{ with .Page }}
-			{{ $active = or $active ( $.IsDescendant .)  }}
-			{{ end }}
-			{{ $pre := .Pre }}
-			{{ $post := .Post }}
-			{{ $url := urls.Parse .URL }}
-			{{ $baseurl := urls.Parse $.Site.Params.Baseurl }}
-			{{ if .HasChildren }}
-				<li class="nav-item dropdown">
-					<a class="nav-link {{if $active }} active{{end}} dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						{{ .Name }}
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					{{ range .Children  }}
-						{{ $childrenurl := urls.Parse .URL }}
-						<a class="dropdown-item" href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if ne $childrenurl.Host $baseurl.Host }}target="_blank" {{ end }}>{{ .Name }}</a>
-					{{ end }}
-					</div>
-				</li>
-			{{ else }}
-			    <li class="nav-item mr-4 mb-2 mb-lg-0">
-				    <a class="nav-link{{if $active }} active{{end}}" href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if ne $url.Host $baseurl.Host }}target="_blank" {{ end }}>{{ with .Pre}}{{ $pre }}{{ end }}<span{{if $active }} class="active"{{end}}>{{ .Name }}</span>{{ with .Post}}{{ $post }}{{ end }}</a>
-			    </li>
-			{{ end }}
-			{{ end }}
-			{{ if  .Site.Params.versions }}
-			<li class="nav-item dropdown d-none d-lg-block">
-				{{ partial "navbar-version-selector.html" . }}
-			</li>
-			{{ end }}
-			{{ if  (gt (len .Site.Home.Translations) 0) }}
-			<li class="nav-item dropdown d-none d-lg-block">
-				{{ partial "navbar-lang-selector.html" . }}
-			</li>
-			{{ end }}
-		</ul>
-		<div class="navbar-nav">{{ partial "search-input.html" . }}</div>
-	</div>
-</nav>
+.td-navbar-cover {
+  @include media-breakpoint-up(md) {
+    background: transparent !important;
 
-{{ with .Site.Params.announcement_banner }}
-{{ partial "announcement-banner.html" }}
-{{ end }}
+    .nav-link {
+      text-shadow: 1px 1px 2px $dark;
+    }
+  }
 
-<!--
-This file was taken under apache license from https://github.com/SeleniumHQ/seleniumhq.github.io/blob/trunk/website_and_docs/layouts/partials/navbar.html.
-The initial commit switched from navba-light to navbar-dark and removed bg-white from line 1.
+  &.navbar-bg-onscroll .nav-link {
+    text-shadow: none;
+  }
+}
+
+.navbar-bg-onscroll {
+  background: $primary !important;
+  opacity: inherit;
+}
+
+.td-navbar {
+  @extend .navbar;
+
+  background: $primary;
+  min-height: 4rem;
+  margin: 0;
+  z-index: 32;
+
+  .navbar-brand {
+    text-transform: none;
+
+    &__name {
+      font-weight: $font-weight-bold;
+    }
+
+    svg {
+      display: inline-block;
+      margin: 0 10px;
+      height: 30px;
+    }
+  }
+
+  .navbar-nav {
+    padding-top: $spacer * 0.5;
+    white-space: nowrap;
+  }
+
+  .nav-link {
+    text-transform: none;
+    font-weight: $font-weight-bold;
+  }
+
+  // For .td-search__input styling, see _search.scss
+
+  .dropdown {
+    min-width: 100px;
+  }
+
+  @include media-breakpoint-up(md) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .nav-item {
+      padding-inline-end: $spacer * 0.5;
+    }
+
+    .navbar-nav {
+      padding-top: 0 !important;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .td-navbar-nav-scroll {
+      max-width: 100%;
+      height: 2.5rem;
+      overflow: hidden;
+      font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+      margin-right: 0;
+    }
+
+    .navbar-nav {
+      padding-bottom: 2rem;
+      overflow-x: auto;
+    }
+  }
+}
+
+// Icons
+#main_navbar {
+  li i {
+    padding-right: 0.5em;
+
+    &:before {
+      display: inline-block;
+      text-align: center;
+      min-width: 1em;
+    }
+  }
+  .alert {
+    background-color: inherit;
+    padding: 0;
+    color: $secondary;
+    border: 0;
+    font-weight: inherit;
+
+    &:before {
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: $font-awesome-font-name;
+      font-weight: 900;
+      content: "\f0d9";
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+  }
+}
+
+// Foldable sidebar menu
+nav.foldable-nav {
+  &#td-section-nav {
+    position: relative;
+  }
+
+  &#td-section-nav label {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .td-sidebar-nav__section,
+  .with-child ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ul-1 > li {
+    padding-left: 1.5em;
+  }
+
+  ul.foldable {
+    display: none;
+  }
+
+  input:checked ~ ul.foldable {
+    display: block;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .with-child,
+  .without-child {
+    position: relative;
+    padding-left: 1.5em;
+  }
+
+  .ul-1 .with-child > label:before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: $font-awesome-font-name;
+    font-weight: 900;
+    content: "\f0da";
+    position: absolute;
+    left: 0.1em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 1em;
+    color: $gray-900;
+    transition: all 0.5s;
+    &:hover {
+      transform: rotate(90deg);
+    }
+  }
+
+  .ul-1 .with-child > input:checked ~ label:before {
+    color: $primary;
+    transform: rotate(90deg);
+    transition: transform 0.5s;
+  }
+
+  .with-child ul {
+    margin-top: 0.1em;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  nav.foldable-nav {
+    .ul-1 .with-child > label:hover:before {
+      color: $primary;
+      transition: color 0.3s;
+    }
+
+    .ul-1 .with-child > input:checked ~ label:hover:before {
+      color: $primary;
+      transition: color 0.3s;
+    }
+  }
+}
+
+
+/*
+This file was taken under apache license from https://github.com/SeleniumHQ/seleniumhq.github.io/commit/abbba6c20e14c27eb7003999a3e084b5a733fe71#diff-f6622ba22bb7f8310f9c41e73bdf83f441d53360b0b5cf100595cdcd3caa7850
+The initial commit was made without modifications
 
                                  Apache License
                            Version 2.0, January 2004
@@ -260,4 +417,5 @@ The initial commit switched from navba-light to navbar-dark and removed bg-white
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
--->
+
+ */
