@@ -6,5 +6,5 @@
     {{ .Get "title" | markdownify }}
   </h4>
   <p class="mb-0">{{ .Inner }}</p>
-  {{ with .Get "url" }}<p class="mt-auto"><a href="{{ . }}" class="btn btn-outline-light">{{ with $url_text }}{{ $url_text }}{{ else }}{{ T "ui_read_more" }}{{ end }} <i class="fa fa-arrow-right ms-2"></i></a></p>{{ end }}
+  {{ with .Get "url" }}<p class="mt-auto"><a href="{{ . }}" class="btn btn-outline-light">{{ with $url_text }}{{ $url_text }}{{ else }}{{ T "ui_read_more" }}{{ end }} <i class="fa fa-arrow-right ml-2"></i></a></p>{{ end }}
 </div>
