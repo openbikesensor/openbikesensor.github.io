@@ -17,33 +17,22 @@ hergestelltes Bauteil, das schwierig selbst zu erstellen ist. Hier sind deine
 Optionen:
 
 * Das PCB anhand der Designdateien von einem Platinenhersteller anfertigen
-  lassen. Je nachdem wo, in welcher Qualität und wie viele Platinen du
-  bestellst, wird dies erstaunlich wenig bis sehr viel kosten.
+  lassen.
 * Finde heraus, ob jemensch anders schon Platinen anhand der gleichen Dateien
   hat herstellen lassen. Eventuell hat er:sie noch Exemplare übrig, frag am
   besten [in der Community]({{< ref "/community" >}}) nach.
-* Bastel dir selbst eine Platine, ganz im DIY-Stil. Da unseren Platinen jedoch
-  Durchkontaktierungen und beidseitige Leiterbahnen benötigen, ist das
-  besonders schwierig. Je nach Ausrüstung und Erfahrung ist es aber machbar.
-  Besonders viel günstiger als bestellen ist es allerdings vermutlich nicht.
-* Benutze keine Platine. Du kannst einen kompatiblen Sensor ganz ohne Platine
-  zusammenbauen, indem du die Komponenten mit Kabeln aneinander lötest.
-  Allerdings haben wir hierfür keine Anleitung und das Gehäuse wird wahrscheinlich auch nicht
-  passen. Orientiere dich am Schaltplan, den Rest musst du selbst herausfinden.
 
-
-## PCB Layout-Parameter
-
-Wenn du dich für einen Hersteller entscheidest, solltest du sicherstellen, dass
-folgende Layoutparameter unterstützt sind. In der Regel listet jeder Hersteller
-auf der Website diese Informationen auf, und die Minimal- und Maximalgrößen
-dürfen nicht unter- bzw. überschritten werden, sonst könnte die Herstellung
-fehlschlagen.
-
-Wir verwenden in unseren Designs:
-
-* TODO: Via size, minimum trace width, milling path restrictions
+Die Gängigen PCB-Hersteller können unsere Platine herstellen, wir haben z.B.
+gute Erfahrungen mit [Aisler](aisler.de) (deutscher Hersteller) oder 
+[jlcpcb](jlcpcb.com) gemacht.
 
 ## Gerber-Dateien
 
-TODO: Wo sind die Dateien zu finden?
+Um deine Platine herstellen zu lassen benötigst du bei den meisten Herstellern
+sogenannte Gerber Dateien [^](bei manchen kannst du aber auch die kicad Dateien
+hochladen und bestellen). Du lädst die Datei hoch und der Hersteller rechnet
+für dich aus was es kostet. Meist ein paar Euro pro platine, bei großen Mengen
+auch weniger als einen Euro.
+
+Die aktuellen Gerber-Dateien findest du im Unterverzeichnis ``generated`` der
+jeiweiligen PCB-Version, die auf der Teileliste verlinkt ist.
