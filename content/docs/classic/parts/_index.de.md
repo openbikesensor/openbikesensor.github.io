@@ -359,9 +359,12 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
 <tr><th colspan="3">Spezialanfertigungen</th></tr>
 <tr>
   <td>1</td>
-  <td>PCB v00.03.12</td>
+  <td>PCB 1.0.0 <br/>Im Zip im Unterverzeichnis <code>OpenBikeSensor</code> - Je nach Hersteller mit den Kicad Dateien oder via <code>generated/OpenBikeSensor1.0.0-Gerber.zip</code>. z.B. bei <a href="https://aisler.net/?lang=de-DE">aisler.de</a> oder <a href="jlcpcb.com">jlpcb</a></td>
   <td>
-    <a href="https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/tree/merged/OpenBikeSensor03">github.com</a>
+    -<a href="https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/releases/tag/1.0.0">1.0.0 PCB als zip</a><br/>
+    -<a href="https://github.com/openbikesensor/OpenBikeSensor_PCB_Board">PCB git repo</a>
+
+
   </td>
 </tr>
 <tr>
