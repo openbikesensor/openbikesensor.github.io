@@ -16,8 +16,8 @@ Teil hieran ist das &bdquo;printed&rdquo; -- ein PCB ist ein professionell
 hergestelltes Bauteil, das schwierig selbst zu erstellen ist. Hier sind deine
 Optionen:
 
-* Das PCB anhand der Designdateien von einem Platinenhersteller anfertigen
-  lassen.
+* Das PCB anhand der Designdateien von einem Platinenhersteller [anfertigen
+  lassen.](#gerber-dateien)
 * Finde heraus, ob jemensch anders schon Platinen anhand der gleichen Dateien
   hat herstellen lassen. Eventuell hat er:sie noch Exemplare übrig, frag am
   besten [in der Community]({{< ref "/community" >}}) nach.
@@ -29,8 +29,8 @@ gute Erfahrungen mit [Aisler](aisler.de) (deutscher Hersteller) oder
 ## Gerber-Dateien
 
 Um deine Platine herstellen zu lassen benötigst du bei den meisten Herstellern
-sogenannte Gerber Dateien [^](bei manchen kannst du aber auch die kicad Dateien
-hochladen und bestellen). Du lädst die Datei hoch und der Hersteller rechnet
+sogenannte Gerber Dateien bei manchen kannst du aber auch die kicad Dateien
+hochladen und bestellen. Du lädst die Datei hoch und der Hersteller rechnet
 für dich aus was es kostet. Meist ein paar Euro pro Platine, bei großen Mengen
 auch weniger als einen Euro.
 
