@@ -31,7 +31,7 @@ gute Erfahrungen mit [Aisler](aisler.de) (deutscher Hersteller) oder
 Um deine Platine herstellen zu lassen benötigst du bei den meisten Herstellern
 sogenannte Gerber Dateien [^](bei manchen kannst du aber auch die kicad Dateien
 hochladen und bestellen). Du lädst die Datei hoch und der Hersteller rechnet
-für dich aus was es kostet. Meist ein paar Euro pro platine, bei großen Mengen
+für dich aus was es kostet. Meist ein paar Euro pro Platine, bei großen Mengen
 auch weniger als einen Euro.
 
 Die aktuellen Gerber-Dateien findest du im Unterverzeichnis ``generated`` der
