@@ -1,12 +1,11 @@
 {{ define "main" }}
 
-<section class="narrow">
+<section class="narrow blog-post">
+	<time datetime="{{  $.Date.Format "2006-01-02" }}">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
 	<h1>{{ .Title }}</h1>
+
 	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
-	<div class="td-byline mb-4">
-		{{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
-		<time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
-	</div>
+
 	{{ .Content }}
 
 	{{ partial "pager.html" . }}

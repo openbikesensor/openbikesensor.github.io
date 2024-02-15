@@ -6,7 +6,7 @@
 <ul class="blog-posts">
 {{ range .Pages -}}
   <li>
-      <div class="date">{{ .Date.Format ($.Param "time_format_blog") }}</div>
+    <time datetime="{{  .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Param "time_format_blog") }}</time>
       <h5>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h5>
