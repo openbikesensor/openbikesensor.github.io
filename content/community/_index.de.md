@@ -10,7 +10,7 @@ aliases:
 - /project
 ---
 
-<section class="dark full-width content-grid arrow">
+<section class="primary full-width content-grid arrow">
 
 # Werde Teil der OpenBikeSensor-Community
 
@@ -20,7 +20,7 @@ auszuwerten. So kannst du mitmachen:
 
 </section>
 
-<section class="darkish full-width content-grid columns-3">
+<section class="primary-1 full-width content-grid columns-3">
 
 {{% blocks/feature icon="discourse" title="Fragen und Diskutieren" url="https://forum.openbikesensor.org" url_text="Zum Forum" %}}
 Komm in unser Discourse-Forum, und diskutiere mit den anderen Interessierten

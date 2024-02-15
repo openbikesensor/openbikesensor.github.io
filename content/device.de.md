@@ -6,7 +6,7 @@ menu:
     parent: device
 ---
 
-<section class="full-width content-grid dark arrow">
+<section class="full-width content-grid primary arrow">
 
 # Das Messgerät
 

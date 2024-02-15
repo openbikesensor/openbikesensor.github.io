@@ -45,7 +45,7 @@ a {
   }
 
   &:hover {
-    color: lighten($link-color, 20%);
+    color: $link-color-light;
   }
 }
 
@@ -110,7 +110,7 @@ section.arrow::after {
   bottom: #{"calc(-1 * var(--height))"};
   border-style: solid;
   border-width: var(--height) var(--width) 0;
-  border-color: $gray transparent transparent transparent;
+  border-color: $primary transparent transparent transparent;
   z-index: 3;
   position: absolute;
   content: "";
@@ -140,7 +140,7 @@ table {
 
 td, th {
   padding: 0.25rem 0.5rem;
-  border: 1px solid $grayish;
+  border: 1px solid $primary-1;
   border-width: 1px 0;
   vertical-align: top;
 }

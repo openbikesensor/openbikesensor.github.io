@@ -1,5 +1,5 @@
 #header {
-  background: $gray;
+  background: $primary;
   color: white;
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@
           position: absolute;
           right: 0;
           top: 100%;
-          background: $grayish;
+          background: $primary-1;
           margin: 0;
           padding: 0.5rem 0;
 
@@ -83,7 +83,7 @@
               padding: 0.25rem 2rem 0.25rem 1rem;
 
               &:hover, &:focus-within {
-                background: rgba(255, 255, 255, 0.1);
+                background: $primary-2;
               }
             }
           }
@@ -95,7 +95,7 @@
           }
 
           > a, span {
-            background: $grayish;
+            background: $primary-1;
           }
         }
       }
@@ -197,8 +197,19 @@ aside.toc {
 
 footer {
   ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+  }
+
+  a {
+    &, &:visited, &:hover {
+      color: inherit;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -266,7 +277,7 @@ footer {
     }
 
     .mobile-sidebar-toggle-label {
-      background: $secondary;
+      background: $gray-light;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       padding: 0 1rem;
       height: 40px;
@@ -339,13 +350,13 @@ footer {
   }
 }
 
-section.dark {
-  background: $gray;
+section.primary {
+  background: $primary;
   color: white;
 }
 
-section.darkish {
-  background: $grayish;
+section.primary-1 {
+  background: $primary-1;
   color: white;
 }
 

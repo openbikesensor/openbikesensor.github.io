@@ -2,7 +2,7 @@
 {{ $blockID := printf "td-cover-block-%d" .Ordinal }}
 {{ $promo_image := (.Page.Resources.ByType "image").GetMatch "**background*" }}
 {{ $logo_image := (.Page.Resources.ByType "image").GetMatch "**logo*" }}
-{{ $col_id := .Get "color" | default "dark" }}
+{{ $col_id := .Get "color" | default "primary" }}
 {{ $image_anchor := .Get "image_anchor" | default "smart" }}
 {{ $logo_anchor := .Get "logo_anchor" | default "smart" }}
 {{/* Height can be one of: auto, min, med, max, full. */}}

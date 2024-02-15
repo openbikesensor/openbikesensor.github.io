@@ -1,11 +1,18 @@
-$primary: #212730;
-$primary-light: #3e4a5d;
-$secondary: #f1f1f6;
-$gray: rgb(33, 39, 48);
-$grayish: #403f4c;
-$td-sidebar-border-color: #d4e4ff;
+$gray-light: #f1f1f6;
+$gray-dark: #222222;
+$border-color: rgba(0, 0, 0, 0.1);
 
-$link-color: #1565C0;
+// $hue: 275deg; // lila
+$hue: 197deg; // türkis
+// $hue: 180deg; // blaugrün
+// $hue: 0deg; // rot
+// $hue: 320deg; // pink
+
+$primary: hsl($hue, 56%, 37%);
+$primary-1: hsl($hue, 65%, 50%);
+$primary-2: hsl($hue, 65%, 63%);
+$link-color: hsl($hue, 90%, 45%);
+$link-color-light: hsl($hue, 100%, 60%);
 
 $font-family-sans-serif: "Open Sans", Roboto, sans-serif;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;

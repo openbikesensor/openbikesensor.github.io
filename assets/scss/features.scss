@@ -50,24 +50,20 @@
 .button {
    background: rgba(0, 0, 0, 0.02);
    box-shadow: rgba(0, 0, 0, 0.2) 0 5px;
-   border: 1px solid rgba(0, 0, 0, 0.1);
-   color: $gray;
+   border: 1px solid $border-color;
 
-   &, &:visited {
-     color: $primary;
+   &, &:visited, &:hover {
+     color: $gray-dark;
    }
 
    &:hover {
      background: white;
-     color: $gray;
    }
 
-  .dark &, .darkish &, .stage & {
+  .primary &, .primary-1 &, .stage & {
      background: rgba(255, 255, 255, 0.7);
      box-shadow: rgba(0, 0, 0, 0.6) 0 5px;
-     &, &:visited, &:hover {
-       color: $primary;
-     }
+     border: none;
 
      &:hover {
        background: white;
@@ -239,7 +235,7 @@
     top: 0;
     bottom: 0;
     right: 0;
-    background: $gray;
+    background: $primary;
     z-index: -1;
   }
   &::after {
@@ -276,14 +272,14 @@
     font-size: #{"min(4.5vw, 4rem)"};
     font-weight: 300;
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 10px black;
   }
 
   > p {
     font-weight: 500;
     margin: 0;
     font-size: 1.2rem;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 5px black;
   }
 
   // Special banderole on the stage
@@ -430,7 +426,7 @@ ul.section-index {
   gap: 2rem;
 
   > li {
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid $border-color;
     border-radius: 0.25rem;
     padding: 1rem;
     min-width: 0;
