@@ -5,9 +5,6 @@ linkTitle: Nachruf Natenom
 description: >
   Wir trauern um Natenom, den engagierten Fahrradaktivisten aus Pforzheim
 resources:
-- src: natenom_nachruf_scale.jpg
-  params:
-    byline: "Example"
 
 ---
 

@@ -184,17 +184,22 @@ aside.toc {
   }
 }
 
-footer {
-    background: $primary;
-    color: white;
-    font-size: $font-size-small;
-    min-height: 0;
-    flex: 0 0 auto;
-    padding: 1rem 0;
+@media screen {
+  footer {
+      background: $primary;
+      color: white;
+      font-size: $font-size-small;
+      min-height: 0;
+      flex: 0 0 auto;
+      padding: 1rem 0;
+  }
 }
 
-.footer-copyright {
-    line-height: 1.5em;
+footer {
+  ul {
+  list-style: none;
+  padding: 0;
+  }
 }
 
 #mobile-sidebar-toggle {

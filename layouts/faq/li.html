@@ -9,14 +9,7 @@
   </div>
 {{ else }}
 
-  <div class="card card-body mb-4">
-    <a href="{{ .RelPermalink }}">
-    <h4 class="card-title">
-      {{ .Title }}
-    </h4>
-    </a>
-
-    {{ .Content  }}
-  </div>
+  <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+  {{ .Content  }}
 
 {{ end }}

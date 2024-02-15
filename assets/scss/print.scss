@@ -18,82 +18,67 @@
 @media print {
   html,
   body {
-    font-size: 10pt;
+    font-size: 9pt;
+    line-height: 1.4;
     min-width: 0 !important;
   }
 
-  .noprint {
-    display: none;
+  h1, h2 {
+    break-after: avoid;
   }
 
-  .td-main main {
-    max-width: 100% !important;
-    flex: 1 1 0;
+  .noprint,
+  .mobile-sidebar-toggle-label,
+  .blog-pager,
+  .breadcrumb,
+  .section-index,
+  .docs-footer {
+    display: none !important;
   }
 
-  .td-content {
-    max-width: 100%;
-    // columns: 2;
-    column-gap: 4rem;
-    font-size: 1rem;
+  .docs {
+    display: block;
+    > aside { display: none; }
+    > main { max-width: none; }
+  }
 
-    p, ul, ol, .alert {
-        line-height: 1.7em;
-        font-size: 1em;
-    }
+  #header {
+    display: none !important;
+  }
 
-    > h1,
-    > h2,
-    > h3,
-    > p,
-    > ul,
-    > ol,
-    > .alert,
-    > .highlight,
-    > .lead,
-    > dl dd,
-    > pre,
-    .footnotes,
-    > blockquote {
-      // column-span: all;
-      max-width: 100%;
-    }
+  .content-grid {
+    display: block;
+  }
 
-    li {
-      margin-bottom: 0 !important;
-    }
-
-    h2 {
-      font-size: 1.6em;
-      column-span: all;
-      // page-break-before: always;
-    }
-    h3 {
-      font-size: 1.3em;
-    }
-
+  .docs > main {
     .print-figures {
       counter-reset: step-figure;
       margin: 1rem 0;
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.5rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3mm;
+      align-items: flex-start;
     }
 
-    figure, .card {
-        // display: block;
+    figure {
         position: relative;
-        // width: calc(50% - 0.25rem - 2px);
         vertical-align: top;
         margin: 0;
         padding: 0 !important;
-        border: 1px solid black;
-        border-radius: 2mm;
-        overflow: hidden;
-
         break-inside: avoid;
         counter-increment: step-figure;
-        figcaption, .card-body {
+        text-align: left;
+
+        img {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          display: block;
+          aspect-ratio: 4/3;
+          object-fit: cover;
+        }
+
+        figcaption {
             position: relative;
             margin: 0;
             padding: 0.2rem 0.5rem !important;
@@ -101,35 +86,21 @@
         }
     }
 
-    // .card {
-    //   padding: 0 !important;
-    //   border: 1px solid black;
-    //   border-radius: 2mm;
-    //   break-inside: avoid;
-    //   overflow: hidden;
-    //
-    //   .card-body {
-    //
-    //   }
-    // }
-
-    .section-index,
-    // "Last changed" row
-    > .text-muted:last-child {
-      display: none;
+    // top-level imgproc, without slider
+    > figure {
+      max-width: 50%;
+      margin-inline: auto;
     }
 
-    // Uncomment this to print without figures and images
-    // .card, .print-figures, img {
-    //   display: none;
-    // }
 
     .alert {
       border-width: 2px;
       break-inside: avoid;
+      padding: 2mm;
+      background: none;
     }
 
-    > table {
+    table {
         margin: 1rem auto;
         break-inside: avoid;
 
@@ -144,8 +115,8 @@
 .print-qr-link {
     border: 1px solid black;
     background: white;
-
     display: none;
+    width: fit-content;
     @media print {
         display: flex;
     }
@@ -153,6 +124,8 @@
     overflow: hidden;
     padding: 1mm;
     padding-left: 4mm;
+    margin-block: 1rem;
+    margin-inline: auto;
 
     img {
         width: 3cm;
@@ -160,7 +133,7 @@
     }
 
     p {
-        flex: 1 1 0;
+        flex: 0 1 auto;
         margin: 0;
         padding: 0;
         font-size: 11pt;

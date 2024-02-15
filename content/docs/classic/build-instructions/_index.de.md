@@ -149,7 +149,7 @@ passieren.
     alt="Lötzinn erhitzen, und das Modul positionieren." >}}
   {{< slider-image
     src="v1.0.0/spannungswandler3.jpg"
-    alt="Wenn fertig positioniert restliche Pins verlööten." >}}
+    alt="Wenn fertig positioniert restliche Pins verlöten." >}}
   {{< slider-image
     src="v1.0.0/spannungswandler4.jpg"
     alt="Verlötet"
@@ -318,7 +318,6 @@ Kürze das Batteriekabel auf 12&thinsp;cm.
 Finde heraus, wie herum dein Stecker auf die Platine (bei J1 bzw. "Battery")
 gelötet werden muss, damit die Farbzuordnung mit der Platinenbedruckung
 übereinstimmt. Löse dann das Kabel vom Stecker.
-
 
 {{< imgproc "battery-connector-orientations.png" Fit "500x500">}}
     Zwei unterschiedliche Ausrichtungen des Batteriesteckers. Die korrekte
@@ -734,17 +733,17 @@ sicher, dass die Magneten einander anziehen.
 Sollten die Magnete nicht von selbst in ihrem Loch stecken bleiben, kannst du
 sie auch mit etwas Sekunden- oder Alleskleber fixieren.
 
-{{< imgproc "v00.03.12/15_Prepare_Case/DSC08072.JPG" Fit "500x500" >}}
-    Einpressgewinde in Displaygehäuse einschmelzen
-{{< /imgproc >}}
-
-{{< imgproc "v00.03.12/15_Prepare_Case/DSC08074.JPG" Fit "500x500" >}}
-    Hauptgehäuse mit Einpressgewinde (ältere Version mit zwei Muttern für GPS)
-{{< /imgproc >}}
-
-{{< imgproc "v00.03.12/15_Prepare_Case/DSC08075.JPG" Fit "500x500" >}}
-    USB-Abdeckung mit Magneten
-{{< /imgproc >}}
+{{< slider >}}
+  {{< slider-image
+    src="v00.03.12/15_Prepare_Case/DSC08072.JPG"
+    alt="Einpressgewinde in Displaygehäuse einschmelzen" >}}
+  {{< slider-image
+    src="v00.03.12/15_Prepare_Case/DSC08074.JPG"
+    alt="Hauptgehäuse mit Einpressgewinde (ältere Version mit zwei Muttern für GPS)" >}}
+  {{< slider-image
+    src="v00.03.12/15_Prepare_Case/DSC08075.JPG"
+    alt="USB-Abdeckung mit Magneten" >}}
+{{< /slider >}}
 
 ## Displayeinheit
 
