@@ -437,11 +437,11 @@ ul.section-index {
     }
   }
 }
-@media ($media-desktop) {
 
+@media ($media-desktop) {
   ul.blog-posts,
   ul.section-index {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
 }
