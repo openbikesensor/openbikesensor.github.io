@@ -274,12 +274,14 @@
     font-size: #{"min(4.5vw, 4rem)"};
     font-weight: 300;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
   }
 
   > p {
     font-weight: 500;
     margin: 0;
     font-size: 1.2rem;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
   }
 
   // Special banderole on the stage
@@ -291,6 +293,14 @@
     z-index: 100;
     width: 25ch;
     padding: 0;
+    transform-origin: 33% 33%;
+    transition: all 0.5s;
+    opacity: 0.8;
+
+    &:hover {
+      scale: 1.1;
+      opacity: 1;
+    }
 
     > img {
       width: 100%;
