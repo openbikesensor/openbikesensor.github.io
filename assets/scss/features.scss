@@ -253,6 +253,8 @@
     background-position: center;
     background-size: cover;
     z-index: -1;
+    filter: blur(3px);
+    scale: 1.01;
 
     animation: stage-scroll-effect linear;
     animation-timeline: view();
