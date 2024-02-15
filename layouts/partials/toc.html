@@ -1,0 +1,10 @@
+{{ if not .Params.notoc -}}
+  {{ with .TableOfContents -}}
+    {{ if ne . `<nav id="TableOfContents"></nav>` -}}
+      <aside class="toc">
+        <h6>Auf dieser Seite</h6>
+        {{ . }}
+      </aside>
+    {{ end -}}
+  {{ end -}}
+{{ end -}}

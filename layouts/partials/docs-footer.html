@@ -1,0 +1,15 @@
+{{ if and .GitInfo .Site.Params.github_repo -}}
+<div class="docs-footer">
+  Zuletzt geändert am
+  {{ with .GitInfo }}
+  <a href="{{ $.Site.Params.github_repo }}/commit/{{ .Hash }}">
+  {{ end }}
+  {{ $.Lastmod.Format $.Site.Params.time_format_default -}}.
+  {{ if .GitInfo }}
+  </a>
+  {{ end }}
+
+  Du möchtest etwas zu dieser Seite beitragen? Eine Anleitung findest
+  du <a href="https://forum.openbikesensor.org/t/mitwirken-an-der-website-dokumentation-so-gehts/115">im Forum</a>.
+</div>
+{{ end -}}

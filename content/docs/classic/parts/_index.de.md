@@ -1,13 +1,14 @@
 ---
 title: Bauteile
 weight: 20
+notoc: true
 aliases:
 - /bauteile
 - /bauteile/v00.03.12
 - /docs/hardware/v00.03.12/parts
 description: >
     Diese Seite listet alle Bauteile auf, die bestellt oder hergestellt werden
-    müssen, um einen OpenBikeSensor Classic zusammenzubauen.  
+    müssen, um einen OpenBikeSensor Classic zusammenzubauen.
 
 ---
 
@@ -21,6 +22,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
 
 ## Bauteile
 
+<div class="table-wide">
 <table class="table">
 <thead>
 <tr>
@@ -68,7 +70,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
   <td rowspan="2" class="align-middle">1</td>
   <td>Alternative A "Rotes Modul" Buck-Boost Modul for LiPo, 3.3V (Spannungsregler). Eines der verlinkten Module reicht.</td>
   <td>
-    <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung `A1731i` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span> 
+    <span style="color: red; font-face: bold;">Derzeit ist kein zuverlässiger Händler für dieses Modul bekannt. Module mit Beschriftung `A1731i` auf dem sechsbeinigen Bauteil **funktionieren NICHT**.</span>
   </td>
 </tr>
 <tr>
@@ -96,7 +98,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
   <td>
     <a href="https://www.amazon.de/gp/product/B008RDCC26/ref=ox_sc_saved_image_6?smid=A3JWKAKR8XB7XF&psc=1">amazon.de</a>
     <br/>
-    <a href="https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop">google Suche</a> 
+    <a href="https://www.google.com/search?q=sandisk+ultra+16gb&tbm=shop">google Suche</a>
   </td>
 </tr>
 <tr>
@@ -108,7 +110,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
     <a href="https://de.aliexpress.com/item/1005001825455846.html">aliexpress.com 2</a>
     <br/>
     <a href="https://de.aliexpress.com/item/32582974860.html">aliexpress.com 3</a>
-    <br/> 
+    <br/>
     <a href="https://de.aliexpress.com/item/4000781171314.html">aliexpress.com 4</a>
   </td>
 </tr>
@@ -377,6 +379,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
 
 </tbody>
 </table>
+</div>
 
 
 {{< include-markdown-partial "parts-tools.md" >}}

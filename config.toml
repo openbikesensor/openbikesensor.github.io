@@ -1,14 +1,7 @@
 baseURL = "/"
 title = "Goldydocs"
-
 enableRobotsTXT = true
-
-# Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["github.com/google/docsy"]
-
 timeout = 500000 # uh oh
-
-# Will give values to .Lastmod etc.
 enableGitInfo = true
 
 # Language settings
@@ -143,8 +136,6 @@ github_branch = "main"
 [params.ui]
 # Enable to show the side bar menu in its compact state.
 sidebar_menu_compact = false
-#  Set to true to disable breadcrumb navigation.
-breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar

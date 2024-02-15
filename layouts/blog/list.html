@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<section>
+<h1>Blog</h1>
+
+<ul class="blog-posts">
+{{ range .Pages -}}
+  <li>
+      <div class="date">{{ .Date.Format ($.Param "time_format_blog") }}</div>
+      <h5>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h5>
+
+      <p>{{ .Summary }}</p>
+      <a href="{{ .RelPermalink }}">{{ T "ui_read_more"}}</a>
+  </li>
+{{ end -}}
+</ul>
+</section>
+
+{{ end -}}

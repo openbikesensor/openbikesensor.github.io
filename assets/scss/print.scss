@@ -1,0 +1,180 @@
+@page {
+  size: A4 portrait;
+  margin: 0.6in;
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
+
+.print-only .noprint,
+.noprint .print-only {
+  display: none;
+}
+
+
+@media print {
+  html,
+  body {
+    font-size: 10pt;
+    min-width: 0 !important;
+  }
+
+  .noprint {
+    display: none;
+  }
+
+  .td-main main {
+    max-width: 100% !important;
+    flex: 1 1 0;
+  }
+
+  .td-content {
+    max-width: 100%;
+    // columns: 2;
+    column-gap: 4rem;
+    font-size: 1rem;
+
+    p, ul, ol, .alert {
+        line-height: 1.7em;
+        font-size: 1em;
+    }
+
+    > h1,
+    > h2,
+    > h3,
+    > p,
+    > ul,
+    > ol,
+    > .alert,
+    > .highlight,
+    > .lead,
+    > dl dd,
+    > pre,
+    .footnotes,
+    > blockquote {
+      // column-span: all;
+      max-width: 100%;
+    }
+
+    li {
+      margin-bottom: 0 !important;
+    }
+
+    h2 {
+      font-size: 1.6em;
+      column-span: all;
+      // page-break-before: always;
+    }
+    h3 {
+      font-size: 1.3em;
+    }
+
+    .print-figures {
+      counter-reset: step-figure;
+      margin: 1rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+    }
+
+    figure, .card {
+        // display: block;
+        position: relative;
+        // width: calc(50% - 0.25rem - 2px);
+        vertical-align: top;
+        margin: 0;
+        padding: 0 !important;
+        border: 1px solid black;
+        border-radius: 2mm;
+        overflow: hidden;
+
+        break-inside: avoid;
+        counter-increment: step-figure;
+        figcaption, .card-body {
+            position: relative;
+            margin: 0;
+            padding: 0.2rem 0.5rem !important;
+            border-top: inherit;
+        }
+    }
+
+    // .card {
+    //   padding: 0 !important;
+    //   border: 1px solid black;
+    //   border-radius: 2mm;
+    //   break-inside: avoid;
+    //   overflow: hidden;
+    //
+    //   .card-body {
+    //
+    //   }
+    // }
+
+    .section-index,
+    // "Last changed" row
+    > .text-muted:last-child {
+      display: none;
+    }
+
+    // Uncomment this to print without figures and images
+    // .card, .print-figures, img {
+    //   display: none;
+    // }
+
+    .alert {
+      border-width: 2px;
+      break-inside: avoid;
+    }
+
+    > table {
+        margin: 1rem auto;
+        break-inside: avoid;
+
+        td, thead th {
+            border: 1px solid black;
+            padding: 0.25rem 0.75rem;
+        }
+    }
+  }
+}
+
+.print-qr-link {
+    border: 1px solid black;
+    background: white;
+
+    display: none;
+    @media print {
+        display: flex;
+    }
+    align-items: center;
+    overflow: hidden;
+    padding: 1mm;
+    padding-left: 4mm;
+
+    img {
+        width: 3cm;
+        flex:  0 0 auto;
+    }
+
+    p {
+        flex: 1 1 0;
+        margin: 0;
+        padding: 0;
+        font-size: 11pt;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    a {
+        color: inherit;
+        display: block;
+        text-decoration: inherit;
+        font-weight: bold;
+        font-family: $font-family-monospace;
+        white-space: wrap;
+        letter-spacing: -0.5pt;
+    }
+}

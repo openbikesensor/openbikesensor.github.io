@@ -1,0 +1,9 @@
+<div class="blog-pager">
+{{if .PrevInSection}}
+  <a class="button" href="{{.PrevInSection.RelPermalink}}"><span class="me-1">←</span> Voriger Post</a>
+{{ end }}
+
+{{if .NextInSection}}
+  <a class="button" href="{{.NextInSection.RelPermalink}}">Nächster Post →</a>
+{{ end }}
+</div>

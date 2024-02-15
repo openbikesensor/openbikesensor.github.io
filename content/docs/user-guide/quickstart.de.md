@@ -4,9 +4,11 @@ linkTitle: Schnellstart
 weight: 10
 aliases:
 - /start
+description: >
+  So bereitest du deinen neuen OpenBikeSensor auf die erste Fahrt vor.
 ---
 
-Diese Anleitung geht davon aus, dass du einen funktionierenden 
+Diese Anleitung geht davon aus, dass du einen funktionierenden
 [OpenBikeSensor Classic]({{< ref "/docs/classic" >}}) hast.
 
 Sobald du einen OpenBikeSensor hast, solltest du ein paar Dinge damit tun:
@@ -40,8 +42,8 @@ Um sicherzugehen, dass dein Gerät voll funktionsfähig ist, führe vor
 der ersten Montage und danach regelmäßig (z.B. jedes Mal nach dem Aufladen
 des Akkus oder wöchentlich) folgenden Test durch:
 
-Halte dein Gerät im Freien eingeschaltet mit der linken Seite zum Himmel und 
-der rechten Seite nach unten in die Luft. Nachdem die Haltezeit für den 
+Halte dein Gerät im Freien eingeschaltet mit der linken Seite zum Himmel und
+der rechten Seite nach unten in die Luft. Nachdem die Haltezeit für den
 linksseitigen Messwert abgelaufen ist, sollte kein Messwert mehr angezeigt.
 Hast du noch keinen GPS-Empfang und möchtest nicht warten, bis das GPS Empfang
 hat, kannst du durch kurzes Drücken auf den Knopf am Display in die Messansicht

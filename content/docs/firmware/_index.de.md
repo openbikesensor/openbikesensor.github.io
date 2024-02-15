@@ -52,12 +52,16 @@ GGF musst du zunächst das "Flashtool" (über die OpenBikeSensor Oberfläche) in
 Danach kannst du, wenn dein OpenBikeSensor in einem internetfähigen WLAN eingebucht
 ist über das Wlan-Menü deines OpenBikeSensors Firmwareupdates anstoßen.
 
-## Bauen und Flashen der Firmware aus dem GitHub-Repository
+## Firmware aus Quelltext kompilieren
 
-### mit VisualStudio Code und PlatformIO
+Du kannst die Firmware auch selbst bauen und flashen, wenn du dir den Quelltext
+aus dem GitHub-Repository herunterlädst.
 
-Zunächst [VS Code](https://code.visualstudio.com/) und darin die Erweiterung [PlatformIO](https://platformio.org/)
-installieren. 
-
-Danach den gewünschten Stand der OBS-Firmware aus dem [github-Repository](https://github.com/openbikesensor/OpenBikeSensorFirmware) klonen und das Verzeichnis in VS Code öffnen. Dann mit dem Upload-Befehl (Pfeil nach rechts in der Fußzeile von VS Code) oder per `pio run -t upload` in der PlatformIO CLI auf den ESP32 flashen.
+Zunächst musst du [VS Code](https://code.visualstudio.com/) und darin die
+Erweiterung [PlatformIO](https://platformio.org/) installieren. Clone dann den
+gewünschten Stand der OBS-Firmware aus dem
+[github-Repository](https://github.com/openbikesensor/OpenBikeSensorFirmware)
+und öffne das Verzeichnis in VS Code. Dann kannst du mit dem Upload-Befehl
+(Pfeil nach rechts in der Fußzeile von VS Code) oder per `pio run -t upload` in
+der PlatformIO CLI die Firmware kompilieren und auf den ESP32 flashen.
 

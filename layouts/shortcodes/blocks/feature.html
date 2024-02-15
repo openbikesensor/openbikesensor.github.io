@@ -1,10 +1,8 @@
-{{ $icon := .Get "icon" | default "fa-lightbulb" }}
+{{ $icon := .Get "icon" | default "lightbulb" }}
 {{ $url_text := .Get "url_text" }}
-<div class="col-lg-4 col-md-6 mb-5 mb-lg-0 position-relative feature-cell">
-  <i class="feature-icon {{ if not (or (hasPrefix $icon "fas ") (hasPrefix $icon "fab ")) }}fas {{ end }}{{ $icon }}"></i>
-  <h4 class="h3">
-    {{ .Get "title" | markdownify }}
-  </h4>
-  <p class="mb-0">{{ .Inner }}</p>
-  {{ with .Get "url" }}<p class="mt-auto"><a href="{{ . }}" class="btn btn-outline-light">{{ with $url_text }}{{ $url_text }}{{ else }}{{ T "ui_read_more" }}{{ end }} <i class="fa fa-arrow-right ms-2"></i></a></p>{{ end }}
+<div class="feature-cell">
+  {{ partial "fa.html" $icon }}
+  <h3>{{ .Get "title" | markdownify }}</h3>
+  <p>{{ .Inner }}</p>
+  {{ with .Get "url" }}<a href="{{ . }}" class="button">{{ with $url_text }}{{ $url_text }}{{ else }}{{ T "ui_read_more" }}{{ end }} <i class="fa fa-arrow-right ms-2"></i></a>{{ end }}
 </div>

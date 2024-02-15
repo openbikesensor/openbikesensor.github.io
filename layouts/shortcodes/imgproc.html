@@ -24,13 +24,13 @@
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
 
-<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: {{ add $image.Width 10 }}px">
+<figure>
   <a href="{{ $original.RelPermalink }}" target="_blank">
-    <img class="card-img-top img-fluid" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+    <img src="{{ $image.RelPermalink }}" />
   </a>
-	{{ with .Inner }}
-	<div class="card-body px-0 pt-2 pb-0">
-		<p class="card-text">{{ . }}{{ with $image.Params.byline }}<small class="text-muted"><br/>{{ . | html }}</small>{{ end }}</p>
-	</div>
-	{{ end }}
-</div>
+
+  <figcaption>
+    {{ .Inner }}
+    {{ with $image.Params.byline }}<div class="byline">{{ . | html }}</div>{{ end }}
+  </figcaption>
+</figure>

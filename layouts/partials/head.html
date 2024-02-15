@@ -4,7 +4,7 @@
 {{- $outputFormat := partial "outputformat.html" . -}}
 
 {{ range .AlternativeOutputFormats -}}
-<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
 {{ end -}}
 
 {{ if and hugo.IsProduction (ne $outputFormat "print") -}}

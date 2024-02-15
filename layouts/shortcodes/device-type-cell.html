@@ -1,16 +1,14 @@
 {{ $image_file := .Get "image_file" }}
 {{ $image := resources.Get $image_file }}
 
-<div class="col-lg-4 col-md-6 mb-5 mb-lg-0 position-relative device-type-cell {{ .Get "class" }}">
+<div class="device-type-cell {{ .Get "class" }}">
   <h4 class="h3">
       OpenBikeSensor <span>{{ .Get "variant" }}</span>
   </h4>
   <span class="label">{{ .Get "label" }}</span>
   <img src="{{ $image.RelPermalink }}" />
   {{ .Inner | markdownify }}
-  <p class="mt-auto">
-      <a href="{{ .Get "link" }}" class="btn btn-outline-dark">
-          {{ .Get "link_text" }} <i class="fa fa-arrow-right ml-2"></i>
-      </a>
-  </p>
+  <a href="{{ .Get "link" }}" class="button">
+    {{ .Get "link_text" }} {{ partial "fa.html" "arrow-right" }}
+  </a>
 </div>

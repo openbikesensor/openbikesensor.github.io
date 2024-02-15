@@ -9,7 +9,7 @@ aliases:
 description: >
     Sobald der Bausatz für den OpenBikeSensor Classic zusammengestellt ist,
     kann anhand dieser Anleitung der Bau begonnen werden. Der Zusammenbau
-    besteht aus einer Menge Lötarbeit, sowie dem Test der Elektronik und 
+    besteht aus einer Menge Lötarbeit, sowie dem Test der Elektronik und
     dem Einbau in das Gehäuse.
 ---
 
@@ -209,12 +209,16 @@ sich mit 1.0.0 geändert haben.
 Ordne zunächst alle Widerstände richtig zu, indem du die Farbcodes abliest oder
 mit einem Multimeter misst:
 
+<div class="table-wide">
+
 | Bauteil         | Wert           | Farbcode 4 Ringe                             | Farbcode 5 Ringe                                   | SMD Code   |
-| -----------     | -------------: | :------------------------------------------- | :----------------------------------------------    | ------     |
-| **R1, R2**      | 1,2&thinsp;kΩ  | {{< resistor  "brown,red,red,gold" >}}       | {{< resistor "brown,red,black,brown,brown" >}}     | 122 / 1201 |
-| **R3**          | 10&thinsp;kΩ   | {{< resistor  "brown,black,orange,gold" >}}  | {{< resistor "brown,black,black,red,brown" >}}     | 103 / 1002 |
-| **R4**          | 150&thinsp;kΩ  | {{< resistor  "brown,green,yellow,gold" >}}  | {{< resistor "brown,green,black,orange,brown" >}}  | 154 / 1503 |
-| **R5**          | 300&thinsp;kΩ  | {{< resistor  "orange,black,yellow,gold" >}} | {{< resistor "orange,black,black,orange,brown" >}} | 304 / 3003 |
+| -----------     | -------------: | :------------------------------------------: | :------------------------------------------------: | ------     |
+| **R1, R2**      | 1,2&nbsp;kΩ    | {{< resistor  "brown,red,red,gold" >}}       | {{< resistor "brown,red,black,brown,brown" >}}     | 122 / 1201 |
+| **R3**          | 10&nbsp;kΩ     | {{< resistor  "brown,black,orange,gold" >}}  | {{< resistor "brown,black,black,red,brown" >}}     | 103 / 1002 |
+| **R4**          | 150&nbsp;kΩ    | {{< resistor  "brown,green,yellow,gold" >}}  | {{< resistor "brown,green,black,orange,brown" >}}  | 154 / 1503 |
+| **R5**          | 300&nbsp;kΩ    | {{< resistor  "orange,black,yellow,gold" >}} | {{< resistor "orange,black,black,orange,brown" >}} | 304 / 3003 |
+
+</div>
 
 Nachdem du alle Widerstände zugeordnet hast, platziere sie an den dafür
 vorgesehenen Stellen auf der Vorderseite der Hautplatine. Stecke die Beinchen
@@ -464,14 +468,18 @@ Nach den Sensorboards kann das Adafruit Spannungsreglermodul verbaut werden.
 - Kürze die mitgelieferte Pinleiste auf drei Pins.
 - Stecke die Pinleiste von der Bestückungsseite auf das Board des Spannungsreglers.
 - Stecke den Spannungsregler von unten auf die OpenBikeSensor Platine, so dass
-  folgende Verbindungen entstehen (keine Sorge: das Ada board liefert auch 3.3v, hatte aber nicht genug Platz für die Nachkommastelle):
-  
-  | 3V3 Ada | OBS   |
-  |---------|-------|
-  | VIN     | VDC   |
-  | 3V      | 3.3V  |
-  | GND     | GND   |
-  
+  folgende Verbindungen entstehen (keine Sorge: das Adafruit-Modul liefert auch 3.3V, hatte aber nicht genug Platz für die Nachkommastelle):
+
+<center>
+
+| Adafruit-Board   |   | OpenBikeSensor Platine   |
+| ---------------: | - | :----------------------- |
+| VIN              | = | VDC                      |
+| 3V               | = | 3.3V                     |
+| GND              | = | GND                      |
+
+</center>
+
 - Klebe etwas Isolierband über die Lötstellen des Ultraschall boards unter das 3.3V
   board
 - Verlöte die Pins auf beiden Seiten, wie immer erst einen Pin, Orientierung nachjustieren
@@ -538,8 +546,6 @@ Verlöte erst dann die restlichen Pins und kürze sie.
     des Moduls zeigt in Richtung der Buchsenleiste für den ESP32.
 {{</ imgproc >}}
 
----
-
 {{% alert title="Glückwunsch!" color="success" %}}
 Mit diesem Schritt ist die Hauptplatine des OpenBikeSensors fertig bestückt.
 
@@ -580,7 +586,7 @@ Insbesondere der mittlere Pin ist hierbei kritisch, er muss dieselbe Länge wie 
 wird aber bei zu hoher Temperatur herausgedrückt.
 
 Verdrille nun beide Kabel auf voller Länge zu einem und führe dann die zwei Crimps in
-das Steckergehäuse ein. Die Verdrillung wird sich wieder ein wenig lockern, 
+das Steckergehäuse ein. Die Verdrillung wird sich wieder ein wenig lockern,
 aber sollte wie ein Kabel wirken und keine große Schlaufe mehr bilden.
 
 {{< imgproc "v00.03.12/12_Switch/DSC08041.JPG" Fit "500x500" >}}
@@ -997,7 +1003,7 @@ hilft dir vielleicht eine der Anleitung auf der [Fehlersuche-Seite]({{< relref
   - Bei Bedarf Unreinheiten des Gehäuses (vom 3D-Druck) entfernen, wenn das PCB
     daran hängen bleibt.
   - Mit 3 Stück M3x6 oder M3x8 im Gehäuse verschrauben.
-  - Nun kann der ESP wieder aufgesteckt werden. Dabei die Richtung der 
+  - Nun kann der ESP wieder aufgesteckt werden. Dabei die Richtung der
     USB-Markierung mit Mikro-USB-Buchse dem ESP32 abgleichen,
     und sicherstellen, dass die Pins nicht um ein oder zwei Löcher verrutscht
     eingesteckt werden.

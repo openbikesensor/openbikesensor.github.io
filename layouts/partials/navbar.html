@@ -1,37 +1,41 @@
 {{ $currentPage := . }}
-{{ $large := (eq .Section "docs") }}
-<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
-    {{ if not $large }}<div class="container">{{ end }}
-        <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
-		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}{{ end }}</span><span class="text-uppercase font-weight-bold">{{ .Site.Title }}</span>
-	</a>
-	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
-		<ul class="navbar-nav mt-2 mt-lg-0">
-			{{ $p := . }}
-			{{ range .Site.Menus.main }}
-      <li class="nav-item mr-4 mb-2 mb-lg-0{{ if .HasChildren }} dropdown{{ end }}">
-				{{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }}
-				{{ with .Page }}
-				{{ $active = or $active ( $.IsDescendant .)  }}
-				{{ end }}
-				{{ $url := urls.Parse .URL }}
-				{{ $baseurl := urls.Parse $.Site.Params.Baseurl }}
+<header id="header" class="full-width">
+  <a class="site-icon" href="{{ .Site.Home.RelPermalink }}">
+    {{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}
+  </a>
+  <a class="site-title" href="{{ .Site.Home.RelPermalink }}">
+    {{ .Site.Title }}
+  </a>
+
+  <nav class="menu">
+    <ul>
+      {{ $p := . }}
+      {{ range .Site.Menus.main }}
+      <li class="nav-item{{ if .HasChildren }} dropdown{{ end }}">
+        {{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }}
+        {{ with .Page }}
+        {{ $active = or $active ( $.IsDescendant .)  }}
+        {{ end }}
+        {{ $url := urls.Parse .URL }}
+        {{ $baseurl := urls.Parse $.Site.Params.Baseurl }}
+
+        {{ if .Page }}
+          <a class="nav-link{{if $active }} active{{end}}" href="{{ with .Page }}{{ .RelPermalink }}{{end }}" >{{ .Name }}</a>
+        {{ else }}
+          <span tabindex="0">{{ .Name }}</span>
+        {{ end }}
 
         {{ if .HasChildren }}
-        <a {{ if .Identifier }}id="{{ .Identifier }}"{{ end }} class="nav-link dropdown-toggle {{if $active }} active{{end}}" href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if ne $url.Host $baseurl.Host }}target="_blank" {{ end }} role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span{{if $active }} class="active"{{end}}>{{ .Name }}</span></a>
-    <ul class="dropdown-menu">
-                    {{ range .Children }}
-                        <li class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                            <a href="{{ .URL }}">{{ .Name }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-        {{ else }}
-				  <a {{ if .Identifier }}id="{{ .Identifier }}"{{ end }} class="nav-link{{if $active }} active{{end}}" href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if ne $url.Host $baseurl.Host }}target="_blank" {{ end }}><span{{if $active }} class="active"{{end}}>{{ .Name }}</span></a>
+          <ul class="dropdown-menu">
+            {{ range .Children }}
+              <li class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
         {{ end }}
-			</li>
-			{{ end }}
-		</ul>
-	</div>
-    {{ if not $large }}</div>{{ end }}
-</nav>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>
