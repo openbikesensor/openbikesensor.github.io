@@ -21,5 +21,5 @@ Mit Natenom verliert die Fahrradcommunity ein sehr aktives Mitglied, lasst uns s
 
 Wenn wir uns gemeinsam als engagierte Zivilgesellschaft anstrengen, wenn Gesetzgeber, Straßenverkehrsbehörden und Strafverfolgung ihrem Auftrag gerecht werden, können solche schrecklichen, unnötigen Todesfälle in Zukunft verhindert werden. Es müssen nicht noch mehr Radfahrer\*innen sterben. Es müssen sich nicht noch mehr Autofahrer\*innen schuldig machen.
 
-*Unsere Seite [natenom.openbikesensor.org](https://natenom.openbikesensor.org/) möchte einen Überblick über das Leben und den Tod schaffen und Informationen dazu geben, wie seinem und dem Wunsch seiner Familie entsprochen werden kann, dass seine Arbeit auch in Zukunft einen Beitrag leisten kann, die Sicherheit von Radfahrenden zu verbessern.*
+*Unter [natenom.openbikesensor.org](https://natenom.openbikesensor.org/) haben wir temporär eine Sammlung von Informationen zu den Ereignissen um Natenom untergebracht, langfristig wollen wir diese URL auf seinen digitalen Nachlass weiterleiten, sobald dieser geregelt ist.*
 
