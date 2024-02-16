@@ -4,6 +4,15 @@
       <aside class="toc">
         <h6>Auf dieser Seite</h6>
         {{ . }}
+
+        {{ if $.File }}
+          {{ $pathFormatted := replace $.File.Path "\\" "/" }}
+          {{ $gh_repo := ($.Param "github_repo") }}
+          {{ $gh_branch := ($.Param "github_branch") }}
+          {{ $gh_repo_path := printf "%s/content/%s" $gh_branch $pathFormatted }}
+          {{ $editURL := printf "%s/edit/%s" $gh_repo $gh_repo_path }}
+          <a href="{{ $editURL }}" target="_blank" rel="noreferrer noopener">Diese Seite in GitHub bearbeiten</a>
+        {{ end }}
       </aside>
     {{ end -}}
   {{ end -}}
