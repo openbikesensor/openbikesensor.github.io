@@ -267,6 +267,7 @@
     scale: 1.01;
 
     animation: stage-scroll-effect linear;
+    animation-duration: 1ms;
     animation-timeline: view();
     animation-range: exit -60px;
   }

@@ -274,6 +274,10 @@ footer {
 }
 
 @media ($media-desktop) {
+  .content-grid > section.narrow {
+      grid-column: col-start 3 / col-end 10;
+  }
+
   .docs {
     display: grid;
     grid-column: full-width;
@@ -318,10 +322,6 @@ section.primary {
 section.primary-1 {
   background: $primary-1;
   color: white;
-}
-
-.content-grid > section.narrow {
-    grid-column: col-start 3 / col-end 10;
 }
 
 // Sidebar and TOC on mobile
