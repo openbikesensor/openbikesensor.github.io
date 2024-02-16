@@ -1,0 +1,62 @@
+html body {
+  .ideal-image-slider {
+    border-radius: 0.5rem;
+  }
+
+  .iis-slide {
+    border-radius: 0.5rem;
+  }
+
+  .iis-bullet-nav {
+    top: 1rem;
+    right: 1rem;
+    z-index: 15;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    bottom: auto;
+    transition: all 0.1s;
+  }
+
+  .iis-bullet-nav a {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: none;
+    text-indent: 9999px;
+    margin-left: 0.5rem;
+    border-radius: 1000px;
+    cursor: pointer;
+    transition: all 0.1s;
+    background: var(--foreground);
+  }
+
+  .iis-bullet-nav a:hover,
+  .iis-bullet-nav a.iis-bullet-active {
+    background: var(--background);
+  }
+
+  .iis-bullet-nav a.iis-bullet-active {
+    transform: scale(1.4);
+  }
+
+  .iis-caption {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0.25rem;
+    border-radius: 0.35rem;
+    font: inherit;
+    background: var(--background);
+    color: var(--foreground);
+    padding: 0.25rem 0.75rem;
+  }
+  .iis-has-bullet-nav .iis-caption {
+    max-width: none;
+  }
+  .iis-caption .iis-caption-content {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+}
