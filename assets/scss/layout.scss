@@ -1,3 +1,4 @@
+
 #header {
   background: $primary;
   color: white;
@@ -213,10 +214,6 @@ footer {
   }
 }
 
-#mobile-sidebar-toggle {
-  display: none;
-}
-
 @media ($media-mobile) {
   #header {
     position: relative;
@@ -252,55 +249,22 @@ footer {
   }
 
   .docs {
+    aside.toc,
     aside.sidebar {
-      transition: all 0.5s;
       overflow: auto;
       position: absolute;
       width: 100%;
-      background: white;
+      background: var(--background);
       display: none;
+      z-index: 1;
 
       height: #{"calc(100vh - 100px)"};
       box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.1);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    }
-
-    aside.toc {
-      padding: 1rem;
-      h6 {
-        margin: 0;
-      }
+      border-bottom: 1px solid $border-color;
     }
 
     > main {
       padding: 1rem;
-    }
-
-    .mobile-sidebar-toggle-label {
-      background: $gray-light;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-      padding: 0 1rem;
-      height: 40px;
-      display: flex;
-      align-items: center;
-
-      .inline-svg {
-        margin-right: 0.5rem;
-        height: 24px;
-      }
-
-      > :last-child { display: none; }
-    }
-
-    #mobile-sidebar-toggle:checked ~ {
-      .mobile-sidebar-toggle-label {
-        > :last-child { display: initial; }
-        > :first-child { display: none; }
-      }
-
-      aside.sidebar {
-        display: block;
-      }
     }
   }
 
@@ -310,10 +274,6 @@ footer {
 }
 
 @media ($media-desktop) {
-  .mobile-sidebar-toggle-label {
-    display: none;
-  }
-
   .docs {
     display: grid;
     grid-column: full-width;
@@ -362,4 +322,60 @@ section.primary-1 {
 
 .content-grid > section.narrow {
     grid-column: col-start 3 / col-end 10;
+}
+
+// Sidebar and TOC on mobile
+
+input[name='mobile-menu'] {
+  display: none;
+}
+
+.mobile-menu-toggles-row {
+  display: none;
+}
+
+@media ($media-mobile) {
+  .mobile-menu-toggles-row {
+    background: var(--background-1);
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 1rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .inline-svg { height: 16px; }
+    label {
+      flex: 1 1 auto;
+      white-space: nowrap;
+      overflow: hidden;
+      flex-shrink: 1;
+      text-overflow: ellipsis;
+      &[class^="toc-"] {
+        direction: rtl;
+        text-align: right;
+
+        .docs:not(:has(aside.toc)) & {
+          display: none;
+        }
+      }
+    }
+
+    .sidebar-show { display: none; }
+    .toc-show { display: none; }
+  }
+
+  #mobile-menu-sidebar:checked ~ {
+    .mobile-menu-toggles-row .sidebar-show { display: block; }
+    .mobile-menu-toggles-row .sidebar-hide { display: none; }
+    aside.sidebar { display: block; }
+  }
+
+  #mobile-menu-toc:checked ~ {
+    .mobile-menu-toggles-row .toc-show { display: block; }
+    .mobile-menu-toggles-row .toc-hide { display: none; }
+    aside.toc { display: block; }
+  }
 }

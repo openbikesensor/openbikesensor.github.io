@@ -7,11 +7,16 @@
     {{ partial "navbar.html" . }}
 
     <div class="docs">
-      <input type="checkbox" id="mobile-sidebar-toggle" />
-      <label for="mobile-sidebar-toggle" class="mobile-sidebar-toggle-label">
-        <span>{{ partial "fa.html" "bars" }} Seitenmenü anzeigen</span>
-        <span>{{ partial "fa.html" "xmark" }} Seitenmenü ausblenden</span>
-      </label>
+      <input type="radio" name="mobile-menu" id="mobile-menu-main" value="main" />
+      <input type="radio" name="mobile-menu" id="mobile-menu-sidebar" value="sidebar" />
+      <input type="radio" name="mobile-menu" id="mobile-menu-toc" value="toc" />
+
+      <div class="mobile-menu-toggles-row">
+        <label class="sidebar-hide" for="mobile-menu-sidebar">{{ partial "fa.html" "bars" }} Dokumentation</label>
+        <label class="sidebar-show" for="mobile-menu-main">{{ partial "fa.html" "xmark" }} Dokumentation</label>
+        <label class="toc-hide" for="mobile-menu-toc">{{ partial "fa.html" "bars" }} Seiteninhalt</label>
+        <label class="toc-show" for="mobile-menu-main">{{ partial "fa.html" "xmark" }} Seiteninhalt</label>
+      </div>
 
       <aside class="sidebar">
         {{ partial "sidebar.html" . }}

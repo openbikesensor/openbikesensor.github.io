@@ -24,6 +24,12 @@
   flex-direction: column;
   position: relative;
 
+  @media ($media-mobile) {
+    & + & {
+      margin-block-start: 2rem;
+    }
+  }
+
   .button {
     margin-top: auto;
     align-self: flex-start;
@@ -33,7 +39,7 @@
     margin-block: 0;
   }
 
-  .inline-svg {
+  > .inline-svg {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -85,6 +91,9 @@
   display: flex;
   gap: 1em;
   margin-block-start: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -258,7 +267,7 @@
     animation-range: exit -60px;
   }
 
-  height: 50vh;
+  height: 66vh;
   position: relative;
   margin: 0;
 
@@ -268,18 +277,24 @@
   justify-content: center;
   color: white;
   gap: 1em;
+  text-align: center;
+  padding-inline: 1rem;
 
   > h2 {
-    font-size: #{"min(4.5vw, 4rem)"};
+    font-size: #{"min(max(1.5rem, 4.5vw), 4rem)"};
     font-weight: 300;
     margin: 0;
     text-shadow: 0 0 10px black;
+
+    @media ($media-mobile) {
+      font-weight: 500;
+    }
   }
 
   > p {
+    font-size: #{"min(max(1rem, 1.5vw), 1.5rem)"};
     font-weight: 500;
     margin: 0;
-    font-size: 1.2rem;
     text-shadow: 0 0 5px black;
   }
 
@@ -290,7 +305,7 @@
     left: 0;
     top: 0;
     z-index: 100;
-    width: 25ch;
+    width: #{"min(50vw, 25ch)"};
     padding: 0;
     transform-origin: 33% 33%;
     transition: all 0.5s;

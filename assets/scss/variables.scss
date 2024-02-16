@@ -1,6 +1,5 @@
-$gray-light: #f1f1f6;
 $gray-dark: #222222;
-$border-color: rgba(0, 0, 0, 0.1);
+$border-color: var(--border-color);
 
 // $hue: 275deg; // lila
 $hue: 197deg; // türkis
