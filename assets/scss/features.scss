@@ -54,22 +54,26 @@
 // Buttons
 
 .button {
-   background: rgba(0, 0, 0, 0.02);
-   box-shadow: rgba(0, 0, 0, 0.2) 0 5px;
+   background: var(--background-1);
+   box-shadow: $border-color 0 5px;
    border: 1px solid $border-color;
 
    &, &:visited, &:hover {
-     color: $gray-dark;
+     color: var(--foreground);
    }
 
    &:hover {
-     background: white;
+     background: var(--background);
    }
 
   .primary &, .primary-1 &, .stage & {
      background: rgba(255, 255, 255, 0.7);
      box-shadow: rgba(0, 0, 0, 0.6) 0 5px;
      border: none;
+
+     &, &:visited, &:hover {
+       color: #101010;
+     }
 
      &:hover {
        background: white;
