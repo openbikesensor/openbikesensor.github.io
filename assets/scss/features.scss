@@ -72,7 +72,7 @@
      border: none;
 
      &, &:visited, &:hover {
-       color: #101010;
+       color: var(--dark-text);
      }
 
      &:hover {
