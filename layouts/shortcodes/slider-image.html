@@ -2,12 +2,12 @@
 {{- $thumbnail := $src.Resize "1000x q75" -}}
 {{- $alt := .Get "alt" -}}
 {{- $noprint := .Get "noprint" -}}
-<a href="{{ $src.Permalink }}" target="_blank" class="noprint">
-  <img data-src="{{ $thumbnail.Permalink }}" src="{{ $thumbnail.Permalink }}" title="{{ $alt }}" alt="{{ $alt }}">
+<a href="{{ $src.RelPermalink }}" target="_blank" class="noprint">
+  <img data-src="{{ $thumbnail.RelPermalink }}" src="{{ $thumbnail.RelPermalink }}" title="{{ $alt }}" alt="{{ $alt }}">
 </a>
 {{ if not $noprint }}
 <figure class="print-only">
-  <img src="{{ $src.Permalink }}" />
+  <img src="{{ $src.RelPermalink }}" />
   <figcaption>
     {{ $alt }}
   </figcaption>

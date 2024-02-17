@@ -4,6 +4,7 @@ date: '2024-02-01'
 linkTitle: Nachruf Natenom
 description: >
   Wir trauern um Natenom, den engagierten Fahrradaktivisten aus Pforzheim
+resources:
 
 ---
 

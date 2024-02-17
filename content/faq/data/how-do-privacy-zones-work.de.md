@@ -9,7 +9,7 @@ Diese Zonen erlauben das Anonymisieren deiner Aufzeichnungen innerhalb
 bestimmter geografischer Bereiche, zum Beispiel damit nicht öffentlich ist, wo
 du wohnst.
 
-Du kannst sie im Überholabstandsmesser konfigurieren und auswählen, wie sich
+Du kannst sie im OpenBikeSensor konfigurieren und auswählen, wie sich
 das Gerät innerhalb dieser Zonen verhalten soll. In Zukunft wird es auch
 möglich sein, im Portal solche Zonen zu verwalten und die Anonymisierung dort
 durchführen zu lassen.

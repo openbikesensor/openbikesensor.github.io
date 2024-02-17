@@ -1,0 +1,153 @@
+@page {
+  size: A4 portrait;
+  margin: 0.6in;
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
+
+.print-only .noprint,
+.noprint .print-only {
+  display: none;
+}
+
+
+@media print {
+  html,
+  body {
+    font-size: 9pt;
+    line-height: 1.4;
+    min-width: 0 !important;
+  }
+
+  h1, h2 {
+    break-after: avoid;
+  }
+
+  .noprint,
+  .mobile-sidebar-toggle-label,
+  .blog-pager,
+  .breadcrumb,
+  .section-index,
+  .docs-footer {
+    display: none !important;
+  }
+
+  .docs {
+    display: block;
+    > aside { display: none; }
+    > main { max-width: none; }
+  }
+
+  #header {
+    display: none !important;
+  }
+
+  .content-grid {
+    display: block;
+  }
+
+  .docs > main {
+    .print-figures {
+      counter-reset: step-figure;
+      margin: 1rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3mm;
+      align-items: flex-start;
+    }
+
+    figure {
+        position: relative;
+        vertical-align: top;
+        margin: 0;
+        padding: 0 !important;
+        break-inside: avoid;
+        counter-increment: step-figure;
+        text-align: left;
+
+        img {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          display: block;
+          aspect-ratio: 4/3;
+          object-fit: cover;
+        }
+
+        figcaption {
+            position: relative;
+            margin: 0;
+            padding: 0.2rem 0.5rem !important;
+            border-top: inherit;
+        }
+    }
+
+    // top-level imgproc, without slider
+    > figure {
+      max-width: 50%;
+      margin-inline: auto;
+    }
+
+
+    .alert {
+      border-width: 2px;
+      break-inside: avoid;
+      padding: 2mm;
+      background: none;
+    }
+
+    table {
+        margin: 1rem auto;
+        break-inside: avoid;
+
+        td, thead th {
+            border: 1px solid black;
+            padding: 0.25rem 0.75rem;
+        }
+    }
+  }
+}
+
+.print-qr-link {
+    border: 1px solid black;
+    background: white;
+    display: none;
+    width: fit-content;
+    @media print {
+        display: flex;
+    }
+    align-items: center;
+    overflow: hidden;
+    padding: 1mm;
+    padding-left: 4mm;
+    margin-block: 1rem;
+    margin-inline: auto;
+
+    img {
+        width: 3cm;
+        flex:  0 0 auto;
+    }
+
+    p {
+        flex: 0 1 auto;
+        margin: 0;
+        padding: 0;
+        font-size: 11pt;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    a {
+        color: inherit;
+        display: block;
+        text-decoration: inherit;
+        font-weight: bold;
+        font-family: $font-family-monospace;
+        white-space: wrap;
+        letter-spacing: -0.5pt;
+    }
+}

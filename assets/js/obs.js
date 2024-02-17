@@ -62,3 +62,18 @@ function initSliders() {
   }
 }
 document.addEventListener('DOMContentLoaded', initSliders)
+
+//////////////////////////////////////////////
+
+function initTocHide() {
+  // Fix to hide TOC menu when clicking a link inside -- not easy with native HTML
+  // without making an ugly DOM.
+
+  const main = document.getElementById('mobile-menu-main')
+  for (const item of Array.from(document.querySelectorAll('aside.toc a'))) {
+    item.addEventListener('click', () => {
+      main.checked = true
+    })
+  }
+}
+document.addEventListener('DOMContentLoaded', initTocHide)

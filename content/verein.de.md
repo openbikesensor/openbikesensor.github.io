@@ -8,17 +8,11 @@ aliases:
 - /ev
 ---
 
-<section class="row td-box td-box--1 position-relative">
-<div class="container text-center td-arrow-down">
+<section class="narrow">
 
 # OpenBikeSensor e. V.
 
-</div>
-</section>
-
-<section class="container content">
-
-Im Dezember 2021 haben wir gemeinsam einen Verein gegründet, um uns künftig die
+Im Dezember 2021 haben wir gemeinsam einen Verein gegründet, um uns die
 Arbeit zu erleichtern. Der Verein trägt den Namen *OpenBikeSensor e. V.* und ist
 beim Amtsgericht Stuttgart im Vereinsregister eingetragen.
 
@@ -28,14 +22,14 @@ Verantwortlichkeiten für unsere Online-Präsenz und eine gewisse zivilrechtlich
 Haftbarkeit. Eine Auswirkung auf die Weiterentwicklung und den Einsatz der
 Technologie durch die Community soll dies nicht haben.
 
-Mit der erhofften Anerkennung der Gemeinnützigkeit werden sich uns weitere
-finanzielle Möglichkeiten eröffnen. Insbesondere werden wir prüfen, ob und wie
-wir Sammelbestellungen über den Verein abwickeln oder sogar Bausätze verkaufen
-können, um vor allem Einzelpersonen leichter mit Sensoren ausstatten zu können.
-Möglicherweise kann der Verein auch Fördergelder beantragen bzw. erhalten und
-für den Vereinszweck aufwenden.
+Mit der Anerkennung der Gemeinnützigkeit eröffnen sich uns weitere
+finanzielle Möglichkeiten. Insbesondere können wir Sammelbestellungen über den
+Verein abwickeln oder in der Zukunft eventuell sogar Bausätze verkaufen,
+um vor allem Einzelpersonen leichter mit Sensoren ausstatten zu können. Als
+Verein können wir auch Fördergelder beantragen bzw. erhalten und für den
+Vereinszweck aufwenden.
 
-### Vereinszweck
+## Vereinszweck
 
 Der Vereinszweck ist in der [Satzung](/docs/Satzung.pdf) festgelegt und lautet:
 
@@ -51,7 +45,7 @@ Der Vereinszweck ist in der [Satzung](/docs/Satzung.pdf) festgelegt und lautet:
 >
 > -- *Quelle: [Gründungssatzung des Vereins OpenBikeSensor](/docs/Satzung.pdf)*
 
-### Mitgliedschaft
+## Mitgliedschaft
 
 Eine Mitgliedschaft im Verein ist ausdrücklich **keine Voraussetzung für die
 Mitarbeit** am Projekt. Die Community besteht nach wie vor unabhängig vom Verein
@@ -72,5 +66,45 @@ für Mitglieder sind auf dem Beitrittsformular (siehe oben) beschrieben.
 
 Zur Kontaktaufnahme mit dem Vorstand kann die E-Mail-Adresse aus dem
 [Impressum]({{< relref "contact" >}}) genutzt werden.
+
+<a name="spenden" id="spenden"></a>
+
+## Spenden
+
+Die Arbeit rund um den OpenBikeSensor ist sehr zeitaufwändig und kostspielig.
+Der OpenBikeSensor e. V. nimmt gern Spenden entgegen, die in die Arbeit der
+Community fließen und künftige Projekte unterstützen.
+
+Bis 200&thinsp;€ reicht der Kontoauszug, um Spenden steuerlich absetzen zu
+können. Dafür unbedingt den Verwendungszweck so ausfüllen.
+
+<pre class="donations">
+IBAN: DE40 4306 0967 1294 8595 00 (GLS)
+Kontoinhaber: OpenBikeSensor e. V.
+Verwendungszweck: Spende OpenBikeSensor
+</pre>
+
+Hier ein paar Beispiele, was wir mit Euren Spenden alles erreichen können:
+
+- Wir kaufen mit Mengenrabatt und reduzierten Versandkosten neue Hardware und
+  Bauteile ein. Diese bringen wir Euch dann zu Workshops mit, welche wir
+  veranstalten.
+- Wir stellen Bausätze zusammen, damit Interessierte keine 6-8 Wochen auf Teile
+  aus China warten müssen, sondern zügig loslegen können.
+- Wir bauen Geräte, die wir für Aktionszeiträume an Engagierte ausleihen. Die
+  Koordination übernehmen unsere Regio-Teams.
+- Unsere Entwickler:innen können Hardware für Verbesserungen und Erweiterungen
+  bestellen, ohne das Geld selbst vorschießen zu müssen.
+- Wir finanzieren die IT-Infrastruktur für Ko-Kreation und Kollaboration
+  unseres Netzwerks.
+- Wir beauftragen Arbeiten für die Weiterentwicklung der Technik, für die sich
+  keine Ehrenamtlichen Entwickler:innen finden lassen. Dies kann bei bestimmten
+  erforderlichen Know-How oder Aufwand notwendig sein, um das Projekt
+  voranbringen zu können. Die Ergebnisse (Software oder Designs) werden
+  natürlich weiterhin frei lizensiert.
+
+Die Ausgaben des Vereins werden natürlich transparent gegenüber den
+Vereinsmitgliedern kommuniziert und mit allen anderen in der Community
+abgestimmt.
 
 </section>

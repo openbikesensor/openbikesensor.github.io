@@ -1,23 +1,21 @@
 {{ define "main" }}
 
-<div style="height: 120px"></div>
+<section class="narrow">
 
-<div class="container">
-
-<p class="mb-4">
+<p>
   <a href="{{ ref . "/faq" }}">
-    <i class="fa fa-arrow-left"></i>
+    {{ partial "fa.html" "arrow-left" }}
     Zurück zur FAQ
   </a>
 </p>
 
-<h1 class="display-4 font-weight-light mb-4">
-  {{ .Title }}
-</h1>
+  <div class="faq-entry single">
+    <h4 class="question"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <div class="response">
+      {{ .Content  }}
+    </div>
+  </div>
 
-<div class="card card-body">
-  {{ .Content }}
-</div>
+</section>
 
-</div>
 {{ end }}

@@ -24,12 +24,12 @@ zum Gehäuse und Hilfen beim Beschaffen der Teile.
 * [Die Hauptplatine]({{< relref "pcb" >}}) wurde speziell für den
   OpenBikeSensor entworfen und kann als Spezialanfertigung bei einem
   Platinenhersteller anhand der bereitgestellten Designdateien bestellt
-  werden. 
+  werden.
 * [Die Bauanleitung]({{< relref "../build-instructions" >}}) beschreibt, wie die
   Bauteile auf der Hauptplatine installiert und das ganze ins Gehäuse
   eingesetzt werden.
- 
-### Muss ich den OpenBikeSensor selbst bauen?
+
+## Muss ich den OpenBikeSensor selbst bauen?
 
 Ja! Es gibt den OpenBikeSensor nicht als fertiges Gerät zu kaufen. Stattdessen
 baust du ihn dir selbst zusammen.
@@ -38,7 +38,7 @@ Du brauchst auch keine Angst zu haben, damit loszulegen -- selbst wenn nicht
 immer sofort offensichtlich ist, wie alles funktioniert, so ist es trotzdem
 auch für Anfänger:innen möglich, erfolgreich einen Sensor anhand dieser
 Anleitungen zu bauen. Und wenn das mal nicht klappt, gibt es genug Leute, die
-dir gern weiterhelfen, und ihr Wissen teilen. 
+dir gern weiterhelfen, und ihr Wissen teilen.
 
 Vielleicht kannst du dich auch mit einigen Anderen in deiner Gegend
 zusammentun. Schau in [der Community]({{< relref "community" >}}) vorbei oder
@@ -54,13 +54,13 @@ der [Community]({{< relref "/community" >}}) organsiert.
 {{< imgproc construction-kit Resize 600x >}}
 OpenBikeSensor Classic Bausatz (alte Version)
 {{< /imgproc >}}
- 
-### Hinweis für den Bau großer Stückzahlen
+
+## Hinweis für den Bau großer Stückzahlen
 
 Leider hatten wir in der Vergangenheit immer wieder Probleme damit, dass die aus
 China gelieferten fertigen Module nicht, oder nur teilweise den Spezifikationen
 entsprachen. Auch die Abmaße von Teilen ändern sich manchmal, z.B. bekamen wir
-vom Lieferanten plötzlich größere Displays als üblich. 
+vom Lieferanten plötzlich größere Displays als üblich.
 
 Wenn du mehrere Geräte vom Typ *OpenBikeSensor Classic* herstellen möchtest,
 empfiehlt es sich daher, zunächst einen Probelauf zu machen. So stellst du
@@ -75,7 +75,7 @@ einfache Änderung am Gehäuse, um auch mit den neuen Teilen kompatibel zu
 werden. Der:die nächste freut sich!
 
 
-### Alternativen
+## Alternativen
 
 Aufgrund der Vielfalt in dem Projekt und der unterschiedlichen Anforderungen
 der Beteiligten gibt es auch eine Vielzahl Varianten für fast jedes Teil. Der

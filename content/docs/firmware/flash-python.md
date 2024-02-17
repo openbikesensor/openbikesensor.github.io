@@ -1,6 +1,8 @@
 ---
 title: Flashen mit platformio
 weight: 10
+description: >
+  xx
 ---
 
 Hast du `git` und `python3` installiert, kannst du mit folgenden Kommandos die OpenBikeSensor Firmware bauen und flashen.

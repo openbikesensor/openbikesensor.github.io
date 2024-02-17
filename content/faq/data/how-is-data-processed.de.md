@@ -5,7 +5,7 @@ slug: wie-werden-die-daten-verarbeitet
 weight: 20
 ---
 
-Der Überholabstandsmesser lädt ganze Fahrten als einzelne Dateien ins Portal
+Der OpenBikeSensor lädt ganze Fahrten als einzelne Dateien ins Portal
 hoch. Diese werden importiert, jedoch nur zur Einzelanzeige der jeweiligen
 Fahrt.
 

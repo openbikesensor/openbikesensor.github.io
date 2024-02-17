@@ -1,16 +1,6 @@
-<footer class="row d-print-none">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-          <div class="footer-copyright">
-        {{ with .Site.Params.copyright }}
-            &copy; {{ now.Year}} {{ . }} {{ T "footer_all_rights_reserved" }}
-        {{ end }}
-          </div>
-      </div>
-      <div class="col-md-6 text-md-right">
-        <a class="text-white" href="{{ ref . (dict "path" "contact" "lang" "de") }}">Kontakt / Impressum</a>
-      </div>
-    </div>
-  </div>
+<footer class="full-width content-grid">
+  <ul class="footer-items">
+    <li>&copy; {{ now.Year }} OpenBikeSensor Contributors – veröffentlicht unter LGPL-3.0</li>
+    <li><a class="text-white" href="{{ ref . (dict "path" "contact" "lang" "de") }}">Kontakt / Impressum</a></li>
+  </ul>
 </footer>

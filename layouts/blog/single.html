@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<section class="narrow blog-post">
+	<time datetime="{{  $.Date.Format "2006-01-02" }}">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
+	<h1>{{ .Title }}</h1>
+
+	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+
+	{{ .Content }}
+
+	{{ partial "pager.html" . }}
+</section>
+
+{{ end }}

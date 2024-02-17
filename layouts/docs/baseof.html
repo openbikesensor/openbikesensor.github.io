@@ -3,27 +3,33 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body class="td-{{ .Kind }}">
-    <header>
-      {{ partial "navbar.html" . }}
-    </header>
-    <div class="container-fluid td-docs td-outer">
-      <div class="td-main">
-        <div class="td-sidebar d-print-none">
-          {{ partial "sidebar.html" . }}
-        </div>
-        <div class="d-none d-xl-block td-toc d-print-none">
-          {{ partial "page-meta-links.html" . }}
-          {{ partial "toc.html" . }}
-        </div>
-        <main role="main">
-          {{ partial "version-banner.html" . }}
-          {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
-          {{ block "main" . }}{{ end }}
-        </main>
+  <body>
+    {{ partial "navbar.html" . }}
+
+    <div class="docs">
+      <input type="radio" name="mobile-menu" id="mobile-menu-main" value="main" />
+      <input type="radio" name="mobile-menu" id="mobile-menu-sidebar" value="sidebar" />
+      <input type="radio" name="mobile-menu" id="mobile-menu-toc" value="toc" />
+
+      <div class="mobile-menu-toggles-row">
+        <label class="sidebar-hide" for="mobile-menu-sidebar">{{ partial "fa.html" "bars" }} Dokumentation</label>
+        <label class="sidebar-show" for="mobile-menu-main">{{ partial "fa.html" "xmark" }} Dokumentation</label>
+        <label class="toc-hide" for="mobile-menu-toc">{{ partial "fa.html" "bars" }} Seiteninhalt</label>
+        <label class="toc-show" for="mobile-menu-main">{{ partial "fa.html" "xmark" }} Seiteninhalt</label>
       </div>
-      {{ partial "footer.html" . }}
+
+      <aside class="sidebar">
+        {{ partial "sidebar.html" . }}
+      </aside>
+      {{ partial "toc.html" . }}
+
+      <main role="main">
+          {{ partial "breadcrumb.html" . }}
+          {{ block "main" . }}{{ end }}
+      </main>
     </div>
+    {{ partial "footer.html" . }}
+
     {{ partial "scripts.html" . }}
   </body>
 </html>

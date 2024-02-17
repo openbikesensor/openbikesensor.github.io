@@ -4,6 +4,9 @@ title: Montage des Sensors am Fahrrad
 weight: 15
 aliases:
 - /montage
+description: >
+  Es gibt einige Optionen den OpenBikeSensor am Fahrrad anzubringen. Hier
+  erfährst du, wie sie aussehen, und worauf du achten solltest.
 ---
 
 {{% alert title="Hinweis" color="info" %}}
