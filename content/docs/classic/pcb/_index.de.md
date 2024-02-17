@@ -13,8 +13,8 @@ description: >
 Ein sehr wichtiger Bestandteil des Gerätes ist die Platine, auch
 &bdquo;PCB&rdquo; (englisch _printed circuit board_) genannt. Der schwierige
 Teil hieran ist das &bdquo;printed&rdquo; -- ein PCB ist ein professionell
-hergestelltes Bauteil, das schwierig selbst zu erstellen ist. Hier sind deine
-Optionen:
+hergestelltes Bauteil, das schwierig selbst zu erstellen ist. So bekommst du
+deine eigene Platine zum Bau des OpenBikeSensor Classic:
 
 ## Kleinstmengen
 
@@ -35,9 +35,9 @@ alle am Versand und den Stückpreisen.
 Die Platine kannst du anhand der Designdateien, auch Gerberdateien genannt, von
 einem Platinenhersteller anfertigen lassen. Wir veröffentlichen diese Dateien
 [auf GitHub](https://github.com/openbikesensor/OpenBikeSensor_PCB_Board), von
-wo du sie herunterladen kannst. Auf der verlinkten Seite findest du auch Hinweise,
-welche Dateien du brauchst und wie du die Platinen bestellst im Abschnitt
-**Bestellung bei Platinenherstellern**.
+wo du sie herunterladen kannst. Auf der verlinkten Seite im Abschnitt
+*&bdquo;Bestellung bei Platinenherstellern&rdquo;* findest du auch Hinweise,
+welche Dateien du brauchst und wie du die Platinen bestellst.
 
 Alle gängigen Platinenhersteller können unsere Platine herstellen, das Design
 ist nicht besonders anspruchsvoll. Wir haben z.B. gute Erfahrungen mit
