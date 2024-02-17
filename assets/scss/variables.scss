@@ -19,8 +19,10 @@ $font-family-base: $font-family-sans-serif !default;
 
 $font-size-small: 0.85rem;
 $font-size-base: 1rem;
+$menu-height: 3.75rem;
+$submenu-height: 2.5rem;
 
-$desktop-size: 1024px;
+$desktop-size: 1280px;
 $media-mobile: screen and (max-width: ($desktop-size - 1px));
 $media-desktop: screen and (min-width: $desktop-size);
 
