@@ -1,8 +1,9 @@
 ---
 title: >
     Ich bin kein:e Profi-Bastler:in, kann ich trotzdem einen
-    Überholabstandsmesser bauen?
+    OpenBikeSensor bauen?
 slug: ich-bin-neuling
+weight: 2
 ---
 
 Ja! Natürlich hilft es, so etwas schon einmal gemacht zu haben. Aber mit

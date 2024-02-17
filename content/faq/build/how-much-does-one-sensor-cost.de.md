@@ -1,7 +1,10 @@
 ---
 title: >
-    Was kostet ein Überholabstandsmesser?
-slug: was-kostet-ein-ueberholabstandsmesser
+    Was kostet ein OpenBikeSensor?
+slug: was-kostet-ein-openbikesensor
+alias:
+  - /faq/build/was-kostet-ein-ueberholabstandsmesser/
+weight: 3
 ---
 
 Die Teile für einen Bausatz können einzeln oder in größeren Mengen gekauft

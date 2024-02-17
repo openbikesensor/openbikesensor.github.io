@@ -54,41 +54,44 @@
 // Buttons
 
 .button {
-   background: var(--background-1);
-   box-shadow: $border-color 0 5px;
-   border: 1px solid $border-color;
+  background: var(--background-1);
+  box-shadow: $border-color 0 5px;
+  border: 1px solid $border-color;
 
-   &, &:visited, &:hover {
-     color: var(--foreground);
-   }
+  &, &:visited, &:hover {
+    color: var(--foreground);
+  }
 
-   &:hover {
-     background: var(--background);
-   }
+  &:hover {
+    background: var(--background);
+  }
 
   .primary &, .primary-1 &, .stage & {
-     background: rgba(255, 255, 255, 0.7);
-     box-shadow: rgba(0, 0, 0, 0.6) 0 5px;
-     border: none;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.6) 0 5px;
+    border: none;
 
-     &, &:visited, &:hover {
-       color: var(--dark-text);
-     }
+    &, &:visited, &:hover {
+      color: var(--dark-text);
+    }
 
-     &:hover {
-       background: white;
-     }
-   }
+    &:hover {
+      background: white;
+    }
+  }
 
-   text-decoration: none;
-   padding: 0.4em 1.25em 0.3em;
-   border-radius: 0.25rem;
-   transition: all 0.25s ease-out;
-   font-weight: 500;
+  text-decoration: none;
+  padding: 0.4em 1.25em 0.3em;
+  border-radius: 0.25rem;
+  font-weight: 500;
 
-   &:hover {
-     transform: translateY(-3px);
-   }
+  @media (prefers-reduced-motion: no-preference) {
+    transition: all 0.25s ease-out;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
 }
 
 .action-buttons {
@@ -266,10 +269,12 @@
     filter: blur(3px);
     scale: 1.01;
 
-    animation: stage-scroll-effect linear;
-    animation-duration: 1ms;
-    animation-timeline: view();
-    animation-range: exit -60px;
+    @media (prefers-reduced-motion: no-preference) {
+      animation: stage-scroll-effect linear;
+      animation-duration: 1ms;
+      animation-timeline: view();
+      animation-range: exit -60px;
+    }
   }
 
   height: 66vh;
@@ -313,12 +318,15 @@
     width: #{"min(50vw, 25ch)"};
     padding: 0;
     transform-origin: 33% 33%;
-    transition: all 0.5s;
-    opacity: 0.8;
 
-    &:hover {
-      scale: 1.1;
-      opacity: 1;
+    @media (prefers-reduced-motion: no-preference) {
+      opacity: 0.8;
+      transition: all 0.5s;
+
+      &:hover {
+        scale: 1.1;
+        opacity: 1;
+      }
     }
 
     > img {
@@ -497,5 +505,82 @@ ul.blog-posts > li > h5 > a {
     padding: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+// FAQ
+
+// @media ($media-desktop) {
+//   .faq-list {
+//     display: grid;
+//     gap: 4rem;
+//     grid-template-columns: 1fr 1fr;
+//   }
+// }
+
+.faq-entry {
+  --size: 1rem; // triangle
+
+  margin-block: 1rem;
+
+  &.single {
+    margin-block: 4rem;
+  }
+
+  .question {
+    background: var(--faq-question-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem 1rem 1rem 0;
+    margin: 0;
+    margin-left: var(--size);
+    margin-right: #{"min(10%, 5rem)"};
+    margin-block-end: 0.5rem;
+    font-size: inherit;
+    font-weight: 500;
+    color: inherit;
+    position: relative;
+
+    a {
+      color: inherit;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      transform: translate(-100%, 0);
+      border-style: solid;
+      border-width: var(--size) var(--size) 0;
+      border-color: transparent var(--faq-question-color) transparent transparent;
+      z-index: 3;
+    }
+  }
+
+  .response {
+    p, ul {
+      background: var(--background-1);
+      padding: 1rem 2rem;
+      border-radius: 1rem 1rem 0 1rem;
+      margin-left: #{"min(10%, 5rem)"};
+      margin-right: var(--size);
+      margin-block: 0.25rem;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        transform: translate(100%, 0);
+        border-style: solid;
+        border-width: 0 var(--size) var(--size) 0;
+        border-color: transparent transparent var(--background-1) transparent;
+        z-index: 3;
+      }
+    }
+    ul {
+      padding-left: 4rem;
+    }
   }
 }

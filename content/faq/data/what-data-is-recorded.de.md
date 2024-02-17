@@ -5,8 +5,8 @@ slug: welche-daten-werden-aufgezeichnet
 weight: 10
 ---
 
-Der Überholabstandsmesser ermittelt eine ganze Menge Daten, die in der Datei zu
-jeder Fahrt gespeichert werden:
+Der OpenBikeSensor ermittelt eine ganze Menge Daten, die in der Datei zu jeder
+Fahrt gespeichert werden:
 
 * Datum und Uhrzeiten
 * GPS-Koordinaten
@@ -17,6 +17,7 @@ jeder Fahrt gespeichert werden:
 * Batteriezustand
 * ID des Gerätes, Firmwareversion, sowie einige Einstellungen und Eigenschaften des Gerätes
 
-Die veränderlichen Werte werden etwa im Sekundentakt aufgezeichnet, auch wenn
-gerade nichts gemessen oder kein Überholvorgang bestätigt wird. Dies erlaubt
-die spätere Auswertung und Weiterentwicklung der Auswertungsalgorithmen.
+Die veränderlichen Werte werden etwa im Sekundentakt aufgezeichnet, die
+Abstandsmessungen noch viel öfter, und das auch wenn gerade nichts gemessen
+oder kein Überholvorgang bestätigt wird. Dies erlaubt die spätere Auswertung
+und Weiterentwicklung der Auswertungsalgorithmen.

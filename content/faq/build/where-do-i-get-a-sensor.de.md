@@ -1,7 +1,10 @@
 ---
 title: >
-    Woher bekomme ich den Überholabstandsmesser?
-slug: woher-bekomme-ich-den-ueberholabstandsmesser
+    Woher bekomme ich einen OpenBikeSensor?
+slug: woher-bekomme-ich-einen-openbikesensor
+alias:
+  - /faq/build/woher-bekomme-ich-den-ueberholabstandsmesser/
+weight: 1
 ---
 
 Wir entwickeln in ehrenamtlicher Arbeit dieses Gerät, aber wir verkaufen es

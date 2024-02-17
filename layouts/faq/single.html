@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section>
+<section class="narrow">
 
 <p>
   <a href="{{ ref . "/faq" }}">
@@ -9,9 +9,12 @@
   </a>
 </p>
 
-<h1>{{ .Title }}</h1>
-
-{{ .Content }}
+  <div class="faq-entry single">
+    <h4 class="question"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <div class="response">
+      {{ .Content  }}
+    </div>
+  </div>
 
 </section>
 

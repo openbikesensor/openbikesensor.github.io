@@ -1,15 +1,17 @@
 {{ if .IsNode }}
-  <h2 class="display-2 text-center my-5 fw-light">{{ .Title }}</h2>
+  <h2>{{ .Title }}</h2>
   {{ .Content }}
 
-  <div class="row">
-  {{ range .Pages }}
-    {{ .Render "li" }}
-  {{ end }}
+  <div class="faq-list">
+    {{ range .Pages }}
+      {{ .Render "li" }}
+    {{ end }}
   </div>
 {{ else }}
-
-  <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-  {{ .Content  }}
-
+  <div class="faq-entry">
+    <h4 class="question"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <div class="response">
+      {{ .Content  }}
+    </div>
+  </div>
 {{ end }}
