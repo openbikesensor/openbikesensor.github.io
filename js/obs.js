@@ -49,4 +49,13 @@
     }
   }
   document.addEventListener("DOMContentLoaded", initSliders);
+  function initTocHide() {
+    const main = document.getElementById("mobile-menu-main");
+    for (const item of Array.from(document.querySelectorAll("aside.toc a"))) {
+      item.addEventListener("click", () => {
+        main.checked = true;
+      });
+    }
+  }
+  document.addEventListener("DOMContentLoaded", initTocHide);
 })();
