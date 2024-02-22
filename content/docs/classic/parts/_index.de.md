@@ -344,14 +344,21 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
   </td>
 </tr>
 <tr>
-  <td>4</td>
-  <td>Kabelbinder (2x Batterie, 2x Displayhalterung</td>
+  <td>2-4</td>
+  <td>2 Kabelbinder bis 4.5&thinsp;mm Breite (Batterie)<br/>
+      2 Kabelbinder bis 4.5&thinsp;mm Breite (Variante Displayhalterung Kabelbinder)<br/></td>
+  <td>
+  </td>
+</tr>
+<tr>
+  <td>0-1</td>
+  <td>1 O-Ring z.B. 42&thinsp;mm×2.5&thinsp;mm (Variante Displayhalterung O-Ring)</td>
   <td>
   </td>
 </tr>
 <tr>
   <td>2</td>
-  <td>Kabelbinder (Sattelhalterung)</td>
+  <td>Kabelbinder bis 8&thinsp;mm Breite (Sattelhalterung)</td>
   <td></td>
 </tr>
 
