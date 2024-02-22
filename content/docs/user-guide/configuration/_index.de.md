@@ -1,11 +1,11 @@
 ---
 title: Einstellungen
 weight: 20
+description: >
+  Diese Seite beschreibt, wie du ins Einstellungsmenü des OpenBikeSensor
+  Classic kommst und welche Einstellungen du dort vornehmen kannst und
+  solltest.
 ---
-
-
-Diese Seite beschreibt, wie du an deinem **OpenBikeSensor Classic** die
-Einstellungen änderst.
 
 Wenn du deinen OpenBikeSensor zum ersten Mal benutzt, solltest du zunächst
 einige wichtige Einstellungen anpassen. Mehr dazu unten bei "Wichtige
@@ -15,7 +15,7 @@ Einstellungen".
 
 Zuerst musst du den OpenBikeSensor in den Konfigurationsmodus bringen. Schalte
 das Gerät dafür aus, halte den Knopf am Display gedrückt, und schalte es wieder
-ein. Nach einigen Sekunden kannst du den Knopf loslassen. 
+ein. Nach einigen Sekunden kannst du den Knopf loslassen.
 
 Wenn du zuvor ein WLAN konfiguriert hast, wählt sich der Sensor nun in dieses
 WLAN ein. Ansonsten, oder falls dieses WLAN nicht verfügbar ist, startet das
@@ -27,7 +27,7 @@ Nimm nun ein Smartphone oder einen Computer zur Hand, und gehe mit diesem in
 das gleiche Netz wie der OpenBikeSensor -- entweder dein konfiguriertes
 WLAN/Heimnetz, oder das WLAN das der OpenBikeSensor geöffnet hat. Öffne einen
 Browser (z. B. Firefox) und gib dort in die Adressleiste die IP-Adresse ein,
-die im Display des Gerätes steht. 
+die im Display des Gerätes steht.
 
 Es sollte sich nun die Login-Seite des OpenBikeSensors öffnen. Auf einem
 Smartphone musst Du möglicherweise die mobilen Daten deaktivieren, damit das
@@ -35,7 +35,7 @@ funktioniert.
 
 ## Login in das Konfigurationsmenü
 
-Zugang zum Konfigurationsmenü ist durch eine verschlüsselte Verbindung und eine PIN gesichert. 
+Zugang zum Konfigurationsmenü ist durch eine verschlüsselte Verbindung und eine PIN gesichert.
 
 Die verschlüsselte Verbindung benutzt du durch Klick auf *go to https*. Dein
 Browser wird dir nun eine Zertifikatswarnung anzeigen, die du ignorieren darfst
@@ -63,13 +63,13 @@ Einstellungen vornehmen:
     des Sensors (5&thinsp;cm) zu korrigieren. Unser obiger Beispiellenker hat dann
     einen Offset-Wert von je 35&thinsp;cm.
   - Diese Werte, in Zentimetern, trage unter *General* bei *Offset Sensor Left*
-    und *Offset Sensor Right* ein. 
+    und *Offset Sensor Right* ein.
   - Speichern nicht vergessen.
   - Nun kann das Gerät den tatsächlichen Abstand zum Fahrrad ermitteln, nachdem
     es den Abstand vom Sensor aus gemessen hat.
 * WLAN-Einstellungen zum Hochladen der Daten
   - Um deine Fahrten hochzuladen, musst du dem OpenBikeSensor beibringen, ins
-    Internet zu kommen. 
+    Internet zu kommen.
   - Trage dafür den Namen und das Passwort deines WLANs unter *Wifi* bei *SSID*
     und *Password* ein. Achte auf korrekte Schreibweise inklusive Groß- und
     Kleinschreibung bei beiden Einträgen.
@@ -84,7 +84,7 @@ Einstellungen vornehmen:
     Forum](https://forum.openbikesensor.org/t/uebersicht-verfuegbarer-portale/688).
   - Erstelle einen Account auf dem ausgewählten Portal. Logge dich dort ein und
     navigiere über dein Profilsymbol zur Einstellungsseite. Dort findest du
-    deinen "API-Schlüssel" (oder Englisch "API Key"). 
+    deinen "API-Schlüssel" (oder Englisch "API Key").
   - Kopiere diesen Schlüssel und füge ihn unter *General* im Bereich *Upload
     User Data* wieder ein.
   - Kopiere ebenfalls die "API URL" aus deinem Profil und füge sie ebenfalls
@@ -162,13 +162,13 @@ sich der OpenBikeSensor innerhalb dieser Privatsphäre-Zone verhalten soll.
 Der OpenBikeSensor kann sich mit einem verfügbaren WLAN verbinden, wenn du hier
 dessen Zugangsdaten angibst. Dies ist notwendig für den Upload zum Portal und
 außerdem praktisch, wenn du bei der Konfiguration des Sensors mit deinem
-eigenen WLAN verbunden bleiben möchtest. 
+eigenen WLAN verbunden bleiben möchtest.
 
 ### Backup & Restore
 
 Hier kannst du Einstellungen des OpenBikeSensors auf deinem PC oder mobilen
 Gerät sichern. Zum Wiederherstellen aus einer gespeicherten Konfiguration wähle
-im Menü-Dialog die entsprechende Datei aus. 
+im Menü-Dialog die entsprechende Datei aus.
 
 Verwende diese Option vor einem Firmware-Update, um sicherzustellen, dass du
 deine Einstellungen wiederherstellen kannst, falls beim Update etwas
@@ -176,7 +176,7 @@ schiefgeht.
 
 ### Update Firmware
 
-Hier kannst du ein Update für die Firmware hochladen. Die neueste Version findest du immer 
+Hier kannst du ein Update für die Firmware hochladen. Die neueste Version findest du immer
 [auf GitHub](https://github.com/openbikesensor/OpenBikeSensorFirmware/releases).
 
 Nach einem erfolgreichen Update wird der OpenBikeSensor automatisch neu
