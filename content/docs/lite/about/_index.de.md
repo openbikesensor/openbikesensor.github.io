@@ -2,11 +2,11 @@
 title: Überblick
 weight: 10
 description: >
-    Der OpenBikeSensor Lite ist eine einfache Variante des OpenBikeSensors, das
+    Der OpenBikeSensor Lite ist eine einfache Variante des OpenBikeSensors, die
     aktuell entwickelt wird. Viele der Hardwarefunktionen werden von einem
     Smartphone übernommen, das per Kabel mit dem Gerät verbunden sein muss und
     über eine App die Aufzeichnung durchführt. Das macht das Gerät an sich
-    einfacher, kleiner und günstiger, aber benötigt ein kompatibles Smartphone.
+    einfacher, kleiner und günstiger, benötigt aber ein kompatibles Smartphone.
 ---
 
 {{% alert title="Hier wird gebaut!" color="warning" %}}

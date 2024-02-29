@@ -18,6 +18,11 @@ description: >
   Variante USB-C Steckverbinder zu nehmen, da du dann kein Adapterkabel
   ("USB-OTG / on-the-go") benötigst, und ein einfaches zweiseitiges USB-C
   Datenkabel verwenden kannst.
+  - Es gibt Kombinationen von ESP32 + USB-Kabel + Smartphone die nicht
+    funktionieren. Was genau am besten klappt wissen wir noch nicht, dafür
+    müssen wir noch experimentieren. Sobald wir mehr wissen schreiben wir die
+    Erkenntnisse hier auf. <a href="{{< relref "community" >}}">Schreib uns</a>
+    deine Erfahrungen!
 
 * **JSN-SR04T-3.0**: Hier musst du auf die richtige Version achten. Es gibt
   eine ganze Menge Varianten, von denen viele nicht funktionieren. Insbesondere
