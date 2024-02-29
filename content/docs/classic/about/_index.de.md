@@ -20,7 +20,7 @@ zum Gehäuse und Hilfen beim Beschaffen der Teile.
 * [Die Bauteileliste]({{< relref "../parts" >}}) enthält alle benötigten elektronischen
   Module und Einzelkomponenten, die mechanischen Bauteile wie Schrauben
   und Muttern sowie jeglichen "Kleinkram" wie Kabel und Befestigungen.
-* [Das Gehäuse]({{< relref "case" >}}) wird im 3D-Druck-Verfahren hergestellt.
+* [Das Gehäuse]({{< relref "../case" >}}) wird im 3D-Druck-Verfahren hergestellt.
 * [Die Hauptplatine]({{< relref "pcb" >}}) wurde speziell für den
   OpenBikeSensor entworfen und kann als Spezialanfertigung bei einem
   Platinenhersteller anhand der bereitgestellten Designdateien bestellt
