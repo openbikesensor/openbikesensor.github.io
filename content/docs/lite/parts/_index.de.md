@@ -17,7 +17,12 @@ description: >
   Bezeichnung "ESP32 DEVKIT" verkauft. Es empfiehlt sich außerdem, eine
   Variante USB-C Steckverbinder zu nehmen, da du dann kein Adapterkabel
   ("USB-OTG / on-the-go") benötigst, und ein einfaches zweiseitiges USB-C
-  Datenkabel verwenden kannst.
+  Datenkabel verwenden kannst. **Achtung: Nicht alle ESPs mit USB-C
+  Anschluss sind so aufgebaut, dass sie korrekt strom über USB-C anfordern.**
+  Bestellst du einen anderen als von der Liste, kann es sein, dass die zwei
+  Widerstände fehlen, die dein Telefon dazu auffordern, Strom abzugeben.
+  In diesem Fall kannst du einen USB-OTG Adapter mit einem USB-Kabel verwenden,
+  um den ESP trotzdem nutzen zu können.
   - Es gibt Kombinationen von ESP32 + USB-Kabel + Smartphone die nicht
     funktionieren. Was genau am besten klappt wissen wir noch nicht, dafür
     müssen wir noch experimentieren. Sobald wir mehr wissen schreiben wir die
