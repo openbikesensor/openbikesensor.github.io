@@ -35,7 +35,13 @@ geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
 
 * **ESP32 Development Board**: Von diesem Modul existieren einige verschiedene
   Versionen. Du brauchst die Variante mit 30 Pins. Diese wird oft unter der
-  Bezeichnung "ESP32 DEVKIT v1" verkauft.
+  Bezeichnung "ESP32 DEVKIT v1" verkauft. Für Android-Telefone mit USB-C
+  Anschluss empfiehlt sich eine Variante, die direkt Strom über USB-C anfordern
+  kann. **Achtung: Nicht alle ESPs mit USB-C Anschluss können das.** Bestellst du
+  einen anderen als von der Liste, kann es sein, dass die zwei Widerstände
+  fehlen, die dein Telefon dazu auffordern, Strom abzugeben. In diesem Fall
+  kannst du einen USB-OTG Adapter mit einem USB-Kabel verwenden, um den ESP
+  trotzdem nutzen zu können.
 
 * **SD-Karte**: Billige SD-Karten haben schon öfters Probleme verursacht, wähle
   lieber ein Markenprodukt. Versuche eine SD-Karte unter 100 MB/s zu bekommen,
