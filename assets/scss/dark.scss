@@ -37,4 +37,7 @@
     background: adjust-color(green, $alpha: -0.8);
   }
 
+  .device-type-cell img {
+    filter: #{"invert()"};
+  }
 }

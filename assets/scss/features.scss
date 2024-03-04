@@ -346,7 +346,7 @@
 // Special device variants page
 
 .device-types-row {
-    background: #F8F8F8;
+    background: var(--background-1);
     padding: 0;
 }
 
@@ -378,7 +378,7 @@
     }
 
     &.light {
-        background: #FFF;
+      background: var(--background);
     }
 
     img {
@@ -399,6 +399,7 @@
     &.construction {
         .label {
             background: #ffd600;
+            color: black;
         }
         img {
             opacity: 0.3;
@@ -414,12 +415,17 @@
 
     ul {
         text-align: left;
-        // align-self: center;
+        padding-inline: 2rem;
     }
 
     .button {
       margin-top: auto;
       align-self: center;
+    }
+
+    @media ($media-mobile) {
+      margin-inline: -1rem;
+      padding-inline: 1rem;
     }
 }
 
