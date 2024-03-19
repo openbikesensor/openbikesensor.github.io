@@ -133,7 +133,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
   <td>1</td>
   <td>12&thinsp;mm Drucktaster</td>
   <td>
-    <a href="https://www.aliexpress.com/item/4000295670163.html">aliexpress.com</a>
+    <a href="https://de.aliexpress.com/item/1005003302861259.html">aliexpress.com</a>
     <a href="https://de.aliexpress.com/item/32672509409.html">aliexpress.com</a>
   </td>
 </tr>
