@@ -67,3 +67,15 @@ $media-desktop: screen and (min-width: $desktop-size);
        url('/fonts/open-sans-v27-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/fonts/open-sans-v27-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+html {
+  --border-color: rgba(0, 0, 0, 0.1);
+  --background: #FFFFFF;
+  --foreground: #101010;
+  --background-1: #f1f1f6;
+  --background-2: #e9e9e9;
+
+  --dark-text: #101010;
+
+  --faq-question-color: #c1ebfb;
+}

@@ -77,3 +77,38 @@ function initTocHide() {
   }
 }
 document.addEventListener('DOMContentLoaded', initTocHide)
+
+//////////////////////////////////////////////
+
+const darkQuery = window.matchMedia("(prefers-color-schema: dark)")
+darkQuery.addEventListener("change", () => {
+  setDarkMode(null)
+})
+
+function setDarkMode(mode) {
+  window.localStorage.setItem('darkMode', JSON.stringify(mode))
+  const link = document.getElementById('_dark_theme')
+  link.setAttribute('media', mode === true ? 'screen' : mode === false ? 'disabled' : "screen and (prefers-color-scheme: dark)" )
+}
+
+
+function initColorToggle() {
+  let mode
+  try {
+    mode = JSON.parse(window.localStorage.getItem('darkMode'))
+  } catch(e) {
+    // ignore
+  }
+
+  if (mode === true || mode === false) {
+    setDarkMode(mode)
+  }
+
+  document.querySelectorAll('.dark-toggle').forEach((el) =>  {
+    el.addEventListener('click', () => {
+      setDarkMode(el.classList.contains('dark'))
+    })
+  })
+}
+
+document.addEventListener('DOMContentLoaded', initColorToggle)

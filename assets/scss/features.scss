@@ -592,3 +592,14 @@ ul.blog-posts > li > h5 > a {
     }
   }
 }
+
+.dark-toggle {
+  cursor: pointer;
+}
+
+.dark-toggle.light {
+  display: none;
+}
+.dark-toggle.dark {
+  display: initial;
+}

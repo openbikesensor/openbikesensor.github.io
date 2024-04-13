@@ -1,43 +1,36 @@
 // Dark mode, as detected by the media query
 
-:root {
-  --border-color: rgba(0, 0, 0, 0.1);
-  --background: #FFFFFF;
-  --foreground: #101010;
-  --background-1: #f1f1f6;
-  --background-2: #e9e9e9;
-
-  --dark-text: #101010;
-
-  --faq-question-color: #c1ebfb;
+.dark-toggle.light {
+  display: initial;
+}
+.dark-toggle.dark {
+  display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --border-color: rgba(255, 255, 255, 0.2);
-    --background: #101010;
-    --background-1: #303030;
-    --background-2: #505050;
-    --foreground: #FFFFFF;
-    --faq-question-color: #07445d;
-    color-scheme: dark;
-    color: var(--foreground);
-    background: var(--background);
-  }
+html {
+  --border-color: rgba(255, 255, 255, 0.2);
+  --background: #101010;
+  --background-1: #303030;
+  --background-2: #505050;
+  --foreground: #FFFFFF;
+  --faq-question-color: #07445d;
+  color-scheme: dark;
+  color: var(--foreground);
+  background: var(--background);
+}
 
-  .alert-info {
-    background: adjust-color(blue, $alpha: -0.8);
-  }
+.alert-info {
+  background: adjust-color(blue, $alpha: -0.8);
+}
 
-  .alert-warning {
-    background: adjust-color(red, $alpha: -0.8);
-  }
+.alert-warning {
+  background: adjust-color(red, $alpha: -0.8);
+}
 
-  .alert-success {
-    background: adjust-color(green, $alpha: -0.8);
-  }
+.alert-success {
+  background: adjust-color(green, $alpha: -0.8);
+}
 
-  .device-type-cell img {
-    filter: #{"invert()"};
-  }
+.device-type-cell img {
+  filter: #{"invert()"};
 }
