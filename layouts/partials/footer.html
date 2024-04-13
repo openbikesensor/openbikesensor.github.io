@@ -2,7 +2,9 @@
   <ul class="footer-items">
     <li>&copy; {{ now.Year }} OpenBikeSensor Contributors – veröffentlicht unter LGPL-3.0</li>
     <li><a class="text-white" href="{{ ref . (dict "path" "contact" "lang" "de") }}">Kontakt / Impressum</a></li>
+    <li>
+      <span class="dark-toggle dark">{{ partial "fa" "moon" }} Dunkler Modus</span>
+      <span class="dark-toggle light">{{ partial "fa" "sun" }} Heller Modus</span>
+    </li>
   </ul>
-
-  <span class="dark-toggle dark">{{ partial "fa" "moon" }}</span><span class="dark-toggle light">{{ partial "fa" "sun" }}</span>
 </footer>
