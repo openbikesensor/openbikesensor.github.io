@@ -22,8 +22,8 @@ $font-size-base: 1rem;
 $menu-height: 3.75rem;
 $submenu-height: 2.5rem;
 
-$desktop-size: 1280px;
-$media-mobile: screen and (max-width: ($desktop-size - 1px));
+$desktop-size: 81rem;
+$media-mobile: screen and (max-width: #{"calc(" $desktop-size "- 1px)"});
 $media-desktop: screen and (min-width: $desktop-size);
 
 // Source: https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=latin
