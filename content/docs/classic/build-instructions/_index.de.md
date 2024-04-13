@@ -51,17 +51,18 @@ anfängst.
   Werkzeugen wie einem Cuttermesser oder einem Seitenschneider kannst du dich
   schneiden. Das vordere Ende des Lötkolbens kann bis zu 450&thinsp;°C heiß werden.
   Berühre daher immer nur das dafür vorgesehen Griffstück. Sollte er dir
-  wegrutschen oder herunterfallen weiche daher lieber aus, anstatt ihn
+  wegrutschen oder herunterfallen weiche lieber aus, anstatt ihn
   aufzufangen.
 
 - Die Dämpfe, die beim Löten durch das Verbrennen des Flussmittels (Flux)
-  entstehen, können gesundheitsschädlich sein. Atme sie daher nicht direkt ein.
+  entstehen, können gesundheitsschädlich sein. Atme sie nicht direkt ein.
   Du hast bei dir daheim oder in deinem Makerspace eine Lötdampfabsaugung? Dann
   nutze sie! Gerade bleifreies Lötzinn enthält mehr Flussmittel und ist daher
-  während des Lötens auch deutlich gesundheitsschädlicher. Solltest du keine
-  Absaugung haben ist daher bleihaltiges Zinn empfehlenswerter. Dieses solltest
-  du allerdings wiederum nicht in den Mund nehmen und dir nach dem Löten die
-  Hände waschen.
+  während des Lötens auch deutlich gesundheitsschädlicher. Falls du noch mit
+  bleihaltigem Lötzinn arbeitest, solltest du dieses nicht in den Mund nehmen
+  und dir nach dem Löten gründlich die Hände waschen. Bei der Arbeit ist auf
+  jeden Fall auf Essen und Trinken zu verzichten, mache lieber regelmäßig
+  Pausen.
 
 - Bei einem der Bauteile handelt es sich um eine LiPo-Batterie. Diese
   Batterien sind zwar heute weit verbreitet, können allerdings bei falscher
@@ -69,16 +70,17 @@ anfängst.
   noch unsicher sein, lies bitte den Abschnitt in der Anleitung zur Vorbereitung und zum Umgang mit den Akkus
   sehr aufmerksam. Außerdem empfehlen wir, die Zelle aus einer
   vertrauenswürdigen Quelle zu beschaffen und nicht die billigste Zelle aus
-  China zu bestellen.
+  China zu bestellen, sowie den Akku niemals ohne Aufsicht zu laden.
 
 - Es handelt sich beim OpenBikeSensor um ein frei verfügbares Design, und nicht
   um ein fertiges Gerät. Alles, was wir dir mit den Bauteillisten,
   Schaltungsentwürfen und Anleitungen zeigen, sind Vorschläge und kann Fehler
   enthalten. Bist du dir an einer Stelle nicht sicher oder du glaubst, einen
   Fehler gefunden zu haben, dann melde dich in der [Community]({{<
-  relref "/community" >}}). Außerdem sind wir nicht für Fehler verantwortlich,
-  die du während des Aufbaus machst. Sollte etwas schiefgehen, und du brauchst
-  Hilfe, kannst du dich natürlich trotzdem an uns wenden.
+  relref "/community" >}}). Außerdem sind wir nicht für Fehler im Design
+  verantwortlich, oder für Fehler, die du während des Aufbaus machst. Sollte
+  etwas schiefgehen, und du brauchst Hilfe, kannst du dich natürlich trotzdem
+  an uns wenden.
 
 ## Buchsenleisten
 
@@ -100,25 +102,22 @@ Pins an.
 {{< slider >}}
   {{< slider-image
     src="v1.0.0/ESP32_02.JPG"
-    alt="Bauteile bereitlegen" >}}
+    alt="Lege die Bauteile bereit." >}}
   {{< slider-image
     src="v1.0.0/ESP32_03.JPG"
-    alt="Buchsenleistung an ESP gesteckt und auf dem Board positioniert."
+    alt="Stecke die Buchsenleistung an den ESP32 und positioniere sie auf der Hauptplatine."
     noprint=true >}}
   {{< slider-image
     src="v1.0.0/ESP32_04.JPG"
-    alt="Erste Ecke löten und Positionierung kontrollieren."
+    alt="Löte die erste Ecke und kontrolliere die Positionierung."
     noprint=true >}}
   {{< slider-image
-    src="v1.0.0/ESP32_06.JPG"
-    alt="In finaler Positionierung die verbleibenden äußeren Pins löten." >}}
-  {{< slider-image
     src="v1.0.0/ESP32_08.JPG"
-    alt="Ausrichten und auf der gegenüberliegenden Seite ebenfalls fixieren"
+    alt="Verlöte die die verbleibenden äußeren Pins."
     noprint=true >}}
   {{< slider-image
     src="v1.0.0/ESP32_09.JPG"
-    alt="Innere Pins festlöten" >}}
+    alt="Löte auch die inneren Pins, falls vorhanden." >}}
 {{< /slider >}}
 
 ## Spannungsregler Option 1 (rot)
@@ -142,69 +141,75 @@ passieren.
 {{< slider >}}
   {{< slider-image
     src="v1.0.0/spannungswandler1.jpg"
-    alt="Eines der Pads mit Lötzinn benetzen."
+    alt="Benetze eines der Pads mit Lötzinn."
     noprint=true >}}
   {{< slider-image
     src="v1.0.0/spannungswandler2.jpg"
-    alt="Lötzinn erhitzen, und das Modul positionieren." >}}
+    alt="Erhitze das Lötzinn neu und positioniere das Modul." >}}
   {{< slider-image
     src="v1.0.0/spannungswandler3.jpg"
-    alt="Wenn fertig positioniert restliche Pins verlöten." >}}
+    alt="Verlöte die restlichen Pins." >}}
   {{< slider-image
     src="v1.0.0/spannungswandler4.jpg"
-    alt="Verlötet"
+    alt="Der Spannungsregler ist fertig montiert."
     noprint=true >}}
 {{< /slider >}}
+
+{{% alert title="Hinweis zum Löten" color="info" %}}
+Kontakte, die mit *Masse* verbunden werden (englisch *ground* / GND; der
+elektronische Minuspol) sind manchmal schwieriger zu löten. Das liegt daran,
+dass eine größere Menge Hitze über die damit verbundene Kupferfüllfläche abgeleitet wird.
+Hier musst du unter Umständen ein wenig länger die Lötstelle erhitzen, bis das
+Lötzinn richtig fließen kann und beide Bauteile sauber benetzt.
+
+Beim Spannungsregler sind die zwei Pads betroffen, die nicht mit `+VDC` oder
+`+3.3V` beschriftet sind. Auch bei den folgenden Modulen und der Diode wird dir
+dieser Effekt auffallen.
+{{% /alert %}}
 
 ## USB-C-Lademodul (blau)
 
 Das Lademodul ist ein blaues Modul mit einer USB-C Buchse darauf.
 
-Trenne von einer geraden Stiftleiste **sechs einzelne Stifte ab**.
+Trenne von einer geraden Stiftleiste **zwei Zweiergruppen und zwei einzelne
+Stifte** ab (insgesamt 6 Stifte).
 
 Platziere das Modul auf der Unterseite der Hauptplatine. Stecke die Stifte in
 die entsprechenden Löcher, sodass das schwarze Plastikteil sichtbar ist. Prüfe,
 dass das Modul **flach und ohne Lücke** auf der Hauptplatine aufliegt, sonst
 passt am Ende das Ladekabel nicht.
 
-Fixiere nun die Stifte mit Verpackungsmaterial (z.B. aus der ESP32 Verpackung)
-und drehe die Hauptplatine samt Modul und Stiften um. Achte darauf, dass
-keine Stifte herausgefallen sind. Löte die Stifte auf der Oberseite der Hauptplatine fest.
+Fixiere nun die Stifte mit Verpackungsmaterial oder etwas Klebeband und drehe
+die Hauptplatine samt Modul und Stiften um. Achte darauf, dass keine Stifte
+herausgefallen sind. Löte die Stifte dann auf der Oberseite der Hauptplatine fest.
 
-Drehe nun alles wieder um, und entferne die schwarzen Plastikteile von den
+Drehe nun alles wieder um und entferne die schwarzen Plastikteile von den
 Stiften, indem du sie mit einer Pinzette oder Zange nach oben ziehst. Löte alle
-Stifte an das Lademodul und kürze alle überstehenden Stifte mit dem
+Stifte an das Lademodul und kürze die überstehenden Stifte mit dem
 Seitenschneider.
 
 {{< slider >}}
   {{< slider-image
     src="v1.0.0/charger1.jpg"
-    alt="Mit stiftleisten fixieren" >}}
+    alt="Stecke die Stifte in die entsprechenden Löcher." >}}
   {{< slider-image
     src="v1.0.0/charger2.jpg"
-    alt="Mit Verpackungsmaterial (z.B. aus der ESP32 Verpackung) fixieren und Platine umdrehen" >}}
+    alt="Fixiere die Stifte mit Verpackungsmaterial und drehe die ganze Platine um." >}}
   {{< slider-image
     src="v1.0.0/charger3.jpg"
-    alt="Pins auf der Platinenoberseite verlöten" >}}
+    alt="Verlöte die Pins auf der Platinenoberseite." >}}
   {{< slider-image
     src="v1.0.0/charger4.jpg"
-    alt="Plastikteile von den Pins abziehen"
+    alt="Ziehe die schwarzen Plastikteile von den Pins ab."
     noprint=true >}}
   {{< slider-image
     src="v1.0.0/charger5.jpg"
-    alt="Pins mit dem blauen Modul verlöten" >}}
+    alt="Verlöte die Pins mit dem blauen Lademodul." >}}
 {{< /slider >}}
 
 ## Kleine elektronische Bauteile
 
 ### Widerstände
-
-{{% alert title="Achtung: Bauteile aus alter Version" color="warning" %}}
-Kommen deine Bauteile aus einem alten Bausatz, kann es sein, dass
-die Widerstände auf einem Papier mit Widerstandswerten aufgeklebt sind.
-Ordne die Widerstände anhand der Tabelle neu zu, da die Widerstandsnummern
-sich mit 1.0.0 geändert haben.
-{{% /alert %}}
 
 Ordne zunächst alle Widerstände richtig zu, indem du die Farbcodes abliest oder
 mit einem Multimeter misst:
@@ -220,9 +225,17 @@ mit einem Multimeter misst:
 
 </div>
 
+{{% alert title="Achtung: Bauteile aus alter Version" color="warning" %}}
+Kommen deine Bauteile aus einem alten Bausatz, kann es sein, dass
+die Widerstände auf einem Papier mit Widerstandswerten aufgeklebt sind.
+Ordne die Widerstände anhand der Tabelle neu zu, da die Widerstandsnummern
+sich mit 1.0.0 geändert haben.
+{{% /alert %}}
+
+
 Nachdem du alle Widerstände zugeordnet hast, platziere sie an den dafür
 vorgesehenen Stellen auf der Vorderseite der Hautplatine. Stecke die Beinchen
-jeweils durch die beiden Löcher und biege sie etwa 30&thinsp;°C nach außen, sodass die
+jeweils durch die beiden Löcher und biege sie etwa 30° nach außen, sodass die
 Widerstände nicht mehr herausfallen. Drehe die Platine um und löte alle Beine
 auf der Rückseite fest. Danach schneide den überstehenden Draht ab.
 
@@ -232,19 +245,19 @@ gehen wir davon aus, dass du auch weißt, wie du sie anbringst.
 {{< slider >}}
   {{< slider-image
     src="v1.0.0/widerstande1.jpg"
-    alt="Die Widerstände platzieren." >}}
+    alt="Platziere alle Widerstände." >}}
   {{< slider-image
     src="v1.0.0/widerstande2.jpg"
-    alt="Auf der Rückseite durch Verbiegen fixieren." >}}
+    alt="Verbiege die Beine auf der Rückseite, um die Bauteile zu fixieren." >}}
   {{< slider-image
     src="v1.0.0/widerstande3.jpg"
-    alt="Verlöten." >}}
+    alt="Verlöte alle Kontakte." >}}
 {{< /slider >}}
 
 ### Kondensatoren
 {{% alert title="Achtung: Unterschiedliche Kondensatorgrößen" color="warning" %}}
 Es gibt C2 und C3 in unterschiedlichen Baugrößen. Bevor du sie festlötest,
-prüfe, ob sie unter den ESP passen. Passen sie nicht, montiere sie liegend.
+prüfe, ob sie unter den ESP32 passen. Passen sie nicht, montiere sie liegend.
 {{% /alert %}}
 
 Identifiziere zunächst alle Kondensatoren und ordne sie korrekt zu. **C1** ist
@@ -253,7 +266,7 @@ hellbraun und hat manchmal die Aufschrift *104* (verwechsle ihn nicht mit der
 Sicherung, die normalerweise gelb ist). **C2** und **C3** sind
 Elektrolytkondensator mit 22&thinsp;µF Kapazität, diese sind normalerweise
 schwarz mit heller Aufschrift, zylinderförmig und haben zwei unterschiedlich
-lange Beine an einer Seite.
+lange Beine, die aus der gleichen Seite des Zylinders herauskommen.
 
 Bei C2 und C3 musst du **auf die Polung auf Platine und Kondensator achten**!
 Ein Plus-Symbol auf der Platine zeigt die Seite, auf die das längere Bein
@@ -271,13 +284,13 @@ Beine auf der Rückseite fest und schneide anschließend den überstehenden Drah
     alt="Die Kondensatoren" >}}
   {{< slider-image
     src="v1.0.0/kondensatoren01.jpg"
-    alt="C1 und C2 platzieren." >}}
+    alt="Platziere C1 und C2." >}}
   {{< slider-image
     src="v1.0.0/kondensatoren03.jpg"
-    alt="Prüfen: Passt C2 unter den ESP? Falls nicht: Hinreichend lange Beinchen nach oben überstehen lassen, um C2 liegend zu montieren." >}}
+    alt="Prüfe, ob C2 unter den ESP32 passt. Falls nicht, lasse ausreichend lange Beinchen nach oben überstehen, um C2 liegend zu montieren." >}}
   {{< slider-image
     src="v1.0.0/kondensatoren02.jpg"
-    alt="C3 Montieren. Wie bei C2 prüfen, ob er unter den ESP passt."
+    alt="Montiere C3, und prüfe wie bei C2, ob er unter den ESP32 passt."
     noprint=true >}}
 {{< /slider >}}
 
@@ -326,8 +339,8 @@ gelötet werden muss, damit die Farbzuordnung mit der Platinenbedruckung
 
 
 {{% alert title="Achtung: Heiße Pins" color="warning" %}}
-Die Pins leiten die Hitze durch den Stecker hindurch, eine Pinzette
-beim Löten ist daher empfehlenswert.
+Die Pins leiten die Hitze durch den Stecker hindurch, es empfiehlt sich daher,
+zum Festhalten beim Löten eine Pinzette zu verwenden.
 {{% /alert %}}
 
 Stecke den Stecker auf die Platine, drehe sie um und löte auf der Rückseite
@@ -344,8 +357,9 @@ Bei der Diode musst du dringend die **Polung beachten**. Die Diode "steht" auf
 dem Kreis auf dem PCB, der weiße Ring auf der Diode zeigt dabei nach oben (von der Platine weg).
 Auf der Platine ist die richtige Polung auch als Piktogramm abgebildet.
 
-Biege das Bein auf seite des Ringes der Diode um und stecke sie an die richtige Stelle. Kürze die
-Enden bereits vor dem Löten, um beim Lötvorgang weniger Metall aufheizen zu müssen.
+Biege das Bein auf Seite des Ringes komplett herum und stecke die Diode an die
+richtige Stelle. Kürze die Enden bereits vor dem Löten, um beim Lötvorgang
+weniger Metall aufheizen zu müssen.
 
 Eigentlich sollen Halbleiter nur kurz gelötet werden, aber dieses ist ein sehr
 großes Bauteil und auch erstaunlich robust. Arbeite zügig, aber erwarte, dass
@@ -402,7 +416,7 @@ Lötzinn, sodass es wieder leichter fließt, und löte sie dann aus, indem du si
 einzeln erhitzt und mit einer Pinzette herausziehst. Reinige anschließend die zwei
 Löcher mit einer Entlötsaugpumpe oder etwas Entlötlitze, sodass sie nicht mehr
 verstopft sind. Löte dann die gewinkelte Buchse so ein, dass sie von der
-Winkelstiftleiste weg zeigt (also auf der Rückseite der Platine sitzt).
+Winkelstiftleiste weg zeigt. Sie sollte auf der Rückseite der Platine sitzen.
 
 Die **zweite Option** ist der Einsatz einer Winkelstiftleiste anstelle der
 richtigen JST-Buchse. Löte wie oben beschrieben die vorhandene gerade
@@ -439,7 +453,7 @@ auf voller Länge auf dem PCB auf, sondern hat "Luft" darunter. Dies kannst du
 gut korrigieren, indem du die Hauptplatine mit Board in eine Hand nimmst,
 sodass du mit dem Finger oder Daumen die Ausrichtung des Boards korrigieren
 kannst. Mit der anderen Hand kannst du jetzt noch den Lötkolben führen. Da der
-erste Pin bereits verlötet ist, benötigst du kein Dritte Hand für das Lötzinn.
+erste Pin bereits verlötet ist, benötigst du kein dritte Hand für das Lötzinn.
 Passe die Ausrichtung so lange an, bis sie aus allen Richtungen gut
 aussieht.
 
@@ -464,10 +478,13 @@ verbaut, verzichte auf diesen Schritt.
 
 Nach den Sensorboards kann das Adafruit Spannungsreglermodul verbaut werden.
 
-- Kürze die mitgelieferte Pinleiste auf drei Pins.
-- Stecke die Pinleiste von der Bestückungsseite auf das Board des Spannungsreglers.
-- Stecke den Spannungsregler von unten auf die OpenBikeSensor Platine, so dass
-  folgende Verbindungen entstehen (keine Sorge: das Adafruit-Modul liefert auch 3.3V, hatte aber nicht genug Platz für die Nachkommastelle):
+Kürze die mitgelieferte Stiftleiste auf drei Stifte. Stecke diese von der
+Bestückungsseite auf das Board des Spannungsreglers und löte sie fest.
+
+Stecke den Spannungsregler von unten auf den Addon-Bereich der Hauptplatine,
+sodass folgende Verbindungen entstehen (keine Sorge, das Adafruit-Modul liefert
+die benötigten 3,3&nbsp;V, hatte aber nicht genug Platz für die
+Nachkommastelle):
 
 <center>
 
@@ -479,36 +496,37 @@ Nach den Sensorboards kann das Adafruit Spannungsreglermodul verbaut werden.
 
 </center>
 
-- Klebe etwas Isolierband über die Lötstellen des Ultraschall boards unter das 3.3V
-  board
-- Verlöte die Pins auf beiden Seiten, wie immer erst einen Pin, Orientierung nachjustieren
-  dann die anderen Pins
-- **Setze eine Lötbrücke zwischen `EN` und `VIN` des 3.3V Reglers (siehe Bilder).** Du kannst
-  dafür z.B. einen abgeschnittenen Pin eines Widerstands verwenden.
+Klebe etwas Isolierband über die Lötstellen des Ultraschallboards, wo der
+Spannungsregler später sitzen wird. Stecke dann den Spannungsregler
+an seinen Platz und löte ihn fest.
+
+**Setze eine Lötbrücke zwischen `EN` und `VIN` des 3.3V Reglers (siehe
+Bilder).** Du kannst dafür z.B. einen abgeschnittenen Pin eines Widerstands
+verwenden.
 
 {{< slider >}}
   {{< slider-image
     src="v1.0.0/ada3v3_01.jpg"
-    alt="3.3V Board - Position und Lötbrückenpositionierung." >}}
+    alt="Position und Lötbrückenpositionierung." >}}
   {{< slider-image
     src="v1.0.0/ada3v3_02.jpg"
-    alt="3.3V Board - Position mit Lötbrücke." >}}
+    alt="Position mit Lötbrücke." >}}
   {{< slider-image
     src="v1.0.0/ada3v3_04.jpg"
-    alt="3V3 Board Pins - Ansicht von Platinenoberseite" >}}
+    alt="Ansicht von Platinenoberseite" >}}
   {{< slider-image
     src="v1.0.0/ada3v3_05.jpg"
-    alt="3.3V Board - Position mit Lötbrücke." >}}
+    alt="Das Isolierband trennt den Spannungsregler von den Kontakten auf der Hauptplatine." >}}
   {{< slider-image
     src="v1.0.0/ada3v3_06.jpg"
-    alt="3.3V Board - Seitenansicht." >}}
+    alt="Seitenansicht des montierten Adafruit-Spannungsreglers." >}}
 {{< /slider >}}
 
 ## SD-Karten-Modul und GPS-Modul
 
 Trenne von einer Winkelstiftleiste eine Gruppe von 6 Stiften ab. Stecke sie
 genau wie in der Abbildung gezeigt in das SD-Karten-Modul ein. Die **korrekte
-Ausrichtung ist wichtig**, es gibt viele Möglichkeiten die Stiftleiste zu stecken
+Ausrichtung ist wichtig**, es gibt viele Möglichkeiten die Stiftleiste zu stecken,
 und die meisten davon passen am Ende nicht.
 
 - Die Stiftleiste wird von der Oberseite der Modulplatine aufgesteckt.
