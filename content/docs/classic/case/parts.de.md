@@ -1,5 +1,5 @@
 ---
-title: Gehäusebauteile
+title: Gehäusebauteile OpenBikeSensor Classic
 linkTitle: Bauteile
 weight: 30
 ---

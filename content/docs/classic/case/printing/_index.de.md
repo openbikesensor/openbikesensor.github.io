@@ -1,5 +1,6 @@
 ---
-title: Gehäusedruck
+title: Gehäusedruck OpenBikeSensor Classic
+linkTitle: Gehäusedruck
 weight: 10
 ---
 
