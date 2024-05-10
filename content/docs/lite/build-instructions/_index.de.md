@@ -202,10 +202,18 @@ Mit einem Papier als Abstandshalter kannst du den Heißkleber während er noch w
 Form der Rundung  des Tastergehäuses folgt  und das Konstrukt später flach am Lenker anleigt.
 
 
-### Montage
+### Taste auf Taster
 
 Setze die Taste auf den Taster. Funktioniert das nicht mit sanftem Druck, kannst du mit eienem Modelliermesser oder
-einer Feile den Stempel auf der Unterseite der Taste zurechtschnitzen. Wenn das nicht hilft, empfiehlt es sich, die 
+einer feinen Feile den Stempel auf der Unterseite der Taste zurechtschnitzen. Wenn das nicht hilft, empfiehlt es sich, die 
 Taste noch mal neu und maßhaltiger zu drucken.
 
+## Montage am Rad
+Bilder sagen mehr als worte:
+
+Todo Bilder:
+- OBS Lite an Sattelstütze
+- Handy mit SimRa und Taster am Lenker
+
+Weiteres...
 
