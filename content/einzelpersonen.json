@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Ball"
+        },
+        "description": "**Ort:** Aalen<br/>**Name:** Sophie<br/>**Kontaktinfo:** Forum: @Sophie<br/>**Anzahl:** 1 Sensor<br/>**Weblink:** https://obs.adfc-bw.de/",
+        "name": "Aalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.091629,
+          48.833838
+        ]
+      },
+      "id": "g1NzE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berlin",
+        "description": "**Ort:** Berlin<br/>**Name:** Benjamin Bös<br/>**Kontakt:** [@dasBoes](https://twitter.com/dasBoes)<br/>**Anzahl:** 1 Sensor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.378236,
+          52.529701
+        ]
+      },
+      "id": "I1NzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hilden",
+        "description": "**Name der Initiative:** D.Halmer<br/>**Kontaktinfo:** daniel@mundlandung.org<br/>**Weblink:**[ Fahrrad Dashcam Düsseldorf-Hilden ](https://www.youtube.com/channel/UCVtn4YPJLiG9-HWl9yeqJcw)<br/> "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.929626,
+          51.167997
+        ]
+      },
+      "id": "YzMTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "joerg_g_aus_e",
+        "description": "Kontaktmöglichkeit (Twitter): @JoergGausE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.03128,
+          51.47511
+        ]
+      },
+      "id": "U4ODY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lebach",
+        "description": "**Name**: Daniel B. <br/>**Anzahl**: 1 Sensor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.904382,
+          49.407414
+        ]
+      },
+      "id": "MxOTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minden",
+        "description": "**Name:** Rainer Lodemann<br/>**Kontakt:** [lodi](https://forum.openbikesensor.org/u/lodi) im Forum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.904247,
+          52.312978
+        ]
+      },
+      "id": "M2Mjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mönchengladbach",
+        "description": "**Kontaktinfo:**@AmNordpark (Twitter)<br/>**Kontakt-E-Mail-Adresse:** <br/>[amnordpark@gmail.com](mailto:amnordpark@gmail.com)<br/>**Anzahl:** 1 Sensor<br/>**Weblink:** [Am Nordpark](https://www.youtube.com/channel/UCG4PzbZkDeSbfwLbWw2LG2w)<br/><br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.437302,
+          51.196589
+        ]
+      },
+      "id": "Q1Mzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Ball",
+          "color": "Black"
+        },
+        "name": "Pforzheim",
+        "description": "**Ort:** Pforzheim<br/>**Name:** Natenom<br/>**Kontakt:** [@natenom](https://twitter.com/natenom)<br/>**Anzahl:** 1 Sensor<br/>**Weblink:** [natenom.com](https://natenom.com)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.701934,
+          48.889757
+        ]
+      },
+      "id": "AyNTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ratingen",
+        "description": "**Name:** Christian Kicken<br/>**Kontaktinfo:** Twitter @christiankicken / Mail <br/>[Obs-ratingen@t-online.de](mailto:Obs-ratingen@t-online.de)<br/>**Anzahl:** 1 Sensor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.846199,
+          51.299037
+        ]
+      },
+      "id": "I5NTg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spröckhövel",
+        "description": "**Name der Einzelperson:**<br/>**Kontaktinfo:** [moni-juergen@gmx.net](mailto:moni-juergen@gmx.net)<br/>**Anzahl:** 1 Sensor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.251148,
+          51.368323
+        ]
+      },
+      "id": "Y5NDI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name:** Peter Polacek <br/>**Sensoren:** 7 gebaut, bei verschiedenen Personen<br/>**Kontakt:** pepponia@gmail.com<br/>**Anmerkung** Habe vor Workshops zum Zusammenbau zu organisieren, warte auf Portal für Österreich (evtl. via Radlobby Wien)",
+        "name": "Wien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.334202,
+          48.235179
+        ]
+      },
+      "id": "QxOTg"
+    }
+  ],
+  "_umap_options": {
+    "displayOnLoad": true,
+    "inCaption": true,
+    "browsable": true,
+    "editMode": "advanced",
+    "remoteData": {},
+    "id": "c25f6b60-3998-4860-bb14-97254e2ef413",
+    "name": "Einzelpersonen",
+    "iconClass": "Ball",
+    "popupContentTemplate": "",
+    "showLabel": null,
+    "old_id": 2057507,
+    "permissions": {
+      "edit_status": 0
+    }
+  }
+}

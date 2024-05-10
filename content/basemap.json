@@ -1,0 +1,211 @@
+{
+  "tiles": [
+    "http://localhost:8000/data/basemap/{z}/{x}/{y}.pbf"
+  ],
+  "name": "Tilemaker to OpenMapTiles schema",
+  "format": "pbf",
+  "basename": "basemap.mbtiles",
+  "id": "basemap",
+  "type": "baselayer",
+  "version": "3.0",
+  "description": "Tile config based on OpenMapTiles schema",
+  "minzoom": 0,
+  "maxzoom": 14,
+  "bounds": [
+    -62.01719,
+    -21.72922,
+    56.11999,
+    81.05195
+  ],
+  "center": [
+    -2.9486,
+    29.661365,
+    7
+  ],
+  "vector_layers": [
+    {
+      "id": "place",
+      "fields": {
+        "capital": "Number",
+        "class": "String",
+        "iso_a2": "String",
+        "name:latin": "String",
+        "rank": "Number"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "boundary",
+      "fields": {
+        "admin_level": "Number",
+        "disputed": "Number"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "poi",
+      "fields": {
+        "class": "String",
+        "indoor": "Boolean",
+        "layer": "Number",
+        "level": "Number",
+        "name:latin": "String",
+        "rank": "Number",
+        "subclass": "String"
+      },
+      "minzoom": 12,
+      "maxzoom": 14
+    },
+    {
+      "id": "housenumber",
+      "fields": {
+        "housenumber": "String"
+      },
+      "minzoom": 14,
+      "maxzoom": 14
+    },
+    {
+      "id": "waterway",
+      "fields": {
+        "brunnel": "String",
+        "class": "String",
+        "intermittent": "Number",
+        "name:latin": "String"
+      },
+      "minzoom": 8,
+      "maxzoom": 14
+    },
+    {
+      "id": "transportation",
+      "fields": {
+        "access": "String",
+        "bicycle": "String",
+        "brunnel": "String",
+        "class": "String",
+        "expressway": "Boolean",
+        "foot": "String",
+        "horse": "String",
+        "layer": "Number",
+        "mtb_scale": "String",
+        "oneway": "Number",
+        "service": "String",
+        "surface": "String",
+        "toll": "Boolean"
+      },
+      "minzoom": 4,
+      "maxzoom": 14
+    },
+    {
+      "id": "transportation_name",
+      "fields": {
+        "class": "String",
+        "name:latin": "String",
+        "network": "String",
+        "ref": "String",
+        "ref_length": "Number"
+      },
+      "minzoom": 8,
+      "maxzoom": 14
+    },
+    {
+      "id": "building",
+      "fields": {
+        "class": "String",
+        "indoor": "Boolean",
+        "layer": "Number",
+        "name:latin": "String",
+        "rank": "Number",
+        "render_height": "Number",
+        "render_min_height": "Number",
+        "subclass": "String"
+      },
+      "minzoom": 13,
+      "maxzoom": 14
+    },
+    {
+      "id": "water",
+      "fields": {
+        "class": "String",
+        "intermittent": "String"
+      },
+      "minzoom": 6,
+      "maxzoom": 14
+    },
+    {
+      "id": "water_name",
+      "fields": {
+        "class": "String",
+        "name:latin": "String"
+      },
+      "minzoom": 14,
+      "maxzoom": 14
+    },
+    {
+      "id": "aeroway",
+      "fields": {
+        "class": "String",
+        "ref": "String"
+      },
+      "minzoom": 11,
+      "maxzoom": 14
+    },
+    {
+      "id": "aerodrome_label",
+      "fields": {
+        "class": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "iata": "String",
+        "icao": "String",
+        "name:latin": "String"
+      },
+      "minzoom": 10,
+      "maxzoom": 14
+    },
+    {
+      "id": "park",
+      "fields": {
+        "class": "String",
+        "name:latin": "String"
+      },
+      "minzoom": 11,
+      "maxzoom": 14
+    },
+    {
+      "id": "landuse",
+      "fields": {
+        "class": "String"
+      },
+      "minzoom": 4,
+      "maxzoom": 14
+    },
+    {
+      "id": "landcover",
+      "fields": {
+        "class": "String",
+        "indoor": "Boolean",
+        "layer": "Number",
+        "name:latin": "String",
+        "rank": "Number",
+        "subclass": "String"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "mountain_peak",
+      "fields": {
+        "class": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "name:latin": "String",
+        "rank": "Number"
+      },
+      "minzoom": 11,
+      "maxzoom": 14
+    }
+  ],
+  "tilejson": "2.0.0"
+}
