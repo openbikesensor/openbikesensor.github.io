@@ -916,7 +916,7 @@ der Zugentlastung für die Mutter vorgesehen ist.
 Zunächst muss die OpenBikeSensor-Firmware auf den ESP32 installiert werden.
 Dieser Vorgang heißt auf Englisch "to flash" oder eingedeutscht "flashen".
 
-Schließe dafür den ESP32 mit einem Mikro-USB Kabel direkt an einen Computer an.
+Schließe dafür den ESP32 mit einem Mikro-USB oder USB-C Kabel direkt an einen Computer an.
 Benutze dann eine der folgenden Methoden, um die Firmware darauf zu installieren:
 
 * Das online Flash-Tool auf
