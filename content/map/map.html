@@ -126,14 +126,25 @@
                 // get the year from the source's "year" property
                 'icon-image': 'group-marker',
                 'icon-anchor': 'bottom',
-                'icon-size': 0.3,
+                'icon-size': [
+                    'step',
+                    ['get', 'point_count'],
+                    0.2,
+                    3,
+                    0.4,
+                    5,
+                    0.5
+                ],
                 'text-field': ["step", ["zoom"], "", 1, ["get", "point_count"]],
                 'text-font': [
                     'Open Sans Semibold',
                     'Arial Unicode MS Bold'
                 ],
-                'text-offset': [0, -3],
-                'text-anchor': 'top',
+                'text-offset': [0, 1],
+                'text-anchor': 'bottom',
+                'text-allow-overlap': false,
+                'text-optional': true,
+                'icon-allow-overlap': true
 
             }
         });
