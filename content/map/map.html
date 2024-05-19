@@ -13,6 +13,7 @@
         body { margin: 0; padding: 0; }
         html, body, #map { height: 100%; }
     </style>
+    <base target="_blank">
 </head>
 <body>
 <div id="map"></div>
@@ -35,7 +36,7 @@
     });
 
     map.addControl(new maplibregl.AttributionControl({
-    customAttribution: '<A HREF="https://www.openstreetmap.org/copyright">&copy; OpenStreetMap</A> contributors.'
+    customAttribution: '<A HREF="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap</A> contributors.'
     }),'top-left');
 
 
