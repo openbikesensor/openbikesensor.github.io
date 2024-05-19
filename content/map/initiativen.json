@@ -713,6 +713,21 @@
         ]
       },
       "id": "A4MTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**: ADFC Wetterau<br/>**Kontaktinfo**: [obs@adfc-badnauheim-friedberg.de](mailto:obs@adfc-badnauheim-friedberg.de)<br/>**Anzahl:** 15 Sensoren<br/>**Webseite:** https://www.adfc-badnauheim-friedberg.de/OpenBikeSensor<br/>**Kurzbeschreibung:** Gemeinsame Initiative der beiden ADFC Gliederungen für den Wetteraukreis: ADFC Bad Vilbel / Karben e.V. & ADFC Bad Nauheim Friedberg e.V.<br/>",
+        "name": "ADFC Wetterau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.932210,
+          50.3623105
+        ]
+      },
+      "id": "Wetterau"
     }
   ],
   "_umap_options": {
