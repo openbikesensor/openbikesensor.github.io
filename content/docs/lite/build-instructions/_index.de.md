@@ -16,7 +16,7 @@ description: >
 {{< print-qr-link >}}
 
 {{% alert title="Betaversion" color="warning" %}}
-Wir haben den OpenBikeSensor Lite gerade erst fertig. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Toll, dass du es trotzdem probieren willst, wenn du Fehler findest, sag im Forum Bescheid!
+Wir arbeiten noch am OpenBikeSensor Lite. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Toll, dass du es trotzdem probieren willst, wenn du Fehler findest, sag im Forum Bescheid!
 {{% /alert %}}
 
 ## Löten

@@ -3,6 +3,10 @@ title: Gehäusebauteile OpenBikeSensor Lite
 linkTitle: Gehäuse
 weight: 30
 ---
+{{% alert title="Betaversion" color="warning" %}}
+Wir arbeiten noch am OpenBikeSensor Lite. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Toll, dass du es trotzdem probieren willst, wenn du Fehler findest, sag im Forum Bescheid!
+{{% /alert %}}
+
 Es gibt viele Möglichkeiten, ein Gehäuse für deinen OpenBikeSensor Lite zu bekommen.
 Unter Umständen findest du in der Community hilfreiche Bastler:innen, die dir
 ein Gehäuse herstellen -- Frage hierzu am besten [im Forum]({{< relref
