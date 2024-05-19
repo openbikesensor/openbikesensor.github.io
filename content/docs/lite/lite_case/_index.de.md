@@ -38,15 +38,14 @@ genug, dass du sicher abstrahieren kannst, was du davon auch für den OpenBikeSe
 ### Hauptgehäuse
 
 {{< 3dpart-table >}}
-{{< 3dpart name="LiteCase/LiteCase">}}Das Hauptgehäuse, in dem die Elektronik untergebracht ist. Zum Drucken in mehrere 
-Körper zerlegen und auf der Druckplatte unterbringen.{{< /3dpart >}}
+{{< 3dpart name="LiteCase/LiteCase">}}Das Hauptgehäuse, in dem die Elektronik untergebracht ist. Die Modelle sind bereits in Druckausrichtung im stl. Gegebenenfalls kannst du für den Deckel einen Streifen manuellen Support entlang der Mittellinie ziehen und einen brim aktivieren, normalerweise funktioniert es aber auch mit Brücken einwandfrei.{{< /3dpart >}}
 
 {{< /3dpart-table >}}
 
 ### Taster
 
 {{< 3dpart-table >}}
-{{< 3dpart name="LiteCase/HandlebarButton">}}Halterung und Taste für den Lenker.{{< /3dpart >}}
+{{< 3dpart name="LiteCase/HandlebarButton">}}Halterung und Taste für den Lenker. Hier bitte im Slicer so herum drehen, dass die Tastenoberfläche auf dem Druckbett gedruckt wird. Es sind keine Supports erforderlich.{{< /3dpart >}}
 
 {{< /3dpart-table >}}
 
