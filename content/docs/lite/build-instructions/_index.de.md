@@ -28,6 +28,12 @@ Alle Teile f&uuml;r den OpenBikeSensor Lite.
 Die Lötschritte sind so sortiert, dass zunächst die flachen Komponenten verlötet werden.
 
 ### Schalterpolarisierung einstellen
+
+{{% alert title="Nur für PCB 0.1.2" color="info" %}}
+Dieser Schritt ist nur bei PCB 0.1.2 notwendig. Hast du ein neueres PCB, überspringe diesen Schritt.
+{{% /alert %}}
+
+
 Hast du ein Board der Version 0.1.2, so musst du zunächst mit einem Cuttermesser eine optionale Verbindung auf dem Board durchtrennen, und dann eine Lötbrücke zwischen zwei weiteren Pins herstellen. Der Pin, dessen Verbindung zu seinen beiden Nachbarpins durchtrennt werden muss ist der mit einem Pfeil markierte Pin neben den Lötflöchen für den Platinenstecker für den Button. Wenn du ein Multimeter hast, kannst du nachmessen, ob die Verbindung zwischen den angrenzenden Pads erfolgreich unterbrochen wurde.
 
 Nun müssen die beiden darunter liegenden Pins mit einer Lötbrücke verbunden werden.

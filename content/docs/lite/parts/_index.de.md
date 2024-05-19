@@ -41,21 +41,28 @@ JSN-SR04T-V3.0 Sensormodule
   <td>1</td>
   <td>ESP32-WROOM Development Board (USB-C Variante, 30 pins)</td>
   <td>
-    <a href="https://www.aliexpress.com/item/1005001636295529.html">aliexpress.com</a> - Wanzai Store (Variante <i>ESP-32 30P</i>)<br>
+    <a href="https://de.aliexpress.com/item/1005006476900011.html">aliexpress.com</a><br>
   </td>
 </tr>
 <tr>
   <td>1</td>
   <td>40-Pin Buchsenleiste (2.54mm pitch)</td>
   <td>
-    <a href="https://www.aliexpress.com/item/1005001636295529.html">aliexpress.com</a> - Wanzai Store (Variante <i>ESP-32 30P</i>)<br>
+    <a href="https://de.aliexpress.com/item/33057778113.html">aliexpress.com</a><br>
   </td>
 </tr>
 <tr>
   <td>1</td>
-  <td>40-Pin Buchsenleiste (2.54mm pitch)</td>
+  <td>USB-C auf USB-C-Kabel in c.a. 2m Länge</td>
   <td>
-    <a href="https://www.aliexpress.com/item/1005001636295529.html">aliexpress.com</a> - Wanzai Store (Variante <i>ESP-32 30P</i>)<br>
+    Aus deiner Kabelkiste.
+  </td>
+</tr>
+<tr>
+  <td>2m</td>
+  <td>Zweiadriges Kabel. Abgeschnittene Koax-Ultraschallkabel von OpenBikeSensor Classic Bauaktionen funktionieren auch gut.</td>
+  <td>
+   Aus deiner Kabelkiste.
   </td>
 </tr>
 
@@ -67,6 +74,13 @@ JSN-SR04T-V3.0 Sensormodule
     <br/>
     <a href="https://turmberg3d.de/products/gewindeeinsatze-fur-kunststoffteile?variant=39376894066883">amazon.de 2</a>
   </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Low Profile Cherry Taste</td>
+  <td>
+    <a href="https://de.aliexpress.com/item/1005006217543375.html">aliexpress.com</a>
+</td>
 </tr>
 
 <tr><th colspan="3">Kleinteile</th></tr>
@@ -85,14 +99,11 @@ JSN-SR04T-V3.0 Sensormodule
 
 <tr>
   <td>2</td>
-  <td>JSN-SR04T Sensormodule (Hinweis beachten)</td>
+  <td>JSN-SR04T Sensormodule <b>mit Ultraschalltransducer auf dem Board montiert</b> (Hinweis beachten)</td>
 
   <td>
     <a href="https://de.aliexpress.com/item/4000057298353.html">EC-Buying, aliexpress.com (JSN-SR04T-v3.0)</a>
     <br/>
-    <a href="https://de.aliexpress.com/item/32863960886.html">EC-Buying, aliexpress.com (JSN-SR04T-v3.0)</a>
-    <br/>
-    <a href="https://www.androegg.de/shop/jsn-sr04t-ver-2-ttl-ultraschall-distanz-naeherungs-sensor-set">androegg.de (JSN-SR04T-v3.0)</a>
   </td>
 
 </tr>   
@@ -102,19 +113,17 @@ JSN-SR04T-V3.0 Sensormodule
 <tr><th colspan="3">Spezialanfertigungen</th></tr>
 <tr>
   <td>1</td>
-  <td>PCB 1.0.0 <br/>Im Zip im Unterverzeichnis <code>OpenBikeSensor</code> - Je nach Hersteller mit den Kicad Dateien oder via <code>generated/OpenBikeSensor1.0.0-Gerber.zip</code>. z.B. bei <a href="https://aisler.net/?lang=de-DE">aisler.de</a> oder <a href="jlcpcb.com">jlpcb</a></td>
+  <td>PCB 0.1.3 <br/>Im Zip im Unterverzeichnis <code>OpenBikeSensorLite/generated</code> - Je nach Hersteller mit den Kicad Dateien oder via <code>0.1.3.zip</code>. z.B. bei <a href="https://aisler.net/?lang=de-DE">aisler.de</a> oder <a href="jlcpcb.com">jlpcb</a></td>
   <td>
-    -<a href="https://github.com/openbikesensor/OpenBikeSensor_PCB_Board/releases/tag/1.0.0">1.0.0 PCB als zip</a><br/>
+    -<a href="blob:https://github.com/d50e8422-0eab-4a9c-ba26-8e361a258cc3">0.1.3 PCB als zip</a><br/>
     -<a href="https://github.com/openbikesensor/OpenBikeSensor_PCB_Board">PCB git repo</a>
-
-
   </td>
 </tr>
 <tr>
   <td>1</td>
   <td>3D-Druck: Hauptgehäuse, Displaygehäuse, Halterung(en)</td>
   <td>
-    <a href={{< relref "docs/classic/case" >}}>Link</a>
+    <a href={{< relref "docs/lite/lite_case" >}}>Link</a>
   </td>
 </tr>
 
