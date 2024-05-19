@@ -404,9 +404,11 @@ vermutlich überspringen (bitte nachfragen) und direkt mit dem Einbau beginnen.
 {{% /alert %}}
 
 {{% alert title="Achtung: Auf Polung achten" color="warning" %}}
-Durch die Verwendung einer gewinkelten Buchse wird die Polung im
-Vergleich zu vorher vertauscht. Die Sensorkabel-Stecker werden später beim
-Crimpen entsprechend umgekehrt gepolt in das Steckergehäuse eingeführt.
+Manche Sensorboards haben den Plus- und Minuspol markiert.
+Bitte merken oder markieren, falls die Polung durch den folgenden Umbau nicht mehr zu
+lesen ist. Ist nichts markiert ist der Minuspol auf der Seite des Ultraschallboards,
+die weiter von dem metallischen quaderförmigen Bauteil in der Ecke der 
+Ultraschallplatine entfernt ist.
 {{% /alert %}}
 
 Die **erste Option** ist die bevorzugte. Dafür wird die JST-Buchse auf dem
@@ -644,7 +646,10 @@ Entferne, falls vorhanden, einzelne abstehende Leiter der Schirmung die nicht
 im Crimp gesichert sind, sodass diese keinen Kurzschluss verursachen können.
 
 Führe die Crimpkontakte in das Steckergehäuse ein. Achte dabei auf die **korrekte
-Polung**. Falls die Sensorboards modifiziert und mit gewinkelten
+Polung**. Die Schirmung muss auf dem Pin des Ultraschallboards zu liegen kommen, das etwas mehr zur Mitte
+der Hauptplatine hin zeigt. Auf manchen Ultraschallboards ist der zugehörige Pin mit Minus markiert.
+
+Falls die Sensorboards modifiziert und mit gewinkelten
 JST-Platinensteckern ausgestattet wurden (siehe *Sensorboards &raquo;
 Vorbereitung*), wurde die **Polung der Buchsen vertauscht** und du musst deinen
 Stecker ebenfalls andersherum polen.
@@ -911,7 +916,7 @@ der Zugentlastung für die Mutter vorgesehen ist.
 Zunächst muss die OpenBikeSensor-Firmware auf den ESP32 installiert werden.
 Dieser Vorgang heißt auf Englisch "to flash" oder eingedeutscht "flashen".
 
-Schließe dafür den ESP32 mit einem Mikro-USB Kabel direkt an einen Computer an.
+Schließe dafür den ESP32 mit einem Mikro-USB oder USB-C Kabel direkt an einen Computer an.
 Benutze dann eine der folgenden Methoden, um die Firmware darauf zu installieren:
 
 * Das online Flash-Tool auf

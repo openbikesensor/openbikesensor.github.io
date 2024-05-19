@@ -1,0 +1,747 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aachen",
+        "description": "**Name**: ADFC Aachen/RWTH Aachen<br/>**Anzahl**: im Aufbau<br/>**Kontakt**: [openbikesensor@lists.adfc-ac.de](mailto:openbikesensor@lists.adfc-ac.de<br/>)<br/>URL: [aachen.adfc.de](https://aachen.adfc.de/)<br/><br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.073149,
+          50.770184
+        ]
+      },
+      "id": "g2OTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**: ADFC Baden-Baden Bühl Rastatt<br/>**Anzahl**: 14<br/>**Kontakt**: [robert.stephan@adfc-bw.de](mailto:robert.stephan@adfc-bw.de)<br/>**Weblink:** [https://baden-baden.adfc.de/](https://baden-baden.adfc.de/)",
+        "name": "ADFC Baden-Baden Bühl Rastatt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.15442,
+          48.86172
+        ]
+      },
+      "id": "Q1MzE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Ort:** Rottstraße 5, 45127 Essen<br/>**Name der Initiative:** ADFC Essen<br/>**Kontakt:** [info@adfc-essen.de](mailto:info@adfc-essen.de)<br/>**Anzahl:** 6 Sensoren im Verleih<br/>**Weblink:** https://essen.adfc.de/",
+        "name": "ADFC Essen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.01181,
+          51.45878
+        ]
+      },
+      "id": "UxMjM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ADFC Osnabrück",
+        "description": "**Ort:** Große Gildewart 12, 49074 Osnabrück<br/>**Name der Initiative:** ADFC Osnabrück<br/>**Kontakt:** [markus im OpenBikeSensor Forum](https://forum.openbikesensor.org/u/markus)<br/>**Anzahl:** >20 Sensoren<br/>**Weblink:** [https://obs.adfc-osnabrueck.de/](https://obs.adfc-osnabrueck.de/) <br/>**Anmerkung:** Die Technikgruppe des ADFC Osnabrück hat im Sommer 2022 20 OBS gebaut, die zum Teil auch verliehen werden. Das Portal kann grundsätzlich von jedem Interessenten genutzt werden, der Daten in Niedersachen und NRW aufzeichnet. In Osnabrück und umzu kümmern wir uns um die Auswertung und Kommunikation mit der jeweiligen Verwaltung. In anderen Regionen müsst ihr das bitte selbst übernehmen. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.039428,
+          52.277547
+        ]
+      },
+      "id": "cxMzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**: ADFC Augsburg<br/>**Anzahl**: 12<br/>**Kontakt**: [obs@adfc-augsburg.de](mailto:obs@adfc-augsburg.de)<br/>**Weblink:** [https://augsburg.adfc.de/](https://augsburg.adfc.de/)",
+        "name": "Augsburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8937,
+          48.36869
+        ]
+      },
+      "id": "Y5Mzc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Backnang",
+        "description": "**Name der Initiative:** ADFC Backnang<br/>**Kontaktinfo:**[backnang@adfc-bw.de](mailto:backnang@adfc-bw.de)<br/>**Anzahl:** 3 Sensoren<br/>**Weblink:** [Zeitungsbericht](https://www.bkz.de/nachrichten/sensoren-vermessen-ueberholmanoever-125390.html)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.429703,
+          48.946857
+        ]
+      },
+      "id": "YyMDg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name der Initiative:** Bürgerinitiative + ADFC BW<br/>**Kontaktinfo:** [ benedikt.glitz@adfc-bw.de](mailto: benedikt.glitz@adfc-bw.de)<br/>**Weblink**: [https://obs.adfc-bw.de/](https://obs.adfc-bw.de/)",
+        "name": "Bad Waldsee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.755859,
+          47.921546
+        ]
+      },
+      "id": "k3MjI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bietigheim-Bissingen",
+        "description": "**Name der Initiative:** ADFC Bietigheim-Bissingen<br/>**Kontaktinfo:** [bietigheim-bissingen@adfc-bw.de](mailto:bietigheim-bissingen@adfc-bw.de)<br/>**Anzahl:** 5 Sensoren<br/>**Weblink:** [www.adfc-bw.de/bietigheim-bissingen](https://www.adfc-bw.de/bietigheim-bissingen/?page=aktionen/abstand_1_5m/openbikesensor.php)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.137106,
+          48.94992
+        ]
+      },
+      "id": "cwNjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bochum",
+        "description": "**Name der Initiative:** Radwende Bochum<br/>**Kontakt:** [radwende-bochum@zeromail.org](mailto:radwende-bochum@zeromail.org)<br/>**Anzahl Sensoren:** 1<br/>**Webseite**: [https://www.radwende-bochum.de](https://www.radwende-bochum.de)<br/>**Mastodon**: [https://ruhr.social/@RadwendeBochum/](https://ruhr.social/@RadwendeBochum/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.207213,
+          51.479565
+        ]
+      },
+      "id": "A0NDM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bodenseekreis",
+        "description": "**Name der Initiative:** ADFC Bodenseekreis<br/>**Kontaktinfo:** [buero-bodenseekreis@adfc-bw.de](mailto:buero-bodenseekreis@adfc-bw.de)<br/>**Anzahl**: >=5 Sensoren<br/>**Weblink**: [https://www.adfc-bw.de/bodenseekreis/startseite/ADFC Bodenseekreis](https://www.adfc-bw.de/bodenseekreis/startseite/ADFC Bodenseekreis)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.483433,
+          47.658045
+        ]
+      },
+      "id": "cwNDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bottrop",
+        "description": "**Name der Initiative:** Aufbruch Fahrrad Bottrop<br/>**Anzahl:** 5 Sensoren (noch in Bestellung)<br/>**Kontaktinfo:**[Aufbruch Fahrrad Bottrop](mailto:kontakt@aufbruchfahrradbottrop.de) <br/>**Weblink:**[Aufbruch Fahrrad Bottrop](https://aufbruchfahrradbottrop.de/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.931686,
+          51.520722
+        ]
+      },
+      "id": "MxMDE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Braunschweig",
+        "description": "**Name**: OpenBikeSensor Braunschweig<br/>**Anzahl der Sensoren:** 30<br/>**Kontakt**: [obs_bs@outlook.de](mailto:obs_bs@outlook.de)<br/>**Weblink:** [OpenBikeSensor Braunschweig](https://www.sandkasten.tu-braunschweig.de/projekte/openbikesensor-fuer-bs-sicher-auf-dem-rad)<br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.52843,
+          52.27403
+        ]
+      },
+      "id": "gwNDk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dachau",
+        "description": "**Name der Initiative:** ADFC Dachau<br/>**Kontaktinfo:** Twitter (@adfcdachau)<br/>**Anzahl:** 5 Sensoren<br/>**Weblink:** https://www.adfc-dachau.de/abstandsmessungen/ <br/>**Über uns:** Der OpenBikeSensor wird seit Anfang 2021 eingesetzt. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.435932,
+          48.25679
+        ]
+      },
+      "id": "U1Mzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Darmstadt-Dieburg",
+        "description": "**Ort:** Am Fürstenbahnhof 5, 64293 Darmtadt<br/>**Name der Initiative:** ADFC Darmstadt-Dieburg e.V.<br/>**Kontakt:** [obs@adfc-darmstadt.de](mailto:obs@adfc-darmstadt.de)<br/>**Anzahl:** 23 Sensoren<br/>**Weblink:** [Visualisierung der Straßenabschnitte](https://www.adfc-darmstadt.de/obs/roads.html) [Projektseite](https://www.adfc-darmstadt.de/obs)<br/>**Anmerkung:** Messungen im Stadtgebiet und im Landkreis Darmstadt-Dieburg."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.630576,
+          49.87198
+        ]
+      },
+      "id": "YwMDg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dresden",
+        "description": "**Name der Initiative:** ADFC Dresden e.V.<br/>**Kontakt:** [info@adfc-dresden.de](mailto:info@adfc-dresden.de)<br/>**Anzahl:** 6 Sensoren<br/>**Webseite:** https://www.adfc-dresden.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.748424,
+          51.063414
+        ]
+      },
+      "id": "c2NzE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Ort:** Bachmannstr. 2 – 4 60488 Frankfurt a.M. <br/>**Name der Initiative:** ADFC Frankfurt am Main e.V.<br/>**Kontakt:** [obs@adfc-frankfurt.de](mailto:obs@adfc-frankfurt.de) [Mastodon](https://hessen.social/@joschi64)<br/>**Anzahl:** 18 Sensoren im Verleih<br/>**Weblink:** [ADFC Frankfurt](https://www.adfc-frankfurt.de/)",
+        "name": "Frankfurt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.626156,
+          50.131484
+        ]
+      },
+      "id": "I2Nzk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Freiburg",
+        "description": "**Name der Initiative:** Lokalgruppe Freiburg<br/>**Kontakt:** [Kategorie im Forum](https://forum.openbikesensor.org/t/ueber-die-kategorie-freiburg-im-breisgau/410)<br/>**Anzahl Sensoren:** Aktiv unterwegs ca. 15, gebaut schon einige mehr, für/mit anderen Regionen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8494,
+          47.99608
+        ]
+      },
+      "id": "k2NzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fulda ",
+        "description": "**Name der Initiative:** ADFC Fulda e.V.<br/>**Kontakt:** [info@adfc-fulda.de](mailto:info@adfc-fulda.de)<br/>**Anzahl:** 5 Sensoren (geplant) "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.684448,
+          50.555649
+        ]
+      },
+      "id": "U0NTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gmund am Tegernsee",
+        "description": "**Name**: Oberlab<br/>**Kontaktinfo**: [info@oberlab.de](mailto:info@oberlab.de)<br/>**Anzahl**: 5 Sensoren (In Planung)<br/>**Weblink**: [https://oberlab.de/](https://oberlab.de/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.737726,
+          47.750568
+        ]
+      },
+      "id": "E2ODQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Graz",
+        "description": "**Name der Initiative:** Radlobby ARGUS Steiermark<br/>**Kontakt:** [argus.steiermark@radlobby.atstmk.radlobby.at](mailto:argus.steiermark@radlobby.atstmk.radlobby.at)<br/>**Anzahl Sensoren:** 3 (im Bau) "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.44711,
+          47.061729
+        ]
+      },
+      "id": "IxNTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haan",
+        "description": "**Name der Initiative:** ADFC OG Haan<br/>**Kontakt:** [ADFC OG Haan](mailto:joerg.pieper@adfc-haan.de)<br/>**Anzahl:** 1 Sensoren<br/>**Weblink:** [haan.adfc.de](https://haan.adfc.de/)<br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.01,
+          51.2
+        ]
+      },
+      "id": "kwNTM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamburg",
+        "description": "**Name der Initative:** Welcome Werkstatt e. V.<br/>**Kontaktinfo:** [info@welcome-werkstatt.de](mailto:info@welcome-werkstatt.de)<br/>**Anzahl:** 30 Sensoren<br/>**Weblink:** [Welcome Werkstatt](https://www.welcome-werkstatt.de)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.022042,
+          53.579965
+        ]
+      },
+      "id": "QxMDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamburg",
+        "description": "**Name der Initative:** ADFC Hamburg e.V.<br/>**Kontaktinfo:** [openbikesensor@hamburg.adfc.de ](mailto:openbikesensor@hamburg.adfc.de )<br/>**Anzahl:** 10 Sensoren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.009854,
+          53.557445
+        ]
+      },
+      "id": "A2MzY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamminkel ",
+        "description": "**Name der Initiative:** ADFC Hamminkeln<br/>**Kontaktinfo:** [info@adfc-hamminkeln.de](info@adfc-hamminkeln.de)<br/>**Anzahl:** 3 Sensoren<br/>**Weblink:** [ADFC Hamminkel](https://hamminkeln.adfc.de/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.591969,
+          51.733862
+        ]
+      },
+      "id": "c0MTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hattingen",
+        "description": "**Name der Initiative:** ADFC Ortsgruppe Hattingen<br/>**Kontaktinfo:**[gisenberg55@gmail.com](mailto:gisenberg55@gmail.com)<br/>**Anzahl:** 3 Sensoren<br/>**Weblink:** [Gerd Isenberg](https://touren-termine.adfc.de/benutzer/e8424913-631c-4e64-b94c-b1c626790871)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1876,
+          51.399059
+        ]
+      },
+      "id": "A2NzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name der Initiative:** Institut für Straßen- und Eisenbahnwesen (ISE), Karlsruher Institut für Technologie (KIT)<br/>**Kontaktinfo:** [philipp.riemer@kit.edu](mailto:philipp.riemer@kit.edu)<br/>**Anzahl:** 4 Sensoren<br/>**Weblink:** [www.ise.kit.edu](https://www.ise.kit.edu)",
+        "name": "Karlsruhe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.415501,
+          49.009928
+        ]
+      },
+      "id": "g4NTk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name:** Open Bike Sensor Köln<br/>**Kontakt:** Logistik [https://social.cologne/@cityradler](https://social.cologne/@cityradler), techn. Support [https://social.cologne/@kampfteppich](https://social.cologne/@kampfteppich)<br/>**Anzahl**: 29 Sensoren ab ca. März 2022",
+        "name": "Köln"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.965547,
+          50.941421
+        ]
+      },
+      "id": "EzMDM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Konstanz ",
+        "description": "**Name der Initative:** Stadt Konstanz <br/>**Kontaktinfo:** [https://www.konstanz.de/digital/foerderprojekte/deas/testfeld+radverkehr](https://www.konstanz.de/digital/foerderprojekte/deas/testfeld+radverkehr)<br/>**Anzahl:** 10 Sensoren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.173664,
+          47.66056
+        ]
+      },
+      "id": "k5MDQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Langen",
+        "description": "**Name der Initiative:** ADFC-VILE-OBS<br/>**Über uns:** Wir haben uns zum Ziel gemacht mit unserem Projekt zur Verbesserung der Verkehrswege für Radfahrende beizutragen. Sichere Radwege führen zu mehr Nutzung und damit leisten wir einen mittelbaren Beitrag zum Umweltschutz und Gesundheitsvorsorge<br/>**Kontakt:** [info@adfc-langen.de](mailto:info@adfc-langen.de)<br/>**Anzahl:** 15 Sensoren<br/>**Weblink:** [www.adfc-langen.de](https://www.adfc-langen.de)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.666772,
+          49.987309
+        ]
+      },
+      "id": "IzMzU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Langenhagen",
+        "description": "**Name der Initiative:** Ortsgruppe Langenhagen im ADFC Region Hannover e.V.<br/>**Kontaktinfo:** [langenhagen@adfc-hannover.de](mailto:langenhagen@adfc-hannover.de)<br/>**Anzahl:** im Aufbau <br/>**Weblink:**[ADFC Langenhagen](https://www.ADFC-Langenhagen.de)<br/> "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.757091,
+          52.440396
+        ]
+      },
+      "id": "g1MzY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**: Initiative pro Fahrrad Lübbecke e.V.<br/>**Anzahl der Sensoren:** 3<br/>**Kontakt**: [obs@pro-fahrrad-lk.de](mailto: obs@pro-fahrrad-lk.de)<br/>**Weblink:** [Pro Fahrrad LK](https://www.pro-fahrrad-lk.de )<br/>",
+        "name": "Lübbecke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.61793,
+          52.30279
+        ]
+      },
+      "id": "Y4Njg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lübeck",
+        "description": "**Name der Initiative:** ADFC Lübeck e.V.<br/>**Kontaktinfo:**[kontakt@adfc-luebeck.de](mailto:kontakt@adfc-luebeck.de) <br/>**Anzahl:** 10 Sensoren (ab Frühjahr 2022)<br/>**Website:** [ADFC Lübeck](https://luebeck.adfc.de/) ",
+        "_umap_options": {
+          "showLabel": null,
+          "labelInteractive": true
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.685577,
+          53.86723
+        ]
+      },
+      "id": "c2NjI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ludwigshafen",
+        "description": "**Name der Initiative:** Brückenkaffee Ludwigshafen<br/>**Kontaktinfo:** [wolf.mango@freenet.de](mailto:wolf.mango@freenet.de)<br/>**Anzahl:** 5 Sensoren<br/>Weblink: [Brückenkaffee Ludwigshafen](https://brueckenkaffee.de/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.448486,
+          49.505584
+        ]
+      },
+      "id": "Q2ODA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**: ADFC Main-Taunus e.V.<br/>**Anzahl der Sensoren:** 10<br/>**Kontakt**: [roland.behme@adfc-mtk.de](mailto:roland.behme@adfc-mtk.de)<br/>**Weblink:** [ADFC MTK](https://www.adfc-mtk.de/)<br/>",
+        "name": "MTK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.445683,
+          50.085027
+        ]
+      },
+      "id": "I2MjE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mainz",
+        "description": "**Name der Initiative:** OpenBikeSensor Mainz<br/>**Kontaktinfo:** [Twitter @RonaldL01864352](https://twitter.com/RonaldL01864352/)<br/>**Anzahl:** 5 Sensoren, min einer im Verleih<br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.300794,
+          49.978954
+        ]
+      },
+      "id": "IzNDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München",
+        "description": "**Name der Initiative:** ADFC München<br/>**Kontaktinfo:** Twitter (@ADFC_Muenchen)<br/>**Anzahl:** 20 Sensoren<br/>**Weblink:** [Visualisierung der Straßenabschnitte](https://www.adfc-muenchen.de/radverkehr/projekt-ueberholabstaende-mit-dem-openbikesensor-messen/) <br/> "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.584053,
+          48.136815
+        ]
+      },
+      "id": "QyNTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Offenburg",
+        "description": "**Name der Initiative:** ADFC Offenburg<br/>**Kontaktinfo:** [offenburg@adfc-bw.de](mailto:offenburg@adfc-bw.de)<br/>**Weblink:** [https://obs.adfc-bw.de/](https://obs.adfc-bw.de/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.926636,
+          48.470223
+        ]
+      },
+      "id": "I2Mzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RadEntscheid Essen",
+        "description": "**Ort:** Gemarkenstraße 72, 45147 Essen<br/>**Name der Initiative:** RadEntscheid Essen<br/>**Kontakt:** [info@radentscheid-essen.de](mailto:info@radentscheid-essen.de)<br/>**Anzahl:** 11 Sensoren im Verleih<br/>**Weblink:** [Projektseite](https://radentscheid-essen.de/openbikesensor/)<br/>**Anmerkung:** Über uns: Der RadEntscheid Essen verleiht über das Portal “[Essener Lastenrad](https://essener-lastenrad.de/zubehoer/openbikesensoren)” elf solcher Messgeräte für jeweils vier Wochen. Die gesammelten Daten sind anonymisiert auf dem Essener [OBS-Portal](https://obs.radentscheid-essen.de/map#13.00/51.441/7.016) zu finden und geben Auskunft darüber, wie eng im Durchschnitt auf den verschiedenen Straßenabschnitten in Essen überholt wird. Inzwischen gibt es in Essen über 30 (teilweise private) OpenBikeSensoren."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.99348,
+          51.44155
+        ]
+      },
+      "id": "gwMzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Radentscheid Schwerin",
+        "description": "**Name der Initiative:** Radentscheid Schwerin<br/>**Kontaktinfo:**[kontakt@radentscheid-schwerin.de](mailto:kontakt@radentscheid-schwerin.de) <br/>**Anzahl:** ca. 50 Sensoren <br/>**Website:** [Radentscheid Schwerin](https://www.radentscheid-schwerin.de) "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.411104,
+          53.628659
+        ]
+      },
+      "id": "EzNjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Region Hannover ",
+        "description": "**Name der Initative**: Region Hannover<br/>**Weblink:**[Region Hannover](https://www.region-hannover.de ) "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.745215,
+          52.366695
+        ]
+      },
+      "id": "IwNTk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saarbrücken",
+        "description": "**Name der Initiative:** Radelkollektiv, Welveränderer e.V.<br/>**Kontakt:** [Harald Kreuzer](mailto:harald@radelkollektiv.de)<br/>[Pierre-Jean Guéno](mailto:pierre_jean@sensor.community)<br/>**Anzahl:** 3 Sensoren<br/>**Weblink:** [https://saarland-nachhaltig.de/](https://saarland-nachhaltig.de/) "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.968175,
+          49.245887
+        ]
+      },
+      "id": "IxNjI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salzburg",
+        "description": "**Name**: Universität Salzburg, Mobility Lab am Fachbereich Geoinformatik, Z_GIS<br/>**Kontaktinfo**: [mobilitylab@plus.ac.at](mailto:mobilitylab@plus.ac.at)<br/>**Anzahl**: 4 Sensoren (ältere Bauart)<br/>**Weblink**: [https://mobilitylab.zgis.at/](https://mobilitylab.zgis.at/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.03956,
+          47.82348
+        ]
+      },
+      "id": "Y0OTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sprockhövel",
+        "description": "**Name der Initiative:** ADFC-EN Ortsgruppe Sprockhövel<br/>**Kontaktinfo:** [Chantrain4@t-online.de](mailto:Chantrain4@t-online.de)<br/>**Anzahl:** 2 Sensoren<br/>**Weblink:**[ADFC EN](https://kreisverbaende.adfc-nrw.de/kv-ennepe-ruhr/willkommen-beim-adfc-ennepe-ruhr.html/)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.249947,
+          51.366769
+        ]
+      },
+      "id": "cxOTk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stuttgart",
+        "description": "**Name**: Zweirat Stuttgart<br/>**Kontaktinfo**: Twitter-Handle @zweirat0711<br/>**Anzahl**: ca. 20 Sensoren<br/>**Weblink**: [OpenBikeSensor – Zweirat Stuttgart](https://zweirat-stuttgart.de/projekte/openbikesensor/)<br/> ",
+        "_umap_options": {
+          "iconUrl": "https://www.openbikesensor.org/favicon.ico",
+          "iconClass": "Default"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.171281,
+          48.763659
+        ]
+      },
+      "id": "M0Nzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ulm / Neu Ulm",
+        "description": "**Name der Initiative:** ADFC Ulm/Neu-Ulm, Verschwoerhaus<br/>**Kontaktinfo:** [kontakt@adfc-ulm.de](mailto:kontakt@adfc-ulm.de);[kontakt21@verschwoerhaus.de](mailto:kontakt21@verschwoerhaus.de)<br/>**Anzahl:** 10 Sensoren<br/>**Weblink:** [Verschwoerhaus ](https://verschwoerhaus.de/tag/openbikesensor/)<br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.996529,
+          48.396872
+        ]
+      },
+      "id": "I3MzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wiesbaden",
+        "description": "**Name der Initiative:** ADFC Wiesbaden / Rheingau-Taunus e.V.<br/>**Kontakt:** [info@adfc-wiesbaden.de](mailto:info@adfc-wiesbaden.de)<br/>**Anzahl:** 3 Sensoren<br/>**Weblink:** [https://www.adfc-wiesbaden.de](https://www.adfc-wiesbaden.de) "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.229072,
+          50.079546
+        ]
+      },
+      "id": "kxNDI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**: TH Wildau - Projekt „Zu Nah?“<br/>**Kontaktinfo**: [zoe.ingram@th-wildau.de](mailto:zoe.ingram@th-wildau.de)<br/>**Anzahl:** 50 Sensoren<br/>**Webseite:** https://innohub13.de/wir-forschen/zu-nah/<br/>**Portal:** https://obs.adfc-brandenburg.de/<br/>",
+        "name": "Wildau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.632491,
+          52.319245
+        ]
+      },
+      "id": "A4MTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**: ADFC Wetterau<br/>**Kontaktinfo**: [obs@adfc-badnauheim-friedberg.de](mailto:obs@adfc-badnauheim-friedberg.de)<br/>**Anzahl:** 15 Sensoren<br/>**Webseite:** https://www.adfc-badnauheim-friedberg.de/OpenBikeSensor<br/>**Kurzbeschreibung:** Gemeinsame Initiative der beiden ADFC Gliederungen für den Wetteraukreis: ADFC Bad Vilbel / Karben e.V. & ADFC Bad Nauheim Friedberg e.V.<br/>",
+        "name": "Wetterau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.932210,
+          50.3623105
+        ]
+      },
+      "id": "Wetterau"
+    }
+  ],
+  "_umap_options": {
+    "displayOnLoad": true,
+    "inCaption": true,
+    "browsable": true,
+    "editMode": "advanced",
+    "name": "Initiativen",
+    "id": "de86d9a9-c521-45bb-afe6-1c2d80dafeed",
+    "remoteData": {},
+    "showLabel": null,
+    "old_id": 2040764,
+    "permissions": {
+      "edit_status": 0
+    }
+  }
+}

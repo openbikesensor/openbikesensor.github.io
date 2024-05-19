@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add a vector tile source</title>
+    <meta property="og:description" content="Add a vector source to a map."/>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=400pt, initial-scale=1">
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.css'/>
+    <script src='https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        html, body, #map { height: 100%; }
+    </style>
+    <base target="_blank">
+</head>
+<body>
+<div id="map"></div>
+<script>
+    async function get_transform(url) {
+        r = await fetch(url);
+        points = await r.json();
+        for(let x in points.features) {
+            points.features[x].properties.description = marked.parse(points.features[x].properties.description);
+        }
+        return points;
+    }
+
+    const map = new maplibregl.Map({
+        container: 'map',
+        style:
+            'darkmatter.json',
+        zoom: 6,
+        center: [10.0,51.0],
+    });
+
+    map.addControl(new maplibregl.AttributionControl({
+    customAttribution: '<A HREF="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap</A> contributors.'
+    }),'top-left');
+
+
+    map.on('load', async () => {
+        // Add an image to use as a custom marker
+        initiativen = await get_transform('initiativen.json');
+        einzelpersonen = await get_transform('einzelpersonen.json');
+
+
+        const personImage = await map.loadImage('pin.png');
+        map.addImage('person-marker', personImage.data);
+
+        const groupImage = await map.loadImage('map_indicator.png');
+        map.addImage('group-marker', groupImage.data);
+
+        // Add a GeoJSON source with 15 points
+        map.addSource('initiativen', {
+            'type': 'geojson',
+            'data': initiativen,
+            'cluster': true
+        });
+
+                // Add a GeoJSON source with 15 points
+        map.addSource('personen', {
+            'type': 'geojson',
+            'data': einzelpersonen,
+            'cluster': false
+        });
+
+
+
+                // Add a symbol layer
+        map.addLayer({
+            'id': 'apersonen',
+            'source': 'personen',
+            'type': 'symbol',
+                        filter: ['!', ['has', 'point_count']],
+
+            'layout': {
+                // get the year from the source's "year" property
+                'icon-image': 'person-marker',
+                'icon-anchor': 'bottom-left',
+                'icon-size': 0.15,
+                'text-field': ["step", ["zoom"], "", 10, ["get", "name"]],
+                'text-font': [
+                    'Open Sans Semibold',
+                    'Arial Unicode MS Bold'
+                ],
+                'text-offset': [0, 1.25],
+                'text-anchor': 'top'
+            }
+        });
+
+
+        // Add a symbol layer
+
+
+
+
+                map.addLayer({
+            'id': 'conferences',
+            'source': 'initiativen',
+            'type': 'symbol',
+                        filter: ['!', ['has', 'point_count']],
+
+            'layout': {
+                // get the year from the source's "year" property
+                'icon-image': 'group-marker',
+                'icon-anchor': 'bottom',
+                'icon-size': 0.2,
+                'text-field': ["step", ["zoom"], "", 8, ["get", "name"]],
+                'text-font': [
+                    'Open Sans Semibold',
+                    'Arial Unicode MS Bold'
+                ],
+                'text-offset': [0, 0.5],
+                'text-anchor': 'top',
+                'text-optional': true,
+                'text-allow-overlap': false,
+                'icon-allow-overlap': true
+            }
+        });
+
+                        map.addLayer({
+            'id': 'counts',
+            'source': 'initiativen',
+            'type': 'symbol',
+                        filter: ['has', 'point_count'],
+
+            'layout': {
+                // get the year from the source's "year" property
+                'icon-image': 'group-marker',
+                'icon-anchor': 'bottom',
+                'icon-size': [
+                    'step',
+                    ['get', 'point_count'],
+                    0.25,
+                    3,
+                    0.4,
+                    5,
+                    0.5
+                ],
+                'text-field': ["step", ["zoom"], "", 1, ["get", "point_count"]],
+                'text-font': [
+                    'Open Sans Semibold',
+                    'Arial Unicode MS Bold'
+                ],
+                'text-offset': [0, 1],
+                'text-anchor': 'bottom',
+                'text-allow-overlap': false,
+                'text-optional': true,
+                'icon-allow-overlap': true
+
+            }
+        });
+
+          map.on('click', 'conferences', (e) => {
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            new maplibregl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+        });
+                map.on('click', 'counts', async (e) => {
+            const features = map.queryRenderedFeatures(e.point, {
+                layers: ['counts']
+            });
+            const clusterId = features[0].properties.cluster_id;
+            const zoom = await map.getSource('initiativen').getClusterExpansionZoom(clusterId);
+            map.easeTo({
+                center: features[0].geometry.coordinates,
+                zoom
+            });
+        });
+        map.on('click', 'apersonen', (e) => {
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            new maplibregl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+        });
+
+        // Change the cursor to a pointer when the mouse is over the places layer.
+        map.on('mouseenter', 'conferences', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+                map.on('mouseenter', 'apersonen', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+
+
+        // Change it back to a pointer when it leaves.
+        map.on('mouseleave', 'conferences', () => {
+            map.getCanvas().style.cursor = '';
+        });
+                map.on('mouseleave', 'apersonen', () => {
+            map.getCanvas().style.cursor = '';
+        });
+    map.addControl(new maplibregl.AttributionControl(), 'top-left');
+    });
+
+
+</script>
+</body>
+</html>
