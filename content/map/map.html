@@ -32,8 +32,11 @@
             'darkmatter.json',
         zoom: 6,
         center: [10.0,51.0],
-        attributionControl:  {customAttribution: 'Map data <A HREF="https://www.openstreetmap.org/copyright">©️OpenStreetMap</A> contributors'},
     });
+
+    map.addControl(new maplibregl.AttributionControl({
+    customAttribution: '<A HREF="https://www.openstreetmap.org/copyright">&copy; OpenStreetMap</A> contributors.'
+    }),'top-left');
 
 
     map.on('load', async () => {

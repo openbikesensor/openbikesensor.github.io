@@ -14,7 +14,7 @@ In vielen Regionen gibt es schon OpenBikeSensoren! Suchst du Gleichgesinnte
 oder Ansprechpartner in deiner Gegend? Die Karte hilft dir dabei. Möchtest du
 selbst oder deine Initiative noch auf der Karte auftauchen? [Im
 Forum](https://forum.openbikesensor.org/t/karte-der-lokalinitiativen-und-nutzer/389)
-erfährst du, wie!
+erfährst du, wie! Alternativ kannst du [hier](https://github.com/openbikesensor/openbikesensor.github.io/blob/main/content/map/) einen Pull request für die ``initiativen.json`` oder ``einzelpersonen.json`` unterbringen.
 
 <div class="container full-width" style="height: calc(100vh - 160px);">
     <iframe src="/map/map.html" width="100%" height="100%">
