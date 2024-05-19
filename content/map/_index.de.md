@@ -17,6 +17,6 @@ Forum](https://forum.openbikesensor.org/t/karte-der-lokalinitiativen-und-nutzer/
 erfährst du, wie!
 
 <div class="container full-width" style="height: calc(100vh - 160px);">
-    <iframe src="https://umap.openstreetmap.fr/en/map/openbikesensor-initiativen_702977#6/51.207/14.941" width="100%" height="100%">
+    <iframe src="/map/map.html" width="100%" height="100%">
     </iframe>
 </div>
