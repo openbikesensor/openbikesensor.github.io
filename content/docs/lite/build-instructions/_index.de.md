@@ -21,7 +21,7 @@ Wir haben den OpenBikeSensor Lite gerade erst fertig. Vor dir hat ihn kaum jeman
 
 ## Löten
 
-{{< imgproc "images_raw/lite_parts.jpg" Fit "800x600" >}}
+{{< imgproc "images_lite/lite_parts.jpg" Fit "800x600" >}}
 Alle Teile f&uuml;r den OpenBikeSensor Lite.
 {{< /imgproc >}}
 
@@ -35,26 +35,26 @@ Nun müssen die beiden darunter liegenden Pins mit einer Lötbrücke verbunden w
 
 {{< slider >}}
   {{< slider-image
-    src="images_raw/00_00.jpg"
+    src="images_lite/00_00.jpg"
     alt="Die Platine des OBS Lite" 
     noprint=true >}}
   {{< slider-image
-    src="images_raw/00_01.jpg"
+    src="images_lite/00_01.jpg"
     alt="Durchtrenne die Leiterbahn zum oberen Ende des Selektors mit einem Cuttermesser."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/00_02.jpg"
+    src="images_lite/00_02.jpg"
     alt="Setze eine Lötbrücke auf die unteren beiden Punkte des Selektors."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/00_03.jpg"
+    src="images_lite/00_03.jpg"
     alt="Die fertige Lötbrücke."
     noprint=false >}}
 {{< /slider >}}
 
-### Platinenstecker für Taster
+### Winkelstecker für Taster
 
-Wenn du eine Krimpzange hast, kannst du nun den Platinenstecker für den Taster auf das Board löten. Stecke den Platinenstecker durch das board, und löte von der Unterseite erst einen Pin, kontrolliere den Sitz, löte dann den zweiten Pin.
+Wenn du eine Krimpzange hast, kannst du nun den Winkelstecker für den Taster auf das Board löten. Stecke den Stecker durch das Board, und löte von der Unterseite erst einen Pin, kontrolliere den Sitz, löte dann den zweiten Pin.
 
 {{% alert title="Löten statt Buchse" color="info" %}}
 Hast du keine Buchse oder keine Krimpzange, kannst du diesen Schritt auslassen, und später direkt das Kabel des Tasters auf das Board löten. 
@@ -63,19 +63,19 @@ Hast du keine Buchse oder keine Krimpzange, kannst du diesen Schritt auslassen, 
 
 {{< slider >}}
   {{< slider-image
-    src="images_raw/01_00.jpg"
+    src="images_lite/01_00.jpg"
     alt="Platinenstecker vor der Verl&ouml;tung" 
     noprint=false >}}
   {{< slider-image
-    src="images_raw/01_01.jpg"
+    src="images_lite/01_01.jpg"
     alt="Platinenstecker platziert."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/01_02.jpg"
+    src="images_lite/01_02.jpg"
     alt="Platinenstecker erster Pin verlötet, ansicht Unterseite."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/01_03.jpg"
+    src="images_lite/01_03.jpg"
     alt="Platinenstecker beide Pins verlötet, ansicht Oberseite."
     noprint=true >}}
 {{< /slider >}}
@@ -95,15 +95,15 @@ Wenn du insgesamt mit einer 40 Pin langen Buchsenleiste auskommen willst, kannst
 
 {{< slider >}}
   {{< slider-image
-    src="images_raw/02_00.jpg"
+    src="images_lite/02_00.jpg"
     alt="40er Leiste beim Einkürzen" 
     noprint=false >}}
   {{< slider-image
-    src="images_raw/02_01.jpg"
+    src="images_lite/02_01.jpg"
     alt="15er und 4er Leisten."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/02_02.jpg"
+    src="images_lite/02_02.jpg"
     alt="die 4x Leisten müssen mit ordentlich Spiel zwischen die Arme des Ultraschallpositionierers passen. Schneide die überstehenden reste vom Einkürzen bündig ab."
     noprint=false >}}
 {{< /slider >}}
@@ -118,27 +118,27 @@ Hast du dich oben für 14-Pin Buchsenleisten entschieden, musst du beim Löten d
 
 {{< slider >}}
   {{< slider-image
-    src="images_raw/03_01.jpg"
+    src="images_lite/03_01.jpg"
     alt="Leisten und ESP" 
     noprint=false >}}
   {{< slider-image
-    src="images_raw/03_02.jpg"
+    src="images_lite/03_02.jpg"
     alt="Positionierung der Leisten"
     noprint=false >}}
   {{< slider-image
-    src="images_raw/03_02_b.jpg"
+    src="images_lite/03_02_b.jpg"
     alt="Sind nur 14 Pins verfügbar müssen die Leisten am USB-Ende der Platine gesteckt werden."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/03_03.jpg"
+    src="images_lite/03_03.jpg"
     alt="Löte jeweils zuerst die Pins in den Ecken und kontrolliere dann noch mal den richtigen Sitz der Leiste und korrigiere ggf nach, bevor du den Rest lötest."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/03_04.jpg"
+    src="images_lite/03_04.jpg"
     alt="So sollte es aussehen, wenn alles richtig verlötet ist. Keine Abstände zwischen Leiste und Board und die Leiste sitzt perfekt senkrecht auf der Platine."
     noprint=false >}}
   {{< slider-image
-    src="images_raw/03_05.jpg"
+    src="images_lite/03_05.jpg"
     alt="Zur Kontrolle kannst du kurz den ESP auf die Platine stecken."
     noprint=false >}}
 {{< /slider >}}
@@ -149,48 +149,114 @@ Ziehe nach dem Löten den ESP ab.
 Stecke die 4-Pin Buchsenleisten in die Platine. Löte zunächst einen Pin, kontrolliere, dass die Buchsenleiste ordentlich
 auf dem Board aufliegt, und löte dann die weiteren Pins.
 
-Bilder TODO:
-- Buchsenleisten auf Platine von oben
-- Buchsenleisten auf Platine von unten vorm Löten
-- Buchsenleisten auf Platine mit ohne Abstand von oben nach dem Löten
+
+{{< slider >}}
+  {{< slider-image
+    src="images_lite/04_00.jpg"
+    alt="4er Buchsenleisten gesteckt" 
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/04_01.jpg"
+    alt="Noch ungelötet&hellip;"
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/04_02.jpg"
+    alt="Löte einen Pin für jede der beiden Buchsenleisten, kontrolliere, dass die Buchsenleisten senkrecht stehen und löte dann die verbleibenden Pins. Solange nur ein Pin gelötet ist, kannst du das Lötzinn wieder erhitzen und die Positionierung leicht korrigieren. Löte dann die verbleibenden Pins."
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/04_03.jpg"
+    alt="Falls an der Buchsenleiste noch Überstand ist, ist jetzt eine gute Gelegenheit diesen zu versäubern."
+    noprint=false >}}
+{{< /slider >}}
+
 
 ### Kabel an Taster
-Drücke den Taster in die Lenkerhalterung. Löte dann von unten das Kabel an den Taster.
+Drücke den Taster in die Lenkerhalterung. Schau dir an, wie die Kontakte im Steckergehäuse zu liegen kommen - Es gibt nur zwei Richtungen, in denen der Taster ins Gehäuse gesteckt werden kann. Löte das Kabel an die beiden näher aneinander liegenden Kontakte. Löte so, dass du das Kabel später gut durch die Ausspaarung im Gehäuse herausführen kannst. Wenn du dich traust kannst du das Kabel gleich im Schaltergehäuse löten. Alternativ kannst du den Taster erst außerhalb des Gehäuses löten, und dann das Kabel durch as Loch ziehen und den Taster ins Gehäuse einklicken.
 
-Bilder TODO:
-- Taster in Lenkerhalterung von oben und unten (evtl. ein bild)
-- Kabel an Taster angelötet.
+Stecke zum Schluss die Tasterabdeckung auf den Tasterr
+
+
+{{< slider >}}
+  {{< slider-image
+    src="images_lite/05_00.jpg"
+    alt="Taster und Lenkerhalterung" 
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/05_01.jpg"
+    alt="Taster in Lenkerhalterung"
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/05_02.jpg"
+    alt="Abisoliertes Koaxkabel, die Schirmung muss noch auf etwa 3-4mm abisoliert werden."
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/05_03.jpg"
+    alt="Verlöten am Stecker"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/05_04.jpg"
+    alt="Verlötet"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/05_05.jpg"
+    alt="Im Gehäuse"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/05_06.jpg"
+    alt="Im Gehäuse von Oben."
+    noprint=false >}}
+{{< /slider >}}
 
 ### Kabel an Platine
 {{% alert title="Alternative Bestückung" color="info" %}}
-Wenn du oben einen Platinenstecker für den Taster auf die Platine gelötet hast, kannst du diesen Schritt auslassen.
+Wenn du oben einen Winkelstecker für den Taster auf die Platine gelötet hast, kannst du diesen Schritt auslassen.
 {{% /alert %}}
 
-Bilder TODO:
-- Platine mit Tasterlöchern unbestückt.
-- Platine mit Kabel in Tasteröffnungen.
+Löte das Kabel zum Taster in die Löcher die auf der Platine it "Button" markiert sind.
 
 ### Buchse an Tasterkabel
 {{% alert title="Alternative Bestückung" color="info" %}}
 Wenn du oben das Kabel für den Taster auf die Platine gelötet hast, kannst du diesen Schritt auslassen.
 {{% /alert %}}
-Krimpe zwei Krimpkontakte auf das Kabel des Tasters und montiere diese im Buchsensteckergehäuse.
+**Nutzt du ein zweiadriges Kabel**: Isoliere etwa 3&thinsp;mm von den Adern eines zweiadrigen Kabels ab, und Krimpe JST-XH Crimpkontakte an die Adern.
 
-Bilder TODO:
-- Buchsenstecker
-- Kabel mit Krimps
-- Kabel mit Krimps in Buchsenstecker
+**Nutzt du ein Koaxkabel:** hast, isoliere etwa 1.5&thinsp;c der Außenisolierung ab, verdrille die Schirmung und isoliere vom Mittelleiter etwa 3&thinsp;mm ab. Krimpe zwei JST-XH Krimpkontakte auf die Isolierung und den Mittelleiter.
 
+Stecke die Krimpkontakte dann in die Buchse. Die Seite mit den kleinen Häkchen muss auf der Seite der Aussparung im Steckergehäuse zu liegen kommen.
+
+Stecke das Kabel auf den Winkelstecker.
+
+{{< slider >}}
+  {{< slider-image
+    src="images_lite/06_00.jpg"
+    alt="Abisoliertes Kabel und Buchse" 
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/06_01.jpg"
+    alt="Krimpen"
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/06_02.jpg"
+    alt="Kabel mit Crimpkontakten"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/06_03.jpg"
+    alt="Im Steckergehäuse montiert."
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/06_04.jpg"
+    alt="Gesteckt."
+    noprint=false >}}
+{{< /slider >}}
 
 
 ## Funktionsprüfung
 
-Du hast jetzt alle Komponen Du kannst die Firmware folgendermaßen flashen 
+Du hast jetzt alle Komponenten. Du kannst die Firmware folgendermaßen flashen: 
 
 TODO: wie Firmware flashen / Flashanleitung verallgemeinern.
 
-Nachdem du die aktuelle Firmware auf den ESP geflashed hast, installiere die SimRa App. (TODO: Link zu APK bis Simra
-Stock das kann) 
+Nachdem du die aktuelle Firmware auf den ESP geflashed hast, installiere die SimRa App. (TODO: Link zu APK bis Simra Stock das kann) 
 
 - Stecke die Ultraschallsensoren und den ESP auf die OpenBikeSensor Lite Platine. Verbinde den Taster mit der Platine.
 - Verbinde dein Android-Handy mit der SimRa app mittels eines USB-C-Kabels mit dem ESP.
@@ -205,7 +271,7 @@ Stock das kann)
   gedrückt, verlischt sie.
 
 
-TODO: Screenshots SimRa app mit beispieleinstellungen markiert
+TODO: Screenshots SimRa App mit Beispieleinstellungen markiert
 
 Alles gut? Dann ist die elektronik fertig und du kannst mit dem Einbau ins Gehäuse beginnen.
 
@@ -216,10 +282,20 @@ Gehäuse und drücke ihn mit der Lötkolbenspitze in das Plastik bis seine Kante
 dies Kolbenspitze stumpf genug ist, dass der Kolben nicht unten aus dem einsatz heraus kommt, kannst du den Lötkolben 
 von oben in das  Loch des Gewindeeinsatzes stecken, das ermöglicht dir, den Winkel genau zu kontrollieren).
 
-TODO Bilder:
-- Gehäuse stehend
-- Gehäuse stehend, pinzette mit Gewindeeinsatz an Loch
-- Gehäuse stehend mit allen Gewinden eingeschmolzen.
+{{< slider >}}
+  {{< slider-image
+    src="images_lite/07_00.jpg"
+    alt="Einschmelzmutter positioniert" 
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/07_01.jpg"
+    alt="Einschmelzen"
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/07_02.jpg"
+    alt="Gehäuse fertig mit Muttern versehen"
+    noprint=false >}}
+{{< /slider >}}
 
 ### Einsetzen der Ultraschallboards
 Stecke das erste Ultrachallboard in den OpenBikeSensor Lite. Unten am Gehäuseboden ist eine Vertiefung. In dieser muss
@@ -233,11 +309,24 @@ Gehäuseoberfläche abschließen.
 Wenn beide Boards ordentlich platziert sind, stecke den Abstandhalter so auf die Platinenkante, dass die Pins mittig
 in den Ausspaarungen des Abstandshalters zu liegen kommen.
 
-Todo BILDER:
-- Gehäuse + Boards
-- Erstes Board im Gehäuse von oben rein fotografiert
-- Zweites Board im Gehäuse von oben rein Fotografiert
-- Abstandshalter auf korrekt platzierten Boards.
+{{< slider >}}
+  {{< slider-image
+    src="images_lite/08_00.jpg"
+    alt="Gehäuse und Ultraschallboards" 
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/08_01.jpg"
+    alt="Erstes Ultraschallboard im Gehäuse"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/08_02.jpg"
+    alt="Zweites Ultraschallboard im Gehäuse"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/08_03.jpg"
+    alt="Abstandshalter auf der Unterkante der Ultraschallboards aufgesetzt."
+    noprint=false >}}
+{{< /slider >}}
 
 ### Einsetzen des PCB mit ESP und Abschlussarbeiten.
 
@@ -251,14 +340,59 @@ Todo BILDER:
 - Stecke ein USB-C-Kabel geeigneter Länge, dass du es am Fahrrad zu deinem handy führen kannst in den ESP.
 - Ziehe es zusammen mit dem Kabel für den Taster mit einem Kabelbinder an der Plastiknase für die Zugsicherung fest.
 
+{{< slider >}}
+  {{< slider-image
+    src="images_lite/08_10.jpg"
+    alt="ESP vorbereitet" 
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/08_11.jpg"
+    alt="ESP aufstecken"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/08_12.jpg"
+    alt="ESP sitzt im Gehäuse."
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/08_13.jpg"
+    alt="zugeschraubt."
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/08_14.jpg"
+    alt="Zugsicherung mittels Kabelbinder."
+    noprint=true >}}
+{{< /slider >}}
+
 
 ### Zugsicherung am Taster
 
 Verstopfe das kleine Loch am Taster mit etwas Papier. Füge dann mit einer Heißklebepistole einen Tropfen Heißkleber 
 hinzu, so dass das Kabel mit dem Nupsie auf der Rückseite des tasters verbunden wird. 
 Mit einem Papier als Abstandshalter kannst du den Heißkleber während er noch warm istzurecht drücken, damit dass er der
-Form der Rundung  des Tastergehäuses folgt  und das Konstrukt später flach am Lenker anleigt.
+Form der Rundung des Tastergehäuses folgt  und das Konstrukt später flach am Lenker anliegt.
 
+{{< slider >}}
+  {{< slider-image
+    src="images_lite/09_00.jpg"
+    alt="Kabel in Endposition im Schaltergehäuse. Beachte: Schalteröffnung mit weißem Papier geschützt." 
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/09_01.jpg"
+    alt="Kabel in Endposition im Schaltergehäuse." 
+    noprint=true >}}
+  {{< slider-image
+    src="images_lite/09_02.jpg"
+    alt="Noch flüssiger Heißkleber auf Kabel"
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/09_03.jpg"
+    alt="Mit einem Papier als Schutzschicht kann der Heißkleber in Form gedrückt werden, so dass der Kleber der Lenkerrundung folgt."
+    noprint=false >}}
+  {{< slider-image
+    src="images_lite/09_04.jpg"
+    alt="Nach abziehen des Papiers sieht man die finale Form."
+    noprint=true >}}
+{{< /slider >}}
 
 ### Taste auf Taster
 
