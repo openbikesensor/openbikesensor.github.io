@@ -24,13 +24,14 @@ Varianten.
     image_file="images/obs-lite.svg"
     class="construction"
     label="In Entwicklung"
-    link_text="Entwicklung verfolgen"
-    link="#" %}}
+    link_text="Zur Bauanleitung"
+    link="/docs/hardware-lite" %}}
 - klein und leicht
 - minimaler Bauaufwand
 - wird mit Android-Handy und App kombiniert
 - sehr kostengünstig
 - wetterfest
+- <span style="color:red">noch ungetestet und beta!</span>
 {{% /device-type-cell %}}
 
 {{% device-type-cell

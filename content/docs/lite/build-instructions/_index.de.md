@@ -1,5 +1,5 @@
 ---
-title: Bauanleitung  (OpenBikeSensor Lite 0.1.0)
+title: Bauanleitung  (OpenBikeSensor Lite 0.1.2)
 weight: 50
 linkTitle: Bauanleitung
 aliases:
@@ -15,75 +15,133 @@ description: >
 
 {{< print-qr-link >}}
 
+{{% alert title="Betaversion" color="warning" %}}
+Wir haben den OpenBikeSensor Lite gerade erst fertig. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Toll, dass du es trotzdem probieren willst, wenn du Fehler findest, sag im Forum Bescheid!
+{{% /alert %}}
+
 ## Löten
+
+{{< imgproc "images_raw/lite_parts.jpg" Fit "800x600" >}}
+Alle Teile f&uuml;r den OpenBikeSensor Lite.
+{{< /imgproc >}}
 
 Die Lötschritte sind so sortiert, dass zunächst die flachen Komponenten verlötet werden.
 
-### Buchse für Taster
+### Schalterpolarisierung einstellen
+Hast du ein Board der Version 0.1.2, so musst du zunächst mit einem Cuttermesser eine optionale Verbindung auf dem Board durchtrennen, und dann eine Lötbrücke zwischen zwei weiteren Pins herstellen. Der Pin, dessen Verbindung zu seinen beiden Nachbarpins durchtrennt werden muss ist der mit einem Pfeil markierte Pin neben den Lötflöchen für den Platinenstecker für den Button. Wenn du ein Multimeter hast, kannst du nachmessen, ob die Verbindung zwischen den angrenzenden Pads erfolgreich unterbrochen wurde.
 
-Wenn du eine Krimpzange hast, kannst du nun den Platinesnstecker für den Taster auf das Board löten. Löte erst einen
-Pin, kontrolliere den Sitz, löte dann den zweiten Pin.
+Nun müssen die beiden darunter liegenden Pins mit einer Lötbrücke verbunden werden.
+
+
+{{< slider >}}
+  {{< slider-image
+    src="images_raw/00_00.jpg"
+    alt="Die Platine des OBS Lite" 
+    noprint=true >}}
+  {{< slider-image
+    src="images_raw/00_01.jpg"
+    alt="Durchtrenne die Leiterbahn zum oberen Ende des Selektors mit einem Cuttermesser."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/00_02.jpg"
+    alt="Setze eine Lötbrücke auf die unteren beiden Punkte des Selektors."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/00_03.jpg"
+    alt="Die fertige Lötbrücke."
+    noprint=false >}}
+{{< /slider >}}
+
+### Platinenstecker für Taster
+
+Wenn du eine Krimpzange hast, kannst du nun den Platinenstecker für den Taster auf das Board löten. Stecke den Platinenstecker durch das board, und löte von der Unterseite erst einen Pin, kontrolliere den Sitz, löte dann den zweiten Pin.
 
 {{% alert title="Löten statt Buchse" color="info" %}}
-Hast du keine Buchse oder keine Krimpzange, kannst du diesen Schritt auslassen, und später direkt das Kabel des 
-Tasters auf das Board löten. 
+Hast du keine Buchse oder keine Krimpzange, kannst du diesen Schritt auslassen, und später direkt das Kabel des Tasters auf das Board löten. 
 {{% /alert %}}
 
-Bilder TODO:
-- Board ohne alles, Buchse daneben
-- Buchse auf Board
-- Pins der Buchse von unten, eine Seite verlötet
-- Buchse + Board fertig verlötet von oben.
+
+{{< slider >}}
+  {{< slider-image
+    src="images_raw/01_00.jpg"
+    alt="Platinenstecker vor der Verl&ouml;tung" 
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/01_01.jpg"
+    alt="Platinenstecker platziert."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/01_02.jpg"
+    alt="Platinenstecker erster Pin verlötet, ansicht Unterseite."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/01_03.jpg"
+    alt="Platinenstecker beide Pins verlötet, ansicht Oberseite."
+    noprint=true >}}
+{{< /slider >}}
 
 
-### Platine vorbereiten
-Auf der Platine gibt es eine optionale Leiterbahn, die für die Version des ESP, die wir verwenden durchtrennt werden
-muss. Schneide hierzu mit einem Cuttermesser an der Stelle wie im Bild gezeigt die Leiterbahn durch. Wenn du ein
-Multimeter hast, kannst du nachmessen, ob die Verbindung zwischen den angrenzenden Pads erfolgreich unterbrochen wurde.
 
-Bilder TODO:
-- Platine mit Stelle zum schneiden markiert,
-- Platine mit Cuttermesser an richtiger Stelle
-- Platine mit schnitt an richtiger Stelle
+### Buchsenleisten kürzen
+Wahrscheinlich hast du 40-Pin lange Buchsenleisten bekommen. Um sie für den OpenBikeSensor Lite verwenden zu können, schneide mit einem Seitenschneider oder Cuttermesser zwei 15 Pin lange Stücke von der Buchsenleiste ab. Schneide dazu durch Pin 16. Schneide außerdem zwei 4 Pin lange Stücke ab. Schneide dazu jeweils durch Pin 5. Versäubere die Schnittkanten der Vierer-Leisten indem du die überstehenden Kanten vom Einkürzen bündig abschneidest, so dass keine Überstehenden Kanten mehr da sind. Die 4er Leisten passen dann mit ordentlich Spiel zwischen die Arme des Ultraschallboardpositionierers passen.
 
-### Buchsenleisten Kürzen
-Wahrscheinlich hast du 40-Pin lange Buchsenleisten bekommen. Um sie für den OpenBikeSensor Lite verwenden zu können,
-schneide mit einem Seitenschneider oder Cuttermesser zwei 15 Pin lange Stücke von der Buchsenleiste ab. Schneide
-dazu durch Pin 16. Schneide außerdem zwei 4 Pin lange Stücke ab. Schneide dazu jeweils durch Pin 5. 
 {{% alert title="Vorsicht beim Schneiden" color="warning" %}}
-Versuche nicht, pins zu sparen indem du die Leiste exakt an der Trennlinie zwischen pin 15 und 16 schneidest. Das
-funktioniert nämlich nicht und stattdessen bleiben dir nur 14 nutzbare Pins.
+Versuche nicht, pins zu sparen, indem du die Leiste exakt an der Trennlinie zwischen pin 15 und 16 schneidest. Das funktioniert nämlich nicht und stattdessen zerstörst du zwei Pins.
 {{% /alert %}}
+
 {{% alert title="Kürzere ESP-Leisten" color="info" %}}
-Wenn du insgesamt mit einer
-40-pin langen Buchsenleiste auskommen willst, kannst du für den ESP auch 14-Pin lange Buchsenleisten verwenden. In
-diesem Fall musst du beim Löten darauf achten, dass die fehlenden Pins der Buchsenleiste auf der vom USB-Port
-abgewandten Seite der Platine zu liegen kommen.
+Wenn du insgesamt mit einer 40 Pin langen Buchsenleiste auskommen willst, kannst du für den ESP auch 14-Pin lange Buchsenleisten verwenden. In diesem Fall musst du beim Löten darauf achten, dass die fehlenden Pins der Buchsenleiste auf der vom USB-Port abgewandten Seite der Platine zu liegen kommen.
 {{% /alert %}}
 
-Bilder TODO:
-- Buchsenleiste
-- Buchsenleiste mit angesetztem Seitenschneider
-- 2x 15-Pin Buchsenleiste neben ESP
+{{< slider >}}
+  {{< slider-image
+    src="images_raw/02_00.jpg"
+    alt="40er Leiste beim Einkürzen" 
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/02_01.jpg"
+    alt="15er und 4er Leisten."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/02_02.jpg"
+    alt="die 4x Leisten müssen mit ordentlich Spiel zwischen die Arme des Ultraschallpositionierers passen. Schneide die überstehenden reste vom Einkürzen bündig ab."
+    noprint=false >}}
+{{< /slider >}}
 
 
-### Buchsenleisten  FÜr ESP
-Stecke die 15-Pin Buchsenleisten auf die Beinchen deines ESP32 und stecke diesen dann auf die OpenBikeSensor Lite
-Platine. Löte zunächst die Pins in den Ecken, kontrolliere, dass die Buchsenleiste ordentlich aufsitzt. Löte dann
-die verbleibenden Pins ein.
+### Buchsenleisten für ESP verlöten
+Stecke die 15-Pin Buchsenleisten auf die OpenBikeSensor Lite Platine. Löte zunächst die Pins in den Ecken, kontrolliere, dass die Buchsenleiste ordentlich aufsitzt. Löte dann die verbleibenden Pins ein.
 
 {{% alert title="14-Pin Leisten richtig positionieren" color="warning" %}}
-Hast du dich oben für 14-Pin Buchsenleisten entschieden, musst du beim Löten darauf achten, dass die Leiste auf
-jeden Fall die Pins am USB-Ende des ESP versorgt. (siehe Bild)
+Hast du dich oben für 14-Pin Buchsenleisten entschieden, musst du beim Löten darauf achten, dass die Leiste auf jeden Fall die Pins am USB-Ende des ESP versorgt. (siehe Bild)
 {{% /alert %}}
 
-Bilder TODO:
-- Buchsenleiste Auf ESP32 Beinchente
-- Alternativbestückung: 14-Pin Buchsenleiste auf ESP-Beinchen (buchsenleiste lässt den AM WEITESETN VOM USB-PORT ENTFERNTEN Pin aus)
-- Buchsenleiste ESP mit Buchsenleiste auf Platine
-- Platine von unten mit beiden Buchsenleisten gesteckt
-- Beim Löten pin 1 von unten
-- Abstandskontrolle: Sitzt buchsenleiste ordentlich auf?
+{{< slider >}}
+  {{< slider-image
+    src="images_raw/03_01.jpg"
+    alt="Leisten und ESP" 
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/03_02.jpg"
+    alt="Positionierung der Leisten"
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/03_02_b.jpg"
+    alt="Sind nur 14 Pins verfügbar müssen die Leisten am USB-Ende der Platine gesteckt werden."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/03_03.jpg"
+    alt="Löte jeweils zuerst die Pins in den Ecken und kontrolliere dann noch mal den richtigen Sitz der Leiste und korrigiere ggf nach, bevor du den Rest lötest."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/03_04.jpg"
+    alt="So sollte es aussehen, wenn alles richtig verlötet ist. Keine Abstände zwischen Leiste und Board und die Leiste sitzt perfekt senkrecht auf der Platine."
+    noprint=false >}}
+  {{< slider-image
+    src="images_raw/03_05.jpg"
+    alt="Zur Kontrolle kannst du kurz den ESP auf die Platine stecken."
+    noprint=false >}}
+{{< /slider >}}
 
 Ziehe nach dem Löten den ESP ab.
 

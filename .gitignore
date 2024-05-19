@@ -7,3 +7,4 @@ tech-doc-hugo
 _site
 .bundle
 .hugo_build.lock
+**/images_raw/*

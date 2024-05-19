@@ -113,7 +113,7 @@ Pins an.
     noprint=true >}}
   {{< slider-image
     src="v1.0.0/ESP32_08.JPG"
-    alt="Verlöte die die verbleibenden äußeren Pins."
+    alt="Verlöte die verbleibenden äußeren Pins."
     noprint=true >}}
   {{< slider-image
     src="v1.0.0/ESP32_09.JPG"
