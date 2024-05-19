@@ -117,7 +117,7 @@
           "color": "Black"
         },
         "name": "Pforzheim",
-        "description": "**Ort:** Pforzheim<br/>**Name:** Natenom<br/>**Kontakt:** [@natenom](https://twitter.com/natenom)<br/>**Anzahl:** 1 Sensor<br/>**Weblink:** [natenom.com](https://natenom.com)"
+        "description": "**Ort:** Pforzheim<br/>**Name:** Natenom<br/>**Kontakt:** [@natenom](https://natenom.de)<br/>**Anzahl:** 1 Sensor<br/>**Weblink:** [natenom.com](https://natenom.com)"
       },
       "geometry": {
         "type": "Point",

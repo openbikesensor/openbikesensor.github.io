@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +32,7 @@
             'darkmatter.json',
         zoom: 6,
         center: [10.0,51.0],
-        attributionControl: false,
+        attributionControl:  {customAttribution: 'Map data <A HREF="https://www.openstreetmap.org/copyright">©️OpenStreetMap</A> contributors'},
     });
 
 
@@ -87,7 +88,11 @@
 
 
         // Add a symbol layer
-        map.addLayer({
+
+
+
+
+                map.addLayer({
             'id': 'conferences',
             'source': 'initiativen',
             'type': 'symbol',
@@ -105,12 +110,13 @@
                 ],
                 'text-offset': [0, 0.5],
                 'text-anchor': 'top',
+                'text-allow-overlap': false,
+                'text-optional': true
 
             }
         });
 
-
-                map.addLayer({
+                        map.addLayer({
             'id': 'counts',
             'source': 'initiativen',
             'type': 'symbol',
