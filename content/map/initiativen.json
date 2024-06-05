@@ -728,6 +728,21 @@
         ]
       },
       "id": "Wetterau"
+    } ,
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "**Name**:  ADFC Hagen<br/>**Kontaktinfo**: [obs@adfc-hagen.de](mailto:obs@adfc-hagen.de)<br/>**Anzahl:** 1 Sensor<br/>**Webseite:** [https://hagen.adfc.de/](https://hagen.adfc.de/)<br/>**Anmerkung:** Kartenpunkt auf dem ADFC-Stammtisch<br/>",
+        "name": "Hagen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.47593,
+          51.35662
+        ]
+      },
+      "id": "Hagen"
     }
   ],
   "_umap_options": {
