@@ -1,5 +1,6 @@
 ---
-title: Gehäuse
+title: Gehäuse OpenBikeSensor Classic
+linkTitle: Gehäuse
 weight: 30
 aliases:
 - /docs/hardware/general/case

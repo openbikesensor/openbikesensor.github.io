@@ -23,14 +23,15 @@ Varianten.
     variant="Lite"
     image_file="images/obs-lite.svg"
     class="construction"
-    label="In Entwicklung"
-    link_text="Entwicklung verfolgen"
-    link="#" %}}
+    label="Im Alphastadium"
+    link_text="Zur Bauanleitung"
+    link="/docs/hardware-lite" %}}
 - klein und leicht
 - minimaler Bauaufwand
 - wird mit Android-Handy und App kombiniert
 - sehr kostengünstig
 - wetterfest
+- <span style="color:red">Noch ungetestet und Beta! Noch Baustellen bei der Software!</span>
 {{% /device-type-cell %}}
 
 {{% device-type-cell
@@ -51,7 +52,7 @@ Varianten.
     variant="Pro"
     image_file="images/obs-pro.svg"
     class="construction"
-    label="In Entwicklung"
+    label="Wir testen Prototypen"
     link_text="Entwicklung verfolgen"
     link="https://forum.openbikesensor.org/t/automatisiert-bestueckbare-hardware/1263" %}}
 - voller Funktionsumfang ohne Handy
