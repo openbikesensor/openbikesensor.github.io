@@ -1,7 +1,6 @@
 ---
 title: Bauteile
 weight: 20
-notoc: true
 aliases:
 - /bauteile
 - /bauteile/v00.03.12
@@ -18,7 +17,71 @@ Bei manchen Komponenten funktionieren die Links auf die Produkte nicht mehr. Wir
 Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der Testbestellung dieser Komponenten mitzumachen.
 {{% /pageinfo %}}
 
-{{< include-markdown-partial "parts-notes.md" >}}
+Bitte lies diese Seite sorgfältig durch, und auch den Abschnitt "Notizen", denn
+bei einige Teilen musst du aufpassen, das richtige zu erwischen.
+
+Einige Links könnten in der Zukunft kaputtgehen, wir werden dann versuchen
+neue zu finden und Verkäufer:innen zu verlinken, mit denen wir gute Erfahrungen
+gemacht haben.
+
+Diese Liste kann natürlich fehlerhaft oder veraltet sein. Bitte vergleiche die
+Designdateien (Platine, Schaltplan, Gehäusedesign, ...) mit deiner Bestellung,
+um eventuelle Unterschiede festzustellen. Insbesondere wenn du größere Mengen
+einkaufen möchtest (z.B. für Sammelbestellungen), oder die Bauteile aus China
+geliefert werden und einige Wochen Lieferzeit haben, solltest du alles doppelt
+überprüfen.
+
+## Hinweise
+
+* **ESP32 Development Board**: Von diesem Modul existieren einige verschiedene
+  Versionen. Du brauchst die Variante mit 30 Pins. Diese wird oft unter der
+  Bezeichnung "ESP32 DEVKIT v1" verkauft.
+
+* **SD-Karte**: Billige SD-Karten haben schon öfters Probleme verursacht, wähle
+  lieber ein Markenprodukt. Versuche eine SD-Karte unter 100 MB/s zu bekommen,
+  uns haben bspw. SanDisk Karten mit 120 MB/s schon Probleme verursacht, da sie
+  die von uns verwendete Schnittstelle nicht mehr unterstützen.
+
+* **GPS-Modul**: Bevorzuge die Variante mit großer Antenne
+  ([Link1](https://de.aliexpress.com/item/1550843440.html),
+  [Link2](https://de.aliexpress.com/item/1005001635722164.html)). Die Antennen
+  haben unterschiedliche Qualität und Kabellänge, bei Ersatzbedarf gibt es auch
+  günstige Weiterverkäufer:innen der Antennen in Deutschland.
+
+* **Displaykabel**: Hier solltest du auf keinen Fall sparen. Kaufe ein
+  LifY11Y-Kabel in hoher Qualität, oder die Verbindung zum Display könnte
+  darunter leiden und nur unzuverlässig funktionieren. Zwei Meter Länge sind
+  genug für große Fahrräder und ein paar extra Versuche bis das Crimpen klappt.
+  Cat5 oder Cat6 Netzwerkkabel könnten zwar elektronisch auch funktionieren,
+  sind aber in der Regel nicht so flexibel und fühlen sich nicht so gut an.
+
+* **JSN-SR04T**: Hier musst du auf die richtige Version achten. Es gibt eine
+  ganze Menge Varianten, von denen viele nicht funktionieren. Wir haben [auf
+  dieser Seite]({{ ref . "collective-order" }}) dokumentiert, welche wir
+  gefunden haben und wie gut die jeweils funktionieren.
+
+* Einige Bauteile können in größeren **Mengen** zu wesentlich günstigeren
+  Preisen gekauft werden. Bildet Sammelbestellungen, um viel Geld zu sparen!
+
+* Von besonders günstigen Teile kannst du gern etwas mehr bestellen, als
+  **Ersatz**, falls etwas verloren oder kaputtgeht (Widerstände, Schrauben und
+  Muttern, Crimp-Kontakte, Kabel und Litze, ...)
+
+* **Gehäuse** müssen [in PETG 3D-gedruckt]({{ ref . "/docs/classic/case" }}) werden. Es
+  gibt viele Versionen für verschiedene Zwecke und von verschiedenen Leuten.
+  Die Community pflegt aktiv ein bestimmtes Gehäuse für jede PCB-Version.
+  Schau' dich im
+  [Gehäuse-Repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase)
+  auf GitHub um. Du kannst dein Gehäuse selbst drucken, andere Mitglieder der
+  Community darum bitten, oder fertige Drucke anhand der Designdateien von
+  einem 3D-Druck-Service bestellen (das ist aber in der Regel relativ teuer).
+
+* **PCB**: Du benötigst ein PCB der passenden Version, speziell [anhand der
+  Designdateien hergestellt]({{ ref . "/docs/classic/pcb" }}). Dies sollte am besten
+  ebenfalls in großen Mengen bestellt werden, da der Stückpreis dann stark
+  sinkt. Frag' auf jeden Fall im Slack nach, ob irgendwer noch welche auf Lager
+  hat, bevor du neue anfertigen lässt!
+
 
 ## Bauteile
 
@@ -380,7 +443,7 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
   <td>1</td>
   <td>3D-Druck: Hauptgehäuse, Displaygehäuse, Halterung(en)</td>
   <td>
-    <a href={{< relref "docs/classic/case" >}}>Link</a>
+    <a href={{< relref "../case" >}}>Link</a>
   </td>
 </tr>
 
@@ -389,4 +452,28 @@ Wenn du gerade bestellst, kannst du `@gluap` im Forum kontaktieren, um bei der T
 </div>
 
 
-{{< include-markdown-partial "parts-tools.md" >}}
+## Werkzeuge
+
+Diese Werkzeuge werden benötigt, um den Sensor zusammenzubauen. Das
+spezialisierteste Werkzeug ist die Crimpzange, welche dein lokaler Hackspace /
+Maker Space / Fab Lab sicherlich herumliegen hat. Eventuell musst du also nicht
+jedes dieser Werkzeuge kaufen, wenn du eines ausleihen kannst.
+
+* Persönliche Schutzausrüstung: **Schutzbrille (!)**, eventuell Handschuhe, ...
+* [Crimpzange](https://www.amazon.de/gp/product/B07VX6YGQ8) für JST-XH Steckverbinder (andere Marken oder Zangentypen, die mit diesen Verbindern kompatibel sind, funktionieren auch, z.B. Engineer PA-09).
+* Ein guter, regelbarer Lötkolben oder eine Lötstation, mit entsprechender Lösung zur Entlüftung
+* Pinzetten
+* Seitenschneider (z.B. [Knipex Super Knips](https://www.amazon.de/Knipex-78-61-125-Präzisionszange/dp/B005EXOF6S))
+* Abisolierzange, (z.B. [Knipex](https://www.amazon.de/Knipex-12-62-180-Abisolierzange/dp/B000PAR60C), [Jokari](https://www.amazon.de/Jokari-20050-Abisolierzange-Super-plus/dp/B002BDNL4Q)- mit diesen beiden Zangen kann man auch denn Innenleiter der Ultraschallsensoren abisolieren)
+* Innensechskantschraubendreher 2,5&thinsp;mm für M3 ("Inbusschlüssel" oder Schraubendreher)
+* ESD-Schutzausrüstung (nicht zwingend notwendig, aber nutze sie, wenn du sie hast)
+
+## Verbrauchsgüter
+
+Die meisten dieser Artikel gibt's in jedem Elektroniklabor, wenn du also in
+einem Maker Space oder ähnlichem arbeitest, kannst du sicher kleine Mengen
+hiervon bekommen ohne die große Packung kaufen zu müssen.
+
+* Gutes Lötzinn, bleifrei, nicht zu alt
+* Entlötlitze
+* Schrumpfschlauch (optional)
