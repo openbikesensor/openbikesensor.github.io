@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Aachen",
-        "description": "**Name**: ADFC Aachen/RWTH Aachen<br/>**Anzahl**: im Aufbau<br/>**Kontakt**: [openbikesensor@lists.adfc-ac.de](mailto:openbikesensor@lists.adfc-ac.de<br/>)<br/>URL: [aachen.adfc.de](https://aachen.adfc.de/)<br/><br/>"
+        "description": "**Name**: ADFC Aachen/RWTH Aachen<br/>**Anzahl**: im Aufbau<br/>**Kontakt**: [openbikesensor@lists.adfc-ac.de](mailto:openbikesensor@lists.adfc-ac.de)<br/>URL: [aachen.adfc.de](https://aachen.adfc.de/)<br/><br/>"
       },
       "geometry": {
         "type": "Point",
@@ -15,6 +15,21 @@
         ]
       },
       "id": "g2OTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamm",
+        "description": "**Name**: ADFC Kreisverband Hamm e.V.<br/>**Anzahl**: 10 Sensoren<br/>**Kontakt**: [kontakt@adfc-hamm.de](mailto:kontakt@adfc-hamm.de)<br/>**URL:** [hamm.adfc.de](http://www.hamm.adfc.de/)<br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.815691,
+          51.679335
+        ]
+      },
+      "id": "Hamm"
     },
     {
       "type": "Feature",
