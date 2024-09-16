@@ -25,7 +25,7 @@ Varianten.
     class="construction"
     label="In Entwicklung"
     link_text="Entwicklung verfolgen"
-    link="#" %}}
+    link="https://forum.openbikesensor.org/t/stand-openbikesensor-lite/2235" %}}
 - klein und leicht
 - minimaler Bauaufwand
 - wird mit Android-Handy und App kombiniert
