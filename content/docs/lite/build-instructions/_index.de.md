@@ -16,8 +16,14 @@ description: >
 {{< print-qr-link >}}
 
 {{% alert title="Betaversion" color="warning" %}}
-Wir arbeiten noch am OpenBikeSensor Lite. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Toll, dass du es trotzdem probieren willst, wenn du Fehler findest, sag im Forum Bescheid!
+Wir arbeiten noch am OpenBikeSensor Lite. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Die Bedienungsanleitung ist noch Bruchstückhaft. Toll, dass du es trotzdem probieren willst, wenn du Fehler findest, sag im Forum Bescheid!
 {{% /alert %}}
+
+## Vor dem Bauen
+Es ist eine gute Idee schon vor dem Bau die Firmware auf den OpenBikeSensor Lite zu flashen.
+
+[hier findest du die Firmware für OpenBikeSensor Lite auf Github](https://github.com/openbikesensor/firmware-lite).
+Sie kommt mit einer Kurzanleitung, wie du sie auf den ESP flashen kannst.
 
 ## Löten
 
