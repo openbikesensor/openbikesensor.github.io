@@ -30,7 +30,6 @@ Varianten.
 - minimaler Bauaufwand
 - wird mit Android-Handy und App kombiniert
 - sehr kostengünstig
-- wetterfest
 - <span style="color:red">Noch weitgehend ungetestet! Noch Baustellen bei der Software!</span>
 {{% /device-type-cell %}}
 
