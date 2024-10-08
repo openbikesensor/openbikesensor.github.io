@@ -4,6 +4,21 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Gießen",
+        "description": "**Name**: ADFC Gießen<br/>**Anzahl**: 7 Geräte<br/>**Kontakt**: [info@adfc-giessen.de](mailto:info@adfc-giessen.de)<br/>URL: [www.adfc-giessen.de](https://www.adfc-giessen.de/)<br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6746332,
+          50.5864929
+        ]
+      },
+      "id": "g2OTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Aachen",
         "description": "**Name**: ADFC Aachen/RWTH Aachen<br/>**Anzahl**: im Aufbau<br/>**Kontakt**: [openbikesensor@lists.adfc-ac.de](mailto:openbikesensor@lists.adfc-ac.de)<br/>URL: [aachen.adfc.de](https://aachen.adfc.de/)<br/><br/>"
       },
