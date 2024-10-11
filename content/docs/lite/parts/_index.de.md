@@ -4,9 +4,7 @@ linktitle: Bauteile
 weight: 20
 notoc: true
 aliases:
-- /bauteile
 - /bauteile/lite
-- /docs/hardware/lite/parts
 description: >
     Diese Seite listet alle Bauteile auf, die bestellt oder hergestellt werden
     müssen, um einen OpenBikeSensor Lite zusammenzubauen.
