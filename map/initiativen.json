@@ -29,7 +29,21 @@
           50.770184
         ]
       },
-      "id": "g2OTE"
+      "id": "Aachen"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bergstraße",
+        "description": "**Name**: ADFC Bergstraße e.V.<br/>**Anzahl**: 5 Sensoren<br/>**Kontakt**:  [Mathias Maurer](mailto:mathias.maurer@adfc-bergstrasse.de), [Joachim Hoenes](mailto:joachim.hoenes@adfc-bergstrasse.de)<br/>**URL:** [adfc-bergstrasse.de]( https://www.adfc-bergstrasse.de/)<br/><br/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5676549, 49.6543357
+        ]
+      },
+      "id": "Bergstraße"
     },
     {
       "type": "Feature",
