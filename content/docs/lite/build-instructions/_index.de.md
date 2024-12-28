@@ -268,7 +268,7 @@ Du hast jetzt alle Komponenten. Du kannst die Firmware folgendermaßen flashen:
 
 TODO: wie Firmware flashen / Flashanleitung verallgemeinern.
 
-Nachdem du die aktuelle Firmware auf den ESP geflashed hast, installiere die SimRa App. (TODO: Link zu APK bis Simra Stock das kann) 
+Nachdem du die aktuelle Firmware auf den ESP geflashed hast, installiere die SimRa App für Android - solange diese noch nicht im Appstore mit Lite-fähigkeiten verfügbar ist findest du [hier](https://nx34692.your-storageshare.de/s/3xmjrg3sCqBkjx7).  
 
 - Stecke die Ultraschallsensoren und den ESP auf die OpenBikeSensor Lite Platine. Verbinde den Taster mit der Platine.
 - Verbinde dein Android-Handy mit der SimRa app mittels eines USB-C-Kabels mit dem ESP.
