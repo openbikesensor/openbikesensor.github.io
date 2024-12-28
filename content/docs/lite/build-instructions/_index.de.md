@@ -9,18 +9,18 @@ aliases:
 description: >
     Sobald der Bausatz für den OpenBikeSensor Lite zusammengestellt ist,
     kann anhand dieser Anleitung der Bau begonnen werden. Der Zusammenbau
-    besteht aus etwas Menge Lötarbeit, sowie dem Test der Elektronik und
+    besteht aus etwas Lötarbeit, sowie dem Test der Elektronik und
     dem Einbau in das Gehäuse.
 ---
 
 {{< print-qr-link >}}
 
 {{% alert title="Betaversion" color="warning" %}}
-Wir arbeiten noch am OpenBikeSensor Lite. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Die Bedienungsanleitung ist noch Bruchstückhaft. Toll, dass du es trotzdem probieren willst, wenn du Fehler findest, sag im Forum Bescheid!
+Wir arbeiten noch am OpenBikeSensor Lite. Vor dir hat ihn kaum jemand gelötet, auch die Software ist noch sehr neu. Sicher funktioniert noch nicht alles. Manches kann umständlich sein. Die Bedienungsanleitung ist noch bruchstückhaft. Toll, dass du es trotzdem probieren willst. Wenn du Fehler findest, sag im Forum Bescheid!
 {{% /alert %}}
 
 ## Vor dem Bauen
-Es ist eine gute Idee schon vor dem Bau die Firmware auf den OpenBikeSensor Lite zu flashen.
+Es ist eine gute Idee, schon vor dem Bau die Firmware auf den OpenBikeSensor Lite zu flashen.
 
 [hier findest du die Firmware für OpenBikeSensor Lite auf Github](https://github.com/openbikesensor/firmware-lite).
 Sie kommt mit einer Kurzanleitung, wie du sie auf den ESP flashen kannst.
@@ -40,7 +40,7 @@ Dieser Schritt ist nur bei PCB 0.1.2 notwendig. Hast du ein neueres PCB, übersp
 {{% /alert %}}
 
 
-Hast du ein Board der Version 0.1.2, so musst du zunächst mit einem Cuttermesser eine optionale Verbindung auf dem Board durchtrennen, und dann eine Lötbrücke zwischen zwei weiteren Pins herstellen. Der Pin, dessen Verbindung zu seinen beiden Nachbarpins durchtrennt werden muss ist der mit einem Pfeil markierte Pin neben den Lötflöchen für den Platinenstecker für den Button. Wenn du ein Multimeter hast, kannst du nachmessen, ob die Verbindung zwischen den angrenzenden Pads erfolgreich unterbrochen wurde.
+Hast du ein Board der Version 0.1.2, so musst du zunächst mit einem Cuttermesser eine optionale Verbindung auf dem Board durchtrennen, und dann eine Lötbrücke zwischen zwei weiteren Pins herstellen. Der Pin, dessen Verbindung zu seinen beiden Nachbarpins durchtrennt werden muss, ist der mit einem Pfeil markierte Pin neben den Lötflächen für den Platinenstecker für den Button. Wenn du ein Multimeter hast, kannst du nachmessen, ob die Verbindung zwischen den angrenzenden Pads erfolgreich unterbrochen wurde.
 
 Nun müssen die beiden darunter liegenden Pins mit einer Lötbrücke verbunden werden.
 
@@ -66,10 +66,10 @@ Nun müssen die beiden darunter liegenden Pins mit einer Lötbrücke verbunden w
 
 ### Winkelstecker für Taster
 
-Wenn du eine Krimpzange hast, kannst du nun den Winkelstecker für den Taster auf das Board löten. Stecke den Stecker durch das Board, und löte von der Unterseite erst einen Pin, kontrolliere den Sitz, löte dann den zweiten Pin.
+Wenn du eine Crimpzange hast, kannst du nun den Winkelstecker für den Taster auf das Board löten. Stecke den Stecker durch das Board, und löte von der Unterseite erst einen Pin, kontrolliere den Sitz, löte dann den zweiten Pin.
 
 {{% alert title="Löten statt Buchse" color="info" %}}
-Hast du keine Buchse oder keine Krimpzange, kannst du diesen Schritt auslassen, und später direkt das Kabel des Tasters auf das Board löten. 
+Hast du keine Buchse oder keine Crimpzange, kannst du diesen Schritt auslassen, und später direkt das Kabel des Tasters auf das Board löten. 
 {{% /alert %}}
 
 
@@ -95,14 +95,14 @@ Hast du keine Buchse oder keine Krimpzange, kannst du diesen Schritt auslassen, 
 
 
 ### Buchsenleisten kürzen
-Wahrscheinlich hast du 40-Pin lange Buchsenleisten bekommen. Um sie für den OpenBikeSensor Lite verwenden zu können, schneide mit einem Seitenschneider oder Cuttermesser zwei 15 Pin lange Stücke von der Buchsenleiste ab. Schneide dazu durch Pin 16. Schneide außerdem zwei 4 Pin lange Stücke ab. Schneide dazu jeweils durch Pin 5. Versäubere die Schnittkanten der Vierer-Leisten indem du die überstehenden Kanten vom Einkürzen bündig abschneidest, so dass keine Überstehenden Kanten mehr da sind. Die 4er Leisten passen dann mit ordentlich Spiel zwischen die Arme des Ultraschallboardpositionierers passen.
+Wahrscheinlich hast du 40-Pin lange Buchsenleisten bekommen. Um sie für den OpenBikeSensor Lite verwenden zu können, schneide mit einem Seitenschneider oder Cuttermesser zwei 15 Pin lange Stücke von der Buchsenleiste ab. Schneide dazu durch Pin 16. Schneide außerdem zwei 4 Pin lange Stücke ab. Schneide dazu jeweils durch Pin 5. Versäubere die Schnittkanten der Vierer-Leisten, indem du die überstehenden Kanten vom Einkürzen bündig abschneidest, so dass keine Überstehenden Kanten mehr da sind. Die 4er Leisten sollten dann mit ordentlich Spiel zwischen die Arme des Ultraschallboardpositionierers passen.
 
 {{% alert title="Vorsicht beim Schneiden" color="warning" %}}
-Versuche nicht, pins zu sparen, indem du die Leiste exakt an der Trennlinie zwischen pin 15 und 16 schneidest. Das funktioniert nämlich nicht und stattdessen zerstörst du zwei Pins.
+Versuche nicht, Pins zu sparen, indem du die Leiste exakt an der Trennlinie zwischen pin 15 und 16 schneidest. Das funktioniert nämlich nicht und stattdessen zerstörst du zwei Pins.
 {{% /alert %}}
 
 {{% alert title="Kürzere ESP-Leisten" color="info" %}}
-Wenn du insgesamt mit einer 40 Pin langen Buchsenleiste auskommen willst, kannst du für den ESP auch 14-Pin lange Buchsenleisten verwenden. In diesem Fall musst du beim Löten darauf achten, dass die fehlenden Pins der Buchsenleiste auf der vom USB-Port abgewandten Seite der Platine zu liegen kommen.
+Wenn du insgesamt mit einer 40 Pin langen Buchsenleiste auskommen willst, kannst du für den ESP auch 14-Pin lange Buchsenleisten verwenden. In diesem Fall musst du beim Löten darauf achten, dass die fehlenden Pins der Buchsenleiste auf der vom USB-Port der ESP-Platine abgewandten Seite der Platine zu liegen kommen.
 {{% /alert %}}
 
 {{< slider >}}
@@ -183,7 +183,7 @@ auf dem Board aufliegt, und löte dann die weiteren Pins.
 
 
 ### Kabel an Taster
-Drücke den Taster in die Lenkerhalterung. Schau dir an, wie die Kontakte im Steckergehäuse zu liegen kommen - Es gibt nur zwei Richtungen, in denen der Taster ins Gehäuse gesteckt werden kann. Löte das Kabel an die beiden näher aneinander liegenden Kontakte. Löte so, dass du das Kabel später gut durch die Ausspaarung im Gehäuse herausführen kannst. Wenn du dich traust kannst du das Kabel gleich im Schaltergehäuse löten. Alternativ kannst du den Taster erst außerhalb des Gehäuses löten, und dann das Kabel durch as Loch ziehen und den Taster ins Gehäuse einklicken.
+Drücke den Taster in die Lenkerhalterung. Schau dir an, wie die Kontakte im Steckergehäuse zu liegen kommen - Es gibt nur zwei Richtungen, in denen der Taster ins Gehäuse gesteckt werden kann. Löte das Kabel an die beiden näher aneinander liegenden Kontakte. Löte so, dass du das Kabel später gut durch die Aussparung im Gehäuse herausführen kannst. Wenn du dich traust kannst du das Kabel gleich im Schaltergehäuse löten. Alternativ kannst du den Taster erst außerhalb des Gehäuses löten, und dann das Kabel durch das Loch ziehen und den Taster ins Gehäuse einklicken.
 
 Stecke zum Schluss die Tasterabdeckung auf den Taster
 
@@ -230,11 +230,11 @@ Löte das Kabel zum Taster in die Löcher die auf der Platine it "Button" markie
 {{% alert title="Alternative Bestückung" color="info" %}}
 Wenn du oben das Kabel für den Taster auf die Platine gelötet hast, kannst du diesen Schritt auslassen.
 {{% /alert %}}
-**Nutzt du ein zweiadriges Kabel**: Isoliere etwa 3&thinsp;mm von den Adern eines zweiadrigen Kabels ab, und Krimpe JST-XH Crimpkontakte an die Adern.
+**Nutzt du ein zweiadriges Kabel**: Isoliere etwa 3&thinsp;mm von den Adern eines zweiadrigen Kabels ab, und crimpe JST-XH Crimpkontakte an die Adern.
 
-**Nutzt du ein Koaxkabel:** hast, isoliere etwa 1.5&thinsp;c der Außenisolierung ab, verdrille die Schirmung und isoliere vom Mittelleiter etwa 3&thinsp;mm ab. Krimpe zwei JST-XH Krimpkontakte auf die Isolierung und den Mittelleiter.
+**Nutzt du ein Koaxkabel:** hast, isoliere etwa 1.5&thinsp;c der Außenisolierung ab, verdrille die Schirmung und isoliere vom Mittelleiter etwa 3&thinsp;mm ab. Crimpe zwei JST-XH Krimpkontakte auf die Isolierung und den Mittelleiter.
 
-Stecke die Krimpkontakte dann in die Buchse. Die Seite mit den kleinen Häkchen muss auf der Seite der Aussparung im Steckergehäuse zu liegen kommen.
+Stecke die Crimpkontakte dann in die Buchse. Die Seite mit den kleinen Häkchen muss auf der Seite der Aussparung im Steckergehäuse zu liegen kommen.
 
 Stecke das Kabel auf den Winkelstecker.
 
@@ -285,14 +285,12 @@ Nachdem du die aktuelle Firmware auf den ESP geflashed hast, installiere die Sim
 
 TODO: Screenshots SimRa App mit Beispieleinstellungen markiert
 
-Alles gut? Dann ist die elektronik fertig und du kannst mit dem Einbau ins Gehäuse beginnen.
+Alles gut? Dann ist die Elektronik fertig und du kannst mit dem Einbau ins Gehäuse beginnen.
 
 ## Einbau ins Gehäuse
 ### Einschmelzen der Gewindeeinsätze
 Stelle deinen Lötkolben auf etwa 240 Grad. Platziere einen Gewindeeinsatz mit der glatten Seite nach unten auf dem
-Gehäuse und drücke ihn mit der Lötkolbenspitze in das Plastik bis seine Kante glatt mit der Oberfläche abschließt. (wenn
-dies Kolbenspitze stumpf genug ist, dass der Kolben nicht unten aus dem einsatz heraus kommt, kannst du den Lötkolben 
-von oben in das  Loch des Gewindeeinsatzes stecken, das ermöglicht dir, den Winkel genau zu kontrollieren).
+Gehäuse und drücke ihn mit der Lötkolbenspitze in das Plastik bis seine Kante glatt mit der Oberfläche abschließt. (wenn die Kolbenspitze stumpf genug ist, dass der Kolben nicht unten aus dem Einsatz heraus kommt, kannst du den Lötkolben von oben in das Loch des Gewindeeinsatzes stecken. Das ermöglicht dir, den Winkel genau zu kontrollieren).
 
 {{< slider >}}
   {{< slider-image
@@ -310,16 +308,13 @@ von oben in das  Loch des Gewindeeinsatzes stecken, das ermöglicht dir, den Win
 {{< /slider >}}
 
 ### Einsetzen der Ultraschallboards
-Stecke das erste Ultrachallboard in den OpenBikeSensor Lite. Unten am Gehäuseboden ist eine Vertiefung. In dieser muss
-die Oberkante des Boards einrasten. Falls das nicht von allein passiert, kannst du z.B. mit einem Stift nachstochern,
-bis es passt.
+Stecke das erste Ultraschallboard in den OpenBikeSensor Lite. Unten am Gehäuseboden ist eine Vertiefung. In dieser muss die Oberkante des Boards einrasten. Falls das nicht von allein passiert, kannst du z.B. mit einem Stift nachstochern, bis es passt.
 
 Wenn das erste Board steckt, wiederhole den Vorgang mit dem zweiten Board. Nun ist es etwas eng. Hilf wieder mit dem
-Stift nach bis beide Boards in der Vertiefung stecken. Die Außenseite der Ultraschallsensoren sollte nun flach mit der
-Gehäuseoberfläche abschließen.
+Stift nach, bis beide Boards in der Vertiefung stecken. Die Außenseite der Ultraschallsensoren sollte nun flach mit der Gehäuseoberfläche abschließen.
 
 Wenn beide Boards ordentlich platziert sind, stecke den Abstandhalter so auf die Platinenkante, dass die Pins mittig
-in den Ausspaarungen des Abstandshalters zu liegen kommen.
+in den Aussparungen des Abstandshalters zu liegen kommen.
 
 {{< slider >}}
   {{< slider-image
@@ -342,14 +337,14 @@ in den Ausspaarungen des Abstandshalters zu liegen kommen.
 
 ### Einsetzen des PCB mit ESP und Abschlussarbeiten.
 
-- Stecke den Taster an das PCB falls nötig.
-- Stecke den ESP wieder auf das PCB, falls er nicht noch dort steckt
+- Stecke den Stecker vom Taster an das PCB falls nötig.
+- Stecke den ESP wieder auf das PCB, falls er nicht noch dort steckt.
 - Stecke nun das PCB mit den Sockelleisten für die Ultraschallsensoren nach unten auf das Gehäuse, mit sanftem
   Druck aber ohne Gewalt.
-- Der ESP sollte nun ziemlich genau mit der Oberkante des Gehäuses abschließen. Ist das nicht der Fall prüfe
+- Der ESP sollte nun ziemlich genau mit der Oberkante des Gehäuses abschließen. Ist das nicht der Fall, prüfe
   den Sitz der Ultraschallsensoren.
 - Schraube nun den Deckel auf das Gehäuse.
-- Stecke ein USB-C-Kabel geeigneter Länge, dass du es am Fahrrad zu deinem handy führen kannst in den ESP.
+- Stecke ein USB-C-Kabel geeigneter Länge, dass du es am Fahrrad zu deinem Handy führen kannst in den ESP.
 - Ziehe es zusammen mit dem Kabel für den Taster mit einem Kabelbinder an der Plastiknase für die Zugsicherung fest.
 
 {{< slider >}}
@@ -379,9 +374,8 @@ in den Ausspaarungen des Abstandshalters zu liegen kommen.
 ### Zugsicherung am Taster
 
 Verstopfe das kleine Loch am Taster mit etwas Papier. Füge dann mit einer Heißklebepistole einen Tropfen Heißkleber 
-hinzu, so dass das Kabel mit dem Nupsie auf der Rückseite des tasters verbunden wird. 
-Mit einem Papier als Abstandshalter kannst du den Heißkleber während er noch warm istzurecht drücken, damit dass er der
-Form der Rundung des Tastergehäuses folgt  und das Konstrukt später flach am Lenker anliegt.
+hinzu, so dass das Kabel mit dem Nupsie auf der Rückseite des Tasters verbunden wird. 
+Mit einem Papier als Abstandshalter kannst du den Heißkleber, während er noch warm ist, zurecht drücken, damit er der Form der Rundung des Tastergehäuses folgt und das Konstrukt später flach am Lenker anliegt.
 
 {{< slider >}}
   {{< slider-image
@@ -408,9 +402,7 @@ Form der Rundung des Tastergehäuses folgt  und das Konstrukt später flach am L
 
 ### Taste auf Taster
 
-Setze die Taste auf den Taster. Funktioniert das nicht mit sanftem Druck, kannst du mit eienem Modelliermesser oder
-einer feinen Feile den Stempel auf der Unterseite der Taste zurechtschnitzen. Wenn das nicht hilft, empfiehlt es sich, die 
-Taste noch mal neu und maßhaltiger zu drucken.
+Setze die Tastenkappe auf den Taster. Funktioniert das nicht mit sanftem Druck, kannst du mit einem Modelliermesser oder einer feinen Feile den Stempel auf der Unterseite der Taste zurechtschnitzen. Wenn das nicht hilft, empfiehlt es sich, die Taste noch mal neu und maßhaltiger zu drucken.
 
 ## Montage am Rad
 Bilder sagen mehr als worte:
