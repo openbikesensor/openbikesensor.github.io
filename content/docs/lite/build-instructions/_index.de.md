@@ -185,7 +185,7 @@ auf dem Board aufliegt, und löte dann die weiteren Pins.
 ### Kabel an Taster
 Drücke den Taster in die Lenkerhalterung. Schau dir an, wie die Kontakte im Steckergehäuse zu liegen kommen - Es gibt nur zwei Richtungen, in denen der Taster ins Gehäuse gesteckt werden kann. Löte das Kabel an die beiden näher aneinander liegenden Kontakte. Löte so, dass du das Kabel später gut durch die Ausspaarung im Gehäuse herausführen kannst. Wenn du dich traust kannst du das Kabel gleich im Schaltergehäuse löten. Alternativ kannst du den Taster erst außerhalb des Gehäuses löten, und dann das Kabel durch as Loch ziehen und den Taster ins Gehäuse einklicken.
 
-Stecke zum Schluss die Tasterabdeckung auf den Tasterr
+Stecke zum Schluss die Tasterabdeckung auf den Taster
 
 
 {{< slider >}}
