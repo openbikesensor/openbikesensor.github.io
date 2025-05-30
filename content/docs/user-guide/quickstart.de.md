@@ -16,6 +16,8 @@ Sobald du einen OpenBikeSensor hast, solltest du ein paar Dinge damit tun:
 ## Funktionsprüfung
 Beim ersten Einschalten generiert der OpenBikeSensor ein Zertifikat, der erste Start kann deshalb etwas länger dauern. Das wird währenddessen auch auf dem Display angezeigt.
 
+### Startbildschirm
+
 Ab dem zweiten Einschalten sollte auf dem Display das OpenBikeSensor Logo angezeigt
 werden und auf der rechten Seite ein paar Startmeldungen durchlaufen. Normalerweise steht
 dort:
@@ -29,10 +31,24 @@ dort:
 - `Wait for GPS` (Sobald das GPS-Datum gefunden wurde, wird es durch die aktuelle Uhrzeit ersetzt)
 - `0Sats sn:98` (Anzahl der bereits gefundenen Satelliten, SNR)
 
+### GPS start
+
+Bei neueren Firmwareversionen (ab v0.22.x) gibt es, wenn ein neueres GPS Modul (neo7 und neue) verbaut ist noch einen weiteren Bildschirm, auf dem am Ende des Startvorgangs während der Suche nach der GPS-Position Informationen zum GPS angezeigt werden.
+
+Auf diesem finden sich folgende Informationen. `latitude, longitude` können dabei weit von den tatsächlichen werten abweichen, solange noch kein Fix gefunden wurde (Fix = `0D`):
+
+| linke Spalte                                    | rechte Spalte                                                         | 
+|-------------------------------------------------|-----------------------------------------------------------------------|
+| Neo`<version>` GPS                              | [HDOP](https://de.wikipedia.org/wiki/Dilution_of_Precision): `<HDOP>` |
+| Jam: `<jamming detection (Wert vom GPS Modul)>` | Msgs: `<Anzahl Nachrichten vom GPS zum ESP seit Start>`               |
+| lat,lon:                                        | Fix: `<Fixtyp (0D,2D,3D)>`                                            |
+| `<latitude (miligrad)>`                         | aGain: `<Antenna Gain Wert vom GPS Modul>`                            |
+| `<longitude (miligrad)>`                        | `<Anzahl Satelliten>`sats SN: `<SN Wert vom GPS Modul>`               |
+
 ### GPS testen
 Lege dein Gerät unter freiem Himmel hin und schalte es ein. Nach ein paar
-Minuten sollte es von der Ansicht mit OpenBikeSensor Logo im Display
-von allein in die Messansicht (ohne OpenBikeSensor Logo im Display) wechseln.
+Minuten sollte es von der Ansicht mit OpenBikeSensor Logo im Display respektive dem GPS screen
+von allein in die Messansicht wechseln.
 Geschieht dies nicht oder regelmäßig erst nach 10 oder mehr Minuten, sind
 probleme am GPS-Modul oder der Antenne wahrscheinlich. [In der Troubleshooting-Sektion]({{< ref "/docs/classic/troubleshooting#ultraschallsensoren" >}}) findest du ein
 paar Links zur weiteren Diagnose.
