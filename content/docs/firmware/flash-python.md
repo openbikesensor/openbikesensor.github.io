@@ -25,13 +25,31 @@ Nun kannst du den ESP (nicht den OpenBikeSensor) per USB-Kabel mit deinem Rechne
 Ggf. ist es dafür nötig den **boot**-Knopf am ESP zu drücken.
 
 ```
-venv/bin/platformio run -t upload
+venv/bin/platformio run -t upload -e obs
 ```
 
 oder unter Windows
 
 ```
-venv\scripts\platformio run -t upload
+venv\scripts\platformio run -t upload -e obs
+```
+
+## Komplettreset
+
+Gibt es ein Problem mit der Firmware, das durch ein neu flashen nicht behoben werden kann, hilft es manchmal, den
+esp samt datenpartitionen zu resetten:
+
+```
+venv/bin/platformio run -t erase -e obs
+venv/bin/platformio run -t upload -e obs
+
+```
+
+oder unter Windows
+
+```
+venv\scripts\platformio run -t erase -e obs
+venv\scripts\platformio run -t upload -e obs
 ```
 
 ## Nach dem Flashen
