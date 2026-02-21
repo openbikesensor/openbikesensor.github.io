@@ -41,6 +41,7 @@ venv\scripts\platformio run -t upload -e obs
 Gibt es ein Problem mit der Firmware, das durch ein neu flashen nicht behoben werden kann, hilft es manchmal, den
 esp samt datenpartitionen zu resetten:
 
+
 ```
 venv/bin/platformio run -t erase -e obs
 venv/bin/platformio run -t upload -e obs
@@ -53,6 +54,8 @@ oder unter Windows
 venv\scripts\platformio run -t erase -e obs
 venv\scripts\platformio run -t upload -e obs
 ```
+
+> [!NOTE] für den obs pro, muss `-e obspro` statt `-e obs` verwendet werden.
 
 ## Nach dem Flashen
 Es empfiehlt sich, dich in den [Konfigurationsmodus]({{< ref "/docs/user-guide/configuration">}}) zu begeben, um
