@@ -62,6 +62,13 @@ Erweiterung [PlatformIO](https://platformio.org/) installieren. Clone dann den
 gewünschten Stand der OBS-Firmware aus dem
 [github-Repository](https://github.com/openbikesensor/OpenBikeSensorFirmware)
 und öffne das Verzeichnis in VS Code. Dann kannst du mit dem Upload-Befehl
-(Pfeil nach rechts in der Fußzeile von VS Code) oder per `pio run -t upload` in
-der PlatformIO CLI die Firmware kompilieren und auf den ESP32 flashen.
+(Pfeil nach rechts in der Fußzeile von VS Code) oder per
+```
+pio run -t upload -e obs
+```
+in der PlatformIO CLI die Firmware kompilieren und auf den ESP32 flashen.
 
+> [!NOTE] for the obs Pro, the above command line is
+> ```
+> pio run -t upload -e obspro`
+> ```

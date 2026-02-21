@@ -34,6 +34,8 @@ oder unter Windows
 venv\scripts\platformio run -t upload -e obs
 ```
 
+> [!NOTE] um den obs pro zu flashen, muss `-e obspro` statt `-e obs` verwendet werden.
+
 ## Komplettreset
 
 Gibt es ein Problem mit der Firmware, das durch ein neu flashen nicht behoben werden kann, hilft es manchmal, den
