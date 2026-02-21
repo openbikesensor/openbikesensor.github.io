@@ -68,7 +68,6 @@ pio run -t upload -e obs
 ```
 in der PlatformIO CLI die Firmware kompilieren und auf den ESP32 flashen.
 
-> [!NOTE] for the obs Pro, the above command line is
-> ```
-> pio run -t upload -e obspro`
-> ```
+{{% alert title="OBS Pro" color="info" %}}
+Um den OBS Pro zu flashen, muss `-e obspro` statt `-e obs` verwendet werden.
+{{% /alert %}}
