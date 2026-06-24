@@ -776,6 +776,21 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Bielefeld",
+        "description": "**Name der Initiative:** ADFC Bielefeld<br/>**Kontakt:** [obs@adfc-bielefeld.de](mailto:obs@adfc-bielefeld.de)<br/>**Anzahl:** 8 Sensoren<br/>**Weblink:** [https://bielefeld.adfc.de](https://bielefeld.adfc.de) "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521852971164964,
+          52.02638330647702
+        ]
+      },
+      "id": "ADFCBielefeld"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "description": "**Name**:  ADFC Hagen<br/>**Kontaktinfo**: [obs@adfc-hagen.de](mailto:obs@adfc-hagen.de)<br/>**Anzahl:** 1 Sensor<br/>**Webseite:** [https://hagen.adfc.de/](https://hagen.adfc.de/)<br/>**Anmerkung:** Kartenpunkt auf dem ADFC-Stammtisch<br/>",
         "name": "Hagen"
       },
