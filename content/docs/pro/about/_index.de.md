@@ -9,12 +9,11 @@ description: >
 
 Die *Pro* Variante des OpenBikeSensors ist ein vollständiger Neuentwurf der
 Hardware, dessen Ziel ein möglichst schneller und unkomplizierter Bauprozess
-größerer Stückzahlen ist. Der zentrale Unterschied zur Classic-Variante ist
+größerer Stückzahlen ist. Der wichtigste Unterschied zur Classic-Variante ist
 dabei die Zentralisierung aller Komponenten auf einer einzelnen Platine, die
-für die maschinelle Bestückung optimiert ist. Dies erlaubt die Einsparung
-eines großen Teils der Arbeitsschritte und senkt den Zeitaufwand enorm.
-Trotz signifikanter Unterschiede in ihrer Hardware sind die Pro- und Classic
-Varianten softwareseitig kompatibel.
+maschinell bestückt wird. Dies erlaubt die Einsparung eines großen Teils der
+Arbeitsschritte und senkt den Zeitaufwand enorm. Trotz signifikanter Unterschiede
+in ihrer Hardware sind die Pro- und Classic Varianten softwareseitig kompatibel.
 
 Dieser Bereich der Dokumentation enthält die Bauanleitung, Bauteileliste,
 Links sowie Erklärungen zum Gehäuse und Hilfen beim Beschaffen der Teile.
