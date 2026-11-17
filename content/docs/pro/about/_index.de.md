@@ -44,7 +44,7 @@ Variante zurückzugreifen.
 
 ## Wie baue ich den OpenBikeSensor Pro?
 
-Der empfohlene Weg zur Konstruktion eines OpenBikeSensor Pro in überschaubaren
+Der empfohlene Weg zur Konstruktion des OpenBikeSensor Pro in überschaubaren
 Stückzahlen ist der Erwerb von fertig zusammengestellten Bausätzen, die eine
 maschinell vorbestückte Platine, das Gehäuse, sowie alle weiteren Bauteile
 enthalten, die für eine schnelle Fertigung notwendig sind.
@@ -52,7 +52,7 @@ enthalten, die für eine schnelle Fertigung notwendig sind.
 Von einem Selbstbau von Grund auf wird abgeraten, da die Platine speziell
 für die Maschinenbestückung entworden wurde und von Hand entsprechend
 sehr schwer zu löten ist. Die Bestückung durch einen Platinenfertiger
-ist besonders bei kleinen Stückzahlen extrem teuer, auch bei der Teilebeschaffung
+ist besonders bei kleinen Stückzahlen sehr teuer, auch bei der Teilebeschaffung
 gibt es weniger Spielraum als bei anderen Varianten.
 
 Trotzdem ist auch der OBS Pro vollständig offene Hardware, entsprechend ist

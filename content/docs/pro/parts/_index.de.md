@@ -16,7 +16,7 @@ Viele Bauteile, besonders elektrische Komponenten von LCSC, unterliegen starker 
 anzugeben. Das Problem kann durch den Kauf eines Bausatzes, der alle nötigen Teile enthält, umgangen werden.
 {{% /alert %}}
 
-Auf diese Bauteileliste sind alle Einzelteile zu finden, die für die vollständige Konstruktion eines OBS Pro notwendig sind. Dabei wir vorausgesetzt, dass bereits eine
+Auf dieser Bauteileliste sind alle Einzelteile zu finden, die für die vollständige Konstruktion eines OBS Pro notwendig sind. Dabei wir vorausgesetzt, dass bereits eine
 Platine vorliegt, dessen SMD-Komponenten maschinell vorbestückt worden sind. Willst du diese Platine selbst fertigen, findet sich die dafür nötige Stückliste in den Designdateien.
 
 ## Bausatz
@@ -39,28 +39,28 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
 <tr><th colspan="3"><br>PCB-Komponenten</th></tr>
 <tr>
   <td>1</td>
-  <td>OBS Pro Platine (SMD vorbestückt)</td>
+  <td>OBS Pro Platine <b>(SMD vorbestückt)</b></td>
   <td>
     Noch nicht verfügbar<br>
   </td>
 </tr>
 <tr>
   <td>1</td>
-  <td>Displaybuchse</td>
+  <td>Buchse für Displaykabel</td>
   <td>
     <a href="https://www.lcsc.com/product-detail/C263757.html">lcsc.com</a> - S5B-XH-A(LF)(SN)
   </td>
 </tr>
 <tr>
   <td>1</td>
-  <td>Kippschalterbuchse</td>
+  <td>Buchse für Kippschalterkabel</td>
   <td>
     <a href="https://www.lcsc.com/product-detail/C157931.html">lcsc.com</a> - S2B-XH-A(LF)(SN)
   </td>
 </tr>
 <tr>
   <td>1</td>
-  <td>Akkubuchse</td>
+  <td>Buchse für Akkukabel</td>
   <td>
     <a href="https://www.lcsc.com/product-detail/C843326.html">lcsc.com</a> - X2510WR-02-N0SN
   </td>
@@ -208,7 +208,7 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
   </td>
 </tr>
 <tr>
-  <td>2</td>
+  <td>5</td>
   <td>
     Crimpkontakte für Display<br>
     <i>(Identisch zu Kontakten für Akkukabel)</i>
@@ -227,9 +227,99 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
 
 
 <tr><th colspan="3"><br>Mechanik</th></tr>
+<tr>
+  <td>2</td>
+  <td>Kabelbinder (Breite &le;&thinsp;4,5&thinsp;mm, Länge &ge;&thinsp;70&thinsp;mm)</td>
+  <td>
+    <a href="https://www.lcsc.com/product-detail/C5264191.html">lcsc.com</a><br>
+    <a href="https://www.lcsc.com/product-detail/C4944856.html">lcsc.com</a><br>
+    <a href="https://www.lcsc.com/product-detail/C5197740.html">lcsc.com</a>
+  </td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>Gewindeeinsatz M3 (Außendurchmesser &asymp;&thinsp;4,2&thinsp;mm, Länge &asymp;&thinsp;5&thinsp;mm)</td>
+  <td>
+    <a href="https://de.aliexpress.com/item/1005003453080262.html">aliexpress.com</a><br>
+    <a href="https://www.ruthex.de/products/ruthex-gewindeeinsatz-m3-100-stuck-rx-m3x5-7-messing-gewindebuchsen?variant=52123751121160">ruthex.de</a><br>
+    <a href="https://www.amazon.de/Einpressmuttern-Einschmelzgewinde-Gewindeeins%C3%A4tze-Inschmelzmuttern-Kunststoffteile/dp/B0D3DZXT4R/">amazon.de</a><br>
+    <a href="https://www.amazon.de/Gewindeeinsatz-Einschmelzgewinde-Einpressmuttern-Gewindebuchse-Kunststoffschale/dp/B0D17FGQWW/">amazon.de</a>
+  </td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>Mutter M3 (DIN934)</td>
+  <td>
+    <a href="https://www.gedex-shop.de/de/MUTTERN/Sechskantmuttern-FORM-B--NIEDRIG--MIT-FASE--DIN-5206/Sechskantmuttern-DIN-934/Sechskantmuttern-DIN-934-M3/">gedex-shop.de</a><br>
+    <a href="https://www.lcsc.com/product-detail/C357432.html">lcsc.com</a>
+  </td>
+</tr>
+<tr>
+  <td>14</td>
+  <td>Schraube M3x8 (DIN912)</td>
+  <td>
+    <a href="https://www.gedex-shop.de/de/schrauben/INNENSECHKANT/Zylinderkopf-DIN-912/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2-637/">gedex-shop.de</a><br>
+    <a href="https://www.lcsc.com/product-detail/C5138485.html">lcsc.com</a><br>
+    <a href="https://www.lcsc.com/product-detail/C7576553.html">lcsc.com</a><br>
+    <a href="https://www.lcsc.com/product-detail/C2931407.html">lcsc.com</a>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Schraube M3x30 (DIN912)</td>
+  <td>
+    <a href="https://www.gedex-shop.de/de/schrauben/INNENSECHKANT/Zylinderkopf-DIN-912/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2-644/">gedex-shop.de</a><br>
+    <a href="https://www.lcsc.com/product-detail/C7576562.html">lcsc.com</a>
+  </td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Quadermagnet</td>
+  <td>
+    <a href="https://www.supermagnete.de/quadermagnete-neodym/quadermagnet-20mm-10mm-2mm_Q-20-10-02-N">supermagnete.de</a><br>
+    <a href="https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-selbstklebend-vernickelt-20-x-10-mm-2-mm.html?srsltid=AfmBOooFJYLF1w9vNQhUhhs5Xz6w4rUWuafPjBX82WW8DYnTrlxcYFAK">sprintis.de</a> - mit Klebefläche<br>
+    <a href="https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-vernickelt-20-x-10-mm-2-mm.html">sprintis.de</a> - ohne Klebefläche
+  </td>
+</tr>
 
 
 <tr><th colspan="3"><br>Gehäuseteile</th></tr>
+<tr>
+  <td>1<br>1<br>1</td>
+  <td>Gehäuse des Hauptgeräts</td>
+  <td>
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseBottom.stl">MainCaseBottom</a><br>
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseTop.stl">MainCaseTop</a><br>
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseSlideCover.stl">MainCaseSlideCover</a>
+  </td>
+</tr>
+<tr>
+  <td>2<br>1<br>1<br>1</td>
+  <td>Gehäuse des Displays</td>
+  <td>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCableStrainRelief.stl">DisplayCaseStrainRelief</a><br>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseBottom.stl">DisplayCaseBottom</a><br>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseTop.stl">DisplayCaseTop</a><br>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/HandlebarRail.stl">HandlebarRail</a>
+  </td>
+</tr>
+<tr>
+  <td>1<br>1</td>
+  <td>Notwendige Montageteile</td>
+  <td>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/StandardMountAdapter.stl">StandardMountAdapter</a><br>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/LockingPin.stl">LockingPin</a>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Optionale Montageteile</td>
+  <td>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/SeatPostMount.stl">SeatPostMount</a>
+    oder ein beliebiges anderes Teil von <a href="https://www.openbikesensor.org/docs/classic/case/parts/">hier</a>.
+  </td>
+</tr>
+
 
 
 {{< include-markdown-partial "parts-tools.md" >}}
