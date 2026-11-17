@@ -12,7 +12,7 @@ description: >
 
 
 {{% alert title="Verdfügbarkeit von Bauteilen" color="warning" %}}
-Viele Bauteile, besonders elektrische Komponenten von LCSC, unterliegen starker Schwankungen in der Verfügbarkeit. Wir versuchen, stets einige Alternative Teilenummern
+Viele Bauteile, besonders elektronische Komponenten von LCSC, unterliegen starker Schwankungen in der Verfügbarkeit. Wir versuchen, stets einige Alternative Teilenummern
 anzugeben. Das Problem kann durch den Kauf eines Bausatzes, der alle nötigen Teile enthält, umgangen werden.
 {{% /alert %}}
 
@@ -23,6 +23,38 @@ Platine vorliegt, dessen SMD-Komponenten maschinell vorbestückt worden sind. Wi
 
 Aufgrund der Komplexität der Platine wird dringend empfohlen, eine vorbestückte Platine zu erwerben, oder den OBS Pro aus einem vollständig zusammengestellten Bausatz zu fertigen.
 Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, die zur Konstruktion notwendig sind.
+
+## Hinweise
+
+* **Alternative Teile**: Die exakte Ausführung ist bei einigen Bauteilen nicht
+  wichtig, sie können auch durch vorhandene Alternativen ersetzt werden. Dazu
+  gehören unter anderem:
+  * **SD-Karte:** Billige SD-Karten haben schon häufiger Probleme verursacht,
+    die Wahl eines Markenprodukts ist daher ratsam. Die Datenrate sollte außerdem
+    nach möglichkeit unter 100 MB/s liegen, Karten mit 120 MB/s sind beispielsweise
+    aufgrund ihrer neuren Schnittstelle teils inkompatibel. Die in der
+  * **GPS-Antenne:** Es gibt zahlreiche unterschiedliche Ausführungen von
+    GPS-Antennen, welche genau verwendet wird, ist nicht allzu wichtig. Achte
+    darauf, dass sie nicht zu groß für das Gehäuse ist, den richtigen Stecker besitzt
+    und speziell für GPS-Signale ausgelegt ist.
+  * **Displaykabel**: Während jedes beliebige fünfpolige Kabel grundsätzlich nicht
+    ungeeignet ist, als Displaykabel zu dienen, gab es mit Kabeln niedriger
+    Qualität häufiger Probleme. Empfohlen wird qualitatives Sensorkabel, zudem sollte
+    auf eine ausreichende Wetterfestigkeit geachtet werden. Zwei Meter Länge sind
+    vollkommen ausreichend.
+  Bauteileliste aufgeführten Modelle wurden erfolgreich mit dem Gerät getestet.
+
+* **Platine**: Während des Zusammenbaus werden nur noch die bedrahteten Komponenten,
+  also die Buchsen und Ultraschallsensoren bestückt. Abgesehen davon sollte die
+  Platine fertig vorbestückt sein.
+
+* **Gehäuse**: Möchtest du Gehäuseteile selbst fertigen, sollten diese
+  in PETG 3D-gedruckt werden. Es gibt verschiedene Versionen für
+  verschiedene Zwecke und von verschiedenen Leuten, wobei es dabei hauptsächlich um die
+  Montageteile am Rad geht. Suchst du etwas bestimmtes, schau' dich im
+  [Gehäuse-Repository](https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase)
+  auf GitHub um.
+
 
 ## Bauteile
 
@@ -109,7 +141,7 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
 </tr>
 <tr>
   <td>1</td>
-  <td>Display-Druckschalter</td>
+  <td>Display-Drucktaster</td>
   <td>
     <a href="https://www.chinadaier.com/pbs-33b-mini-round-momentary-push-button-switch/">chinadaier.com</a> (große Stückzahlen)<br>
     <a href="https://de.aliexpress.com/item/1005003302861259.html">aliexpress.com</a>
@@ -152,7 +184,7 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
 </tr>
 <tr>
   <td>2</td>
-  <td>Beliebiges Stück Litze (~0,25&thinsp;mm²)</td>
+  <td>Beliebiges Stück Litze (&asymp;&thinsp;0,25&thinsp;mm²)</td>
   <td>
   </td>
 </tr>
@@ -185,7 +217,7 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
 </tr>
 <tr>
   <td>2</td>
-  <td>Beliebiges Stück Litze (~0,25&thinsp;mm²)</td>
+  <td>Beliebiges Stück Litze (&asymp;&thinsp;0,25&thinsp;mm²)</td>
   <td>
   </td>
 </tr>
@@ -319,7 +351,9 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
     oder ein beliebiges anderes Teil von <a href="https://www.openbikesensor.org/docs/classic/case/parts/">hier</a>.
   </td>
 </tr>
-
+</tbody>
+</table>
+</div>
 
 
 {{< include-markdown-partial "parts-tools.md" >}}
