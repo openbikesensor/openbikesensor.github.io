@@ -14,15 +14,10 @@ description: >
 
 {{< print-qr-link >}}
 
-Dies ist die Anleitung zum Aufbau des OpenBikeSensor Classic. Die aktuelle
-Version dieser Bauanleitung setzt die Hauptplatine der Version 1.0.0 voraus,
-sowie die Verwendung der auf dieser Website dokumentierten Bau- und
-Gehäuseteile. Auch die benötigten Verbrauchsgüter und Werkzeuge sind bei der
-[Bauteileliste]({{< relref "../parts" >}}) beschrieben. Hast du einen älteren
-Bausatz mit der Platinenversion 00.03.12 kannst du diesen entweder
-mit einer Platine Version 1.0.0 upgraden und der Bauanleitung 1.0.0 folgen
-(alle Bauteile sind gleich, nur die Platzierung sowie Nummern unterscheiden sich), oder du kannst
-[hier die Anleitung für die 0.03.12 Platine finden]({{< ref "/docs/classic/build-instructions/v00.03.12" >}}).
+Dies ist die Anleitung zum Aufbau des OpenBikeSensor Pro. Die Bauanleitung
+setzt eine Platine mit vorbestückten SMD-Bauteilen, sowie die Verwendung der
+auf der [Bauteileliste]({{< relref "../parts" >}}) dokumentierten Gehäuseteile
+voraus. Auch die benötigten Verbrauchsgüter und Werkzeuge sind dort beschrieben.
 
 Die beschriebene Vorgehensweise ist nur eine Möglichkeit, zu einem
 funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,
@@ -31,8 +26,8 @@ einfacheren Weg für einen der Schritte finden, freuen wir uns über
 [Änderungsvorschläge](https://github.com/openbikesensor/openbikesensor.github.io/pulls)
 oder eine kurze [Nachricht]({{< relref "/community" >}}).
 
-{{< imgproc "v00.03.12/19_Assembly/DSC08101.JPG" Fit "800x600" >}}
-Ein fertig gebauter OpenBikeSensor der Version 1.0.0
+{{< imgproc "complete.jpg" Fit "800x600" >}}
+Ein fertig gebauter OpenBikeSensor Pro der ersten Kleinserie
 {{< /imgproc >}}
 
 ## Voraussetzungen und Hinweise
@@ -50,7 +45,7 @@ anfängst.
   Werkzeugen wie einem Cuttermesser oder einem Seitenschneider kannst du dich
   schneiden. Das vordere Ende des Lötkolbens kann bis zu 450&thinsp;°C heiß werden.
   Berühre daher immer nur das dafür vorgesehen Griffstück. Sollte er dir
-  wegrutschen oder herunterfallen weiche lieber aus, anstatt ihn
+  wegrutschen oder herunterfallen, weiche lieber aus, anstatt ihn
   aufzufangen.
 
 - Die Dämpfe, die beim Löten durch das Verbrennen des Flussmittels (Flux)
@@ -63,13 +58,13 @@ anfängst.
   jeden Fall auf Essen und Trinken zu verzichten, mache lieber regelmäßig
   Pausen.
 
-- Bei einem der Bauteile handelt es sich um eine LiPo-Batterie. Diese
-  Batterien sind zwar heute weit verbreitet, können allerdings bei falscher
+- Bei einem der Bauteile handelt es sich um einen LiPo-Akku. Solche
+  Zellen sind zwar heute weit verbreitet, können allerdings bei falscher
   Handhabung in Brand geraten. Solltest du nicht vertraut mit LiPos oder dir
   noch unsicher sein, lies bitte den Abschnitt in der Anleitung zur Vorbereitung und zum Umgang mit den Akkus
   sehr aufmerksam. Außerdem empfehlen wir, die Zelle aus einer
   vertrauenswürdigen Quelle zu beschaffen und nicht die billigste Zelle aus
-  China zu bestellen, sowie den Akku niemals ohne Aufsicht zu laden.
+  China zu bestellen, sowie den Akku nicht ohne Aufsicht zu laden.
 
 - Es handelt sich beim OpenBikeSensor um ein frei verfügbares Design, und nicht
   um ein fertiges Gerät. Alles, was wir dir mit den Bauteillisten,
@@ -81,43 +76,377 @@ anfängst.
   etwas schiefgehen, und du brauchst Hilfe, kannst du dich natürlich trotzdem
   an uns wenden.
 
-## Buchsenleisten
+## Platine
 
-Stecke die Buchsenleisten auf den ESP32, um den **Abstand später genau passend** zu
-haben. Positioniere den ESP32 mit den Buchsenleisten auf der Hauptplatine.
-**Achte auf eine gute Ausrichtung**. Es hilft, wenn dir jemand den ESP32 festhält,
-damit er nicht verrutscht.
+Der erste Schritt zur Fertigung des Geräts ist die Fertigstellung der Platine.
+Die allermeisten Bauteile sind bereits vorbestückt, es fehlen jedoch noch die drei
+Buchsen, an die später der Power-Schalter, der Akku und das Display angeschlossen
+werden. Zudem müssen die Ultraschallsensoren angebracht werden.
 
-Löte einen der Pins in einer Ecke fest. Prüfe die Ausrichtung noch einmal,
-jetzt kannst du noch nacharbeiten. Löte dann den diagonal gegenüberliegenden
-Pin an, und prüfe erneut die Ausrichtung.
+Bestücke die Bauteile eines nach dem anderen. Die **Buchsen** werden jeweils so positioniert,
+dass ihre Ausrichtung mit der Beschriftung auf der Platine übereinstimmt. Achte darauf,
+dass die Beinchen auf der Rückseite der Platine hervorragen und das Kunststoffgehäuse
+flach auf der Platine aufliegt. Nach der Ausrichtung empfiehlt es sich, die Buchse an einem
+Beinchen mit einer provisorischen Lötstelle zu fixieren, dies kann auch auf der Vorderseite
+vorgenommen werden. Sobald du mit der Ausrichtung zufrieden ist, kannst du alle Pins auf der
+Rückseite der Platine final verlöten.
 
-Löte nun alle Pins an den Außenseiten der Buchsenleisten, dann ziehe den ESP32
-vorsichtig ab -- er wird erst gegen Ende wieder gebraucht.
+Auch die **Ultraschallsensoren** werden der Platinenbeschriftung entsprechend platziert.
+Achte bei der Ausrichtung darauf, dass der Pin mit dem gummierten Ring in dem Loch mit
+der Pluspolmarkierung eingelötet wird.<br>
+**ACHTUNG:** Einer der Sensoren muss auf der Rückseite der Platine eingelötet werden.
+Die richtige Seite, auf der der entsprechende Sensor sitzen muss, ist durch die kreisförmige
+Umrissmarkierung auf der Platine gekennzeichnet.
 
-Falls du wechselseitige Buchsenleisten verwendest, löte nun auch innen alle
-Pins an.
+{{% alert title="Achtung: Heiße Pins" color="warning" %}}
+Die Pins leiten die Hitze durch den Stecker hindurch, es empfiehlt sich daher,
+zum Festhalten beim Löten eine Pinzette zu verwenden.
+{{% /alert %}}
+
 
 {{< slider >}}
   {{< slider-image
-    src="v1.0.0/ESP32_02.JPG"
-    alt="Lege die Bauteile bereit." >}}
+    src="v2.2/1_1.JPG"
+    alt="Lege alle Bauteile bereit." >}}
   {{< slider-image
-    src="v1.0.0/ESP32_03.JPG"
-    alt="Stecke die Buchsenleistung an den ESP32 und positioniere sie auf der Hauptplatine."
-    noprint=true >}}
+    src="v2.2/1_2.JPG"
+    alt="Positioniere die Buchse der Platinebeschriftung entsprechend." >}}
   {{< slider-image
-    src="v1.0.0/ESP32_04.JPG"
-    alt="Löte die erste Ecke und kontrolliere die Positionierung."
-    noprint=true >}}
+    src="v2.2/1_3.JPG"
+    alt="Verlöte alle Pins auf der Rückseite." >}}
   {{< slider-image
-    src="v1.0.0/ESP32_08.JPG"
-    alt="Verlöte die verbleibenden äußeren Pins."
-    noprint=true >}}
+    src="v2.2/1_4.JPG"
+    alt="Auch die Akku-Buchse wird ähnlich ausgerichtet." >}}
   {{< slider-image
-    src="v1.0.0/ESP32_09.JPG"
-    alt="Löte auch die inneren Pins, falls vorhanden." >}}
+    src="v2.2/1_5.JPG"
+    alt="Zur Fixierung kann auf der Vorderseite eine provisorische Lötstelle gesetzt werden." >}}
+  {{< slider-image
+    src="v2.2/1_6.JPG"
+    alt="Direkt neben der Akku-Buchse wird die Power-Schalter Buchse eingesetzt." >}}
+  {{< slider-image
+    src="v2.2/1_7.JPG"
+    alt="Alle Buchsen werden auf der Rückseite vollständig verlötet." >}}
+  {{< slider-image
+    src="v2.2/1_8.JPG"
+    alt="Die Ultraschallsensoren werden mit dem Kunststoffring am Pin auf den Pluspol ausgerichtet." >}}
+  {{< slider-image
+    src="v2.2/1_9.JPG"
+    alt="Der Sensor wird direkt auf die Platine gesetzt." >}}
+  {{< slider-image
+    src="v2.2/1_10.JPG"
+    alt="Der Sensor wird von der Rückseite verlötet." >}}
+  {{< slider-image
+    src="v2.2/1_11.JPG"
+    alt="Der zweite Sensor wird auf der Rückseite angesetzt." >}}
+  {{< slider-image
+    src="v2.2/1_12.JPG"
+    alt="Verlötet wird der rückseitige Sensor entsprechend auf der Vorderseite." >}}
 {{< /slider >}}
+
+
+## Vorbereitung des Akkus
+
+Als nächstes widmen wir uns der Vorbereitung von Anbauteilen, allen voran dem Akku.
+Dafür nötig sind lediglich ein Akku mit Lötfahnen und das entsprechende Kabel. 
+Weitere Informationen zum selbstständigen Crimpen gibt es im weiteren Verlauf
+der Anleitung oder [in der Bauanleitung des OBS Classic]({{< relref
+"/docs/classic/build-instructions" >}}).
+
+{{% alert title="Achtung" color="warning" %}}
+Der Akku **muss** mit Lötfahnen an beiden Polen ausgestattet sein. Akkus ohne
+Lötfahnen dürfen nicht gelötet werden, da sie sonst Schaden nehmen oder platzen können.
+Hast du einen Akku ohne Lötfahnen erwischt, suche in deinem Umfeld nach jemandem
+(oder einem Makerspace) mit einem Punktschweißgerät und Erfahrung mit
+LiPo-Zellen.<br> **Sei im Umgang mit LiPo Akkus stets sehr vorsichtig, und achte darauf,
+die Pole niemals kurzzuschießen!**
+{{% /alert %}}
+
+Identifiziere die Polung der Batterie. Der Pluspol ist auf der Seite mit Einkerbung im Akku-Gehäuse
+und in der Regel auch mit einem Plus auf dem Aufdruck markiert oder durch einen roten Ring gekennzeichnet.
+**Miss im Zweifel mit dem Multimeter nach.**
+
+Statte beide Lötfahnen an ihrem Ende zunächst mit einem großzügigen Lötpunkt aus.
+Lasse die Stellen wieder abkühlen, dann nimm das Kabelende in die eine Hand und den Lötkolben in die andere,
+erhitze den Lötpunkt von Neuem und führe das Kabelende seitlich in diesen ein, wenn das Lötzinn flüssig geworden ist.
+Die Kabel sollen von der Lötfahne in die Mitte der Batterie führen. Löte nicht zu lange an der gleichen Stelle,
+wenn etwas nicht klappt, lasse das Ganze lieber eine Minute lang abkühlen, bevor du es erneut versuchst.
+
+Es wird empfohlen, die Batteriekontakte mit Isolierband oder Kapton-Tape zu umwickeln, sodass die Pole und
+Lötfahnen bedeckt und die Kabel mechanisch fixiert sind.
+
+
+{{< slider >}}
+  {{< slider-image
+    src="v2.2/2_1.JPG"
+    alt="Lege alle Bauteile bereit." >}}
+  {{< slider-image
+    src="v2.2/2_2.JPG"
+    alt="Verzinne beide Lötfahnen großzügig." >}}
+  {{< slider-image
+    src="v2.2/2_3.JPG"
+    alt="Erhitze die Lötstelle erneut und führe das Kabel ein." >}}
+  {{< slider-image
+    src="v2.2/2_4.JPG"
+    alt="Das rote Kabel gehört an den Pluspol, das schwarze an den Minuspol." >}}
+{{< /slider >}}
+
+
+## Vorbereitung des Kippschalters
+
+Ähnlich wie der Akku muss auch der An/Aus Kippschalter mit einem Kabel ausgestattet werden.
+Hast du kein fertiges Kabel vorliegen, musst du vorher wie auch beim Akku eines selbst crimpen.
+
+Um gut am Schalter arbeiten zu können, empfiehlt es sich, ihn in eine dritte Hand oder eine ähnliche
+Vorrichtung einzuspannen. Ebenfalls hilfreich ist es, die Kontakte des Kippschalters zu verzinnen.
+Die Kabelenden können in eine U-Form gebogen werden, so lassen sie sich leicht in die Ösen des Schalters
+einführen. Achte beim Verlöten darauf, den Schalter nicht zu lange zu erhitzen, da sonst Kunststoffteile
+schmelzen könnten.
+
+
+{{< slider >}}
+  {{< slider-image
+    src="v2.2/3_1.JPG"
+    alt="Der Kippschalter kann zur leichteren Bearbeitung eingespannt werden." >}}
+  {{< slider-image
+    src="v2.2/3_2.JPG"
+    alt="Verzinne die Kontakte des Schalters." >}}
+  {{< slider-image
+    src="v2.2/3_3.JPG"
+    alt="Löte die Kabel dem Bild entsprechend an den Schalter." >}}
+{{< /slider >}}
+
+
+## Vorbereitung des Gehäuses
+
+Im Haupt- sowie im Displaygehäuse gibt es einige Löcher, in die Gewindeeinsätze
+("heat-set inserts") hineingehören. Dort greifen später die Schrauben, die das
+ganze Gerät zusammenhalten. Die Gewinde müssen an folgenden Stellen angebracht werden:
+
+* 4 Stück im Hauptgehäuse für die Platine
+* 4 Stück im Hauptgehäuse für den Deckel
+* 3 Stück im Displaygehäuse
+
+Stelle deinen Lötkolben auf ca. 180-220&thinsp;°C ein und reinige die Spitze gründlich,
+sodass kein Lot mehr daran hängt. Alternativ kannst du eine eigene Spitze für
+diese Aufgabe verwenden, und danach wieder wechseln.
+
+Finde eines der vorgesehenen Löcher, nimm ein Gewinde und drücke es so weit es
+geht von Hand in das Loch hinein. Halte das Gewinde bei Bedarf mit einer
+Pinzette fest, während du den Lötkolben auflegst und leichten Druck ausübst.
+Versuche, das Gewinde so senkrecht wie möglich und behutsam versinken lassen.
+Das Gewinde sollte lieber ein bisschen zu tief sitzen, als über den Rand überzustehen,
+um die Gehäuseteile bündig miteinander verbinden zu können.
+
+{{% alert title="Achtung: Heiße Gewindeeinsätze" color="warning" %}}
+Die Gewindeeinsätze sind noch lange nach dem Einsetzen heiß und
+kühlen erst langsam ab. Lege das Gehäuseteil am besten einige Minuten zur
+Seite, wenn du alle Gewinde darin platziert hast.
+{{% /alert %}}
+
+
+{{< slider >}}
+  {{< slider-image
+    src="v2.2/4_1.JPG"
+    alt="Die Gewindeeinsätze können mit einer Pinzette positioniert werden." >}}
+  {{< slider-image
+    src="v2.2/4_2.JPG"
+    alt="Langsam und vorsichtig werden die Einsätze mit dem Lötkolben eingepresst." >}}
+  {{< slider-image
+    src="v2.2/4_3.JPG"
+    alt="An den Platinenaufnahmen muss der Lötkolben aus Platzgründen senkrecht angesetzt werden." >}}
+  {{< slider-image
+    src="v2.2/4_4.JPG"
+    alt="Halte die Gewindeeinsätze mit einer Pinzette im Loch, falls sie sich aus dem weichen Kunststoff herausschieben." >}}
+  {{< slider-image
+    src="v2.2/4_5.JPG"
+    alt="Überblick aller Gewindeeinsätze im Hauptgehäuse." >}}
+  {{< slider-image
+    src="v2.2/4_6.JPG"
+    alt="Überblick aller Gewindeeinsätze im Displaygehäuse." >}}
+{{< /slider >}}
+
+
+## Fertigung des Displays
+
+In diesem Abschnitt wird das Display samt Kabel zusammengebaut.
+Dazu muss das Kabel vorbereitet sowie mit dem Display verbunden werden,
+anschließend wird alles samt Taster im Gehäuse montiert.
+
+Das Display des OBS Pro ist identisch zu dem der Classic Variante. Hast du bereits
+ein solches Display, kannst du es wiederverwenden und diesen Schritt überspringen.
+
+### Kabel vorbereiten
+
+Zunächst muss das Displaykabel (ca. 2&thinsp;m Länge) an beiden Seiten abisoliert werden.
+Dabei sollten an der einen Seite ca. 3&thinsp;cm, und an der anderen Seite ca. 6&thinsp;cm
+der äußeren Isolierung entfernt werden. Dies kann Wahlweise mit einem Cuttermesser oder einem
+Seitenschneider geschehen, in jedem Fall ist jedoch darauf zu achten, dass die inneren Kabelstränge
+nicht beschädigt werden. Eventuelle Entlastungsfäden können entfernt werden.
+
+Isoliere anschließend jeden Kabelstrang an der 6&thinsp;cm-Seite um einige Millimeter ab und
+crimpe anschließend einen JST-Kontakt an jeden der Stränge. Die andere Seite des Kabels bleibt
+vorerst unberührt.
+
+{{% alert title="Tipp!" color="info" %}}
+Übe das folgende Abisolieren und Crimpen mit den Resten des zuvor gekürzten Kabels,
+damit du dies nicht erst an den gekürzten Kabeln lernst.
+[Hier gibt es ein Video aus der Community](https://www.youtube.com/watch?v=Z607TQjel1M), welches den folgenden Prozess zeigt.
+{{% /alert %}}
+
+
+{{< slider >}}
+  {{< slider-image
+    src="v2.2/5_1.JPG"
+    alt="Entferne vorsichtig die äußere Isolierung." >}}
+  {{< slider-image
+    src="v2.2/5_2.JPG"
+    alt="Eventuelle Entlastungsfäden kannst du entfernen." >}}
+  {{< slider-image
+    src="v2.2/5_3.JPG"
+    alt="An der einen Seite sollte das Kabel ca. 3&thinsp;cm abisoliert werden." >}}
+  {{< slider-image
+    src="v2.2/5_4.JPG"
+    alt="An der anderen Seite sollte das Kabel ca. 6&thinsp;cm abisoliert werden." >}}
+  {{< slider-image
+    src="v2.2/5_5.JPG"
+    alt="Isoliere die Leiter der 6&thinsp;cm-Seite um einige Millimeter ab." >}}
+  {{< slider-image
+    src="v2.2/5_6.JPG"
+    alt="Crimpe einen JST-Kontakt an die abisolierte Stelle." >}}
+  {{< slider-image
+    src="v2.2/5_7.JPG"
+    alt="Wiederhole den Prozess für jeden der Leiter." >}}
+{{< /slider >}}
+
+
+### Taster montieren
+
+Der Taster wird mit einem Federring und einer Mutter geliefert. Wir benötigen nur die Mutter, der Federring wird nicht verwendet.
+Setze den Taster von vorne in das Vorderteil des Displaygehäuses ein und verschraube ihn rückseitig mit der Mutter. Zum Anziehen
+kannst du eine spitze Zange verwenden.
+
+{{< slider >}}
+  {{< slider-image
+    src="v2.2/6_1.JPG"
+    alt="Lege die den Taster und die Mutter bereit. Der Federring wird nicht benötigt." >}}
+  {{< slider-image
+    src="v2.2/6_2.JPG"
+    alt="Setze den Taster von vorne in das Displaygehäuse ein." >}}
+  {{< slider-image
+    src="v2.2/6_3.JPG"
+    alt="Fixiere den Taster auf der Rückseite mit der Mutter." >}}
+{{< /slider >}}
+
+
+### Display anlöten
+
+Nun wird an der anderen Seite des Kabels das Display verbunden.
+Dazu muss als erstes auch an dieser Seite jeder der einzelnen Leiter einige Millimeter abisoliert werden, danach sollte
+die Litze zudem verdrillt und anschließend verzinnt werden. Du benötigt außerdem ein zusätzliches, ca. 4&thinsp;cm langes Kabelstück,
+mit dem du genauso verfährst. Fädle dann das Dislaykabel wie auf dem Bild zu sehen von hinten durch die hintere Hälfte des Displaygehäuses.
+
+Nun verlötest du Display, Taster und das Kabel miteinander. Verwende dazu die folgende Tabelle als Vorschlag für die Zuordnung der Leiter.
+Verwendest du ein Kabel mit anderen Farben, kannst du die Beschaltung entsprechend anpassen. Die zugehörigen Handgriffe sind auf den
+Bildern dargestellt.
+
+| Farbe                      | OBS-Seite      | Displayseite | Button  |
+| -------------------------- | -------------- | ------------ | ------- |
+| blau                       | `SDA`          | `SDA`        |         |
+| schwarz                    | `GND`          | `GND`        |         |
+| grau                       | `BUT`          | -            | Pin 1   |
+| weiß                       | `SCL`          | `SCK`        | -       |
+| braun                      | `+3V3`         | -            | Pin 2   |
+| kurzes Kabel (rot)         | -              | `VDD`        | Pin 2   |
+
+
+{{< slider >}}
+  {{< slider-image
+    src="v2.2/7_1.JPG"
+    alt="Verzinne die einzelnen Leiter des Displaykabels auf der kurzen Seite." >}}
+  {{< slider-image
+    src="v2.2/7_2.JPG"
+    alt="Fädle das Kabel von hinten durch das Gehäuseteil." >}}
+  {{< slider-image
+    src="v2.2/7_3.JPG"
+    alt="Stecke die Leiter von hinten durch die Löcher des Displays." >}}
+  {{< slider-image
+    src="v2.2/7_4.JPG"
+    alt="Verlöte die Kabel auf der Vorderseite, weit herausstehende Kabelenden müssen abgeschnitten werden." >}}
+  {{< slider-image
+    src="v2.2/7_5.JPG"
+    alt="Ein weiteres Stück Kabel in ca. 4&thinsp;cm Länge wird benötigt." >}}
+  {{< slider-image
+    src="v2.2/7_6.JPG"
+    alt="Löte das Kabel zunächst displayseitig an." >}}
+  {{< slider-image
+    src="v2.2/7_7.JPG"
+    alt="Fädle die beiden Leiter für den Taster durch die Löcher, um sie zu fixieren." >}}
+  {{< slider-image
+    src="v2.2/7_8.JPG"
+    alt="Verlöte die Kabel vorsichtig kurz mit dem Taster, sodass keine Kunststoffteile schmelzen." >}}
+  {{< slider-image
+    src="v2.2/7_9.JPG"
+    alt="Setze das Display ins Gehäuse und verlöte das kurze Kabelstück mit dem Tasterkontakt." >}}
+{{< /slider >}}
+
+
+### Displayeinheit zusammensetzen
+
+Mit abgeschlossener Lötarbeit fehlen nur noch die Magnete, bevor das Gehäuse verschraubt werden kann.
+Setze zwei Quadermagnete zu einem Paar zusammen und stecke sie in die vorgesehene Aussparung im Gehäuse,
+eine Befestigung ist nicht nötig. Sind die Magnete an ihrem Platz, kannst du die Gehäusehälften zusammensetzen
+und an allen drei Punkten verschrauben.
+
+Stecke anschließend die beiden Hälften der Zugentlastung in die Öffnung der Unterseite, aus welcher das Kabel herauskommt.
+Setze erst die eine Seite ein, und dann die zweite etwas angewinkelt, bevor du sie beide zusammendrückst, sodass sie das Kabel am
+nicht abisolierten Teil greifen. Falls der zweite Teil sich nicht hinein hebeln lässt, kannst du die angewinkelten unteren Ecken mit
+einem Seitenschneider etwas weiter abrunden, sodass die Halterung leichter hineingeht. Schraube dann mit je zwei Schrauben und
+Sechskantmuttern die zwei Hälften der Zugentlastung zusammen. Achte darauf, dass die sechseckige Fixierung auf jeweils einer Seite
+der Zugentlastung für die Mutter vorgesehen ist.
+
+Ist das Display fertig montiert, können nun auch die gecrimpten Kontakte auf der anderen Seite des Kabels in ihren Stecker eingesetzt werden.
+
+Zum Schluss müssen, wie im Display selbst auch, zwei Quadermagnete in die Displayhalterung für den Lenker eingebaut werden.
+Achte dabei auf die Polung, sodass sich Gehäuse und Halterung anziehen, wenn man sie zusammenschiebt. Die Magnete werden
+hier einzeln eingeführt und schnappen erst in der Halterung zusammen.
+
+{{% alert title="Tipp!" color="info" %}}
+Wenn du mehrere Sensoren herstellst, ist es empfehlenswert, eine einheitliche Polung der Magnete festzulegen,
+damit deine Halterungen und Displays alle untereinander kompatibel sind.
+{{% /alert %}}
+
+{{< slider >}}
+  {{< slider-image
+    src="v2.2/8_1.JPG"
+    alt="Setze ein Magnetenpaar in die Aussparung der unteren Gehäusehälfte." >}}
+  {{< slider-image
+    src="v2.2/8_2.JPG"
+    alt="Schraube das Gehäuse an allen drei Punkten zusammen." >}}
+  {{< slider-image
+    src="v2.2/8_3.JPG"
+    alt="Setze die erste Hälfte der Zugentlastung an und achte auf die Isolierung." >}}
+  {{< slider-image
+    src="v2.2/8_4.JPG"
+    alt="Drücke die zweite Hälfte mit in die Aussparung." >}}
+  {{< slider-image
+    src="v2.2/8_5.JPG"
+    alt="Verschraube die Zugentlastung mithilfe von Muttern auf der Gegenseite." >}}
+  {{< slider-image
+    src="v2.2/8_6.JPG"
+    alt="Setze die Crimpkontakte in den Stecker ein." >}}
+  {{< slider-image
+    src="v2.2/8_7.JPG"
+    alt="Mit Standardkabel sieht die Belegung so aus." >}}
+  {{< slider-image
+    src="v2.2/8_8.JPG"
+    alt="Beachte die Polung der Magneten und schiebe den ersten in die Aussparung." >}}
+  {{< slider-image
+    src="v2.2/8_9.JPG"
+    alt="Nach Hinzufügen des zweiten Magneten können sie nicht mehr herausfallen." >}}
+{{< /slider >}}
+
+
+
 
 ## Spannungsregler Option 1 (rot)
 {{% alert title="Achtung: Alternative Bestückungsvariante" color="warning" %}}

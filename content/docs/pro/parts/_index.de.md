@@ -137,7 +137,7 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
   <td>
     <a href="https://de.aliexpress.com/item/32896971385.html">aliexpress.com</a><br>
     <a href="https://www.alibaba.com/product-detail/TZT-ROHS-Certification-0-96-inch_1600751684857.html">alibaba.com</a><br>
-    <a href="https://www.lcsc.com/product-detail/C5248080.html">lcsc.com</a> (spezielle Gehäuseversion erforderlich)
+    <a href="https://www.lcsc.com/product-detail/C5248080.html">lcsc.com</a> (Gehäuseteil "DisplayTopLarge" erforderlich)
   </td>
 </tr>
 <tr>
@@ -321,9 +321,14 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
   <td>1<br>1<br>1</td>
   <td>Gehäuse des Hauptgeräts</td>
   <td>
-    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseBottom.stl">MainCaseBottom</a><br>
-    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseTop.stl">MainCaseTop</a><br>
-    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseSlideCover.stl">MainCaseSlideCover</a>
+    <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/ProCase/ProCaseBottom.stl">MainCaseBottom</a><br>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/ProCase/ProCaseTop.stl">MainCaseTop</a><br>
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/ProCase/ProCaseSlideCover.stl">MainCaseSlideCover</a>
+    -->
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseBottom.stl">ProCaseBottom</a><br>
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseTop.stl">ProCaseTop</a><br>
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseSlideCover.stl">ProCaseSlideCover</a>
   </td>
 </tr>
 <tr>
@@ -332,7 +337,8 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
   <td>
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCableStrainRelief.stl">DisplayCaseStrainRelief</a><br>
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseBottom.stl">DisplayCaseBottom</a><br>
-    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseTop.stl">DisplayCaseTop</a><br>
+    entweder <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseTop.stl">DisplayCaseTop</a><br>
+    oder <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseTopLarge.stl">DisplayCaseTopLarge</a><br>
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/Mounting/HandlebarRail.stl">HandlebarRail</a>
   </td>
 </tr>

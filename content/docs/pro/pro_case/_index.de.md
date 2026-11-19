@@ -1,6 +1,5 @@
 ---
-title: Gehäusebauteile OpenBikeSensor Pro
-linkTitle: Gehäuse
+title: Gehäusebauteile
 weight: 30
 notoc: true
 ---
@@ -54,24 +53,36 @@ genug, dass du sicher abstrahieren kannst, was du davon auch für den OpenBikeSe
   <td>TBD</td>
   <td><b>ProCase/ProCaseBottom</b><br>Das Hauptgehäuse, in dem die Elektronik untergebracht ist.</td>
   <td>
+    <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/src/ProCase/ProCaseBottom.f3d">FUSION</a>, 
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/ProCase/ProCaseBottom.stl?raw=true">STL</a>
+    -->
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseBottom.f3d">FUSION</a>, 
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseBottom.stl">STL</a>
   </td>
 </tr>
 <tr>
   <td>TBD</td>
   <td><b>ProCase/ProCaseTop</b><br>Der Deckel für das Hauptgehäuse.</td>
   <td>
+    <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/src/ProCase/ProCaseTop.f3d">FUSION</a>, 
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/ProCase/ProCaseTop.stl?raw=true">STL</a>
+    -->
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseTop.f3d">FUSION</a>, 
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseTop.stl">STL</a>
   </td>
 </tr>
 <tr>
   <td>TBD</td>
   <td><b>ProCase/ProCaseSlideCover</b><br>Bewegliche Abdeckung für die SD-Karte und den USB-C Port.</td>
   <td>
+    <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/src/ProCase/ProCaseSlideCover.f3d">FUSION</a>, 
     <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/ProCase/ProCaseSlideCover.stl?raw=true">STL</a>
+    -->
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseSlideCover.f3d">FUSION</a>, 
+    <a href="https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseSlideCover.stl">STL</a>
   </td>
 </tr>
 </tbody>
