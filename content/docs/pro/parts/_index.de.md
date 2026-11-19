@@ -11,13 +11,13 @@ description: >
 ---
 
 
-{{% alert title="Verdfügbarkeit von Bauteilen" color="warning" %}}
+{{% alert title="Verfügbarkeit von Bauteilen" color="warning" %}}
 Viele Bauteile, besonders elektronische Komponenten von LCSC, unterliegen starker Schwankungen in der Verfügbarkeit. Wir versuchen, stets einige Alternative Teilenummern
 anzugeben. Das Problem kann durch den Kauf eines Bausatzes, der alle nötigen Teile enthält, umgangen werden.
 {{% /alert %}}
 
 Auf dieser Bauteileliste sind alle Einzelteile zu finden, die für die vollständige Konstruktion eines OBS Pro notwendig sind. Dabei wir vorausgesetzt, dass bereits eine
-Platine vorliegt, dessen SMD-Komponenten maschinell vorbestückt worden sind. Willst du diese Platine selbst fertigen, findet sich die dafür nötige Stückliste in den Designdateien.
+Platine vorhanden ist, dessen SMD-Komponenten maschinell vorbestückt worden sind. Willst du diese Platine selbst fertigen, findet sich die dafür nötige Stückliste in den Designdateien.
 
 ## Bausatz
 
@@ -27,8 +27,10 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
 ## Hinweise
 
 * **Alternative Teile**: Die exakte Ausführung ist bei einigen Bauteilen nicht
-  wichtig, sie können auch durch vorhandene Alternativen ersetzt werden. Dazu
-  gehören unter anderem:
+  wichtig, sie können auch durch vorhandene Alternativen ersetzt werden. Die in
+  der Bauteilliste aufgeführten Modelle wurden erfolgreich mit dem Gerät getestet.
+  Zu diesen Bauteilen gehören unter anderem:
+
   * **SD-Karte:** Billige SD-Karten haben schon häufiger Probleme verursacht,
     die Wahl eines Markenprodukts ist daher ratsam. Die Datenrate sollte außerdem
     nach möglichkeit unter 100 MB/s liegen, Karten mit 120 MB/s sind beispielsweise
@@ -42,7 +44,6 @@ Der Bausatz enthält die vorbestückte Platine und alle weiteren Einzelteile, di
     Qualität häufiger Probleme. Empfohlen wird qualitatives Sensorkabel, zudem sollte
     auf eine ausreichende Wetterfestigkeit geachtet werden. Zwei Meter Länge sind
     vollkommen ausreichend.
-  Bauteileliste aufgeführten Modelle wurden erfolgreich mit dem Gerät getestet.
 
 * **Platine**: Während des Zusammenbaus werden nur noch die bedrahteten Komponenten,
   also die Buchsen und Ultraschallsensoren bestückt. Abgesehen davon sollte die
