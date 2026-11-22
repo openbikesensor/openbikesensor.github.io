@@ -1,7 +1,10 @@
 ---
-title: Gehäusebauteile
+title: Gehäuse
 weight: 30
-notoc: true
+description: >
+    Hier findest du alle notwendigen und kompatiblen Gehäuseteile des OBS Pro.
+    Lade dir hier die 3D-Dateien für den Druck deines Gehäuses herunter, und
+    überprüfe, ob du alle Teile beisammen hast.
 ---
 
 Es gibt viele Möglichkeiten, ein Gehäuse für deinen OpenBikeSensor Pro zu bekommen.
@@ -25,10 +28,10 @@ GitHub in der neuesten Version als ZIP-Archiv. Darin finden sich im Ordner
 <a class="btn btn-primary btn-lg" href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/releases/download/v0.3.63/OpenBikeSensor3DPrintableCase-stl-v0.3.63.zip">Alles herunterladen</a>
 </div>
 -->
-⚠️ Gesamtdownload noch nicht verfügbar
+⚠️ Gesamtdownload für OBS Pro noch nicht verfügbar
 
 {{% alert title="Achtung: Kompatibilität zwischen Versionen" color="warning" %}}
-Wir halten die Teile zu Halterungen älterer Versionen kompatibel, aber Teile für ein Geräteelement (z.B. Gehäuse und Deckel, Buttonhalter und Taster, die verschiedenen 
+Wir halten die Teile zu Halterungen älterer Versionen kompatibel, aber Teile für ein Geräteelement (z.B. Gehäuse und Deckel, Einzelteile der Displayeinheit, die verschiedenen 
 Elemente der Sattelhalterung) können sich zwischen Versionen verändern. Wenn du ein einzelnes Gehäuseteil (z.B. Deckel mit Logo) bekommst, prüfe genau im Slicer, ob
 es zu deinen Gehäusedateien passt.
 {{% /alert %}}
@@ -41,7 +44,7 @@ auch kostenlose Lizenzen bezogen werden können.
 
 Eine detaillierte Anleitung zum Gehäusedruck gibt es
 [hier für den OpenBikeSensor Classic]({{< relref "/docs/classic/case" >}}). Die Informationen zum Druck sind allgemein
-genug, dass du sicher abstrahieren kannst, was du davon auch für den OpenBikeSensor Pro brauchen kannst.
+genug, dass sie auch für den OpenBikeSensor Pro relevant sind.
 
 ### Hauptgehäuse
 
@@ -50,7 +53,11 @@ genug, dass du sicher abstrahieren kannst, was du davon auch für den OpenBikeSe
 <thead><tr><th width="180">Bild</th><th>Bauteilname &amp; Beschreibung</th><th>Links</th></tr></thead>
 <tbody>
 <tr>
-  <td>TBD</td>
+  <td>
+    <a href="/images/ProCaseBottom.png">
+    <img src="/images/ProCaseBottom.png" />
+    </a>
+  </td>
   <td><b>ProCase/ProCaseBottom</b><br>Das Hauptgehäuse, in dem die Elektronik untergebracht ist.</td>
   <td>
     <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
@@ -62,7 +69,11 @@ genug, dass du sicher abstrahieren kannst, was du davon auch für den OpenBikeSe
   </td>
 </tr>
 <tr>
-  <td>TBD</td>
+  <td>
+    <a href="/images/ProCaseTop.png">
+    <img src="/images/ProCaseTop.png" />
+    </a>
+  </td>
   <td><b>ProCase/ProCaseTop</b><br>Der Deckel für das Hauptgehäuse.</td>
   <td>
     <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
@@ -74,7 +85,11 @@ genug, dass du sicher abstrahieren kannst, was du davon auch für den OpenBikeSe
   </td>
 </tr>
 <tr>
-  <td>TBD</td>
+  <td>
+    <a href="/images/ProCaseSlideCover.png">
+    <img src="/images/ProCaseSlideCover.png" />
+    </a>
+  </td>
   <td><b>ProCase/ProCaseSlideCover</b><br>Bewegliche Abdeckung für die SD-Karte und den USB-C Port.</td>
   <td>
     <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
@@ -99,7 +114,10 @@ Die Displayeinheiten von den Pro- und Classic-Varianten sind identisch. Hast du 
 {{< 3dpart name="DisplayCase/DisplayCaseBottom">}}Die untere Hälfte des Displaygehäuses.{{< /3dpart >}}
 {{< 3dpart name="DisplayCase/DisplayCaseTop">}}Die obere Hälfte des Displaygehäuses.<br><br>
     <b>ACHTUNG: </b>Für das Display von <a href="https://www.lcsc.com/product-detail/C5248080.html">LCSC</a> ist die Variante
-    <a href="https://www.lcsc.com/product-detail/C5248080.html">DisplayCaseTopLarge</a> notwendig!
+    <a href="https://github.com/Prismary/OpenBikeSensor3dPrintableCase/blob/14a1be595ee1ea29dbd748a9c77a316c3559e5a9/export/DisplayCase/DisplayCaseTopLarge.stl">DisplayCaseTopLarge</a> notwendig!
+    <!-- TODO: USE THIS AFTER MERGE TO MAINLINE REPO
+    <a href="https://github.com/openbikesensor/OpenBikeSensor3dPrintableCase/blob/main/export/DisplayCase/DisplayCaseTopLarge.stl">DisplayCaseTopLarge</a> notwendig!
+    -->
 {{< /3dpart >}}
 {{< /3dpart-table >}}
 

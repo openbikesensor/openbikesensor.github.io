@@ -1,14 +1,10 @@
 ---
 title: Bauanleitung
-weight: 50
-linkTitle: Bauanleitung
-aliases:
-- /bauanleitung/pro
-
+weight: 40
 description: >
     Sobald ein Bausatz für den OpenBikeSensor Pro zusammengestellt oder
     beschafft worden ist, kann anhand dieser Anleitung der Bau begonnen
-    werden. Der Zusammenbau erfordert einige Lötarbeit, sowie dem Test
+    werden. Der Zusammenbau erfordert etwas Lötarbeit, sowie dem Test
     der Elektronik und dem Einbau in das Gehäuse.
 ---
 
@@ -17,11 +13,11 @@ description: >
 Dies ist die Anleitung zum Aufbau des OpenBikeSensor Pro. Die Bauanleitung
 setzt eine Platine mit vorbestückten SMD-Bauteilen, sowie die Verwendung der
 auf der [Bauteileliste]({{< relref "../parts" >}}) dokumentierten Gehäuseteile
-voraus. Auch die benötigten Verbrauchsgüter und Werkzeuge sind dort beschrieben.
+voraus. Auch die benötigten Verbrauchsgüter und Werkzeuge sind dort aufgelistet.
 
 Die beschriebene Vorgehensweise ist nur eine Möglichkeit, zu einem
 funktionierenden Modell zu kommen. Wenn du alternative Wege gehen möchtest,
-kannst du das natürlich tun. Solltest du einen massentauglichen besseren oder
+kannst du das natürlich tun. Solltest du einen massentauglichen, besseren oder
 einfacheren Weg für einen der Schritte finden, freuen wir uns über
 [Änderungsvorschläge](https://github.com/openbikesensor/openbikesensor.github.io/pulls)
 oder eine kurze [Nachricht]({{< relref "/community" >}}).
@@ -76,7 +72,7 @@ anfängst.
   etwas schiefgehen, und du brauchst Hilfe, kannst du dich natürlich trotzdem
   an uns wenden.
 
-## Platine
+## Platine nachbestücken
 
 Der erste Schritt zur Fertigung des Geräts ist die Fertigstellung der Platine.
 Die allermeisten Bauteile sind bereits vorbestückt, es fehlen jedoch noch die drei
@@ -92,7 +88,7 @@ vorgenommen werden. Sobald du mit der Ausrichtung zufrieden ist, kannst du alle 
 Rückseite der Platine final verlöten.
 
 Auch die **Ultraschallsensoren** werden der Platinenbeschriftung entsprechend platziert.
-Achte bei der Ausrichtung darauf, dass der Pin mit dem gummierten Ring in dem Loch mit
+Achte bei der Ausrichtung darauf, dass der Pin mit dem Gummiring in dem Loch mit
 der Pluspolmarkierung eingelötet wird.<br>
 **ACHTUNG:** Einer der Sensoren muss auf der Rückseite der Platine eingelötet werden.
 Die richtige Seite, auf der der entsprechende Sensor sitzen muss, ist durch die kreisförmige
@@ -148,7 +144,7 @@ zum Festhalten beim Löten eine Pinzette zu verwenden.
 
 Als nächstes widmen wir uns der Vorbereitung von Anbauteilen, allen voran dem Akku.
 Dafür nötig sind lediglich ein Akku mit Lötfahnen und das entsprechende Kabel. 
-Weitere Informationen zum selbstständigen Crimpen gibt es im weiteren Verlauf
+Nähere Informationen zum selbstständigen Crimpen gibt es im weiteren Verlauf
 der Anleitung oder [in der Bauanleitung des OBS Classic]({{< relref
 "/docs/classic/build-instructions" >}}).
 
@@ -166,10 +162,10 @@ und in der Regel auch mit einem Plus auf dem Aufdruck markiert oder durch einen 
 **Miss im Zweifel mit dem Multimeter nach.**
 
 Statte beide Lötfahnen an ihrem Ende zunächst mit einem großzügigen Lötpunkt aus.
-Lasse die Stellen wieder abkühlen, dann nimm das Kabelende in die eine Hand und den Lötkolben in die andere,
+Lass die Stellen wieder abkühlen, nimm dann das Kabelende in die eine Hand und den Lötkolben in die andere,
 erhitze den Lötpunkt von Neuem und führe das Kabelende seitlich in diesen ein, wenn das Lötzinn flüssig geworden ist.
 Die Kabel sollen von der Lötfahne in die Mitte der Batterie führen. Löte nicht zu lange an der gleichen Stelle,
-wenn etwas nicht klappt, lasse das Ganze lieber eine Minute lang abkühlen, bevor du es erneut versuchst.
+wenn etwas nicht klappt, lass das Ganze lieber eine Minute lang abkühlen, bevor du es erneut versuchst.
 
 Es wird empfohlen, die Batteriekontakte mit Isolierband oder Kapton-Tape zu umwickeln, sodass die Pole und
 Lötfahnen bedeckt und die Kabel mechanisch fixiert sind.
@@ -193,7 +189,7 @@ Lötfahnen bedeckt und die Kabel mechanisch fixiert sind.
 
 ## Vorbereitung des Kippschalters
 
-Ähnlich wie der Akku muss auch der An/Aus Kippschalter mit einem Kabel ausgestattet werden.
+Ähnlich wie der Akku muss auch der An/Aus-Kippschalter mit einem Kabel ausgestattet werden.
 Hast du kein fertiges Kabel vorliegen, musst du vorher wie auch beim Akku eines selbst crimpen.
 
 Um gut am Schalter arbeiten zu können, empfiehlt es sich, ihn in eine dritte Hand oder eine ähnliche
@@ -233,7 +229,7 @@ diese Aufgabe verwenden, und danach wieder wechseln.
 Finde eines der vorgesehenen Löcher, nimm ein Gewinde und drücke es so weit es
 geht von Hand in das Loch hinein. Halte das Gewinde bei Bedarf mit einer
 Pinzette fest, während du den Lötkolben auflegst und leichten Druck ausübst.
-Versuche, das Gewinde so senkrecht wie möglich und behutsam versinken lassen.
+Versuche, das Gewinde so senkrecht wie möglich und behutsam versinken zu lassen.
 Das Gewinde sollte lieber ein bisschen zu tief sitzen, als über den Rand überzustehen,
 um die Gehäuseteile bündig miteinander verbinden zu können.
 
@@ -272,7 +268,7 @@ In diesem Abschnitt wird das Display samt Kabel zusammengebaut.
 Dazu muss das Kabel vorbereitet sowie mit dem Display verbunden werden,
 anschließend wird alles samt Taster im Gehäuse montiert.
 
-Das Display des OBS Pro ist identisch zu dem der Classic Variante. Hast du bereits
+Das Display des OBS Pro ist identisch zu dem der Classic-Variante. Hast du bereits
 ein solches Display, kannst du es wiederverwenden und diesen Schritt überspringen.
 
 ### Kabel vorbereiten
@@ -288,9 +284,9 @@ crimpe anschließend einen JST-Kontakt an jeden der Stränge. Die andere Seite d
 vorerst unberührt.
 
 {{% alert title="Tipp!" color="info" %}}
-Übe das folgende Abisolieren und Crimpen mit den Resten des zuvor gekürzten Kabels,
-damit du dies nicht erst an den gekürzten Kabeln lernst.
-[Hier gibt es ein Video aus der Community](https://www.youtube.com/watch?v=Z607TQjel1M), welches den folgenden Prozess zeigt.
+Übe das Abisolieren und Crimpen mit den Resten des zuvor gekürzten Kabels,
+damit du es nicht erst an den nutzbaren Kabeln lernst.
+[Hier gibt es ein Video aus der Community](https://www.youtube.com/watch?v=Z607TQjel1M), welches diesen Prozess zeigt.
 {{% /alert %}}
 
 
@@ -322,7 +318,7 @@ damit du dies nicht erst an den gekürzten Kabeln lernst.
 ### Taster montieren
 
 Der Taster wird mit einem Federring und einer Mutter geliefert. Wir benötigen nur die Mutter, der Federring wird nicht verwendet.
-Setze den Taster von vorne in das Vorderteil des Displaygehäuses ein und verschraube ihn rückseitig mit der Mutter. Zum Anziehen
+Setze den Taster von vorne in das Vorderteil des Displaygehäuses ein und verschraube ihn rückseitig mit der Mutter. Zum Festziehen
 kannst du eine spitze Zange verwenden.
 
 {{< slider >}}
@@ -458,11 +454,11 @@ Die Installation des Kippschalters ist recht simpel. Entferne die Mutter und Unt
 und stecke ihn anschließend von der Innenseite des Gehäuses durch das vorgesehene Loch.
 Achte dabei auf seine Ausrichtung, sofern du bereits An/Aus Markierungen auf deinem Gehäuse hast.
 Schraube den Schalter anschließend mithilfe der Mutter von außen fest, die Nutzung von Unterlegscheiben
-ist optional. Festziehen lässt sich die Mutter beispielsweise mit einer Spitzzange, falls deine
-Maulschlüssel nicht in die Aussparung passen.
+ist optional. Festziehen lässt sich die Mutter beispielsweise mit einer Spitzzange, falls dein
+Maulschlüssel nicht in die Aussparung passt.
 
 {{% alert title="Tipp!" color="info" %}}
-Der Kippschalter verbindet immer die beiden Pole, die mit dem Hebel eine Linie bilden.
+Der Kippschalter verbindet immer den Pol, der mit dem Hebel eine Linie bildet, mit dem in der Mitte.
 Kippst du den Schalter also nach rechts, sind die linken beiden Pole verbunden.
 {{% /alert %}}
 
@@ -498,7 +494,7 @@ gerne hättest. Du kannst das Teil später auch noch problemlos wieder abschraub
 {{% alert title="Tipp!" color="info" %}}
 Die Muttern fallen beim Versuch des Verschraubens leicht heraus. Setze am besten erst eine Mutter ein und
 halte sie mit dem flachen Finger fest, während du die Schraube reindrehst. Alternativ kannst du die Muttern
-auch mit ein wenig Sekundenkleber fixieren, achte aber darauf, dass kein Kleber auf das Gewinde kommt.
+auch mit einem Tropfen Sekundenkleber fixieren, achte aber darauf, dass kein Kleber auf das Gewinde kommt.
 {{% /alert %}}
 
 {{< slider >}}
@@ -567,8 +563,8 @@ Ist die Antenne zu lose, kannst du sie mit übrigen Kunststoffteilen oder sonsti
 
 ## Erste Inbetriebnahme
 
-Bevor du den Deckel auf das Gehäuse schraubst, sollte einmal grob getestet werden, ob das Gerät
-funktioniert. Dafür sollte nun die Firmware installiert und der erste Startversuch untenommen werden.
+Bevor du den Deckel auf das Gehäuse schraubst, sollte schon einmal grob getestet werden, ob das Gerät
+funktioniert. Dafür muss nun die Firmware installiert und der erste Startversuch untenommen werden.
 
 ### Firmware installieren
 
@@ -587,7 +583,7 @@ Nutze dann eine der folgenden Methoden, um die Firmware zu installieren:
 
 ### Elektronik testen
 
-Stelle vor dem Test der Elektronik sicher, dass dein Akku geladen ist. Sollte dies nicht
+Stelle vor dem Test der Elektronik sicher, dass dein Akku ausreichend geladen ist. Sollte dies nicht
 der Fall sein, kannst du ihn mit einem USB-C Ladegerät aufladen. Sobald er voll ist, wechselt
 die LED-Anzeige von Rot auf Grün.
 
@@ -627,10 +623,11 @@ Diese sollte zuvor in FAT32 formatiert worden sein.
 ## Abnahmetests
 
 Bevor du mit deinem OpenBikeSensor losfährst, solltest du ihn noch einmal umfassend testen.
-Zu diesen Abnahmetests gehören unter anderem:
+Zu diesen "Abnahmetests" gehören unter anderem:
 
 * **SD-Karte:** Das Gerät sollte beim Start "SD OK" anzeigen und während des Messbetriebs Dateien
-auf der SD-Karte ablegen. Geschieht dies nicht, ist wahrscheinlich die SD-Karte nicht in Ordnung.
+auf der SD-Karte ablegen. Geschieht dies nicht, ist wahrscheinlich die SD-Karte nicht in Ordnung
+oder falsch formatiert.
 * **GPS-Empfang:** Starte das Gerät und lasse es eine Weile unter freiem Himmel liegen.
 Es kann bis zu 20 Minuten dauern, bis ein GPS-Signal gefunden wurde. Sobald ein GPS-Signal gefunden wird,
 schaltet das Gerät vom Startbildschirm in den Messmodus und zeigt die Abstände links und rechts an.
@@ -647,7 +644,7 @@ findest du [hier]({{<relref "/docs/user-guide/configuration">}}).
 
 
 {{% alert title="Geschafft!" color="success" %}}
-Dein OpenBikeSensor ist nun fertig. Herzlichen Glückwunsch, wir wünschen Dir
+Dein OpenBikeSensor Pro ist nun fertig. Herzlichen Glückwunsch, wir wünschen Dir
 viel Spaß bei der Nutzung!
 
 In der [Bedienungsanleitung]({{<relref "/docs/user-guide">}}) findest du
