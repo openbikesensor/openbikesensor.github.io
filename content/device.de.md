@@ -37,7 +37,7 @@ Varianten.
     variant="Classic"
     image_file="images/obs-classic.svg"
     class="light recommended"
-    label="Jetzt verfügbar"
+    label="Der Klassiker"
     link_text="Zur Bauanleitung"
     link="/bauanleitung" %}}
 - robust und erprobt
@@ -50,13 +50,13 @@ Varianten.
 {{% device-type-cell
     variant="Pro"
     image_file="images/obs-pro.svg"
-    class="construction"
-    label="Wir testen Prototypen"
-    link_text="Entwicklung verfolgen"
-    link="https://forum.openbikesensor.org/t/automatisiert-bestueckbare-hardware/1263" %}}
+    class="light recommended"
+    label="Der Neue - im Betastadium"
+    link_text="Zur Bauanleitung"
+    link="/docs/hardware-pro" %}}
 - voller Funktionsumfang ohne Handy
 - bestückt bestellbar
-- wetterfest
+- hohe Sensorreichweite
 {{% /device-type-cell %}}
 
 </section>
